@@ -8983,7 +8983,6 @@
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
-    "updateURL": "https://raw.githubusercontent.com/Hexagon-Studio/Forest-X-Reborn/main/update.json",
     "modPicture": "logo",
     "requiredMods": [
       "geckolib"
