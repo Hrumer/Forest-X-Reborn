@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "tag": "forge:sakura_log"
+    }
+  ],
+  "result": {
+    "item": "forest:sakura_planks",
+    "count": 4
+  }
+}

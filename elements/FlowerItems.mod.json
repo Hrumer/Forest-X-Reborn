@@ -1,0 +1,24 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Burningblossom"
+      },
+      {
+        "value": "CUSTOM:Wildflower"
+      },
+      {
+        "value": "CUSTOM:Lavander"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "flowers",
+    "namespace": "minecraft"
+  }
+}

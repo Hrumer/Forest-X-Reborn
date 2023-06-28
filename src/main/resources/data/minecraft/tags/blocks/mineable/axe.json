@@ -1,0 +1,21 @@
+{
+  "replace": false,
+  "values": [
+    "forest:oak_parquet",
+    "forest:birch_parquet",
+    "forest:dark_oak_parquet",
+    "forest:spruce_parquet",
+    "forest:acacia_parquet",
+    "forest:tropical_parquet",
+    "forest:crimson_parquet",
+    "forest:warped_parquet",
+    "forest:mangrove_parquet",
+    "forest:sakura_parquet",
+    "forest:sakura_wood",
+    "forest:sakura_log",
+    "forest:stripped_sakura_log",
+    "forest:sakura_planks",
+    "forest:sakura_door",
+    "forest:sakura_trapdoor"
+  ]
+}

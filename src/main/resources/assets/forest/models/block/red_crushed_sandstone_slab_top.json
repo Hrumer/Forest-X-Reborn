@@ -1,0 +1,9 @@
+{
+  "parent": "block/slab_top",
+  "textures": {
+    "bottom": "forest:block/red_crushed_sandstone",
+    "top": "forest:block/red_crushed_sandstone",
+    "side": "forest:block/red_crushed_sandstone"
+  },
+  "render_type": "solid"
+}

@@ -1,0 +1,9 @@
+{
+  "parent": "block/stairs",
+  "textures": {
+    "bottom": "forest:block/sakura_planks",
+    "top": "forest:block/sakura_planks",
+    "side": "forest:block/sakura_planks"
+  },
+  "render_type": "solid"
+}

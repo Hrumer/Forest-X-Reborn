@@ -1,0 +1,16 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "old_growth_birch_forest",
+    "forest",
+    "taiga",
+    "old_growth_pine_taiga",
+    "old_growth_spruce_taiga"
+  ],
+  "spawners": {
+    "type": "forest:brown_bear",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

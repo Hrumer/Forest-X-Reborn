@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "minecraft:sweet_berries"
+    },
+    "1": {
+      "item": "minecraft:sweet_berries"
+    },
+    "2": {
+      "item": "minecraft:sweet_berries"
+    },
+    "3": {
+      "item": "minecraft:sugar"
+    },
+    "4": {
+      "item": "minecraft:egg"
+    },
+    "5": {
+      "item": "minecraft:sugar"
+    },
+    "6": {
+      "item": "minecraft:sweet_berries"
+    },
+    "7": {
+      "item": "minecraft:sweet_berries"
+    },
+    "8": {
+      "item": "minecraft:sweet_berries"
+    }
+  },
+  "result": {
+    "item": "forest:berry_strudel",
+    "count": 1
+  }
+}

@@ -1,0 +1,53 @@
+{
+  "homepage": "no",
+  "promos": {
+    "1.19.4-latest": "1.1.0",
+    "1.19.4-recommended": "1.1.0",
+    "1.19.2-latest": "1.0.0",
+    "1.19.2-recommended": "1.0.0"
+  },
+  "1.19.4": {
+"1.1.1": "
+- Added mushrooms caves
+- Added sunshroom and moonshroom
+- Updated brown bear texture
+- [Bugfix] Fixed heart gingerbread form craft
+You can download the mod by following the link: https://www.curseforge.com/minecraft/mc-mods/forest-x-reborn",
+"1.1.0": "
+- Added silver
+- Silver tools created in the workbench have smite enchantment by default
+- Added new biome - Old growth forest
+- Added gingerbread block and gingerbread bricks
+- Added blue rose
+- Generation of the volcanic biome has been redesigned
+- Added crafts dye from flowers
+- Added a new achievement
+- Added dependency on the GeckoLib mod
+- Updated panorama
+- Easter eggs removed
+- [Bugfix] Fixed dry thorn forest generation
+- [Bugfix] Fixed the second layer of semi-desert and marble caves
+- [Bugfix] Fixed the speed of the fennec
+You can download the mod by following the link: https://www.curseforge.com/minecraft/mc-mods/forest-x-reborn",
+"1.0.2": "
+- [Bugfix] Fixed a bug due to which rhyolite slabs, stairs and wall could be generated in the world
+You can download the mod by following the link: https://www.curseforge.com/minecraft/mc-mods/forest-x-reborn",
+"1.0.1": "
+- Update mod to MC 1.19.4
+- Added 16 painted eggs
+- Added new achievements
+- Gold and emeralds in large quantities can now be found in the volcanic biome
+- Raccoons now reproduce with the help of fruits and berries
+- Improved raccoon behavior
+- Improved behavior and characteristics of the brown bear
+- Removed salt forever
+- Mod logo changed
+- [Bugfix] Fixed a bug that caused raccoons not to breed
+You can download the mod by following the link: https://www.curseforge.com/minecraft/mc-mods/forest-x-reborn"
+  },
+  "1.19.2": {
+"1.0.0": "
+- The fist release mod
+You can download the mod by following the link: https://www.curseforge.com/minecraft/mc-mods/forest-x-reborn"
+  }
+}

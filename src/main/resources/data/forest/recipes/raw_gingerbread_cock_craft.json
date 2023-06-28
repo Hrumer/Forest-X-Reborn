@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "forest:gingerbread_dough"
+    },
+    {
+      "item": "forest:gingerbread_form_cock"
+    }
+  ],
+  "result": {
+    "item": "forest:raw_gingerbread_cock",
+    "count": 1
+  }
+}

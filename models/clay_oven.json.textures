@@ -1,0 +1,15 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "clay_oven_side",
+        "1": "clay_oven_front",
+        "2": "clay_oven_top",
+        "3": "clay_oven_bottom",
+        "4": "clay_oven_chimney",
+        "missing": "furnace_chimney"
+      },
+      "name": "default"
+    }
+  }
+}

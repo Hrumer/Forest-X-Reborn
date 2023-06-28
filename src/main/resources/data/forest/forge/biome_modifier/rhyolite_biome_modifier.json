@@ -1,0 +1,11 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "windswept_hills",
+    "taiga",
+    "windswept_gravelly_hills",
+    "snowy_taiga"
+  ],
+  "features": "forest:rhyolite",
+  "step": "underground_ores"
+}

@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:Peatbog"
+      },
+      {
+        "value": "CUSTOM:MarbleCaves"
+      },
+      {
+        "value": "CUSTOM:Semidesert"
+      },
+      {
+        "value": "CUSTOM:Volcano"
+      }
+    ],
+    "name": "is_overworld",
+    "namespace": "minecraft"
+  }
+}

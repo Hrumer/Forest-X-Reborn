@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_orientable_trapdoor_bottom",
+  "textures": {
+    "texture": "forest:block/sakura_trapdoor",
+    "particle": "forest:block/sakura_trapdoor"
+  },
+  "render_type": "cutout"
+}

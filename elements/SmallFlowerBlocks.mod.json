@@ -1,0 +1,23 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Wildflower"
+      },
+      {
+        "value": "CUSTOM:Lavander"
+      },
+      {
+        "value": "CUSTOM:Burningblossom"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "name": "small_flowers",
+    "namespace": "minecraft"
+  }
+}

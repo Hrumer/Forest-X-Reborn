@@ -1,0 +1,26 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "forest:peat_piece"
+    },
+    "1": {
+      "item": "forest:peat_piece"
+    },
+    "2": {
+      "item": "forest:peat_piece"
+    },
+    "3": {
+      "item": "forest:peat_piece"
+    }
+  },
+  "result": {
+    "item": "forest:peat",
+    "count": 1
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "powered=false": {
+      "model": "forest:block/sakura_pressure_plate"
+    },
+    "powered=true": {
+      "model": "forest:block/sakura_pressure_plate_down"
+    }
+  }
+}

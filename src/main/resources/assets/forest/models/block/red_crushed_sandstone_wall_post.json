@@ -1,0 +1,8 @@
+{
+  "parent": "block/template_wall_post",
+  "textures": {
+    "wall": "forest:block/red_crushed_sandstone",
+    "particle": "forest:block/red_crushed_sandstone"
+  },
+  "render_type": "solid"
+}

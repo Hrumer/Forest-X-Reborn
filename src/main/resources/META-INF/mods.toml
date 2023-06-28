@@ -1,0 +1,37 @@
+modLoader="javafml"
+loaderVersion="[45,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="forest"
+version="1.1.1"
+displayName="Forest X Reborn"
+credits="Created by MagicalAlexey"
+displayURL="https://mcreator.net"
+updateJSONURL="https://raw.githubusercontent.com/Hexagon-Studio/Forest-X-Reborn/main/update.json"
+logoFile="logo.png"
+authors="UMC"
+description="The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  "
+
+[[dependencies.forest]]
+    modId="minecraft"
+    mandatory=true
+    versionRange="[1.19.4]"
+    ordering="NONE"
+    side="BOTH"
+
+
+[[dependencies.forest]]
+    modId="geckolib"
+    mandatory=true
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forest]]
+    modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+

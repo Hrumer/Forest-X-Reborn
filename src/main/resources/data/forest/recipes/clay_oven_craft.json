@@ -1,0 +1,39 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "tag": "minecraft:terracotta"
+    },
+    "1": {
+      "tag": "minecraft:terracotta"
+    },
+    "2": {
+      "tag": "minecraft:terracotta"
+    },
+    "3": {
+      "tag": "minecraft:terracotta"
+    },
+    "5": {
+      "tag": "minecraft:terracotta"
+    },
+    "6": {
+      "tag": "minecraft:terracotta"
+    },
+    "7": {
+      "tag": "minecraft:terracotta"
+    },
+    "8": {
+      "tag": "minecraft:terracotta"
+    }
+  },
+  "result": {
+    "item": "forest:clay_oven",
+    "count": 1
+  }
+}

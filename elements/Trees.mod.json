@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Trees",
+    "icon": {
+      "value": "CUSTOM:SakuraSapling"
+    },
+    "showSearch": false
+  }
+}

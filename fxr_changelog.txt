@@ -1,0 +1,8 @@
+fxr-1.2.0.2305025-snapshot:
+- 
+- [Bugfix] 
+1.1.1-release:
+- Added mushrooms caves
+- Added sunshroom and moonshroom
+- Updated brown bear texture
+- [Bugfix] Fixed heart gingerbread form craft

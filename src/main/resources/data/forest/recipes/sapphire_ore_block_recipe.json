@@ -1,0 +1,42 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "345",
+    "678"
+  ],
+  "key": {
+    "0": {
+      "item": "forest:sapphire"
+    },
+    "1": {
+      "item": "forest:sapphire"
+    },
+    "2": {
+      "item": "forest:sapphire"
+    },
+    "3": {
+      "item": "forest:sapphire"
+    },
+    "4": {
+      "item": "forest:sapphire"
+    },
+    "5": {
+      "item": "forest:sapphire"
+    },
+    "6": {
+      "item": "forest:sapphire"
+    },
+    "7": {
+      "item": "forest:sapphire"
+    },
+    "8": {
+      "item": "forest:sapphire"
+    }
+  },
+  "result": {
+    "item": "forest:sapphire_block",
+    "count": 1
+  }
+}

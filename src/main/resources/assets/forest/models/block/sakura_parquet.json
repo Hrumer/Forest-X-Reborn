@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/sakura_parquet",
+    "up": "forest:block/sakura_parquet",
+    "north": "forest:block/sakura_parquet",
+    "east": "forest:block/sakura_parquet",
+    "south": "forest:block/sakura_parquet",
+    "west": "forest:block/sakura_parquet",
+    "particle": "forest:block/sakura_parquet"
+  },
+  "render_type": "solid"
+}
