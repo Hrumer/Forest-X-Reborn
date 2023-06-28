@@ -4,6 +4,7 @@
  */
 package power.forestxreborn.init;
 
+import power.forestxreborn.world.inventory.ClayOvenGUIMenu;
 import power.forestxreborn.ForestMod;
 
 import net.minecraftforge.registries.RegistryObject;

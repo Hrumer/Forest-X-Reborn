@@ -1,0 +1,14 @@
+{
+  "parent": "forest:custom/clay_oven",
+  "textures": {
+    "all": "forest:block/clay_oven_side",
+    "particle": "forest:block/clay_oven_side",
+    "0": "forest:block/clay_oven_side",
+    "1": "forest:block/clay_oven_front",
+    "2": "forest:block/clay_oven_top",
+    "3": "forest:block/clay_oven_bottom",
+    "4": "forest:block/clay_oven_chimney",
+    "missing": "forest:block/furnace_chimney"
+  },
+  "render_type": "solid"
+}

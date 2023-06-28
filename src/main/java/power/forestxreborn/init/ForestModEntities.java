@@ -41,10 +41,6 @@ public class ForestModEntities {
 			EntityType.Builder.<FennecEntity>of(FennecEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FennecEntity::new)
 
 					.sized(0.5f, 0.7f));
-	public static final RegistryObject<EntityType<DuckbillEntity>> DUCKBILL = register("duckbill",
-			EntityType.Builder.<DuckbillEntity>of(DuckbillEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(16).setUpdateInterval(3).setCustomClientFactory(DuckbillEntity::new)
-
-					.sized(0.4f, 0.9f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -57,7 +53,6 @@ public class ForestModEntities {
 			SnailEntity.init();
 			BrownBearEntity.init();
 			FennecEntity.init();
-			DuckbillEntity.init();
 		});
 	}
 
@@ -67,6 +62,5 @@ public class ForestModEntities {
 		event.put(SNAIL.get(), SnailEntity.createAttributes().build());
 		event.put(BROWN_BEAR.get(), BrownBearEntity.createAttributes().build());
 		event.put(FENNEC.get(), FennecEntity.createAttributes().build());
-		event.put(DUCKBILL.get(), DuckbillEntity.createAttributes().build());
 	}
 }

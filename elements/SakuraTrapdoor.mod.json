@@ -41,7 +41,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "CUSTOM:Trees"
+      "value": "No creative tab entry"
     },
     "destroyTool": "axe",
     "customDrop": {

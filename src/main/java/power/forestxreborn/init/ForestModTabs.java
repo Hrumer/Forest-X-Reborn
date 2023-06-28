@@ -18,46 +18,16 @@ public class ForestModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
-		if (tabData.getTab() == CreativeModeTabs.COMBAT) {
-			tabData.accept(ForestModItems.SILVER_SWORD.get());
-		}
-
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ForestModItems.RACOON_SPAWN_EGG.get());
 			tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
 			tabData.accept(ForestModItems.BROWN_BEAR_SPAWN_EGG.get());
 			tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
 		}
-
-		if (tabData.getTab() == CreativeModeTabs.TOOLS_AND_UTILITIES) {
-			tabData.accept(ForestModItems.SILVER_AXE.get());
-			tabData.accept(ForestModItems.SILVER_PICKAXE.get());
-			tabData.accept(ForestModItems.SILVER_SHOVEL.get());
-			tabData.accept(ForestModItems.SILVER_HOE.get());
-		}
 	}
 
 	@SubscribeEvent
 	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
-		event.registerCreativeModeTab(new ResourceLocation("forest", "trees"),
-				builder -> builder.title(Component.translatable("item_group.forest.trees")).icon(() -> new ItemStack(ForestModBlocks.SAKURA_SAPLING.get())).displayItems((parameters, tabData) -> {
-					tabData.accept(ForestModBlocks.SAKURA_SAPLING.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_LEAVES.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_WOOD.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_LOG.get().asItem());
-					tabData.accept(ForestModBlocks.STRIPPED_SAKURA_LOG.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_PLANKS.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_STAIRS.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_SLAB.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_DOOR.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_TRAPDOOR.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_FENCE.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_FENCE_GATE.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_PRESSURE_PLATE.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_BUTTON.get().asItem());
-				})
-
-		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "decorative_blocks"),
 				builder -> builder.title(Component.translatable("item_group.forest.decorative_blocks")).icon(() -> new ItemStack(ForestModBlocks.SANDSLATE_FACETED_BRICKS.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(ForestModBlocks.SNAIL_SHELL.get().asItem());
@@ -79,7 +49,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.CRIMSON_PARQUET.get().asItem());
 					tabData.accept(ForestModBlocks.WARPED_PARQUET.get().asItem());
 					tabData.accept(ForestModBlocks.MANGROVE_PARQUET.get().asItem());
-					tabData.accept(ForestModBlocks.SAKURA_PARQUET.get().asItem());
+					tabData.accept(ForestModBlocks.CHERRY_PARQUET.get().asItem());
 					tabData.accept(ForestModBlocks.MARBLE.get().asItem());
 					tabData.accept(ForestModBlocks.MARBLE_BRICKS.get().asItem());
 					tabData.accept(ForestModBlocks.POLISHED_MARBLE.get().asItem());
@@ -136,6 +106,86 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.RAW_GINGERBREAD_BLOCK.get().asItem());
 					tabData.accept(ForestModBlocks.GINGERBREAD_BLOCK.get().asItem());
 					tabData.accept(ForestModBlocks.GINGERBREAD_BRICKS.get().asItem());
+					tabData.accept(ForestModBlocks.WHITE_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_GRAY_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.GRAY_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.BLACK_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.BROWN_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.RED_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.ORANGE_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.YELLOW_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.LIME_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.GREEN_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.CYAN_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_BLUE_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.BLUE_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.PURPLE_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.MAGENTA_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.PINK_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.WHITE_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_GRAY_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.GRAY_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.BLACK_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.BROWN_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.RED_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.ORANGE_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.YELLOW_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.LIME_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.GREEN_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.CYAN_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_BLUE_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.BLUE_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.PURPLE_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.MAGENTA_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.PINK_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.WHITE_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_GRAY_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.GRAY_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.BLACK_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.BROWN_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.RED_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.ORANGE_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.YELLOW_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.LIME_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.GREEN_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.CYAN_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_BLUE_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.BLUE_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.PURPLE_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.MAGENTA_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.PINK_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.WHITE_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_GRAY_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.GRAY_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.BLACK_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.BROWN_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.RED_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.ORANGE_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.YELLOW_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.LIME_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.GREEN_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.CYAN_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_BLUE_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.BLUE_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.PURPLE_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.MAGENTA_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.PINK_FENCE.get().asItem());
+					tabData.accept(ForestModBlocks.WHITE_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_GRAY_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.GRAY_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.BLACK_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.BROWN_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.RED_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.ORANGE_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.YELLOW_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.LIME_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.GREEN_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.CYAN_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.LIGHT_BLUE_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.BLUE_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.PURPLE_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.MAGENTA_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.PINK_FENCE_GATE.get().asItem());
 				})
 
 		);
@@ -170,6 +220,11 @@ public class ForestModTabs {
 			tabData.accept(ForestModItems.LARD.get());
 			tabData.accept(ForestModItems.BREADWITHLARD.get());
 			tabData.accept(ForestModItems.BERRY_STRUDEL.get());
+			tabData.accept(ForestModItems.GINGERBREAD_DOUGH.get());
+			tabData.accept(ForestModItems.RAW_GINGERBREAD_MAN.get());
+			tabData.accept(ForestModItems.RAW_GINGERBREAD_HEART.get());
+			tabData.accept(ForestModItems.RAW_GINGERBREAD_BRICK.get());
+			tabData.accept(ForestModItems.RAW_GINGERBREAD_PINE.get());
 			tabData.accept(ForestModItems.GINGERBREAD_MAN.get());
 			tabData.accept(ForestModItems.GLAZED_GINGERBREAD_MEN.get());
 			tabData.accept(ForestModItems.GINGERBREAD_HEART.get());
@@ -182,12 +237,11 @@ public class ForestModTabs {
 		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "misc"),
 				builder -> builder.title(Component.translatable("item_group.forest.misc")).icon(() -> new ItemStack(ForestModItems.PEAT_PIECE.get())).displayItems((parameters, tabData) -> {
-					tabData.accept(ForestModItems.GINGERBREAD_DOUGH.get());
-					tabData.accept(ForestModItems.RAW_GINGERBREAD_MAN.get());
-					tabData.accept(ForestModItems.RAW_GINGERBREAD_HEART.get());
-					tabData.accept(ForestModItems.RAW_GINGERBREAD_BRICK.get());
-					tabData.accept(ForestModItems.RAW_GINGERBREAD_PINE.get());
 					tabData.accept(ForestModItems.PEAT_PIECE.get());
+					tabData.accept(ForestModItems.GINGERBREAD_FORM_MAN.get());
+					tabData.accept(ForestModItems.GINGERBREAD_FORM_HEART.get());
+					tabData.accept(ForestModItems.GINGERBREAD_FORM_BRICK.get());
+					tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
 				})
 
 		);
@@ -205,12 +259,13 @@ public class ForestModTabs {
 				})
 
 		);
-		event.registerCreativeModeTab(new ResourceLocation("forest", "gingerbread_forms"),
-				builder -> builder.title(Component.translatable("item_group.forest.gingerbread_forms")).icon(() -> new ItemStack(ForestModItems.GINGERBREAD_FORM_MAN.get())).displayItems((parameters, tabData) -> {
-					tabData.accept(ForestModItems.GINGERBREAD_FORM_MAN.get());
-					tabData.accept(ForestModItems.GINGERBREAD_FORM_HEART.get());
-					tabData.accept(ForestModItems.GINGERBREAD_FORM_BRICK.get());
-					tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
+		event.registerCreativeModeTab(new ResourceLocation("forest", "tools_and_armor"),
+				builder -> builder.title(Component.translatable("item_group.forest.tools_and_armor")).icon(() -> new ItemStack(ForestModItems.SILVER_AXE.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModItems.SILVER_AXE.get());
+					tabData.accept(ForestModItems.SILVER_PICKAXE.get());
+					tabData.accept(ForestModItems.SILVER_SHOVEL.get());
+					tabData.accept(ForestModItems.SILVER_HOE.get());
+					tabData.accept(ForestModItems.SILVER_SWORD.get());
 				})
 
 		);

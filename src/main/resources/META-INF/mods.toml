@@ -4,10 +4,10 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="forest"
-version="1.1.1"
+version="1.2.0"
 displayName="Forest X Reborn"
-credits="Created by MagicalAlexey"
-displayURL="https://mcreator.net"
+credits="Created by MagicalAlexey with the support of 7ZLBeka, maxD, Samuelchik"
+displayURL="https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html"
 updateJSONURL="https://raw.githubusercontent.com/Hexagon-Studio/Forest-X-Reborn/main/update.json"
 logoFile="logo.png"
 authors="UMC"

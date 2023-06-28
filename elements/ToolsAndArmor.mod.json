@@ -1,0 +1,11 @@
+{
+  "_fv": 43,
+  "_type": "tab",
+  "definition": {
+    "name": "Tools & Armor",
+    "icon": {
+      "value": "CUSTOM:SilverAxe"
+    },
+    "showSearch": false
+  }
+}

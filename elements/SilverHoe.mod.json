@@ -3,12 +3,14 @@
   "_type": "tool",
   "definition": {
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "silver_hoe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Silver Hoe",
     "specialInfo": [],
     "creativeTab": {
-      "value": "TOOLS"
+      "value": "CUSTOM:ToolsAndArmor"
     },
     "toolType": "Hoe",
     "harvestLevel": 2,

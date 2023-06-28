@@ -10,6 +10,12 @@
       },
       {
         "value": "CUSTOM:StrippedSakuraLog"
+      },
+      {
+        "value": "CUSTOM:EucalyptusLog"
+      },
+      {
+        "value": "CUSTOM:StrippedEucalyptusLog"
       }
     ],
     "functions": [],

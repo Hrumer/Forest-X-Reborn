@@ -1,0 +1,27 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "bark",
+  "category": "building",
+  "pattern": [
+    "01",
+    "23"
+  ],
+  "key": {
+    "0": {
+      "item": "forest:eucalyptus_log"
+    },
+    "1": {
+      "item": "forest:eucalyptus_log"
+    },
+    "2": {
+      "item": "forest:eucalyptus_log"
+    },
+    "3": {
+      "item": "forest:eucalyptus_log"
+    }
+  },
+  "result": {
+    "item": "forest:eucalyptus_wood",
+    "count": 3
+  }
+}

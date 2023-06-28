@@ -1,0 +1,31 @@
+{
+  "replace": false,
+  "values": [
+    "forest:white_stairs",
+    "minecraft:warped_stairs",
+    "forest:red_stairs",
+    "forest:pink_stairs",
+    "forest:lime_stairs",
+    "forest:eucalyptus_stairs",
+    "forest:green_stairs",
+    "minecraft:crimson_stairs",
+    "forest:black_stairs",
+    "forest:light_blue_stairs",
+    "minecraft:oak_stairs",
+    "forest:yellow_stairs",
+    "minecraft:spruce_stairs",
+    "minecraft:birch_stairs",
+    "forest:magenta_stairs",
+    "forest:cyan_stairs",
+    "forest:purple_stairs",
+    "forest:brown_stairs",
+    "minecraft:dark_oak_stairs",
+    "minecraft:jungle_stairs",
+    "minecraft:mangrove_stairs",
+    "forest:blue_stairs",
+    "forest:orange_stairs",
+    "minecraft:acacia_stairs",
+    "forest:light_gray_stairs",
+    "forest:gray_stairs"
+  ]
+}

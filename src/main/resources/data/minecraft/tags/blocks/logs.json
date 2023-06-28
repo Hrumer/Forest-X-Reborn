@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "forest:sakura_log",
+    "forest:eucalyptus_log",
+    "forest:stripped_eucalyptus_log",
     "forest:stripped_sakura_log"
   ]
 }

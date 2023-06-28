@@ -4,6 +4,7 @@
  */
 package power.forestxreborn.init;
 
+import power.forestxreborn.block.entity.ClayOvenBlockEntity;
 import power.forestxreborn.ForestMod;
 
 import net.minecraftforge.registries.RegistryObject;

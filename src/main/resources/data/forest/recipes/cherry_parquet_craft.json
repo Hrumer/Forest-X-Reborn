@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "minecraft:cherry_planks"
+    },
+    "3": {
+      "item": "minecraft:cherry_planks"
+    },
+    "4": {
+      "item": "minecraft:cherry_planks"
+    },
+    "5": {
+      "item": "minecraft:cherry_planks"
+    },
+    "7": {
+      "item": "minecraft:cherry_planks"
+    }
+  },
+  "result": {
+    "item": "forest:cherry_parquet",
+    "count": 5
+  }
+}

@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "forest:sakura_leaves"
+    "forest:sakura_leaves",
+    "forest:eucalyptus_leaves"
   ]
 }

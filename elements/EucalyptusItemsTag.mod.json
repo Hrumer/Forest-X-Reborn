@@ -1,0 +1,27 @@
+{
+  "_fv": 43,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:EucalyptusWood"
+      },
+      {
+        "value": "CUSTOM:EucalyptusLog"
+      },
+      {
+        "value": "CUSTOM:StrippedEucalyptusWood"
+      },
+      {
+        "value": "CUSTOM:StrippedEucalyptusLog"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "eucalyptus_log",
+    "namespace": "forge"
+  }
+}

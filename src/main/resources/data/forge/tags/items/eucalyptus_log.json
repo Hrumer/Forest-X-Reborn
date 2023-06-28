@@ -1,0 +1,9 @@
+{
+  "replace": false,
+  "values": [
+    "forest:eucalyptus_log",
+    "forest:eucalyptus_wood",
+    "forest:stripped_eucalyptus_wood",
+    "forest:stripped_eucalyptus_log"
+  ]
+}
