@@ -19,7 +19,6 @@ import power.forestxreborn.world.features.SemidesertPatchFeature;
 import power.forestxreborn.world.features.RedMushroomsFeatureFeature;
 import power.forestxreborn.world.features.PeatbogLakesFeature;
 import power.forestxreborn.world.features.MoonshroomsFeatureFeature;
-import power.forestxreborn.world.features.EucalyptusTreeFeature;
 import power.forestxreborn.world.features.BrownMushroomsFeatureFeature;
 import power.forestxreborn.world.features.BlueberriesBushFeatureFeature;
 import power.forestxreborn.world.features.BigRedMushroomsFeatureFeature;
@@ -55,5 +54,4 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> SUNSHROOMS_FEATURE = REGISTRY.register("sunshrooms_feature", SunshroomsFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> BIG_BROWN_MUSHROOMS_FEATURE = REGISTRY.register("big_brown_mushrooms_feature", BigBrownMushroomsFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> BIG_RED_MUSHROOMS_FEATURE = REGISTRY.register("big_red_mushrooms_feature", BigRedMushroomsFeatureFeature::new);
-	public static final RegistryObject<Feature<?>> EUCALYPTUS_TREE = REGISTRY.register("eucalyptus_tree", EucalyptusTreeFeature::new);
 }
