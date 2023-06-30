@@ -20,12 +20,6 @@ description="The revival of the legendary Forest X Second Edition addon, but onl
     side="BOTH"
 
 
-[[dependencies.forest]]
-    modId="geckolib"
-    mandatory=true
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 
 [[dependencies.forest]]
     modId="geckolib"
