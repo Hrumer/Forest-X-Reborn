@@ -37,7 +37,6 @@ import power.forestxreborn.block.SandslateBricksStairsBlock;
 import power.forestxreborn.block.SandslateBricksSlabBlock;
 import power.forestxreborn.block.SandslateBricksBlock;
 import power.forestxreborn.block.SandslateBlock;
-import power.forestxreborn.block.SakuraParquetBlock;
 import power.forestxreborn.block.RhyoliteWallBlock;
 import power.forestxreborn.block.RhyoliteStairsBlock;
 import power.forestxreborn.block.RhyoliteSlabBlock;
@@ -387,7 +386,6 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE = REGISTRY.register("deepslate_sapphire_ore", () -> new DeepslateSapphireOreBlock());
 	public static final RegistryObject<Block> DENSE_WEB = REGISTRY.register("dense_web", () -> new DenseWebBlock());
 	public static final RegistryObject<Block> DENSE_WEB_WITH_SPIDER = REGISTRY.register("dense_web_with_spider", () -> new DenseWebWithSpiderBlock());
-	public static final RegistryObject<Block> SAKURA_PARQUET = REGISTRY.register("sakura_parquet", () -> new SakuraParquetBlock());
 	public static final RegistryObject<Block> BLUEBERRY_BUSH_0 = REGISTRY.register("blueberry_bush_0", () -> new BlueberryBush0Block());
 	public static final RegistryObject<Block> BLUEBERRY_BUSH_1 = REGISTRY.register("blueberry_bush_1", () -> new BlueberryBush1Block());
 	public static final RegistryObject<Block> LETTUCE_STAGE_0 = REGISTRY.register("lettuce_stage_0", () -> new LettuceStage0Block());

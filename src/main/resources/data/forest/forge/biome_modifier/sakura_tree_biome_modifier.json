@@ -1,9 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": [
-    "windswept_hills",
-    "meadow"
-  ],
-  "features": "forest:sakura_tree",
-  "step": "surface_structures"
-}
