@@ -6,9 +6,6 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:SakuraFenceGate"
-      },
-      {
         "value": "CUSTOM:EucalyptusFenceGate"
       },
       {

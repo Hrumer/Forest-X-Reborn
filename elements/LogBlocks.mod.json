@@ -6,12 +6,6 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:SakuraLog"
-      },
-      {
-        "value": "CUSTOM:StrippedSakuraLog"
-      },
-      {
         "value": "CUSTOM:EucalyptusLog"
       },
       {

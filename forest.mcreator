@@ -1787,37 +1787,6 @@
       "path": "~/Desert"
     },
     {
-      "name": "SakuraParquet",
-      "type": "block",
-      "sortid": 300,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_parquet",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/block/SakuraParquetBlock.java",
-          "src/main/resources/assets/forest/blockstates/sakura_parquet.json",
-          "src/main/resources/assets/forest/models/item/sakura_parquet.json",
-          "src/main/resources/assets/forest/models/block/sakura_parquet.json"
-        ]
-      },
-      "path": "~/Parquet"
-    },
-    {
-      "name": "SakuraParquetCraft",
-      "type": "recipe",
-      "sortid": 301,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_parquet_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_parquet_craft.json"
-        ]
-      },
-      "path": "~/Parquet"
-    },
-    {
       "name": "VolcanoLavaLakes",
       "type": "feature",
       "sortid": 304,
@@ -7551,23 +7520,6 @@
       "path": "~/Tabs"
     },
     {
-      "name": "EucalyptusTree",
-      "type": "structure",
-      "sortid": 479,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/forge/biome_modifier/eucalyptus_tree_biome_modifier.json",
-          "src/main/java/power/forestxreborn/world/features/EucalyptusTreeFeature.java",
-          "src/main/resources/data/forest/worldgen/placed_feature/eucalyptus_tree.json",
-          "src/main/resources/data/forest/worldgen/configured_feature/eucalyptus_tree.json"
-        ]
-      },
-      "path": "~/Eucalyptus Wood Set"
-    },
-    {
       "name": "EucalyptusSapling",
       "type": "block",
       "sortid": 480,
@@ -7818,7 +7770,6 @@
       "block.forest.light_blue_slab": "Голубая плита",
       "block.forest.yellow_fence_gate": "Желтая калитка",
       "block.forest.sapphire_block": "Блок из сапфиров",
-      "block.forest.sakura_parquet": "Паркет из сакуры",
       "block.forest.deepslate_silver_ore": "Серебряноносный глубинный сланец",
       "block.forest.cobbled_sandslate_wall": "Ограда из дробленого песчаного сланца",
       "block.forest.lime_fence_gate": "Лаймовая калитка",
@@ -8090,7 +8041,6 @@
       "block.forest.light_blue_slab": "Light Blue Slab",
       "block.forest.yellow_fence_gate": "Yellow Fence Gate",
       "block.forest.sapphire_block": "Block of Sapphire",
-      "block.forest.sakura_parquet": "Sakura Parquet",
       "block.forest.deepslate_silver_ore": "Deepslate Silver Ore",
       "block.forest.cobbled_sandslate_wall": "Cobbled Sandslate Wall",
       "block.forest.lime_fence_gate": "Lime Fence Gate",
@@ -8290,10 +8240,6 @@
         "children": []
       },
       {
-        "name": "Sakura Wood Set",
-        "children": []
-      },
-      {
         "name": "Sandslate",
         "children": []
       },
@@ -8372,7 +8318,7 @@
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.2.0",
+    "version": "1.2.1",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  ",
     "author": "UMC",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",
@@ -8380,14 +8326,10 @@
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "logo",
-    "requiredMods": [
-      "geckolib"
-    ],
+    "requiredMods": [],
     "dependencies": [],
     "dependants": [],
-    "mcreatorDependencies": [
-      "geckolib"
-    ],
+    "mcreatorDependencies": [],
     "currentGenerator": "forge-1.19.4",
     "credits": "Created by MagicalAlexey with the support of 7ZLBeka, maxD, Samuelchik",
     "modElementsPackage": "power.forestxreborn",

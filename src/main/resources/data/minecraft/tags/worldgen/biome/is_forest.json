@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "forest:dry_thorn_forest",
+    "forest:old_growth_forest"
+  ]
 }

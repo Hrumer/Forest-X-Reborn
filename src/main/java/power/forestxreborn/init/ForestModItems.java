@@ -268,7 +268,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> DEEPSLATE_SAPPHIRE_ORE = block(ForestModBlocks.DEEPSLATE_SAPPHIRE_ORE);
 	public static final RegistryObject<Item> DENSE_WEB = block(ForestModBlocks.DENSE_WEB);
 	public static final RegistryObject<Item> DENSE_WEB_WITH_SPIDER = block(ForestModBlocks.DENSE_WEB_WITH_SPIDER);
-	public static final RegistryObject<Item> SAKURA_PARQUET = block(ForestModBlocks.SAKURA_PARQUET);
 	public static final RegistryObject<Item> BLUEBERRY_BUSH_0 = block(ForestModBlocks.BLUEBERRY_BUSH_0);
 	public static final RegistryObject<Item> BLUEBERRY_BUSH_1 = block(ForestModBlocks.BLUEBERRY_BUSH_1);
 	public static final RegistryObject<Item> LETTUCE_STAGE_0 = block(ForestModBlocks.LETTUCE_STAGE_0);
