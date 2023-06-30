@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "forest:block/forest_sakura_wood_side",
-    "particle": "forest:block/forest_sakura_wood_side"
-  },
-  "render_type": "solid"
-}

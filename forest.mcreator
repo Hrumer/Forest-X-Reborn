@@ -1787,381 +1787,6 @@
       "path": "~/Desert"
     },
     {
-      "name": "SakuraWood",
-      "type": "block",
-      "sortid": 278,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_wood",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/block/SakuraWoodBlock.java",
-          "src/main/resources/assets/forest/models/block/sakura_wood.json",
-          "src/main/resources/assets/forest/blockstates/sakura_wood.json",
-          "src/main/resources/assets/forest/models/item/sakura_wood.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraLog",
-      "type": "block",
-      "sortid": 279,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_log",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/block/SakuraLogBlock.java",
-          "src/main/resources/assets/forest/models/item/sakura_log.json",
-          "src/main/resources/assets/forest/blockstates/sakura_log.json",
-          "src/main/resources/assets/forest/models/block/sakura_log.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraPlanks",
-      "type": "block",
-      "sortid": 280,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_planks",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/sakura_planks.json",
-          "src/main/resources/assets/forest/models/block/sakura_planks.json",
-          "src/main/java/power/forestxreborn/block/SakuraPlanksBlock.java",
-          "src/main/resources/assets/forest/models/item/sakura_planks.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraLeaves",
-      "type": "block",
-      "sortid": 281,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_leaves",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/sakura_leaves.json",
-          "src/main/java/power/forestxreborn/block/SakuraLeavesBlock.java",
-          "src/main/resources/assets/forest/models/item/sakura_leaves.json",
-          "src/main/resources/assets/forest/models/block/sakura_leaves.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraStairs",
-      "type": "block",
-      "sortid": 282,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_stairs",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/sakura_stairs_outer.json",
-          "src/main/resources/assets/forest/models/item/sakura_stairs.json",
-          "src/main/resources/assets/forest/blockstates/sakura_stairs.json",
-          "src/main/java/power/forestxreborn/block/SakuraStairsBlock.java",
-          "src/main/resources/assets/forest/models/block/sakura_stairs.json",
-          "src/main/resources/assets/forest/models/block/sakura_stairs_inner.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraSlab",
-      "type": "block",
-      "sortid": 283,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/sakura_slab_top.json",
-          "src/main/resources/assets/forest/models/item/sakura_slab.json",
-          "src/main/resources/assets/forest/models/block/sakura_slab_full.json",
-          "src/main/resources/assets/forest/models/block/sakura_slab.json",
-          "src/main/java/power/forestxreborn/block/SakuraSlabBlock.java",
-          "src/main/resources/assets/forest/blockstates/sakura_slab.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraFence",
-      "type": "block",
-      "sortid": 284,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_fence",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/block/SakuraFenceBlock.java",
-          "src/main/resources/assets/forest/models/block/sakura_fence_inventory.json",
-          "src/main/resources/assets/forest/blockstates/sakura_fence.json",
-          "src/main/resources/assets/forest/models/block/sakura_fence_post.json",
-          "src/main/resources/assets/forest/models/item/sakura_fence.json",
-          "src/main/resources/assets/forest/models/block/sakura_fence.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraFenceGate",
-      "type": "block",
-      "sortid": 285,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_fence_gate",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/sakura_fence_gate_open.json",
-          "src/main/java/power/forestxreborn/block/SakuraFenceGateBlock.java",
-          "src/main/resources/assets/forest/models/block/sakura_fence_gate_wall_open.json",
-          "src/main/resources/assets/forest/models/item/sakura_fence_gate.json",
-          "src/main/resources/assets/forest/models/block/sakura_fence_gate_wall.json",
-          "src/main/resources/assets/forest/blockstates/sakura_fence_gate.json",
-          "src/main/resources/assets/forest/models/block/sakura_fence_gate.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraPressurePlate",
-      "type": "block",
-      "sortid": 286,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_pressure_plate",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/sakura_pressure_plate.json",
-          "src/main/resources/assets/forest/models/block/sakura_pressure_plate_down.json",
-          "src/main/resources/assets/forest/models/block/sakura_pressure_plate.json",
-          "src/main/java/power/forestxreborn/block/SakuraPressurePlateBlock.java",
-          "src/main/resources/assets/forest/models/item/sakura_pressure_plate.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraButton",
-      "type": "block",
-      "sortid": 287,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_button",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/sakura_button.json",
-          "src/main/java/power/forestxreborn/block/SakuraButtonBlock.java",
-          "src/main/resources/assets/forest/blockstates/sakura_button.json",
-          "src/main/resources/assets/forest/models/block/sakura_button.json",
-          "src/main/resources/assets/forest/models/block/sakura_button_inventory.json",
-          "src/main/resources/assets/forest/models/block/sakura_button_pressed.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraItemsTag",
-      "type": "tag",
-      "sortid": 288,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_items_tag",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forge/tags/items/sakura_log.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraWoodRecipe",
-      "type": "recipe",
-      "sortid": 289,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_wood_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_wood_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraPlanksRecipe",
-      "type": "recipe",
-      "sortid": 290,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_planks_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_planks_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraStairsRecipe",
-      "type": "recipe",
-      "sortid": 291,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_stairs_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_stairs_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraSlabRecipe",
-      "type": "recipe",
-      "sortid": 292,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_slab_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraFenceRecipe",
-      "type": "recipe",
-      "sortid": 293,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_fence_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_fence_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 294,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_fence_gate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_fence_gate_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraPressurePlateRecipe",
-      "type": "recipe",
-      "sortid": 295,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_pressure_plate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_pressure_plate_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraButtonRecipe",
-      "type": "recipe",
-      "sortid": 296,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_button_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_button_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraStickRecipe",
-      "type": "recipe",
-      "sortid": 297,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_stick_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_stick_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "StrippedSakuraLog",
-      "type": "block",
-      "sortid": 298,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_sakura_log",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/stripped_sakura_log.json",
-          "src/main/resources/assets/forest/models/block/stripped_sakura_log.json",
-          "src/main/java/power/forestxreborn/block/StrippedSakuraLogBlock.java",
-          "src/main/resources/assets/forest/blockstates/stripped_sakura_log.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraLogNaBlokieNazhataPravaiaKnopkaMyshi",
-      "type": "procedure",
-      "sortid": 299,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_log_na_blokie_nazhata_pravaia_knopka_myshi",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/procedures/SakuraLogNaBlokieNazhataPravaiaKnopkaMyshiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
       "name": "SakuraParquet",
       "type": "block",
       "sortid": 300,
@@ -2193,49 +1818,6 @@
       "path": "~/Parquet"
     },
     {
-      "name": "SakuraDoor",
-      "type": "block",
-      "sortid": 302,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_door",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/sakura_door_top_left_open.json",
-          "src/main/resources/assets/forest/models/block/sakura_door_top_right.json",
-          "src/main/resources/assets/forest/models/block/sakura_door_top_right_open.json",
-          "src/main/resources/assets/forest/models/item/sakura_door.json",
-          "src/main/resources/assets/forest/models/block/sakura_door_bottom_left.json",
-          "src/main/resources/assets/forest/models/block/sakura_door_bottom_left_open.json",
-          "src/main/resources/assets/forest/blockstates/sakura_door.json",
-          "src/main/resources/assets/forest/models/block/sakura_door_bottom_right.json",
-          "src/main/java/power/forestxreborn/block/SakuraDoorBlock.java",
-          "src/main/resources/assets/forest/models/block/sakura_door_bottom_right_open.json",
-          "src/main/resources/assets/forest/models/block/sakura_door_top_left.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraTrapdoor",
-      "type": "block",
-      "sortid": 303,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_trapdoor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/sakura_trapdoor.json",
-          "src/main/resources/assets/forest/models/block/sakura_trapdoor_top.json",
-          "src/main/java/power/forestxreborn/block/SakuraTrapdoorBlock.java",
-          "src/main/resources/assets/forest/models/block/sakura_trapdoor_open.json",
-          "src/main/resources/assets/forest/models/block/sakura_trapdoor.json",
-          "src/main/resources/assets/forest/models/item/sakura_trapdoor.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
       "name": "VolcanoLavaLakes",
       "type": "feature",
       "sortid": 304,
@@ -2251,98 +1833,6 @@
         ]
       },
       "path": "~/Biomes"
-    },
-    {
-      "name": "SakuraDoorCraft",
-      "type": "recipe",
-      "sortid": 305,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_door_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_door_craft.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraTrapdoorCraft",
-      "type": "recipe",
-      "sortid": 306,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_trapdoor_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sakura_trapdoor_craft.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraSaplingPriNazhatiiPravoiKnopkiMyshiNaRastienii",
-      "type": "procedure",
-      "sortid": 307,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_sapling_pri_nazhatii_pravoi_knopki_myshi_na_rastienii",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/procedures/SakuraSaplingPriNazhatiiPravoiKnopkiMyshiNaRastieniiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "SakuraSaplingKoghdaRastieniieDobavlieno",
-      "type": "procedure",
-      "sortid": 308,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_sapling_koghda_rastieniie_dobavlieno",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/procedures/SakuraSaplingKoghdaRastieniieDobavlienoProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Sakura Wood Set"
     },
     {
       "name": "PolishedRhyolite",
@@ -3401,23 +2891,6 @@
         ]
       },
       "path": "~/Harvest"
-    },
-    {
-      "name": "SakuraSapling",
-      "type": "block",
-      "sortid": 346,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sakura_sapling",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/sakura_sapling.json",
-          "src/main/resources/assets/forest/models/item/sakura_sapling.json",
-          "src/main/java/power/forestxreborn/block/SakuraSaplingBlock.java",
-          "src/main/resources/assets/forest/blockstates/sakura_sapling.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
     },
     {
       "name": "RawBarbecueCraft",
@@ -6395,37 +5868,6 @@
       "path": "~/Eucalyptus Wood Set"
     },
     {
-      "name": "StrippedSakuraWood",
-      "type": "block",
-      "sortid": 456,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_sakura_wood",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/stripped_sakura_wood.json",
-          "src/main/resources/assets/forest/blockstates/stripped_sakura_wood.json",
-          "src/main/java/power/forestxreborn/block/StrippedSakuraWoodBlock.java",
-          "src/main/resources/assets/forest/models/block/stripped_sakura_wood.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
-      "name": "StrippedSakuraWoodRecipe",
-      "type": "recipe",
-      "sortid": 457,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_sakura_wood_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/stripped_sakura_wood_recipe.json"
-        ]
-      },
-      "path": "~/Sakura Wood Set"
-    },
-    {
       "name": "StrippedEucalyptusWood",
       "type": "block",
       "sortid": 458,
@@ -8109,20 +7551,6 @@
       "path": "~/Tabs"
     },
     {
-      "name": "EucalyptusForest",
-      "type": "biome",
-      "sortid": 478,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_forest",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/worldgen/biome/eucalyptus_forest.json"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
       "name": "EucalyptusTree",
       "type": "structure",
       "sortid": 479,
@@ -8256,9 +7684,9 @@
       "block.forest.white_planks": "Белые доски",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "item.forest.raw_silver": "Рудное серебро",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "block.forest.brown_fence": "Коричневый забор",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "item.forest.raw_silver": "Рудное серебро",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
       "block.forest.brown_stairs": "Коричневые ступени",
@@ -8286,15 +7714,14 @@
       "item.forest.barbecue": "Шашлык",
       "item.forest.fennec_spawn_egg": "Яйцо призыва фенека",
       "item.forest.gingerbread_form_man": "Форма для пряника",
-      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
+      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "entity.forest.fennec": "Фенек",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
       "block.forest.polished_sandslate_stairs": "Ступени из полированного песчаного сланца",
       "block.forest.magenta_planks": "Пурпурные доски",
       "block.forest.blue_fence_gate": "Синяя калитка",
-      "block.forest.sakura_pressure_plate": "Нажимная плита из сакуры",
       "block.forest.green_planks": "Зеленые доски",
       "block.forest.magenta_fence": "Пурпурный забор",
       "block.forest.polished_sandslate": "Полированнный песчаный сланец",
@@ -8310,13 +7737,11 @@
       "block.forest.warped_parquet": "Искаженный паркет",
       "block.forest.blueberry_bush_0": " ",
       "block.forest.stripped_eucalyptus_log": "Обтёсанное бревно эвкалипта",
-      "block.forest.sakura_planks": "Доски из сакуры",
       "block.forest.lime_fence": "Лаймовый забор",
       "block.forest.polished_marble_slab": "Плита из полированного мрамора",
       "block.forest.white_fence": "Белый забор",
       "item.forest.silver_shovel": "Серебряная лопата",
       "block.forest.light_blue_fence": "Голубой забор",
-      "block.forest.stripped_sakura_log": "Обтёсанное бревно сакуры",
       "block.forest.polished_pumice_stairs": "Ступени из полированной пемзы",
       "block.forest.pink_planks": "Розовые доски",
       "block.forest.black_fence": "Черный забор",
@@ -8328,8 +7753,6 @@
       "block.forest.red_fence": "Красный забор",
       "block.forest.blue_slab": "Синяя плита",
       "block.forest.polished_marble": "Полированный мрамор",
-      "block.forest.sakura_fence": "Забор из сакуры",
-      "block.forest.sakura_wood": "Сакура",
       "entity.forest.snail": "Улитка",
       "block.forest.mangrove_parquet": "Мангровый паркет",
       "block.forest.pumice": "Пемза",
@@ -8338,27 +7761,22 @@
       "block.forest.pumice_bricks_slab": "Плита из кирпичей пемзы",
       "item.forest.gingerbread_man": "Пряник",
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
-      "block.forest.sakura_stairs": "Ступеньки из сакуры",
       "item.forest.lettuce_seed": "Семена салата",
       "block.forest.polished_sandslate_wall": "Ограда из полированного песчаного сланца",
       "block.forest.red_slab": "Красная плита",
       "item.forest.breadwithlard": "Хлеб с салом",
       "block.forest.cobbled_sandslate_slab": "Плита из дробленого песчаного сланца",
-      "block.forest.sakura_sapling": "Саженец сакуры",
       "block.forest.blue_fence": "Синий забор",
       "block.forest.clay_oven": "Глиняная печь",
       "block.forest.truncated_pumice_stairs": "Ступени из усеченной пемзы",
       "block.forest.eucalyptus_sapling": "Sakura Sapling",
       "block.forest.light_blue_stairs": "Голубые ступени",
-      "block.forest.stripped_sakura_wood": "Обтёсанная древесина сакуры",
-      "block.forest.sakura_leaves": "Ветки сакуры",
       "block.forest.red_crushed_sandstone_stairs": "Ступени из красного колотого песчаника",
       "block.forest.raw_silver_block": "Рудный серебряный блок",
       "item.forest.peat_piece": "Кусочек торфа",
       "block.forest.sandslate_bricks_stairs": "Ступени из песчаносланцевых кирпичей",
       "block.forest.eucalyptus_parquet": "Эвкалиптовый паркет",
       "block.forest.crushed_sandstone": "Колотый песчаник",
-      "block.forest.sakura_trapdoor": "Люк из сакуры",
       "block.forest.gray_planks": "Серые доски",
       "block.forest.yellow_slab": "Желтая плита",
       "block.forest.magenta_stairs": "Пурпурные ступени",
@@ -8373,9 +7791,7 @@
       "block.forest.sandslate_bricks_slab": "Плита из песчаносланцевых кирпичей",
       "block.forest.lime_planks": "Лаймовые доски",
       "block.forest.light_gray_slab": "Светло-серая плита",
-      "block.forest.sakura_fence_gate": "Калитка из сакуры",
       "block.forest.light_gray_fence": "Светло-серый забор",
-      "block.forest.sakura_button": "Кнопка из сакуры",
       "block.forest.rhyolite_bricks_wall": "Ограда из риолитовых кирпичей",
       "block.forest.truncated_pumice_slab": "Плита из усеченной пемзы",
       "item.forest.berry_strudel": "Ягодный штрудель",
@@ -8412,7 +7828,6 @@
       "block.forest.purple_fence_gate": "Фиолетовая калитка",
       "item.forest.meat_loaf": "Мясной рулет",
       "block.forest.cobbled_sandslate_stairs": "Ступени из дробленого песчаного сланца",
-      "block.forest.sakura_log": "Бревно сакуры",
       "item.forest.raw_gingerbread_cock": "Тесто для пряника",
       "item.forest.gingerbread_dough": "Пряничное тесто",
       "block.forest.yellow_stairs": "Желтые ступени",
@@ -8467,7 +7882,6 @@
       "item_group.forest.food": "Еда",
       "advancements.paint_the_fence.title": "Забор покрастьте!",
       "block.forest.eucalyptus_button": "Кнопка из эвкалипта",
-      "block.forest.sakura_slab": "Плита из сакуры",
       "block.forest.black_slab": "Черная плита",
       "subtitles.duckbill.death": "",
       "block.forest.lettuce_stage_2": " ",
@@ -8483,7 +7897,6 @@
       "block.forest.magenta_fence_gate": "Пурпурная калитка",
       "block.forest.crushed_sandstone_stairs": "Ступени из колотого песчанника",
       "advancements.forest_x_starting.title": "Forest X",
-      "block.forest.sakura_door": "Дверь из сакуры",
       "block.forest.orange_stairs": "Оранжевые ступени",
       "entity.forest.racoon": "Енот",
       "block.forest.marble_bricks": "Мраморные кирпичи",
@@ -8491,7 +7904,6 @@
       "item.forest.brown_bear_spawn_egg": "Яйцо призыва бурого медведя",
       "block.forest.pumice_wall": "Ограда из пемзы",
       "block.forest.red_planks": "Красные доски",
-      "biome.forest.eucalyptus_forest": "Eucalyptus Forest",
       "block.forest.crushed_sandstone_wall": "Ограда из колотого песчаника",
       "block.forest.cyan_stairs": "Коричневые ступени",
       "block.forest.silver_block": "Блок Серебра",
@@ -8544,9 +7956,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "item.forest.raw_silver": "Raw Silver",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "block.forest.brown_fence": "Brown Fence",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "item.forest.raw_silver": "Raw Silver",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
       "block.forest.brown_stairs": "Brown Stairs",
@@ -8574,15 +7986,14 @@
       "item.forest.barbecue": "Barbecue",
       "item.forest.fennec_spawn_egg": "Fennec Spawn Egg",
       "item.forest.gingerbread_form_man": "Gingerbread Form",
-      "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
       "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
+      "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
       "entity.forest.fennec": "Fennec",
       "block.forest.light_gray_stairs": "Light Gray Stairs",
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
       "block.forest.polished_sandslate_stairs": "Polished Sandslate Stairs",
       "block.forest.magenta_planks": "Magenta Planks",
       "block.forest.blue_fence_gate": "Blue Fence Gate",
-      "block.forest.sakura_pressure_plate": "Sakura Pressure Plate",
       "block.forest.green_planks": "Green Planks",
       "block.forest.magenta_fence": "Magenta Fence",
       "block.forest.polished_sandslate": "Polished Sandslate",
@@ -8598,13 +8009,11 @@
       "block.forest.warped_parquet": "Warped Parquet",
       "block.forest.blueberry_bush_0": "Blueberry Bush 0",
       "block.forest.stripped_eucalyptus_log": "Stripped Eucalyptus Log",
-      "block.forest.sakura_planks": "Sakura Planks",
       "block.forest.lime_fence": "Lime Fence",
       "block.forest.polished_marble_slab": "Polished Marble Slab",
       "item.forest.silver_shovel": "Silver Shovel",
       "block.forest.white_fence": "White Fence",
       "block.forest.light_blue_fence": "Light Blue Fence",
-      "block.forest.stripped_sakura_log": "Stripped Sakura Log",
       "block.forest.polished_pumice_stairs": "Polished Pumice Stairs",
       "block.forest.pink_planks": "Pink Planks",
       "block.forest.black_fence": "Black Fence",
@@ -8616,8 +8025,6 @@
       "block.forest.red_fence": "Red Fence",
       "block.forest.blue_slab": "Blue Slab",
       "block.forest.polished_marble": "Polished Marble",
-      "block.forest.sakura_fence": "Sakura Fence",
-      "block.forest.sakura_wood": "Sakura Wood",
       "entity.forest.snail": "Snail",
       "block.forest.mangrove_parquet": "Mangrove Parquet",
       "block.forest.pumice": "Pumice",
@@ -8626,26 +8033,21 @@
       "block.forest.pumice_bricks_slab": "Pumice Bricks Slab",
       "item.forest.gingerbread_man": "Gingerbread",
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
-      "block.forest.sakura_stairs": "Sakura Stairs",
       "item.forest.lettuce_seed": "Lettuce Seed",
       "block.forest.polished_sandslate_wall": "Polished Sandslate Wall",
       "block.forest.red_slab": "Red Slab",
       "item.forest.breadwithlard": "Bread with lard",
       "block.forest.cobbled_sandslate_slab": "Cobbled Sandslate Slab",
-      "block.forest.sakura_sapling": "Sakura Sapling",
       "block.forest.blue_fence": "Blue Fence",
       "block.forest.clay_oven": "Clay Oven",
       "block.forest.truncated_pumice_stairs": "Truncated Pumice Stairs",
       "block.forest.eucalyptus_sapling": "Eucalyptus Sapling",
       "block.forest.light_blue_stairs": "Light Blue Stairs",
-      "block.forest.stripped_sakura_wood": "Sakura Wood",
-      "block.forest.sakura_leaves": "Sakura Leaves",
       "block.forest.red_crushed_sandstone_stairs": "Red crushed sandstone stairs",
       "block.forest.raw_silver_block": "Raw Silver Block",
       "item.forest.peat_piece": "Peat Piece",
       "block.forest.sandslate_bricks_stairs": "Sandslate Bricks Stairs",
       "block.forest.eucalyptus_parquet": "Eucalyptus Parquet",
-      "block.forest.sakura_trapdoor": "Sakura Trapdoor",
       "block.forest.crushed_sandstone": "Crushed Sandstone",
       "block.forest.gray_planks": "Gray Planks",
       "block.forest.yellow_slab": "Yellow Slab",
@@ -8661,9 +8063,7 @@
       "block.forest.sandslate_bricks_slab": "Sandslate Bricks Slab",
       "block.forest.lime_planks": "Lime Planks",
       "block.forest.light_gray_slab": "Light Blue Slab",
-      "block.forest.sakura_fence_gate": "Sakura Fence Gate",
       "block.forest.light_gray_fence": "Light Gray Fence",
-      "block.forest.sakura_button": "Sakura Button",
       "block.forest.rhyolite_bricks_wall": "Rhyolite Bricks Wall",
       "block.forest.truncated_pumice_slab": "Truncated Pumice Slab",
       "item.forest.berry_strudel": "Berry Strudel",
@@ -8700,7 +8100,6 @@
       "block.forest.purple_fence_gate": "Purple Fence Gate",
       "block.forest.cobbled_sandslate_stairs": "Cobbled Sandslate Stairs",
       "item.forest.meat_loaf": "Meat loaf",
-      "block.forest.sakura_log": "Sakura Log",
       "item.forest.raw_gingerbread_cock": "Raw Gingerbread",
       "item.forest.gingerbread_dough": "Gingerbread Dough",
       "block.forest.yellow_stairs": "Yellow Stairs",
@@ -8755,7 +8154,6 @@
       "item_group.forest.food": "Food",
       "advancements.paint_the_fence.title": "Paint The Fence!",
       "block.forest.eucalyptus_button": "Eucalyptus Button",
-      "block.forest.sakura_slab": "Sakura Slab",
       "block.forest.black_slab": "Black Slab",
       "subtitles.duckbill.death": "",
       "block.forest.lettuce_stage_2": "Lettuce Stage 2",
@@ -8771,7 +8169,6 @@
       "block.forest.magenta_fence_gate": "Magenta Fence Gate",
       "block.forest.crushed_sandstone_stairs": "Crushed sandstone stairs",
       "advancements.forest_x_starting.title": "Forest X",
-      "block.forest.sakura_door": "Sakura Door",
       "block.forest.orange_stairs": "Orange Stairs",
       "entity.forest.racoon": "Racoon",
       "block.forest.marble_bricks": "Marble Bricks",
@@ -8779,7 +8176,6 @@
       "item.forest.brown_bear_spawn_egg": "Brown Bear Spawn Egg",
       "block.forest.pumice_wall": "Pumice Wall",
       "block.forest.red_planks": "Red Planks",
-      "biome.forest.eucalyptus_forest": "Eucalyptus Forest",
       "block.forest.crushed_sandstone_wall": "Crushed sandstone wall",
       "block.forest.cyan_stairs": "Cyan Stairs",
       "block.forest.silver_block": "Block of Silver",
