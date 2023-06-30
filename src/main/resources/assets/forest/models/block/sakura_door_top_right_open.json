@@ -1,8 +1,0 @@
-{
-  "parent": "block/door_top_right_open",
-  "textures": {
-    "bottom": "forest:block/sakura_door_down",
-    "top": "forest:block/sakura_door_up"
-  },
-  "render_type": "cutout"
-}

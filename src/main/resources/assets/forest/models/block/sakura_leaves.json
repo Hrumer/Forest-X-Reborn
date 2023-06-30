@@ -1,7 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "forest:block/sakura_petals",
-    "particle": "forest:block/sakura_petals"
-  }
-}

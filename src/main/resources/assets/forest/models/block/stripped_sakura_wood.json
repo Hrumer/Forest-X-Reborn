@@ -1,8 +1,0 @@
-{
-  "parent": "block/cube_all",
-  "textures": {
-    "all": "forest:block/stripped_sakura_log",
-    "particle": "forest:block/stripped_sakura_log"
-  },
-  "render_type": "solid"
-}

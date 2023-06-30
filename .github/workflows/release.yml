@@ -1,0 +1,94 @@
+# Automatically builds and publishes the mod when a new release is created on GitHub.
+# It uploads the mod to GitHub, CurseForge and Modrinth.
+
+name: Release
+
+on:
+  pull_request:
+    types:
+      - closed
+env:                                              
+  MINECRAFT_VERSION: 1.19.4                       
+  JAVA_VERSION: 17      
+  VERSION: 1.2.0
+  RELEASE_NAME: Forest X Reborn 1.2.0
+
+jobs:
+  if_merged:
+    if: github.event.pull_request.merged == true
+    runs-on: ubuntu-latest
+    steps:
+    - run: |
+        echo The PR was merged
+  build:
+    runs-on: ubuntu-latest                        
+    steps:                                        
+      - name: Check Environment Variables
+        run: env
+
+      - name: Checkout Repository
+        uses: actions/checkout@v3
+        with:
+          submodules: true
+
+      - name: Setup Java
+        uses: actions/setup-java@v2
+        with:
+          distribution: "temurin"
+          java-version: 17
+
+      - name: Make Gradle Wrapper Executable
+        if: ${{ runner.os != 'Windows' }}
+        run: chmod +x ./gradlew
+
+      - name: Build
+        run: ./gradlew clean build
+
+      - name: Publish mod to GitHub, CurseForge and Modrinth
+        id: publish
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          curseforge-id: 538466
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          modrinth-id: bRbocpAM 
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+          
+          name: "${{env.RELEASE_NAME}}"                             
+          version: "${{env.VERSION}}"
+          version-type: release
+          changelog-file: CHANGELOG.md                                      
+
+          loaders: forge
+          game-versions: "${{env.MINECRAFT_VERSION}}"
+          java: "${{env.JAVA_VERSION}}"
+
+          modrinth-featured: false
+          fail-mode: warn	
+          
+      - name: Send Discord webhook
+        uses: Ilshidur/action-discord@0.3.2
+        with:
+          args: "Message"
+        env:
+          DISCORD_WEBHOOK: "${{secrets.DISCORD_WEBHOOK}}"
+          DISCORD_EMBEDS: |
+            [{
+              "title": "${{env.RELEASE_NAME}} for Minecraft ${{env.MINECRAFT_VERSION}} Released",
+              "color": 14177041,
+              "thumbnail": {
+                "url": "https://media.discordapp.net/attachments/1105219003485532241/1121885076452544512/278_20230623220326.JPG?width=1193&height=671"
+              },
+              "url": "https://www.curseforge.com/minecraft/mc-mods/forest-x-reborn",
+              "fields": [
+                  {
+                    "name": "Download now:",
+                    "value": "[<:curseforge:805066577871110196> CurseForge](https://www.curseforge.com/minecraft/mc-mods/forest-x-reborn)\n[<:modrinth:805066578215043092> Modrinth](https://modrinth.com/mod/forest-x-reborn)\n[<:github:805066578164580392> GitHub](https://github.com/Environment-Studios-Official/Forest-X-Reborn)",
+                    "inline": true
+                  }
+              ],
+              "footer": {
+                "text": "Created by the Environment Studios team!",
+                "icon_url": "https://sun9-8.userapi.com/impg/z07zX22x1cDSTI8mxViZSNmSq1ZgWQUH2V4S6Q/iS1pjti92qo.jpg?size=1280x1280&quality=95&sign=b28d93cf356dd02eb658598caec418ca&type=album"
+              }
+            }]

@@ -21,7 +21,7 @@ import java.util.Set;
 import java.util.List;
 
 public class EucalyptusTreeFeature extends Feature<NoneFeatureConfiguration> {
-	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.END);
 	private final List<Block> base_blocks;
 	private StructureTemplate template = null;
 
