@@ -13,7 +13,7 @@ apply plugin: 'eclipse'
 
 version = '1.2.0'
 group = 'com.yourname.modid'
-archivesBaseName = 'ForestXReborn'
+archivesBaseName = 'forestxreborn'
 
 java.toolchain.languageVersion = JavaLanguageVersion.of(17)
 
