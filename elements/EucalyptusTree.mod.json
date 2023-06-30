@@ -13,18 +13,14 @@
     "spawnXOffset": -2,
     "spawnZOffset": -4,
     "spawnWorldTypes": [
-      "Surface"
+      "End"
     ],
     "restrictionBlocks": [
       {
         "value": "Blocks.GRASS"
       }
     ],
-    "restrictionBiomes": [
-      {
-        "value": "CUSTOM:EucalyptusForest"
-      }
-    ],
+    "restrictionBiomes": [],
     "ignoreBlocks": "AIR"
   }
 }
