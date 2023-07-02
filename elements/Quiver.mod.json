@@ -10,7 +10,7 @@
     "name": "Quiver",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "MISC"
+      "value": "CUSTOM:ToolsAndArmor"
     },
     "stackSize": 64,
     "enchantability": 0,
