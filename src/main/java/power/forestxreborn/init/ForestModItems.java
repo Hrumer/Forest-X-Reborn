@@ -212,6 +212,8 @@ public class ForestModItems {
 	public static final RegistryObject<Item> PURPLE_FENCE_GATE = block(ForestModBlocks.PURPLE_FENCE_GATE);
 	public static final RegistryObject<Item> MAGENTA_FENCE_GATE = block(ForestModBlocks.MAGENTA_FENCE_GATE);
 	public static final RegistryObject<Item> PINK_FENCE_GATE = block(ForestModBlocks.PINK_FENCE_GATE);
+	public static final RegistryObject<Item> BLUEBERRY = REGISTRY.register("blueberry", () -> new BlueberryItem());
+	public static final RegistryObject<Item> LETTUCE = REGISTRY.register("lettuce", () -> new LettuceItem());
 	public static final RegistryObject<Item> RAW_BARBECUE = REGISTRY.register("raw_barbecue", () -> new RawBarbecueItem());
 	public static final RegistryObject<Item> BARBECUE = REGISTRY.register("barbecue", () -> new BarbecueItem());
 	public static final RegistryObject<Item> MEAT_LOAF = REGISTRY.register("meat_loaf", () -> new MeatLoafItem());
@@ -239,8 +241,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> SNAIL_SPAWN_EGG = REGISTRY.register("snail_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SNAIL, -6724096, -13434880, new Item.Properties()));
 	public static final RegistryObject<Item> BROWN_BEAR_SPAWN_EGG = REGISTRY.register("brown_bear_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.BROWN_BEAR, -13434880, -6737152, new Item.Properties()));
 	public static final RegistryObject<Item> FENNEC_SPAWN_EGG = REGISTRY.register("fennec_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.FENNEC, -26317, -3368704, new Item.Properties()));
-	public static final RegistryObject<Item> BLUEBERRY = REGISTRY.register("blueberry", () -> new BlueberryItem());
-	public static final RegistryObject<Item> LETTUCE = REGISTRY.register("lettuce", () -> new LettuceItem());
 	public static final RegistryObject<Item> LETTUCE_SEED = REGISTRY.register("lettuce_seed", () -> new LettuceSeedItem());
 	public static final RegistryObject<Item> WILDFLOWER = block(ForestModBlocks.WILDFLOWER);
 	public static final RegistryObject<Item> BURNING_BLOSSOM = block(ForestModBlocks.BURNING_BLOSSOM);

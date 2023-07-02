@@ -10,7 +10,7 @@
     "name": "Lettuce Seed",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Harvest"
+      "value": "CUSTOM:Plants"
     },
     "stackSize": 64,
     "enchantability": 0,

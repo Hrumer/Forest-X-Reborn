@@ -191,6 +191,7 @@ public class ForestModTabs {
 		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "plants"),
 				builder -> builder.title(Component.translatable("item_group.forest.plants")).icon(() -> new ItemStack(ForestModBlocks.LAVANDER.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModItems.LETTUCE_SEED.get());
 					tabData.accept(ForestModBlocks.WILDFLOWER.get().asItem());
 					tabData.accept(ForestModBlocks.BURNING_BLOSSOM.get().asItem());
 					tabData.accept(ForestModBlocks.LAVANDER.get().asItem());
@@ -214,6 +215,8 @@ public class ForestModTabs {
 
 		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "food"), builder -> builder.title(Component.translatable("item_group.forest.food")).icon(() -> new ItemStack(ForestModItems.MEAT_LOAF.get())).displayItems((parameters, tabData) -> {
+			tabData.accept(ForestModItems.BLUEBERRY.get());
+			tabData.accept(ForestModItems.LETTUCE.get());
 			tabData.accept(ForestModItems.RAW_BARBECUE.get());
 			tabData.accept(ForestModItems.BARBECUE.get());
 			tabData.accept(ForestModItems.MEAT_LOAF.get());
@@ -242,14 +245,6 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_HEART.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_BRICK.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
-				})
-
-		);
-		event.registerCreativeModeTab(new ResourceLocation("forest", "harvest"),
-				builder -> builder.title(Component.translatable("item_group.forest.harvest")).icon(() -> new ItemStack(ForestModItems.BLUEBERRY.get())).displayItems((parameters, tabData) -> {
-					tabData.accept(ForestModItems.BLUEBERRY.get());
-					tabData.accept(ForestModItems.LETTUCE.get());
-					tabData.accept(ForestModItems.LETTUCE_SEED.get());
 				})
 
 		);
