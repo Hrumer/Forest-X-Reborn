@@ -7733,6 +7733,61 @@
         ]
       },
       "path": "~/Grape"
+    },
+    {
+      "name": "QuiverItemInInventoryTick",
+      "type": "procedure",
+      "sortid": 453,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quiver_item_in_inventory_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/QuiverItemInInventoryTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/Quiver"
+    },
+    {
+      "name": "QuiverInventory",
+      "type": "gui",
+      "sortid": 454,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quiver_inventory",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/world/inventory/QuiverInventoryMenu.java",
+          "src/main/java/power/forestxreborn/client/gui/QuiverInventoryScreen.java"
+        ]
+      },
+      "path": "~/Quiver"
+    },
+    {
+      "name": "Quiver",
+      "type": "item",
+      "sortid": 455,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quiver",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/item/QuiverItem.java",
+          "src/main/resources/assets/forest/models/item/quiver.json",
+          "src/main/java/power/forestxreborn/item/inventory/QuiverInventoryCapability.java"
+        ]
+      },
+      "path": "~/Quiver"
     }
   ],
   "variable_elements": [],
@@ -7817,6 +7872,7 @@
       "block.forest.pumice_bricks": "Пемзовые кирпичи",
       "item_group.forest.interaction_blocks": "Блоки взаимодействия",
       "block.forest.white_slab": "Белая плита",
+      "item.forest.quiver": "Quiver",
       "block.forest.wildflower": "Дикий цветок",
       "block.forest.blueberry_bush_1": " ",
       "block.forest.polished_rhyolite": "Полированный риолит",
@@ -8090,6 +8146,7 @@
       "item_group.forest.interaction_blocks": "Interaction Blocks",
       "block.forest.pumice_bricks": "Pumice Bricks",
       "block.forest.white_slab": "White Slab",
+      "item.forest.quiver": "Quiver",
       "block.forest.wildflower": "Wildflower",
       "block.forest.polished_rhyolite": "Polished Rhyolite",
       "block.forest.blueberry_bush_1": "Blueberry Bush 0",
@@ -8453,6 +8510,10 @@
       },
       {
         "name": "Grape",
+        "children": []
+      },
+      {
+        "name": "Quiver",
         "children": []
       }
     ]

@@ -23,6 +23,7 @@ public class ForestModTabs {
 			tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
 			tabData.accept(ForestModItems.BROWN_BEAR_SPAWN_EGG.get());
 			tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
+			tabData.accept(ForestModItems.QUIVER.get());
 		}
 	}
 

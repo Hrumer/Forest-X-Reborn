@@ -19,6 +19,7 @@ import power.forestxreborn.item.RawGingerbreadHeartItem;
 import power.forestxreborn.item.RawGingerbreadCockItem;
 import power.forestxreborn.item.RawGingerbreadBrickItem;
 import power.forestxreborn.item.RawBarbecueItem;
+import power.forestxreborn.item.QuiverItem;
 import power.forestxreborn.item.PeatPieceItem;
 import power.forestxreborn.item.MeatLoafItem;
 import power.forestxreborn.item.LettuceSeedItem;
@@ -297,6 +298,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> EUCALYPTUS_TRAPDOOR = block(ForestModBlocks.EUCALYPTUS_TRAPDOOR);
 	public static final RegistryObject<Item> EUCALYPTUS_SAPLING = block(ForestModBlocks.EUCALYPTUS_SAPLING);
 	public static final RegistryObject<Item> GRAPE_VINE_1 = block(ForestModBlocks.GRAPE_VINE_1);
+	public static final RegistryObject<Item> QUIVER = REGISTRY.register("quiver", () -> new QuiverItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
