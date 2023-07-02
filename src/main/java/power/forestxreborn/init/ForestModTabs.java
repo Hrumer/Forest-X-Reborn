@@ -263,6 +263,10 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.SILVER_SHOVEL.get());
 					tabData.accept(ForestModItems.SILVER_HOE.get());
 					tabData.accept(ForestModItems.SILVER_SWORD.get());
+					tabData.accept(ForestModItems.SILVER_ARMOR_HELMET.get());
+					tabData.accept(ForestModItems.SILVER_ARMOR_CHESTPLATE.get());
+					tabData.accept(ForestModItems.SILVER_ARMOR_LEGGINGS.get());
+					tabData.accept(ForestModItems.SILVER_ARMOR_BOOTS.get());
 					tabData.accept(ForestModItems.QUIVER.get());
 				})
 

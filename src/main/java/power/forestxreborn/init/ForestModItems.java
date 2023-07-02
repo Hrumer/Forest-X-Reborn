@@ -11,6 +11,7 @@ import power.forestxreborn.item.SilverNuggetItem;
 import power.forestxreborn.item.SilverIngotItem;
 import power.forestxreborn.item.SilverHoeItem;
 import power.forestxreborn.item.SilverAxeItem;
+import power.forestxreborn.item.SilverArmorItem;
 import power.forestxreborn.item.SapphireItem;
 import power.forestxreborn.item.RawSilverItem;
 import power.forestxreborn.item.RawGingerbreadPineItem;
@@ -266,6 +267,11 @@ public class ForestModItems {
 	public static final RegistryObject<Item> SILVER_SHOVEL = REGISTRY.register("silver_shovel", () -> new SilverShovelItem());
 	public static final RegistryObject<Item> SILVER_HOE = REGISTRY.register("silver_hoe", () -> new SilverHoeItem());
 	public static final RegistryObject<Item> SILVER_SWORD = REGISTRY.register("silver_sword", () -> new SilverSwordItem());
+	public static final RegistryObject<Item> SILVER_ARMOR_HELMET = REGISTRY.register("silver_armor_helmet", () -> new SilverArmorItem.Helmet());
+	public static final RegistryObject<Item> SILVER_ARMOR_CHESTPLATE = REGISTRY.register("silver_armor_chestplate", () -> new SilverArmorItem.Chestplate());
+	public static final RegistryObject<Item> SILVER_ARMOR_LEGGINGS = REGISTRY.register("silver_armor_leggings", () -> new SilverArmorItem.Leggings());
+	public static final RegistryObject<Item> SILVER_ARMOR_BOOTS = REGISTRY.register("silver_armor_boots", () -> new SilverArmorItem.Boots());
+	public static final RegistryObject<Item> QUIVER = REGISTRY.register("quiver", () -> new QuiverItem());
 	public static final RegistryObject<Item> SAPPHIRE = REGISTRY.register("sapphire", () -> new SapphireItem());
 	public static final RegistryObject<Item> SAPPHIRE_ORE = block(ForestModBlocks.SAPPHIRE_ORE);
 	public static final RegistryObject<Item> SAPPHIRE_BLOCK = block(ForestModBlocks.SAPPHIRE_BLOCK);
@@ -298,7 +304,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> EUCALYPTUS_TRAPDOOR = block(ForestModBlocks.EUCALYPTUS_TRAPDOOR);
 	public static final RegistryObject<Item> EUCALYPTUS_SAPLING = block(ForestModBlocks.EUCALYPTUS_SAPLING);
 	public static final RegistryObject<Item> GRAPE_VINE_1 = block(ForestModBlocks.GRAPE_VINE_1);
-	public static final RegistryObject<Item> QUIVER = REGISTRY.register("quiver", () -> new QuiverItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
