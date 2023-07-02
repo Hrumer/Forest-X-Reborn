@@ -199,6 +199,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.BLUE_ROSE.get().asItem());
 					tabData.accept(ForestModBlocks.SUNSHROOM.get().asItem());
 					tabData.accept(ForestModBlocks.MOONSHROOM.get().asItem());
+					tabData.accept(ForestModBlocks.GRAPE_VINE_0.get().asItem());
 				})
 
 		);
@@ -215,6 +216,7 @@ public class ForestModTabs {
 
 		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "food"), builder -> builder.title(Component.translatable("item_group.forest.food")).icon(() -> new ItemStack(ForestModItems.MEAT_LOAF.get())).displayItems((parameters, tabData) -> {
+			tabData.accept(ForestModItems.GRAPE.get());
 			tabData.accept(ForestModItems.BLUEBERRY.get());
 			tabData.accept(ForestModItems.LETTUCE.get());
 			tabData.accept(ForestModItems.RAW_BARBECUE.get());

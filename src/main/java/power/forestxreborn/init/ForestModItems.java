@@ -24,6 +24,7 @@ import power.forestxreborn.item.MeatLoafItem;
 import power.forestxreborn.item.LettuceSeedItem;
 import power.forestxreborn.item.LettuceItem;
 import power.forestxreborn.item.LardItem;
+import power.forestxreborn.item.GrapeItem;
 import power.forestxreborn.item.GlazedGingerbreadPineItem;
 import power.forestxreborn.item.GlazedGingerbreadMenItem;
 import power.forestxreborn.item.GingerbreadRoundItem;
@@ -212,6 +213,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> PURPLE_FENCE_GATE = block(ForestModBlocks.PURPLE_FENCE_GATE);
 	public static final RegistryObject<Item> MAGENTA_FENCE_GATE = block(ForestModBlocks.MAGENTA_FENCE_GATE);
 	public static final RegistryObject<Item> PINK_FENCE_GATE = block(ForestModBlocks.PINK_FENCE_GATE);
+	public static final RegistryObject<Item> GRAPE = REGISTRY.register("grape", () -> new GrapeItem());
 	public static final RegistryObject<Item> BLUEBERRY = REGISTRY.register("blueberry", () -> new BlueberryItem());
 	public static final RegistryObject<Item> LETTUCE = REGISTRY.register("lettuce", () -> new LettuceItem());
 	public static final RegistryObject<Item> RAW_BARBECUE = REGISTRY.register("raw_barbecue", () -> new RawBarbecueItem());
@@ -249,6 +251,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> BLUE_ROSE = block(ForestModBlocks.BLUE_ROSE);
 	public static final RegistryObject<Item> SUNSHROOM = block(ForestModBlocks.SUNSHROOM);
 	public static final RegistryObject<Item> MOONSHROOM = block(ForestModBlocks.MOONSHROOM);
+	public static final RegistryObject<Item> GRAPE_VINE_0 = block(ForestModBlocks.GRAPE_VINE_0);
 	public static final RegistryObject<Item> CLAY_OVEN = block(ForestModBlocks.CLAY_OVEN);
 	public static final RegistryObject<Item> SILVER_ORE = block(ForestModBlocks.SILVER_ORE);
 	public static final RegistryObject<Item> DEEPSLATE_SILVER_ORE = block(ForestModBlocks.DEEPSLATE_SILVER_ORE);
@@ -293,6 +296,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> EUCALYPTUS_DOOR = doubleBlock(ForestModBlocks.EUCALYPTUS_DOOR);
 	public static final RegistryObject<Item> EUCALYPTUS_TRAPDOOR = block(ForestModBlocks.EUCALYPTUS_TRAPDOOR);
 	public static final RegistryObject<Item> EUCALYPTUS_SAPLING = block(ForestModBlocks.EUCALYPTUS_SAPLING);
+	public static final RegistryObject<Item> GRAPE_VINE_1 = block(ForestModBlocks.GRAPE_VINE_1);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

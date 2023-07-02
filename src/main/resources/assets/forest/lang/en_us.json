@@ -82,6 +82,7 @@
   "block.forest.pumice_bricks_slab": "Pumice Bricks Slab",
   "item.forest.gingerbread_man": "Gingerbread",
   "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
+  "block.forest.grape_vine_0": "Grape Vine",
   "item.forest.lettuce_seed": "Lettuce Seed",
   "block.forest.polished_sandslate_wall": "Polished Sandslate Wall",
   "block.forest.red_slab": "Red Slab",
@@ -89,6 +90,7 @@
   "block.forest.cobbled_sandslate_slab": "Cobbled Sandslate Slab",
   "block.forest.blue_fence": "Blue Fence",
   "block.forest.clay_oven": "Clay Oven",
+  "block.forest.grape_vine_1": "Grape Vine",
   "block.forest.truncated_pumice_stairs": "Truncated Pumice Stairs",
   "block.forest.eucalyptus_sapling": "Eucalyptus Sapling",
   "block.forest.light_blue_stairs": "Light Blue Stairs",
@@ -266,5 +268,6 @@
   "block.forest.orange_fence": "Orange Fence",
   "block.forest.pink_slab": "Pink Slab",
   "block.forest.eucalyptus_planks": "Eucalyptus Planks",
+  "item.forest.grape": "Grape",
   "block.forest.dense_web": "Dense Web"
 }
