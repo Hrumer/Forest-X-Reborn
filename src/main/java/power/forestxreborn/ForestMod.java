@@ -62,7 +62,6 @@ public class ForestMod {
 		ForestModFeatures.REGISTRY.register(bus);
 
 		ForestModMenus.REGISTRY.register(bus);
-
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

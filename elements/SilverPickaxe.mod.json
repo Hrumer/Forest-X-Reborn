@@ -28,9 +28,6 @@
     ],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,
-    "damageOnCrafting": false,
-    "onCrafted": {
-      "name": "SilverEnchant"
-    }
+    "damageOnCrafting": false
   }
 }
