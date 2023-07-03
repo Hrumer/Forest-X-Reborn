@@ -32,7 +32,7 @@ public class SilverSwordItem extends SwordItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 15;
+				return 40;
 			}
 
 			public Ingredient getRepairIngredient() {

@@ -28,7 +28,7 @@ public abstract class SilverArmorItem extends ArmorItem {
 
 			@Override
 			public int getEnchantmentValue() {
-				return 22;
+				return 40;
 			}
 
 			@Override

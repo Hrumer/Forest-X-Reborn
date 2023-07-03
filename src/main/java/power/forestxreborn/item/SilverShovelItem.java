@@ -32,7 +32,7 @@ public class SilverShovelItem extends ShovelItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 40;
 			}
 
 			public Ingredient getRepairIngredient() {
