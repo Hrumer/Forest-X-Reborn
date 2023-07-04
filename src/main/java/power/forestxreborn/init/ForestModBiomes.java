@@ -55,10 +55,6 @@ public class ForestModBiomes {
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.5615f, 0.0384827376f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "peatbog")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.3997f, 0.8f), Climate.Parameter.span(0.2f, 1.8f), Climate.Parameter.span(-0.29f, 0.31f), Climate.Parameter.span(0.2005f, 1.7f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-0.5615f, 0.0384827376f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "peatbog")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.5f, 1f), Climate.Parameter.span(-1f, 0.35f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(0.7284f, 1f), Climate.Parameter.point(0.0f),
-							Climate.Parameter.span(0.45f, 0.9f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "volcano")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.5f, 1f), Climate.Parameter.span(-1f, 0.35f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(0.7284f, 1f), Climate.Parameter.point(1.0f),
-							Climate.Parameter.span(0.45f, 0.9f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "volcano")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.5712f, 0.9999f), Climate.Parameter.span(-1.2f, -0.6999f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.4f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "semidesert")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.5712f, 0.9999f), Climate.Parameter.span(-1.2f, -0.6999f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-0.5f, 0.5f),
@@ -91,8 +87,6 @@ public class ForestModBiomes {
 								Blocks.COARSE_DIRT.defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "peatbog")), ForestModBlocks.PEAT.get().defaultBlockState(), Blocks.COARSE_DIRT.defaultBlockState(),
 								ForestModBlocks.PEAT.get().defaultBlockState()));
-						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "volcano")), ForestModBlocks.PUMICE.get().defaultBlockState(), Blocks.SMOOTH_BASALT.defaultBlockState(),
-								Blocks.STONE.defaultBlockState()));
 						surfaceRules.add(1,
 								preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "semidesert")), Blocks.SAND.defaultBlockState(), Blocks.SAND.defaultBlockState(), Blocks.SAND.defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "dry_thorn_forest")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(),
