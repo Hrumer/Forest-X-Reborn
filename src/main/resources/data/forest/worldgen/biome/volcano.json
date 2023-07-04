@@ -1,26 +1,37 @@
 {
-  "has_precipitation": false,
-  "temperature": 2,
-  "downfall": 0,
+  "has_precipitation": true,
+  "temperature": 1.6,
+  "downfall": 0.1,
   "effects": {
+    "ambient_sound": "ambient.basalt_deltas.loop",
+    "mood_sound": {
+      "sound": "ambient.basalt_deltas.mood",
+      "tick_delay": 6000,
+      "offset": 8,
+      "block_search_extent": 2
+    },
+    "additions_sound": {
+      "sound": "ambient.basalt_deltas.additions",
+      "tick_chance": 0.0111
+    },
     "particle": {
       "options": {
         "type": "ash"
       },
-      "probability": 0.55
+      "probability": 0.0065
     },
     "foliage_color": -10066330,
     "grass_color": -10066330,
     "sky_color": -10066330,
     "fog_color": -10066330,
-    "water_color": -16750951,
-    "water_fog_color": -16750951
+    "water_color": -16751002,
+    "water_fog_color": -16751002
   },
   "spawners": {
     "monster": [
       {
         "type": "magma_cube",
-        "weight": 5,
+        "weight": 8,
         "minCount": 2,
         "maxCount": 4
       }
@@ -47,9 +58,13 @@
       "minecraft:lake_lava_underground"
     ],
     [
-      "minecraft:amethyst_geode"
+      "minecraft:amethyst_geode",
+      "minecraft:large_dripstone"
     ],
-    [],
+    [
+      "minecraft:fossil_upper",
+      "minecraft:fossil_lower"
+    ],
     [],
     [],
     [
@@ -74,7 +89,9 @@
     ],
     [],
     [],
-    [],
+    [
+      "minecraft:patch_dead_bush_2"
+    ],
     [
       "minecraft:freeze_top_layer"
     ]

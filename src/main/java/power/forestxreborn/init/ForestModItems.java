@@ -101,6 +101,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RHYOLITE_WALL = block(ForestModBlocks.RHYOLITE_WALL);
 	public static final RegistryObject<Item> POLISHED_RHYOLITE_WALL = block(ForestModBlocks.POLISHED_RHYOLITE_WALL);
 	public static final RegistryObject<Item> RHYOLITE_BRICKS_WALL = block(ForestModBlocks.RHYOLITE_BRICKS_WALL);
+	public static final RegistryObject<Item> ASH_BLOCK = block(ForestModBlocks.ASH_BLOCK);
 	public static final RegistryObject<Item> PUMICE = block(ForestModBlocks.PUMICE);
 	public static final RegistryObject<Item> POLISHED_PUMICE = block(ForestModBlocks.POLISHED_PUMICE);
 	public static final RegistryObject<Item> PUMICE_BRICKS = block(ForestModBlocks.PUMICE_BRICKS);

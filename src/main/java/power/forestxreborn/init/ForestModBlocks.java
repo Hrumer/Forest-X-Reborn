@@ -200,6 +200,7 @@ import power.forestxreborn.block.BlackPlanksBlock;
 import power.forestxreborn.block.BlackFenceGateBlock;
 import power.forestxreborn.block.BlackFenceBlock;
 import power.forestxreborn.block.BirchParquetBlock;
+import power.forestxreborn.block.AshBlockBlock;
 import power.forestxreborn.block.AcaciaParquetBlock;
 import power.forestxreborn.ForestMod;
 
@@ -257,6 +258,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RHYOLITE_WALL = REGISTRY.register("rhyolite_wall", () -> new RhyoliteWallBlock());
 	public static final RegistryObject<Block> POLISHED_RHYOLITE_WALL = REGISTRY.register("polished_rhyolite_wall", () -> new PolishedRhyoliteWallBlock());
 	public static final RegistryObject<Block> RHYOLITE_BRICKS_WALL = REGISTRY.register("rhyolite_bricks_wall", () -> new RhyoliteBricksWallBlock());
+	public static final RegistryObject<Block> ASH_BLOCK = REGISTRY.register("ash_block", () -> new AshBlockBlock());
 	public static final RegistryObject<Block> PUMICE = REGISTRY.register("pumice", () -> new PumiceBlock());
 	public static final RegistryObject<Block> POLISHED_PUMICE = REGISTRY.register("polished_pumice", () -> new PolishedPumiceBlock());
 	public static final RegistryObject<Block> PUMICE_BRICKS = REGISTRY.register("pumice_bricks", () -> new PumiceBricksBlock());

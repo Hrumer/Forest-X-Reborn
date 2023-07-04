@@ -4,13 +4,13 @@
   "definition": {
     "name": "Volcano",
     "groundBlock": {
-      "value": "CUSTOM:Pumice"
+      "value": "CUSTOM:AshBlock"
     },
     "undergroundBlock": {
-      "value": "Blocks.SMOOTH_BASALT"
+      "value": "CUSTOM:AshBlock"
     },
     "underwaterBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "CUSTOM:Pumice"
     },
     "airColor": {
       "value": -10066330,
@@ -25,55 +25,55 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -16750951,
+      "value": -16751002,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -16750951,
+      "value": -16751002,
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": ""
+      "value": "ambient.basalt_deltas.loop"
     },
     "additionsSound": {
-      "value": ""
+      "value": "ambient.basalt_deltas.additions"
     },
     "music": {
       "value": ""
     },
     "moodSound": {
-      "value": ""
+      "value": "ambient.basalt_deltas.mood"
     },
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
       "value": "ASH"
     },
-    "particlesProbability": 55.0,
-    "rainingPossibility": 0.0,
-    "temperature": 2.0,
-    "spawnBiome": false,
+    "particlesProbability": 0.65,
+    "rainingPossibility": 0.1,
+    "temperature": 1.6,
+    "spawnBiome": true,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -1.0,
-      "max": 1.0
+      "max": -0.45
     },
     "genHumidity": {
       "min": -1.0,
-      "max": 1.0
+      "max": -0.1
     },
     "genContinentalness": {
       "min": 0.5,
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.5278,
+      "min": 0.5,
       "max": 1.0
     },
     "genWeirdness": {
-      "min": 0.55,
-      "max": 1.0
+      "min": -2.0,
+      "max": 2.0
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Default",
@@ -92,15 +92,19 @@
       "value": ""
     },
     "defaultFeatures": [
-      "Caves",
+      "Fossils",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
       "Ores",
+      "Dripstone",
+      "InfestedStone",
       "FrozenTopLayer",
       "AmethystGeodes",
-      "ExtraEmeraldOre",
-      "ExtraGoldOre"
+      "Caves",
+      "DeadBushes"
     ],
     "spawnStronghold": false,
-    "spawnMineshaft": false,
+    "spawnMineshaft": true,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
@@ -112,13 +116,13 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
-    "spawnBuriedTreasure": false,
+    "spawnBuriedTreasure": true,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "NONE",
+    "spawnRuinedPortal": "NETHER",
     "spawnEntries": [
       {
         "entity": {
@@ -126,7 +130,7 @@
         },
         "minGroup": 2,
         "maxGroup": 4,
-        "weight": 5,
+        "weight": 8,
         "spawnType": "monster"
       }
     ]
