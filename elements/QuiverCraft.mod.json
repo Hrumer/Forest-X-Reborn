@@ -12,37 +12,37 @@
     "recipeShapeless": false,
     "recipeSlots": [
       {
-        "value": "CUSTOM:SilverIngot"
-      },
-      {
-        "value": "CUSTOM:SilverIngot"
+        "value": "Items.LEATHER"
       },
       {
         "value": ""
       },
       {
-        "value": ""
+        "value": "Items.LEATHER"
       },
       {
-        "value": "Items.STICK"
+        "value": "Items.STRING"
       },
       {
-        "value": ""
+        "value": "Items.LEATHER"
       },
       {
-        "value": ""
+        "value": "Items.LEATHER"
       },
       {
-        "value": "Items.STICK"
+        "value": "Items.STRING"
       },
       {
-        "value": ""
+        "value": "Items.LEATHER"
+      },
+      {
+        "value": "Items.LEATHER"
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:SilverHoe"
+      "value": "CUSTOM:Quiver"
     },
-    "name": "silver_hoe_recipe",
+    "name": "quiver_craft",
     "namespace": "mod"
   }
 }

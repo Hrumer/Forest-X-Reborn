@@ -76,10 +76,13 @@ public class ClayOvenGUIMenu extends AbstractContainerMenu implements Supplier<M
 			}
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 55, 17) {
+			private final int slot = 0;
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 55, 53) {
+			private final int slot = 1;
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 113, 35) {
+			private final int slot = 2;
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)
