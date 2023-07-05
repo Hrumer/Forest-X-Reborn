@@ -10,18 +10,18 @@
       "value": "CUSTOM:AshBlock"
     },
     "underwaterBlock": {
-      "value": "CUSTOM:Pumice"
+      "value": "Blocks.MAGMA"
     },
     "airColor": {
       "value": -10066330,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -10066330,
+      "value": -7948413,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -10066330,
+      "value": -9919388,
       "falpha": 0.0
     },
     "waterColor": {
@@ -33,7 +33,7 @@
       "falpha": 0.0
     },
     "ambientSound": {
-      "value": "ambient.basalt_deltas.loop"
+      "value": ""
     },
     "additionsSound": {
       "value": "ambient.basalt_deltas.additions"
@@ -76,7 +76,7 @@
       "max": 2.0
     },
     "treesPerChunk": 0,
-    "vanillaTreeType": "Default",
+    "vanillaTreeType": "Mega spruce trees",
     "treeType": 0,
     "minHeight": 7,
     "treeStem": {
