@@ -6,7 +6,7 @@ name: Snapshot
 on:
   push:
     branches:
-      - "dev"
+      - "snapshot"
 env:                                              
   MINECRAFT_VERSION: 1.19.4                       
   JAVA_VERSION: 17      
@@ -15,9 +15,7 @@ env:
 
 jobs:
   build:
-    runs-on: ubuntu-latest 
-    permissions:
-      issues: write
+    runs-on: ubuntu-latest                        
     steps:                                        
       - name: Check Environment Variables
         run: env
@@ -44,10 +42,10 @@ jobs:
         id: publish
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-#          curseforge-id: 689955
- #         curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-  #        modrinth-id: 6SZBMNXj 
-   #       modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          curseforge-id: 689955
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+          modrinth-id: 6SZBMNXj 
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
           github-token: ${{ secrets.GITHUB_TOKEN }}
           
           name: "${{env.RELEASE_NAME}}"                             
@@ -59,7 +57,7 @@ jobs:
           game-versions: "${{env.MINECRAFT_VERSION}}"
           java: "${{env.JAVA_VERSION}}"
 
-    #      modrinth-featured: false
+          modrinth-featured: false
           fail-mode: warn	
           
       - name: Send Discord webhook
