@@ -38,7 +38,7 @@ jobs:
       - name: Build
         run: ./gradlew build
 
-      - name: Publish mod to GitHub, CurseForge and Modrinth
+      - name: Publish mod to CurseForge and Modrinth
         id: publish
         uses: Kir-Antipov/mc-publish@v3.3
         with:
@@ -46,7 +46,6 @@ jobs:
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           modrinth-id: 6SZBMNXj 
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           
           name: "${{env.RELEASE_NAME}}"                             
           version: "${{env.VERSION}}"
