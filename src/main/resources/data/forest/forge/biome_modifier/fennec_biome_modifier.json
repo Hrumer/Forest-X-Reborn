@@ -2,6 +2,7 @@
   "type": "forge:add_spawns",
   "biomes": [
     "forest:semidesert",
+    "plains",
     "desert"
   ],
   "spawners": {

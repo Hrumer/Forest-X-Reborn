@@ -139,6 +139,8 @@ import power.forestxreborn.block.GraySlabBlock;
 import power.forestxreborn.block.GrayPlanksBlock;
 import power.forestxreborn.block.GrayFenceGateBlock;
 import power.forestxreborn.block.GrayFenceBlock;
+import power.forestxreborn.block.GrapeVine1Block;
+import power.forestxreborn.block.GrapeVine0Block;
 import power.forestxreborn.block.GingerbreadBricksBlock;
 import power.forestxreborn.block.GingerbreadBlockBlock;
 import power.forestxreborn.block.EucalyptusWoodBlock;
@@ -198,6 +200,7 @@ import power.forestxreborn.block.BlackPlanksBlock;
 import power.forestxreborn.block.BlackFenceGateBlock;
 import power.forestxreborn.block.BlackFenceBlock;
 import power.forestxreborn.block.BirchParquetBlock;
+import power.forestxreborn.block.AshBlockBlock;
 import power.forestxreborn.block.AcaciaParquetBlock;
 import power.forestxreborn.ForestMod;
 
@@ -255,6 +258,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RHYOLITE_WALL = REGISTRY.register("rhyolite_wall", () -> new RhyoliteWallBlock());
 	public static final RegistryObject<Block> POLISHED_RHYOLITE_WALL = REGISTRY.register("polished_rhyolite_wall", () -> new PolishedRhyoliteWallBlock());
 	public static final RegistryObject<Block> RHYOLITE_BRICKS_WALL = REGISTRY.register("rhyolite_bricks_wall", () -> new RhyoliteBricksWallBlock());
+	public static final RegistryObject<Block> ASH_BLOCK = REGISTRY.register("ash_block", () -> new AshBlockBlock());
 	public static final RegistryObject<Block> PUMICE = REGISTRY.register("pumice", () -> new PumiceBlock());
 	public static final RegistryObject<Block> POLISHED_PUMICE = REGISTRY.register("polished_pumice", () -> new PolishedPumiceBlock());
 	public static final RegistryObject<Block> PUMICE_BRICKS = REGISTRY.register("pumice_bricks", () -> new PumiceBricksBlock());
@@ -376,6 +380,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> BLUE_ROSE = REGISTRY.register("blue_rose", () -> new BlueRoseBlock());
 	public static final RegistryObject<Block> SUNSHROOM = REGISTRY.register("sunshroom", () -> new SunshroomBlock());
 	public static final RegistryObject<Block> MOONSHROOM = REGISTRY.register("moonshroom", () -> new MoonshroomBlock());
+	public static final RegistryObject<Block> GRAPE_VINE_0 = REGISTRY.register("grape_vine_0", () -> new GrapeVine0Block());
 	public static final RegistryObject<Block> CLAY_OVEN = REGISTRY.register("clay_oven", () -> new ClayOvenBlock());
 	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
 	public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = REGISTRY.register("deepslate_silver_ore", () -> new DeepslateSilverOreBlock());
@@ -408,6 +413,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> EUCALYPTUS_DOOR = REGISTRY.register("eucalyptus_door", () -> new EucalyptusDoorBlock());
 	public static final RegistryObject<Block> EUCALYPTUS_TRAPDOOR = REGISTRY.register("eucalyptus_trapdoor", () -> new EucalyptusTrapdoorBlock());
 	public static final RegistryObject<Block> EUCALYPTUS_SAPLING = REGISTRY.register("eucalyptus_sapling", () -> new EucalyptusSaplingBlock());
+	public static final RegistryObject<Block> GRAPE_VINE_1 = REGISTRY.register("grape_vine_1", () -> new GrapeVine1Block());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

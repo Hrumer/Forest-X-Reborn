@@ -1,0 +1,16 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "missing": "grape_vine0"
+      },
+      "name": "default"
+    },
+    "growed": {
+      "map": {
+        "missing": "grape_vine1"
+      },
+      "name": "growed"
+    }
+  }
+}

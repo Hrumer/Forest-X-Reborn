@@ -10,7 +10,7 @@
     "name": "Lettuce",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Harvest"
+      "value": "CUSTOM:Food"
     },
     "stackSize": 64,
     "enchantability": 0,

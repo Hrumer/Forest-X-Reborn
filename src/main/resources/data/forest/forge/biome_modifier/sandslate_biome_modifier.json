@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "desert",
+  "biomes": [
+    "plains",
+    "desert"
+  ],
   "features": "forest:sandslate",
   "step": "underground_ores"
 }

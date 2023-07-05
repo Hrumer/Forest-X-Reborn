@@ -15,10 +15,15 @@ import power.forestxreborn.world.features.ores.RhyoliteFeature;
 import power.forestxreborn.world.features.ores.DeepslateSilverOreFeature;
 import power.forestxreborn.world.features.VolcanoLavaLakesFeature;
 import power.forestxreborn.world.features.SunshroomsFeatureFeature;
+import power.forestxreborn.world.features.StonePatchFeature;
 import power.forestxreborn.world.features.SemidesertPatchFeature;
 import power.forestxreborn.world.features.RedMushroomsFeatureFeature;
+import power.forestxreborn.world.features.PumicePatchFeature;
 import power.forestxreborn.world.features.PeatbogLakesFeature;
+import power.forestxreborn.world.features.ObsidianPatchFeature;
 import power.forestxreborn.world.features.MoonshroomsFeatureFeature;
+import power.forestxreborn.world.features.LavaPatchFeature;
+import power.forestxreborn.world.features.CobblestonePatchFeature;
 import power.forestxreborn.world.features.BrownMushroomsFeatureFeature;
 import power.forestxreborn.world.features.BlueberriesBushFeatureFeature;
 import power.forestxreborn.world.features.BigRedMushroomsFeatureFeature;
@@ -54,4 +59,9 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> SUNSHROOMS_FEATURE = REGISTRY.register("sunshrooms_feature", SunshroomsFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> BIG_BROWN_MUSHROOMS_FEATURE = REGISTRY.register("big_brown_mushrooms_feature", BigBrownMushroomsFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> BIG_RED_MUSHROOMS_FEATURE = REGISTRY.register("big_red_mushrooms_feature", BigRedMushroomsFeatureFeature::new);
+	public static final RegistryObject<Feature<?>> OBSIDIAN_PATCH = REGISTRY.register("obsidian_patch", ObsidianPatchFeature::new);
+	public static final RegistryObject<Feature<?>> PUMICE_PATCH = REGISTRY.register("pumice_patch", PumicePatchFeature::new);
+	public static final RegistryObject<Feature<?>> STONE_PATCH = REGISTRY.register("stone_patch", StonePatchFeature::new);
+	public static final RegistryObject<Feature<?>> COBBLESTONE_PATCH = REGISTRY.register("cobblestone_patch", CobblestonePatchFeature::new);
+	public static final RegistryObject<Feature<?>> LAVA_PATCH = REGISTRY.register("lava_patch", LavaPatchFeature::new);
 }
