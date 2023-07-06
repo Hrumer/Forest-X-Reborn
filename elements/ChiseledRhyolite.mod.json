@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "chiseled_rhyolite",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Сhiseled Rhyolite",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 2.0,
     "resistance": 100.0,
     "hasGravity": false,

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "eucalyptus_parquet",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Eucalyptus Parquet",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,

@@ -1,6 +1,6 @@
 What's new in Forest X Reborn 1.3.0?<br />
 Snapshot 1.3.0.2307**:
-<br /> - 
+<br /> - Added a hint about the amount of arrows in the quiver
 <br /> - [Bugfix] 
 Snapshot 1.3.0.230705:
 <br /> - Added silver armor

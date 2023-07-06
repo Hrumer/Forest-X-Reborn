@@ -7958,6 +7958,27 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "QuiverValue",
+      "type": "procedure",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quiver_value",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/QuiverValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/ToolsEquipments/Quiver"
     }
   ],
   "variable_elements": [],
@@ -8073,6 +8094,7 @@
       "item.forest.gingerbread_brick": "Пряник",
       "block.forest.pumice_bricks_slab": "Плита из кирпичей пемзы",
       "item.forest.gingerbread_man": "Пряник",
+      "special_info.quiver.arrows_count": "Количество стрел: ",
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
       "block.forest.grape_vine_0": "Виноградная лоза",
       "item.forest.silver_armor_helmet": "Серебряный шлем",
@@ -8352,6 +8374,7 @@
       "item.forest.gingerbread_brick": "Gingerbread",
       "block.forest.pumice_bricks_slab": "Pumice Bricks Slab",
       "item.forest.gingerbread_man": "Gingerbread",
+      "special_info.quiver.arrows_count": "Amount of arrows:",
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
       "block.forest.grape_vine_0": "Grape Vine",
       "item.forest.silver_armor_helmet": "Silver Helmet",
@@ -8722,5 +8745,5 @@
     "modElementsPackage": "power.forestxreborn",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300327312
+  "mcreatorVersion": 202300327422
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "red_planks",
@@ -35,7 +35,9 @@
       }
     ],
     "name": "Red Fence",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,
