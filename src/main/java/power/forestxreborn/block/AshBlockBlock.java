@@ -24,7 +24,12 @@ import java.util.Collections;
 
 public class AshBlockBlock extends FallingBlock {
 	public AshBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.SAND).sound(SoundType.SAND).strength(1.42f, 5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.SAND).sound(SoundType.SAND).strength(0.2f, 5f).requiresCorrectToolForDrops());
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, BlockGetter blockGetter, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, blockGetter, list, flag);
 	}
 
 	@Override

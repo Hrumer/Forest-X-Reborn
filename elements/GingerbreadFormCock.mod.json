@@ -27,7 +27,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": "Cock"
+      "fixedValue": "Cock",
+      "name": "GingerbreadCockLC"
     },
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

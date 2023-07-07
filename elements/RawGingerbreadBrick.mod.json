@@ -27,7 +27,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": "Brick"
+      "fixedValue": "Brick",
+      "name": "GingerbreadBrickLC"
     },
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

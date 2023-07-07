@@ -27,7 +27,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": "Man"
+      "fixedValue": "Man",
+      "name": "GingerbreadMenLC"
     },
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

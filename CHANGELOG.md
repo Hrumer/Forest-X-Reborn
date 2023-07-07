@@ -1,6 +1,13 @@
 What's new in Forest X Reborn 1.3.0?<br />
 Snapshot 1.3.0.2307**:
-<br /> - 
+<br /> - Ash cover block added
+<br /> - [Bugfix] Fixed the time of destruction of the ash block
+Snapshot 1.3.0.230707:
+<br /> - Added a hint about the amount of arrows in the quiver
+<br /> - Added translations for gingerbread tips
+<br /> - The volcanic biome has been recycled again
+<br /> - Improved the patch of grass block in the semi-desert
+<br /> - Updated panorama again
 <br /> - [Bugfix] 
 Snapshot 1.3.0.230705:
 <br /> - Added silver armor

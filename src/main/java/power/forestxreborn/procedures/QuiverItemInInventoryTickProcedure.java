@@ -249,5 +249,78 @@ public class QuiverItemInInventoryTickProcedure {
 			}
 			quiverSlot = quiverSlot + 1;
 		}
+		itemstack.getOrCreateTag().putDouble("arrowCount", ((new Object() {
+			public ItemStack getItemStack(int sltid, ItemStack _isc) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				_isc.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					_retval.set(capability.getStackInSlot(sltid).copy());
+				});
+				return _retval.get();
+			}
+		}.getItemStack(0, itemstack)).getCount() + (new Object() {
+			public ItemStack getItemStack(int sltid, ItemStack _isc) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				_isc.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					_retval.set(capability.getStackInSlot(sltid).copy());
+				});
+				return _retval.get();
+			}
+		}.getItemStack(1, itemstack)).getCount() + (new Object() {
+			public ItemStack getItemStack(int sltid, ItemStack _isc) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				_isc.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					_retval.set(capability.getStackInSlot(sltid).copy());
+				});
+				return _retval.get();
+			}
+		}.getItemStack(2, itemstack)).getCount() + (new Object() {
+			public ItemStack getItemStack(int sltid, ItemStack _isc) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				_isc.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					_retval.set(capability.getStackInSlot(sltid).copy());
+				});
+				return _retval.get();
+			}
+		}.getItemStack(3, itemstack)).getCount() + (new Object() {
+			public ItemStack getItemStack(int sltid, ItemStack _isc) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				_isc.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					_retval.set(capability.getStackInSlot(sltid).copy());
+				});
+				return _retval.get();
+			}
+		}.getItemStack(4, itemstack)).getCount() + (new Object() {
+			public ItemStack getItemStack(int sltid, ItemStack _isc) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				_isc.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					_retval.set(capability.getStackInSlot(sltid).copy());
+				});
+				return _retval.get();
+			}
+		}.getItemStack(5, itemstack)).getCount() + (new Object() {
+			public ItemStack getItemStack(int sltid, ItemStack _isc) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				_isc.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					_retval.set(capability.getStackInSlot(sltid).copy());
+				});
+				return _retval.get();
+			}
+		}.getItemStack(6, itemstack)).getCount() + (new Object() {
+			public ItemStack getItemStack(int sltid, ItemStack _isc) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				_isc.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					_retval.set(capability.getStackInSlot(sltid).copy());
+				});
+				return _retval.get();
+			}
+		}.getItemStack(7, itemstack)).getCount() + (new Object() {
+			public ItemStack getItemStack(int sltid, ItemStack _isc) {
+				AtomicReference<ItemStack> _retval = new AtomicReference<>(ItemStack.EMPTY);
+				_isc.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
+					_retval.set(capability.getStackInSlot(sltid).copy());
+				});
+				return _retval.get();
+			}
+		}.getItemStack(8, itemstack)).getCount()));
 	}
 }
