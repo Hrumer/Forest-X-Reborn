@@ -1,7 +1,8 @@
 {
   "type": "forest:semidesert_patch",
   "config": {
-    "tries": 256,
+    "tries": 512,
+    "xz_spread": 16,
     "y_spread": 1,
     "feature": {
       "feature": {
@@ -22,14 +23,8 @@
         {
           "type": "minecraft:block_predicate_filter",
           "predicate": {
-            "type": "minecraft:not",
-            "predicate": {
-              "type": "minecraft:matching_blocks",
-              "blocks": [
-                "minecraft:air",
-                "minecraft:water"
-              ]
-            }
+            "type": "minecraft:matching_blocks",
+            "blocks": "#minecraft:sand"
           }
         }
       ]
