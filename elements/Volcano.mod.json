@@ -25,11 +25,11 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -16751002,
+      "value": -12210702,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -16751002,
+      "value": -12210702,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -49,7 +49,7 @@
     "particleToSpawn": {
       "value": "ASH"
     },
-    "particlesProbability": 0.65,
+    "particlesProbability": 0.8,
     "rainingPossibility": 0.1,
     "temperature": 1.6,
     "spawnBiome": true,
@@ -57,23 +57,23 @@
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -1.0,
-      "max": -0.45
+      "max": 1.0
     },
     "genHumidity": {
       "min": -1.0,
-      "max": -0.35
+      "max": 1.0
     },
     "genContinentalness": {
-      "min": 0.5,
+      "min": 0.3,
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.5499,
+      "min": 0.5498000000000001,
       "max": 1.0
     },
     "genWeirdness": {
-      "min": -2.0,
-      "max": 2.0
+      "min": 0.7,
+      "max": 1.0
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Mega spruce trees",
