@@ -53,7 +53,7 @@
     "rainingPossibility": 0.1,
     "temperature": 1.6,
     "spawnBiome": true,
-    "spawnInCaves": true,
+    "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -1.0,
@@ -68,7 +68,7 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.55,
+      "min": 0.5499,
       "max": 1.0
     },
     "genWeirdness": {
