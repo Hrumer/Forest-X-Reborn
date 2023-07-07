@@ -4,6 +4,7 @@ Snapshot 1.3.0.2307**:
 <br /> - Added translations for gingerbread tips
 <br /> - The volcanic biome has been recycled again
 <br /> - Improved the patch of grass block in the semi-desert
+<br /> - Updated panorama again
 <br /> - [Bugfix] 
 Snapshot 1.3.0.230705:
 <br /> - Added silver armor
