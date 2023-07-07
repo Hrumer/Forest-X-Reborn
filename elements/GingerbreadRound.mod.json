@@ -27,7 +27,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": "Round"
+      "fixedValue": "Round",
+      "name": "GingerbreadRoundLC"
     },
     "hasGlow": false,
     "guiBoundTo": "<NONE>",

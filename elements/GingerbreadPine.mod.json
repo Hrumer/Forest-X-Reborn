@@ -27,7 +27,8 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": "Pine"
+      "fixedValue": "Pine",
+      "name": "GingerbreadPineLC"
     },
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
