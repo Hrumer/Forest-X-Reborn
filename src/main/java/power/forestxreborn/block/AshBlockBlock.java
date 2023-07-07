@@ -33,11 +33,6 @@ public class AshBlockBlock extends FallingBlock {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter blockGetter, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, blockGetter, list, flag);
-	}
-
-	@Override
 	public int getLightBlock(BlockState state, BlockGetter worldIn, BlockPos pos) {
 		return 15;
 	}
