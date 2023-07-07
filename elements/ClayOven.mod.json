@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "clay_oven_side",
@@ -43,7 +43,9 @@
       }
     ],
     "name": "Clay Oven",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

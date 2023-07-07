@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "magenta_planks",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Magenta Planks",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,

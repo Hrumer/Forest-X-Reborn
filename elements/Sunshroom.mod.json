@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -31,7 +31,6 @@
       }
     ],
     "name": "Sunshroom",
-    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Plants"
     },

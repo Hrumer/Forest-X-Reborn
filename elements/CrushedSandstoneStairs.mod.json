@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "crushed_sandstone",
@@ -35,7 +35,9 @@
       }
     ],
     "name": "Crushed sandstone stairs",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 2.5,
     "resistance": 50.0,
     "hasGravity": false,
