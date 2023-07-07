@@ -49,7 +49,7 @@ public class AshCoverBlock extends FallingBlock {
 
 	@Override
 	public VoxelShape getShape(BlockState state, BlockGetter world, BlockPos pos, CollisionContext context) {
-		return box(-1, 0, 0, 15, 1, 16);
+		return box(0, 0, 0, 16, 1, 16);
 	}
 
 	@Override
