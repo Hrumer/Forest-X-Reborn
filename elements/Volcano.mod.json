@@ -53,7 +53,7 @@
     "rainingPossibility": 0.1,
     "temperature": 1.6,
     "spawnBiome": true,
-    "spawnInCaves": false,
+    "spawnInCaves": true,
     "spawnBiomeNether": false,
     "genTemperature": {
       "min": -1.0,
@@ -61,14 +61,14 @@
     },
     "genHumidity": {
       "min": -1.0,
-      "max": -0.1
+      "max": -0.35
     },
     "genContinentalness": {
       "min": 0.5,
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.5,
+      "min": 0.55,
       "max": 1.0
     },
     "genWeirdness": {
@@ -128,9 +128,9 @@
         "entity": {
           "value": "EntityMagmaCube"
         },
-        "minGroup": 2,
-        "maxGroup": 4,
-        "weight": 8,
+        "minGroup": 1,
+        "maxGroup": 2,
+        "weight": 2,
         "spawnType": "monster"
       }
     ]
