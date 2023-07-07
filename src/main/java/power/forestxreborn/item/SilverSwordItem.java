@@ -3,11 +3,16 @@ package power.forestxreborn.item;
 
 import power.forestxreborn.init.ForestModItems;
 
+import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.SwordItem;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
+import net.minecraft.network.chat.Component;
+
+import java.util.List;
 
 public class SilverSwordItem extends SwordItem {
 	public SilverSwordItem() {
@@ -36,5 +41,10 @@ public class SilverSwordItem extends SwordItem {
 				return Ingredient.of(new ItemStack(ForestModItems.SILVER_INGOT.get()));
 			}
 		}, 3, -2.4f, new Item.Properties());
+	}
+
+	@Override
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 }

@@ -72,6 +72,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.RHYOLITE_WALL.get().asItem());
 					tabData.accept(ForestModBlocks.POLISHED_RHYOLITE_WALL.get().asItem());
 					tabData.accept(ForestModBlocks.RHYOLITE_BRICKS_WALL.get().asItem());
+					tabData.accept(ForestModBlocks.ASH_COVER.get().asItem());
 					tabData.accept(ForestModBlocks.ASH_BLOCK.get().asItem());
 					tabData.accept(ForestModBlocks.PUMICE.get().asItem());
 					tabData.accept(ForestModBlocks.POLISHED_PUMICE.get().asItem());
