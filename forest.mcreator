@@ -7734,7 +7734,8 @@
       "metadata": {
         "files": [
           "src/main/java/power/forestxreborn/world/inventory/QuiverInventoryMenu.java",
-          "src/main/java/power/forestxreborn/client/gui/QuiverInventoryScreen.java"
+          "src/main/java/power/forestxreborn/client/gui/QuiverInventoryScreen.java",
+          "src/main/java/power/forestxreborn/network/QuiverInventorySlotMessage.java"
         ]
       },
       "path": "~/ToolsEquipments/Quiver"
@@ -8106,6 +8107,40 @@
         ]
       },
       "path": "~/Pumice"
+    },
+    {
+      "name": "RobinHoodIsBack",
+      "type": "achievement",
+      "sortid": 475,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "robin_hood_is_back",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/advancements/robin_hood_is_back.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "AddQuiverAch",
+      "type": "procedure",
+      "sortid": 476,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "add_quiver_ach",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/AddQuiverAchProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/ToolsEquipments/Quiver"
     }
   ],
   "variable_elements": [],
@@ -8200,6 +8235,7 @@
       "block.forest.blueberry_bush_0": " ",
       "block.forest.stripped_eucalyptus_log": "Обтёсанное бревно эвкалипта",
       "item.forest.silver_armor_boots": "Серебряные ботинки",
+      "advancements.robin_hood_is_back.descr": "Создайте колчан и положите туда стрелы",
       "block.forest.lime_fence": "Лаймовый забор",
       "block.forest.polished_marble_slab": "Плита из полированного мрамора",
       "block.forest.white_fence": "Белый забор",
@@ -8383,6 +8419,7 @@
       "block.forest.silver_block": "Блок Серебра",
       "block.forest.marble": "Мрамор",
       "block.forest.black_stairs": "Черные ступени",
+      "advancements.robin_hood_is_back.title": "Робин Гуд вернулся!",
       "block.forest.polished_pumice": "Полированная пемза",
       "item.forest.gingerbread_form_heart": "Форма для пряника",
       "block.forest.peat": "Торф",
@@ -8486,6 +8523,7 @@
       "block.forest.blueberry_bush_0": "Blueberry Bush 0",
       "block.forest.stripped_eucalyptus_log": "Stripped Eucalyptus Log",
       "item.forest.silver_armor_boots": "Silver Boots",
+      "advancements.robin_hood_is_back.descr": "Create a quiver and put arrows there",
       "block.forest.lime_fence": "Lime Fence",
       "block.forest.polished_marble_slab": "Polished Marble Slab",
       "item.forest.silver_shovel": "Silver Shovel",
@@ -8669,6 +8707,7 @@
       "block.forest.silver_block": "Block of Silver",
       "block.forest.marble": "Marble",
       "block.forest.black_stairs": "Black Stairs",
+      "advancements.robin_hood_is_back.title": "Robin Hood is back!",
       "block.forest.polished_pumice": "Polished Pumice",
       "item.forest.gingerbread_form_heart": "Gingerbread Form",
       "block.forest.peat": "Peat",

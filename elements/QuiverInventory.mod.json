@@ -24,6 +24,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddQuiverAch"
+          },
           "x": 132,
           "y": 71
         }
@@ -42,6 +45,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddQuiverAch"
+          },
           "x": 150,
           "y": 71
         }
@@ -60,6 +66,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddQuiverAch"
+          },
           "x": 168,
           "y": 71
         }
@@ -78,6 +87,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddQuiverAch"
+          },
           "x": 186,
           "y": 71
         }
@@ -96,6 +108,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddQuiverAch"
+          },
           "x": 204,
           "y": 71
         }
@@ -114,6 +129,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddQuiverAch"
+          },
           "x": 222,
           "y": 71
         }
@@ -132,6 +150,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddQuiverAch"
+          },
           "x": 240,
           "y": 71
         }
@@ -150,6 +171,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddQuiverAch"
+          },
           "x": 258,
           "y": 71
         }
@@ -168,6 +192,9 @@
             "fixedValue": false
           },
           "dropItemsWhenNotBound": true,
+          "onSlotChanged": {
+            "name": "AddQuiverAch"
+          },
           "x": 276,
           "y": 71
         }
