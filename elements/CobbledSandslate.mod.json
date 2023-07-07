@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "cobbled_sandslate",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Cobbled Sandslate",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 1.9999999999999998,
     "resistance": 10.0,
     "hasGravity": false,

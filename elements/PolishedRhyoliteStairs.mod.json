@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "polished_rhyolite",
@@ -35,7 +35,9 @@
       }
     ],
     "name": "Polished Rhyolite Stairs",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 2.0,
     "resistance": 100.0,
     "hasGravity": false,

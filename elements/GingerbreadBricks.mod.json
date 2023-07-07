@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "glazed_gingerbread_bricks",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Gingerbread Bricks",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 2.0,
     "resistance": 5.0,
     "hasGravity": false,

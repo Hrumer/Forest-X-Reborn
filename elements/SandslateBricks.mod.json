@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "sandslate_bricks",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Sandslate Bricks",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 1.9999999999999998,
     "resistance": 10.0,
     "hasGravity": false,

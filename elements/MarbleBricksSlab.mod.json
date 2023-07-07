@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "marble_bricks",
@@ -35,7 +35,9 @@
       }
     ],
     "name": "Marble Bricks Slab",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 1.3499999999999999,
     "resistance": 10.0,
     "hasGravity": false,

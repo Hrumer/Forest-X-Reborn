@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "truncated_carved_pumice",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Truncated Carved Pumice",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 2.0,
     "resistance": 6.0,
     "hasGravity": false,

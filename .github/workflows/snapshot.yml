@@ -10,8 +10,8 @@ on:
 env:                                              
   MINECRAFT_VERSION: 1.19.4                       
   JAVA_VERSION: 17      
-  VERSION: 1.3.0.230705
-  RELEASE_NAME: Forest X Reborn 1.3.0.230705 Snapshot
+  VERSION: 1.3.0.230707
+  RELEASE_NAME: Forest X Reborn 1.3.0.230707 Snapshot
 
 jobs:
   build:
@@ -38,7 +38,7 @@ jobs:
       - name: Build
         run: ./gradlew build
 
-      - name: Publish mod to GitHub, CurseForge and Modrinth
+      - name: Publish mod to CurseForge and Modrinth
         id: publish
         uses: Kir-Antipov/mc-publish@v3.3
         with:
@@ -46,12 +46,11 @@ jobs:
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
           modrinth-id: 6SZBMNXj 
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
           
           name: "${{env.RELEASE_NAME}}"                             
           version: "${{env.VERSION}}"
           version-type: beta
-          changelog-file: CHANGELOG.md                                      
+          changelog-file: SNAPSHOT_CHANGELOG.md                                      
 
           loaders: forge
           game-versions: "${{env.MINECRAFT_VERSION}}"

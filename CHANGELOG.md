@@ -1,14 +1,18 @@
 What's new in Forest X Reborn 1.3.0?<br />
-Snapshot next:
-- 
+Snapshot 1.3.0.2307**:
+<br /> - Added a hint about the amount of arrows in the quiver
+<br /> - Added translations for gingerbread tips
+<br /> - The volcanic biome has been recycled again
+<br /> - Improved the patch of grass block in the semi-desert
+<br /> - Updated panorama again
+<br /> - [Bugfix] 
 Snapshot 1.3.0.230705:
-- Added silver armor
-- Silver tools and armor now have an enchantability of 40
-- Silver tools are no longer enchanted when crafting
-- Added grapes and grape vine
-- Added a quiver
-- Added ash block
-- Completely redesigned volcano biome
-- Made some improvements with inventory tabs
-- Updated Panorama
-- [Bugfix] 
+<br /> - Added silver armor
+<br /> - Silver tools and armor now have an enchantability of 40
+<br /> - Silver tools are no longer enchanted when crafting
+<br /> - Added grapes and grape vine
+<br /> - Added a quiver
+<br /> - Added ash block
+<br /> - Completely redesigned volcano biome
+<br /> - Made some improvements with inventory tabs
+<br /> - Updated Panorama

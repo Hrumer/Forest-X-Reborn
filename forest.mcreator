@@ -7958,6 +7958,123 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "QuiverValue",
+      "type": "procedure",
+      "sortid": 468,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "quiver_value",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/QuiverValueProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          }
+        ]
+      },
+      "path": "~/ToolsEquipments/Quiver"
+    },
+    {
+      "name": "GingerbreadMenLC",
+      "type": "procedure",
+      "sortid": 469,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gingerbread_men_lc",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/GingerbreadMenLCProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Gingerbread/GingerbreadTypesLocalizations"
+    },
+    {
+      "name": "GingerbreadHeartLC",
+      "type": "procedure",
+      "sortid": 470,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gingerbread_heart_lc",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/GingerbreadHeartLCProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Gingerbread/GingerbreadTypesLocalizations"
+    },
+    {
+      "name": "GingerbreadPineLC",
+      "type": "procedure",
+      "sortid": 471,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gingerbread_pine_lc",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/GingerbreadPineLCProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Gingerbread/GingerbreadTypesLocalizations"
+    },
+    {
+      "name": "GingerbreadCockLC",
+      "type": "procedure",
+      "sortid": 472,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gingerbread_cock_lc",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/GingerbreadCockLCProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Gingerbread/GingerbreadTypesLocalizations"
+    },
+    {
+      "name": "GingerbreadBrickLC",
+      "type": "procedure",
+      "sortid": 473,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gingerbread_brick_lc",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/GingerbreadBrickLCProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Gingerbread/GingerbreadTypesLocalizations"
+    },
+    {
+      "name": "GingerbreadRoundLC",
+      "type": "procedure",
+      "sortid": 474,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gingerbread_round_lc",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/GingerbreadRoundLCProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/Gingerbread/GingerbreadTypesLocalizations"
     }
   ],
   "variable_elements": [],
@@ -7991,13 +8108,14 @@
     "ru_ru": {
       "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
-      "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.white_planks": "Белые доски",
+      "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
       "block.forest.brown_fence": "Коричневый забор",
       "block.forest.gingerbread_block": "Пряничный блок",
       "item.forest.raw_silver": "Рудное серебро",
+      "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
       "block.forest.brown_stairs": "Коричневые ступени",
@@ -8049,13 +8167,14 @@
       "block.forest.warped_parquet": "Искаженный паркет",
       "block.forest.blueberry_bush_0": " ",
       "block.forest.stripped_eucalyptus_log": "Обтёсанное бревно эвкалипта",
-      "item.forest.silver_armor_boots": "Silver Boots",
+      "item.forest.silver_armor_boots": "Серебряные ботинки",
       "block.forest.lime_fence": "Лаймовый забор",
       "block.forest.polished_marble_slab": "Плита из полированного мрамора",
       "block.forest.white_fence": "Белый забор",
       "item.forest.silver_shovel": "Серебряная лопата",
       "block.forest.light_blue_fence": "Голубой забор",
       "block.forest.polished_pumice_stairs": "Ступени из полированной пемзы",
+      "desc.gingerbread_pine": "Ёлка",
       "block.forest.pink_planks": "Розовые доски",
       "block.forest.black_fence": "Черный забор",
       "block.forest.white_stairs": "Белые ступени",
@@ -8065,6 +8184,7 @@
       "item.forest.blueberry": "Черника",
       "block.forest.red_fence": "Красный забор",
       "block.forest.blue_slab": "Синяя плита",
+      "desc.gingerbread_heart": "Сердце",
       "block.forest.polished_marble": "Полированный мрамор",
       "entity.forest.snail": "Улитка",
       "block.forest.mangrove_parquet": "Мангровый паркет",
@@ -8073,9 +8193,10 @@
       "item.forest.gingerbread_brick": "Пряник",
       "block.forest.pumice_bricks_slab": "Плита из кирпичей пемзы",
       "item.forest.gingerbread_man": "Пряник",
+      "special_info.quiver.arrows_count": "Количество стрел: ",
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
       "block.forest.grape_vine_0": "Виноградная лоза",
-      "item.forest.silver_armor_helmet": "Silver Helmet",
+      "item.forest.silver_armor_helmet": "Серебряный шлем",
       "item.forest.lettuce_seed": "Семена салата",
       "block.forest.polished_sandslate_wall": "Ограда из полированного песчаного сланца",
       "block.forest.red_slab": "Красная плита",
@@ -8100,7 +8221,7 @@
       "block.forest.lime_slab": "Лаймовая плита",
       "block.forest.rhyolite_bricks": "Риолитовые кирпичи",
       "item.forest.raw_gingerbread_brick": "Тесто для пряника",
-      "block.forest.ash_block": "Ash Block",
+      "block.forest.ash_block": "Блок Пепла",
       "advancements.paint_the_fence.descr": "Покрасьте забор любым красителем",
       "block.forest.polished_rhyolite_slab": "Ступени из полированного риолита",
       "advancements.just_add_the_glaze.title": "Просто добавь глазури",
@@ -8118,6 +8239,7 @@
       "item.forest.lard": "Сало",
       "advancements.forest_x_starting.descr": "Установите Forest X Reborn в свой мир",
       "item.forest.glazed_gingerbread_men": "Глазированный пряник",
+      "desc.gingerbread_cock": "Член",
       "item.forest.glazed_gingerbread_pine": "Глазированный пряник",
       "item.forest.silver_ingot": "Серебряный слиток",
       "block.forest.eucalyptus_leaves": "Эвкалиптовые листья",
@@ -8145,7 +8267,7 @@
       "item.forest.meat_loaf": "Мясной рулет",
       "block.forest.cobbled_sandslate_stairs": "Ступени из дробленого песчаного сланца",
       "item.forest.raw_gingerbread_cock": "Тесто для пряника",
-      "item.forest.silver_armor_leggings": "Silver Leggings",
+      "item.forest.silver_armor_leggings": "Серебряные поножи",
       "item.forest.gingerbread_dough": "Пряничное тесто",
       "block.forest.yellow_stairs": "Желтые ступени",
       "biome.forest.volcano": "Вулкан",
@@ -8199,6 +8321,7 @@
       "item_group.forest.food": "Еда",
       "advancements.paint_the_fence.title": "Забор покрастьте!",
       "block.forest.eucalyptus_button": "Кнопка из эвкалипта",
+      "desc.gingerbread_man": "Человечек",
       "block.forest.black_slab": "Черная плита",
       "subtitles.duckbill.death": "",
       "block.forest.lettuce_stage_2": " ",
@@ -8214,8 +8337,9 @@
       "block.forest.magenta_fence_gate": "Пурпурная калитка",
       "block.forest.crushed_sandstone_stairs": "Ступени из колотого песчанника",
       "advancements.forest_x_starting.title": "Forest X",
-      "item.forest.silver_armor_chestplate": "Silver Chestplate",
+      "item.forest.silver_armor_chestplate": "Серебряный нагрудник",
       "block.forest.orange_stairs": "Оранжевые ступени",
+      "desc.gingerbread_round": "Круг",
       "entity.forest.racoon": "Енот",
       "block.forest.marble_bricks": "Мраморные кирпичи",
       "block.forest.rhyolite_stairs": "Риолитовые ступени",
@@ -8270,13 +8394,14 @@
     "en_us": {
       "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.gingerbread_bricks": "Gingerbread Bricks",
-      "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.white_planks": "White Planks",
+      "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
       "item.forest.raw_silver": "Raw Silver",
       "block.forest.gingerbread_block": "Gingerbread Block",
       "block.forest.brown_fence": "Brown Fence",
+      "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
       "block.forest.brown_stairs": "Brown Stairs",
@@ -8335,6 +8460,7 @@
       "block.forest.white_fence": "White Fence",
       "block.forest.light_blue_fence": "Light Blue Fence",
       "block.forest.polished_pumice_stairs": "Polished Pumice Stairs",
+      "desc.gingerbread_pine": "Pine",
       "block.forest.pink_planks": "Pink Planks",
       "block.forest.black_fence": "Black Fence",
       "block.forest.white_stairs": "White Stairs",
@@ -8344,6 +8470,7 @@
       "item.forest.blueberry": "Blueberry",
       "block.forest.red_fence": "Red Fence",
       "block.forest.blue_slab": "Blue Slab",
+      "desc.gingerbread_heart": "Heart",
       "block.forest.polished_marble": "Polished Marble",
       "entity.forest.snail": "Snail",
       "block.forest.mangrove_parquet": "Mangrove Parquet",
@@ -8352,6 +8479,7 @@
       "item.forest.gingerbread_brick": "Gingerbread",
       "block.forest.pumice_bricks_slab": "Pumice Bricks Slab",
       "item.forest.gingerbread_man": "Gingerbread",
+      "special_info.quiver.arrows_count": "Amount of arrows:",
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
       "block.forest.grape_vine_0": "Grape Vine",
       "item.forest.silver_armor_helmet": "Silver Helmet",
@@ -8397,6 +8525,7 @@
       "item.forest.lard": "Lard",
       "advancements.forest_x_starting.descr": "Install Forest X Reborn in your world",
       "item.forest.glazed_gingerbread_men": "Glazed Gingerbread",
+      "desc.gingerbread_cock": "Cock",
       "item.forest.glazed_gingerbread_pine": "Glazed Gingerbread",
       "item.forest.silver_ingot": "Silver Ingot",
       "block.forest.eucalyptus_leaves": "Eucalyptus Leaves",
@@ -8478,6 +8607,7 @@
       "item_group.forest.food": "Food",
       "advancements.paint_the_fence.title": "Paint The Fence!",
       "block.forest.eucalyptus_button": "Eucalyptus Button",
+      "desc.gingerbread_man": "Man",
       "block.forest.black_slab": "Black Slab",
       "subtitles.duckbill.death": "",
       "block.forest.lettuce_stage_2": "Lettuce Stage 2",
@@ -8495,6 +8625,7 @@
       "advancements.forest_x_starting.title": "Forest X",
       "item.forest.silver_armor_chestplate": "Silver Chestplate",
       "block.forest.orange_stairs": "Orange Stairs",
+      "desc.gingerbread_round": "Round",
       "entity.forest.racoon": "Racoon",
       "block.forest.marble_bricks": "Marble Bricks",
       "block.forest.rhyolite_stairs": "Rhyolite Stairs",
@@ -8649,6 +8780,10 @@
           {
             "name": "GingerbreadBlocks",
             "children": []
+          },
+          {
+            "name": "GingerbreadTypesLocalizations",
+            "children": []
           }
         ]
       },
@@ -8703,7 +8838,7 @@
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.3.0.230705",
+    "version": "1.3.0.230707",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  ",
     "author": "UMC",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",
@@ -8722,5 +8857,5 @@
     "modElementsPackage": "power.forestxreborn",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300327312
+  "mcreatorVersion": 202300327422
 }

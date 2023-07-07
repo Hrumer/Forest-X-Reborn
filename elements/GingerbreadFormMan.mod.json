@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -26,9 +26,10 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Man"
-    ],
+    "specialInformation": {
+      "fixedValue": "Man",
+      "name": "GingerbreadMenLC"
+    },
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
