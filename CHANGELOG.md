@@ -3,6 +3,7 @@ Snapshot 1.3.0.2307**:
 <br /> - Added fermentation barrel
 <br /> - Added ash cover
 <br /> - Added two new achievements
+<br /> - [Bugfix] Fixed food characteristics
 <br /> - [Bugfix] Fixed the time of destruction of the ash block
 Snapshot 1.3.0.230707:
 <br /> - Added a hint about the amount of arrows in the quiver
