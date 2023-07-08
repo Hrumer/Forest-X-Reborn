@@ -306,6 +306,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> EUCALYPTUS_TRAPDOOR = block(ForestModBlocks.EUCALYPTUS_TRAPDOOR);
 	public static final RegistryObject<Item> EUCALYPTUS_SAPLING = block(ForestModBlocks.EUCALYPTUS_SAPLING);
 	public static final RegistryObject<Item> GRAPE_VINE_1 = block(ForestModBlocks.GRAPE_VINE_1);
+	public static final RegistryObject<Item> FERMENTATION_BARREL = block(ForestModBlocks.FERMENTATION_BARREL);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

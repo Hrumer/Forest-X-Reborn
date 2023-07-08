@@ -143,6 +143,7 @@ import power.forestxreborn.block.GrapeVine1Block;
 import power.forestxreborn.block.GrapeVine0Block;
 import power.forestxreborn.block.GingerbreadBricksBlock;
 import power.forestxreborn.block.GingerbreadBlockBlock;
+import power.forestxreborn.block.FermentationBarrelBlock;
 import power.forestxreborn.block.EucalyptusWoodBlock;
 import power.forestxreborn.block.EucalyptusTrapdoorBlock;
 import power.forestxreborn.block.EucalyptusStairsBlock;
@@ -416,6 +417,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> EUCALYPTUS_TRAPDOOR = REGISTRY.register("eucalyptus_trapdoor", () -> new EucalyptusTrapdoorBlock());
 	public static final RegistryObject<Block> EUCALYPTUS_SAPLING = REGISTRY.register("eucalyptus_sapling", () -> new EucalyptusSaplingBlock());
 	public static final RegistryObject<Block> GRAPE_VINE_1 = REGISTRY.register("grape_vine_1", () -> new GrapeVine1Block());
+	public static final RegistryObject<Block> FERMENTATION_BARREL = REGISTRY.register("fermentation_barrel", () -> new FermentationBarrelBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

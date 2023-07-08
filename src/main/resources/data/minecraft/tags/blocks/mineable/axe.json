@@ -98,6 +98,7 @@
     "forest:stripped_eucalyptus_log",
     "forest:eucalyptus_parquet",
     "forest:eucalyptus_door",
-    "forest:eucalyptus_trapdoor"
+    "forest:eucalyptus_trapdoor",
+    "forest:fermentation_barrel"
   ]
 }
