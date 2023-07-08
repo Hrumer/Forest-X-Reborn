@@ -17,7 +17,7 @@ import java.util.List;
 
 public class GlazedGingerbreadPineItem extends Item {
 	public GlazedGingerbreadPineItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.5f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(4).saturationMod(0.6f).build()));
 	}
 
 	@Override

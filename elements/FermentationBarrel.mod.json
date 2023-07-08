@@ -157,7 +157,7 @@
     "material": {
       "value": "WOOD"
     },
-    "tickRate": 0,
+    "tickRate": 1,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -201,14 +201,16 @@
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": false,
-    "hasInventory": false,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
-    "inventorySize": 9,
+    "hasInventory": true,
+    "guiBoundTo": "FermentationBarrelGUI",
+    "openGUIOnRightClick": true,
+    "inventorySize": 4,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
-    "inventoryOutSlotIDs": [],
+    "inventoryOutSlotIDs": [
+      2
+    ],
     "inventoryInSlotIDs": [],
     "hasEnergyStorage": false,
     "energyInitial": 0,

@@ -14,7 +14,7 @@ import java.util.List;
 
 public class LettuceItem extends Item {
 	public LettuceItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.15f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(2).saturationMod(0.15f).build()));
 	}
 
 	@Override

@@ -37,8 +37,8 @@
       "name": "BlueberryPriShchielchkiePravoiKnopkoiMyshiNaBlokie"
     },
     "isFood": true,
-    "nutritionalValue": 1,
-    "saturation": 0.15,
+    "nutritionalValue": 3,
+    "saturation": 0.24999999999999997,
     "eatResultItem": {
       "value": ""
     },

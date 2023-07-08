@@ -14,7 +14,7 @@ import java.util.List;
 
 public class BerryStrudelItem extends Item {
 	public BerryStrudelItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(4.8f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(6).saturationMod(1f).build()));
 	}
 
 	@Override

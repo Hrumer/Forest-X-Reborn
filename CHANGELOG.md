@@ -1,6 +1,7 @@
 What's new in Forest X Reborn 1.3.0?<br />
 Snapshot 1.3.0.2307**:
-<br /> - Ash cover block added
+<br /> - Added fermentation barrel
+<br /> - Added ash cover
 <br /> - Added two new achievements
 <br /> - [Bugfix] Fixed the time of destruction of the ash block
 Snapshot 1.3.0.230707:

@@ -14,7 +14,7 @@ import java.util.List;
 
 public class BreadwithlardItem extends Item {
 	public BreadwithlardItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(10).saturationMod(7f).meat().build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(1f).meat().build()));
 	}
 
 	@Override
