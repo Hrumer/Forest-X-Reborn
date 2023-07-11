@@ -8159,21 +8159,6 @@
         ]
       },
       "path": "~/FermentationBarrel"
-    },
-    {
-      "name": "FermentationBarrelGUI",
-      "type": "gui",
-      "sortid": 478,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fermentation_barrel_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/client/gui/FermentationBarrelGUIScreen.java",
-          "src/main/java/power/forestxreborn/world/inventory/FermentationBarrelGUIMenu.java"
-        ]
-      },
-      "path": "~/FermentationBarrel"
     }
   ],
   "variable_elements": [],
