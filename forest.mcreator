@@ -8158,10 +8158,113 @@
           "src/main/resources/assets/forest/blockstates/fermentation_barrel.json"
         ]
       },
-      "path": "~/FermentationBarrel"
+      "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "Wine",
+      "type": "item",
+      "sortid": 478,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/wine.json",
+          "src/main/java/power/forestxreborn/item/WineItem.java"
+        ]
+      },
+      "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "WineAlcoholMultiplier",
+      "type": "procedure",
+      "sortid": 479,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_alcohol_multiplier",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/WineAlcoholMultiplierProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "AlcoholPlayerDebuffTick",
+      "type": "procedure",
+      "sortid": 480,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "alcohol_player_debuff_tick",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/AlcoholPlayerDebuffTickProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "DebugAlco",
+      "type": "procedure",
+      "sortid": 481,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "debug_alco",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/DebugAlcoProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "TestAlcoOverlay",
+      "type": "overlay",
+      "sortid": 482,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "test_alco_overlay",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/client/screens/TestAlcoOverlayOverlay.java"
+        ]
+      },
+      "path": "~/AlcoholMechanics"
     }
   ],
-  "variable_elements": [],
+  "variable_elements": [
+    {
+      "name": "alcohol",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "0"
+    },
+    {
+      "name": "alcoholTimer",
+      "type": "number",
+      "scope": "player_lifetime",
+      "value": "2400.0"
+    }
+  ],
   "sound_elements": [
     {
       "name": "duckbill.ambient",
@@ -8196,9 +8299,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "block.forest.brown_fence": "Коричневый забор",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "item.forest.raw_silver": "Рудное серебро",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "block.forest.brown_fence": "Коричневый забор",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -8228,8 +8331,8 @@
       "item.forest.barbecue": "Шашлык",
       "item.forest.fennec_spawn_egg": "Яйцо призыва фенека",
       "item.forest.gingerbread_form_man": "Форма для пряника",
-      "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
       "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
+      "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
       "entity.forest.fennec": "Фенек",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
@@ -8339,6 +8442,7 @@
       "block.forest.pink_stairs": "Розовые ступени",
       "item_group.forest.ores": "Руда",
       "block.forest.truncated_pumice": "Усеченная пемза",
+      "item.forest.wine": "Wine",
       "block.forest.black_planks": "Черные доски",
       "block.forest.eucalyptus_fence_gate": "Калитка из эвкалиптовых досок",
       "block.forest.eucalyptus_fence": "Забор из эвкалиптовых досок",
@@ -8485,9 +8589,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "block.forest.brown_fence": "Brown Fence",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "item.forest.raw_silver": "Raw Silver",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "block.forest.brown_fence": "Brown Fence",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -8517,8 +8621,8 @@
       "item.forest.barbecue": "Barbecue",
       "item.forest.fennec_spawn_egg": "Fennec Spawn Egg",
       "item.forest.gingerbread_form_man": "Gingerbread Form",
-      "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
       "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
+      "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
       "entity.forest.fennec": "Fennec",
       "block.forest.light_gray_stairs": "Light Gray Stairs",
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
@@ -8628,6 +8732,7 @@
       "block.forest.pink_stairs": "Pink Stairs",
       "item_group.forest.ores": "Ores",
       "block.forest.truncated_pumice": "Truncated Pumice",
+      "item.forest.wine": "Wine",
       "block.forest.black_planks": "Black Planks",
       "block.forest.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
       "block.forest.eucalyptus_fence": "Eucalyptus Fence",
@@ -8924,7 +9029,7 @@
         ]
       },
       {
-        "name": "FermentationBarrel",
+        "name": "AlcoholMechanics",
         "children": []
       }
     ]

@@ -239,6 +239,7 @@ public class ForestModTabs {
 			tabData.accept(ForestModItems.GINGERBREAD_ROUND.get());
 			tabData.accept(ForestModItems.GINGERBREAD_PINE.get());
 			tabData.accept(ForestModItems.GLAZED_GINGERBREAD_PINE.get());
+			tabData.accept(ForestModItems.WINE.get());
 		})
 
 		);

@@ -1,0 +1,34 @@
+{
+  "_fv": 44,
+  "_type": "overlay",
+  "definition": {
+    "priority": "HIGH",
+    "components": [
+      {
+        "type": "label",
+        "data": {
+          "name": "label_proc_debug_alco",
+          "text": {
+            "fixedValue": "",
+            "name": "DebugAlco"
+          },
+          "color": {
+            "value": -1,
+            "falpha": 0.0
+          },
+          "x": 4,
+          "y": 3
+        }
+      }
+    ],
+    "baseTexture": "",
+    "overlayTarget": "Ingame",
+    "gridSettings": {
+      "sx": 18,
+      "sy": 18,
+      "ox": 11,
+      "oy": 15,
+      "snapOnGrid": false
+    }
+  }
+}

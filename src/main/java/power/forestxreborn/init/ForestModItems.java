@@ -4,6 +4,7 @@
  */
 package power.forestxreborn.init;
 
+import power.forestxreborn.item.WineItem;
 import power.forestxreborn.item.SilverSwordItem;
 import power.forestxreborn.item.SilverShovelItem;
 import power.forestxreborn.item.SilverPickaxeItem;
@@ -307,6 +308,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> EUCALYPTUS_SAPLING = block(ForestModBlocks.EUCALYPTUS_SAPLING);
 	public static final RegistryObject<Item> GRAPE_VINE_1 = block(ForestModBlocks.GRAPE_VINE_1);
 	public static final RegistryObject<Item> FERMENTATION_BARREL = block(ForestModBlocks.FERMENTATION_BARREL);
+	public static final RegistryObject<Item> WINE = REGISTRY.register("wine", () -> new WineItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
