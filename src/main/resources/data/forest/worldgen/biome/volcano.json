@@ -1,6 +1,5 @@
 {
   "has_precipitation": true,
-  "category": "mountain",
   "temperature": 1.6,
   "downfall": 0.1,
   "effects": {
@@ -49,8 +48,7 @@
     "air": [
       "minecraft:cave",
       "minecraft:cave_extra_underground",
-      "minecraft:canyon",
-      "forest:deep_ravine"
+      "minecraft:canyon"
     ]
   },
   "features": [
