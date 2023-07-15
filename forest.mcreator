@@ -9128,10 +9128,13 @@
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "logo",
-    "requiredMods": [],
+    "requiredMods": [
+      "geckolib"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "geckolib",
       "allmods"
     ],
     "currentGenerator": "forge-1.19.4",
