@@ -1,8 +1,8 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Not All That Glitters Is Gold",
+    "achievementName": "Not all that glitters is gold",
     "achievementDescription": "Melt the ore into silver ingots",
     "achievementIcon": {
       "value": "CUSTOM:SilverIngot"

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "tag",
   "definition": {
     "type": "Biomes",
@@ -9,10 +9,19 @@
     "entities": [],
     "biomes": [
       {
-        "value": "CUSTOM:Peatbog"
+        "value": "CUSTOM:DryThornForest"
       },
       {
         "value": "CUSTOM:MarbleCaves"
+      },
+      {
+        "value": "CUSTOM:MushroomsCaves"
+      },
+      {
+        "value": "CUSTOM:OldGrowthForest"
+      },
+      {
+        "value": "CUSTOM:Peatbog"
       },
       {
         "value": "CUSTOM:Semidesert"

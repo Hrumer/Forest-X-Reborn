@@ -17,7 +17,7 @@ import java.util.List;
 
 public class GingerbreadManItem extends Item {
 	public GingerbreadManItem() {
-		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(1).saturationMod(0.5f).build()));
+		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(3).saturationMod(0.5f).build()));
 	}
 
 	@Override

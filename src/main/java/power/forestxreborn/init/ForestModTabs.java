@@ -72,6 +72,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.RHYOLITE_WALL.get().asItem());
 					tabData.accept(ForestModBlocks.POLISHED_RHYOLITE_WALL.get().asItem());
 					tabData.accept(ForestModBlocks.RHYOLITE_BRICKS_WALL.get().asItem());
+					tabData.accept(ForestModBlocks.ASH_COVER.get().asItem());
 					tabData.accept(ForestModBlocks.ASH_BLOCK.get().asItem());
 					tabData.accept(ForestModBlocks.PUMICE.get().asItem());
 					tabData.accept(ForestModBlocks.POLISHED_PUMICE.get().asItem());
@@ -238,6 +239,7 @@ public class ForestModTabs {
 			tabData.accept(ForestModItems.GINGERBREAD_ROUND.get());
 			tabData.accept(ForestModItems.GINGERBREAD_PINE.get());
 			tabData.accept(ForestModItems.GLAZED_GINGERBREAD_PINE.get());
+			tabData.accept(ForestModItems.WINE.get());
 		})
 
 		);
@@ -254,6 +256,7 @@ public class ForestModTabs {
 		event.registerCreativeModeTab(new ResourceLocation("forest", "interaction_blocks"),
 				builder -> builder.title(Component.translatable("item_group.forest.interaction_blocks")).icon(() -> new ItemStack(ForestModBlocks.CLAY_OVEN.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(ForestModBlocks.CLAY_OVEN.get().asItem());
+					tabData.accept(ForestModBlocks.FERMENTATION_BARREL.get().asItem());
 				})
 
 		);

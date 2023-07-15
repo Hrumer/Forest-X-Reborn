@@ -4,6 +4,7 @@
  */
 package power.forestxreborn.init;
 
+import power.forestxreborn.item.WineItem;
 import power.forestxreborn.item.SilverSwordItem;
 import power.forestxreborn.item.SilverShovelItem;
 import power.forestxreborn.item.SilverPickaxeItem;
@@ -101,6 +102,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RHYOLITE_WALL = block(ForestModBlocks.RHYOLITE_WALL);
 	public static final RegistryObject<Item> POLISHED_RHYOLITE_WALL = block(ForestModBlocks.POLISHED_RHYOLITE_WALL);
 	public static final RegistryObject<Item> RHYOLITE_BRICKS_WALL = block(ForestModBlocks.RHYOLITE_BRICKS_WALL);
+	public static final RegistryObject<Item> ASH_COVER = block(ForestModBlocks.ASH_COVER);
 	public static final RegistryObject<Item> ASH_BLOCK = block(ForestModBlocks.ASH_BLOCK);
 	public static final RegistryObject<Item> PUMICE = block(ForestModBlocks.PUMICE);
 	public static final RegistryObject<Item> POLISHED_PUMICE = block(ForestModBlocks.POLISHED_PUMICE);
@@ -305,6 +307,8 @@ public class ForestModItems {
 	public static final RegistryObject<Item> EUCALYPTUS_TRAPDOOR = block(ForestModBlocks.EUCALYPTUS_TRAPDOOR);
 	public static final RegistryObject<Item> EUCALYPTUS_SAPLING = block(ForestModBlocks.EUCALYPTUS_SAPLING);
 	public static final RegistryObject<Item> GRAPE_VINE_1 = block(ForestModBlocks.GRAPE_VINE_1);
+	public static final RegistryObject<Item> FERMENTATION_BARREL = block(ForestModBlocks.FERMENTATION_BARREL);
+	public static final RegistryObject<Item> WINE = REGISTRY.register("wine", () -> new WineItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
