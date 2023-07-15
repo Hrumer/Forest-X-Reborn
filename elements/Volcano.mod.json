@@ -50,8 +50,8 @@
       "value": "ASH"
     },
     "particlesProbability": 0.8,
-    "rainingPossibility": 0.1,
-    "temperature": 1.6,
+    "rainingPossibility": 0.0,
+    "temperature": 2.0,
     "spawnBiome": true,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
@@ -68,7 +68,7 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.5498000000000001,
+      "min": 0.5497000000000001,
       "max": 1.0
     },
     "genWeirdness": {
