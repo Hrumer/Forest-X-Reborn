@@ -223,6 +223,12 @@
     "onRightClicked": {
       "name": "FermentationBarrelPriShchielchkiePKMPoBloku"
     },
+    "onTickUpdate": {
+      "name": "FermentationBarrelObnovlieniieTika"
+    },
+    "onRandomUpdateEvent": {
+      "name": "FermentationBarrelSpontannoNaStoronieKliienta"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

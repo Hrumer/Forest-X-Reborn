@@ -8216,41 +8216,6 @@
       "path": "~/AlcoholMechanics"
     },
     {
-      "name": "DebugAlco",
-      "type": "procedure",
-      "sortid": 481,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "debug_alco",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/power/forestxreborn/procedures/DebugAlcoProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/AlcoholMechanics"
-    },
-    {
-      "name": "TestAlcoOverlay",
-      "type": "overlay",
-      "sortid": 482,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "test_alco_overlay",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/client/screens/TestAlcoOverlayOverlay.java"
-        ]
-      },
-      "path": "~/AlcoholMechanics"
-    },
-    {
       "name": "FermentationBarrelPriShchielchkiePKMPoBloku",
       "type": "procedure",
       "sortid": 483,
@@ -8265,6 +8230,86 @@
           {
             "name": "entity",
             "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "FermentationBarrelObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 484,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fermentation_barrel_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/FermentationBarrelObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "FermentationBarrelSpontannoNaStoronieKliienta",
+      "type": "procedure",
+      "sortid": 485,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fermentation_barrel_spontanno_na_storonie_kliienta",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/FermentationBarrelSpontannoNaStoronieKliientaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
           }
         ]
       },

@@ -2,6 +2,7 @@ What's new in Forest X Reborn 1.3.0?<br />
 Snapshot 1.3.0.2307**:
 <br /> - Added fermentation barrel
 <br /> - Added wine
+<br /> - Added alcohol mechanic
 <br /> - Added ash cover
 <br /> - Added two new achievements
 <br /> - Changed textures of silver tools
