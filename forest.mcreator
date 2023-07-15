@@ -8217,6 +8217,258 @@
         ]
       },
       "path": "~/Animals"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeeGrowableBlocks",
+      "type": "tag",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_growable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/bee_growables.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valid_spawn_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/valid_spawn.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ImpermeableBlocks",
+      "type": "tag",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impermeable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/impermeable.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ClimbableBlocks",
+      "type": "tag",
+      "sortid": 493,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "climbable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/climbable.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "FireBlocks",
+      "type": "tag",
+      "sortid": 494,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fire.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 495,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dragon_immune.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 496,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wither_immune.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "AnimalsSpawnableOnBlocks",
+      "type": "tag",
+      "sortid": 497,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animals_spawnable_on_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/animals_spawnable_on.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "PreventMobSpawningInsideBlocks",
+      "type": "tag",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prevent_mob_spawning_inside_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/prevent_mob_spawning_inside.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ArrowItems",
+      "type": "tag",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/arrows.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/arrows.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ImpactProjectileEntities",
+      "type": "tag",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_projectile_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/impact_projectiles.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "RaiderEntities",
+      "type": "tag",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raider_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/raiders.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SkeletonEntities",
+      "type": "tag",
+      "sortid": 504,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/skeletons.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsPeakBiomes",
+      "type": "tag",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_peak_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_peak.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [

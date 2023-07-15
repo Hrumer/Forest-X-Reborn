@@ -2,13 +2,13 @@
   "_fv": 44,
   "_type": "tag",
   "definition": {
-    "type": "Biomes",
+    "type": "Entities",
     "items": [],
     "blocks": [],
     "functions": [],
     "entities": [],
     "biomes": [],
-    "name": "is_mountain",
+    "name": "impact_projectiles",
     "namespace": "minecraft"
   }
 }

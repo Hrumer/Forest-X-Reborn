@@ -7,8 +7,12 @@
     "blocks": [],
     "functions": [],
     "entities": [],
-    "biomes": [],
-    "name": "is_mountain",
+    "biomes": [
+      {
+        "value": "CUSTOM:Volcano"
+      }
+    ],
+    "name": "is_peak",
     "namespace": "minecraft"
   }
 }

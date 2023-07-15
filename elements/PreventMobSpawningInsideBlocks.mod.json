@@ -2,13 +2,13 @@
   "_fv": 44,
   "_type": "tag",
   "definition": {
-    "type": "Biomes",
+    "type": "Blocks",
     "items": [],
     "blocks": [],
     "functions": [],
     "entities": [],
     "biomes": [],
-    "name": "is_mountain",
+    "name": "prevent_mob_spawning_inside",
     "namespace": "minecraft"
   }
 }
