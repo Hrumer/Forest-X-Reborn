@@ -254,8 +254,7 @@ public class ForestModTabs {
 
 		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "interaction_blocks"),
-				builder -> builder.title(Component.translatable("item_group.forest.interaction_blocks")).icon(() -> new ItemStack(ForestModBlocks.CLAY_OVEN.get())).displayItems((parameters, tabData) -> {
-					tabData.accept(ForestModBlocks.CLAY_OVEN.get().asItem());
+				builder -> builder.title(Component.translatable("item_group.forest.interaction_blocks")).icon(() -> new ItemStack(ForestModBlocks.FERMENTATION_BARREL.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(ForestModBlocks.FERMENTATION_BARREL.get().asItem());
 				})
 

@@ -4,7 +4,7 @@
   "definition": {
     "name": "Interaction Blocks",
     "icon": {
-      "value": "CUSTOM:ClayOven"
+      "value": "CUSTOM:FermentationBarrel"
     },
     "showSearch": false
   }

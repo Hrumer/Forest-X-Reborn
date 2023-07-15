@@ -178,7 +178,6 @@ import power.forestxreborn.block.CobbledSandslateWallBlock;
 import power.forestxreborn.block.CobbledSandslateStairsBlock;
 import power.forestxreborn.block.CobbledSandslateSlabBlock;
 import power.forestxreborn.block.CobbledSandslateBlock;
-import power.forestxreborn.block.ClayOvenBlock;
 import power.forestxreborn.block.ChiseledRhyoliteBlock;
 import power.forestxreborn.block.CherryParquetBlock;
 import power.forestxreborn.block.BurningblossomBlock;
@@ -384,7 +383,6 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> SUNSHROOM = REGISTRY.register("sunshroom", () -> new SunshroomBlock());
 	public static final RegistryObject<Block> MOONSHROOM = REGISTRY.register("moonshroom", () -> new MoonshroomBlock());
 	public static final RegistryObject<Block> GRAPE_VINE_0 = REGISTRY.register("grape_vine_0", () -> new GrapeVine0Block());
-	public static final RegistryObject<Block> CLAY_OVEN = REGISTRY.register("clay_oven", () -> new ClayOvenBlock());
 	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
 	public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = REGISTRY.register("deepslate_silver_ore", () -> new DeepslateSilverOreBlock());
 	public static final RegistryObject<Block> RAW_SILVER_BLOCK = REGISTRY.register("raw_silver_block", () -> new RawSilverBlockBlock());

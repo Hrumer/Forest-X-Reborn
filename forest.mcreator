@@ -3944,24 +3944,6 @@
       "path": "~/Animals"
     },
     {
-      "name": "ClayOven",
-      "type": "block",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clay_oven",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/clay_oven.json",
-          "src/main/java/power/forestxreborn/block/entity/ClayOvenBlockEntity.java",
-          "src/main/resources/assets/forest/models/block/clay_oven.json",
-          "src/main/resources/assets/forest/blockstates/clay_oven.json",
-          "src/main/java/power/forestxreborn/block/ClayOvenBlock.java"
-        ]
-      },
-      "path": "~/ClayOven"
-    },
-    {
       "name": "InteractionBlocks",
       "type": "tab",
       "sortid": 357,
@@ -4001,38 +3983,6 @@
         ]
       },
       "path": "~/Gingerbread/RawGingerbread"
-    },
-    {
-      "name": "BakingTick",
-      "type": "procedure",
-      "sortid": 359,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baking_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/procedures/BakingTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ClayOven"
     },
     {
       "name": "GingerbreadFormMan",
@@ -4269,68 +4219,6 @@
         ]
       },
       "path": "~/Gingerbread/Gingerbread"
-    },
-    {
-      "name": "ClayOvenCraft",
-      "type": "recipe",
-      "sortid": 366,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clay_oven_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/clay_oven_craft.json"
-        ]
-      },
-      "path": "~/ClayOven"
-    },
-    {
-      "name": "TextRemainFuel",
-      "type": "procedure",
-      "sortid": 367,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "text_remain_fuel",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/power/forestxreborn/procedures/TextRemainFuelProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ClayOven"
-    },
-    {
-      "name": "ClayOvenGUI",
-      "type": "gui",
-      "sortid": 368,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clay_oven_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/client/gui/ClayOvenGUIScreen.java",
-          "src/main/java/power/forestxreborn/world/inventory/ClayOvenGUIMenu.java"
-        ]
-      },
-      "path": "~/ClayOven"
     },
     {
       "name": "RawGingerbreadMan",
@@ -8379,9 +8267,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "item.forest.raw_silver": "Рудное серебро",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "block.forest.brown_fence": "Коричневый забор",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "item.forest.raw_silver": "Рудное серебро",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -8411,8 +8299,8 @@
       "item.forest.barbecue": "Шашлык",
       "item.forest.fennec_spawn_egg": "Яйцо призыва фенека",
       "item.forest.gingerbread_form_man": "Форма для пряника",
-      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
+      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "entity.forest.fennec": "Фенек",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
@@ -8474,7 +8362,6 @@
       "item.forest.breadwithlard": "Хлеб с салом",
       "block.forest.cobbled_sandslate_slab": "Плита из дробленого песчаного сланца",
       "block.forest.blue_fence": "Синий забор",
-      "block.forest.clay_oven": "Глиняная печь",
       "block.forest.grape_vine_1": "Grape Vine",
       "block.forest.truncated_pumice_stairs": "Ступени из усеченной пемзы",
       "block.forest.eucalyptus_sapling": "Sakura Sapling",
@@ -8671,9 +8558,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "block.forest.brown_fence": "Brown Fence",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "item.forest.raw_silver": "Raw Silver",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "block.forest.brown_fence": "Brown Fence",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -8703,8 +8590,8 @@
       "item.forest.barbecue": "Barbecue",
       "item.forest.fennec_spawn_egg": "Fennec Spawn Egg",
       "item.forest.gingerbread_form_man": "Gingerbread Form",
-      "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
       "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
+      "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
       "entity.forest.fennec": "Fennec",
       "block.forest.light_gray_stairs": "Light Gray Stairs",
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
@@ -8766,7 +8653,6 @@
       "item.forest.breadwithlard": "Bread with lard",
       "block.forest.cobbled_sandslate_slab": "Cobbled Sandslate Slab",
       "block.forest.blue_fence": "Blue Fence",
-      "block.forest.clay_oven": "Clay Oven",
       "block.forest.grape_vine_1": "Grape Vine",
       "block.forest.truncated_pumice_stairs": "Truncated Pumice Stairs",
       "block.forest.eucalyptus_sapling": "Eucalyptus Sapling",
@@ -9074,10 +8960,6 @@
             "children": []
           }
         ]
-      },
-      {
-        "name": "ClayOven",
-        "children": []
       },
       {
         "name": "Mushrooms",

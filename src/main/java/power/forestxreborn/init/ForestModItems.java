@@ -256,7 +256,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> SUNSHROOM = block(ForestModBlocks.SUNSHROOM);
 	public static final RegistryObject<Item> MOONSHROOM = block(ForestModBlocks.MOONSHROOM);
 	public static final RegistryObject<Item> GRAPE_VINE_0 = block(ForestModBlocks.GRAPE_VINE_0);
-	public static final RegistryObject<Item> CLAY_OVEN = block(ForestModBlocks.CLAY_OVEN);
 	public static final RegistryObject<Item> SILVER_ORE = block(ForestModBlocks.SILVER_ORE);
 	public static final RegistryObject<Item> DEEPSLATE_SILVER_ORE = block(ForestModBlocks.DEEPSLATE_SILVER_ORE);
 	public static final RegistryObject<Item> RAW_SILVER_BLOCK = block(ForestModBlocks.RAW_SILVER_BLOCK);
