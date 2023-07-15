@@ -492,23 +492,6 @@
       "path": "~/Silver"
     },
     {
-      "name": "Snail",
-      "type": "livingentity",
-      "sortid": 186,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "snail",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/entity/SnailEntity.java",
-          "src/main/resources/data/forest/forge/biome_modifier/snail_biome_modifier.json",
-          "src/main/java/power/forestxreborn/client/renderer/SnailRenderer.java",
-          "src/main/resources/assets/forest/models/item/snail_spawn_egg.json"
-        ]
-      },
-      "path": "~/Animals"
-    },
-    {
       "name": "DeepslateSilverOreTable",
       "type": "loottable",
       "sortid": 226,
@@ -8328,6 +8311,24 @@
         ]
       },
       "path": "~/Achievement"
+    },
+    {
+      "name": "Snail",
+      "type": "animatedentity",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/entity/model/SnailModel.java",
+          "src/main/java/power/forestxreborn/entity/SnailEntity.java",
+          "src/main/resources/data/forest/forge/biome_modifier/snail_biome_modifier.json",
+          "src/main/java/power/forestxreborn/client/renderer/SnailRenderer.java",
+          "src/main/resources/assets/forest/models/item/snail_spawn_egg.json"
+        ]
+      },
+      "path": "~/Animals"
     }
   ],
   "variable_elements": [
@@ -8378,9 +8379,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "block.forest.brown_fence": "Коричневый забор",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "item.forest.raw_silver": "Рудное серебро",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "block.forest.brown_fence": "Коричневый забор",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -8410,8 +8411,8 @@
       "item.forest.barbecue": "Шашлык",
       "item.forest.fennec_spawn_egg": "Яйцо призыва фенека",
       "item.forest.gingerbread_form_man": "Форма для пряника",
-      "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
       "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
+      "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
       "entity.forest.fennec": "Фенек",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
@@ -8456,8 +8457,8 @@
       "advancements.out_of_the_fire_and_into_the_flames.title": "Из огня да в полымя",
       "desc.gingerbread_heart": "Сердце",
       "block.forest.polished_marble": "Полированный мрамор",
-      "entity.forest.snail": "Улитка",
       "block.forest.mangrove_parquet": "Мангровый паркет",
+      "entity.forest.snail": "Улитка",
       "block.forest.pumice": "Пемза",
       "block.forest.sandslate": "Песчаный сланец",
       "item.forest.gingerbread_brick": "Пряник",
@@ -8748,8 +8749,8 @@
       "advancements.out_of_the_fire_and_into_the_flames.title": "Out of the fire and into the flames",
       "desc.gingerbread_heart": "Heart",
       "block.forest.polished_marble": "Polished Marble",
-      "entity.forest.snail": "Snail",
       "block.forest.mangrove_parquet": "Mangrove Parquet",
+      "entity.forest.snail": "Snail",
       "block.forest.pumice": "Pumice",
       "block.forest.sandslate": "Sandslate",
       "item.forest.gingerbread_brick": "Gingerbread",

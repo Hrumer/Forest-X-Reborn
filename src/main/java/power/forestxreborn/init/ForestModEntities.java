@@ -29,10 +29,6 @@ public class ForestModEntities {
 			EntityType.Builder.<RacoonEntity>of(RacoonEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RacoonEntity::new)
 
 					.sized(0.5f, 0.7f));
-	public static final RegistryObject<EntityType<SnailEntity>> SNAIL = register("snail",
-			EntityType.Builder.<SnailEntity>of(SnailEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SnailEntity::new)
-
-					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<BrownBearEntity>> BROWN_BEAR = register("brown_bear",
 			EntityType.Builder.<BrownBearEntity>of(BrownBearEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(16).setUpdateInterval(3).setCustomClientFactory(BrownBearEntity::new)
 
@@ -41,6 +37,10 @@ public class ForestModEntities {
 			EntityType.Builder.<FennecEntity>of(FennecEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FennecEntity::new)
 
 					.sized(0.5f, 0.7f));
+	public static final RegistryObject<EntityType<SnailEntity>> SNAIL = register("snail",
+			EntityType.Builder.<SnailEntity>of(SnailEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SnailEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -50,17 +50,17 @@ public class ForestModEntities {
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
 			RacoonEntity.init();
-			SnailEntity.init();
 			BrownBearEntity.init();
 			FennecEntity.init();
+			SnailEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
 		event.put(RACOON.get(), RacoonEntity.createAttributes().build());
-		event.put(SNAIL.get(), SnailEntity.createAttributes().build());
 		event.put(BROWN_BEAR.get(), BrownBearEntity.createAttributes().build());
 		event.put(FENNEC.get(), FennecEntity.createAttributes().build());
+		event.put(SNAIL.get(), SnailEntity.createAttributes().build());
 	}
 }
