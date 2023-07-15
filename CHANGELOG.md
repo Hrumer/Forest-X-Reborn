@@ -1,7 +1,7 @@
 What's new in Forest X Reborn 1.3.0?<br />
 Snapshot 1.3.0.2307**:
 <br /> - 
-<br /> - [Bugfix]
+<br /> - [Bugfix] Fixed some bugs in the fermentation barrel
 Snapshot 1.3.0.230715:
 <br /> - Added fermentation barrel
 <br /> - Added wine

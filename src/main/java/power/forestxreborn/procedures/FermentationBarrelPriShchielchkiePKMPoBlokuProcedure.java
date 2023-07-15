@@ -36,7 +36,9 @@ public class FermentationBarrelPriShchielchkiePKMPoBlokuProcedure {
 				}
 			}.getValue(world, BlockPos.containing(x, y, z), "fermentation") == 0) {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ForestModItems.GRAPE.get()) {
-					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+					if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
+						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+					}
 					if (!world.isClientSide()) {
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -74,7 +76,9 @@ public class FermentationBarrelPriShchielchkiePKMPoBlokuProcedure {
 				}
 			}.getValue(world, BlockPos.containing(x, y, z), "fermentation") == 0) {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.GLASS_BOTTLE) {
-					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+					if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
+						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+					}
 					if (entity instanceof LivingEntity _entity) {
 						ItemStack _setstack = new ItemStack(ForestModItems.WINE.get());
 						_setstack.setCount(1);
