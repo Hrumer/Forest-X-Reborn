@@ -8314,6 +8314,20 @@
         ]
       },
       "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "WineBusiness",
+      "type": "achievement",
+      "sortid": 486,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_business",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/advancements/wine_business.json"
+        ]
+      },
+      "path": "~/Achievement"
     }
   ],
   "variable_elements": [
@@ -8364,9 +8378,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "item.forest.raw_silver": "Рудное серебро",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "block.forest.brown_fence": "Коричневый забор",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "item.forest.raw_silver": "Рудное серебро",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -8396,8 +8410,8 @@
       "item.forest.barbecue": "Шашлык",
       "item.forest.fennec_spawn_egg": "Яйцо призыва фенека",
       "item.forest.gingerbread_form_man": "Форма для пряника",
-      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
+      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "entity.forest.fennec": "Фенек",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
@@ -8465,6 +8479,7 @@
       "block.forest.eucalyptus_sapling": "Sakura Sapling",
       "block.forest.light_blue_stairs": "Голубые ступени",
       "block.forest.red_crushed_sandstone_stairs": "Ступени из красного колотого песчаника",
+      "advancements.wine_business.title": "Винное дело",
       "block.forest.raw_silver_block": "Рудный серебряный блок",
       "item.forest.peat_piece": "Кусочек торфа",
       "block.forest.sandslate_bricks_stairs": "Ступени из песчаносланцевых кирпичей",
@@ -8645,7 +8660,8 @@
       "block.forest.pink_slab": "Розовая плита",
       "block.forest.eucalyptus_planks": "Эвкалиптовые доски",
       "item.forest.grape": "Виноград",
-      "block.forest.dense_web": "Плотная паутина"
+      "block.forest.dense_web": "Плотная паутина",
+      "advancements.wine_business.descr": "С помощью бочки для ферментации и винограда сделайте вино"
     },
     "en_us": {
       "item.forest.gingerbread_round": "Gingerbread",
@@ -8654,9 +8670,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "item.forest.raw_silver": "Raw Silver",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "block.forest.brown_fence": "Brown Fence",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "item.forest.raw_silver": "Raw Silver",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -8686,8 +8702,8 @@
       "item.forest.barbecue": "Barbecue",
       "item.forest.fennec_spawn_egg": "Fennec Spawn Egg",
       "item.forest.gingerbread_form_man": "Gingerbread Form",
-      "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
       "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
+      "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
       "entity.forest.fennec": "Fennec",
       "block.forest.light_gray_stairs": "Light Gray Stairs",
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
@@ -8755,6 +8771,7 @@
       "block.forest.eucalyptus_sapling": "Eucalyptus Sapling",
       "block.forest.light_blue_stairs": "Light Blue Stairs",
       "block.forest.red_crushed_sandstone_stairs": "Red crushed sandstone stairs",
+      "advancements.wine_business.title": "Wine business",
       "block.forest.raw_silver_block": "Raw Silver Block",
       "item.forest.peat_piece": "Peat Piece",
       "block.forest.sandslate_bricks_stairs": "Sandslate Bricks Stairs",
@@ -8935,7 +8952,8 @@
       "block.forest.pink_slab": "Pink Slab",
       "block.forest.eucalyptus_planks": "Eucalyptus Planks",
       "item.forest.grape": "Grape",
-      "block.forest.dense_web": "Dense Web"
+      "block.forest.dense_web": "Dense Web",
+      "advancements.wine_business.descr": "Use a fermentation barrel and grapes to make wine"
     }
   },
   "foldersRoot": {

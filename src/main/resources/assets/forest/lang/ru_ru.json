@@ -5,9 +5,9 @@
   "item.forest.silver_pickaxe": "Серебряная кирка",
   "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
   "entity.forest.brown_bear": "Бурый медведь",
-  "item.forest.raw_silver": "Рудное серебро",
-  "block.forest.gingerbread_block": "Пряничный блок",
   "block.forest.brown_fence": "Коричневый забор",
+  "block.forest.gingerbread_block": "Пряничный блок",
+  "item.forest.raw_silver": "Рудное серебро",
   "desc.gingerbread_brick": "Кирпич",
   "item.forest.silver_sword": "Серебряный меч",
   "block.forest.orange_planks": "Оранжевые доски",
@@ -37,8 +37,8 @@
   "item.forest.barbecue": "Шашлык",
   "item.forest.fennec_spawn_egg": "Яйцо призыва фенека",
   "item.forest.gingerbread_form_man": "Форма для пряника",
-  "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
   "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
+  "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
   "entity.forest.fennec": "Фенек",
   "block.forest.light_gray_stairs": "Светло-серые ступени",
   "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
@@ -106,6 +106,7 @@
   "block.forest.eucalyptus_sapling": "Sakura Sapling",
   "block.forest.light_blue_stairs": "Голубые ступени",
   "block.forest.red_crushed_sandstone_stairs": "Ступени из красного колотого песчаника",
+  "advancements.wine_business.title": "Винное дело",
   "block.forest.raw_silver_block": "Рудный серебряный блок",
   "item.forest.peat_piece": "Кусочек торфа",
   "block.forest.sandslate_bricks_stairs": "Ступени из песчаносланцевых кирпичей",
@@ -286,5 +287,6 @@
   "block.forest.pink_slab": "Розовая плита",
   "block.forest.eucalyptus_planks": "Эвкалиптовые доски",
   "item.forest.grape": "Виноград",
-  "block.forest.dense_web": "Плотная паутина"
+  "block.forest.dense_web": "Плотная паутина",
+  "advancements.wine_business.descr": "С помощью бочки для ферментации и винограда сделайте вино"
 }
