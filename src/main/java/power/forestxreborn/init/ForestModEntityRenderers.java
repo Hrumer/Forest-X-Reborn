@@ -6,6 +6,7 @@ package power.forestxreborn.init;
 
 import power.forestxreborn.client.renderer.SnailRenderer;
 import power.forestxreborn.client.renderer.RacoonRenderer;
+import power.forestxreborn.client.renderer.FireSalamanderRenderer;
 import power.forestxreborn.client.renderer.FennecRenderer;
 import power.forestxreborn.client.renderer.BrownBearRenderer;
 
@@ -22,5 +23,6 @@ public class ForestModEntityRenderers {
 		event.registerEntityRenderer(ForestModEntities.BROWN_BEAR.get(), BrownBearRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.FENNEC.get(), FennecRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SNAIL.get(), SnailRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.FIRE_SALAMANDER.get(), FireSalamanderRenderer::new);
 	}
 }

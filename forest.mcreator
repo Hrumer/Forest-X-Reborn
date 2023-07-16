@@ -8469,6 +8469,23 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "FireSalamander",
+      "type": "animatedentity",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_salamander",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/fire_salamander_spawn_egg.json",
+          "src/main/java/power/forestxreborn/entity/FireSalamanderEntity.java",
+          "src/main/java/power/forestxreborn/client/renderer/FireSalamanderRenderer.java",
+          "src/main/java/power/forestxreborn/entity/model/FireSalamanderModel.java"
+        ]
+      },
+      "path": "~/Animals"
     }
   ],
   "variable_elements": [
@@ -8487,25 +8504,17 @@
   ],
   "sound_elements": [
     {
-      "name": "duckbill.ambient",
+      "name": "lizard.ambient",
       "files": [
-        "duckbill.ambient"
+        "lizard.ambient"
       ],
       "category": "neutral",
       "subtitle": ""
     },
     {
-      "name": "duckbill.death",
+      "name": "lizard.hurt",
       "files": [
-        "duckbill.death"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
-      "name": "duckbill.hurt",
-      "files": [
-        "duckbill.hurt"
+        "lizard.hurt"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -8564,6 +8573,7 @@
       "block.forest.polished_sandslate": "Полированнный песчаный сланец",
       "block.forest.eucalyptus_wood": "Эвкалипт",
       "block.forest.marble_bricks_stairs": "Ступени из мраморных кирпичей",
+      "subtitles.lizard.hurt": "",
       "block.forest.polished_rhyolite_wall": "Ограда из полированного риолита",
       "block.forest.pumice_bricks": "Пемзовые кирпичи",
       "item_group.forest.interaction_blocks": "Блоки взаимодействия",
@@ -8594,6 +8604,7 @@
       "item.forest.blueberry": "Черника",
       "block.forest.red_fence": "Красный забор",
       "block.forest.blue_slab": "Синяя плита",
+      "subtitles.lizard.ambient": "",
       "advancements.out_of_the_fire_and_into_the_flames.title": "Из огня да в полымя",
       "desc.gingerbread_heart": "Сердце",
       "block.forest.polished_marble": "Полированный мрамор",
@@ -8662,6 +8673,7 @@
       "block.forest.pink_stairs": "Розовые ступени",
       "item_group.forest.ores": "Руда",
       "block.forest.truncated_pumice": "Усеченная пемза",
+      "entity.forest.fire_salamander": "Fire Salamander",
       "item.forest.wine": "Вино",
       "block.forest.black_planks": "Черные доски",
       "block.forest.eucalyptus_fence_gate": "Калитка из эвкалиптовых досок",
@@ -8792,6 +8804,7 @@
       "item.forest.racoon_spawn_egg": "Яйцо призыва енота",
       "block.forest.brown_fence_gate": "Коричневая калитка",
       "block.forest.eucalyptus_log": "Бревно эвкалипта",
+      "item.forest.fire_salamander_spawn_egg": "Fire Salamander Spawn Egg",
       "item.forest.gingerbread_form_pine": "Форма для пряника",
       "block.forest.light_gray_planks": "Светло-серые доские",
       "block.forest.eucalyptus_slab": "Плита из эвкалиптовых досок",
@@ -8855,6 +8868,7 @@
       "block.forest.polished_sandslate": "Polished Sandslate",
       "block.forest.eucalyptus_wood": "Eucalyptus Wood",
       "block.forest.marble_bricks_stairs": "Marble Bricks Stairs",
+      "subtitles.lizard.hurt": "",
       "block.forest.polished_rhyolite_wall": "Polished Rhyolite Wall",
       "item_group.forest.interaction_blocks": "Interaction Blocks",
       "block.forest.pumice_bricks": "Pumice Bricks",
@@ -8885,6 +8899,7 @@
       "item.forest.blueberry": "Blueberry",
       "block.forest.red_fence": "Red Fence",
       "block.forest.blue_slab": "Blue Slab",
+      "subtitles.lizard.ambient": "",
       "advancements.out_of_the_fire_and_into_the_flames.title": "Out of the fire and into the flames",
       "desc.gingerbread_heart": "Heart",
       "block.forest.polished_marble": "Polished Marble",
@@ -8953,6 +8968,7 @@
       "block.forest.pink_stairs": "Pink Stairs",
       "item_group.forest.ores": "Ores",
       "block.forest.truncated_pumice": "Truncated Pumice",
+      "entity.forest.fire_salamander": "Fire Salamander",
       "item.forest.wine": "Wine",
       "block.forest.black_planks": "Black Planks",
       "block.forest.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
@@ -9083,6 +9099,7 @@
       "item.forest.racoon_spawn_egg": "Racoon Spawn Egg",
       "block.forest.brown_fence_gate": "Brown Fence Gate",
       "block.forest.eucalyptus_log": "Eucalyptus Log",
+      "item.forest.fire_salamander_spawn_egg": "Fire Salamander Spawn Egg",
       "item.forest.gingerbread_form_pine": "Gingerbread Form",
       "block.forest.light_gray_planks": "Light Gray Planks",
       "block.forest.eucalyptus_slab": "Eucalyptus Slab",

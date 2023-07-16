@@ -308,6 +308,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> FERMENTATION_BARREL = block(ForestModBlocks.FERMENTATION_BARREL);
 	public static final RegistryObject<Item> WINE = REGISTRY.register("wine", () -> new WineItem());
 	public static final RegistryObject<Item> SNAIL_SPAWN_EGG = REGISTRY.register("snail_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SNAIL, -6724096, -13434880, new Item.Properties()));
+	public static final RegistryObject<Item> FIRE_SALAMANDER_SPAWN_EGG = REGISTRY.register("fire_salamander_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.FIRE_SALAMANDER, -13261, -16777216, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

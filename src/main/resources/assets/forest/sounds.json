@@ -1,24 +1,16 @@
 {
-  "duckbill.ambient": {
+  "lizard.ambient": {
     "sounds": [
       {
-        "name": "forest:duckbill.ambient",
+        "name": "forest:lizard.ambient",
         "stream": false
       }
     ]
   },
-  "duckbill.death": {
+  "lizard.hurt": {
     "sounds": [
       {
-        "name": "forest:duckbill.death",
-        "stream": false
-      }
-    ]
-  },
-  "duckbill.hurt": {
-    "sounds": [
-      {
-        "name": "forest:duckbill.hurt",
+        "name": "forest:lizard.hurt",
         "stream": false
       }
     ]
