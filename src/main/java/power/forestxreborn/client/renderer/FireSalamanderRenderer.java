@@ -18,7 +18,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 public class FireSalamanderRenderer extends GeoEntityRenderer<FireSalamanderEntity> {
 	public FireSalamanderRenderer(EntityRendererProvider.Context renderManager) {
 		super(renderManager, new FireSalamanderModel());
-		this.shadowRadius = 0.3f;
+		this.shadowRadius = 0f;
 	}
 
 	@Override

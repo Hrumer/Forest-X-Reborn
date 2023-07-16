@@ -145,7 +145,7 @@ public class FireSalamanderEntity extends PathfinderMob implements GeoEntity {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.2);
 		builder = builder.add(Attributes.MAX_HEALTH, 5);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 1);
@@ -160,7 +160,7 @@ public class FireSalamanderEntity extends PathfinderMob implements GeoEntity {
 			) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("fire_salamander.model.walking"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("fire_salamander.model.lie"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("fire_salamander.model.idle"));
 		}
 		return PlayState.STOP;
 	}
