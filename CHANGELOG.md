@@ -1,5 +1,6 @@
 What's new in Forest X Reborn 1.3.0?<br />
 Snapshot 1.3.0.2307**:
+<br /> - Added fire salamander
 <br /> - Added new achievement
 <br /> - Changed the background for achievements from the mod
 <br /> - Returned dependency on the GeckoLib mod

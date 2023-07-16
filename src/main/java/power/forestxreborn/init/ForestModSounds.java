@@ -17,4 +17,5 @@ public class ForestModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, ForestMod.MODID);
 	public static final RegistryObject<SoundEvent> LIZARD_AMBIENT = REGISTRY.register("lizard.ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "lizard.ambient")));
 	public static final RegistryObject<SoundEvent> LIZARD_HURT = REGISTRY.register("lizard.hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "lizard.hurt")));
+	public static final RegistryObject<SoundEvent> RECORD_DISASTER = REGISTRY.register("record.disaster", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "record.disaster")));
 }
