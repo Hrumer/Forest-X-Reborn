@@ -8501,6 +8501,22 @@
         ]
       },
       "path": "~/Records"
+    },
+    {
+      "name": "WineAlcoholDesc",
+      "type": "procedure",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_alcohol_desc",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/WineAlcoholDescProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/AlcoholMechanics"
     }
   ],
   "variable_elements": [
@@ -8551,9 +8567,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "item.forest.raw_silver": "Рудное серебро",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "block.forest.brown_fence": "Коричневый забор",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "item.forest.raw_silver": "Рудное серебро",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -8583,8 +8599,8 @@
       "item.forest.barbecue": "Шашлык",
       "item.forest.fennec_spawn_egg": "Яйцо призыва фенека",
       "item.forest.gingerbread_form_man": "Форма для пряника",
-      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
+      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "entity.forest.fennec": "Фенек",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
@@ -8676,6 +8692,7 @@
       "block.forest.lime_planks": "Лаймовые доски",
       "block.forest.light_gray_slab": "Светло-серая плита",
       "block.forest.light_gray_fence": "Светло-серый забор",
+      "tooltip.translation.intoxication": "Опьянение",
       "block.forest.rhyolite_bricks_wall": "Ограда из риолитовых кирпичей",
       "block.forest.truncated_pumice_slab": "Плита из усеченной пемзы",
       "item.forest.berry_strudel": "Ягодный штрудель",
@@ -8849,9 +8866,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "item.forest.raw_silver": "Raw Silver",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "block.forest.brown_fence": "Brown Fence",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "item.forest.raw_silver": "Raw Silver",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -8881,8 +8898,8 @@
       "item.forest.barbecue": "Barbecue",
       "item.forest.fennec_spawn_egg": "Fennec Spawn Egg",
       "item.forest.gingerbread_form_man": "Gingerbread Form",
-      "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
       "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
+      "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
       "entity.forest.fennec": "Fennec",
       "block.forest.light_gray_stairs": "Light Gray Stairs",
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
@@ -8974,6 +8991,7 @@
       "block.forest.lime_planks": "Lime Planks",
       "block.forest.light_gray_slab": "Light Blue Slab",
       "block.forest.light_gray_fence": "Light Gray Fence",
+      "tooltip.translation.intoxication": "Intoxication",
       "block.forest.rhyolite_bricks_wall": "Rhyolite Bricks Wall",
       "block.forest.truncated_pumice_slab": "Truncated Pumice Slab",
       "item.forest.berry_strudel": "Berry Strudel",
