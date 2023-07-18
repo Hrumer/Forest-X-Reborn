@@ -2,6 +2,8 @@ package power.forestxreborn.procedures;
 
 import power.forestxreborn.init.ForestModItems;
 
+import net.minecraftforge.items.ItemHandlerHelper;
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.LevelAccessor;
@@ -11,7 +13,6 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
@@ -83,12 +84,10 @@ public class FermentationBarrelPriShchielchkiePKMPoBlokuProcedure {
 					if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 					}
-					if (entity instanceof LivingEntity _entity) {
+					if (entity instanceof Player _player) {
 						ItemStack _setstack = new ItemStack(ForestModItems.WINE.get());
 						_setstack.setCount(1);
-						_entity.setItemInHand(InteractionHand.MAIN_HAND, _setstack);
-						if (_entity instanceof Player _player)
-							_player.getInventory().setChanged();
+						ItemHandlerHelper.giveItemToPlayer(_player, _setstack);
 					}
 					if (!world.isClientSide()) {
 						BlockPos _bp = BlockPos.containing(x, y, z);
