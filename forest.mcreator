@@ -8488,21 +8488,6 @@
       "path": "~/Animals"
     },
     {
-      "name": "Disaster",
-      "type": "musicdisc",
-      "sortid": 507,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "disaster",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/disaster.json",
-          "src/main/java/power/forestxreborn/item/DisasterItem.java"
-        ]
-      },
-      "path": "~/Records"
-    },
-    {
       "name": "WineAlcoholDesc",
       "type": "procedure",
       "sortid": 508,
@@ -8828,7 +8813,6 @@
       "item_group.forest.food": "Еда",
       "advancements.paint_the_fence.title": "Забор покрастьте!",
       "block.forest.eucalyptus_button": "Кнопка из эвкалипта",
-      "item.forest.disaster.desc": "bxkqq - Катастрофа",
       "desc.gingerbread_man": "Человечек",
       "block.forest.black_slab": "Черная плита",
       "block.forest.lettuce_stage_2": " ",
@@ -8838,7 +8822,6 @@
       "block.forest.cobbled_sandslate": "Дробленный песчаный сланец",
       "block.forest.gray_fence_gate": "Серая калитка",
       "block.forest.orange_fence_gate": "Оранжевая калитка",
-      "item.forest.disaster": "Пластинка",
       "block.forest.brown_planks": "Коричневые доски",
       "block.forest.rhyolite": "Риолит",
       "block.forest.light_blue_fence_gate": "Голубая калитка",
@@ -9128,7 +9111,6 @@
       "item_group.forest.food": "Food",
       "advancements.paint_the_fence.title": "Paint the fence!",
       "block.forest.eucalyptus_button": "Eucalyptus Button",
-      "item.forest.disaster.desc": "bxkqq - Disaster",
       "desc.gingerbread_man": "Man",
       "block.forest.black_slab": "Black Slab",
       "block.forest.lettuce_stage_2": "Lettuce Stage 2",
@@ -9138,7 +9120,6 @@
       "block.forest.cobbled_sandslate": "Cobbled Sandslate",
       "block.forest.gray_fence_gate": "Gray Fence Gate",
       "block.forest.orange_fence_gate": "Orange Fence Gate",
-      "item.forest.disaster": "Record",
       "block.forest.brown_planks": "Brown Planks",
       "block.forest.rhyolite": "Rhyolite",
       "block.forest.light_blue_fence_gate": "Light Blue Fence Gate",
