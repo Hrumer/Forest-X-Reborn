@@ -1,0 +1,25 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "key": {
+    "#": {
+      "item": "minecraft:diamond"
+    },
+    "C": {
+      "item": "minecraft:packed_ice"
+    },
+    "S": {
+      "item": "forest:frostarmortrimsmithingtemplate"
+    }
+  },
+  "pattern": [
+    "#S#",
+    "#C#",
+    "###"
+  ],
+  "result": {
+    "count": 1,
+    "item": "minecraft:knowledge_book"
+  },
+  "show_notification": true
+}

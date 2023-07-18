@@ -8517,6 +8517,35 @@
         "dependencies": []
       },
       "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "TrimTemplates",
+      "type": "tag",
+      "sortid": 509,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trim_templates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/trim_templates.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Frostarmortrimsmithingtemplate",
+      "type": "item",
+      "sortid": 510,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frostarmortrimsmithingtemplate",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/item/FrostarmortrimsmithingtemplateItem.java",
+          "src/main/resources/assets/forest/models/item/frostarmortrimsmithingtemplate.json"
+        ]
+      },
+      "path": "~/Trims"
     }
   ],
   "variable_elements": [
@@ -8567,9 +8596,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "block.forest.brown_fence": "Коричневый забор",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "item.forest.raw_silver": "Рудное серебро",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "block.forest.brown_fence": "Коричневый забор",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -8599,14 +8628,15 @@
       "item.forest.barbecue": "Шашлык",
       "item.forest.fennec_spawn_egg": "Яйцо призыва фенека",
       "item.forest.gingerbread_form_man": "Форма для пряника",
-      "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
       "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
+      "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
       "entity.forest.fennec": "Фенек",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
       "block.forest.polished_sandslate_stairs": "Ступени из полированного песчаного сланца",
       "block.forest.magenta_planks": "Пурпурные доски",
       "block.forest.blue_fence_gate": "Синяя калитка",
+      "item.forest.frostarmortrimsmithingtemplate": "Frostarmortrimsmithingtemplate",
       "block.forest.green_planks": "Зеленые доски",
       "block.forest.magenta_fence": "Пурпурный забор",
       "block.forest.polished_sandslate": "Полированнный песчаный сланец",
@@ -8866,9 +8896,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "block.forest.brown_fence": "Brown Fence",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "item.forest.raw_silver": "Raw Silver",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "block.forest.brown_fence": "Brown Fence",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -8898,14 +8928,15 @@
       "item.forest.barbecue": "Barbecue",
       "item.forest.fennec_spawn_egg": "Fennec Spawn Egg",
       "item.forest.gingerbread_form_man": "Gingerbread Form",
-      "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
       "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
+      "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
       "entity.forest.fennec": "Fennec",
       "block.forest.light_gray_stairs": "Light Gray Stairs",
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
       "block.forest.polished_sandslate_stairs": "Polished Sandslate Stairs",
       "block.forest.magenta_planks": "Magenta Planks",
       "block.forest.blue_fence_gate": "Blue Fence Gate",
+      "item.forest.frostarmortrimsmithingtemplate": "Frostarmortrimsmithingtemplate",
       "block.forest.green_planks": "Green Planks",
       "block.forest.magenta_fence": "Magenta Fence",
       "block.forest.polished_sandslate": "Polished Sandslate",
@@ -9316,6 +9347,10 @@
       },
       {
         "name": "Records",
+        "children": []
+      },
+      {
+        "name": "Trims",
         "children": []
       }
     ]
