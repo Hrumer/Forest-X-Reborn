@@ -8576,14 +8576,6 @@
       ],
       "category": "neutral",
       "subtitle": ""
-    },
-    {
-      "name": "record.disaster",
-      "files": [
-        "bxkqq_-_disaster_demo"
-      ],
-      "category": "record",
-      "subtitle": ""
     }
   ],
   "language_map": {
@@ -9352,7 +9344,7 @@
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.3.0.230715",
+    "version": "1.3.0.230718",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  ",
     "author": "UMC",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",

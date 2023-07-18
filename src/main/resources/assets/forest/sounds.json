@@ -14,13 +14,5 @@
         "stream": false
       }
     ]
-  },
-  "record.disaster": {
-    "sounds": [
-      {
-        "name": "forest:bxkqq_-_disaster_demo",
-        "stream": true
-      }
-    ]
   }
 }
