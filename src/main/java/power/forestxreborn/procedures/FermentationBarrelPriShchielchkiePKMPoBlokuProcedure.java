@@ -12,7 +12,11 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.InteractionHand;
+import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.core.BlockPos;
+import net.minecraft.advancements.AdvancementProgress;
+import net.minecraft.advancements.Advancement;
 
 public class FermentationBarrelPriShchielchkiePKMPoBlokuProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, Entity entity) {
@@ -36,7 +40,9 @@ public class FermentationBarrelPriShchielchkiePKMPoBlokuProcedure {
 				}
 			}.getValue(world, BlockPos.containing(x, y, z), "fermentation") == 0) {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == ForestModItems.GRAPE.get()) {
-					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+					if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
+						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+					}
 					if (!world.isClientSide()) {
 						BlockPos _bp = BlockPos.containing(x, y, z);
 						BlockEntity _blockEntity = world.getBlockEntity(_bp);
@@ -74,7 +80,9 @@ public class FermentationBarrelPriShchielchkiePKMPoBlokuProcedure {
 				}
 			}.getValue(world, BlockPos.containing(x, y, z), "fermentation") == 0) {
 				if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.GLASS_BOTTLE) {
-					(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+					if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
+						(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
+					}
 					if (entity instanceof LivingEntity _entity) {
 						ItemStack _setstack = new ItemStack(ForestModItems.WINE.get());
 						_setstack.setCount(1);
@@ -90,6 +98,14 @@ public class FermentationBarrelPriShchielchkiePKMPoBlokuProcedure {
 							_blockEntity.getPersistentData().putDouble("recipe", 0);
 						if (world instanceof Level _level)
 							_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+					}
+					if (entity instanceof ServerPlayer _player) {
+						Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:wine_business"));
+						AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
+						if (!_ap.isDone()) {
+							for (String criteria : _ap.getRemainingCriteria())
+								_player.getAdvancements().award(_adv, criteria);
+						}
 					}
 				}
 			}

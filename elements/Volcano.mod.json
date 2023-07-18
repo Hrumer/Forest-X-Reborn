@@ -68,7 +68,7 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.5497000000000001,
+      "min": 0.55,
       "max": 1.0
     },
     "genWeirdness": {
@@ -126,12 +126,12 @@
     "spawnEntries": [
       {
         "entity": {
-          "value": "EntityMagmaCube"
+          "value": "CUSTOM:FireSalamander"
         },
         "minGroup": 1,
         "maxGroup": 2,
-        "weight": 2,
-        "spawnType": "monster"
+        "weight": 20,
+        "spawnType": "creature"
       }
     ]
   }

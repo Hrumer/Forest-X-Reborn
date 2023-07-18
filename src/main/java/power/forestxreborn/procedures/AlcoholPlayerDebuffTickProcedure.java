@@ -68,7 +68,7 @@ public class AlcoholPlayerDebuffTickProcedure {
 			}
 		} else {
 			{
-				double _setval = 2400;
+				double _setval = 1800;
 				entity.getCapability(ForestModVariables.PLAYER_VARIABLES_CAPABILITY, null).ifPresent(capability -> {
 					capability.alcoholTimer = _setval;
 					capability.syncPlayerVariables(entity);

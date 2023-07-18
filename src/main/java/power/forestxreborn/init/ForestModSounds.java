@@ -15,7 +15,6 @@ import net.minecraft.resources.ResourceLocation;
 
 public class ForestModSounds {
 	public static final DeferredRegister<SoundEvent> REGISTRY = DeferredRegister.create(ForgeRegistries.SOUND_EVENTS, ForestMod.MODID);
-	public static final RegistryObject<SoundEvent> DUCKBILL_AMBIENT = REGISTRY.register("duckbill.ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "duckbill.ambient")));
-	public static final RegistryObject<SoundEvent> DUCKBILL_DEATH = REGISTRY.register("duckbill.death", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "duckbill.death")));
-	public static final RegistryObject<SoundEvent> DUCKBILL_HURT = REGISTRY.register("duckbill.hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "duckbill.hurt")));
+	public static final RegistryObject<SoundEvent> LIZARD_AMBIENT = REGISTRY.register("lizard.ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "lizard.ambient")));
+	public static final RegistryObject<SoundEvent> LIZARD_HURT = REGISTRY.register("lizard.hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "lizard.hurt")));
 }

@@ -20,9 +20,10 @@ public class ForestModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ForestModItems.RACOON_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
 			tabData.accept(ForestModItems.BROWN_BEAR_SPAWN_EGG.get());
 			tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
+			tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
+			tabData.accept(ForestModItems.FIRE_SALAMANDER_SPAWN_EGG.get());
 		}
 	}
 
@@ -254,8 +255,7 @@ public class ForestModTabs {
 
 		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "interaction_blocks"),
-				builder -> builder.title(Component.translatable("item_group.forest.interaction_blocks")).icon(() -> new ItemStack(ForestModBlocks.CLAY_OVEN.get())).displayItems((parameters, tabData) -> {
-					tabData.accept(ForestModBlocks.CLAY_OVEN.get().asItem());
+				builder -> builder.title(Component.translatable("item_group.forest.interaction_blocks")).icon(() -> new ItemStack(ForestModBlocks.FERMENTATION_BARREL.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(ForestModBlocks.FERMENTATION_BARREL.get().asItem());
 				})
 

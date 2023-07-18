@@ -492,23 +492,6 @@
       "path": "~/Silver"
     },
     {
-      "name": "Snail",
-      "type": "livingentity",
-      "sortid": 186,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "snail",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/entity/SnailEntity.java",
-          "src/main/resources/data/forest/forge/biome_modifier/snail_biome_modifier.json",
-          "src/main/java/power/forestxreborn/client/renderer/SnailRenderer.java",
-          "src/main/resources/assets/forest/models/item/snail_spawn_egg.json"
-        ]
-      },
-      "path": "~/Animals"
-    },
-    {
       "name": "DeepslateSilverOreTable",
       "type": "loottable",
       "sortid": 226,
@@ -3961,24 +3944,6 @@
       "path": "~/Animals"
     },
     {
-      "name": "ClayOven",
-      "type": "block",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clay_oven",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/clay_oven.json",
-          "src/main/java/power/forestxreborn/block/entity/ClayOvenBlockEntity.java",
-          "src/main/resources/assets/forest/models/block/clay_oven.json",
-          "src/main/resources/assets/forest/blockstates/clay_oven.json",
-          "src/main/java/power/forestxreborn/block/ClayOvenBlock.java"
-        ]
-      },
-      "path": "~/ClayOven"
-    },
-    {
       "name": "InteractionBlocks",
       "type": "tab",
       "sortid": 357,
@@ -4018,38 +3983,6 @@
         ]
       },
       "path": "~/Gingerbread/RawGingerbread"
-    },
-    {
-      "name": "BakingTick",
-      "type": "procedure",
-      "sortid": 359,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "baking_tick",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/procedures/BakingTickProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ClayOven"
     },
     {
       "name": "GingerbreadFormMan",
@@ -4286,68 +4219,6 @@
         ]
       },
       "path": "~/Gingerbread/Gingerbread"
-    },
-    {
-      "name": "ClayOvenCraft",
-      "type": "recipe",
-      "sortid": 366,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clay_oven_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/clay_oven_craft.json"
-        ]
-      },
-      "path": "~/ClayOven"
-    },
-    {
-      "name": "TextRemainFuel",
-      "type": "procedure",
-      "sortid": 367,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "text_remain_fuel",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/power/forestxreborn/procedures/TextRemainFuelProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/ClayOven"
-    },
-    {
-      "name": "ClayOvenGUI",
-      "type": "gui",
-      "sortid": 368,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clay_oven_gui",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/client/gui/ClayOvenGUIScreen.java",
-          "src/main/java/power/forestxreborn/world/inventory/ClayOvenGUIMenu.java"
-        ]
-      },
-      "path": "~/ClayOven"
     },
     {
       "name": "RawGingerbreadMan",
@@ -8314,6 +8185,365 @@
         ]
       },
       "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "WineBusiness",
+      "type": "achievement",
+      "sortid": 486,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_business",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/advancements/wine_business.json"
+        ]
+      },
+      "path": "~/Achievement"
+    },
+    {
+      "name": "Snail",
+      "type": "animatedentity",
+      "sortid": 487,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "snail",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/entity/model/SnailModel.java",
+          "src/main/java/power/forestxreborn/entity/SnailEntity.java",
+          "src/main/resources/data/forest/forge/biome_modifier/snail_biome_modifier.json",
+          "src/main/java/power/forestxreborn/client/renderer/SnailRenderer.java",
+          "src/main/resources/assets/forest/models/item/snail_spawn_egg.json"
+        ]
+      },
+      "path": "~/Animals"
+    },
+    {
+      "name": "TallFlowerBlocks",
+      "type": "tag",
+      "sortid": 488,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tall_flower_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/tall_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeeGrowableBlocks",
+      "type": "tag",
+      "sortid": 489,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bee_growable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/bee_growables.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ValidSpawnBlocks",
+      "type": "tag",
+      "sortid": 490,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "valid_spawn_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/valid_spawn.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ImpermeableBlocks",
+      "type": "tag",
+      "sortid": 491,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impermeable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/impermeable.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeaconBaseBlockBlocks",
+      "type": "tag",
+      "sortid": 492,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_block_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ClimbableBlocks",
+      "type": "tag",
+      "sortid": 493,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "climbable_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/climbable.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "FireBlocks",
+      "type": "tag",
+      "sortid": 494,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/fire.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "DragonImmuneBlocks",
+      "type": "tag",
+      "sortid": 495,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dragon_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/dragon_immune.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "WitherImmuneBlocks",
+      "type": "tag",
+      "sortid": 496,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wither_immune_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/wither_immune.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "AnimalsSpawnableOnBlocks",
+      "type": "tag",
+      "sortid": 497,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "animals_spawnable_on_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/animals_spawnable_on.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "PreventMobSpawningInsideBlocks",
+      "type": "tag",
+      "sortid": 498,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "prevent_mob_spawning_inside_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/prevent_mob_spawning_inside.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ArrowItems",
+      "type": "tag",
+      "sortid": 499,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/arrows.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SmallFlowerItems",
+      "type": "tag",
+      "sortid": 500,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "small_flower_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/small_flowers.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ArrowEntities",
+      "type": "tag",
+      "sortid": 501,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "arrow_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/arrows.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "ImpactProjectileEntities",
+      "type": "tag",
+      "sortid": 502,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "impact_projectile_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/impact_projectiles.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "RaiderEntities",
+      "type": "tag",
+      "sortid": 503,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raider_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/raiders.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "SkeletonEntities",
+      "type": "tag",
+      "sortid": 504,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "skeleton_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/skeletons.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsPeakBiomes",
+      "type": "tag",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_peak_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_peak.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "FireSalamander",
+      "type": "animatedentity",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fire_salamander",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/fire_salamander_spawn_egg.json",
+          "src/main/java/power/forestxreborn/entity/FireSalamanderEntity.java",
+          "src/main/java/power/forestxreborn/client/renderer/FireSalamanderRenderer.java",
+          "src/main/java/power/forestxreborn/entity/model/FireSalamanderModel.java"
+        ]
+      },
+      "path": "~/Animals"
+    },
+    {
+      "name": "WineAlcoholDesc",
+      "type": "procedure",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wine_alcohol_desc",
+      "metadata": {
+        "return_type": "string",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/WineAlcoholDescProcedure.java"
+        ],
+        "dependencies": []
+      },
+      "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "TrimTemplates",
+      "type": "tag",
+      "sortid": 509,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trim_templates",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/trim_templates.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "TrimMaterials",
+      "type": "tag",
+      "sortid": 511,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trim_materials",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/trim_materials.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "TrimmableArmor",
+      "type": "tag",
+      "sortid": 512,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trimmable_armor",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/trimmable_armor.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [
@@ -8332,25 +8562,17 @@
   ],
   "sound_elements": [
     {
-      "name": "duckbill.ambient",
+      "name": "lizard.ambient",
       "files": [
-        "duckbill.ambient"
+        "lizard.ambient"
       ],
       "category": "neutral",
       "subtitle": ""
     },
     {
-      "name": "duckbill.death",
+      "name": "lizard.hurt",
       "files": [
-        "duckbill.death"
-      ],
-      "category": "neutral",
-      "subtitle": ""
-    },
-    {
-      "name": "duckbill.hurt",
-      "files": [
-        "duckbill.hurt"
+        "lizard.hurt"
       ],
       "category": "neutral",
       "subtitle": ""
@@ -8364,9 +8586,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "item.forest.raw_silver": "Рудное серебро",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "block.forest.brown_fence": "Коричневый забор",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "item.forest.raw_silver": "Рудное серебро",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -8396,8 +8618,8 @@
       "item.forest.barbecue": "Шашлык",
       "item.forest.fennec_spawn_egg": "Яйцо призыва фенека",
       "item.forest.gingerbread_form_man": "Форма для пряника",
-      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "advancements.not_all_that_glitters_is_gold.descr": "Переплавьте руду в серебряные слитки",
+      "block.forest.raw_gingerbread_block": "Сырой пряничный блок",
       "entity.forest.fennec": "Фенек",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
@@ -8409,6 +8631,7 @@
       "block.forest.polished_sandslate": "Полированнный песчаный сланец",
       "block.forest.eucalyptus_wood": "Эвкалипт",
       "block.forest.marble_bricks_stairs": "Ступени из мраморных кирпичей",
+      "subtitles.lizard.hurt": "",
       "block.forest.polished_rhyolite_wall": "Ограда из полированного риолита",
       "block.forest.pumice_bricks": "Пемзовые кирпичи",
       "item_group.forest.interaction_blocks": "Блоки взаимодействия",
@@ -8439,11 +8662,12 @@
       "item.forest.blueberry": "Черника",
       "block.forest.red_fence": "Красный забор",
       "block.forest.blue_slab": "Синяя плита",
+      "subtitles.lizard.ambient": "",
       "advancements.out_of_the_fire_and_into_the_flames.title": "Из огня да в полымя",
       "desc.gingerbread_heart": "Сердце",
       "block.forest.polished_marble": "Полированный мрамор",
-      "entity.forest.snail": "Улитка",
       "block.forest.mangrove_parquet": "Мангровый паркет",
+      "entity.forest.snail": "Улитка",
       "block.forest.pumice": "Пемза",
       "block.forest.sandslate": "Песчаный сланец",
       "item.forest.gingerbread_brick": "Пряник",
@@ -8459,12 +8683,13 @@
       "item.forest.breadwithlard": "Хлеб с салом",
       "block.forest.cobbled_sandslate_slab": "Плита из дробленого песчаного сланца",
       "block.forest.blue_fence": "Синий забор",
-      "block.forest.clay_oven": "Глиняная печь",
       "block.forest.grape_vine_1": "Grape Vine",
+      "subtitles.record.disaster": "",
       "block.forest.truncated_pumice_stairs": "Ступени из усеченной пемзы",
       "block.forest.eucalyptus_sapling": "Sakura Sapling",
       "block.forest.light_blue_stairs": "Голубые ступени",
       "block.forest.red_crushed_sandstone_stairs": "Ступени из красного колотого песчаника",
+      "advancements.wine_business.title": "Винное дело",
       "block.forest.raw_silver_block": "Рудный серебряный блок",
       "item.forest.peat_piece": "Кусочек торфа",
       "block.forest.sandslate_bricks_stairs": "Ступени из песчаносланцевых кирпичей",
@@ -8486,6 +8711,7 @@
       "block.forest.lime_planks": "Лаймовые доски",
       "block.forest.light_gray_slab": "Светло-серая плита",
       "block.forest.light_gray_fence": "Светло-серый забор",
+      "tooltip.translation.intoxication": "Опьянение",
       "block.forest.rhyolite_bricks_wall": "Ограда из риолитовых кирпичей",
       "block.forest.truncated_pumice_slab": "Плита из усеченной пемзы",
       "item.forest.berry_strudel": "Ягодный штрудель",
@@ -8507,6 +8733,7 @@
       "block.forest.pink_stairs": "Розовые ступени",
       "item_group.forest.ores": "Руда",
       "block.forest.truncated_pumice": "Усеченная пемза",
+      "entity.forest.fire_salamander": "Fire Salamander",
       "item.forest.wine": "Вино",
       "block.forest.black_planks": "Черные доски",
       "block.forest.eucalyptus_fence_gate": "Калитка из эвкалиптовых досок",
@@ -8602,6 +8829,7 @@
       "item.forest.brown_bear_spawn_egg": "Яйцо призыва бурого медведя",
       "block.forest.pumice_wall": "Ограда из пемзы",
       "block.forest.red_planks": "Красные доски",
+      "trim_material.forest.silver": "Серебряный материал",
       "block.forest.crushed_sandstone_wall": "Ограда из колотого песчаника",
       "block.forest.cyan_stairs": "Коричневые ступени",
       "block.forest.silver_block": "Блок Серебра",
@@ -8637,6 +8865,7 @@
       "item.forest.racoon_spawn_egg": "Яйцо призыва енота",
       "block.forest.brown_fence_gate": "Коричневая калитка",
       "block.forest.eucalyptus_log": "Бревно эвкалипта",
+      "item.forest.fire_salamander_spawn_egg": "Fire Salamander Spawn Egg",
       "item.forest.gingerbread_form_pine": "Форма для пряника",
       "block.forest.light_gray_planks": "Светло-серые доские",
       "block.forest.eucalyptus_slab": "Плита из эвкалиптовых досок",
@@ -8644,8 +8873,9 @@
       "block.forest.orange_fence": "Оранжевый забор",
       "block.forest.pink_slab": "Розовая плита",
       "block.forest.eucalyptus_planks": "Эвкалиптовые доски",
-      "item.forest.grape": "Grape",
-      "block.forest.dense_web": "Плотная паутина"
+      "item.forest.grape": "Виноград",
+      "block.forest.dense_web": "Плотная паутина",
+      "advancements.wine_business.descr": "С помощью бочки для ферментации и винограда сделайте вино"
     },
     "en_us": {
       "item.forest.gingerbread_round": "Gingerbread",
@@ -8699,6 +8929,7 @@
       "block.forest.polished_sandslate": "Polished Sandslate",
       "block.forest.eucalyptus_wood": "Eucalyptus Wood",
       "block.forest.marble_bricks_stairs": "Marble Bricks Stairs",
+      "subtitles.lizard.hurt": "",
       "block.forest.polished_rhyolite_wall": "Polished Rhyolite Wall",
       "item_group.forest.interaction_blocks": "Interaction Blocks",
       "block.forest.pumice_bricks": "Pumice Bricks",
@@ -8729,11 +8960,12 @@
       "item.forest.blueberry": "Blueberry",
       "block.forest.red_fence": "Red Fence",
       "block.forest.blue_slab": "Blue Slab",
+      "subtitles.lizard.ambient": "",
       "advancements.out_of_the_fire_and_into_the_flames.title": "Out of the fire and into the flames",
       "desc.gingerbread_heart": "Heart",
       "block.forest.polished_marble": "Polished Marble",
-      "entity.forest.snail": "Snail",
       "block.forest.mangrove_parquet": "Mangrove Parquet",
+      "entity.forest.snail": "Snail",
       "block.forest.pumice": "Pumice",
       "block.forest.sandslate": "Sandslate",
       "item.forest.gingerbread_brick": "Gingerbread",
@@ -8749,12 +8981,13 @@
       "item.forest.breadwithlard": "Bread with lard",
       "block.forest.cobbled_sandslate_slab": "Cobbled Sandslate Slab",
       "block.forest.blue_fence": "Blue Fence",
-      "block.forest.clay_oven": "Clay Oven",
       "block.forest.grape_vine_1": "Grape Vine",
+      "subtitles.record.disaster": "",
       "block.forest.truncated_pumice_stairs": "Truncated Pumice Stairs",
       "block.forest.eucalyptus_sapling": "Eucalyptus Sapling",
       "block.forest.light_blue_stairs": "Light Blue Stairs",
       "block.forest.red_crushed_sandstone_stairs": "Red crushed sandstone stairs",
+      "advancements.wine_business.title": "Wine business",
       "block.forest.raw_silver_block": "Raw Silver Block",
       "item.forest.peat_piece": "Peat Piece",
       "block.forest.sandslate_bricks_stairs": "Sandslate Bricks Stairs",
@@ -8776,6 +9009,7 @@
       "block.forest.lime_planks": "Lime Planks",
       "block.forest.light_gray_slab": "Light Blue Slab",
       "block.forest.light_gray_fence": "Light Gray Fence",
+      "tooltip.translation.intoxication": "Intoxication",
       "block.forest.rhyolite_bricks_wall": "Rhyolite Bricks Wall",
       "block.forest.truncated_pumice_slab": "Truncated Pumice Slab",
       "item.forest.berry_strudel": "Berry Strudel",
@@ -8797,6 +9031,7 @@
       "block.forest.pink_stairs": "Pink Stairs",
       "item_group.forest.ores": "Ores",
       "block.forest.truncated_pumice": "Truncated Pumice",
+      "entity.forest.fire_salamander": "Fire Salamander",
       "item.forest.wine": "Wine",
       "block.forest.black_planks": "Black Planks",
       "block.forest.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
@@ -8892,6 +9127,7 @@
       "item.forest.brown_bear_spawn_egg": "Brown Bear Spawn Egg",
       "block.forest.pumice_wall": "Pumice Wall",
       "block.forest.red_planks": "Red Planks",
+      "trim_material.forest.silver": "Silver Material",
       "block.forest.crushed_sandstone_wall": "Crushed sandstone wall",
       "block.forest.cyan_stairs": "Cyan Stairs",
       "block.forest.silver_block": "Block of Silver",
@@ -8927,6 +9163,7 @@
       "item.forest.racoon_spawn_egg": "Racoon Spawn Egg",
       "block.forest.brown_fence_gate": "Brown Fence Gate",
       "block.forest.eucalyptus_log": "Eucalyptus Log",
+      "item.forest.fire_salamander_spawn_egg": "Fire Salamander Spawn Egg",
       "item.forest.gingerbread_form_pine": "Gingerbread Form",
       "block.forest.light_gray_planks": "Light Gray Planks",
       "block.forest.eucalyptus_slab": "Eucalyptus Slab",
@@ -8935,7 +9172,8 @@
       "block.forest.pink_slab": "Pink Slab",
       "block.forest.eucalyptus_planks": "Eucalyptus Planks",
       "item.forest.grape": "Grape",
-      "block.forest.dense_web": "Dense Web"
+      "block.forest.dense_web": "Dense Web",
+      "advancements.wine_business.descr": "Use a fermentation barrel and grapes to make wine"
     }
   },
   "foldersRoot": {
@@ -9057,10 +9295,6 @@
         ]
       },
       {
-        "name": "ClayOven",
-        "children": []
-      },
-      {
         "name": "Mushrooms",
         "children": []
       },
@@ -9096,13 +9330,21 @@
       {
         "name": "AlcoholMechanics",
         "children": []
+      },
+      {
+        "name": "Records",
+        "children": []
+      },
+      {
+        "name": "Trims",
+        "children": []
       }
     ]
   },
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.3.0.230715",
+    "version": "1.3.0.230718",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  ",
     "author": "UMC",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",
@@ -9110,10 +9352,13 @@
     "disableForgeVersionCheck": true,
     "serverSideOnly": false,
     "modPicture": "logo",
-    "requiredMods": [],
+    "requiredMods": [
+      "geckolib"
+    ],
     "dependencies": [],
     "dependants": [],
     "mcreatorDependencies": [
+      "geckolib",
       "allmods"
     ],
     "currentGenerator": "forge-1.19.4",
@@ -9121,5 +9366,5 @@
     "modElementsPackage": "power.forestxreborn",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300328523
+  "mcreatorVersion": 202300329201
 }

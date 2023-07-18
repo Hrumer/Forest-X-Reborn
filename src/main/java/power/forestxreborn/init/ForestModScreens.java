@@ -5,7 +5,6 @@
 package power.forestxreborn.init;
 
 import power.forestxreborn.client.gui.QuiverInventoryScreen;
-import power.forestxreborn.client.gui.ClayOvenGUIScreen;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -19,7 +18,6 @@ public class ForestModScreens {
 	@SubscribeEvent
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
-			MenuScreens.register(ForestModMenus.CLAY_OVEN_GUI.get(), ClayOvenGUIScreen::new);
 			MenuScreens.register(ForestModMenus.QUIVER_INVENTORY.get(), QuiverInventoryScreen::new);
 		});
 	}

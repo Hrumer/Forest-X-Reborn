@@ -27,15 +27,15 @@
     "water_fog_color": -12210702
   },
   "spawners": {
-    "monster": [
+    "monster": [],
+    "creature": [
       {
-        "type": "magma_cube",
-        "weight": 2,
+        "type": "forest:fire_salamander",
+        "weight": 20,
         "minCount": 1,
         "maxCount": 2
       }
     ],
-    "creature": [],
     "ambient": [],
     "axolotls": [],
     "underground_water_creature": [],

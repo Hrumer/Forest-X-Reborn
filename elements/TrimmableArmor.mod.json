@@ -1,0 +1,27 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SilverArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:SilverArmor.body"
+      },
+      {
+        "value": "CUSTOM:SilverArmor.legs"
+      },
+      {
+        "value": "CUSTOM:SilverArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "trimmable_armor",
+    "namespace": "minecraft"
+  }
+}

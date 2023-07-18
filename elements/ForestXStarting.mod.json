@@ -7,7 +7,7 @@
     "achievementIcon": {
       "value": "Blocks.SAPLING#1"
     },
-    "background": "Default",
+    "background": "background_for_achievements.png",
     "disableDisplay": false,
     "showPopup": false,
     "announceToChat": false,
