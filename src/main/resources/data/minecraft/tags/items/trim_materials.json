@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
+    "forest:sapphire",
     "forest:silver_ingot"
   ]
 }
