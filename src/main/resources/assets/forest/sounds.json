@@ -14,5 +14,13 @@
         "stream": false
       }
     ]
+  },
+  "record.strofa": {
+    "sounds": [
+      {
+        "name": "forest:record.strofa",
+        "stream": true
+      }
+    ]
   }
 }

@@ -68,7 +68,7 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.55,
+      "min": 0.5494000000000001,
       "max": 1.0
     },
     "genWeirdness": {
@@ -128,10 +128,10 @@
         "entity": {
           "value": "CUSTOM:FireSalamander"
         },
-        "minGroup": 1,
-        "maxGroup": 2,
+        "minGroup": 3,
+        "maxGroup": 4,
         "weight": 20,
-        "spawnType": "creature"
+        "spawnType": "misc"
       }
     ]
   }

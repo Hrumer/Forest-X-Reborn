@@ -37,6 +37,12 @@
         "weight": 5,
         "minCount": 2,
         "maxCount": 3
+      },
+      {
+        "type": "forest:fennec",
+        "weight": 20,
+        "minCount": 2,
+        "maxCount": 4
       }
     ],
     "ambient": [

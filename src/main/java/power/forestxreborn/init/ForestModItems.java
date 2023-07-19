@@ -23,6 +23,7 @@ import power.forestxreborn.item.RawGingerbreadBrickItem;
 import power.forestxreborn.item.RawBarbecueItem;
 import power.forestxreborn.item.QuiverItem;
 import power.forestxreborn.item.PeatPieceItem;
+import power.forestxreborn.item.MusicDiscStrofaItem;
 import power.forestxreborn.item.MeatLoafItem;
 import power.forestxreborn.item.LettuceSeedItem;
 import power.forestxreborn.item.LettuceItem;
@@ -309,6 +310,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> WINE = REGISTRY.register("wine", () -> new WineItem());
 	public static final RegistryObject<Item> SNAIL_SPAWN_EGG = REGISTRY.register("snail_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SNAIL, -6724096, -13434880, new Item.Properties()));
 	public static final RegistryObject<Item> FIRE_SALAMANDER_SPAWN_EGG = REGISTRY.register("fire_salamander_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.FIRE_SALAMANDER, -13261, -16777216, new Item.Properties()));
+	public static final RegistryObject<Item> MUSIC_DISC_STROFA = REGISTRY.register("music_disc_strofa", () -> new MusicDiscStrofaItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
