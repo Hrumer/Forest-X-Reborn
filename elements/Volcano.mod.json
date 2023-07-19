@@ -68,7 +68,7 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.5489000000000002,
+      "min": 0.5488000000000002,
       "max": 1.0
     },
     "genWeirdness": {
@@ -123,6 +123,16 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NETHER",
-    "spawnEntries": []
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityMagmaCube"
+        },
+        "minGroup": 2,
+        "maxGroup": 2,
+        "weight": 4,
+        "spawnType": "monster"
+      }
+    ]
   }
 }
