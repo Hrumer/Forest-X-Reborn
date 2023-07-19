@@ -27,14 +27,7 @@
     "water_fog_color": -12210702
   },
   "spawners": {
-    "monster": [
-      {
-        "type": "magma_cube",
-        "weight": 4,
-        "minCount": 2,
-        "maxCount": 2
-      }
-    ],
+    "monster": [],
     "creature": [],
     "ambient": [],
     "axolotls": [],

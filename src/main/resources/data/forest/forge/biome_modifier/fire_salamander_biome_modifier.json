@@ -3,7 +3,7 @@
   "biomes": "forest:volcano",
   "spawners": {
     "type": "forest:fire_salamander",
-    "weight": 20,
+    "weight": 100,
     "minCount": 2,
     "maxCount": 3
   }
