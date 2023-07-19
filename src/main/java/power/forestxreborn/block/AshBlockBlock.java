@@ -24,7 +24,7 @@ import java.util.Collections;
 
 public class AshBlockBlock extends FallingBlock {
 	public AshBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.SAND).sound(SoundType.SAND).strength(0.2f, 5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of(Material.GRASS).sound(SoundType.SAND).strength(0.2f, 5f).requiresCorrectToolForDrops());
 	}
 
 	@Override

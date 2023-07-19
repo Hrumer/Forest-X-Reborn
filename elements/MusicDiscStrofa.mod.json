@@ -1,0 +1,21 @@
+{
+  "_fv": 44,
+  "_type": "musicdisc",
+  "definition": {
+    "name": "Music Disc",
+    "texture": "music_disc_strofa",
+    "description": "bxkqq - strofa",
+    "creativeTab": {
+      "value": "CUSTOM:Misc"
+    },
+    "specialInformation": {
+      "fixedValue": ""
+    },
+    "hasGlow": false,
+    "music": {
+      "value": "CUSTOM:record.strofa"
+    },
+    "lengthInTicks": 3520,
+    "analogOutput": 13
+  }
+}

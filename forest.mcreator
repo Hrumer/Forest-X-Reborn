@@ -8480,6 +8480,7 @@
       "metadata": {
         "files": [
           "src/main/resources/assets/forest/models/item/fire_salamander_spawn_egg.json",
+          "src/main/resources/data/forest/forge/biome_modifier/fire_salamander_biome_modifier.json",
           "src/main/java/power/forestxreborn/entity/FireSalamanderEntity.java",
           "src/main/java/power/forestxreborn/client/renderer/FireSalamanderRenderer.java",
           "src/main/java/power/forestxreborn/entity/model/FireSalamanderModel.java"
@@ -8544,6 +8545,21 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "MusicDiscStrofa",
+      "type": "musicdisc",
+      "sortid": 513,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_disc_strofa",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/item/MusicDiscStrofaItem.java",
+          "src/main/resources/assets/forest/models/item/music_disc_strofa.json"
+        ]
+      },
+      "path": "~/Records"
     }
   ],
   "variable_elements": [
@@ -8575,6 +8591,14 @@
         "lizard.hurt"
       ],
       "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "record.strofa",
+      "files": [
+        "record.strofa"
+      ],
+      "category": "record",
       "subtitle": ""
     }
   ],
@@ -8702,6 +8726,7 @@
       "block.forest.lime_slab": "Лаймовая плита",
       "block.forest.rhyolite_bricks": "Риолитовые кирпичи",
       "item.forest.raw_gingerbread_brick": "Тесто для пряника",
+      "subtitles.record.strofa": "",
       "block.forest.ash_block": "Блок пепла",
       "advancements.paint_the_fence.descr": "Покрасьте забор любым красителем",
       "block.forest.polished_rhyolite_slab": "Ступени из полированного риолита",
@@ -8756,6 +8781,7 @@
       "block.forest.yellow_stairs": "Желтые ступени",
       "biome.forest.volcano": "Вулкан",
       "item.forest.snail_spawn_egg": "Яйцо призыва улитки",
+      "item.forest.music_disc_strofa": "Пластинка",
       "block.forest.rhyolite_slab": "Плита из риолита",
       "block.forest.polished_sandslate_slab": "Плита из полированного песчаного сланца",
       "block.forest.sapphire_ore": "Сапфировая руда",
@@ -8818,6 +8844,7 @@
       "block.forest.rhyolite": "Риолит",
       "block.forest.light_blue_fence_gate": "Голубая калитка",
       "block.forest.magenta_fence_gate": "Пурпурная калитка",
+      "item.forest.music_disc_strofa.desc": "bxkqq - strofa",
       "block.forest.crushed_sandstone_stairs": "Ступени из колотого песчанника",
       "advancements.forest_x_starting.title": "Forest X",
       "item.forest.silver_armor_chestplate": "Серебряный нагрудник",
@@ -9000,6 +9027,7 @@
       "block.forest.lime_slab": "Lime Slab",
       "block.forest.rhyolite_bricks": "Rhyolite Bricks",
       "item.forest.raw_gingerbread_brick": "Raw Gingerbread",
+      "subtitles.record.strofa": "",
       "block.forest.ash_block": "Ash Block",
       "advancements.paint_the_fence.descr": "Paint the fence with any dye",
       "block.forest.polished_rhyolite_slab": "Polished Rhyolite",
@@ -9054,6 +9082,7 @@
       "block.forest.yellow_stairs": "Yellow Stairs",
       "biome.forest.volcano": "Volcano",
       "item.forest.snail_spawn_egg": "Snail Spawn Egg",
+      "item.forest.music_disc_strofa": "Music Disc",
       "block.forest.rhyolite_slab": "Rhyolite Slab",
       "block.forest.polished_sandslate_slab": "Polished Sandslate Slab",
       "block.forest.sapphire_ore": "Sapphire Ore",
@@ -9116,6 +9145,7 @@
       "block.forest.rhyolite": "Rhyolite",
       "block.forest.light_blue_fence_gate": "Light Blue Fence Gate",
       "block.forest.magenta_fence_gate": "Magenta Fence Gate",
+      "item.forest.music_disc_strofa.desc": "bxkqq - strofa",
       "block.forest.crushed_sandstone_stairs": "Crushed sandstone stairs",
       "advancements.forest_x_starting.title": "Forest X",
       "item.forest.silver_armor_chestplate": "Silver Chestplate",
@@ -9344,9 +9374,9 @@
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.3.0.230718",
+    "version": "1.3.0.230719",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  ",
-    "author": "UMC",
+    "author": "Environment Studios",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",
     "license": "All Rights Reserved",
     "disableForgeVersionCheck": true,
