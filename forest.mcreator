@@ -1756,23 +1756,6 @@
       "path": "~/Desert"
     },
     {
-      "name": "VolcanoLavaLakes",
-      "type": "feature",
-      "sortid": 283,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "volcano_lava_lakes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/worldgen/placed_feature/volcano_lava_lakes.json",
-          "src/main/resources/data/forest/forge/biome_modifier/volcano_lava_lakes_biome_modifier.json",
-          "src/main/java/power/forestxreborn/world/features/VolcanoLavaLakesFeature.java",
-          "src/main/resources/data/forest/worldgen/configured_feature/volcano_lava_lakes.json"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
       "name": "PolishedRhyolite",
       "type": "block",
       "sortid": 31,
@@ -8560,6 +8543,23 @@
         ]
       },
       "path": "~/Records"
+    },
+    {
+      "name": "StoneVolcanoDelta",
+      "type": "feature",
+      "sortid": 514,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_volcano_delta",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/world/features/StoneVolcanoDeltaFeature.java",
+          "src/main/resources/data/forest/worldgen/placed_feature/stone_volcano_delta.json",
+          "src/main/resources/data/forest/forge/biome_modifier/stone_volcano_delta_biome_modifier.json",
+          "src/main/resources/data/forest/worldgen/configured_feature/stone_volcano_delta.json"
+        ]
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [

@@ -7,7 +7,11 @@
     "blocks": [],
     "functions": [],
     "entities": [],
-    "biomes": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:Volcano"
+      }
+    ],
     "name": "is_hill",
     "namespace": "minecraft"
   }
