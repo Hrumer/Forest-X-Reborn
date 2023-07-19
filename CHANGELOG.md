@@ -3,7 +3,6 @@ Snapshot 1.3.0.230719 (Maybe not released):
 <br /> - Added a new record - strofa
 <br /> - Strofa record can be found in the destroyed portal with a chance of 5%
 <br /> - [Bugfix] Fixed a bug with replacing all bottles in the main hand with one bottle of wine
-<br /> - [Bugfix] 
 Snapshot 1.3.0.230718:
 <br /> - Added fire salamander
 <br /> - Added support for armor trim for silver
