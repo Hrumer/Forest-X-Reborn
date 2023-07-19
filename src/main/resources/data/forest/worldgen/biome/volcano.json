@@ -34,14 +34,7 @@
     "underground_water_creature": [],
     "water_creature": [],
     "water_ambient": [],
-    "misc": [
-      {
-        "type": "forest:fire_salamander",
-        "weight": 20,
-        "minCount": 3,
-        "maxCount": 4
-      }
-    ]
+    "misc": []
   },
   "spawn_costs": {},
   "carvers": {

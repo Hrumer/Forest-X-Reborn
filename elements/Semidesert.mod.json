@@ -44,7 +44,7 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": 0.5711,
+      "min": 0.5710000000000001,
       "max": 0.9999
     },
     "genHumidity": {
@@ -152,15 +152,6 @@
         "maxGroup": 8,
         "weight": 10,
         "spawnType": "ambient"
-      },
-      {
-        "entity": {
-          "value": "CUSTOM:Fennec"
-        },
-        "minGroup": 2,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "creature"
       }
     ]
   }

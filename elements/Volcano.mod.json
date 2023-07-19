@@ -68,7 +68,7 @@
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.5494000000000001,
+      "min": 0.5489000000000002,
       "max": 1.0
     },
     "genWeirdness": {
@@ -123,16 +123,6 @@
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
     "spawnRuinedPortal": "NETHER",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "CUSTOM:FireSalamander"
-        },
-        "minGroup": 3,
-        "maxGroup": 4,
-        "weight": 20,
-        "spawnType": "misc"
-      }
-    ]
+    "spawnEntries": []
   }
 }
