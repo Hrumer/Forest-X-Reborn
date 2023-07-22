@@ -1498,23 +1498,6 @@
       "path": "~/Animals"
     },
     {
-      "name": "BrownBear",
-      "type": "livingentity",
-      "sortid": 187,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brown_bear",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/forge/biome_modifier/brown_bear_biome_modifier.json",
-          "src/main/java/power/forestxreborn/entity/BrownBearEntity.java",
-          "src/main/java/power/forestxreborn/client/renderer/BrownBearRenderer.java",
-          "src/main/resources/assets/forest/models/item/brown_bear_spawn_egg.json"
-        ]
-      },
-      "path": "~/Animals"
-    },
-    {
       "name": "DeepslateSapphireOreTable",
       "type": "loottable",
       "sortid": 269,
@@ -8576,6 +8559,24 @@
         ]
       },
       "path": "~/Animals"
+    },
+    {
+      "name": "BrownBear",
+      "type": "animatedentity",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_bear",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/entity/model/BrownBearModel.java",
+          "src/main/resources/data/forest/forge/biome_modifier/brown_bear_biome_modifier.json",
+          "src/main/java/power/forestxreborn/entity/BrownBearEntity.java",
+          "src/main/java/power/forestxreborn/client/renderer/BrownBearRenderer.java",
+          "src/main/resources/assets/forest/models/item/brown_bear_spawn_egg.json"
+        ]
+      },
+      "path": "~/Animals"
     }
   ],
   "variable_elements": [
@@ -8625,7 +8626,7 @@
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
-      "entity.forest.brown_bear": "Бурый медведь",
+      "entity.forest.brown_bear": "Brown Bear",
       "item.forest.raw_silver": "Рудное серебро",
       "block.forest.gingerbread_block": "Пряничный блок",
       "block.forest.brown_fence": "Коричневый забор",
@@ -8869,7 +8870,7 @@
       "entity.forest.racoon": "Енот",
       "block.forest.marble_bricks": "Мраморные кирпичи",
       "block.forest.rhyolite_stairs": "Риолитовые ступени",
-      "item.forest.brown_bear_spawn_egg": "Яйцо призыва бурого медведя",
+      "item.forest.brown_bear_spawn_egg": "Brown Bear Spawn Egg",
       "block.forest.pumice_wall": "Ограда из пемзы",
       "block.forest.red_planks": "Красные доски",
       "trim_material.forest.silver": "Серебряный материал",
