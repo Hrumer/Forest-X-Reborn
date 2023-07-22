@@ -11,10 +11,7 @@
         "value": "taiga"
       },
       {
-        "value": "taiga_hills"
-      },
-      {
-        "value": "mutated_taiga"
+        "value": "forest"
       }
     ],
     "generateCondition": {
