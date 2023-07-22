@@ -3,7 +3,9 @@
   "_type": "feature",
   "definition": {
     "generationStep": "SURFACE_STRUCTURES",
-    "restrictionDimensions": [],
+    "restrictionDimensions": [
+      "Surface"
+    ],
     "restrictionBiomes": [
       {
         "value": "taiga"
