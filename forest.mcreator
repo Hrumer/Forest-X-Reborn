@@ -860,132 +860,6 @@
       "path": "~/Tags"
     },
     {
-      "name": "IsOverworldBiomes",
-      "type": "tag",
-      "sortid": 239,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_overworld_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
-      "name": "IsNetherBiomes",
-      "type": "tag",
-      "sortid": 240,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_nether_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_nether.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
-      "name": "IsEndBiomes",
-      "type": "tag",
-      "sortid": 241,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_end_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_end.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
-      "name": "IsOceanBiomes",
-      "type": "tag",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_ocean_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_ocean.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
-      "name": "IsMountainBiomes",
-      "type": "tag",
-      "sortid": 243,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_mountain_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_mountain.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
-      "name": "IsRiverBiomes",
-      "type": "tag",
-      "sortid": 244,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_river_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_river.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
-      "name": "IsHillBiomes",
-      "type": "tag",
-      "sortid": 245,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_hill_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_hill.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
-      "name": "IsForestBiomes",
-      "type": "tag",
-      "sortid": 246,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_forest_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
-      "name": "IsSavannaBiomes",
-      "type": "tag",
-      "sortid": 247,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_savanna_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_savanna.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
       "name": "Peatbog",
       "type": "biome",
       "sortid": 248,
@@ -8406,20 +8280,6 @@
       "path": "~/Tags"
     },
     {
-      "name": "IsPeakBiomes",
-      "type": "tag",
-      "sortid": 505,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "is_peak_biomes",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/minecraft/tags/worldgen/biome/is_peak.json"
-        ]
-      },
-      "path": "~/Tags"
-    },
-    {
       "name": "FireSalamander",
       "type": "animatedentity",
       "sortid": 506,
@@ -8577,6 +8437,48 @@
         ]
       },
       "path": "~/Animals"
+    },
+    {
+      "name": "RawSilverBlasting",
+      "type": "recipe",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_silver_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/raw_silver_blasting.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "DeeOreBlasting",
+      "type": "recipe",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dee_ore_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/dee_ore_blasting.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "OreBlasting",
+      "type": "recipe",
+      "sortid": 520,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_blasting",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/ore_blasting.json"
+        ]
+      },
+      "path": "~/Silver"
     }
   ],
   "variable_elements": [
@@ -8870,7 +8772,7 @@
       "entity.forest.racoon": "Енот",
       "block.forest.marble_bricks": "Мраморные кирпичи",
       "block.forest.rhyolite_stairs": "Риолитовые ступени",
-      "item.forest.brown_bear_spawn_egg": "Яйцо бурого медведя",
+      "item.forest.brown_bear_spawn_egg": "Яйцо призыва бурого медведя",
       "block.forest.pumice_wall": "Ограда из пемзы",
       "block.forest.red_planks": "Красные доски",
       "trim_material.forest.silver": "Серебряный материал",
@@ -8928,9 +8830,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "item.forest.raw_silver": "Raw Silver",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "block.forest.brown_fence": "Brown Fence",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "item.forest.raw_silver": "Raw Silver",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -8960,8 +8862,8 @@
       "item.forest.barbecue": "Barbecue",
       "item.forest.gingerbread_form_man": "Gingerbread Form",
       "item.forest.fennec_spawn_egg": "Fennec Spawn Egg",
-      "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
       "advancements.not_all_that_glitters_is_gold.descr": "Melt the ore into silver ingots",
+      "block.forest.raw_gingerbread_block": "Raw Gingerbread Block",
       "block.forest.light_gray_stairs": "Light Gray Stairs",
       "entity.forest.fennec": "Fennec",
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",

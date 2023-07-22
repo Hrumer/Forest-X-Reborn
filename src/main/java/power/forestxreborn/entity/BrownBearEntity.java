@@ -213,6 +213,9 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 			) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("brown_bear.model.walking"));
 			}
+			if (this.isSprinting()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("brown_bear.model.running"));
+			}
 			return event.setAndContinue(RawAnimation.begin().thenLoop("brown_bear.model.idle"));
 		}
 		return PlayState.STOP;
