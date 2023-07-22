@@ -176,8 +176,6 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.PURPLE_FENCE_GATE.get().asItem());
 					tabData.accept(ForestModBlocks.MAGENTA_FENCE_GATE.get().asItem());
 					tabData.accept(ForestModBlocks.PINK_FENCE_GATE.get().asItem());
-					tabData.accept(ForestModBlocks.BROWN_BEAR_CARPET.get().asItem());
-					tabData.accept(ForestModBlocks.POLAR_BEAR_CARPET.get().asItem());
 				})
 
 		);
