@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "gray_planks",
@@ -35,7 +35,9 @@
       }
     ],
     "name": "Gray Fence Gate",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,

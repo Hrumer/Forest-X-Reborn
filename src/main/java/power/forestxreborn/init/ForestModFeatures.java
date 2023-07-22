@@ -13,12 +13,17 @@ import power.forestxreborn.world.features.ores.SilverOreFeature;
 import power.forestxreborn.world.features.ores.SandslateFeature;
 import power.forestxreborn.world.features.ores.RhyoliteFeature;
 import power.forestxreborn.world.features.ores.DeepslateSilverOreFeature;
-import power.forestxreborn.world.features.VolcanoLavaLakesFeature;
 import power.forestxreborn.world.features.SunshroomsFeatureFeature;
+import power.forestxreborn.world.features.StoneVolcanoDeltaFeature;
+import power.forestxreborn.world.features.StonePatchFeature;
 import power.forestxreborn.world.features.SemidesertPatchFeature;
 import power.forestxreborn.world.features.RedMushroomsFeatureFeature;
+import power.forestxreborn.world.features.PumicePatchFeature;
 import power.forestxreborn.world.features.PeatbogLakesFeature;
+import power.forestxreborn.world.features.ObsidianPatchFeature;
 import power.forestxreborn.world.features.MoonshroomsFeatureFeature;
+import power.forestxreborn.world.features.LavaPatchFeature;
+import power.forestxreborn.world.features.CobblestonePatchFeature;
 import power.forestxreborn.world.features.BrownMushroomsFeatureFeature;
 import power.forestxreborn.world.features.BlueberriesBushFeatureFeature;
 import power.forestxreborn.world.features.BigRedMushroomsFeatureFeature;
@@ -44,7 +49,6 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> BLUE_ROSE = REGISTRY.register("blue_rose", BlueRoseFeature::new);
 	public static final RegistryObject<Feature<?>> SILVER_ORE = REGISTRY.register("silver_ore", SilverOreFeature::new);
 	public static final RegistryObject<Feature<?>> DEEPSLATE_SILVER_ORE = REGISTRY.register("deepslate_silver_ore", DeepslateSilverOreFeature::new);
-	public static final RegistryObject<Feature<?>> VOLCANO_LAVA_LAKES = REGISTRY.register("volcano_lava_lakes", VolcanoLavaLakesFeature::new);
 	public static final RegistryObject<Feature<?>> PEATBOG_LAKES = REGISTRY.register("peatbog_lakes", PeatbogLakesFeature::new);
 	public static final RegistryObject<Feature<?>> BLUEBERRIES_BUSH_FEATURE = REGISTRY.register("blueberries_bush_feature", BlueberriesBushFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> SEMIDESERT_PATCH = REGISTRY.register("semidesert_patch", SemidesertPatchFeature::new);
@@ -54,4 +58,10 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> SUNSHROOMS_FEATURE = REGISTRY.register("sunshrooms_feature", SunshroomsFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> BIG_BROWN_MUSHROOMS_FEATURE = REGISTRY.register("big_brown_mushrooms_feature", BigBrownMushroomsFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> BIG_RED_MUSHROOMS_FEATURE = REGISTRY.register("big_red_mushrooms_feature", BigRedMushroomsFeatureFeature::new);
+	public static final RegistryObject<Feature<?>> OBSIDIAN_PATCH = REGISTRY.register("obsidian_patch", ObsidianPatchFeature::new);
+	public static final RegistryObject<Feature<?>> PUMICE_PATCH = REGISTRY.register("pumice_patch", PumicePatchFeature::new);
+	public static final RegistryObject<Feature<?>> STONE_PATCH = REGISTRY.register("stone_patch", StonePatchFeature::new);
+	public static final RegistryObject<Feature<?>> COBBLESTONE_PATCH = REGISTRY.register("cobblestone_patch", CobblestonePatchFeature::new);
+	public static final RegistryObject<Feature<?>> LAVA_PATCH = REGISTRY.register("lava_patch", LavaPatchFeature::new);
+	public static final RegistryObject<Feature<?>> STONE_VOLCANO_DELTA = REGISTRY.register("stone_volcano_delta", StoneVolcanoDeltaFeature::new);
 }

@@ -4,8 +4,6 @@
  */
 package power.forestxreborn.init;
 
-import power.forestxreborn.client.model.Modelsnail;
-import power.forestxreborn.client.model.Modelmummy;
 import power.forestxreborn.client.model.ModelRacoonModel;
 import power.forestxreborn.client.model.ModelFennecModel;
 import power.forestxreborn.client.model.ModelBrownBearModel;
@@ -22,7 +20,5 @@ public class ForestModModels {
 		event.registerLayerDefinition(ModelRacoonModel.LAYER_LOCATION, ModelRacoonModel::createBodyLayer);
 		event.registerLayerDefinition(ModelFennecModel.LAYER_LOCATION, ModelFennecModel::createBodyLayer);
 		event.registerLayerDefinition(ModelBrownBearModel.LAYER_LOCATION, ModelBrownBearModel::createBodyLayer);
-		event.registerLayerDefinition(Modelmummy.LAYER_LOCATION, Modelmummy::createBodyLayer);
-		event.registerLayerDefinition(Modelsnail.LAYER_LOCATION, Modelsnail::createBodyLayer);
 	}
 }

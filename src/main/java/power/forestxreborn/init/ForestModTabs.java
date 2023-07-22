@@ -20,9 +20,10 @@ public class ForestModTabs {
 
 		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
 			tabData.accept(ForestModItems.RACOON_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
 			tabData.accept(ForestModItems.BROWN_BEAR_SPAWN_EGG.get());
 			tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
+			tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
+			tabData.accept(ForestModItems.FIRE_SALAMANDER_SPAWN_EGG.get());
 		}
 	}
 
@@ -72,6 +73,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.RHYOLITE_WALL.get().asItem());
 					tabData.accept(ForestModBlocks.POLISHED_RHYOLITE_WALL.get().asItem());
 					tabData.accept(ForestModBlocks.RHYOLITE_BRICKS_WALL.get().asItem());
+					tabData.accept(ForestModBlocks.ASH_COVER.get().asItem());
+					tabData.accept(ForestModBlocks.ASH_BLOCK.get().asItem());
 					tabData.accept(ForestModBlocks.PUMICE.get().asItem());
 					tabData.accept(ForestModBlocks.POLISHED_PUMICE.get().asItem());
 					tabData.accept(ForestModBlocks.PUMICE_BRICKS.get().asItem());
@@ -191,6 +194,7 @@ public class ForestModTabs {
 		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "plants"),
 				builder -> builder.title(Component.translatable("item_group.forest.plants")).icon(() -> new ItemStack(ForestModBlocks.LAVANDER.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModItems.LETTUCE_SEED.get());
 					tabData.accept(ForestModBlocks.WILDFLOWER.get().asItem());
 					tabData.accept(ForestModBlocks.BURNING_BLOSSOM.get().asItem());
 					tabData.accept(ForestModBlocks.LAVANDER.get().asItem());
@@ -198,6 +202,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.BLUE_ROSE.get().asItem());
 					tabData.accept(ForestModBlocks.SUNSHROOM.get().asItem());
 					tabData.accept(ForestModBlocks.MOONSHROOM.get().asItem());
+					tabData.accept(ForestModBlocks.GRAPE_VINE_0.get().asItem());
 				})
 
 		);
@@ -214,6 +219,9 @@ public class ForestModTabs {
 
 		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "food"), builder -> builder.title(Component.translatable("item_group.forest.food")).icon(() -> new ItemStack(ForestModItems.MEAT_LOAF.get())).displayItems((parameters, tabData) -> {
+			tabData.accept(ForestModItems.GRAPE.get());
+			tabData.accept(ForestModItems.BLUEBERRY.get());
+			tabData.accept(ForestModItems.LETTUCE.get());
 			tabData.accept(ForestModItems.RAW_BARBECUE.get());
 			tabData.accept(ForestModItems.BARBECUE.get());
 			tabData.accept(ForestModItems.MEAT_LOAF.get());
@@ -232,6 +240,7 @@ public class ForestModTabs {
 			tabData.accept(ForestModItems.GINGERBREAD_ROUND.get());
 			tabData.accept(ForestModItems.GINGERBREAD_PINE.get());
 			tabData.accept(ForestModItems.GLAZED_GINGERBREAD_PINE.get());
+			tabData.accept(ForestModItems.WINE.get());
 		})
 
 		);
@@ -242,20 +251,13 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_HEART.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_BRICK.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
-				})
-
-		);
-		event.registerCreativeModeTab(new ResourceLocation("forest", "harvest"),
-				builder -> builder.title(Component.translatable("item_group.forest.harvest")).icon(() -> new ItemStack(ForestModItems.BLUEBERRY.get())).displayItems((parameters, tabData) -> {
-					tabData.accept(ForestModItems.BLUEBERRY.get());
-					tabData.accept(ForestModItems.LETTUCE.get());
-					tabData.accept(ForestModItems.LETTUCE_SEED.get());
+					tabData.accept(ForestModItems.MUSIC_DISC_STROFA.get());
 				})
 
 		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "interaction_blocks"),
-				builder -> builder.title(Component.translatable("item_group.forest.interaction_blocks")).icon(() -> new ItemStack(ForestModBlocks.CLAY_OVEN.get())).displayItems((parameters, tabData) -> {
-					tabData.accept(ForestModBlocks.CLAY_OVEN.get().asItem());
+				builder -> builder.title(Component.translatable("item_group.forest.interaction_blocks")).icon(() -> new ItemStack(ForestModBlocks.FERMENTATION_BARREL.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModBlocks.FERMENTATION_BARREL.get().asItem());
 				})
 
 		);
@@ -266,6 +268,11 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.SILVER_SHOVEL.get());
 					tabData.accept(ForestModItems.SILVER_HOE.get());
 					tabData.accept(ForestModItems.SILVER_SWORD.get());
+					tabData.accept(ForestModItems.SILVER_ARMOR_HELMET.get());
+					tabData.accept(ForestModItems.SILVER_ARMOR_CHESTPLATE.get());
+					tabData.accept(ForestModItems.SILVER_ARMOR_LEGGINGS.get());
+					tabData.accept(ForestModItems.SILVER_ARMOR_BOOTS.get());
+					tabData.accept(ForestModItems.QUIVER.get());
 				})
 
 		);

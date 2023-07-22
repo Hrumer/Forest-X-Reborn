@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -10,7 +10,7 @@
     "name": "Lettuce",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Harvest"
+      "value": "CUSTOM:Food"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -26,13 +26,15 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "isFood": true,
-    "nutritionalValue": 1,
+    "nutritionalValue": 2,
     "saturation": 0.15,
     "eatResultItem": {
       "value": ""

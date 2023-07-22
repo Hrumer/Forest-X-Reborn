@@ -1,16 +1,18 @@
 
 package power.forestxreborn.item;
 
-import power.forestxreborn.procedures.SilverEnchantProcedure;
 import power.forestxreborn.init.ForestModItems;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.Tier;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.item.AxeItem;
-import net.minecraft.world.entity.player.Player;
+import net.minecraft.network.chat.Component;
+
+import java.util.List;
 
 public class SilverAxeItem extends AxeItem {
 	public SilverAxeItem() {
@@ -32,7 +34,7 @@ public class SilverAxeItem extends AxeItem {
 			}
 
 			public int getEnchantmentValue() {
-				return 22;
+				return 40;
 			}
 
 			public Ingredient getRepairIngredient() {
@@ -42,8 +44,7 @@ public class SilverAxeItem extends AxeItem {
 	}
 
 	@Override
-	public void onCraftedBy(ItemStack itemstack, Level world, Player entity) {
-		super.onCraftedBy(itemstack, world, entity);
-		SilverEnchantProcedure.execute(itemstack);
+	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, world, list, flag);
 	}
 }

@@ -1,82 +1,82 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "biome",
   "definition": {
     "name": "Volcano",
     "groundBlock": {
-      "value": "CUSTOM:Pumice"
+      "value": "CUSTOM:AshBlock"
     },
     "undergroundBlock": {
-      "value": "Blocks.SMOOTH_BASALT"
+      "value": "CUSTOM:AshBlock"
     },
     "underwaterBlock": {
-      "value": "Blocks.STONE#0"
+      "value": "Blocks.BASALT"
     },
     "airColor": {
       "value": -10066330,
       "falpha": 0.0
     },
     "grassColor": {
-      "value": -10066330,
+      "value": -7948413,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -10066330,
+      "value": -9919388,
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -16750951,
+      "value": -12210702,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -16750951,
+      "value": -12210702,
       "falpha": 0.0
     },
     "ambientSound": {
       "value": ""
     },
     "additionsSound": {
-      "value": ""
+      "value": "ambient.basalt_deltas.additions"
     },
     "music": {
       "value": ""
     },
     "moodSound": {
-      "value": ""
+      "value": "ambient.basalt_deltas.mood"
     },
     "moodSoundDelay": 6000,
     "spawnParticles": true,
     "particleToSpawn": {
       "value": "ASH"
     },
-    "particlesProbability": 55.0,
+    "particlesProbability": 0.8,
     "rainingPossibility": 0.0,
     "temperature": 2.0,
     "spawnBiome": true,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": 0.5,
+      "min": -1.0,
       "max": 1.0
     },
     "genHumidity": {
       "min": -1.0,
-      "max": 0.35
+      "max": 1.0
     },
     "genContinentalness": {
-      "min": 0.3,
+      "min": 0.2999,
       "max": 1.0
     },
     "genErosion": {
-      "min": 0.7284,
+      "min": 0.5499,
       "max": 1.0
     },
     "genWeirdness": {
-      "min": 0.45,
-      "max": 0.9
+      "min": 0.6999,
+      "max": 1.0
     },
     "treesPerChunk": 0,
-    "vanillaTreeType": "Default",
+    "vanillaTreeType": "Mega spruce trees",
     "treeType": 0,
     "minHeight": 7,
     "treeStem": {
@@ -92,15 +92,19 @@
       "value": ""
     },
     "defaultFeatures": [
-      "Caves",
+      "Fossils",
+      "ExtraEmeraldOre",
+      "ExtraGoldOre",
       "Ores",
+      "Dripstone",
+      "InfestedStone",
       "FrozenTopLayer",
       "AmethystGeodes",
-      "ExtraEmeraldOre",
-      "ExtraGoldOre"
+      "Caves",
+      "DeadBushes"
     ],
     "spawnStronghold": false,
-    "spawnMineshaft": false,
+    "spawnMineshaft": true,
     "spawnMineshaftMesa": false,
     "spawnPillagerOutpost": false,
     "villageType": "none",
@@ -112,23 +116,13 @@
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
-    "spawnBuriedTreasure": false,
+    "spawnBuriedTreasure": true,
     "oceanRuinType": "NONE",
     "spawnNetherBridge": false,
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "NONE",
-    "spawnEntries": [
-      {
-        "entity": {
-          "value": "EntityMagmaCube"
-        },
-        "minGroup": 2,
-        "maxGroup": 4,
-        "weight": 5,
-        "spawnType": "monster"
-      }
-    ]
+    "spawnRuinedPortal": "NETHER",
+    "spawnEntries": []
   }
 }

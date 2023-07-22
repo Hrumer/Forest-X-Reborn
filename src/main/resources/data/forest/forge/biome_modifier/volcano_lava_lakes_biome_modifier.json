@@ -1,6 +1,0 @@
-{
-  "type": "forge:add_features",
-  "biomes": "forest:volcano",
-  "features": "forest:volcano_lava_lakes",
-  "step": "surface_structures"
-}

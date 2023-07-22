@@ -1,10 +1,10 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "tab",
   "definition": {
     "name": "Interaction Blocks",
     "icon": {
-      "value": "CUSTOM:ClayOven"
+      "value": "CUSTOM:FermentationBarrel"
     },
     "showSearch": false
   }

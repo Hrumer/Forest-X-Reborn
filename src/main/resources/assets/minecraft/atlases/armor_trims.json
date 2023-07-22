@@ -1,0 +1,16 @@
+{
+    "sources": [
+        {
+            "type": "paletted_permutations",
+            "textures": [
+                "trims/models/armor/none",
+                "trims/models/armor/none_leggings"
+            ],
+            "palette_key": "trims/color_palettes/trim_palette",
+            "permutations": {
+                "silver": "trims/color_palettes/silver",
+                "sapphire": "trims/color_palettes/sapphire",
+            }
+        }
+    ]
+}

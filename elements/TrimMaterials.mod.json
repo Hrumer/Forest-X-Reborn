@@ -1,0 +1,21 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SilverIngot"
+      },
+      {
+        "value": "CUSTOM:Sapphire"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "trim_materials",
+    "namespace": "minecraft"
+  }
+}

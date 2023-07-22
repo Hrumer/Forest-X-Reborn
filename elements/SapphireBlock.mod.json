@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "block",
   "definition": {
     "texture": "sapphire_block",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Block of Sapphire",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,

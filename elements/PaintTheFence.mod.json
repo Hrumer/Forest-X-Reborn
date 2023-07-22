@@ -1,8 +1,8 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "achievement",
   "definition": {
-    "achievementName": "Paint The Fence!",
+    "achievementName": "Paint the fence!",
     "achievementDescription": "Paint the fence with any dye",
     "achievementIcon": {
       "value": "CUSTOM:WhiteFence"

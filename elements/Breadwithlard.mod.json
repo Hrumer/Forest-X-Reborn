@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -26,14 +26,16 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": ""
+    },
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "isFood": true,
-    "nutritionalValue": 10,
-    "saturation": 7.0,
+    "nutritionalValue": 5,
+    "saturation": 1.0,
     "eatResultItem": {
       "value": ""
     },

@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -26,15 +26,16 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInfo": [
-      "Pine"
-    ],
+    "specialInformation": {
+      "fixedValue": "Pine",
+      "name": "GingerbreadPineLC"
+    },
     "hasGlow": false,
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
     "isFood": true,
-    "nutritionalValue": 1,
+    "nutritionalValue": 3,
     "saturation": 0.5,
     "eatResultItem": {
       "value": ""

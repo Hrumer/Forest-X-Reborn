@@ -1,5 +1,5 @@
 {
-  "_fv": 43,
+  "_fv": 44,
   "_type": "achievement",
   "definition": {
     "achievementName": "Forest X",
@@ -7,7 +7,7 @@
     "achievementIcon": {
       "value": "Blocks.SAPLING#1"
     },
-    "background": "Default",
+    "background": "background_for_achievements.png",
     "disableDisplay": false,
     "showPopup": false,
     "announceToChat": false,
