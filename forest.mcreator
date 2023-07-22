@@ -8560,6 +8560,21 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "FermentationBubbles",
+      "type": "particle",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fermentation_bubbles",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/client/particle/FermentationBubblesParticle.java",
+          "src/main/resources/assets/forest/particles/fermentation_bubbles.json"
+        ]
+      },
+      "path": "~/AlcoholMechanics"
     }
   ],
   "variable_elements": [
@@ -9396,5 +9411,5 @@
     "modElementsPackage": "power.forestxreborn",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300329201
+  "mcreatorVersion": 202300329321
 }

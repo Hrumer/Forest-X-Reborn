@@ -1,5 +1,7 @@
 package power.forestxreborn.procedures;
 
+import power.forestxreborn.init.ForestModParticleTypes;
+
 import net.minecraftforge.registries.ForgeRegistries;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
@@ -9,7 +11,7 @@ import net.minecraft.util.RandomSource;
 import net.minecraft.util.Mth;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.core.particles.ParticleTypes;
+import net.minecraft.core.particles.SimpleParticleType;
 import net.minecraft.core.BlockPos;
 
 public class FermentationBarrelSpontannoNaStoronieKliientaProcedure {
@@ -54,9 +56,9 @@ public class FermentationBarrelSpontannoNaStoronieKliientaProcedure {
 					particleAmount = 4;
 					particleRadius = 0.5;
 					for (int index0 = 0; index0 < (int) particleAmount; index0++) {
-						world.addParticle(ParticleTypes.DRAGON_BREATH, (x + 0 + Mth.nextDouble(RandomSource.create(), -1, 1) * particleRadius), (y + 0 + Mth.nextDouble(RandomSource.create(), -1, 1) * particleRadius),
-								(z + 0 + Mth.nextDouble(RandomSource.create(), -1, 1) * particleRadius), (Mth.nextDouble(RandomSource.create(), -0.001, 0.001)), (Mth.nextDouble(RandomSource.create(), -0.001, 0.001)),
-								(Mth.nextDouble(RandomSource.create(), -0.001, 0.001)));
+						world.addParticle((SimpleParticleType) (ForestModParticleTypes.FERMENTATION_BUBBLES.get()), (x + 1 + Mth.nextDouble(RandomSource.create(), -1, 1) * particleRadius),
+								(y + 1 + Mth.nextDouble(RandomSource.create(), -1, 1) * particleRadius), (z + 1 + Mth.nextDouble(RandomSource.create(), -1, 1) * particleRadius), (Mth.nextDouble(RandomSource.create(), -0.001, 0.001)),
+								(Mth.nextDouble(RandomSource.create(), -0.001, 0.001)), (Mth.nextDouble(RandomSource.create(), -0.001, 0.001)));
 					}
 				}
 			}
