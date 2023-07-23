@@ -148,13 +148,7 @@
         "value": "swamp"
       },
       {
-        "value": "mutated_swampland"
-      },
-      {
         "value": "roofed_forest"
-      },
-      {
-        "value": "mutated_roofed_forest"
       }
     ],
     "spawnInDungeons": false
