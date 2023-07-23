@@ -85,6 +85,7 @@ import power.forestxreborn.block.PolishedMarbleWallBlock;
 import power.forestxreborn.block.PolishedMarbleStairsBlock;
 import power.forestxreborn.block.PolishedMarbleSlabBlock;
 import power.forestxreborn.block.PolishedMarbleBlock;
+import power.forestxreborn.block.PolarBearCarpetBlock;
 import power.forestxreborn.block.PinkStairsBlock;
 import power.forestxreborn.block.PinkSlabBlock;
 import power.forestxreborn.block.PinkPlanksBlock;
@@ -186,6 +187,7 @@ import power.forestxreborn.block.BrownSlabBlock;
 import power.forestxreborn.block.BrownPlanksBlock;
 import power.forestxreborn.block.BrownFenceGateBlock;
 import power.forestxreborn.block.BrownFenceBlock;
+import power.forestxreborn.block.BrownBearCarpetBlock;
 import power.forestxreborn.block.BlueberryBush1Block;
 import power.forestxreborn.block.BlueberryBush0Block;
 import power.forestxreborn.block.BlueStairsBlock;
@@ -387,6 +389,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = REGISTRY.register("deepslate_silver_ore", () -> new DeepslateSilverOreBlock());
 	public static final RegistryObject<Block> RAW_SILVER_BLOCK = REGISTRY.register("raw_silver_block", () -> new RawSilverBlockBlock());
 	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
+	public static final RegistryObject<Block> FERMENTATION_BARREL = REGISTRY.register("fermentation_barrel", () -> new FermentationBarrelBlock());
 	public static final RegistryObject<Block> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", () -> new SapphireOreBlock());
 	public static final RegistryObject<Block> SAPPHIRE_BLOCK = REGISTRY.register("sapphire_block", () -> new SapphireBlockBlock());
 	public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE = REGISTRY.register("deepslate_sapphire_ore", () -> new DeepslateSapphireOreBlock());
@@ -415,7 +418,8 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> EUCALYPTUS_TRAPDOOR = REGISTRY.register("eucalyptus_trapdoor", () -> new EucalyptusTrapdoorBlock());
 	public static final RegistryObject<Block> EUCALYPTUS_SAPLING = REGISTRY.register("eucalyptus_sapling", () -> new EucalyptusSaplingBlock());
 	public static final RegistryObject<Block> GRAPE_VINE_1 = REGISTRY.register("grape_vine_1", () -> new GrapeVine1Block());
-	public static final RegistryObject<Block> FERMENTATION_BARREL = REGISTRY.register("fermentation_barrel", () -> new FermentationBarrelBlock());
+	public static final RegistryObject<Block> BROWN_BEAR_CARPET = REGISTRY.register("brown_bear_carpet", () -> new BrownBearCarpetBlock());
+	public static final RegistryObject<Block> POLAR_BEAR_CARPET = REGISTRY.register("polar_bear_carpet", () -> new PolarBearCarpetBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

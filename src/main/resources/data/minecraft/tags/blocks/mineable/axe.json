@@ -91,6 +91,7 @@
     "forest:purple_fence_gate",
     "forest:magenta_fence_gate",
     "forest:pink_fence_gate",
+    "forest:fermentation_barrel",
     "forest:eucalyptus_wood",
     "forest:eucalyptus_log",
     "forest:eucalyptus_planks",
@@ -98,7 +99,6 @@
     "forest:stripped_eucalyptus_log",
     "forest:eucalyptus_parquet",
     "forest:eucalyptus_door",
-    "forest:eucalyptus_trapdoor",
-    "forest:fermentation_barrel"
+    "forest:eucalyptus_trapdoor"
   ]
 }

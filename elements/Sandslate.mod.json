@@ -124,13 +124,7 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "mutated_desert"
-      },
-      {
         "value": "desert"
-      },
-      {
-        "value": "desert_hills"
       }
     ],
     "blocksToReplace": [

@@ -9,24 +9,11 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.CreativeModeTabEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ForestModTabs {
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
-
-		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(ForestModItems.RACOON_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.BROWN_BEAR_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.FIRE_SALAMANDER_SPAWN_EGG.get());
-		}
-	}
-
 	@SubscribeEvent
 	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
 		event.registerCreativeModeTab(new ResourceLocation("forest", "decorative_blocks"),
@@ -251,7 +238,6 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_HEART.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_BRICK.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
-					tabData.accept(ForestModItems.MUSIC_DISC_STROFA.get());
 				})
 
 		);
@@ -273,6 +259,22 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.SILVER_ARMOR_LEGGINGS.get());
 					tabData.accept(ForestModItems.SILVER_ARMOR_BOOTS.get());
 					tabData.accept(ForestModItems.QUIVER.get());
+				})
+
+		);
+		event.registerCreativeModeTab(new ResourceLocation("forest", "music_discs"),
+				builder -> builder.title(Component.translatable("item_group.forest.music_discs")).icon(() -> new ItemStack(ForestModItems.MUSIC_DISC_STROFA.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModItems.MUSIC_DISC_STROFA.get());
+				})
+
+		);
+		event.registerCreativeModeTab(new ResourceLocation("forest", "mobs"),
+				builder -> builder.title(Component.translatable("item_group.forest.mobs")).icon(() -> new ItemStack(ForestModItems.RACOON_SPAWN_EGG.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModItems.RACOON_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.FIRE_SALAMANDER_SPAWN_EGG.get());
 				})
 
 		);

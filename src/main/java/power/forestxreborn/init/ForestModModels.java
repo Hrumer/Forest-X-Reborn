@@ -4,9 +4,8 @@
  */
 package power.forestxreborn.init;
 
+import power.forestxreborn.client.model.Modelbear_armor;
 import power.forestxreborn.client.model.ModelRacoonModel;
-import power.forestxreborn.client.model.ModelFennecModel;
-import power.forestxreborn.client.model.ModelBrownBearModel;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -18,7 +17,6 @@ public class ForestModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(ModelRacoonModel.LAYER_LOCATION, ModelRacoonModel::createBodyLayer);
-		event.registerLayerDefinition(ModelFennecModel.LAYER_LOCATION, ModelFennecModel::createBodyLayer);
-		event.registerLayerDefinition(ModelBrownBearModel.LAYER_LOCATION, ModelBrownBearModel::createBodyLayer);
+		event.registerLayerDefinition(Modelbear_armor.LAYER_LOCATION, Modelbear_armor::createBodyLayer);
 	}
 }

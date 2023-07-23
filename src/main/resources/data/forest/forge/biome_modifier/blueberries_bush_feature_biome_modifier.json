@@ -1,8 +1,8 @@
 {
   "type": "forge:add_features",
   "biomes": [
-    "taiga",
-    "plains"
+    "forest",
+    "taiga"
   ],
   "features": "forest:blueberries_bush_feature",
   "step": "surface_structures"
