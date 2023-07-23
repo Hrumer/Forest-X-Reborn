@@ -8573,6 +8573,36 @@
         ]
       },
       "path": "~/BearThings"
+    },
+    {
+      "name": "BrownBearPelt",
+      "type": "item",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_bear_pelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/brown_bear_pelt.json",
+          "src/main/java/power/forestxreborn/item/BrownBearPeltItem.java"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "PolarBearPelt",
+      "type": "item",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polar_bear_pelt",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/item/PolarBearPeltItem.java",
+          "src/main/resources/assets/forest/models/item/polar_bear_pelt.json"
+        ]
+      },
+      "path": "~/BearThings"
     }
   ],
   "variable_elements": [
@@ -8617,7 +8647,7 @@
   ],
   "language_map": {
     "ru_ru": {
-      "item.forest.polar_bear_armor_helmet": "Шапка из шкуры полярного медведя",
+      "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
       "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
@@ -8689,11 +8719,12 @@
       "advancements.robin_hood_is_back.descr": "Создайте колчан и положите туда стрелы",
       "block.forest.lime_fence": "Лаймовый забор",
       "block.forest.polished_marble_slab": "Плита из полированного мрамора",
+      "item.forest.brown_bear_pelt": "Шкура бурого медведя",
       "block.forest.white_fence": "Белый забор",
       "item.forest.silver_shovel": "Серебряная лопата",
       "block.forest.light_blue_fence": "Голубой забор",
       "block.forest.polished_pumice_stairs": "Ступени из полированной пемзы",
-      "block.forest.polar_bear_carpet": "Ковер из шкуры полярного медведя",
+      "block.forest.polar_bear_carpet": "Ковер из шкуры белого медведя",
       "desc.gingerbread_pine": "Ёлка",
       "block.forest.pink_planks": "Розовые доски",
       "block.forest.black_fence": "Черный забор",
@@ -8720,6 +8751,7 @@
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
       "block.forest.grape_vine_0": "Виноградная лоза",
       "item.forest.silver_armor_helmet": "Серебряный шлем",
+      "item.forest.polar_bear_pelt": "Шкура белого медведя",
       "item.forest.lettuce_seed": "Семена салата",
       "block.forest.polished_sandslate_wall": "Ограда из полированного песчаного сланца",
       "block.forest.red_slab": "Красная плита",
@@ -8795,7 +8827,7 @@
       "block.forest.desert_rose": "Роза Пустыни",
       "block.forest.yellow_fence": "Желтый забор",
       "block.forest.purple_fence_gate": "Фиолетовая калитка",
-      "item.forest.polar_bear_armor_chestplate": "Куртка из шкуры полярного медведя",
+      "item.forest.polar_bear_armor_chestplate": "Куртка из шкуры белого медведя",
       "item.forest.meat_loaf": "Мясной рулет",
       "block.forest.cobbled_sandslate_stairs": "Ступени из дробленого песчаного сланца",
       "item.forest.raw_gingerbread_cock": "Тесто для пряника",
@@ -8894,7 +8926,7 @@
       "item.forest.raw_gingerbread_pine": "Тесто для пряника",
       "block.forest.pumice_bricks_stairs": "Ступени из кирпичей пемзы",
       "block.forest.polished_pumice_wall": "Ограда из полированной пемзы",
-      "item.forest.polar_bear_armor_boots": "Валенки из шкуры полярного медведя",
+      "item.forest.polar_bear_armor_boots": "Валенки из шкуры белого медведя",
       "block.forest.cyan_fence_gate": "Бирюзовая калитка",
       "gui.forest.clay_oven_gui.label_baking_gingerbread": "Выпекание пряников",
       "block.forest.gray_fence": "Серый забор",
@@ -8913,7 +8945,7 @@
       "block.forest.crimson_parquet": "Багровый паркет",
       "block.forest.lavander": "Лаванда",
       "block.forest.rhyolite_wall": "Ограда из риолита",
-      "item.forest.polar_bear_armor_leggings": "Панталоны из шкуры полярного медведя",
+      "item.forest.polar_bear_armor_leggings": "Панталоны из шкуры белого медведя",
       "item.forest.racoon_spawn_egg": "Яйцо призыва енота",
       "block.forest.brown_fence_gate": "Коричневая калитка",
       "block.forest.eucalyptus_log": "Бревно эвкалипта",
@@ -8937,9 +8969,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "block.forest.brown_fence": "Brown Fence",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "item.forest.raw_silver": "Raw Silver",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "block.forest.brown_fence": "Brown Fence",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -9002,6 +9034,7 @@
       "advancements.robin_hood_is_back.descr": "Create a quiver and put arrows there",
       "block.forest.lime_fence": "Lime Fence",
       "block.forest.polished_marble_slab": "Polished Marble Slab",
+      "item.forest.brown_bear_pelt": "Brown Bear Pelt",
       "item.forest.silver_shovel": "Silver Shovel",
       "block.forest.white_fence": "White Fence",
       "block.forest.light_blue_fence": "Light Blue Fence",
@@ -9033,6 +9066,7 @@
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
       "block.forest.grape_vine_0": "Grape Vine",
       "item.forest.silver_armor_helmet": "Silver Helmet",
+      "item.forest.polar_bear_pelt": "Polar Bear Pelt",
       "item.forest.lettuce_seed": "Lettuce Seed",
       "block.forest.polished_sandslate_wall": "Polished Sandslate Wall",
       "block.forest.red_slab": "Red Slab",

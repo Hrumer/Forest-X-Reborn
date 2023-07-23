@@ -22,6 +22,7 @@ import power.forestxreborn.item.RawGingerbreadCockItem;
 import power.forestxreborn.item.RawGingerbreadBrickItem;
 import power.forestxreborn.item.RawBarbecueItem;
 import power.forestxreborn.item.QuiverItem;
+import power.forestxreborn.item.PolarBearPeltItem;
 import power.forestxreborn.item.PolarBearArmorItem;
 import power.forestxreborn.item.PeatPieceItem;
 import power.forestxreborn.item.MusicDiscStrofaItem;
@@ -44,6 +45,7 @@ import power.forestxreborn.item.GingerbreadFormBrickItem;
 import power.forestxreborn.item.GingerbreadDoughItem;
 import power.forestxreborn.item.GingerbreadCockItem;
 import power.forestxreborn.item.GingerbreadBrickItem;
+import power.forestxreborn.item.BrownBearPeltItem;
 import power.forestxreborn.item.BrownBearArmorItem;
 import power.forestxreborn.item.BreadwithlardItem;
 import power.forestxreborn.item.BlueberryItem;
@@ -323,6 +325,8 @@ public class ForestModItems {
 	public static final RegistryObject<Item> POLAR_BEAR_ARMOR_BOOTS = REGISTRY.register("polar_bear_armor_boots", () -> new PolarBearArmorItem.Boots());
 	public static final RegistryObject<Item> BROWN_BEAR_CARPET = block(ForestModBlocks.BROWN_BEAR_CARPET);
 	public static final RegistryObject<Item> POLAR_BEAR_CARPET = block(ForestModBlocks.POLAR_BEAR_CARPET);
+	public static final RegistryObject<Item> BROWN_BEAR_PELT = REGISTRY.register("brown_bear_pelt", () -> new BrownBearPeltItem());
+	public static final RegistryObject<Item> POLAR_BEAR_PELT = REGISTRY.register("polar_bear_pelt", () -> new PolarBearPeltItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
