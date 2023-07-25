@@ -1,0 +1,39 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:BrownBearArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:BrownBearArmor.body"
+      },
+      {
+        "value": "CUSTOM:BrownBearArmor.legs"
+      },
+      {
+        "value": "CUSTOM:BrownBearArmor.boots"
+      },
+      {
+        "value": "CUSTOM:PolarBearArmor.helmet"
+      },
+      {
+        "value": "CUSTOM:PolarBearArmor.body"
+      },
+      {
+        "value": "CUSTOM:PolarBearArmor.legs"
+      },
+      {
+        "value": "CUSTOM:PolarBearArmor.boots"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "freeze_immune_wearables",
+    "namespace": "minecraft"
+  }
+}
