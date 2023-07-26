@@ -128,7 +128,7 @@
         "value": "Blocks.DEEPSLATE"
       }
     ],
-    "generationShape": "UNIFORM",
+    "generationShape": "TRIANGLE",
     "frequencyPerChunks": 4,
     "frequencyOnChunk": 9,
     "minGenerateHeight": -64,
