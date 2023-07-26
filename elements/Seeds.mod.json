@@ -1,0 +1,18 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:LettuceSeed"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "seeds",
+    "namespace": "minecraft"
+  }
+}

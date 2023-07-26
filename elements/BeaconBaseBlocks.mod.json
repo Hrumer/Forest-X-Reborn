@@ -1,0 +1,21 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:SilverBlock"
+      },
+      {
+        "value": "CUSTOM:SapphireBlock"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "beacon_base_blocks",
+    "namespace": "minecraft"
+  }
+}

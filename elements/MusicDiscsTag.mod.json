@@ -1,0 +1,18 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:MusicDiscStrofa"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "music_discs",
+    "namespace": "minecraft"
+  }
+}

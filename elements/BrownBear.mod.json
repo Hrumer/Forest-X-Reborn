@@ -155,34 +155,19 @@
     "maxNumberOfMobsPerGroup": 1,
     "restrictionBiomes": [
       {
+        "value": "CUSTOM:OldGrowthForest"
+      },
+      {
         "value": "forest"
-      },
-      {
-        "value": "taiga"
-      },
-      {
-        "value": "forest_hills"
-      },
-      {
-        "value": "mutated_birch_forest"
       },
       {
         "value": "redwood_taiga"
       },
       {
-        "value": "redwood_taiga_hills"
-      },
-      {
         "value": "mutated_redwood_taiga"
       },
       {
-        "value": "mutated_redwood_taiga_hills"
-      },
-      {
-        "value": "taiga_hills"
-      },
-      {
-        "value": "mutated_taiga"
+        "value": "taiga"
       }
     ],
     "spawnInDungeons": false

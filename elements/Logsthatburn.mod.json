@@ -1,0 +1,27 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:EucalyptusLog"
+      },
+      {
+        "value": "CUSTOM:StrippedEucalyptusLog"
+      },
+      {
+        "value": "CUSTOM:EucalyptusWood"
+      },
+      {
+        "value": "CUSTOM:StrippedEucalyptusWood"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "logs_that_burn",
+    "namespace": "minecraft"
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SilverBlock"
+      },
+      {
+        "value": "CUSTOM:SapphireBlock"
+      },
+      {
+        "value": "CUSTOM:RawSilverBlock"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "storage_blocks",
+    "namespace": "minecraft"
+  }
+}

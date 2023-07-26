@@ -153,9 +153,6 @@
       },
       {
         "value": "desert"
-      },
-      {
-        "value": "desert_hills"
       }
     ],
     "spawnInDungeons": false

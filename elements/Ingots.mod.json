@@ -1,0 +1,18 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:SilverIngot"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "ingots",
+    "namespace": "minecraft"
+  }
+}

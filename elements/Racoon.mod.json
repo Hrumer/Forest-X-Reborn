@@ -130,6 +130,9 @@
     "maxNumberOfMobsPerGroup": 2,
     "restrictionBiomes": [
       {
+        "value": "CUSTOM:OldGrowthForest"
+      },
+      {
         "value": "mutated_forest"
       },
       {

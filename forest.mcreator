@@ -8573,6 +8573,288 @@
         ]
       },
       "path": "~/BearThings"
+    },
+    {
+      "name": "BrownBearPelt",
+      "type": "item",
+      "sortid": 505,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_bear_pelt",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/brown_bear_pelt.json",
+          "src/main/java/power/forestxreborn/item/BrownBearPeltItem.java"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "PolarBearPelt",
+      "type": "item",
+      "sortid": 506,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polar_bear_pelt",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/item/PolarBearPeltItem.java",
+          "src/main/resources/assets/forest/models/item/polar_bear_pelt.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "FreezeImmuneWearables",
+      "type": "tag",
+      "sortid": 507,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "freeze_immune_wearables",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/freeze_immune_wearables.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Crops",
+      "type": "tag",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/crops.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Gems",
+      "type": "tag",
+      "sortid": 509,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gems",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/gems.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Ingots",
+      "type": "tag",
+      "sortid": 510,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/ingots.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "MusicDiscsTag",
+      "type": "tag",
+      "sortid": 511,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_discs_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/music_discs.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Nuggets",
+      "type": "tag",
+      "sortid": 512,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/nuggets.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "OreRatesSingular",
+      "type": "tag",
+      "sortid": 513,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_rates_singular",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/ore_rates/singular.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "OresTag",
+      "type": "tag",
+      "sortid": 514,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/ores.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Seeds",
+      "type": "tag",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/seeds.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Stone",
+      "type": "tag",
+      "sortid": 516,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/stone.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "StorageBlocks",
+      "type": "tag",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storage_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/storage_blocks.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "RawMaterials",
+      "type": "tag",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_materials",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/raw_materials.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeaconPaymentItems",
+      "type": "tag",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_payment_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/beacon_payment_items.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeaconBaseBlocks",
+      "type": "tag",
+      "sortid": 520,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Logsthatburn",
+      "type": "tag",
+      "sortid": 521,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logsthatburn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs_that_burn.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "StoneBlocks",
+      "type": "tag",
+      "sortid": 522,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/stone.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Cobblestone",
+      "type": "tag",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/cobblestone.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "CobblestoneItem",
+      "type": "tag",
+      "sortid": 524,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/cobblestone.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [
@@ -8617,16 +8899,16 @@
   ],
   "language_map": {
     "ru_ru": {
-      "item.forest.polar_bear_armor_helmet": "Шапка из шкуры полярного медведя",
+      "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
       "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "block.forest.brown_fence": "Коричневый забор",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "item.forest.raw_silver": "Рудное серебро",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "block.forest.brown_fence": "Коричневый забор",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -8689,11 +8971,12 @@
       "advancements.robin_hood_is_back.descr": "Создайте колчан и положите туда стрелы",
       "block.forest.lime_fence": "Лаймовый забор",
       "block.forest.polished_marble_slab": "Плита из полированного мрамора",
+      "item.forest.brown_bear_pelt": "Шкура бурого медведя",
       "block.forest.white_fence": "Белый забор",
       "item.forest.silver_shovel": "Серебряная лопата",
       "block.forest.light_blue_fence": "Голубой забор",
       "block.forest.polished_pumice_stairs": "Ступени из полированной пемзы",
-      "block.forest.polar_bear_carpet": "Ковер из шкуры полярного медведя",
+      "block.forest.polar_bear_carpet": "Ковер из шкуры белого медведя",
       "desc.gingerbread_pine": "Ёлка",
       "block.forest.pink_planks": "Розовые доски",
       "block.forest.black_fence": "Черный забор",
@@ -8720,6 +9003,7 @@
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
       "block.forest.grape_vine_0": "Виноградная лоза",
       "item.forest.silver_armor_helmet": "Серебряный шлем",
+      "item.forest.polar_bear_pelt": "Шкура белого медведя",
       "item.forest.lettuce_seed": "Семена салата",
       "block.forest.polished_sandslate_wall": "Ограда из полированного песчаного сланца",
       "block.forest.red_slab": "Красная плита",
@@ -8795,7 +9079,7 @@
       "block.forest.desert_rose": "Роза Пустыни",
       "block.forest.yellow_fence": "Желтый забор",
       "block.forest.purple_fence_gate": "Фиолетовая калитка",
-      "item.forest.polar_bear_armor_chestplate": "Куртка из шкуры полярного медведя",
+      "item.forest.polar_bear_armor_chestplate": "Куртка из шкуры белого медведя",
       "item.forest.meat_loaf": "Мясной рулет",
       "block.forest.cobbled_sandslate_stairs": "Ступени из дробленого песчаного сланца",
       "item.forest.raw_gingerbread_cock": "Тесто для пряника",
@@ -8894,7 +9178,7 @@
       "item.forest.raw_gingerbread_pine": "Тесто для пряника",
       "block.forest.pumice_bricks_stairs": "Ступени из кирпичей пемзы",
       "block.forest.polished_pumice_wall": "Ограда из полированной пемзы",
-      "item.forest.polar_bear_armor_boots": "Валенки из шкуры полярного медведя",
+      "item.forest.polar_bear_armor_boots": "Валенки из шкуры белого медведя",
       "block.forest.cyan_fence_gate": "Бирюзовая калитка",
       "gui.forest.clay_oven_gui.label_baking_gingerbread": "Выпекание пряников",
       "block.forest.gray_fence": "Серый забор",
@@ -8913,7 +9197,7 @@
       "block.forest.crimson_parquet": "Багровый паркет",
       "block.forest.lavander": "Лаванда",
       "block.forest.rhyolite_wall": "Ограда из риолита",
-      "item.forest.polar_bear_armor_leggings": "Панталоны из шкуры полярного медведя",
+      "item.forest.polar_bear_armor_leggings": "Панталоны из шкуры белого медведя",
       "item.forest.racoon_spawn_egg": "Яйцо призыва енота",
       "block.forest.brown_fence_gate": "Коричневая калитка",
       "block.forest.eucalyptus_log": "Бревно эвкалипта",
@@ -9002,6 +9286,7 @@
       "advancements.robin_hood_is_back.descr": "Create a quiver and put arrows there",
       "block.forest.lime_fence": "Lime Fence",
       "block.forest.polished_marble_slab": "Polished Marble Slab",
+      "item.forest.brown_bear_pelt": "Brown Bear Pelt",
       "item.forest.silver_shovel": "Silver Shovel",
       "block.forest.white_fence": "White Fence",
       "block.forest.light_blue_fence": "Light Blue Fence",
@@ -9033,6 +9318,7 @@
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
       "block.forest.grape_vine_0": "Grape Vine",
       "item.forest.silver_armor_helmet": "Silver Helmet",
+      "item.forest.polar_bear_pelt": "Polar Bear Pelt",
       "item.forest.lettuce_seed": "Lettuce Seed",
       "block.forest.polished_sandslate_wall": "Polished Sandslate Wall",
       "block.forest.red_slab": "Red Slab",
@@ -9415,7 +9701,7 @@
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.3.1",
+    "version": "1.3.2",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  ",
     "author": "Environment Studios",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",
