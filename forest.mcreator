@@ -8617,6 +8617,244 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "Crops",
+      "type": "tag",
+      "sortid": 508,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crops",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/crops.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Gems",
+      "type": "tag",
+      "sortid": 509,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gems",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/gems.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Ingots",
+      "type": "tag",
+      "sortid": 510,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ingots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/ingots.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "MusicDiscsTag",
+      "type": "tag",
+      "sortid": 511,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "music_discs_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/music_discs.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Nuggets",
+      "type": "tag",
+      "sortid": 512,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "nuggets",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/nuggets.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "OreRatesSingular",
+      "type": "tag",
+      "sortid": 513,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ore_rates_singular",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/ore_rates/singular.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "OresTag",
+      "type": "tag",
+      "sortid": 514,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ores_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/ores.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Seeds",
+      "type": "tag",
+      "sortid": 515,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/seeds.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Stone",
+      "type": "tag",
+      "sortid": 516,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/stone.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "StorageBlocks",
+      "type": "tag",
+      "sortid": 517,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "storage_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/storage_blocks.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "RawMaterials",
+      "type": "tag",
+      "sortid": 518,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raw_materials",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/raw_materials.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeaconPaymentItems",
+      "type": "tag",
+      "sortid": 519,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_payment_items",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/beacon_payment_items.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "BeaconBaseBlocks",
+      "type": "tag",
+      "sortid": 520,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beacon_base_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/beacon_base_blocks.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Logsthatburn",
+      "type": "tag",
+      "sortid": 521,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "logsthatburn",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/logs_that_burn.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "StoneBlocks",
+      "type": "tag",
+      "sortid": 522,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "stone_blocks",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/stone.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Cobblestone",
+      "type": "tag",
+      "sortid": 523,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/blocks/cobblestone.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "CobblestoneItem",
+      "type": "tag",
+      "sortid": 524,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cobblestone_item",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/items/cobblestone.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [
