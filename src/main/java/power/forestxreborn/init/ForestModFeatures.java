@@ -23,6 +23,7 @@ import power.forestxreborn.world.features.PeatbogLakesFeature;
 import power.forestxreborn.world.features.ObsidianPatchFeature;
 import power.forestxreborn.world.features.MoonshroomsFeatureFeature;
 import power.forestxreborn.world.features.LavaPatchFeature;
+import power.forestxreborn.world.features.GrapevineLogFeature;
 import power.forestxreborn.world.features.CobblestonePatchFeature;
 import power.forestxreborn.world.features.BrownMushroomsFeatureFeature;
 import power.forestxreborn.world.features.BlueberriesBushFeatureFeature;
@@ -64,4 +65,5 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> COBBLESTONE_PATCH = REGISTRY.register("cobblestone_patch", CobblestonePatchFeature::new);
 	public static final RegistryObject<Feature<?>> LAVA_PATCH = REGISTRY.register("lava_patch", LavaPatchFeature::new);
 	public static final RegistryObject<Feature<?>> STONE_VOLCANO_DELTA = REGISTRY.register("stone_volcano_delta", StoneVolcanoDeltaFeature::new);
+	public static final RegistryObject<Feature<?>> GRAPEVINE_LOG = REGISTRY.register("grapevine_log", GrapevineLogFeature::new);
 }

@@ -2597,18 +2597,6 @@
       "path": "~/Sandslate"
     },
     {
-      "name": "BuyLettuce",
-      "type": "villagertrade",
-      "sortid": 310,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "buy_lettuce",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Harvest"
-    },
-    {
       "name": "BlueberriesBushFeature",
       "type": "feature",
       "sortid": 311,
@@ -8855,6 +8843,34 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "TradesCustomization",
+      "type": "villagertrade",
+      "sortid": 525,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trades_customization",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "GrapevineLog",
+      "type": "structure",
+      "sortid": 526,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapevine_log",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/forge/biome_modifier/grapevine_log_biome_modifier.json",
+          "src/main/java/power/forestxreborn/world/features/GrapevineLogFeature.java",
+          "src/main/resources/data/forest/worldgen/placed_feature/grapevine_log.json",
+          "src/main/resources/data/forest/worldgen/configured_feature/grapevine_log.json"
+        ]
+      },
+      "path": "~/Harvest/Grape"
     }
   ],
   "variable_elements": [
@@ -8906,9 +8922,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "item.forest.raw_silver": "Рудное серебро",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "block.forest.brown_fence": "Коричневый забор",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "item.forest.raw_silver": "Рудное серебро",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -9221,9 +9237,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "block.forest.brown_fence": "Brown Fence",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "item.forest.raw_silver": "Raw Silver",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "block.forest.brown_fence": "Brown Fence",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -9694,6 +9710,10 @@
       },
       {
         "name": "BearThings",
+        "children": []
+      },
+      {
+        "name": "ChestLoots",
         "children": []
       }
     ]
