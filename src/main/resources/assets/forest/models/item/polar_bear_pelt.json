@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "forest:item/polar bear_pelt"
+    "layer0": "forest:item/polar_bear_pelt"
   }
 }

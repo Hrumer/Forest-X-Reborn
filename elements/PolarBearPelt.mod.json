@@ -3,7 +3,7 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "polar bear_pelt",
+    "texture": "polar_bear_pelt",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],

@@ -1,4 +1,5 @@
-What's new in Forest X Reborn 1.3.2<br />
-<br /> - Silver ore now uses triangular generation, like most vanilla ores
-<br /> - Adding items and blocks to tags for vanilla processing
-<br /> - [Bugfix] Fixed animal spawn
+What's new in Forest X Reborn 1.3.3<br />
+<br /> - Added the ability to get grapes in survival
+<br /> - Grapes can be found in a old growth forest
+<br /> - You can buy grapes from a farmer
+<br /> - [Bugfix] Fixed silver and sapphire patterns
