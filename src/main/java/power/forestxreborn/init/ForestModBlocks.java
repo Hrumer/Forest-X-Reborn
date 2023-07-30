@@ -12,6 +12,7 @@ import power.forestxreborn.block.YellowFenceBlock;
 import power.forestxreborn.block.WildflowerBlock;
 import power.forestxreborn.block.WhiteStairsBlock;
 import power.forestxreborn.block.WhiteSlabBlock;
+import power.forestxreborn.block.WhiteRoseBlock;
 import power.forestxreborn.block.WhitePlanksBlock;
 import power.forestxreborn.block.WhiteFenceGateBlock;
 import power.forestxreborn.block.WhiteFenceBlock;
@@ -88,6 +89,7 @@ import power.forestxreborn.block.PolishedMarbleBlock;
 import power.forestxreborn.block.PolarBearCarpetBlock;
 import power.forestxreborn.block.PinkStairsBlock;
 import power.forestxreborn.block.PinkSlabBlock;
+import power.forestxreborn.block.PinkRoseBlock;
 import power.forestxreborn.block.PinkPlanksBlock;
 import power.forestxreborn.block.PinkFenceGateBlock;
 import power.forestxreborn.block.PinkFenceBlock;
@@ -420,6 +422,8 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> GRAPE_VINE_1 = REGISTRY.register("grape_vine_1", () -> new GrapeVine1Block());
 	public static final RegistryObject<Block> BROWN_BEAR_CARPET = REGISTRY.register("brown_bear_carpet", () -> new BrownBearCarpetBlock());
 	public static final RegistryObject<Block> POLAR_BEAR_CARPET = REGISTRY.register("polar_bear_carpet", () -> new PolarBearCarpetBlock());
+	public static final RegistryObject<Block> WHITE_ROSE = REGISTRY.register("white_rose", () -> new WhiteRoseBlock());
+	public static final RegistryObject<Block> PINK_ROSE = REGISTRY.register("pink_rose", () -> new PinkRoseBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

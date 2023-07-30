@@ -8883,6 +8883,50 @@
         "files": []
       },
       "path": "~/Paintings"
+    },
+    {
+      "name": "WhiteRose",
+      "type": "plant",
+      "sortid": 528,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_rose",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/world/features/plants/WhiteRoseFeature.java",
+          "src/main/java/power/forestxreborn/block/WhiteRoseBlock.java",
+          "src/main/resources/data/forest/worldgen/placed_feature/white_rose.json",
+          "src/main/resources/assets/forest/blockstates/white_rose.json",
+          "src/main/resources/assets/forest/models/block/white_rose.json",
+          "src/main/resources/data/forest/forge/biome_modifier/white_rose_biome_modifier.json",
+          "src/main/resources/assets/forest/models/block/white_rose_bottom.json",
+          "src/main/resources/data/forest/worldgen/configured_feature/white_rose.json",
+          "src/main/resources/assets/forest/models/item/white_rose.json"
+        ]
+      },
+      "path": "~/Flowers"
+    },
+    {
+      "name": "PinkRose",
+      "type": "plant",
+      "sortid": 529,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pink_rose",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/pink_rose.json",
+          "src/main/resources/data/forest/forge/biome_modifier/pink_rose_biome_modifier.json",
+          "src/main/resources/assets/forest/models/block/pink_rose.json",
+          "src/main/java/power/forestxreborn/block/PinkRoseBlock.java",
+          "src/main/resources/assets/forest/blockstates/pink_rose.json",
+          "src/main/resources/assets/forest/models/block/pink_rose_bottom.json",
+          "src/main/resources/data/forest/worldgen/configured_feature/pink_rose.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/pink_rose.json",
+          "src/main/java/power/forestxreborn/world/features/plants/PinkRoseFeature.java"
+        ]
+      },
+      "path": "~/Flowers"
     }
   ],
   "variable_elements": [
@@ -8934,9 +8978,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "item.forest.raw_silver": "Рудное серебро",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "block.forest.brown_fence": "Коричневый забор",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "item.forest.raw_silver": "Рудное серебро",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -9092,6 +9136,7 @@
       "biome.forest.mushrooms_caves": "Грибные пещеры",
       "item.forest.gingerbread_heart": "Пряник",
       "block.forest.pink_stairs": "Розовые ступени",
+      "block.forest.pink_rose": "Розовая роза",
       "item_group.forest.ores": "Руда",
       "block.forest.truncated_pumice": "Усеченная пемза",
       "entity.forest.fire_salamander": "Огненная саламандра",
@@ -9136,6 +9181,7 @@
       "block.forest.lettuce_stage_1": " ",
       "item.forest.sapphire": "Сапфир",
       "block.forest.orange_slab": "Оранжевая плита",
+      "block.forest.white_rose": "Белая роза",
       "block.forest.brown_slab": "Коричневая плита",
       "item.forest.gingerbread_form_cock": "Форма для пряника",
       "block.forest.pink_fence_gate": "Розовая калитка",
@@ -9410,6 +9456,7 @@
       "biome.forest.mushrooms_caves": "Mushrooms Caves",
       "item.forest.gingerbread_heart": "Gingerbread",
       "block.forest.pink_stairs": "Pink Stairs",
+      "block.forest.pink_rose": "Pink Rose",
       "item_group.forest.ores": "Ores",
       "block.forest.truncated_pumice": "Truncated Pumice",
       "entity.forest.fire_salamander": "Fire Salamander",
@@ -9454,6 +9501,7 @@
       "block.forest.lettuce_stage_1": "Lettuce Stage 1",
       "item.forest.sapphire": "Sapphire",
       "block.forest.orange_slab": "Orange Slab",
+      "block.forest.white_rose": "White Rose",
       "block.forest.brown_slab": "Brown Slab",
       "item.forest.gingerbread_form_cock": "Gingerbread Form",
       "block.forest.pink_fence_gate": "Pink Fence Gate",

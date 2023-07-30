@@ -5,6 +5,8 @@
 package power.forestxreborn.init;
 
 import power.forestxreborn.world.features.plants.WildflowerFeature;
+import power.forestxreborn.world.features.plants.WhiteRoseFeature;
+import power.forestxreborn.world.features.plants.PinkRoseFeature;
 import power.forestxreborn.world.features.plants.LavanderFeature;
 import power.forestxreborn.world.features.plants.DesertRoseFeature;
 import power.forestxreborn.world.features.plants.BurningblossomFeature;
@@ -66,4 +68,6 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> LAVA_PATCH = REGISTRY.register("lava_patch", LavaPatchFeature::new);
 	public static final RegistryObject<Feature<?>> STONE_VOLCANO_DELTA = REGISTRY.register("stone_volcano_delta", StoneVolcanoDeltaFeature::new);
 	public static final RegistryObject<Feature<?>> GRAPEVINE_LOG = REGISTRY.register("grapevine_log", GrapevineLogFeature::new);
+	public static final RegistryObject<Feature<?>> WHITE_ROSE = REGISTRY.register("white_rose", WhiteRoseFeature::new);
+	public static final RegistryObject<Feature<?>> PINK_ROSE = REGISTRY.register("pink_rose", PinkRoseFeature::new);
 }

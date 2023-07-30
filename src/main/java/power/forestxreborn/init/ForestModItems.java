@@ -327,6 +327,8 @@ public class ForestModItems {
 	public static final RegistryObject<Item> POLAR_BEAR_CARPET = block(ForestModBlocks.POLAR_BEAR_CARPET);
 	public static final RegistryObject<Item> BROWN_BEAR_PELT = REGISTRY.register("brown_bear_pelt", () -> new BrownBearPeltItem());
 	public static final RegistryObject<Item> POLAR_BEAR_PELT = REGISTRY.register("polar_bear_pelt", () -> new PolarBearPeltItem());
+	public static final RegistryObject<Item> WHITE_ROSE = doubleBlock(ForestModBlocks.WHITE_ROSE);
+	public static final RegistryObject<Item> PINK_ROSE = doubleBlock(ForestModBlocks.PINK_ROSE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

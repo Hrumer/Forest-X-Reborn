@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "forest:block/white_rose"
+    },
+    "half=lower": {
+      "model": "forest:block/white_rose_bottom"
+    }
+  }
+}
