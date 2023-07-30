@@ -8871,6 +8871,18 @@
         ]
       },
       "path": "~/Harvest/Grape"
+    },
+    {
+      "name": "PaintingVolcano",
+      "type": "painting",
+      "sortid": 527,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "painting_volcano",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Paintings"
     }
   ],
   "variable_elements": [
@@ -9033,6 +9045,7 @@
       "block.forest.eucalyptus_sapling": "Sakura Sapling",
       "block.forest.light_blue_stairs": "Голубые ступени",
       "block.forest.red_crushed_sandstone_stairs": "Ступени из красного колотого песчаника",
+      "painting.forest.painting_volcano.author": "SnrBorg",
       "advancements.wine_business.title": "Винное дело",
       "block.forest.raw_silver_block": "Рудный серебряный блок",
       "item.forest.peat_piece": "Кусочек торфа",
@@ -9059,6 +9072,7 @@
       "tooltip.translation.intoxication": "Опьянение",
       "item.forest.brown_bear_armor_leggings": "Панталоны из шкуры бурого медведя",
       "block.forest.rhyolite_bricks_wall": "Ограда из риолитовых кирпичей",
+      "painting.forest.painting_volcano.title": "Вулкан",
       "block.forest.truncated_pumice_slab": "Плита из усеченной пемзы",
       "item.forest.berry_strudel": "Ягодный штрудель",
       "item.forest.gingerbread_cock": "Пряник",
@@ -9349,6 +9363,7 @@
       "block.forest.eucalyptus_sapling": "Eucalyptus Sapling",
       "block.forest.light_blue_stairs": "Light Blue Stairs",
       "block.forest.red_crushed_sandstone_stairs": "Red crushed sandstone stairs",
+      "painting.forest.painting_volcano.author": "SnrBorg",
       "advancements.wine_business.title": "Wine business",
       "block.forest.raw_silver_block": "Raw Silver Block",
       "item.forest.peat_piece": "Peat Piece",
@@ -9375,6 +9390,7 @@
       "tooltip.translation.intoxication": "Intoxication",
       "item.forest.brown_bear_armor_leggings": "Brown Bear Armor Leggings",
       "block.forest.rhyolite_bricks_wall": "Rhyolite Bricks Wall",
+      "painting.forest.painting_volcano.title": "Volcano",
       "block.forest.truncated_pumice_slab": "Truncated Pumice Slab",
       "item.forest.berry_strudel": "Berry Strudel",
       "item.forest.gingerbread_cock": "Gingerbread",
@@ -9716,6 +9732,10 @@
       },
       {
         "name": "ChestLoots",
+        "children": []
+      },
+      {
+        "name": "Paintings",
         "children": []
       }
     ]

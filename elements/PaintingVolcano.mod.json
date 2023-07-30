@@ -1,0 +1,11 @@
+{
+  "_fv": 44,
+  "_type": "painting",
+  "definition": {
+    "texture": "volcano_painting.png",
+    "width": 32,
+    "height": 32,
+    "title": "Volcano",
+    "author": "SnrBorg"
+  }
+}
