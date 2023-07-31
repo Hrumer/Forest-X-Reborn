@@ -85,7 +85,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "Items.HONEYCOMB"
+      "value": ""
     },
     "livingSound": {
       "value": "entity.polar_bear.ambient"

@@ -1,0 +1,36 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "012",
+    "3 5",
+    "6 8"
+  ],
+  "key": {
+    "0": {
+      "item": "forest:brown_bear_pelt"
+    },
+    "1": {
+      "item": "forest:brown_bear_pelt"
+    },
+    "2": {
+      "item": "forest:brown_bear_pelt"
+    },
+    "3": {
+      "item": "forest:brown_bear_pelt"
+    },
+    "5": {
+      "item": "forest:brown_bear_pelt"
+    },
+    "6": {
+      "item": "forest:brown_bear_pelt"
+    },
+    "8": {
+      "item": "forest:brown_bear_pelt"
+    }
+  },
+  "result": {
+    "item": "forest:brown_bear_armor_leggings",
+    "count": 1
+  }
+}

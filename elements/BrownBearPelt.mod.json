@@ -10,7 +10,7 @@
     "name": "Brown Bear Pelt",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Misc"
     },
     "stackSize": 64,
     "enchantability": 0,

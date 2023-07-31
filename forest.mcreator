@@ -9468,6 +9468,158 @@
         ]
       },
       "path": "~/Harvest"
+    },
+    {
+      "name": "Clothes",
+      "type": "tab",
+      "sortid": 562,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "clothes",
+      "metadata": {
+        "files": []
+      },
+      "path": "~/Tabs"
+    },
+    {
+      "name": "BrownBearHelmet",
+      "type": "recipe",
+      "sortid": 563,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_bear_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/brown_bear_helmet.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "BrownBearChestplate",
+      "type": "recipe",
+      "sortid": 564,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_bear_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/brown_bear_chestplate.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "BrownBearLeggings",
+      "type": "recipe",
+      "sortid": 565,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_bear_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/brown_bear_leggings.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "BrownBearBoots",
+      "type": "recipe",
+      "sortid": 566,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_bear_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/brown_bear_boots.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "PolarBeartHelmet",
+      "type": "recipe",
+      "sortid": 567,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polar_beart_helmet",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/polar_beart_helmet.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "PolarBearChestplate",
+      "type": "recipe",
+      "sortid": 568,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polar_bear_chestplate",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/polar_bear_chestplate.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "PolarBearLeggings",
+      "type": "recipe",
+      "sortid": 569,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polar_bear_leggings",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/polar_bear_leggings.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "PolarBearBoots",
+      "type": "recipe",
+      "sortid": 570,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polar_bear_boots",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/polar_bear_boots.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "BrownBearCarpetCraft",
+      "type": "recipe",
+      "sortid": 571,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "brown_bear_carpet_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/brown_bear_carpet_craft.json"
+        ]
+      },
+      "path": "~/BearThings"
+    },
+    {
+      "name": "PolarBearCarpetCraft",
+      "type": "recipe",
+      "sortid": 572,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "polar_bear_carpet_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/polar_bear_carpet_craft.json"
+        ]
+      },
+      "path": "~/BearThings"
     }
   ],
   "variable_elements": [
@@ -9689,6 +9841,7 @@
       "item_group.forest.ores": "Руда",
       "block.forest.mulberry_fence_gate": "Калитка из шелковицы",
       "block.forest.truncated_pumice": "Усеченная пемза",
+      "item_group.forest.clothes": "Clothes",
       "entity.forest.fire_salamander": "Огненная саламандра",
       "item_group.forest.music_discs": "Пластинки",
       "item.forest.wine": "Вино",
@@ -10030,6 +10183,7 @@
       "item_group.forest.ores": "Ores",
       "block.forest.mulberry_fence_gate": "Mulberry Fence Gate",
       "block.forest.truncated_pumice": "Truncated Pumice",
+      "item_group.forest.clothes": "Clothes",
       "entity.forest.fire_salamander": "Fire Salamander",
       "item_group.forest.music_discs": "Music Discs",
       "item.forest.wine": "Wine",

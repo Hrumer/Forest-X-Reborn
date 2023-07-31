@@ -211,6 +211,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.PURPLE_FENCE_GATE.get().asItem());
 					tabData.accept(ForestModBlocks.MAGENTA_FENCE_GATE.get().asItem());
 					tabData.accept(ForestModBlocks.PINK_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.BROWN_BEAR_CARPET.get().asItem());
+					tabData.accept(ForestModBlocks.POLAR_BEAR_CARPET.get().asItem());
 				})
 
 		);
@@ -277,6 +279,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_HEART.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_BRICK.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_PELT.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_PELT.get());
 				})
 
 		);
@@ -314,6 +318,19 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.FIRE_SALAMANDER_SPAWN_EGG.get());
+				})
+
+		);
+		event.registerCreativeModeTab(new ResourceLocation("forest", "clothes"),
+				builder -> builder.title(Component.translatable("item_group.forest.clothes")).icon(() -> new ItemStack(ForestModItems.BROWN_BEAR_ARMOR_HELMET.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_HELMET.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_CHESTPLATE.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_LEGGINGS.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_BOOTS.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_HELMET.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_CHESTPLATE.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_LEGGINGS.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_BOOTS.get());
 				})
 
 		);
