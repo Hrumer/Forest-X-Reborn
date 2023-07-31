@@ -82,6 +82,12 @@
       },
       {
         "value": "Blocks.MANGROVE_FENCE_GATE"
+      },
+      {
+        "value": "CUSTOM:MulberryFenceGate"
+      },
+      {
+        "value": "Blocks.CHERRY_FENCE_GATE"
       }
     ],
     "functions": [],

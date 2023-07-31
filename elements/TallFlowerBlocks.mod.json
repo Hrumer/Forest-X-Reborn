@@ -4,7 +4,29 @@
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:Wildflower"
+      },
+      {
+        "value": "CUSTOM:Lavander"
+      },
+      {
+        "value": "CUSTOM:Burningblossom"
+      },
+      {
+        "value": "CUSTOM:DesertRose"
+      },
+      {
+        "value": "CUSTOM:BlueRose"
+      },
+      {
+        "value": "CUSTOM:WhiteRoseBush"
+      },
+      {
+        "value": "CUSTOM:PinkRoseBush"
+      }
+    ],
     "functions": [],
     "entities": [],
     "biomes": [],

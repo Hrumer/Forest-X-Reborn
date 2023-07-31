@@ -16,6 +16,18 @@
       },
       {
         "value": "CUSTOM:StrippedEucalyptusWood"
+      },
+      {
+        "value": "CUSTOM:MulberryWood"
+      },
+      {
+        "value": "CUSTOM:MulberryLog"
+      },
+      {
+        "value": "CUSTOM:StrippedMulberryWood"
+      },
+      {
+        "value": "CUSTOM:StrippedMulberryLog"
       }
     ],
     "functions": [],

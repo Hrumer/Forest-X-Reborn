@@ -85,6 +85,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> WARPED_PARQUET = block(ForestModBlocks.WARPED_PARQUET);
 	public static final RegistryObject<Item> MANGROVE_PARQUET = block(ForestModBlocks.MANGROVE_PARQUET);
 	public static final RegistryObject<Item> CHERRY_PARQUET = block(ForestModBlocks.CHERRY_PARQUET);
+	public static final RegistryObject<Item> MULBERRY_PARQUET = block(ForestModBlocks.MULBERRY_PARQUET);
 	public static final RegistryObject<Item> MARBLE = block(ForestModBlocks.MARBLE);
 	public static final RegistryObject<Item> MARBLE_BRICKS = block(ForestModBlocks.MARBLE_BRICKS);
 	public static final RegistryObject<Item> POLISHED_MARBLE = block(ForestModBlocks.POLISHED_MARBLE);
@@ -265,6 +266,8 @@ public class ForestModItems {
 	public static final RegistryObject<Item> SUNSHROOM = block(ForestModBlocks.SUNSHROOM);
 	public static final RegistryObject<Item> MOONSHROOM = block(ForestModBlocks.MOONSHROOM);
 	public static final RegistryObject<Item> GRAPE_VINE_0 = block(ForestModBlocks.GRAPE_VINE_0);
+	public static final RegistryObject<Item> WHITE_ROSE_BUSH = doubleBlock(ForestModBlocks.WHITE_ROSE_BUSH);
+	public static final RegistryObject<Item> PINK_ROSE_BUSH = doubleBlock(ForestModBlocks.PINK_ROSE_BUSH);
 	public static final RegistryObject<Item> SILVER_ORE = block(ForestModBlocks.SILVER_ORE);
 	public static final RegistryObject<Item> DEEPSLATE_SILVER_ORE = block(ForestModBlocks.DEEPSLATE_SILVER_ORE);
 	public static final RegistryObject<Item> RAW_SILVER_BLOCK = block(ForestModBlocks.RAW_SILVER_BLOCK);
@@ -283,6 +286,24 @@ public class ForestModItems {
 	public static final RegistryObject<Item> SILVER_ARMOR_BOOTS = REGISTRY.register("silver_armor_boots", () -> new SilverArmorItem.Boots());
 	public static final RegistryObject<Item> QUIVER = REGISTRY.register("quiver", () -> new QuiverItem());
 	public static final RegistryObject<Item> FERMENTATION_BARREL = block(ForestModBlocks.FERMENTATION_BARREL);
+	public static final RegistryObject<Item> MULBERRY_SAPLING = block(ForestModBlocks.MULBERRY_SAPLING);
+	public static final RegistryObject<Item> MULBERRY_LEAVES_WITHOUT_WHITE = block(ForestModBlocks.MULBERRY_LEAVES_WITHOUT_WHITE);
+	public static final RegistryObject<Item> MULBERRY_LEAVES_WITHOUT_BLACK = block(ForestModBlocks.MULBERRY_LEAVES_WITHOUT_BLACK);
+	public static final RegistryObject<Item> MULBERRY_LEAVES_WITH_WHITE = block(ForestModBlocks.MULBERRY_LEAVES_WITH_WHITE);
+	public static final RegistryObject<Item> MULBERRY_LEAVES_WITH_BLACK = block(ForestModBlocks.MULBERRY_LEAVES_WITH_BLACK);
+	public static final RegistryObject<Item> MULBERRY_WOOD = block(ForestModBlocks.MULBERRY_WOOD);
+	public static final RegistryObject<Item> MULBERRY_LOG = block(ForestModBlocks.MULBERRY_LOG);
+	public static final RegistryObject<Item> STRIPPED_MULBERRY_WOOD = block(ForestModBlocks.STRIPPED_MULBERRY_WOOD);
+	public static final RegistryObject<Item> STRIPPED_MULBERRY_LOG = block(ForestModBlocks.STRIPPED_MULBERRY_LOG);
+	public static final RegistryObject<Item> MULBERRY_PLANKS = block(ForestModBlocks.MULBERRY_PLANKS);
+	public static final RegistryObject<Item> MULBERRY_STAIRS = block(ForestModBlocks.MULBERRY_STAIRS);
+	public static final RegistryObject<Item> MULBERRY_SLAB = block(ForestModBlocks.MULBERRY_SLAB);
+	public static final RegistryObject<Item> MULBERRY_PRESSURE_PLATE = block(ForestModBlocks.MULBERRY_PRESSURE_PLATE);
+	public static final RegistryObject<Item> MULBERRY_BUTTON = block(ForestModBlocks.MULBERRY_BUTTON);
+	public static final RegistryObject<Item> MULBERRY_DOOR = doubleBlock(ForestModBlocks.MULBERRY_DOOR);
+	public static final RegistryObject<Item> MULBERRY_TRAPDOOR = block(ForestModBlocks.MULBERRY_TRAPDOOR);
+	public static final RegistryObject<Item> MULBERRY_FENCE = block(ForestModBlocks.MULBERRY_FENCE);
+	public static final RegistryObject<Item> MULBERRY_FENCE_GATE = block(ForestModBlocks.MULBERRY_FENCE_GATE);
 	public static final RegistryObject<Item> SAPPHIRE = REGISTRY.register("sapphire", () -> new SapphireItem());
 	public static final RegistryObject<Item> SAPPHIRE_ORE = block(ForestModBlocks.SAPPHIRE_ORE);
 	public static final RegistryObject<Item> SAPPHIRE_BLOCK = block(ForestModBlocks.SAPPHIRE_BLOCK);
@@ -327,8 +348,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> POLAR_BEAR_CARPET = block(ForestModBlocks.POLAR_BEAR_CARPET);
 	public static final RegistryObject<Item> BROWN_BEAR_PELT = REGISTRY.register("brown_bear_pelt", () -> new BrownBearPeltItem());
 	public static final RegistryObject<Item> POLAR_BEAR_PELT = REGISTRY.register("polar_bear_pelt", () -> new PolarBearPeltItem());
-	public static final RegistryObject<Item> WHITE_ROSE = doubleBlock(ForestModBlocks.WHITE_ROSE);
-	public static final RegistryObject<Item> PINK_ROSE = doubleBlock(ForestModBlocks.PINK_ROSE);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

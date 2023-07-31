@@ -9,13 +9,47 @@ import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.CreativeModeTabEvent;
 
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.chat.Component;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ForestModTabs {
 	@SubscribeEvent
+	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
+
+		if (tabData.getTab() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(ForestModBlocks.MULBERRY_FENCE_GATE.get().asItem());
+		}
+
+		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(ForestModBlocks.MULBERRY_FENCE.get().asItem());
+		}
+	}
+
+	@SubscribeEvent
 	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
+		event.registerCreativeModeTab(new ResourceLocation("forest", "trees"),
+				builder -> builder.title(Component.translatable("item_group.forest.trees")).icon(() -> new ItemStack(ForestModBlocks.MULBERRY_SAPLING.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModBlocks.MULBERRY_SAPLING.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LEAVES_WITHOUT_WHITE.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LEAVES_WITHOUT_BLACK.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LEAVES_WITH_WHITE.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LEAVES_WITH_BLACK.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_WOOD.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LOG.get().asItem());
+					tabData.accept(ForestModBlocks.STRIPPED_MULBERRY_WOOD.get().asItem());
+					tabData.accept(ForestModBlocks.STRIPPED_MULBERRY_LOG.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_PRESSURE_PLATE.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_BUTTON.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_DOOR.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_TRAPDOOR.get().asItem());
+				})
+
+		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "decorative_blocks"),
 				builder -> builder.title(Component.translatable("item_group.forest.decorative_blocks")).icon(() -> new ItemStack(ForestModBlocks.SANDSLATE_FACETED_BRICKS.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(ForestModBlocks.SNAIL_SHELL.get().asItem());
@@ -38,6 +72,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.WARPED_PARQUET.get().asItem());
 					tabData.accept(ForestModBlocks.MANGROVE_PARQUET.get().asItem());
 					tabData.accept(ForestModBlocks.CHERRY_PARQUET.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_PARQUET.get().asItem());
 					tabData.accept(ForestModBlocks.MARBLE.get().asItem());
 					tabData.accept(ForestModBlocks.MARBLE_BRICKS.get().asItem());
 					tabData.accept(ForestModBlocks.POLISHED_MARBLE.get().asItem());
@@ -190,8 +225,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.SUNSHROOM.get().asItem());
 					tabData.accept(ForestModBlocks.MOONSHROOM.get().asItem());
 					tabData.accept(ForestModBlocks.GRAPE_VINE_0.get().asItem());
-					tabData.accept(ForestModBlocks.WHITE_ROSE.get().asItem());
-					tabData.accept(ForestModBlocks.PINK_ROSE.get().asItem());
+					tabData.accept(ForestModBlocks.WHITE_ROSE_BUSH.get().asItem());
+					tabData.accept(ForestModBlocks.PINK_ROSE_BUSH.get().asItem());
 				})
 
 		);

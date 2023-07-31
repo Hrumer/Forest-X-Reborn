@@ -55,6 +55,12 @@
       },
       {
         "value": "CUSTOM:YellowFence"
+      },
+      {
+        "value": "CUSTOM:MulberryFence"
+      },
+      {
+        "value": "Blocks.CHERRY_FENCE"
       }
     ],
     "functions": [],

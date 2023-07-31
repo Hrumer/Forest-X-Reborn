@@ -12,7 +12,7 @@ import power.forestxreborn.block.YellowFenceBlock;
 import power.forestxreborn.block.WildflowerBlock;
 import power.forestxreborn.block.WhiteStairsBlock;
 import power.forestxreborn.block.WhiteSlabBlock;
-import power.forestxreborn.block.WhiteRoseBlock;
+import power.forestxreborn.block.WhiteRoseBushBlock;
 import power.forestxreborn.block.WhitePlanksBlock;
 import power.forestxreborn.block.WhiteFenceGateBlock;
 import power.forestxreborn.block.WhiteFenceBlock;
@@ -24,6 +24,8 @@ import power.forestxreborn.block.TruncatedPumiceBlock;
 import power.forestxreborn.block.TruncatedCarvedPumiceBlock;
 import power.forestxreborn.block.TropicalParquetBlock;
 import power.forestxreborn.block.SunshroomBlock;
+import power.forestxreborn.block.StrippedMulberryWoodBlock;
+import power.forestxreborn.block.StrippedMulberryLogBlock;
 import power.forestxreborn.block.StrippedEucalyptusWoodBlock;
 import power.forestxreborn.block.StrippedEucalyptusLogBlock;
 import power.forestxreborn.block.SpruceParquetBlock;
@@ -89,7 +91,7 @@ import power.forestxreborn.block.PolishedMarbleBlock;
 import power.forestxreborn.block.PolarBearCarpetBlock;
 import power.forestxreborn.block.PinkStairsBlock;
 import power.forestxreborn.block.PinkSlabBlock;
-import power.forestxreborn.block.PinkRoseBlock;
+import power.forestxreborn.block.PinkRoseBushBlock;
 import power.forestxreborn.block.PinkPlanksBlock;
 import power.forestxreborn.block.PinkFenceGateBlock;
 import power.forestxreborn.block.PinkFenceBlock;
@@ -100,6 +102,23 @@ import power.forestxreborn.block.OrangePlanksBlock;
 import power.forestxreborn.block.OrangeFenceGateBlock;
 import power.forestxreborn.block.OrangeFenceBlock;
 import power.forestxreborn.block.OakParquetBlock;
+import power.forestxreborn.block.MulberryWoodBlock;
+import power.forestxreborn.block.MulberryTrapdoorBlock;
+import power.forestxreborn.block.MulberryStairsBlock;
+import power.forestxreborn.block.MulberrySlabBlock;
+import power.forestxreborn.block.MulberrySaplingBlock;
+import power.forestxreborn.block.MulberryPressurePlateBlock;
+import power.forestxreborn.block.MulberryPlanksBlock;
+import power.forestxreborn.block.MulberryParquetBlock;
+import power.forestxreborn.block.MulberryLogBlock;
+import power.forestxreborn.block.MulberryLeavesWithoutWhiteBlock;
+import power.forestxreborn.block.MulberryLeavesWithoutBlackBlock;
+import power.forestxreborn.block.MulberryLeavesWithWhiteBlock;
+import power.forestxreborn.block.MulberryLeavesWithBlackBlock;
+import power.forestxreborn.block.MulberryFenceGateBlock;
+import power.forestxreborn.block.MulberryFenceBlock;
+import power.forestxreborn.block.MulberryDoorBlock;
+import power.forestxreborn.block.MulberryButtonBlock;
 import power.forestxreborn.block.MoonshroomBlock;
 import power.forestxreborn.block.MarbleBricksWallBlock;
 import power.forestxreborn.block.MarbleBricksStairsBlock;
@@ -241,6 +260,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> WARPED_PARQUET = REGISTRY.register("warped_parquet", () -> new WarpedParquetBlock());
 	public static final RegistryObject<Block> MANGROVE_PARQUET = REGISTRY.register("mangrove_parquet", () -> new MangroveParquetBlock());
 	public static final RegistryObject<Block> CHERRY_PARQUET = REGISTRY.register("cherry_parquet", () -> new CherryParquetBlock());
+	public static final RegistryObject<Block> MULBERRY_PARQUET = REGISTRY.register("mulberry_parquet", () -> new MulberryParquetBlock());
 	public static final RegistryObject<Block> MARBLE = REGISTRY.register("marble", () -> new MarbleBlock());
 	public static final RegistryObject<Block> MARBLE_BRICKS = REGISTRY.register("marble_bricks", () -> new MarbleBricksBlock());
 	public static final RegistryObject<Block> POLISHED_MARBLE = REGISTRY.register("polished_marble", () -> new PolishedMarbleBlock());
@@ -387,11 +407,31 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> SUNSHROOM = REGISTRY.register("sunshroom", () -> new SunshroomBlock());
 	public static final RegistryObject<Block> MOONSHROOM = REGISTRY.register("moonshroom", () -> new MoonshroomBlock());
 	public static final RegistryObject<Block> GRAPE_VINE_0 = REGISTRY.register("grape_vine_0", () -> new GrapeVine0Block());
+	public static final RegistryObject<Block> WHITE_ROSE_BUSH = REGISTRY.register("white_rose_bush", () -> new WhiteRoseBushBlock());
+	public static final RegistryObject<Block> PINK_ROSE_BUSH = REGISTRY.register("pink_rose_bush", () -> new PinkRoseBushBlock());
 	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
 	public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = REGISTRY.register("deepslate_silver_ore", () -> new DeepslateSilverOreBlock());
 	public static final RegistryObject<Block> RAW_SILVER_BLOCK = REGISTRY.register("raw_silver_block", () -> new RawSilverBlockBlock());
 	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
 	public static final RegistryObject<Block> FERMENTATION_BARREL = REGISTRY.register("fermentation_barrel", () -> new FermentationBarrelBlock());
+	public static final RegistryObject<Block> MULBERRY_SAPLING = REGISTRY.register("mulberry_sapling", () -> new MulberrySaplingBlock());
+	public static final RegistryObject<Block> MULBERRY_LEAVES_WITHOUT_WHITE = REGISTRY.register("mulberry_leaves_without_white", () -> new MulberryLeavesWithoutWhiteBlock());
+	public static final RegistryObject<Block> MULBERRY_LEAVES_WITHOUT_BLACK = REGISTRY.register("mulberry_leaves_without_black", () -> new MulberryLeavesWithoutBlackBlock());
+	public static final RegistryObject<Block> MULBERRY_LEAVES_WITH_WHITE = REGISTRY.register("mulberry_leaves_with_white", () -> new MulberryLeavesWithWhiteBlock());
+	public static final RegistryObject<Block> MULBERRY_LEAVES_WITH_BLACK = REGISTRY.register("mulberry_leaves_with_black", () -> new MulberryLeavesWithBlackBlock());
+	public static final RegistryObject<Block> MULBERRY_WOOD = REGISTRY.register("mulberry_wood", () -> new MulberryWoodBlock());
+	public static final RegistryObject<Block> MULBERRY_LOG = REGISTRY.register("mulberry_log", () -> new MulberryLogBlock());
+	public static final RegistryObject<Block> STRIPPED_MULBERRY_WOOD = REGISTRY.register("stripped_mulberry_wood", () -> new StrippedMulberryWoodBlock());
+	public static final RegistryObject<Block> STRIPPED_MULBERRY_LOG = REGISTRY.register("stripped_mulberry_log", () -> new StrippedMulberryLogBlock());
+	public static final RegistryObject<Block> MULBERRY_PLANKS = REGISTRY.register("mulberry_planks", () -> new MulberryPlanksBlock());
+	public static final RegistryObject<Block> MULBERRY_STAIRS = REGISTRY.register("mulberry_stairs", () -> new MulberryStairsBlock());
+	public static final RegistryObject<Block> MULBERRY_SLAB = REGISTRY.register("mulberry_slab", () -> new MulberrySlabBlock());
+	public static final RegistryObject<Block> MULBERRY_PRESSURE_PLATE = REGISTRY.register("mulberry_pressure_plate", () -> new MulberryPressurePlateBlock());
+	public static final RegistryObject<Block> MULBERRY_BUTTON = REGISTRY.register("mulberry_button", () -> new MulberryButtonBlock());
+	public static final RegistryObject<Block> MULBERRY_DOOR = REGISTRY.register("mulberry_door", () -> new MulberryDoorBlock());
+	public static final RegistryObject<Block> MULBERRY_TRAPDOOR = REGISTRY.register("mulberry_trapdoor", () -> new MulberryTrapdoorBlock());
+	public static final RegistryObject<Block> MULBERRY_FENCE = REGISTRY.register("mulberry_fence", () -> new MulberryFenceBlock());
+	public static final RegistryObject<Block> MULBERRY_FENCE_GATE = REGISTRY.register("mulberry_fence_gate", () -> new MulberryFenceGateBlock());
 	public static final RegistryObject<Block> SAPPHIRE_ORE = REGISTRY.register("sapphire_ore", () -> new SapphireOreBlock());
 	public static final RegistryObject<Block> SAPPHIRE_BLOCK = REGISTRY.register("sapphire_block", () -> new SapphireBlockBlock());
 	public static final RegistryObject<Block> DEEPSLATE_SAPPHIRE_ORE = REGISTRY.register("deepslate_sapphire_ore", () -> new DeepslateSapphireOreBlock());
@@ -422,18 +462,18 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> GRAPE_VINE_1 = REGISTRY.register("grape_vine_1", () -> new GrapeVine1Block());
 	public static final RegistryObject<Block> BROWN_BEAR_CARPET = REGISTRY.register("brown_bear_carpet", () -> new BrownBearCarpetBlock());
 	public static final RegistryObject<Block> POLAR_BEAR_CARPET = REGISTRY.register("polar_bear_carpet", () -> new PolarBearCarpetBlock());
-	public static final RegistryObject<Block> WHITE_ROSE = REGISTRY.register("white_rose", () -> new WhiteRoseBlock());
-	public static final RegistryObject<Block> PINK_ROSE = REGISTRY.register("pink_rose", () -> new PinkRoseBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
+			MulberryLeavesWithWhiteBlock.blockColorLoad(event);
 			EucalyptusLeavesBlock.blockColorLoad(event);
 		}
 
 		@SubscribeEvent
 		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
+			MulberryLeavesWithWhiteBlock.itemColorLoad(event);
 			EucalyptusLeavesBlock.itemColorLoad(event);
 		}
 	}

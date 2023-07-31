@@ -4,7 +4,7 @@
   "definition": {
     "name": "Trees",
     "icon": {
-      "value": "Blocks.SAPLING#5"
+      "value": "CUSTOM:MulberrySapling"
     },
     "showSearch": false
   }
