@@ -9665,8 +9665,8 @@
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
+      "item.forest.gingerbread_round": "Пряник",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -9841,7 +9841,7 @@
       "item_group.forest.ores": "Руда",
       "block.forest.mulberry_fence_gate": "Калитка из шелковицы",
       "block.forest.truncated_pumice": "Усеченная пемза",
-      "item_group.forest.clothes": "Clothes",
+      "item_group.forest.clothes": "Одежда",
       "entity.forest.fire_salamander": "Огненная саламандра",
       "item_group.forest.music_discs": "Пластинки",
       "item.forest.wine": "Вино",
