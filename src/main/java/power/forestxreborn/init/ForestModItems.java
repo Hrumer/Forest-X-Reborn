@@ -5,6 +5,7 @@
 package power.forestxreborn.init;
 
 import power.forestxreborn.item.WineItem;
+import power.forestxreborn.item.WhiteMulberryItem;
 import power.forestxreborn.item.SilverSwordItem;
 import power.forestxreborn.item.SilverShovelItem;
 import power.forestxreborn.item.SilverPickaxeItem;
@@ -49,6 +50,7 @@ import power.forestxreborn.item.BrownBearPeltItem;
 import power.forestxreborn.item.BrownBearArmorItem;
 import power.forestxreborn.item.BreadwithlardItem;
 import power.forestxreborn.item.BlueberryItem;
+import power.forestxreborn.item.BlackMulberryItem;
 import power.forestxreborn.item.BerryStrudelItem;
 import power.forestxreborn.item.BarbecueItem;
 import power.forestxreborn.ForestMod;
@@ -348,6 +350,8 @@ public class ForestModItems {
 	public static final RegistryObject<Item> POLAR_BEAR_CARPET = block(ForestModBlocks.POLAR_BEAR_CARPET);
 	public static final RegistryObject<Item> BROWN_BEAR_PELT = REGISTRY.register("brown_bear_pelt", () -> new BrownBearPeltItem());
 	public static final RegistryObject<Item> POLAR_BEAR_PELT = REGISTRY.register("polar_bear_pelt", () -> new PolarBearPeltItem());
+	public static final RegistryObject<Item> BLACK_MULBERRY = REGISTRY.register("black_mulberry", () -> new BlackMulberryItem());
+	public static final RegistryObject<Item> WHITE_MULBERRY = REGISTRY.register("white_mulberry", () -> new WhiteMulberryItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
