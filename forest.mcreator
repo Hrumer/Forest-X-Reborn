@@ -9620,6 +9620,200 @@
         ]
       },
       "path": "~/BearThings"
+    },
+    {
+      "name": "MulberryLeavesWithoutWhiteObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 573,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_leaves_without_white_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/MulberryLeavesWithoutWhiteObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mulberry Wood Set"
+    },
+    {
+      "name": "MulberryLeavesWithoutBlackObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 574,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_leaves_without_black_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/MulberryLeavesWithoutBlackObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mulberry Wood Set"
+    },
+    {
+      "name": "MulberryLeavesWithWhitePriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 575,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_leaves_with_white_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/MulberryLeavesWithWhitePriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mulberry Wood Set"
+    },
+    {
+      "name": "MulberryLeavesWithBlackPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 576,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_leaves_with_black_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/MulberryLeavesWithBlackPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mulberry Wood Set"
+    },
+    {
+      "name": "MulberrySaplingObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 577,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_sapling_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/MulberrySaplingObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Mulberry Wood Set"
+    },
+    {
+      "name": "WhiteMulberryTree",
+      "type": "structure",
+      "sortid": 578,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_mulberry_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/configured_feature/white_mulberry_tree.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/white_mulberry_tree.json",
+          "src/main/java/power/forestxreborn/world/features/WhiteMulberryTreeFeature.java",
+          "src/main/resources/data/forest/forge/biome_modifier/white_mulberry_tree_biome_modifier.json"
+        ]
+      },
+      "path": "~/Mulberry Wood Set"
+    },
+    {
+      "name": "BlackMulberryTree",
+      "type": "structure",
+      "sortid": 579,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_mulberry_tree",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/forge/biome_modifier/black_mulberry_tree_biome_modifier.json",
+          "src/main/java/power/forestxreborn/world/features/BlackMulberryTreeFeature.java",
+          "src/main/resources/data/forest/worldgen/configured_feature/black_mulberry_tree.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/black_mulberry_tree.json"
+        ]
+      },
+      "path": "~/Mulberry Wood Set"
     }
   ],
   "variable_elements": [
@@ -9665,8 +9859,8 @@
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "item.forest.gingerbread_round": "Пряник",
+      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10007,8 +10201,8 @@
     },
     "en_us": {
       "item.forest.polar_bear_armor_helmet": "Brown Bear Armor Helmet",
-      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.gingerbread_bricks": "Gingerbread Bricks",
+      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.white_planks": "White Planks",
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",

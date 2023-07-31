@@ -7,4 +7,4 @@ Snapshot 1.4.0.230801:
 <br /> - Pelts can be dropped from bears
 <br /> - The chance of the appearance of a old growth forest has been reduced
 <br /> - Updated the texture of grapes
-<br /> - [Bugfix] 
+<br /> - [Bugfix] Fixed a bug that caused trunks with grapes to be generated too often

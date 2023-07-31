@@ -15,6 +15,7 @@ import power.forestxreborn.world.features.ores.SilverOreFeature;
 import power.forestxreborn.world.features.ores.SandslateFeature;
 import power.forestxreborn.world.features.ores.RhyoliteFeature;
 import power.forestxreborn.world.features.ores.DeepslateSilverOreFeature;
+import power.forestxreborn.world.features.WhiteMulberryTreeFeature;
 import power.forestxreborn.world.features.SunshroomsFeatureFeature;
 import power.forestxreborn.world.features.StoneVolcanoDeltaFeature;
 import power.forestxreborn.world.features.StonePatchFeature;
@@ -29,6 +30,7 @@ import power.forestxreborn.world.features.GrapevineLogFeature;
 import power.forestxreborn.world.features.CobblestonePatchFeature;
 import power.forestxreborn.world.features.BrownMushroomsFeatureFeature;
 import power.forestxreborn.world.features.BlueberriesBushFeatureFeature;
+import power.forestxreborn.world.features.BlackMulberryTreeFeature;
 import power.forestxreborn.world.features.BigRedMushroomsFeatureFeature;
 import power.forestxreborn.world.features.BigBrownMushroomsFeatureFeature;
 import power.forestxreborn.ForestMod;
@@ -70,4 +72,6 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> LAVA_PATCH = REGISTRY.register("lava_patch", LavaPatchFeature::new);
 	public static final RegistryObject<Feature<?>> STONE_VOLCANO_DELTA = REGISTRY.register("stone_volcano_delta", StoneVolcanoDeltaFeature::new);
 	public static final RegistryObject<Feature<?>> GRAPEVINE_LOG = REGISTRY.register("grapevine_log", GrapevineLogFeature::new);
+	public static final RegistryObject<Feature<?>> WHITE_MULBERRY_TREE = REGISTRY.register("white_mulberry_tree", WhiteMulberryTreeFeature::new);
+	public static final RegistryObject<Feature<?>> BLACK_MULBERRY_TREE = REGISTRY.register("black_mulberry_tree", BlackMulberryTreeFeature::new);
 }

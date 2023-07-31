@@ -1,13 +1,7 @@
 {
-  "parent": "block/cube",
+  "parent": "block/cube_all",
   "textures": {
-    "down": "forest:block/mulberry_leaves_with_white",
-    "up": "forest:block/mulberry_leaves_with_white",
-    "north": "forest:block/mulberry_leaves_with_white",
-    "east": "forest:block/mulberry_leaves_with_white",
-    "south": "forest:block/mulberry_leaves_with_white",
-    "west": "forest:block/mulberry_leaves_with_white",
+    "all": "forest:block/mulberry_leaves_with_white",
     "particle": "forest:block/mulberry_leaves_with_white"
-  },
-  "render_type": "solid"
+  }
 }

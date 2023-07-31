@@ -59,7 +59,7 @@
     "material": {
       "value": "LEAVES"
     },
-    "tickRate": 0,
+    "tickRate": 1800,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -120,6 +120,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "MulberryLeavesWithoutWhiteObnovlieniieTika"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [

@@ -102,6 +102,9 @@
     "unbreakable": false,
     "breakHarvestLevel": 1,
     "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "MulberrySaplingObnovlieniieTika"
+    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -119,6 +122,9 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
+    "onTickUpdate": {
+      "name": "MulberrySaplingObnovlieniieTika"
+    },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],

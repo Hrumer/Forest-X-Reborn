@@ -467,13 +467,11 @@ public class ForestModBlocks {
 	public static class ClientSideHandler {
 		@SubscribeEvent
 		public static void blockColorLoad(RegisterColorHandlersEvent.Block event) {
-			MulberryLeavesWithWhiteBlock.blockColorLoad(event);
 			EucalyptusLeavesBlock.blockColorLoad(event);
 		}
 
 		@SubscribeEvent
 		public static void itemColorLoad(RegisterColorHandlersEvent.Item event) {
-			MulberryLeavesWithWhiteBlock.itemColorLoad(event);
 			EucalyptusLeavesBlock.itemColorLoad(event);
 		}
 	}

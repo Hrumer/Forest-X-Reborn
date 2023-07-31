@@ -1,6 +1,8 @@
 
 package power.forestxreborn.block;
 
+import power.forestxreborn.procedures.MulberrySaplingObnovlieniieTikaProcedure;
+
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
@@ -58,6 +60,22 @@ public class MulberrySaplingBlock extends Block implements BonemealableBlock {
 	}
 
 	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 1400);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		MulberrySaplingObnovlieniieTikaProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 1400);
+	}
+
+	@Override
 	public boolean isValidBonemealTarget(LevelReader worldIn, BlockPos pos, BlockState blockstate, boolean clientSide) {
 		return true;
 	}
@@ -69,5 +87,6 @@ public class MulberrySaplingBlock extends Block implements BonemealableBlock {
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		MulberrySaplingObnovlieniieTikaProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }
