@@ -27,6 +27,8 @@ import net.minecraft.world.entity.monster.ZombifiedPiglin;
 import net.minecraft.world.entity.monster.ZombieVillager;
 import net.minecraft.world.entity.monster.Zombie;
 import net.minecraft.world.entity.monster.Zoglin;
+import net.minecraft.world.entity.monster.Husk;
+import net.minecraft.world.entity.monster.Drowned;
 import net.minecraft.world.entity.animal.horse.ZombieHorse;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
@@ -176,7 +178,9 @@ public class VultureEntity extends Animal implements GeoEntity {
 		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, ZombieVillager.class, true, false));
 		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, ZombifiedPiglin.class, true, false));
 		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, ZombieHorse.class, true, false));
-		this.goalSelector.addGoal(10, new PanicGoal(this, 1.2));
+		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Husk.class, true, false));
+		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, Drowned.class, true, false));
+		this.goalSelector.addGoal(12, new PanicGoal(this, 1.2));
 	}
 
 	@Override
