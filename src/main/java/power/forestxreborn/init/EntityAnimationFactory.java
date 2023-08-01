@@ -1,5 +1,10 @@
 package power.forestxreborn.init;
 
+import power.forestxreborn.entity.SnailEntity;
+import power.forestxreborn.entity.FireSalamanderEntity;
+import power.forestxreborn.entity.FennecEntity;
+import power.forestxreborn.entity.BrownBearEntity;
+
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.event.entity.living.LivingEvent;

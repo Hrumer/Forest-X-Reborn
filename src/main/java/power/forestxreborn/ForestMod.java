@@ -13,13 +13,15 @@
  */
 package power.forestxreborn;
 
-import power.forestxreborn.init.ForestModTabs;
+import software.bernie.geckolib.GeckoLib;
+
 import power.forestxreborn.init.ForestModSounds;
 import power.forestxreborn.init.ForestModParticleTypes;
 import power.forestxreborn.init.ForestModPaintings;
 import power.forestxreborn.init.ForestModMenus;
 import power.forestxreborn.init.ForestModItems;
 import power.forestxreborn.init.ForestModFeatures;
+import power.forestxreborn.init.ForestModEntities;
 import power.forestxreborn.init.ForestModBlocks;
 import power.forestxreborn.init.ForestModBlockEntities;
 
@@ -58,16 +60,16 @@ public class ForestMod {
 		IEventBus bus = FMLJavaModLoadingContext.get().getModEventBus();
 		ForestModSounds.REGISTRY.register(bus);
 		ForestModBlocks.REGISTRY.register(bus);
-		ForestModBlockEntities.REGISTRY.register(bus);
 		ForestModItems.REGISTRY.register(bus);
-
-		ForestModTabs.REGISTRY.register(bus);
+		ForestModEntities.REGISTRY.register(bus);
+		ForestModBlockEntities.REGISTRY.register(bus);
 		ForestModFeatures.REGISTRY.register(bus);
 
 		ForestModPaintings.REGISTRY.register(bus);
-		ForestModParticleTypes.REGISTRY.register(bus);
 
+		ForestModParticleTypes.REGISTRY.register(bus);
 		ForestModMenus.REGISTRY.register(bus);
+
 		GeckoLib.initialize();
 	}
 

@@ -7861,7 +7861,7 @@
       "name": "WineAlcoholMultiplier",
       "type": "procedure",
       "sortid": 467,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "wine_alcohol_multiplier",
       "metadata": {
@@ -7881,7 +7881,7 @@
       "name": "AlcoholPlayerDebuffTick",
       "type": "procedure",
       "sortid": 468,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "alcohol_player_debuff_tick",
       "metadata": {
@@ -9760,7 +9760,7 @@
       "geckolib",
       "allmods"
     ],
-    "currentGenerator": "forge-1.20.1",
+    "currentGenerator": "forge-1.19.4",
     "credits": "Created by MagicalAlexey with the support of 7ZLBeka, maxD, Samuelchik",
     "modElementsPackage": "power.forestxreborn",
     "lockBaseModFiles": false

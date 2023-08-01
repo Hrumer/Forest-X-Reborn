@@ -1,6 +1,8 @@
 {
   "pack": {
-    "pack_format": 15,
-    "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  "
+    "description": "forest mod resources",
+    "pack_format": 13,
+    "forge:resource_pack_format": 13,
+    "forge:data_pack_format": 12
   }
 }
