@@ -18,17 +18,38 @@ public class ForestModTabs {
 	@SubscribeEvent
 	public static void buildTabContentsVanilla(CreativeModeTabEvent.BuildContents tabData) {
 
-		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(ForestModItems.RACOON_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.BROWN_BEAR_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
-			tabData.accept(ForestModItems.FIRE_SALAMANDER_SPAWN_EGG.get());
+		if (tabData.getTab() == CreativeModeTabs.REDSTONE_BLOCKS) {
+			tabData.accept(ForestModBlocks.MULBERRY_FENCE_GATE.get().asItem());
+		}
+
+		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
+			tabData.accept(ForestModBlocks.MULBERRY_FENCE.get().asItem());
 		}
 	}
 
 	@SubscribeEvent
 	public static void buildTabContentsModded(CreativeModeTabEvent.Register event) {
+		event.registerCreativeModeTab(new ResourceLocation("forest", "trees"),
+				builder -> builder.title(Component.translatable("item_group.forest.trees")).icon(() -> new ItemStack(ForestModBlocks.MULBERRY_SAPLING.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModBlocks.MULBERRY_SAPLING.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LEAVES_WITHOUT_WHITE.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LEAVES_WITHOUT_BLACK.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LEAVES_WITH_WHITE.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LEAVES_WITH_BLACK.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_WOOD.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_LOG.get().asItem());
+					tabData.accept(ForestModBlocks.STRIPPED_MULBERRY_WOOD.get().asItem());
+					tabData.accept(ForestModBlocks.STRIPPED_MULBERRY_LOG.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_PLANKS.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_STAIRS.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_SLAB.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_PRESSURE_PLATE.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_BUTTON.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_DOOR.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_TRAPDOOR.get().asItem());
+				})
+
+		);
 		event.registerCreativeModeTab(new ResourceLocation("forest", "decorative_blocks"),
 				builder -> builder.title(Component.translatable("item_group.forest.decorative_blocks")).icon(() -> new ItemStack(ForestModBlocks.SANDSLATE_FACETED_BRICKS.get())).displayItems((parameters, tabData) -> {
 					tabData.accept(ForestModBlocks.SNAIL_SHELL.get().asItem());
@@ -51,6 +72,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.WARPED_PARQUET.get().asItem());
 					tabData.accept(ForestModBlocks.MANGROVE_PARQUET.get().asItem());
 					tabData.accept(ForestModBlocks.CHERRY_PARQUET.get().asItem());
+					tabData.accept(ForestModBlocks.MULBERRY_PARQUET.get().asItem());
 					tabData.accept(ForestModBlocks.MARBLE.get().asItem());
 					tabData.accept(ForestModBlocks.MARBLE_BRICKS.get().asItem());
 					tabData.accept(ForestModBlocks.POLISHED_MARBLE.get().asItem());
@@ -189,6 +211,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.PURPLE_FENCE_GATE.get().asItem());
 					tabData.accept(ForestModBlocks.MAGENTA_FENCE_GATE.get().asItem());
 					tabData.accept(ForestModBlocks.PINK_FENCE_GATE.get().asItem());
+					tabData.accept(ForestModBlocks.BROWN_BEAR_CARPET.get().asItem());
+					tabData.accept(ForestModBlocks.POLAR_BEAR_CARPET.get().asItem());
 				})
 
 		);
@@ -203,6 +227,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.SUNSHROOM.get().asItem());
 					tabData.accept(ForestModBlocks.MOONSHROOM.get().asItem());
 					tabData.accept(ForestModBlocks.GRAPE_VINE_0.get().asItem());
+					tabData.accept(ForestModBlocks.WHITE_ROSE_BUSH.get().asItem());
+					tabData.accept(ForestModBlocks.PINK_ROSE_BUSH.get().asItem());
 				})
 
 		);
@@ -241,6 +267,8 @@ public class ForestModTabs {
 			tabData.accept(ForestModItems.GINGERBREAD_PINE.get());
 			tabData.accept(ForestModItems.GLAZED_GINGERBREAD_PINE.get());
 			tabData.accept(ForestModItems.WINE.get());
+			tabData.accept(ForestModItems.BLACK_MULBERRY.get());
+			tabData.accept(ForestModItems.WHITE_MULBERRY.get());
 		})
 
 		);
@@ -251,7 +279,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_HEART.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_BRICK.get());
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
-					tabData.accept(ForestModItems.MUSIC_DISC_STROFA.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_PELT.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_PELT.get());
 				})
 
 		);
@@ -273,6 +302,35 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.SILVER_ARMOR_LEGGINGS.get());
 					tabData.accept(ForestModItems.SILVER_ARMOR_BOOTS.get());
 					tabData.accept(ForestModItems.QUIVER.get());
+				})
+
+		);
+		event.registerCreativeModeTab(new ResourceLocation("forest", "music_discs"),
+				builder -> builder.title(Component.translatable("item_group.forest.music_discs")).icon(() -> new ItemStack(ForestModItems.MUSIC_DISC_STROFA.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModItems.MUSIC_DISC_STROFA.get());
+				})
+
+		);
+		event.registerCreativeModeTab(new ResourceLocation("forest", "mobs"),
+				builder -> builder.title(Component.translatable("item_group.forest.mobs")).icon(() -> new ItemStack(ForestModItems.RACOON_SPAWN_EGG.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModItems.RACOON_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.FIRE_SALAMANDER_SPAWN_EGG.get());
+				})
+
+		);
+		event.registerCreativeModeTab(new ResourceLocation("forest", "clothes"),
+				builder -> builder.title(Component.translatable("item_group.forest.clothes")).icon(() -> new ItemStack(ForestModItems.BROWN_BEAR_ARMOR_HELMET.get())).displayItems((parameters, tabData) -> {
+					tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_HELMET.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_CHESTPLATE.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_LEGGINGS.get());
+					tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_BOOTS.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_HELMET.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_CHESTPLATE.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_LEGGINGS.get());
+					tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_BOOTS.get());
 				})
 
 		);

@@ -2,6 +2,8 @@
   "replace": false,
   "values": [
     "forest:lavander",
+    "forest:white_rose_bush",
+    "forest:pink_rose_bush",
     "forest:burning_blossom",
     "forest:wildflower"
   ]

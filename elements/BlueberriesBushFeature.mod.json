@@ -3,16 +3,15 @@
   "_type": "feature",
   "definition": {
     "generationStep": "SURFACE_STRUCTURES",
-    "restrictionDimensions": [],
+    "restrictionDimensions": [
+      "Surface"
+    ],
     "restrictionBiomes": [
       {
         "value": "taiga"
       },
       {
-        "value": "taiga_hills"
-      },
-      {
-        "value": "mutated_taiga"
+        "value": "forest"
       }
     ],
     "generateCondition": {

@@ -82,6 +82,12 @@
       },
       {
         "value": "Blocks.MANGROVE_SLAB"
+      },
+      {
+        "value": "CUSTOM:MulberrySlab"
+      },
+      {
+        "value": "Blocks.CHERRY_SLAB"
       }
     ],
     "functions": [],

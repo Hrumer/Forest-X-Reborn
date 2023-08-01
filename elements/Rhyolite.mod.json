@@ -124,19 +124,22 @@
     ],
     "restrictionBiomes": [
       {
-        "value": "mutated_extreme_hills_with_trees"
+        "value": "frozen_peaks"
       },
       {
-        "value": "smaller_extreme_hills"
+        "value": "jagged_peaks"
       },
       {
-        "value": "snowy_mountains"
+        "value": "snowy_slopes"
       },
       {
-        "value": "mutated_taiga_cold"
+        "value": "stony_peaks"
       },
       {
-        "value": "mutated_taiga"
+        "value": "mutated_extreme_hills"
+      },
+      {
+        "value": "mountains"
       }
     ],
     "blocksToReplace": [

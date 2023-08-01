@@ -2,7 +2,8 @@
   "type": "forge:add_spawns",
   "biomes": [
     "forest",
-    "flower_forest"
+    "flower_forest",
+    "forest:old_growth_forest"
   ],
   "spawners": {
     "type": "forest:racoon",

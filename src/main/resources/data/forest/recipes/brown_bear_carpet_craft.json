@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "forest:brown_bear_pelt"
+    },
+    "1": {
+      "item": "forest:brown_bear_pelt"
+    }
+  },
+  "result": {
+    "item": "forest:brown_bear_carpet",
+    "count": 1
+  }
+}

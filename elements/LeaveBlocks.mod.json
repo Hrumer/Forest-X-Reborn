@@ -7,6 +7,18 @@
     "blocks": [
       {
         "value": "CUSTOM:EucalyptusLeaves"
+      },
+      {
+        "value": "CUSTOM:MulberryLeavesWithoutWhite"
+      },
+      {
+        "value": "CUSTOM:MulberryLeavesWithoutBlack"
+      },
+      {
+        "value": "CUSTOM:MulberryLeavesWithWhite"
+      },
+      {
+        "value": "CUSTOM:MulberryLeavesWithBlack"
       }
     ],
     "functions": [],

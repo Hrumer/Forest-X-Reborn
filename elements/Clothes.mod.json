@@ -1,0 +1,11 @@
+{
+  "_fv": 44,
+  "_type": "tab",
+  "definition": {
+    "name": "Clothes",
+    "icon": {
+      "value": "CUSTOM:BrownBearArmor.helmet"
+    },
+    "showSearch": false
+  }
+}

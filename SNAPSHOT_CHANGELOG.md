@@ -1,5 +1,10 @@
-What's new in Forest X Reborn 1.3.0.230719 Snapshot?<br />
-<br /> - Added a new record - strofa
-<br /> - Strofa record can be found in the destroyed portal with a chance of 5%
-<br /> - [Bugfix] Fixed a bug with replacing all bottles in the main hand with one bottle of wine
-<br /> - [Bugfix] Fixed the appearance of fire salamanders in the volcano biome
+What's new in Forest X Reborn 1.4.0.230801 Snapshot?<br />
+<br /> - Added mulberry tree
+<br /> - Mulberry can be found in the old growth forest and flower forest
+<br /> - Added pink and white rose bushes
+<br /> - Added polar and brown bear armor
+<br /> - Added polar and brown bear pelt and carpets
+<br /> - Pelts can be dropped from bears
+<br /> - The chance of the appearance of a old growth forest has been reduced
+<br /> - Updated the texture of grapes
+<br /> - [Bugfix] Fixed a bug that caused trunks with grapes to be generated too often

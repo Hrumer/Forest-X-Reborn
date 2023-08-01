@@ -1,0 +1,30 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " 1 ",
+    "345",
+    " 7 "
+  ],
+  "key": {
+    "1": {
+      "item": "forest:mulberry_planks"
+    },
+    "3": {
+      "item": "forest:mulberry_planks"
+    },
+    "4": {
+      "item": "forest:mulberry_planks"
+    },
+    "5": {
+      "item": "forest:mulberry_planks"
+    },
+    "7": {
+      "item": "forest:mulberry_planks"
+    }
+  },
+  "result": {
+    "item": "forest:mulberry_parquet",
+    "count": 5
+  }
+}

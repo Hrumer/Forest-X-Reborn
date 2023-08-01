@@ -3,6 +3,7 @@
   "values": [
     "forest:black_fence_gate",
     "forest:pink_fence_gate",
+    "minecraft:cherry_fence_gate",
     "forest:light_blue_fence_gate",
     "minecraft:dark_oak_fence_gate",
     "minecraft:oak_fence_gate",
@@ -11,6 +12,7 @@
     "minecraft:mangrove_fence_gate",
     "forest:green_fence_gate",
     "minecraft:warped_fence_gate",
+    "forest:mulberry_fence_gate",
     "forest:cyan_fence_gate",
     "forest:light_gray_fence_gate",
     "forest:yellow_fence_gate",

@@ -82,6 +82,12 @@
       },
       {
         "value": "Blocks.MANGROVE_STAIRS"
+      },
+      {
+        "value": "Blocks.CHERRY_STAIRS"
+      },
+      {
+        "value": "CUSTOM:MulberryStairs"
       }
     ],
     "functions": [],

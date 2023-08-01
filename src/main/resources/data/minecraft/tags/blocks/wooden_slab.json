@@ -14,6 +14,7 @@
     "minecraft:mangrove_slab",
     "forest:white_slab",
     "minecraft:oak_slab",
+    "forest:mulberry_slab",
     "forest:light_blue_slab",
     "forest:light_gray_slab",
     "forest:green_slab",
@@ -24,6 +25,7 @@
     "minecraft:dark_oak_slab",
     "minecraft:warped_slab",
     "forest:red_slab",
+    "minecraft:cherry_slab",
     "forest:black_slab",
     "minecraft:crimson_slab",
     "forest:cyan_slab"

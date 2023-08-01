@@ -1,0 +1,11 @@
+{
+  "_fv": 44,
+  "_type": "tab",
+  "definition": {
+    "name": "Mobs",
+    "icon": {
+      "value": "CUSTOM:Racoon.spawn_egg"
+    },
+    "showSearch": false
+  }
+}

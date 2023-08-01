@@ -1,0 +1,33 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Items",
+    "items": [
+      {
+        "value": "CUSTOM:Sandslate"
+      },
+      {
+        "value": "CUSTOM:PolishedSandslate"
+      },
+      {
+        "value": "CUSTOM:Pumice"
+      },
+      {
+        "value": "CUSTOM:Rhyolite"
+      },
+      {
+        "value": "CUSTOM:PolishedRhyolite"
+      },
+      {
+        "value": "CUSTOM:PolishedPumice"
+      }
+    ],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "stone",
+    "namespace": "minecraft"
+  }
+}

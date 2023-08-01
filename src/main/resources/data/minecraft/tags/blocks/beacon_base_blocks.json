@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "forest:sapphire_block",
+    "forest:silver_block"
+  ]
 }
