@@ -318,6 +318,11 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.FIRE_SALAMANDER_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.ORANGE_BUTTERFLY_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.PINK_BUTTERFLY_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.BLUE_BUTTERFLY_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.GREEN_BUTTERFLY_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.PURPLE_BUTTERFLY_SPAWN_EGG.get());
 				})
 
 		);

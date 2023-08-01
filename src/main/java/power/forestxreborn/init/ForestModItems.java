@@ -352,6 +352,11 @@ public class ForestModItems {
 	public static final RegistryObject<Item> POLAR_BEAR_PELT = REGISTRY.register("polar_bear_pelt", () -> new PolarBearPeltItem());
 	public static final RegistryObject<Item> BLACK_MULBERRY = REGISTRY.register("black_mulberry", () -> new BlackMulberryItem());
 	public static final RegistryObject<Item> WHITE_MULBERRY = REGISTRY.register("white_mulberry", () -> new WhiteMulberryItem());
+	public static final RegistryObject<Item> ORANGE_BUTTERFLY_SPAWN_EGG = REGISTRY.register("orange_butterfly_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.ORANGE_BUTTERFLY, -39424, -13421773, new Item.Properties()));
+	public static final RegistryObject<Item> PINK_BUTTERFLY_SPAWN_EGG = REGISTRY.register("pink_butterfly_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.PINK_BUTTERFLY, -26164, -13421773, new Item.Properties()));
+	public static final RegistryObject<Item> BLUE_BUTTERFLY_SPAWN_EGG = REGISTRY.register("blue_butterfly_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.BLUE_BUTTERFLY, -16724737, -13421773, new Item.Properties()));
+	public static final RegistryObject<Item> GREEN_BUTTERFLY_SPAWN_EGG = REGISTRY.register("green_butterfly_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.GREEN_BUTTERFLY, -13382656, -13421773, new Item.Properties()));
+	public static final RegistryObject<Item> PURPLE_BUTTERFLY_SPAWN_EGG = REGISTRY.register("purple_butterfly_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.PURPLE_BUTTERFLY, -3407617, -13421773, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
