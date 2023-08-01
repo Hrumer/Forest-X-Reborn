@@ -1,6 +1,7 @@
 What's new in Forest X Reborn 1.4.0<br />
 Snapshot 1.4.0.230805:
 <br /> - Five types of butterflies have been added
+<br /> - Updated panorama
 <br /> - [Bugfix]
 Snapshot 1.4.0.230801:
 <br /> - Added mulberry tree
