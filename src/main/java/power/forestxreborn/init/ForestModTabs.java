@@ -22,10 +22,6 @@ public class ForestModTabs {
 			tabData.accept(ForestModBlocks.MULBERRY_FENCE_GATE.get().asItem());
 		}
 
-		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
-			tabData.accept(ForestModItems.CALIBRI_SPAWN_EGG.get());
-		}
-
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(ForestModBlocks.MULBERRY_FENCE.get().asItem());
 		}
@@ -285,6 +281,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
 					tabData.accept(ForestModItems.BROWN_BEAR_PELT.get());
 					tabData.accept(ForestModItems.POLAR_BEAR_PELT.get());
+					tabData.accept(ForestModItems.CALIBRI_FEATHER.get());
+					tabData.accept(ForestModItems.DART.get());
 				})
 
 		);
@@ -327,6 +325,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.BLUE_BUTTERFLY_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.GREEN_BUTTERFLY_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.PURPLE_BUTTERFLY_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.CALIBRI_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.VULTURE_SPAWN_EGG.get());
 				})
 
 		);

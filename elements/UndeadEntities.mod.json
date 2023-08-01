@@ -1,0 +1,30 @@
+{
+  "_fv": 44,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "EntityZoglin"
+      },
+      {
+        "value": "EntityZombie"
+      },
+      {
+        "value": "EntityZombieHorse"
+      },
+      {
+        "value": "EntityZombieVillager"
+      },
+      {
+        "value": "EntityPigZombie"
+      }
+    ],
+    "biomes": [],
+    "name": "undead_entities",
+    "namespace": "mod"
+  }
+}

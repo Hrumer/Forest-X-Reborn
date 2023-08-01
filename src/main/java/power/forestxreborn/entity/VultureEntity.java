@@ -10,7 +10,6 @@ import software.bernie.geckolib.core.animation.AnimatableManager;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.animatable.GeoEntity;
 
-import power.forestxreborn.init.ForestModItems;
 import power.forestxreborn.init.ForestModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -22,29 +21,39 @@ import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.monster.ZombifiedPiglin;
+import net.minecraft.world.entity.monster.ZombieVillager;
+import net.minecraft.world.entity.monster.Zombie;
+import net.minecraft.world.entity.monster.Zoglin;
+import net.minecraft.world.entity.animal.horse.ZombieHorse;
+import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
+import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.PanicGoal;
-import net.minecraft.world.entity.ai.goal.FollowMobGoal;
-import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.Goal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
+import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
@@ -53,23 +62,26 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
-public class CalibriEntity extends PathfinderMob implements GeoEntity {
-	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(CalibriEntity.class, EntityDataSerializers.BOOLEAN);
-	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(CalibriEntity.class, EntityDataSerializers.STRING);
-	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(CalibriEntity.class, EntityDataSerializers.STRING);
+import java.util.List;
+import java.util.EnumSet;
+
+public class VultureEntity extends Animal implements GeoEntity {
+	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(VultureEntity.class, EntityDataSerializers.BOOLEAN);
+	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(VultureEntity.class, EntityDataSerializers.STRING);
+	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(VultureEntity.class, EntityDataSerializers.STRING);
 	private final AnimatableInstanceCache cache = GeckoLibUtil.createInstanceCache(this);
 	private boolean swinging;
 	private boolean lastloop;
 	private long lastSwing;
 	public String animationprocedure = "empty";
 
-	public CalibriEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(ForestModEntities.CALIBRI.get(), world);
+	public VultureEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(ForestModEntities.VULTURE.get(), world);
 	}
 
-	public CalibriEntity(EntityType<CalibriEntity> type, Level world) {
+	public VultureEntity(EntityType<VultureEntity> type, Level world) {
 		super(type, world);
-		xpReward = 5;
+		xpReward = 15;
 		setNoAi(false);
 		this.moveControl = new FlyingMoveControl(this, 10, true);
 	}
@@ -79,7 +91,7 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 		super.defineSynchedData();
 		this.entityData.define(SHOOT, false);
 		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "calibri");
+		this.entityData.define(TEXTURE, "vulture");
 	}
 
 	public void setTexture(String texture) {
@@ -103,20 +115,68 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new PanicGoal(this, 1.5));
+		this.goalSelector.addGoal(1, new Goal() {
+			{
+				this.setFlags(EnumSet.of(Goal.Flag.MOVE));
+			}
+
+			public boolean canUse() {
+				if (VultureEntity.this.getTarget() != null && !VultureEntity.this.getMoveControl().hasWanted()) {
+					return true;
+				} else {
+					return false;
+				}
+			}
+
+			@Override
+			public boolean canContinueToUse() {
+				return VultureEntity.this.getMoveControl().hasWanted() && VultureEntity.this.getTarget() != null && VultureEntity.this.getTarget().isAlive();
+			}
+
+			@Override
+			public void start() {
+				LivingEntity livingentity = VultureEntity.this.getTarget();
+				Vec3 vec3d = livingentity.getEyePosition(1);
+				VultureEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 2);
+			}
+
+			@Override
+			public void tick() {
+				LivingEntity livingentity = VultureEntity.this.getTarget();
+				if (VultureEntity.this.getBoundingBox().intersects(livingentity.getBoundingBox())) {
+					VultureEntity.this.doHurtTarget(livingentity);
+				} else {
+					double d0 = VultureEntity.this.distanceToSqr(livingentity);
+					if (d0 < 16) {
+						Vec3 vec3d = livingentity.getEyePosition(1);
+						VultureEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 2);
+					}
+				}
+			}
+		});
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1.2, 20) {
 			@Override
 			protected Vec3 getPosition() {
-				RandomSource random = CalibriEntity.this.getRandom();
-				double dir_x = CalibriEntity.this.getX() + ((random.nextFloat() * 2 - 1) * 16);
-				double dir_y = CalibriEntity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
-				double dir_z = CalibriEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
+				RandomSource random = VultureEntity.this.getRandom();
+				double dir_x = VultureEntity.this.getX() + ((random.nextFloat() * 2 - 1) * 16);
+				double dir_y = VultureEntity.this.getY() + ((random.nextFloat() * 2 - 1) * 16);
+				double dir_z = VultureEntity.this.getZ() + ((random.nextFloat() * 2 - 1) * 16);
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(3, new FollowMobGoal(this, 1.2, (float) 16, (float) 8));
+		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
+			@Override
+			protected double getAttackReachSqr(LivingEntity entity) {
+				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
+			}
+		});
 		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new FloatGoal(this));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Zombie.class, true, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Zoglin.class, true, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, ZombieVillager.class, true, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, ZombifiedPiglin.class, true, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, ZombieHorse.class, true, false));
+		this.goalSelector.addGoal(10, new PanicGoal(this, 1.2));
 	}
 
 	@Override
@@ -124,36 +184,19 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 		return MobType.UNDEFINED;
 	}
 
-	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
-		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(ForestModItems.CALIBRI_FEATHER.get()));
-	}
-
-	@Override
-	public SoundEvent getAmbientSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:calibri.ambient"));
-	}
-
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:calibri.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:calibri.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.generic.death"));
 	}
 
 	@Override
 	public boolean causeFallDamage(float l, float d, DamageSource source) {
 		return false;
-	}
-
-	@Override
-	public boolean hurt(DamageSource source, float amount) {
-		if (source.getDirectEntity() instanceof AbstractArrow)
-			return false;
-		return super.hurt(source, amount);
 	}
 
 	@Override
@@ -165,6 +208,18 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 	@Override
 	public EntityDimensions getDimensions(Pose p_33597_) {
 		return super.getDimensions(p_33597_).scale((float) 1);
+	}
+
+	@Override
+	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
+		VultureEntity retval = ForestModEntities.VULTURE.get().create(serverWorld);
+		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
+		return retval;
+	}
+
+	@Override
+	public boolean isFood(ItemStack stack) {
+		return List.of(Items.ROTTEN_FLESH).contains(stack.getItem());
 	}
 
 	@Override
@@ -184,27 +239,30 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(ForestModEntities.CALIBRI.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(ForestModEntities.VULTURE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
 		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.25);
-		builder = builder.add(Attributes.MAX_HEALTH, 7);
+		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
-		builder = builder.add(Attributes.ATTACK_DAMAGE, 0);
-		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+		builder = builder.add(Attributes.ATTACK_DAMAGE, 2);
+		builder = builder.add(Attributes.FOLLOW_RANGE, 32);
 		builder = builder.add(Attributes.FLYING_SPEED, 0.25);
 		return builder;
 	}
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			if (!this.isOnGround()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.calibri.fly"));
+			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.isOnGround()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulturel.files"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.calibri.sit"));
+			if (!this.isOnGround()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulturel.files"));
+			}
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.model.sitting"));
 		}
 		return PlayState.STOP;
 	}
@@ -241,7 +299,7 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 	protected void tickDeath() {
 		++this.deathTime;
 		if (this.deathTime == 20) {
-			this.remove(CalibriEntity.RemovalReason.KILLED);
+			this.remove(VultureEntity.RemovalReason.KILLED);
 			this.dropExperience();
 		}
 	}

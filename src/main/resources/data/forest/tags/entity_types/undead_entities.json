@@ -1,0 +1,10 @@
+{
+  "replace": false,
+  "values": [
+    "zombie_horse",
+    "zombie",
+    "zombified_piglin",
+    "zombie_villager",
+    "zoglin"
+  ]
+}
