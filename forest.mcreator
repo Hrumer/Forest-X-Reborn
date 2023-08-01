@@ -9916,6 +9916,24 @@
         "files": []
       },
       "path": "~/Paintings"
+    },
+    {
+      "name": "Calibri",
+      "type": "animatedentity",
+      "sortid": 586,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "calibri",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/client/renderer/CalibriRenderer.java",
+          "src/main/java/power/forestxreborn/entity/model/CalibriModel.java",
+          "src/main/resources/assets/forest/models/item/calibri_spawn_egg.json",
+          "src/main/resources/data/forest/forge/biome_modifier/calibri_biome_modifier.json",
+          "src/main/java/power/forestxreborn/entity/CalibriEntity.java"
+        ]
+      },
+      "path": "~/Animals"
     }
   ],
   "variable_elements": [
@@ -9956,13 +9974,29 @@
       ],
       "category": "record",
       "subtitle": ""
+    },
+    {
+      "name": "calibri.hurt",
+      "files": [
+        "calibri.hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "calibri.ambient",
+      "files": [
+        "calibri.ambient"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "item.forest.gingerbread_round": "Пряник",
+      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10015,6 +10049,7 @@
       "block.forest.magenta_planks": "Пурпурные доски",
       "block.forest.blue_fence_gate": "Синяя калитка",
       "block.forest.green_planks": "Зелёные доски",
+      "subtitles.calibri.ambient": "",
       "block.forest.magenta_fence": "Пурпурный забор",
       "block.forest.brown_bear_carpet": "Ковер из шкуры бурого медведя",
       "block.forest.polished_sandslate": "Полированнный песчаный сланец",
@@ -10035,6 +10070,7 @@
       "block.forest.stripped_eucalyptus_log": "Обтёсанное бревно эвкалипта",
       "item.forest.silver_armor_boots": "Серебряные ботинки",
       "advancements.robin_hood_is_back.descr": "Создайте колчан и положите туда стрелы",
+      "item.forest.calibri_spawn_egg": "Calibri Spawn Egg",
       "block.forest.lime_fence": "Лаймовый забор",
       "block.forest.polished_marble_slab": "Плита из полированного мрамора",
       "item.forest.brown_bear_pelt": "Шкура бурого медведя",
@@ -10064,8 +10100,10 @@
       "block.forest.polished_marble": "Полированный мрамор",
       "block.forest.mangrove_parquet": "Мангровый паркет",
       "entity.forest.snail": "Улитка",
+      "entity.forest.calibri": "Calibri",
       "block.forest.pumice": "Пемза",
       "block.forest.sandslate": "Песчаный сланец",
+      "subtitles.calibri.hurt": "",
       "item.forest.gingerbread_brick": "Пряник",
       "block.forest.pumice_bricks_slab": "Плита из кирпичей пемзы",
       "item_group.forest.mobs": "Мобы",
@@ -10315,8 +10353,8 @@
     },
     "en_us": {
       "item.forest.polar_bear_armor_helmet": "Brown Bear Armor Helmet",
-      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.gingerbread_bricks": "Gingerbread Bricks",
+      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.white_planks": "White Planks",
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
@@ -10369,6 +10407,7 @@
       "block.forest.magenta_planks": "Magenta Planks",
       "block.forest.blue_fence_gate": "Blue Fence Gate",
       "block.forest.green_planks": "Green Planks",
+      "subtitles.calibri.ambient": "",
       "block.forest.magenta_fence": "Magenta Fence",
       "block.forest.brown_bear_carpet": "Brown Bear Carpet",
       "block.forest.polished_sandslate": "Polished Sandslate",
@@ -10389,6 +10428,7 @@
       "block.forest.stripped_eucalyptus_log": "Stripped Eucalyptus Log",
       "item.forest.silver_armor_boots": "Silver Boots",
       "advancements.robin_hood_is_back.descr": "Create a quiver and put arrows there",
+      "item.forest.calibri_spawn_egg": "Calibri Spawn Egg",
       "block.forest.lime_fence": "Lime Fence",
       "block.forest.polished_marble_slab": "Polished Marble Slab",
       "item.forest.brown_bear_pelt": "Brown Bear Pelt",
@@ -10418,8 +10458,10 @@
       "block.forest.polished_marble": "Polished Marble",
       "block.forest.mangrove_parquet": "Mangrove Parquet",
       "entity.forest.snail": "Snail",
+      "entity.forest.calibri": "Calibri",
       "block.forest.pumice": "Pumice",
       "block.forest.sandslate": "Sandslate",
+      "subtitles.calibri.hurt": "",
       "item.forest.gingerbread_brick": "Gingerbread",
       "block.forest.pumice_bricks_slab": "Pumice Bricks Slab",
       "item_group.forest.mobs": "Mobs",
@@ -10845,6 +10887,10 @@
       },
       {
         "name": "Mulberry Wood Set",
+        "children": []
+      },
+      {
+        "name": "Sarbakan",
         "children": []
       }
     ]

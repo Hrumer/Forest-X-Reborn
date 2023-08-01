@@ -22,5 +22,21 @@
         "stream": true
       }
     ]
+  },
+  "calibri.hurt": {
+    "sounds": [
+      {
+        "name": "forest:calibri.hurt",
+        "stream": false
+      }
+    ]
+  },
+  "calibri.ambient": {
+    "sounds": [
+      {
+        "name": "forest:calibri.ambient",
+        "stream": false
+      }
+    ]
   }
 }

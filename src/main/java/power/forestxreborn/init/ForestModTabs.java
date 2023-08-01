@@ -22,6 +22,10 @@ public class ForestModTabs {
 			tabData.accept(ForestModBlocks.MULBERRY_FENCE_GATE.get().asItem());
 		}
 
+		if (tabData.getTab() == CreativeModeTabs.SPAWN_EGGS) {
+			tabData.accept(ForestModItems.CALIBRI_SPAWN_EGG.get());
+		}
+
 		if (tabData.getTab() == CreativeModeTabs.NATURAL_BLOCKS) {
 			tabData.accept(ForestModBlocks.MULBERRY_FENCE.get().asItem());
 		}

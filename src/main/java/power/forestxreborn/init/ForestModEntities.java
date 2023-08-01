@@ -12,6 +12,7 @@ import power.forestxreborn.entity.OrangeButterflyEntity;
 import power.forestxreborn.entity.GreenButterflyEntity;
 import power.forestxreborn.entity.FireSalamanderEntity;
 import power.forestxreborn.entity.FennecEntity;
+import power.forestxreborn.entity.CalibriEntity;
 import power.forestxreborn.entity.BrownBearEntity;
 import power.forestxreborn.entity.BlueButterflyEntity;
 import power.forestxreborn.ForestMod;
@@ -69,6 +70,10 @@ public class ForestModEntities {
 			EntityType.Builder.<PurpleButterflyEntity>of(PurpleButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PurpleButterflyEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<CalibriEntity>> CALIBRI = register("calibri",
+			EntityType.Builder.<CalibriEntity>of(CalibriEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CalibriEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -87,6 +92,7 @@ public class ForestModEntities {
 			BlueButterflyEntity.init();
 			GreenButterflyEntity.init();
 			PurpleButterflyEntity.init();
+			CalibriEntity.init();
 		});
 	}
 
@@ -102,5 +108,6 @@ public class ForestModEntities {
 		event.put(BLUE_BUTTERFLY.get(), BlueButterflyEntity.createAttributes().build());
 		event.put(GREEN_BUTTERFLY.get(), GreenButterflyEntity.createAttributes().build());
 		event.put(PURPLE_BUTTERFLY.get(), PurpleButterflyEntity.createAttributes().build());
+		event.put(CALIBRI.get(), CalibriEntity.createAttributes().build());
 	}
 }

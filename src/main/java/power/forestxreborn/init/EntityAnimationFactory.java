@@ -7,6 +7,7 @@ import power.forestxreborn.entity.OrangeButterflyEntity;
 import power.forestxreborn.entity.GreenButterflyEntity;
 import power.forestxreborn.entity.FireSalamanderEntity;
 import power.forestxreborn.entity.FennecEntity;
+import power.forestxreborn.entity.CalibriEntity;
 import power.forestxreborn.entity.BrownBearEntity;
 import power.forestxreborn.entity.BlueButterflyEntity;
 
@@ -76,6 +77,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof PurpleButterflyEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof CalibriEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
