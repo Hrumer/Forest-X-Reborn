@@ -42,17 +42,5 @@ public class MulberryLeavesWithWhitePriShchielchkiePKMPoBlokuProcedure {
 			entityToSpawn.setUnlimitedLifetime();
 			_level.addFreshEntity(entityToSpawn);
 		}
-		if (world instanceof ServerLevel _level) {
-			ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(ForestModItems.WHITE_MULBERRY.get()));
-			entityToSpawn.setPickUpDelay(1);
-			entityToSpawn.setUnlimitedLifetime();
-			_level.addFreshEntity(entityToSpawn);
-		}
-		if (world instanceof ServerLevel _level) {
-			ItemEntity entityToSpawn = new ItemEntity(_level, x, y, z, new ItemStack(ForestModItems.WHITE_MULBERRY.get()));
-			entityToSpawn.setPickUpDelay(1);
-			entityToSpawn.setUnlimitedLifetime();
-			_level.addFreshEntity(entityToSpawn);
-		}
 	}
 }

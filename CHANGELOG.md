@@ -8,7 +8,7 @@ Snapshot 1.4.0.230805:
 <br /> - Added new painting - Pig in mood
 <br /> - Blueberries no longer appear in the ordinary forest
 <br /> - Updated panorama
-<br /> - [Bugfix]
+<br /> - [Bugfix] Fixed mulberry leaves loot
 Snapshot 1.4.0.230801:
 <br /> - Added mulberry tree
 <br /> - Mulberry can be found in the old growth forest and flower forest
