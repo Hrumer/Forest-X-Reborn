@@ -22,6 +22,7 @@ import power.forestxreborn.item.RawGingerbreadHeartItem;
 import power.forestxreborn.item.RawGingerbreadCockItem;
 import power.forestxreborn.item.RawGingerbreadBrickItem;
 import power.forestxreborn.item.RawBarbecueItem;
+import power.forestxreborn.item.RaspberryItem;
 import power.forestxreborn.item.QuiverItem;
 import power.forestxreborn.item.PolarBearPeltItem;
 import power.forestxreborn.item.PolarBearArmorItem;
@@ -363,6 +364,11 @@ public class ForestModItems {
 	public static final RegistryObject<Item> CALIBRI_FEATHER = REGISTRY.register("calibri_feather", () -> new CalibriFeatherItem());
 	public static final RegistryObject<Item> DART = REGISTRY.register("dart", () -> new DartItem());
 	public static final RegistryObject<Item> VULTURE_SPAWN_EGG = REGISTRY.register("vulture_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.VULTURE, -10079488, -6750157, new Item.Properties()));
+	public static final RegistryObject<Item> RASPBERRY = REGISTRY.register("raspberry", () -> new RaspberryItem());
+	public static final RegistryObject<Item> RASPBERRY_BUSH_0 = block(ForestModBlocks.RASPBERRY_BUSH_0);
+	public static final RegistryObject<Item> RASPBERRY_BUSH_1 = block(ForestModBlocks.RASPBERRY_BUSH_1);
+	public static final RegistryObject<Item> RASPBERRY_BUSH_2 = block(ForestModBlocks.RASPBERRY_BUSH_2);
+	public static final RegistryObject<Item> RASPBERRY_BUSH_3 = block(ForestModBlocks.RASPBERRY_BUSH_3);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

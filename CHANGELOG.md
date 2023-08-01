@@ -3,7 +3,10 @@ Snapshot 1.4.0.230805:
 <br /> - Five types of butterflies have been added
 <br /> - Added calibri and calibri feather
 <br /> - Added vulture
+<br /> - Added raspberry
+<br /> - Brown bears are now reacting to raspberries
 <br /> - Added new painting - Pig in mood
+<br /> - Blueberries no longer appear in the ordinary forest
 <br /> - Updated panorama
 <br /> - [Bugfix]
 Snapshot 1.4.0.230801:

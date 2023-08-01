@@ -1972,7 +1972,7 @@
           "src/main/resources/assets/forest/models/item/blueberry.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Blueberry"
     },
     {
       "name": "BlueberryBush0",
@@ -1989,7 +1989,7 @@
           "src/main/java/power/forestxreborn/block/BlueberryBush0Block.java"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Blueberry"
     },
     {
       "name": "BlueberryBush1",
@@ -2006,7 +2006,7 @@
           "src/main/java/power/forestxreborn/block/BlueberryBush1Block.java"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Blueberry"
     },
     {
       "name": "BlueberryBush0ObnovitTakt",
@@ -2038,7 +2038,7 @@
           }
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Blueberry"
     },
     {
       "name": "BlueberryPriShchielchkiePravoiKnopkoiMyshiNaBlokie",
@@ -2070,7 +2070,7 @@
           }
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Blueberry"
     },
     {
       "name": "BlueberryBush1NaBlokieNazhataPravaiaKnopkaMyshi",
@@ -2102,7 +2102,7 @@
           }
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Blueberry"
     },
     {
       "name": "PolishedPumice",
@@ -2151,7 +2151,7 @@
           "src/main/resources/assets/forest/models/item/lettuce_seed.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "Lettuce",
@@ -2166,7 +2166,7 @@
           "src/main/resources/assets/forest/models/item/lettuce.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "LettuceSeedPriNazhatiiPravoiKnopkoiMyshi",
@@ -2202,7 +2202,7 @@
           }
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "LettuceStage0",
@@ -2219,7 +2219,7 @@
           "src/main/resources/assets/forest/models/block/lettuce_stage_0.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "LettuceStage1",
@@ -2236,7 +2236,7 @@
           "src/main/resources/assets/forest/blockstates/lettuce_stage_1.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "LettuceStage2",
@@ -2253,7 +2253,7 @@
           "src/main/resources/assets/forest/blockstates/lettuce_stage_2.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "LettuceStage3",
@@ -2270,7 +2270,7 @@
           "src/main/resources/assets/forest/models/item/lettuce_stage_3.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "LettuceStage0ObnovitTakt",
@@ -2302,7 +2302,7 @@
           }
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "LettuceStage1ObnovitTakt",
@@ -2334,7 +2334,7 @@
           }
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "LettuceStage2ObnovitTakt",
@@ -2366,7 +2366,7 @@
           }
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "LettuceStage3Table",
@@ -2380,7 +2380,7 @@
           "src/main/resources/data/forest/loot_tables/blocks/lettuce_stage_3.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Lettuce"
     },
     {
       "name": "PolishedSandslate",
@@ -2611,7 +2611,7 @@
           "src/main/resources/data/forest/worldgen/placed_feature/blueberries_bush_feature.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Blueberry"
     },
     {
       "name": "BlueberriesBushFeatureAdditionalGenerationCondition",
@@ -2644,7 +2644,7 @@
           }
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Harvest/Blueberry"
     },
     {
       "name": "RawBarbecueCraft",
@@ -9452,7 +9452,7 @@
           "src/main/resources/assets/forest/models/item/black_mulberry.json"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Mulberry Wood Set"
     },
     {
       "name": "WhiteMulberry",
@@ -9467,7 +9467,7 @@
           "src/main/java/power/forestxreborn/item/WhiteMulberryItem.java"
         ]
       },
-      "path": "~/Harvest"
+      "path": "~/Mulberry Wood Set"
     },
     {
       "name": "Clothes",
@@ -10016,6 +10016,266 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "Raspberry",
+      "type": "item",
+      "sortid": 592,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/item/RaspberryItem.java",
+          "src/main/resources/assets/forest/models/item/raspberry.json"
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberryBush0",
+      "type": "block",
+      "sortid": 593,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_bush_0",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/block/RaspberryBush0Block.java",
+          "src/main/resources/assets/forest/models/item/raspberry_bush_0.json",
+          "src/main/resources/assets/forest/models/block/raspberry_bush_0.json",
+          "src/main/resources/assets/forest/blockstates/raspberry_bush_0.json"
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberryPriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 594,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/RaspberryPriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberryBush0ObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 595,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_bush_0_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/RaspberryBush0ObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberryBush1",
+      "type": "block",
+      "sortid": 596,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_bush_1",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/raspberry_bush_1.json",
+          "src/main/resources/assets/forest/blockstates/raspberry_bush_1.json",
+          "src/main/resources/assets/forest/models/block/raspberry_bush_1.json",
+          "src/main/java/power/forestxreborn/block/RaspberryBush1Block.java"
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberryBush2",
+      "type": "block",
+      "sortid": 597,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_bush_2",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/block/raspberry_bush_2.json",
+          "src/main/java/power/forestxreborn/block/RaspberryBush2Block.java",
+          "src/main/resources/assets/forest/blockstates/raspberry_bush_2.json",
+          "src/main/resources/assets/forest/models/item/raspberry_bush_2.json"
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberryBush3",
+      "type": "block",
+      "sortid": 598,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_bush_3",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/block/RaspberryBush3Block.java",
+          "src/main/resources/assets/forest/models/item/raspberry_bush_3.json",
+          "src/main/resources/assets/forest/models/block/raspberry_bush_3.json",
+          "src/main/resources/assets/forest/blockstates/raspberry_bush_3.json"
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberryBush1ObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 599,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_bush_1_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/RaspberryBush1ObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberryBush2PriIspolzovaniiKostnoiMuki",
+      "type": "procedure",
+      "sortid": 600,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_bush_2_pri_ispolzovanii_kostnoi_muki",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/RaspberryBush2PriIspolzovaniiKostnoiMukiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberryBush3PriShchielchkiePKMPoBloku",
+      "type": "procedure",
+      "sortid": 601,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberry_bush_3_pri_shchielchkie_pkm_po_bloku",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/RaspberryBush3PriShchielchkiePKMPoBlokuProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
+    },
+    {
+      "name": "RaspberriesBushFeature",
+      "type": "feature",
+      "sortid": 602,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "raspberries_bush_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/placed_feature/raspberries_bush_feature.json",
+          "src/main/resources/data/forest/forge/biome_modifier/raspberries_bush_feature_biome_modifier.json",
+          "src/main/java/power/forestxreborn/world/features/RaspberriesBushFeatureFeature.java",
+          "src/main/resources/data/forest/worldgen/configured_feature/raspberries_bush_feature.json"
+        ]
+      },
+      "path": "~/Harvest/Raspberry"
     }
   ],
   "variable_elements": [
@@ -10077,8 +10337,8 @@
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
+      "item.forest.gingerbread_round": "Пряник",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10179,9 +10439,12 @@
       "subtitles.lizard.ambient": "",
       "block.forest.mulberry_fence": "Забор из шелковицы",
       "item.forest.pink_butterfly_spawn_egg": "Яйцо призыва розовой бабочки",
+      "block.forest.raspberry_bush_1": "Blueberry Bush 0",
       "advancements.out_of_the_fire_and_into_the_flames.title": "Из огня да в полымя",
       "desc.gingerbread_heart": "Сердце",
+      "block.forest.raspberry_bush_0": "Blueberry Bush 0",
       "block.forest.polished_marble": "Полированный мрамор",
+      "item.forest.raspberry": "Малина",
       "block.forest.mangrove_parquet": "Мангровый паркет",
       "entity.forest.snail": "Улитка",
       "entity.forest.calibri": "Калибри",
@@ -10357,6 +10620,8 @@
       "block.forest.cobbled_sandslate": "Дробленный песчаный сланец",
       "block.forest.gray_fence_gate": "Серая калитка",
       "block.forest.orange_fence_gate": "Оранжевая калитка",
+      "block.forest.raspberry_bush_3": "Blueberry Bush 0",
+      "block.forest.raspberry_bush_2": "Blueberry Bush 0",
       "item.forest.dart": "Dart",
       "block.forest.brown_planks": "Коричневые доски",
       "block.forest.rhyolite": "Риолит",
@@ -10541,9 +10806,12 @@
       "subtitles.lizard.ambient": "",
       "block.forest.mulberry_fence": "Mulberry Fence",
       "item.forest.pink_butterfly_spawn_egg": "Pink Butterfly Spawn Egg",
+      "block.forest.raspberry_bush_1": "Blueberry Bush 0",
       "advancements.out_of_the_fire_and_into_the_flames.title": "Out of the fire and into the flames",
       "desc.gingerbread_heart": "Heart",
+      "block.forest.raspberry_bush_0": "Blueberry Bush 0",
       "block.forest.polished_marble": "Polished Marble",
+      "item.forest.raspberry": "Raspberry",
       "block.forest.mangrove_parquet": "Mangrove Parquet",
       "entity.forest.snail": "Snail",
       "entity.forest.calibri": "Calibri",
@@ -10719,6 +10987,8 @@
       "block.forest.cobbled_sandslate": "Cobbled Sandslate",
       "block.forest.gray_fence_gate": "Gray Fence Gate",
       "block.forest.orange_fence_gate": "Orange Fence Gate",
+      "block.forest.raspberry_bush_3": "Blueberry Bush 0",
+      "block.forest.raspberry_bush_2": "Blueberry Bush 0",
       "item.forest.dart": "Dart",
       "block.forest.brown_planks": "Brown Planks",
       "block.forest.rhyolite": "Rhyolite",
@@ -10860,6 +11130,18 @@
         "children": [
           {
             "name": "Grape",
+            "children": []
+          },
+          {
+            "name": "Blueberry",
+            "children": []
+          },
+          {
+            "name": "Lettuce",
+            "children": []
+          },
+          {
+            "name": "Raspberry",
             "children": []
           }
         ]

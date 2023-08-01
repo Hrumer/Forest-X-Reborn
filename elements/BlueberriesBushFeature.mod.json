@@ -11,7 +11,13 @@
         "value": "taiga"
       },
       {
-        "value": "forest"
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "taiga_cold"
       }
     ],
     "generateCondition": {
