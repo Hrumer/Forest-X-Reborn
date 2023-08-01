@@ -4,11 +4,7 @@
  */
 package power.forestxreborn.init;
 
-import power.forestxreborn.client.renderer.SnailRenderer;
 import power.forestxreborn.client.renderer.RacoonRenderer;
-import power.forestxreborn.client.renderer.FireSalamanderRenderer;
-import power.forestxreborn.client.renderer.FennecRenderer;
-import power.forestxreborn.client.renderer.BrownBearRenderer;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
