@@ -10300,7 +10300,7 @@
       "registry_name": "mulberry_leaves_without_black_loot",
       "metadata": {
         "files": [
-          "src/main/resources/data/forest/loot_tables/mulberry_leaves_without_black_loot.json"
+          "src/main/resources/data/forest/loot_tables/mulberry_leaves_without_black.json"
         ]
       },
       "path": "~/Mulberry Wood Set"
@@ -11334,5 +11334,5 @@
     "modElementsPackage": "power.forestxreborn",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300330420
+  "mcreatorVersion": 202300331317
 }
