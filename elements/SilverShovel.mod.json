@@ -1,12 +1,10 @@
 {
-  "_fv": 44,
+  "_fv": 45,
   "_type": "tool",
   "definition": {
     "renderType": 0,
-    "blockingRenderType": 0,
     "texture": "silver_shovel",
     "customModelName": "Normal",
-    "blockingModelName": "Normal blocking",
     "name": "Silver Shovel",
     "specialInformation": {
       "fixedValue": ""
