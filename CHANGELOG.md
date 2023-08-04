@@ -9,6 +9,7 @@ Snapshot 1.4.0.230805:
 <br /> - Blueberries no longer appear in the ordinary forest
 <br /> - Updated panorama
 <br /> - [Bugfix] Fixed mulberry leaves loot
+<br /> - [Bugfix] Fixed a bug with blueberries that were not consumed during planting
 Snapshot 1.4.0.230801:
 <br /> - Added mulberry tree
 <br /> - Mulberry can be found in the old growth forest and flower forest
