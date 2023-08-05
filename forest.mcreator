@@ -10371,6 +10371,24 @@
         ]
       },
       "path": "~/Sarbakan"
+    },
+    {
+      "name": "Rat",
+      "type": "animatedentity",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rat",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/entity/RatEntity.java",
+          "src/main/java/power/forestxreborn/entity/model/RatModel.java",
+          "src/main/java/power/forestxreborn/client/renderer/RatRenderer.java",
+          "src/main/resources/assets/forest/models/item/rat_spawn_egg.json",
+          "src/main/resources/data/forest/forge/biome_modifier/rat_biome_modifier.json"
+        ]
+      },
+      "path": "~/Animals"
     }
   ],
   "variable_elements": [
@@ -10427,13 +10445,29 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "rat.ambient",
+      "files": [
+        "rat.ambient"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rat.hurt",
+      "files": [
+        "rat.hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
+      "item.forest.gingerbread_round": "Пряник",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10620,11 +10654,13 @@
       "block.forest.pink_stairs": "Розовые ступени",
       "item_group.forest.ores": "Руда",
       "block.forest.mulberry_fence_gate": "Калитка из шелковицы",
+      "entity.forest.rat": "Крыса",
       "block.forest.truncated_pumice": "Усеченная пемза",
       "item_group.forest.clothes": "Одежда",
       "entity.forest.fire_salamander": "Огненная саламандра",
       "item_group.forest.music_discs": "Пластинки",
       "item.forest.wine": "Вино",
+      "subtitles.rat.hurt": "",
       "block.forest.black_planks": "Чёрные доски",
       "block.forest.eucalyptus_fence_gate": "Калитка из эвкалиптовых досок",
       "block.forest.eucalyptus_fence": "Забор из эвкалиптовых досок",
@@ -10651,6 +10687,7 @@
       "block.forest.yellow_stairs": "Жёлтые ступени",
       "biome.forest.volcano": "Вулкан",
       "item.forest.snail_spawn_egg": "Яйцо призыва улитки",
+      "subtitles.rat.ambient": "",
       "item.forest.sarbakan": "Духовая трубка",
       "item.forest.music_disc_strofa": "Пластинка",
       "block.forest.rhyolite_slab": "Плита из риолита",
@@ -10700,6 +10737,7 @@
       "block.forest.mulberry_parquet": "Паркет из шелковицы",
       "biome.forest.semidesert": "Полупустыня",
       "block.forest.spruce_parquet": "Еловый паркет",
+      "item.forest.rat_spawn_egg": "Яйцо призыва крысы",
       "block.forest.green_slab": "Зелёная плита",
       "block.forest.eucalyptus_pressure_plate": "Нажимная плита из эвкалипта",
       "item_group.forest.food": "Еда",
@@ -10988,11 +11026,13 @@
       "block.forest.pink_stairs": "Pink Stairs",
       "item_group.forest.ores": "Ores",
       "block.forest.mulberry_fence_gate": "Mulberry Fence Gate",
+      "entity.forest.rat": "Rat",
       "block.forest.truncated_pumice": "Truncated Pumice",
       "item_group.forest.clothes": "Clothes",
       "entity.forest.fire_salamander": "Fire Salamander",
       "item_group.forest.music_discs": "Music Discs",
       "item.forest.wine": "Wine",
+      "subtitles.rat.hurt": "",
       "block.forest.black_planks": "Black Planks",
       "block.forest.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
       "block.forest.eucalyptus_fence": "Eucalyptus Fence",
@@ -11019,6 +11059,7 @@
       "block.forest.yellow_stairs": "Yellow Stairs",
       "biome.forest.volcano": "Volcano",
       "item.forest.snail_spawn_egg": "Snail Spawn Egg",
+      "subtitles.rat.ambient": "",
       "item.forest.sarbakan": "Sarbakan",
       "item.forest.music_disc_strofa": "Music Disc",
       "block.forest.rhyolite_slab": "Rhyolite Slab",
@@ -11068,6 +11109,7 @@
       "block.forest.mulberry_parquet": "Mulberry Parquet",
       "biome.forest.semidesert": "Semidesert",
       "block.forest.spruce_parquet": "Spruce Parquet",
+      "item.forest.rat_spawn_egg": "Rat Spawn Egg",
       "block.forest.green_slab": "Green Slab",
       "block.forest.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
       "item_group.forest.food": "Food",

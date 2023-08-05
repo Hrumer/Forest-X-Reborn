@@ -7,6 +7,7 @@ package power.forestxreborn.init;
 import power.forestxreborn.entity.VultureEntity;
 import power.forestxreborn.entity.SnailEntity;
 import power.forestxreborn.entity.SarbakanEntity;
+import power.forestxreborn.entity.RatEntity;
 import power.forestxreborn.entity.RacoonEntity;
 import power.forestxreborn.entity.PurpleButterflyEntity;
 import power.forestxreborn.entity.PinkButterflyEntity;
@@ -82,6 +83,10 @@ public class ForestModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SarbakanEntity>> SARBAKAN = register("projectile_sarbakan",
 			EntityType.Builder.<SarbakanEntity>of(SarbakanEntity::new, MobCategory.MISC).setCustomClientFactory(SarbakanEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<RatEntity>> RAT = register("rat",
+			EntityType.Builder.<RatEntity>of(RatEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RatEntity::new)
+
+					.sized(0.6f, 1f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -102,6 +107,7 @@ public class ForestModEntities {
 			PurpleButterflyEntity.init();
 			CalibriEntity.init();
 			VultureEntity.init();
+			RatEntity.init();
 		});
 	}
 
@@ -119,5 +125,6 @@ public class ForestModEntities {
 		event.put(PURPLE_BUTTERFLY.get(), PurpleButterflyEntity.createAttributes().build());
 		event.put(CALIBRI.get(), CalibriEntity.createAttributes().build());
 		event.put(VULTURE.get(), VultureEntity.createAttributes().build());
+		event.put(RAT.get(), RatEntity.createAttributes().build());
 	}
 }

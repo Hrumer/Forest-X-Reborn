@@ -2,6 +2,7 @@ package power.forestxreborn.init;
 
 import power.forestxreborn.entity.VultureEntity;
 import power.forestxreborn.entity.SnailEntity;
+import power.forestxreborn.entity.RatEntity;
 import power.forestxreborn.entity.PurpleButterflyEntity;
 import power.forestxreborn.entity.PinkButterflyEntity;
 import power.forestxreborn.entity.OrangeButterflyEntity;
@@ -92,6 +93,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof VultureEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof RatEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

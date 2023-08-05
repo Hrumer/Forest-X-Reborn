@@ -329,6 +329,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.PURPLE_BUTTERFLY_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.CALIBRI_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.VULTURE_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.RAT_SPAWN_EGG.get());
 				})
 
 		);

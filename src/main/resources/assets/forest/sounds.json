@@ -38,5 +38,21 @@
         "stream": false
       }
     ]
+  },
+  "rat.ambient": {
+    "sounds": [
+      {
+        "name": "forest:rat.ambient",
+        "stream": false
+      }
+    ]
+  },
+  "rat.hurt": {
+    "sounds": [
+      {
+        "name": "forest:rat.hurt",
+        "stream": false
+      }
+    ]
   }
 }

@@ -20,4 +20,6 @@ public class ForestModSounds {
 	public static final RegistryObject<SoundEvent> RECORD_STROFA = REGISTRY.register("record.strofa", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "record.strofa")));
 	public static final RegistryObject<SoundEvent> CALIBRI_HURT = REGISTRY.register("calibri.hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "calibri.hurt")));
 	public static final RegistryObject<SoundEvent> CALIBRI_AMBIENT = REGISTRY.register("calibri.ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "calibri.ambient")));
+	public static final RegistryObject<SoundEvent> RAT_AMBIENT = REGISTRY.register("rat.ambient", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "rat.ambient")));
+	public static final RegistryObject<SoundEvent> RAT_HURT = REGISTRY.register("rat.hurt", () -> SoundEvent.createVariableRangeEvent(new ResourceLocation("forest", "rat.hurt")));
 }
