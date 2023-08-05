@@ -1,5 +1,6 @@
 What's new in Forest X Reborn 1.4.0<br />
 Snapshot 1.4.0.230808:
+<br /> - Added rat
 <br /> - Added sarbakan
 <br /> - [Bugfix] 
 Snapshot 1.4.0.230805:
