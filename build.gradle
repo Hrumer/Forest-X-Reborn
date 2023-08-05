@@ -11,7 +11,7 @@ buildscript {
 apply plugin: 'net.minecraftforge.gradle'
 apply plugin: 'eclipse'
 
-version = '1.4.0.230801'
+version = '1.4.0.230805'
 group = 'com.yourname.modid'
 archivesBaseName = 'Forest-X-Reborn'
 

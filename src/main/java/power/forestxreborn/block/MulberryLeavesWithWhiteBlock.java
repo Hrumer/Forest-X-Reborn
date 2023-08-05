@@ -2,6 +2,7 @@
 package power.forestxreborn.block;
 
 import power.forestxreborn.procedures.MulberryLeavesWithWhitePriShchielchkiePKMPoBlokuProcedure;
+import power.forestxreborn.init.ForestModItems;
 
 import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootContext;
@@ -49,7 +50,7 @@ public class MulberryLeavesWithWhiteBlock extends LeavesBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
+		return Collections.singletonList(new ItemStack(ForestModItems.WHITE_MULBERRY.get()));
 	}
 
 	@Override

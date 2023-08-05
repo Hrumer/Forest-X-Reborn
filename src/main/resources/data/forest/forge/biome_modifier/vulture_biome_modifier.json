@@ -1,0 +1,14 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "badlands",
+    "wooded_badlands",
+    "eroded_badlands"
+  ],
+  "spawners": {
+    "type": "forest:vulture",
+    "weight": 10,
+    "minCount": 1,
+    "maxCount": 3
+  }
+}

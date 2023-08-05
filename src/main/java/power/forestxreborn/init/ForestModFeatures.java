@@ -21,6 +21,7 @@ import power.forestxreborn.world.features.StoneVolcanoDeltaFeature;
 import power.forestxreborn.world.features.StonePatchFeature;
 import power.forestxreborn.world.features.SemidesertPatchFeature;
 import power.forestxreborn.world.features.RedMushroomsFeatureFeature;
+import power.forestxreborn.world.features.RaspberriesBushFeatureFeature;
 import power.forestxreborn.world.features.PumicePatchFeature;
 import power.forestxreborn.world.features.PeatbogLakesFeature;
 import power.forestxreborn.world.features.ObsidianPatchFeature;
@@ -74,4 +75,5 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> GRAPEVINE_LOG = REGISTRY.register("grapevine_log", GrapevineLogFeature::new);
 	public static final RegistryObject<Feature<?>> WHITE_MULBERRY_TREE = REGISTRY.register("white_mulberry_tree", WhiteMulberryTreeFeature::new);
 	public static final RegistryObject<Feature<?>> BLACK_MULBERRY_TREE = REGISTRY.register("black_mulberry_tree", BlackMulberryTreeFeature::new);
+	public static final RegistryObject<Feature<?>> RASPBERRIES_BUSH_FEATURE = REGISTRY.register("raspberries_bush_feature", RaspberriesBushFeatureFeature::new);
 }

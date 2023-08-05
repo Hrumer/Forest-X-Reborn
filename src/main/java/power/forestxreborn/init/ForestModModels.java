@@ -4,6 +4,7 @@
  */
 package power.forestxreborn.init;
 
+import power.forestxreborn.client.model.Modeldart;
 import power.forestxreborn.client.model.Modelbear_armor;
 import power.forestxreborn.client.model.ModelRacoonModel;
 
@@ -17,6 +18,7 @@ public class ForestModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(ModelRacoonModel.LAYER_LOCATION, ModelRacoonModel::createBodyLayer);
+		event.registerLayerDefinition(Modeldart.LAYER_LOCATION, Modeldart::createBodyLayer);
 		event.registerLayerDefinition(Modelbear_armor.LAYER_LOCATION, Modelbear_armor::createBodyLayer);
 	}
 }

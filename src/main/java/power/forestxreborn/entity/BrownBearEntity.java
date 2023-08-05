@@ -10,6 +10,7 @@ import software.bernie.geckolib.core.animation.AnimatableManager;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.animatable.GeoEntity;
 
+import power.forestxreborn.init.ForestModItems;
 import power.forestxreborn.init.ForestModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -107,24 +108,25 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new TemptGoal(this, 1, Ingredient.of(Items.HONEYCOMB), false));
-		this.goalSelector.addGoal(2, new TemptGoal(this, 1, Ingredient.of(Items.SALMON), false));
-		this.goalSelector.addGoal(3, new TemptGoal(this, 1, Ingredient.of(Items.COD), false));
-		this.goalSelector.addGoal(4, new FollowParentGoal(this, 0.8));
-		this.goalSelector.addGoal(5, new BreedGoal(this, 1));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Player.class, false, true));
-		this.goalSelector.addGoal(7, new MeleeAttackGoal(this, 0.65, false) {
+		this.goalSelector.addGoal(1, new TemptGoal(this, 1, Ingredient.of(ForestModItems.RASPBERRY.get()), false));
+		this.goalSelector.addGoal(2, new TemptGoal(this, 1, Ingredient.of(Items.HONEYCOMB), false));
+		this.goalSelector.addGoal(3, new TemptGoal(this, 1, Ingredient.of(Items.SALMON), false));
+		this.goalSelector.addGoal(4, new TemptGoal(this, 1, Ingredient.of(Items.COD), false));
+		this.goalSelector.addGoal(5, new FollowParentGoal(this, 0.8));
+		this.goalSelector.addGoal(6, new BreedGoal(this, 1));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Player.class, false, true));
+		this.goalSelector.addGoal(8, new MeleeAttackGoal(this, 0.65, false) {
 			@Override
 			protected double getAttackReachSqr(LivingEntity entity) {
 				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
 			}
 		});
-		this.targetSelector.addGoal(8, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(9, new LookAtPlayerGoal(this, Animal.class, (float) 16));
-		this.goalSelector.addGoal(10, new RemoveBlockGoal(Blocks.BEEHIVE, this, 1.5, (int) 10));
-		this.goalSelector.addGoal(11, new RandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(12, new FloatGoal(this));
-		this.goalSelector.addGoal(13, new RandomLookAroundGoal(this));
+		this.targetSelector.addGoal(9, new HurtByTargetGoal(this));
+		this.goalSelector.addGoal(10, new LookAtPlayerGoal(this, Animal.class, (float) 16));
+		this.goalSelector.addGoal(11, new RemoveBlockGoal(Blocks.BEEHIVE, this, 1.5, (int) 10));
+		this.goalSelector.addGoal(12, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(13, new FloatGoal(this));
+		this.goalSelector.addGoal(14, new RandomLookAroundGoal(this));
 	}
 
 	@Override
@@ -177,7 +179,7 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(Items.HONEYCOMB, Items.COD, Items.SALMON).contains(stack.getItem());
+		return List.of(Items.HONEYCOMB, Items.COD, Items.SALMON, ForestModItems.RASPBERRY.get()).contains(stack.getItem());
 	}
 
 	@Override

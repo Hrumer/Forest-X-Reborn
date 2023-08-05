@@ -1,0 +1,10 @@
+{
+  "mappings": {
+    "default": {
+      "map": {
+        "0": "sarbakan_3d"
+      },
+      "name": "default"
+    }
+  }
+}

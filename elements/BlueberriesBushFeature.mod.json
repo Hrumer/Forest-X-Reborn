@@ -1,5 +1,5 @@
 {
-  "_fv": 44,
+  "_fv": 45,
   "_type": "feature",
   "definition": {
     "generationStep": "SURFACE_STRUCTURES",
@@ -11,7 +11,13 @@
         "value": "taiga"
       },
       {
-        "value": "forest"
+        "value": "redwood_taiga"
+      },
+      {
+        "value": "mutated_redwood_taiga"
+      },
+      {
+        "value": "taiga_cold"
       }
     ],
     "generateCondition": {

@@ -1,12 +1,11 @@
 {
-  "_fv": 44,
+  "_fv": 45,
   "_type": "tool",
   "definition": {
+    "toolType": "Axe",
     "renderType": 0,
-    "blockingRenderType": 0,
     "texture": "silver_axe",
     "customModelName": "Normal",
-    "blockingModelName": "Normal blocking",
     "name": "Silver Axe",
     "specialInformation": {
       "fixedValue": ""
@@ -14,7 +13,6 @@
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },
-    "toolType": "Axe",
     "harvestLevel": 2,
     "efficiency": 12.0,
     "attackSpeed": 1.0,

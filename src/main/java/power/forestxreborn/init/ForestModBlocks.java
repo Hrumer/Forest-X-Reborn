@@ -59,6 +59,10 @@ import power.forestxreborn.block.RedCrushedSandstoneSlabBlock;
 import power.forestxreborn.block.RedCrushedSandstoneBlock;
 import power.forestxreborn.block.RawSilverBlockBlock;
 import power.forestxreborn.block.RawGingerbreadBlockBlock;
+import power.forestxreborn.block.RaspberryBush3Block;
+import power.forestxreborn.block.RaspberryBush2Block;
+import power.forestxreborn.block.RaspberryBush1Block;
+import power.forestxreborn.block.RaspberryBush0Block;
 import power.forestxreborn.block.PurpleStairsBlock;
 import power.forestxreborn.block.PurpleSlabBlock;
 import power.forestxreborn.block.PurplePlanksBlock;
@@ -462,6 +466,10 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> GRAPE_VINE_1 = REGISTRY.register("grape_vine_1", () -> new GrapeVine1Block());
 	public static final RegistryObject<Block> BROWN_BEAR_CARPET = REGISTRY.register("brown_bear_carpet", () -> new BrownBearCarpetBlock());
 	public static final RegistryObject<Block> POLAR_BEAR_CARPET = REGISTRY.register("polar_bear_carpet", () -> new PolarBearCarpetBlock());
+	public static final RegistryObject<Block> RASPBERRY_BUSH_0 = REGISTRY.register("raspberry_bush_0", () -> new RaspberryBush0Block());
+	public static final RegistryObject<Block> RASPBERRY_BUSH_1 = REGISTRY.register("raspberry_bush_1", () -> new RaspberryBush1Block());
+	public static final RegistryObject<Block> RASPBERRY_BUSH_2 = REGISTRY.register("raspberry_bush_2", () -> new RaspberryBush2Block());
+	public static final RegistryObject<Block> RASPBERRY_BUSH_3 = REGISTRY.register("raspberry_bush_3", () -> new RaspberryBush3Block());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
