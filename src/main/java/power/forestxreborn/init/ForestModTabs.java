@@ -305,6 +305,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.SILVER_ARMOR_LEGGINGS.get());
 					tabData.accept(ForestModItems.SILVER_ARMOR_BOOTS.get());
 					tabData.accept(ForestModItems.QUIVER.get());
+					tabData.accept(ForestModItems.SARBAKAN.get());
 				})
 
 		);

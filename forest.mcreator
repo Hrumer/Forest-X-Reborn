@@ -10326,6 +10326,51 @@
         ]
       },
       "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "Sarbakan",
+      "type": "rangeditem",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sarbakan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/sarbakan.json",
+          "src/main/java/power/forestxreborn/item/SarbakanItem.java",
+          "src/main/java/power/forestxreborn/entity/SarbakanEntity.java",
+          "src/main/java/power/forestxreborn/client/renderer/SarbakanRenderer.java"
+        ]
+      },
+      "path": "~/Sarbakan"
+    },
+    {
+      "name": "SarbakanCraft",
+      "type": "recipe",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sarbakan_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/sarbakan_craft.json"
+        ]
+      },
+      "path": "~/Sarbakan"
+    },
+    {
+      "name": "DartCraft",
+      "type": "recipe",
+      "sortid": 608,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dart_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/dart_craft.json"
+        ]
+      },
+      "path": "~/Sarbakan"
     }
   ],
   "variable_elements": [
@@ -10387,8 +10432,8 @@
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "item.forest.gingerbread_round": "Пряник",
+      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10606,6 +10651,7 @@
       "block.forest.yellow_stairs": "Жёлтые ступени",
       "biome.forest.volcano": "Вулкан",
       "item.forest.snail_spawn_egg": "Яйцо призыва улитки",
+      "item.forest.sarbakan": "Духовая трубка",
       "item.forest.music_disc_strofa": "Пластинка",
       "block.forest.rhyolite_slab": "Плита из риолита",
       "block.forest.polished_sandslate_slab": "Плита из полированного песчаного сланца",
@@ -10973,6 +11019,7 @@
       "block.forest.yellow_stairs": "Yellow Stairs",
       "biome.forest.volcano": "Volcano",
       "item.forest.snail_spawn_egg": "Snail Spawn Egg",
+      "item.forest.sarbakan": "Sarbakan",
       "item.forest.music_disc_strofa": "Music Disc",
       "block.forest.rhyolite_slab": "Rhyolite Slab",
       "block.forest.polished_sandslate_slab": "Polished Sandslate Slab",

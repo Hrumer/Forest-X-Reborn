@@ -14,6 +14,7 @@ import power.forestxreborn.item.SilverIngotItem;
 import power.forestxreborn.item.SilverHoeItem;
 import power.forestxreborn.item.SilverAxeItem;
 import power.forestxreborn.item.SilverArmorItem;
+import power.forestxreborn.item.SarbakanItem;
 import power.forestxreborn.item.SapphireItem;
 import power.forestxreborn.item.RawSilverItem;
 import power.forestxreborn.item.RawGingerbreadPineItem;
@@ -369,6 +370,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RASPBERRY_BUSH_1 = block(ForestModBlocks.RASPBERRY_BUSH_1);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_2 = block(ForestModBlocks.RASPBERRY_BUSH_2);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_3 = block(ForestModBlocks.RASPBERRY_BUSH_3);
+	public static final RegistryObject<Item> SARBAKAN = REGISTRY.register("sarbakan", () -> new SarbakanItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
