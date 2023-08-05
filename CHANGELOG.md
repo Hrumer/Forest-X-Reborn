@@ -1,4 +1,7 @@
 What's new in Forest X Reborn 1.4.0<br />
+Snapshot 1.4.0.230808:
+<br /> - Added sarbakan
+<br /> - [Bugfix] 
 Snapshot 1.4.0.230805:
 <br /> - Five types of butterflies have been added
 <br /> - Added calibri and calibri feather
