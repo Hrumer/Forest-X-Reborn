@@ -28,6 +28,7 @@ import net.minecraft.world.entity.ai.goal.TemptGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.PanicGoal;
+import net.minecraft.world.entity.ai.goal.MoveBackToVillageGoal;
 import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
 import net.minecraft.world.entity.ai.goal.FollowMobGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
@@ -101,11 +102,12 @@ public class RatEntity extends Animal implements GeoEntity {
 		this.goalSelector.addGoal(1, new PanicGoal(this, 1.2));
 		this.goalSelector.addGoal(2, new FollowMobGoal(this, 1, (float) 16, (float) 4));
 		this.goalSelector.addGoal(3, new TemptGoal(this, 1, Ingredient.of(Blocks.WHEAT.asItem()), false));
-		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(5, new WaterAvoidingRandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(7, new FloatGoal(this));
-		this.goalSelector.addGoal(8, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(4, new MoveBackToVillageGoal(this, 0.6, false));
+		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(6, new WaterAvoidingRandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(8, new FloatGoal(this));
+		this.goalSelector.addGoal(9, new LeapAtTargetGoal(this, (float) 0.5));
 	}
 
 	@Override
