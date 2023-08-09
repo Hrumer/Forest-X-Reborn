@@ -1,0 +1,10 @@
+{
+  "variants": {
+    "half=upper": {
+      "model": "forest:block/cattail"
+    },
+    "half=lower": {
+      "model": "forest:block/cattail_bottom"
+    }
+  }
+}

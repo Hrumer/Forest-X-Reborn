@@ -229,6 +229,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.GRAPE_VINE_0.get().asItem());
 					tabData.accept(ForestModBlocks.WHITE_ROSE_BUSH.get().asItem());
 					tabData.accept(ForestModBlocks.PINK_ROSE_BUSH.get().asItem());
+					tabData.accept(ForestModBlocks.CATTAIL.get().asItem());
 				})
 
 		);

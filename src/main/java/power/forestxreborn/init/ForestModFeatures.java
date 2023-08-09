@@ -9,6 +9,7 @@ import power.forestxreborn.world.features.plants.WhiteRoseBushFeature;
 import power.forestxreborn.world.features.plants.PinkRoseBushFeature;
 import power.forestxreborn.world.features.plants.LavanderFeature;
 import power.forestxreborn.world.features.plants.DesertRoseFeature;
+import power.forestxreborn.world.features.plants.CattailFeature;
 import power.forestxreborn.world.features.plants.BurningblossomFeature;
 import power.forestxreborn.world.features.plants.BlueRoseFeature;
 import power.forestxreborn.world.features.ores.SilverOreFeature;
@@ -76,4 +77,5 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> WHITE_MULBERRY_TREE = REGISTRY.register("white_mulberry_tree", WhiteMulberryTreeFeature::new);
 	public static final RegistryObject<Feature<?>> BLACK_MULBERRY_TREE = REGISTRY.register("black_mulberry_tree", BlackMulberryTreeFeature::new);
 	public static final RegistryObject<Feature<?>> RASPBERRIES_BUSH_FEATURE = REGISTRY.register("raspberries_bush_feature", RaspberriesBushFeatureFeature::new);
+	public static final RegistryObject<Feature<?>> CATTAIL = REGISTRY.register("cattail", CattailFeature::new);
 }

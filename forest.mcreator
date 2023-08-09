@@ -114,7 +114,7 @@
           "src/main/resources/data/forest/worldgen/configured_feature/wildflower.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "Lavander",
@@ -135,7 +135,7 @@
           "src/main/resources/data/forest/worldgen/placed_feature/lavander.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "Burningblossom",
@@ -156,7 +156,7 @@
           "src/main/java/power/forestxreborn/block/BurningblossomBlock.java"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "CrushedSandstone",
@@ -1307,7 +1307,7 @@
           "src/main/resources/assets/forest/models/block/desert_rose.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "DeeOreSmelting",
@@ -4627,7 +4627,7 @@
           "src/main/resources/assets/forest/blockstates/blue_rose.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "WildflowerToDye",
@@ -4641,7 +4641,7 @@
           "src/main/resources/data/forest/recipes/wildflower_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "LavanderToDye",
@@ -4655,7 +4655,7 @@
           "src/main/resources/data/forest/recipes/lavander_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "BurningblossomToDye",
@@ -4669,7 +4669,7 @@
           "src/main/resources/data/forest/recipes/burningblossom_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "DesertRoseToDye",
@@ -4683,7 +4683,7 @@
           "src/main/resources/data/forest/recipes/desert_rose_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "BlueRoseToDye",
@@ -4697,7 +4697,7 @@
           "src/main/resources/data/forest/recipes/blue_rose_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "NotAllThatGlittersIsGold",
@@ -8872,7 +8872,7 @@
           "src/main/resources/assets/forest/models/block/white_rose_bush.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "PinkRoseBush",
@@ -8894,7 +8894,7 @@
           "src/main/resources/assets/forest/models/item/pink_rose_bush.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "MulberryWood",
@@ -10389,6 +10389,28 @@
         ]
       },
       "path": "~/Animals"
+    },
+    {
+      "name": "Cattail",
+      "type": "plant",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cattail",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/configured_feature/cattail.json",
+          "src/main/resources/assets/forest/models/block/cattail.json",
+          "src/main/resources/assets/forest/models/item/cattail.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/cattail.json",
+          "src/main/java/power/forestxreborn/world/features/plants/CattailFeature.java",
+          "src/main/resources/assets/forest/models/block/cattail_bottom.json",
+          "src/main/java/power/forestxreborn/block/CattailBlock.java",
+          "src/main/resources/assets/forest/blockstates/cattail.json",
+          "src/main/resources/data/forest/forge/biome_modifier/cattail_biome_modifier.json"
+        ]
+      },
+      "path": "~/Plants"
     }
   ],
   "variable_elements": [
@@ -10767,6 +10789,7 @@
       "advancements.forest_x_starting.title": "Forest X",
       "item.forest.silver_armor_chestplate": "Серебряный нагрудник",
       "painting.forest.painting_pig_in_mood.author": "SnrBorg",
+      "block.forest.cattail": "Рогоз",
       "block.forest.orange_stairs": "Оранжевые ступени",
       "block.forest.white_rose_bush": "Куст белых роз",
       "desc.gingerbread_round": "Круг",
@@ -10838,8 +10861,8 @@
     },
     "en_us": {
       "item.forest.polar_bear_armor_helmet": "Brown Bear Armor Helmet",
-      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.gingerbread_bricks": "Gingerbread Bricks",
+      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.white_planks": "White Planks",
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
@@ -11139,6 +11162,7 @@
       "advancements.forest_x_starting.title": "Forest X",
       "item.forest.silver_armor_chestplate": "Silver Chestplate",
       "painting.forest.painting_pig_in_mood.author": "SnrBorg",
+      "block.forest.cattail": "Cattail",
       "block.forest.orange_stairs": "Orange Stairs",
       "block.forest.white_rose_bush": "White Rose Bush",
       "desc.gingerbread_round": "Round",
@@ -11241,7 +11265,7 @@
         "children": []
       },
       {
-        "name": "Flowers",
+        "name": "Plants",
         "children": []
       },
       {

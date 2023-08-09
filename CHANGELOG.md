@@ -2,6 +2,8 @@ What's new in Forest X Reborn 1.4.0<br />
 Snapshot 1.4.0.230808:
 <br /> - Added rat
 <br /> - Added sarbakan
+<br /> - Added cattail
+<br /> - The colors in the peat bog now match the colors of a regular swamp
 <br /> - [Bugfix] 
 Snapshot 1.4.0.230805:
 <br /> - Five types of butterflies have been added

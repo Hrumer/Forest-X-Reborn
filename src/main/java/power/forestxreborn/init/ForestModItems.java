@@ -372,6 +372,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RASPBERRY_BUSH_3 = block(ForestModBlocks.RASPBERRY_BUSH_3);
 	public static final RegistryObject<Item> SARBAKAN = REGISTRY.register("sarbakan", () -> new SarbakanItem());
 	public static final RegistryObject<Item> RAT_SPAWN_EGG = REGISTRY.register("rat_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.RAT, -10066330, -26215, new Item.Properties()));
+	public static final RegistryObject<Item> CATTAIL = doubleBlock(ForestModBlocks.CATTAIL);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
