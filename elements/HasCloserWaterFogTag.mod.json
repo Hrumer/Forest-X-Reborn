@@ -1,0 +1,18 @@
+{
+  "_fv": 45,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:Peatbog"
+      }
+    ],
+    "name": "has_closer_water_fog",
+    "namespace": "minecraft"
+  }
+}

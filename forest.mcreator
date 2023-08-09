@@ -10411,6 +10411,90 @@
         ]
       },
       "path": "~/Plants"
+    },
+    {
+      "name": "SwampTag",
+      "type": "tag",
+      "sortid": 611,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_swamp.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "DryTag",
+      "type": "tag",
+      "sortid": 612,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_dry.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsHotTag",
+      "type": "tag",
+      "sortid": 613,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_hot_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_hot.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "CaveTag",
+      "type": "tag",
+      "sortid": 614,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_cave.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "HasCloserWaterFogTag",
+      "type": "tag",
+      "sortid": 615,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "has_closer_water_fog_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/has_closer_water_fog.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsWetTag",
+      "type": "tag",
+      "sortid": 616,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_wet_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_wet.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [
