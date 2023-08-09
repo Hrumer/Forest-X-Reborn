@@ -15,6 +15,7 @@ import power.forestxreborn.client.renderer.OrangeButterflyRenderer;
 import power.forestxreborn.client.renderer.GreenButterflyRenderer;
 import power.forestxreborn.client.renderer.FireSalamanderRenderer;
 import power.forestxreborn.client.renderer.FennecRenderer;
+import power.forestxreborn.client.renderer.CrocodileRenderer;
 import power.forestxreborn.client.renderer.CalibriRenderer;
 import power.forestxreborn.client.renderer.BrownBearRenderer;
 import power.forestxreborn.client.renderer.BlueButterflyRenderer;
@@ -42,5 +43,6 @@ public class ForestModEntityRenderers {
 		event.registerEntityRenderer(ForestModEntities.VULTURE.get(), VultureRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SARBAKAN.get(), SarbakanRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.RAT.get(), RatRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.CROCODILE.get(), CrocodileRenderer::new);
 	}
 }

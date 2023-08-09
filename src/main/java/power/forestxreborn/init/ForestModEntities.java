@@ -15,6 +15,7 @@ import power.forestxreborn.entity.OrangeButterflyEntity;
 import power.forestxreborn.entity.GreenButterflyEntity;
 import power.forestxreborn.entity.FireSalamanderEntity;
 import power.forestxreborn.entity.FennecEntity;
+import power.forestxreborn.entity.CrocodileEntity;
 import power.forestxreborn.entity.CalibriEntity;
 import power.forestxreborn.entity.BrownBearEntity;
 import power.forestxreborn.entity.BlueButterflyEntity;
@@ -46,47 +47,51 @@ public class ForestModEntities {
 	public static final RegistryObject<EntityType<SnailEntity>> SNAIL = register("snail",
 			EntityType.Builder.<SnailEntity>of(SnailEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SnailEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 1f));
 	public static final RegistryObject<EntityType<FennecEntity>> FENNEC = register("fennec",
 			EntityType.Builder.<FennecEntity>of(FennecEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FennecEntity::new)
 
-					.sized(0.5f, 0.7f));
+					.sized(1f, 0.7f));
 	public static final RegistryObject<EntityType<FireSalamanderEntity>> FIRE_SALAMANDER = register("fire_salamander", EntityType.Builder.<FireSalamanderEntity>of(FireSalamanderEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
 			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FireSalamanderEntity::new).fireImmune().sized(1f, 0.5f));
 	public static final RegistryObject<EntityType<OrangeButterflyEntity>> ORANGE_BUTTERFLY = register("orange_butterfly",
 			EntityType.Builder.<OrangeButterflyEntity>of(OrangeButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OrangeButterflyEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.8f, 1f));
 	public static final RegistryObject<EntityType<PinkButterflyEntity>> PINK_BUTTERFLY = register("pink_butterfly",
 			EntityType.Builder.<PinkButterflyEntity>of(PinkButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PinkButterflyEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.8f, 1f));
 	public static final RegistryObject<EntityType<BlueButterflyEntity>> BLUE_BUTTERFLY = register("blue_butterfly",
 			EntityType.Builder.<BlueButterflyEntity>of(BlueButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueButterflyEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.8f, 1f));
 	public static final RegistryObject<EntityType<GreenButterflyEntity>> GREEN_BUTTERFLY = register("green_butterfly",
 			EntityType.Builder.<GreenButterflyEntity>of(GreenButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GreenButterflyEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.8f, 1f));
 	public static final RegistryObject<EntityType<PurpleButterflyEntity>> PURPLE_BUTTERFLY = register("purple_butterfly",
 			EntityType.Builder.<PurpleButterflyEntity>of(PurpleButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PurpleButterflyEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.8f, 1f));
 	public static final RegistryObject<EntityType<CalibriEntity>> CALIBRI = register("calibri",
 			EntityType.Builder.<CalibriEntity>of(CalibriEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CalibriEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(0.6f, 0.8f));
 	public static final RegistryObject<EntityType<VultureEntity>> VULTURE = register("vulture",
 			EntityType.Builder.<VultureEntity>of(VultureEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(VultureEntity::new)
 
-					.sized(0.6f, 1.8f));
+					.sized(1.4f, 1.8f));
 	public static final RegistryObject<EntityType<SarbakanEntity>> SARBAKAN = register("projectile_sarbakan",
 			EntityType.Builder.<SarbakanEntity>of(SarbakanEntity::new, MobCategory.MISC).setCustomClientFactory(SarbakanEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 	public static final RegistryObject<EntityType<RatEntity>> RAT = register("rat",
 			EntityType.Builder.<RatEntity>of(RatEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RatEntity::new)
 
 					.sized(0.6f, 1f));
+	public static final RegistryObject<EntityType<CrocodileEntity>> CROCODILE = register("crocodile",
+			EntityType.Builder.<CrocodileEntity>of(CrocodileEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(16).setUpdateInterval(3).setCustomClientFactory(CrocodileEntity::new)
+
+					.sized(3f, 1.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -108,6 +113,7 @@ public class ForestModEntities {
 			CalibriEntity.init();
 			VultureEntity.init();
 			RatEntity.init();
+			CrocodileEntity.init();
 		});
 	}
 
@@ -126,5 +132,6 @@ public class ForestModEntities {
 		event.put(CALIBRI.get(), CalibriEntity.createAttributes().build());
 		event.put(VULTURE.get(), VultureEntity.createAttributes().build());
 		event.put(RAT.get(), RatEntity.createAttributes().build());
+		event.put(CROCODILE.get(), CrocodileEntity.createAttributes().build());
 	}
 }

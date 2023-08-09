@@ -10495,6 +10495,24 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "Crocodile",
+      "type": "animatedentity",
+      "sortid": 617,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/crocodile_spawn_egg.json",
+          "src/main/java/power/forestxreborn/entity/CrocodileEntity.java",
+          "src/main/java/power/forestxreborn/entity/model/CrocodileModel.java",
+          "src/main/java/power/forestxreborn/client/renderer/CrocodileRenderer.java",
+          "src/main/resources/data/forest/forge/biome_modifier/crocodile_biome_modifier.json"
+        ]
+      },
+      "path": "~/Animals"
     }
   ],
   "variable_elements": [
@@ -10567,13 +10585,29 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "crocodile.dead",
+      "files": [
+        "crocodile.dead"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "crocodile.hurt",
+      "files": [
+        "crocodile.hurt"
+      ],
+      "category": "hostile",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
+      "item.forest.gingerbread_round": "Пряник",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10742,6 +10776,7 @@
       "item.forest.berry_strudel": "Ягодный штрудель",
       "item.forest.gingerbread_cock": "Пряник",
       "block.forest.marble_bricks_slab": "Плита из мраморных кирпичей",
+      "subtitles.crocodile.agressive": "",
       "item.forest.brown_bear_armor_boots": "Валенки из шкуры бурого медведя",
       "block.forest.red_crushed_sandstone_slab": "Плита из красного колотого песчаника",
       "item.forest.lard": "Сало",
@@ -10767,6 +10802,7 @@
       "item_group.forest.music_discs": "Пластинки",
       "item.forest.wine": "Вино",
       "subtitles.rat.hurt": "",
+      "item.forest.crocodile_spawn_egg": "Яйцо призыва крокодила",
       "block.forest.black_planks": "Чёрные доски",
       "block.forest.eucalyptus_fence_gate": "Калитка из эвкалиптовых досок",
       "block.forest.eucalyptus_fence": "Забор из эвкалиптовых досок",
@@ -10777,6 +10813,7 @@
       "block.forest.mulberry_slab": "Плита из шелковицы",
       "block.forest.deepslate_silver_ore": "Серебряноносный глубинный сланец",
       "entity.forest.orange_butterfly": "Оранжевая бабочка",
+      "subtitles.crocodile.dead": "",
       "block.forest.cobbled_sandslate_wall": "Ограда из дробленого песчаного сланца",
       "block.forest.lime_fence_gate": "Лаймовая калитка",
       "block.forest.blue_rose": "Синяя роза",
@@ -10886,6 +10923,7 @@
       "trim_material.forest.silver": "Серебряный материал",
       "block.forest.crushed_sandstone_wall": "Ограда из колотого песчаника",
       "block.forest.stripped_mulberry_log": "Обтёсанное бревно шелковицы",
+      "entity.forest.crocodile": "Крокодил",
       "block.forest.cyan_stairs": "Коричневые ступени",
       "block.forest.silver_block": "Блок Серебра",
       "block.forest.marble": "Мрамор",
@@ -10917,6 +10955,7 @@
       "block.forest.polished_marble_stairs": "Ступени из полированного мрамора",
       "block.forest.gray_slab": "Серая плита",
       "advancements.just_add_the_glaze.descr": "Сделайте глазированный пряник в форме человечка",
+      "subtitles.crocodile.hurt": "",
       "block.forest.crimson_parquet": "Багровый паркет",
       "entity.forest.blue_butterfly": "Голубая бабочка",
       "block.forest.lavander": "Лаванда",
@@ -11115,6 +11154,7 @@
       "item.forest.berry_strudel": "Berry Strudel",
       "item.forest.gingerbread_cock": "Gingerbread",
       "block.forest.marble_bricks_slab": "Marble Bricks Slab",
+      "subtitles.crocodile.agressive": "",
       "item.forest.brown_bear_armor_boots": "Brown Bear Armor Boots",
       "block.forest.red_crushed_sandstone_slab": "Red crushed sandstone slab",
       "item.forest.lard": "Lard",
@@ -11140,6 +11180,7 @@
       "item_group.forest.music_discs": "Music Discs",
       "item.forest.wine": "Wine",
       "subtitles.rat.hurt": "",
+      "item.forest.crocodile_spawn_egg": "Crocodile Spawn Egg",
       "block.forest.black_planks": "Black Planks",
       "block.forest.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
       "block.forest.eucalyptus_fence": "Eucalyptus Fence",
@@ -11150,6 +11191,7 @@
       "block.forest.mulberry_slab": "Mulberry Slab",
       "block.forest.deepslate_silver_ore": "Deepslate Silver Ore",
       "entity.forest.orange_butterfly": "Orange Butterfly",
+      "subtitles.crocodile.dead": "",
       "block.forest.cobbled_sandslate_wall": "Cobbled Sandslate Wall",
       "block.forest.lime_fence_gate": "Lime Fence Gate",
       "block.forest.blue_rose": "Blue Rose",
@@ -11259,6 +11301,7 @@
       "trim_material.forest.silver": "Silver Material",
       "block.forest.crushed_sandstone_wall": "Crushed sandstone wall",
       "block.forest.stripped_mulberry_log": "Stripped Mulberry Log",
+      "entity.forest.crocodile": "Crocodile",
       "block.forest.cyan_stairs": "Cyan Stairs",
       "block.forest.silver_block": "Block of Silver",
       "block.forest.marble": "Marble",
@@ -11290,6 +11333,7 @@
       "block.forest.polished_marble_stairs": "Polished Marble Stairs",
       "block.forest.gray_slab": "Gray Slab",
       "advancements.just_add_the_glaze.descr": "Make a glazed gingerbread in the form of a man",
+      "subtitles.crocodile.hurt": "",
       "block.forest.crimson_parquet": "Crimson Parquet",
       "entity.forest.blue_butterfly": "Blue Butterfly",
       "block.forest.lavander": "Lavander",

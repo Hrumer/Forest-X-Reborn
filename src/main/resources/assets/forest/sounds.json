@@ -54,5 +54,21 @@
         "stream": false
       }
     ]
+  },
+  "crocodile.dead": {
+    "sounds": [
+      {
+        "name": "forest:crocodile.dead",
+        "stream": false
+      }
+    ]
+  },
+  "crocodile.hurt": {
+    "sounds": [
+      {
+        "name": "forest:crocodile.hurt",
+        "stream": false
+      }
+    ]
   }
 }
