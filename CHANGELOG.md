@@ -4,6 +4,7 @@ Snapshot 1.4.0.230808:
 <br /> - Added sarbakan
 <br /> - Added cattail
 <br /> - The colors in the peat bog now match the colors of a regular swamp
+<br /> - Now villages will appear in the semi-desert
 <br /> - [Bugfix] 
 Snapshot 1.4.0.230805:
 <br /> - Five types of butterflies have been added
