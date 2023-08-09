@@ -1,5 +1,5 @@
 What's new in Forest X Reborn 1.4.0<br />
-Snapshot 1.4.0.230808:
+Snapshot 1.4.0.230810:
 <br /> - Added rat
 <br /> - Added crocodile
 <br /> - Added sarbakan
@@ -7,7 +7,7 @@ Snapshot 1.4.0.230808:
 <br /> - Added cattail
 <br /> - The colors in the peat bog now match the colors of a regular swamp
 <br /> - Now villages will appear in the semi-desert
-<br /> - [Bugfix] Fixed hitboxes for mobs
+<br /> - [Bugfix] Fixed hitboxes for some mobs
 Snapshot 1.4.0.230805:
 <br /> - Five types of butterflies have been added
 <br /> - Added calibri and calibri feather
