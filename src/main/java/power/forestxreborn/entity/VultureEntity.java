@@ -156,7 +156,7 @@ public class VultureEntity extends Animal implements GeoEntity {
 				}
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1.2, 20) {
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 2.4, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = VultureEntity.this.getRandom();

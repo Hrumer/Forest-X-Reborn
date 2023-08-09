@@ -8,6 +8,7 @@ Snapshot 1.4.0.230810:
 <br /> - The colors in the peat bog now match the colors of a regular swamp
 <br /> - Now villages will appear in the semi-desert
 <br /> - [Bugfix] Fixed hitboxes for some mobs
+<br /> - [Bugfix] Fixed the speed of flying mobs
 Snapshot 1.4.0.230805:
 <br /> - Five types of butterflies have been added
 <br /> - Added calibri and calibri feather
