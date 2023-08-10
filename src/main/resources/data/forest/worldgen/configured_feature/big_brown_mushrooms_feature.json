@@ -31,6 +31,10 @@
     },
     "decor_state": {
       "Name": "minecraft:cave_air"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
     }
   }
 }

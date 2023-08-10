@@ -3,8 +3,7 @@ package power.forestxreborn.block;
 
 import org.checkerframework.checker.units.qual.s;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -22,7 +21,7 @@ import java.util.Collections;
 
 public class SilverBlockBlock extends Block {
 	public SilverBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.METAL).sound(SoundType.METAL).strength(5f, 10f).lightLevel(s -> 2).requiresCorrectToolForDrops().friction(0.9f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 10f).lightLevel(s -> 2).requiresCorrectToolForDrops().friction(0.9f));
 	}
 
 	@Override
@@ -43,7 +42,7 @@ public class SilverBlockBlock extends Block {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
