@@ -1,7 +1,6 @@
 
 package power.forestxreborn.block;
 
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -17,7 +16,7 @@ import java.util.List;
 
 public class PeatBlock extends Block {
 	public PeatBlock() {
-		super(BlockBehaviour.Properties.of(Material.DIRT).sound(SoundType.MUD).strength(0.75f, 10f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.MUD).strength(0.75f, 10f));
 	}
 
 	@Override
