@@ -181,10 +181,11 @@ public class BlueButterflyEntity extends PathfinderMob implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
-
-			) {
+			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.isFallFlying()) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("butterfly.model.walking"));
+			}
+			if (!this.isFallFlying()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("butterfly.model.flying"));
 			}
 			return event.setAndContinue(RawAnimation.begin().thenLoop("butterfly.model.idle"));
 		}

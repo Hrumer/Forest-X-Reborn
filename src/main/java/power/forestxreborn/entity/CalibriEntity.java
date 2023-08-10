@@ -201,6 +201,9 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
+			if (!this.isFallFlying()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.calibri.fly"));
+			}
 			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.calibri.sit"));
 		}
 		return PlayState.STOP;

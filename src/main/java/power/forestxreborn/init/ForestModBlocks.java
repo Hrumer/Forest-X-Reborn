@@ -404,6 +404,8 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> PURPLE_FENCE_GATE = REGISTRY.register("purple_fence_gate", () -> new PurpleFenceGateBlock());
 	public static final RegistryObject<Block> MAGENTA_FENCE_GATE = REGISTRY.register("magenta_fence_gate", () -> new MagentaFenceGateBlock());
 	public static final RegistryObject<Block> PINK_FENCE_GATE = REGISTRY.register("pink_fence_gate", () -> new PinkFenceGateBlock());
+	public static final RegistryObject<Block> BROWN_BEAR_CARPET = REGISTRY.register("brown_bear_carpet", () -> new BrownBearCarpetBlock());
+	public static final RegistryObject<Block> POLAR_BEAR_CARPET = REGISTRY.register("polar_bear_carpet", () -> new PolarBearCarpetBlock());
 	public static final RegistryObject<Block> WILDFLOWER = REGISTRY.register("wildflower", () -> new WildflowerBlock());
 	public static final RegistryObject<Block> BURNING_BLOSSOM = REGISTRY.register("burning_blossom", () -> new BurningblossomBlock());
 	public static final RegistryObject<Block> LAVANDER = REGISTRY.register("lavander", () -> new LavanderBlock());
@@ -414,6 +416,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> GRAPE_VINE_0 = REGISTRY.register("grape_vine_0", () -> new GrapeVine0Block());
 	public static final RegistryObject<Block> WHITE_ROSE_BUSH = REGISTRY.register("white_rose_bush", () -> new WhiteRoseBushBlock());
 	public static final RegistryObject<Block> PINK_ROSE_BUSH = REGISTRY.register("pink_rose_bush", () -> new PinkRoseBushBlock());
+	public static final RegistryObject<Block> CATTAIL = REGISTRY.register("cattail", () -> new CattailBlock());
 	public static final RegistryObject<Block> SILVER_ORE = REGISTRY.register("silver_ore", () -> new SilverOreBlock());
 	public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = REGISTRY.register("deepslate_silver_ore", () -> new DeepslateSilverOreBlock());
 	public static final RegistryObject<Block> RAW_SILVER_BLOCK = REGISTRY.register("raw_silver_block", () -> new RawSilverBlockBlock());
@@ -465,13 +468,10 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> EUCALYPTUS_TRAPDOOR = REGISTRY.register("eucalyptus_trapdoor", () -> new EucalyptusTrapdoorBlock());
 	public static final RegistryObject<Block> EUCALYPTUS_SAPLING = REGISTRY.register("eucalyptus_sapling", () -> new EucalyptusSaplingBlock());
 	public static final RegistryObject<Block> GRAPE_VINE_1 = REGISTRY.register("grape_vine_1", () -> new GrapeVine1Block());
-	public static final RegistryObject<Block> BROWN_BEAR_CARPET = REGISTRY.register("brown_bear_carpet", () -> new BrownBearCarpetBlock());
-	public static final RegistryObject<Block> POLAR_BEAR_CARPET = REGISTRY.register("polar_bear_carpet", () -> new PolarBearCarpetBlock());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_0 = REGISTRY.register("raspberry_bush_0", () -> new RaspberryBush0Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_1 = REGISTRY.register("raspberry_bush_1", () -> new RaspberryBush1Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_2 = REGISTRY.register("raspberry_bush_2", () -> new RaspberryBush2Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_3 = REGISTRY.register("raspberry_bush_3", () -> new RaspberryBush3Block());
-	public static final RegistryObject<Block> CATTAIL = REGISTRY.register("cattail", () -> new CattailBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
