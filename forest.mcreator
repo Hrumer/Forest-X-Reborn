@@ -114,7 +114,7 @@
           "src/main/resources/data/forest/worldgen/configured_feature/wildflower.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "Lavander",
@@ -135,7 +135,7 @@
           "src/main/resources/data/forest/worldgen/placed_feature/lavander.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "Burningblossom",
@@ -156,7 +156,7 @@
           "src/main/java/power/forestxreborn/block/BurningblossomBlock.java"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "CrushedSandstone",
@@ -1307,7 +1307,7 @@
           "src/main/resources/assets/forest/models/block/desert_rose.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "DeeOreSmelting",
@@ -1754,10 +1754,10 @@
       "sortid": 167,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "breadwithlard",
+      "registry_name": "bread_with_lard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forest/models/item/breadwithlard.json",
+          "src/main/resources/assets/forest/models/item/bread_with_lard.json",
           "src/main/java/power/forestxreborn/item/BreadwithlardItem.java"
         ]
       },
@@ -4627,7 +4627,7 @@
           "src/main/resources/assets/forest/blockstates/blue_rose.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "WildflowerToDye",
@@ -4641,7 +4641,7 @@
           "src/main/resources/data/forest/recipes/wildflower_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "LavanderToDye",
@@ -4655,7 +4655,7 @@
           "src/main/resources/data/forest/recipes/lavander_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "BurningblossomToDye",
@@ -4669,7 +4669,7 @@
           "src/main/resources/data/forest/recipes/burningblossom_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "DesertRoseToDye",
@@ -4683,7 +4683,7 @@
           "src/main/resources/data/forest/recipes/desert_rose_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "BlueRoseToDye",
@@ -4697,7 +4697,7 @@
           "src/main/resources/data/forest/recipes/blue_rose_to_dye.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "NotAllThatGlittersIsGold",
@@ -8872,7 +8872,7 @@
           "src/main/resources/assets/forest/models/block/white_rose_bush.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "PinkRoseBush",
@@ -8894,7 +8894,7 @@
           "src/main/resources/assets/forest/models/item/pink_rose_bush.json"
         ]
       },
-      "path": "~/Flowers"
+      "path": "~/Plants"
     },
     {
       "name": "MulberryWood",
@@ -10326,6 +10326,193 @@
         ]
       },
       "path": "~/AlcoholMechanics"
+    },
+    {
+      "name": "Sarbakan",
+      "type": "rangeditem",
+      "sortid": 606,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sarbakan",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/sarbakan.json",
+          "src/main/java/power/forestxreborn/item/SarbakanItem.java",
+          "src/main/java/power/forestxreborn/entity/SarbakanEntity.java",
+          "src/main/java/power/forestxreborn/client/renderer/SarbakanRenderer.java"
+        ]
+      },
+      "path": "~/Sarbakan"
+    },
+    {
+      "name": "SarbakanCraft",
+      "type": "recipe",
+      "sortid": 607,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "sarbakan_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/sarbakan_craft.json"
+        ]
+      },
+      "path": "~/Sarbakan"
+    },
+    {
+      "name": "DartCraft",
+      "type": "recipe",
+      "sortid": 608,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dart_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/dart_craft.json"
+        ]
+      },
+      "path": "~/Sarbakan"
+    },
+    {
+      "name": "Rat",
+      "type": "animatedentity",
+      "sortid": 609,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "rat",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/entity/RatEntity.java",
+          "src/main/java/power/forestxreborn/entity/model/RatModel.java",
+          "src/main/java/power/forestxreborn/client/renderer/RatRenderer.java",
+          "src/main/resources/assets/forest/models/item/rat_spawn_egg.json",
+          "src/main/resources/data/forest/forge/biome_modifier/rat_biome_modifier.json"
+        ]
+      },
+      "path": "~/Animals"
+    },
+    {
+      "name": "Cattail",
+      "type": "plant",
+      "sortid": 610,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cattail",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/configured_feature/cattail.json",
+          "src/main/resources/assets/forest/models/block/cattail.json",
+          "src/main/resources/assets/forest/models/item/cattail.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/cattail.json",
+          "src/main/java/power/forestxreborn/world/features/plants/CattailFeature.java",
+          "src/main/resources/assets/forest/models/block/cattail_bottom.json",
+          "src/main/java/power/forestxreborn/block/CattailBlock.java",
+          "src/main/resources/assets/forest/blockstates/cattail.json",
+          "src/main/resources/data/forest/forge/biome_modifier/cattail_biome_modifier.json"
+        ]
+      },
+      "path": "~/Plants"
+    },
+    {
+      "name": "SwampTag",
+      "type": "tag",
+      "sortid": 611,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "swamp_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_swamp.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "DryTag",
+      "type": "tag",
+      "sortid": 612,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "dry_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_dry.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsHotTag",
+      "type": "tag",
+      "sortid": 613,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_hot_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_hot.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "CaveTag",
+      "type": "tag",
+      "sortid": 614,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cave_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_cave.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "HasCloserWaterFogTag",
+      "type": "tag",
+      "sortid": 615,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "has_closer_water_fog_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/has_closer_water_fog.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsWetTag",
+      "type": "tag",
+      "sortid": 616,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_wet_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_wet.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "Crocodile",
+      "type": "animatedentity",
+      "sortid": 617,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "crocodile",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/crocodile_spawn_egg.json",
+          "src/main/java/power/forestxreborn/entity/CrocodileEntity.java",
+          "src/main/java/power/forestxreborn/entity/model/CrocodileModel.java",
+          "src/main/java/power/forestxreborn/client/renderer/CrocodileRenderer.java",
+          "src/main/resources/data/forest/forge/biome_modifier/crocodile_biome_modifier.json"
+        ]
+      },
+      "path": "~/Animals"
     }
   ],
   "variable_elements": [
@@ -10382,13 +10569,45 @@
       ],
       "category": "neutral",
       "subtitle": ""
+    },
+    {
+      "name": "rat.ambient",
+      "files": [
+        "rat.ambient"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "rat.hurt",
+      "files": [
+        "rat.hurt"
+      ],
+      "category": "neutral",
+      "subtitle": ""
+    },
+    {
+      "name": "crocodile.dead",
+      "files": [
+        "crocodile.dead"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "crocodile.hurt",
+      "files": [
+        "crocodile.hurt"
+      ],
+      "category": "hostile",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "item.forest.gingerbread_round": "Пряник",
+      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10504,6 +10723,7 @@
       "item.forest.gingerbread_brick": "Пряник",
       "block.forest.pumice_bricks_slab": "Плита из кирпичей пемзы",
       "item_group.forest.mobs": "Мобы",
+      "item.forest.bread_with_lard": "Bread with lard",
       "item.forest.gingerbread_man": "Пряник",
       "special_info.quiver.arrows_count": "Количество стрел: ",
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
@@ -10515,7 +10735,6 @@
       "item.forest.lettuce_seed": "Семена салата",
       "block.forest.polished_sandslate_wall": "Ограда из полированного песчаного сланца",
       "block.forest.red_slab": "Красная плита",
-      "item.forest.breadwithlard": "Хлеб с салом",
       "block.forest.cobbled_sandslate_slab": "Плита из дробленого песчаного сланца",
       "block.forest.blue_fence": "Синий забор",
       "block.forest.grape_vine_1": "Grape Vine",
@@ -10557,6 +10776,7 @@
       "item.forest.berry_strudel": "Ягодный штрудель",
       "item.forest.gingerbread_cock": "Пряник",
       "block.forest.marble_bricks_slab": "Плита из мраморных кирпичей",
+      "subtitles.crocodile.agressive": "",
       "item.forest.brown_bear_armor_boots": "Валенки из шкуры бурого медведя",
       "block.forest.red_crushed_sandstone_slab": "Плита из красного колотого песчаника",
       "item.forest.lard": "Сало",
@@ -10575,11 +10795,14 @@
       "block.forest.pink_stairs": "Розовые ступени",
       "item_group.forest.ores": "Руда",
       "block.forest.mulberry_fence_gate": "Калитка из шелковицы",
+      "entity.forest.rat": "Крыса",
       "block.forest.truncated_pumice": "Усеченная пемза",
       "item_group.forest.clothes": "Одежда",
       "entity.forest.fire_salamander": "Огненная саламандра",
       "item_group.forest.music_discs": "Пластинки",
       "item.forest.wine": "Вино",
+      "subtitles.rat.hurt": "",
+      "item.forest.crocodile_spawn_egg": "Яйцо призыва крокодила",
       "block.forest.black_planks": "Чёрные доски",
       "block.forest.eucalyptus_fence_gate": "Калитка из эвкалиптовых досок",
       "block.forest.eucalyptus_fence": "Забор из эвкалиптовых досок",
@@ -10590,6 +10813,7 @@
       "block.forest.mulberry_slab": "Плита из шелковицы",
       "block.forest.deepslate_silver_ore": "Серебряноносный глубинный сланец",
       "entity.forest.orange_butterfly": "Оранжевая бабочка",
+      "subtitles.crocodile.dead": "",
       "block.forest.cobbled_sandslate_wall": "Ограда из дробленого песчаного сланца",
       "block.forest.lime_fence_gate": "Лаймовая калитка",
       "block.forest.blue_rose": "Синяя роза",
@@ -10606,6 +10830,8 @@
       "block.forest.yellow_stairs": "Жёлтые ступени",
       "biome.forest.volcano": "Вулкан",
       "item.forest.snail_spawn_egg": "Яйцо призыва улитки",
+      "subtitles.rat.ambient": "",
+      "item.forest.sarbakan": "Духовая трубка",
       "item.forest.music_disc_strofa": "Пластинка",
       "block.forest.rhyolite_slab": "Плита из риолита",
       "block.forest.polished_sandslate_slab": "Плита из полированного песчаного сланца",
@@ -10654,6 +10880,7 @@
       "block.forest.mulberry_parquet": "Паркет из шелковицы",
       "biome.forest.semidesert": "Полупустыня",
       "block.forest.spruce_parquet": "Еловый паркет",
+      "item.forest.rat_spawn_egg": "Яйцо призыва крысы",
       "block.forest.green_slab": "Зелёная плита",
       "block.forest.eucalyptus_pressure_plate": "Нажимная плита из эвкалипта",
       "item_group.forest.food": "Еда",
@@ -10683,6 +10910,7 @@
       "advancements.forest_x_starting.title": "Forest X",
       "item.forest.silver_armor_chestplate": "Серебряный нагрудник",
       "painting.forest.painting_pig_in_mood.author": "SnrBorg",
+      "block.forest.cattail": "Рогоз",
       "block.forest.orange_stairs": "Оранжевые ступени",
       "block.forest.white_rose_bush": "Куст белых роз",
       "desc.gingerbread_round": "Круг",
@@ -10695,6 +10923,7 @@
       "trim_material.forest.silver": "Серебряный материал",
       "block.forest.crushed_sandstone_wall": "Ограда из колотого песчаника",
       "block.forest.stripped_mulberry_log": "Обтёсанное бревно шелковицы",
+      "entity.forest.crocodile": "Крокодил",
       "block.forest.cyan_stairs": "Коричневые ступени",
       "block.forest.silver_block": "Блок Серебра",
       "block.forest.marble": "Мрамор",
@@ -10726,6 +10955,7 @@
       "block.forest.polished_marble_stairs": "Ступени из полированного мрамора",
       "block.forest.gray_slab": "Серая плита",
       "advancements.just_add_the_glaze.descr": "Сделайте глазированный пряник в форме человечка",
+      "subtitles.crocodile.hurt": "",
       "block.forest.crimson_parquet": "Багровый паркет",
       "entity.forest.blue_butterfly": "Голубая бабочка",
       "block.forest.lavander": "Лаванда",
@@ -10754,8 +10984,8 @@
     },
     "en_us": {
       "item.forest.polar_bear_armor_helmet": "Brown Bear Armor Helmet",
-      "block.forest.gingerbread_bricks": "Gingerbread Bricks",
       "item.forest.gingerbread_round": "Gingerbread",
+      "block.forest.gingerbread_bricks": "Gingerbread Bricks",
       "block.forest.white_planks": "White Planks",
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
@@ -10871,6 +11101,7 @@
       "item.forest.gingerbread_brick": "Gingerbread",
       "block.forest.pumice_bricks_slab": "Pumice Bricks Slab",
       "item_group.forest.mobs": "Mobs",
+      "item.forest.bread_with_lard": "Bread with lard",
       "item.forest.gingerbread_man": "Gingerbread",
       "special_info.quiver.arrows_count": "Amount of arrows:",
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
@@ -10882,7 +11113,6 @@
       "item.forest.lettuce_seed": "Lettuce Seed",
       "block.forest.polished_sandslate_wall": "Polished Sandslate Wall",
       "block.forest.red_slab": "Red Slab",
-      "item.forest.breadwithlard": "Bread with lard",
       "block.forest.cobbled_sandslate_slab": "Cobbled Sandslate Slab",
       "block.forest.blue_fence": "Blue Fence",
       "block.forest.grape_vine_1": "Grape Vine",
@@ -10924,6 +11154,7 @@
       "item.forest.berry_strudel": "Berry Strudel",
       "item.forest.gingerbread_cock": "Gingerbread",
       "block.forest.marble_bricks_slab": "Marble Bricks Slab",
+      "subtitles.crocodile.agressive": "",
       "item.forest.brown_bear_armor_boots": "Brown Bear Armor Boots",
       "block.forest.red_crushed_sandstone_slab": "Red crushed sandstone slab",
       "item.forest.lard": "Lard",
@@ -10942,11 +11173,14 @@
       "block.forest.pink_stairs": "Pink Stairs",
       "item_group.forest.ores": "Ores",
       "block.forest.mulberry_fence_gate": "Mulberry Fence Gate",
+      "entity.forest.rat": "Rat",
       "block.forest.truncated_pumice": "Truncated Pumice",
       "item_group.forest.clothes": "Clothes",
       "entity.forest.fire_salamander": "Fire Salamander",
       "item_group.forest.music_discs": "Music Discs",
       "item.forest.wine": "Wine",
+      "subtitles.rat.hurt": "",
+      "item.forest.crocodile_spawn_egg": "Crocodile Spawn Egg",
       "block.forest.black_planks": "Black Planks",
       "block.forest.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
       "block.forest.eucalyptus_fence": "Eucalyptus Fence",
@@ -10957,6 +11191,7 @@
       "block.forest.mulberry_slab": "Mulberry Slab",
       "block.forest.deepslate_silver_ore": "Deepslate Silver Ore",
       "entity.forest.orange_butterfly": "Orange Butterfly",
+      "subtitles.crocodile.dead": "",
       "block.forest.cobbled_sandslate_wall": "Cobbled Sandslate Wall",
       "block.forest.lime_fence_gate": "Lime Fence Gate",
       "block.forest.blue_rose": "Blue Rose",
@@ -10973,6 +11208,8 @@
       "block.forest.yellow_stairs": "Yellow Stairs",
       "biome.forest.volcano": "Volcano",
       "item.forest.snail_spawn_egg": "Snail Spawn Egg",
+      "subtitles.rat.ambient": "",
+      "item.forest.sarbakan": "Sarbakan",
       "item.forest.music_disc_strofa": "Music Disc",
       "block.forest.rhyolite_slab": "Rhyolite Slab",
       "block.forest.polished_sandslate_slab": "Polished Sandslate Slab",
@@ -11021,6 +11258,7 @@
       "block.forest.mulberry_parquet": "Mulberry Parquet",
       "biome.forest.semidesert": "Semidesert",
       "block.forest.spruce_parquet": "Spruce Parquet",
+      "item.forest.rat_spawn_egg": "Rat Spawn Egg",
       "block.forest.green_slab": "Green Slab",
       "block.forest.eucalyptus_pressure_plate": "Eucalyptus Pressure Plate",
       "item_group.forest.food": "Food",
@@ -11050,6 +11288,7 @@
       "advancements.forest_x_starting.title": "Forest X",
       "item.forest.silver_armor_chestplate": "Silver Chestplate",
       "painting.forest.painting_pig_in_mood.author": "SnrBorg",
+      "block.forest.cattail": "Cattail",
       "block.forest.orange_stairs": "Orange Stairs",
       "block.forest.white_rose_bush": "White Rose Bush",
       "desc.gingerbread_round": "Round",
@@ -11062,6 +11301,7 @@
       "trim_material.forest.silver": "Silver Material",
       "block.forest.crushed_sandstone_wall": "Crushed sandstone wall",
       "block.forest.stripped_mulberry_log": "Stripped Mulberry Log",
+      "entity.forest.crocodile": "Crocodile",
       "block.forest.cyan_stairs": "Cyan Stairs",
       "block.forest.silver_block": "Block of Silver",
       "block.forest.marble": "Marble",
@@ -11093,6 +11333,7 @@
       "block.forest.polished_marble_stairs": "Polished Marble Stairs",
       "block.forest.gray_slab": "Gray Slab",
       "advancements.just_add_the_glaze.descr": "Make a glazed gingerbread in the form of a man",
+      "subtitles.crocodile.hurt": "",
       "block.forest.crimson_parquet": "Crimson Parquet",
       "entity.forest.blue_butterfly": "Blue Butterfly",
       "block.forest.lavander": "Lavander",
@@ -11152,7 +11393,7 @@
         "children": []
       },
       {
-        "name": "Flowers",
+        "name": "Plants",
         "children": []
       },
       {
@@ -11320,7 +11561,7 @@
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.4.0.230805",
+    "version": "1.4.0.230810",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  ",
     "author": "Environment Studios",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",

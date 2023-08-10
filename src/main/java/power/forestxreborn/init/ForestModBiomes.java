@@ -55,9 +55,9 @@ public class ForestModBiomes {
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.5615f, 0.0384827376f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "peatbog")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.3997f, 0.8f), Climate.Parameter.span(0.2f, 1.8f), Climate.Parameter.span(-0.29f, 0.31f), Climate.Parameter.span(0.2005f, 1.7f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-0.5615f, 0.0384827376f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "peatbog")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.571f, 0.9999f), Climate.Parameter.span(-1.2f, -0.6999f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-0.5f, 0.5f),
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.5709f, 0.9999f), Climate.Parameter.span(-1.2f, -0.6999f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.4f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "semidesert")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.571f, 0.9999f), Climate.Parameter.span(-1.2f, -0.6999f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-0.5f, 0.5f),
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.5709f, 0.9999f), Climate.Parameter.span(-1.2f, -0.6999f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-0.4f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "semidesert")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.2f, 0.55f), Climate.Parameter.span(0.1f, 0.3f), Climate.Parameter.span(-0.11f, 0.4f), Climate.Parameter.span(-0.5f, 0.5f),
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.5f, 0.5f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "dry_thorn_forest")))));

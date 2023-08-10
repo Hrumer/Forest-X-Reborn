@@ -14,6 +14,7 @@ import power.forestxreborn.item.SilverIngotItem;
 import power.forestxreborn.item.SilverHoeItem;
 import power.forestxreborn.item.SilverAxeItem;
 import power.forestxreborn.item.SilverArmorItem;
+import power.forestxreborn.item.SarbakanItem;
 import power.forestxreborn.item.SapphireItem;
 import power.forestxreborn.item.RawSilverItem;
 import power.forestxreborn.item.RawGingerbreadPineItem;
@@ -236,7 +237,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> BARBECUE = REGISTRY.register("barbecue", () -> new BarbecueItem());
 	public static final RegistryObject<Item> MEAT_LOAF = REGISTRY.register("meat_loaf", () -> new MeatLoafItem());
 	public static final RegistryObject<Item> LARD = REGISTRY.register("lard", () -> new LardItem());
-	public static final RegistryObject<Item> BREADWITHLARD = REGISTRY.register("breadwithlard", () -> new BreadwithlardItem());
+	public static final RegistryObject<Item> BREAD_WITH_LARD = REGISTRY.register("bread_with_lard", () -> new BreadwithlardItem());
 	public static final RegistryObject<Item> BERRY_STRUDEL = REGISTRY.register("berry_strudel", () -> new BerryStrudelItem());
 	public static final RegistryObject<Item> GINGERBREAD_DOUGH = REGISTRY.register("gingerbread_dough", () -> new GingerbreadDoughItem());
 	public static final RegistryObject<Item> RAW_GINGERBREAD_MAN = REGISTRY.register("raw_gingerbread_man", () -> new RawGingerbreadManItem());
@@ -369,6 +370,10 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RASPBERRY_BUSH_1 = block(ForestModBlocks.RASPBERRY_BUSH_1);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_2 = block(ForestModBlocks.RASPBERRY_BUSH_2);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_3 = block(ForestModBlocks.RASPBERRY_BUSH_3);
+	public static final RegistryObject<Item> SARBAKAN = REGISTRY.register("sarbakan", () -> new SarbakanItem());
+	public static final RegistryObject<Item> RAT_SPAWN_EGG = REGISTRY.register("rat_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.RAT, -10066330, -26215, new Item.Properties()));
+	public static final RegistryObject<Item> CATTAIL = doubleBlock(ForestModBlocks.CATTAIL);
+	public static final RegistryObject<Item> CROCODILE_SPAWN_EGG = REGISTRY.register("crocodile_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.CROCODILE, -15706871, -10394052, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

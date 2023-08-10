@@ -104,7 +104,7 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 	protected void registerGoals() {
 		super.registerGoals();
 		this.goalSelector.addGoal(1, new PanicGoal(this, 1.5));
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1.2, 20) {
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 3.2, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = CalibriEntity.this.getRandom();

@@ -2,12 +2,14 @@ package power.forestxreborn.init;
 
 import power.forestxreborn.entity.VultureEntity;
 import power.forestxreborn.entity.SnailEntity;
+import power.forestxreborn.entity.RatEntity;
 import power.forestxreborn.entity.PurpleButterflyEntity;
 import power.forestxreborn.entity.PinkButterflyEntity;
 import power.forestxreborn.entity.OrangeButterflyEntity;
 import power.forestxreborn.entity.GreenButterflyEntity;
 import power.forestxreborn.entity.FireSalamanderEntity;
 import power.forestxreborn.entity.FennecEntity;
+import power.forestxreborn.entity.CrocodileEntity;
 import power.forestxreborn.entity.CalibriEntity;
 import power.forestxreborn.entity.BrownBearEntity;
 import power.forestxreborn.entity.BlueButterflyEntity;
@@ -92,6 +94,20 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof VultureEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof RatEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof CrocodileEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

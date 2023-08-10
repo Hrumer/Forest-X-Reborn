@@ -229,6 +229,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModBlocks.GRAPE_VINE_0.get().asItem());
 					tabData.accept(ForestModBlocks.WHITE_ROSE_BUSH.get().asItem());
 					tabData.accept(ForestModBlocks.PINK_ROSE_BUSH.get().asItem());
+					tabData.accept(ForestModBlocks.CATTAIL.get().asItem());
 				})
 
 		);
@@ -252,7 +253,7 @@ public class ForestModTabs {
 			tabData.accept(ForestModItems.BARBECUE.get());
 			tabData.accept(ForestModItems.MEAT_LOAF.get());
 			tabData.accept(ForestModItems.LARD.get());
-			tabData.accept(ForestModItems.BREADWITHLARD.get());
+			tabData.accept(ForestModItems.BREAD_WITH_LARD.get());
 			tabData.accept(ForestModItems.BERRY_STRUDEL.get());
 			tabData.accept(ForestModItems.GINGERBREAD_DOUGH.get());
 			tabData.accept(ForestModItems.RAW_GINGERBREAD_MAN.get());
@@ -305,6 +306,7 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.SILVER_ARMOR_LEGGINGS.get());
 					tabData.accept(ForestModItems.SILVER_ARMOR_BOOTS.get());
 					tabData.accept(ForestModItems.QUIVER.get());
+					tabData.accept(ForestModItems.SARBAKAN.get());
 				})
 
 		);
@@ -328,6 +330,8 @@ public class ForestModTabs {
 					tabData.accept(ForestModItems.PURPLE_BUTTERFLY_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.CALIBRI_SPAWN_EGG.get());
 					tabData.accept(ForestModItems.VULTURE_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.RAT_SPAWN_EGG.get());
+					tabData.accept(ForestModItems.CROCODILE_SPAWN_EGG.get());
 				})
 
 		);
