@@ -31,9 +31,9 @@
     "bulletParticles": false,
     "bulletIgnitesFire": false,
     "bulletItemTexture": {
-      "value": ""
+      "value": "CUSTOM:Dart"
     },
-    "bulletModel": "Modeldart",
+    "bulletModel": "Default",
     "customBulletModelTexture": "dart.png",
     "onBulletHitsEntity": {
       "name": "SarbakanKoghdaSnariadPopadaietVSushchnost"

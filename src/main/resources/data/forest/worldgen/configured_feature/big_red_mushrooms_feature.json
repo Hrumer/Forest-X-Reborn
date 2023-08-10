@@ -1,0 +1,40 @@
+{
+  "type": "forest:big_red_mushrooms_feature",
+  "config": {
+    "valid_base_block": {
+      "Name": "minecraft:mycelium",
+      "Properties": {
+        "snowy": "false"
+      }
+    },
+    "stem_state": {
+      "Name": "minecraft:mushroom_stem",
+      "Properties": {
+        "down": "true",
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "up": "true",
+        "west": "true"
+      }
+    },
+    "hat_state": {
+      "Name": "minecraft:red_mushroom_block",
+      "Properties": {
+        "down": "true",
+        "east": "true",
+        "north": "true",
+        "south": "true",
+        "up": "true",
+        "west": "true"
+      }
+    },
+    "decor_state": {
+      "Name": "minecraft:cave_air"
+    },
+    "replaceable_blocks": {
+      "type": "minecraft:matching_blocks",
+      "blocks": "minecraft:air"
+    }
+  }
+}

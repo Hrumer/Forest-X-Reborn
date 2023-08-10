@@ -50,7 +50,7 @@ public class SarbakanEntity extends AbstractArrow implements ItemSupplier {
 	@Override
 	@OnlyIn(Dist.CLIENT)
 	public ItemStack getItem() {
-		return ItemStack.EMPTY;
+		return new ItemStack(ForestModItems.DART.get());
 	}
 
 	@Override

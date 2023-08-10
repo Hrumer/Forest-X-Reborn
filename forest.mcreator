@@ -10331,15 +10331,14 @@
       "name": "Sarbakan",
       "type": "rangeditem",
       "sortid": 606,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "sarbakan",
       "metadata": {
         "files": [
           "src/main/resources/assets/forest/models/item/sarbakan.json",
           "src/main/java/power/forestxreborn/item/SarbakanItem.java",
-          "src/main/java/power/forestxreborn/entity/SarbakanEntity.java",
-          "src/main/java/power/forestxreborn/client/renderer/SarbakanRenderer.java"
+          "src/main/java/power/forestxreborn/entity/SarbakanEntity.java"
         ]
       },
       "path": "~/Sarbakan"
