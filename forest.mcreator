@@ -10331,7 +10331,7 @@
       "name": "Sarbakan",
       "type": "rangeditem",
       "sortid": 606,
-      "compiles": true,
+      "compiles": false,
       "locked_code": false,
       "registry_name": "sarbakan",
       "metadata": {
@@ -11578,7 +11578,7 @@
       "geckolib",
       "allmods"
     ],
-    "currentGenerator": "forge-1.19.4",
+    "currentGenerator": "forge-1.20.1",
     "credits": "Created by MagicalAlexey with the support of 7ZLBeka, maxD, Samuelchik",
     "modElementsPackage": "power.forestxreborn",
     "lockBaseModFiles": false

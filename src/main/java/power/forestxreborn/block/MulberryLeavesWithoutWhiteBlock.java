@@ -3,7 +3,6 @@ package power.forestxreborn.block;
 
 import power.forestxreborn.procedures.MulberryLeavesWithoutWhiteObnovlieniieTikaProcedure;
 
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -22,7 +21,7 @@ import java.util.List;
 
 public class MulberryLeavesWithoutWhiteBlock extends LeavesBlock {
 	public MulberryLeavesWithoutWhiteBlock() {
-		super(BlockBehaviour.Properties.of(Material.LEAVES).sound(SoundType.GRASS).strength(0.2f).noOcclusion());
+		super(BlockBehaviour.Properties.of().ignitedByLava().sound(SoundType.GRASS).strength(0.2f).noOcclusion());
 	}
 
 	@Override

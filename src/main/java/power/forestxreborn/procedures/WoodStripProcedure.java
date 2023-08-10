@@ -18,7 +18,6 @@ import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.nbt.CompoundTag;
@@ -46,13 +45,6 @@ public class WoodStripProcedure {
 			return;
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem && ForestModBlocks.EUCALYPTUS_LOG.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
-				{
-					ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-					if (_ist.hurt(1, RandomSource.create(), null)) {
-						_ist.shrink(1);
-						_ist.setDamageValue(0);
-					}
-				}
 			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
@@ -96,13 +88,6 @@ public class WoodStripProcedure {
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem && ForestModBlocks.EUCALYPTUS_WOOD.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
-				{
-					ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-					if (_ist.hurt(1, RandomSource.create(), null)) {
-						_ist.shrink(1);
-						_ist.setDamageValue(0);
-					}
-				}
 			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
@@ -146,13 +131,6 @@ public class WoodStripProcedure {
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem && ForestModBlocks.MULBERRY_WOOD.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
-				{
-					ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-					if (_ist.hurt(1, RandomSource.create(), null)) {
-						_ist.shrink(1);
-						_ist.setDamageValue(0);
-					}
-				}
 			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
@@ -196,13 +174,6 @@ public class WoodStripProcedure {
 		}
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() instanceof AxeItem && ForestModBlocks.MULBERRY_LOG.get() == (world.getBlockState(BlockPos.containing(x, y, z))).getBlock()) {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
-				{
-					ItemStack _ist = (entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY);
-					if (_ist.hurt(1, RandomSource.create(), null)) {
-						_ist.shrink(1);
-						_ist.setDamageValue(0);
-					}
-				}
 			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {

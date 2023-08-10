@@ -3,8 +3,9 @@ package power.forestxreborn.block;
 
 import net.minecraftforge.common.PlantType;
 
-import net.minecraft.world.level.storage.loot.LootContext;
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.material.PushReaction;
+import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.properties.DoubleBlockHalf;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
@@ -22,7 +23,7 @@ import java.util.Collections;
 
 public class PinkRoseBushBlock extends DoublePlantBlock {
 	public PinkRoseBushBlock() {
-		super(BlockBehaviour.Properties.of(Material.PLANT).sound(SoundType.GRASS).instabreak().noCollission());
+		super(BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override
@@ -41,7 +42,7 @@ public class PinkRoseBushBlock extends DoublePlantBlock {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		if (state.getValue(HALF) != DoubleBlockHalf.LOWER)
 			return Collections.emptyList();
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);

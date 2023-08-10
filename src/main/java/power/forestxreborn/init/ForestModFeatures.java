@@ -33,8 +33,6 @@ import power.forestxreborn.world.features.CobblestonePatchFeature;
 import power.forestxreborn.world.features.BrownMushroomsFeatureFeature;
 import power.forestxreborn.world.features.BlueberriesBushFeatureFeature;
 import power.forestxreborn.world.features.BlackMulberryTreeFeature;
-import power.forestxreborn.world.features.BigRedMushroomsFeatureFeature;
-import power.forestxreborn.world.features.BigBrownMushroomsFeatureFeature;
 import power.forestxreborn.ForestMod;
 
 import net.minecraftforge.registries.RegistryObject;
