@@ -1,6 +1,6 @@
 What's new in Forest X Reborn 1.4.0<br />
 Snapshot 1.4.0.230814:
-<br /> - 
+<br /> - Ported the mod to the Minecraft version 1.20.1
 <br /> - [Bugfix]
 Snapshot 1.4.0.230810:
 <br /> - Added rat
