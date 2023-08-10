@@ -1754,10 +1754,10 @@
       "sortid": 167,
       "compiles": true,
       "locked_code": false,
-      "registry_name": "breadwithlard",
+      "registry_name": "bread_with_lard",
       "metadata": {
         "files": [
-          "src/main/resources/assets/forest/models/item/breadwithlard.json",
+          "src/main/resources/assets/forest/models/item/bread_with_lard.json",
           "src/main/java/power/forestxreborn/item/BreadwithlardItem.java"
         ]
       },
@@ -10606,8 +10606,8 @@
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "item.forest.gingerbread_round": "Пряник",
+      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10723,6 +10723,7 @@
       "item.forest.gingerbread_brick": "Пряник",
       "block.forest.pumice_bricks_slab": "Плита из кирпичей пемзы",
       "item_group.forest.mobs": "Мобы",
+      "item.forest.bread_with_lard": "Bread with lard",
       "item.forest.gingerbread_man": "Пряник",
       "special_info.quiver.arrows_count": "Количество стрел: ",
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
@@ -10734,7 +10735,6 @@
       "item.forest.lettuce_seed": "Семена салата",
       "block.forest.polished_sandslate_wall": "Ограда из полированного песчаного сланца",
       "block.forest.red_slab": "Красная плита",
-      "item.forest.breadwithlard": "Хлеб с салом",
       "block.forest.cobbled_sandslate_slab": "Плита из дробленого песчаного сланца",
       "block.forest.blue_fence": "Синий забор",
       "block.forest.grape_vine_1": "Grape Vine",
@@ -10984,8 +10984,8 @@
     },
     "en_us": {
       "item.forest.polar_bear_armor_helmet": "Brown Bear Armor Helmet",
-      "block.forest.gingerbread_bricks": "Gingerbread Bricks",
       "item.forest.gingerbread_round": "Gingerbread",
+      "block.forest.gingerbread_bricks": "Gingerbread Bricks",
       "block.forest.white_planks": "White Planks",
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
@@ -11101,6 +11101,7 @@
       "item.forest.gingerbread_brick": "Gingerbread",
       "block.forest.pumice_bricks_slab": "Pumice Bricks Slab",
       "item_group.forest.mobs": "Mobs",
+      "item.forest.bread_with_lard": "Bread with lard",
       "item.forest.gingerbread_man": "Gingerbread",
       "special_info.quiver.arrows_count": "Amount of arrows:",
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
@@ -11112,7 +11113,6 @@
       "item.forest.lettuce_seed": "Lettuce Seed",
       "block.forest.polished_sandslate_wall": "Polished Sandslate Wall",
       "block.forest.red_slab": "Red Slab",
-      "item.forest.breadwithlard": "Bread with lard",
       "block.forest.cobbled_sandslate_slab": "Cobbled Sandslate Slab",
       "block.forest.blue_fence": "Blue Fence",
       "block.forest.grape_vine_1": "Grape Vine",

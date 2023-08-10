@@ -237,7 +237,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> BARBECUE = REGISTRY.register("barbecue", () -> new BarbecueItem());
 	public static final RegistryObject<Item> MEAT_LOAF = REGISTRY.register("meat_loaf", () -> new MeatLoafItem());
 	public static final RegistryObject<Item> LARD = REGISTRY.register("lard", () -> new LardItem());
-	public static final RegistryObject<Item> BREADWITHLARD = REGISTRY.register("breadwithlard", () -> new BreadwithlardItem());
+	public static final RegistryObject<Item> BREAD_WITH_LARD = REGISTRY.register("bread_with_lard", () -> new BreadwithlardItem());
 	public static final RegistryObject<Item> BERRY_STRUDEL = REGISTRY.register("berry_strudel", () -> new BerryStrudelItem());
 	public static final RegistryObject<Item> GINGERBREAD_DOUGH = REGISTRY.register("gingerbread_dough", () -> new GingerbreadDoughItem());
 	public static final RegistryObject<Item> RAW_GINGERBREAD_MAN = REGISTRY.register("raw_gingerbread_man", () -> new RawGingerbreadManItem());
