@@ -6,6 +6,7 @@ package power.forestxreborn.init;
 
 import power.forestxreborn.client.renderer.VultureRenderer;
 import power.forestxreborn.client.renderer.SnailRenderer;
+import power.forestxreborn.client.renderer.SarbakanRenderer;
 import power.forestxreborn.client.renderer.RatRenderer;
 import power.forestxreborn.client.renderer.RacoonRenderer;
 import power.forestxreborn.client.renderer.PurpleButterflyRenderer;
@@ -23,8 +24,6 @@ import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.client.event.EntityRenderersEvent;
 import net.minecraftforge.api.distmarker.Dist;
-
-import net.minecraft.client.renderer.entity.ThrownItemRenderer;
 
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ForestModEntityRenderers {
@@ -44,6 +43,6 @@ public class ForestModEntityRenderers {
 		event.registerEntityRenderer(ForestModEntities.VULTURE.get(), VultureRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.RAT.get(), RatRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.CROCODILE.get(), CrocodileRenderer::new);
-		event.registerEntityRenderer(ForestModEntities.SARBAKAN.get(), ThrownItemRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.SARBAKAN.get(), SarbakanRenderer::new);
 	}
 }
