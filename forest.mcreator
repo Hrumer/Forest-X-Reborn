@@ -10529,7 +10529,7 @@
           "src/main/java/power/forestxreborn/entity/model/TumbleweedModel.java"
         ]
       },
-      "path": "~/OtherEntity"
+      "path": "~/Mobs"
     }
   ],
   "variable_elements": [
@@ -11578,7 +11578,7 @@
         "children": []
       },
       {
-        "name": "OtherEntity",
+        "name": "Mobs",
         "children": []
       }
     ]
