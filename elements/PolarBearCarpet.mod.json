@@ -9,7 +9,7 @@
     "textureRight": "",
     "textureBack": "",
     "renderType": 2,
-    "customModelName": "carpet:polar",
+    "customModelName": "bear_carpets:polar",
     "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
@@ -20,7 +20,7 @@
     "isItemTinted": false,
     "hasTransparency": true,
     "connectedSides": false,
-    "transparencyType": "SOLID",
+    "transparencyType": "CUTOUT_MIPPED",
     "disableOffset": false,
     "boundingBoxes": [
       {
@@ -28,6 +28,42 @@
         "my": 0.0,
         "mz": 0.0,
         "Mx": 16.0,
+        "My": 1.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 1.0,
+        "mz": -3.0,
+        "Mx": 16.0,
+        "My": 1.0,
+        "Mz": 0.0,
+        "subtract": false
+      },
+      {
+        "mx": 0.0,
+        "my": 1.0,
+        "mz": 16.0,
+        "Mx": 16.0,
+        "My": 1.0,
+        "Mz": 19.0,
+        "subtract": false
+      },
+      {
+        "mx": 16.0,
+        "my": 1.0,
+        "mz": 0.0,
+        "Mx": 19.0,
+        "My": 1.0,
+        "Mz": 16.0,
+        "subtract": false
+      },
+      {
+        "mx": -3.0,
+        "my": 1.0,
+        "mz": 0.0,
+        "Mx": 0.0,
         "My": 1.0,
         "Mz": 16.0,
         "subtract": false
