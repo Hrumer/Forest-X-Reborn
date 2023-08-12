@@ -10512,6 +10512,24 @@
         ]
       },
       "path": "~/Animals"
+    },
+    {
+      "name": "Tumbleweed",
+      "type": "animatedentity",
+      "sortid": 618,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tumbleweed",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/forge/biome_modifier/tumbleweed_biome_modifier.json",
+          "src/main/java/power/forestxreborn/client/renderer/TumbleweedRenderer.java",
+          "src/main/resources/assets/forest/models/item/tumbleweed_spawn_egg.json",
+          "src/main/java/power/forestxreborn/entity/TumbleweedEntity.java",
+          "src/main/java/power/forestxreborn/entity/model/TumbleweedModel.java"
+        ]
+      },
+      "path": "~/OtherEntity"
     }
   ],
   "variable_elements": [
@@ -10605,8 +10623,8 @@
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
+      "item.forest.gingerbread_round": "Пряник",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10704,6 +10722,7 @@
       "item.forest.blueberry": "Черника",
       "block.forest.red_fence": "Красный забор",
       "block.forest.blue_slab": "Синяя плита",
+      "item.forest.tumbleweed_spawn_egg": "tumbleweed Spawn Egg",
       "subtitles.lizard.ambient": "",
       "block.forest.mulberry_fence": "Забор из шелковицы",
       "item.forest.pink_butterfly_spawn_egg": "Яйцо призыва розовой бабочки",
@@ -10972,6 +10991,7 @@
       "block.forest.eucalyptus_slab": "Плита из эвкалиптовых досок",
       "block.forest.mulberry_planks": "Доски из шелковицы",
       "biome.forest.peatbog": "Торфянное болото",
+      "entity.forest.tumbleweed": "tumbleweed",
       "block.forest.orange_fence": "Оранжевый забор",
       "block.forest.pink_slab": "Розовая плита",
       "entity.forest.purple_butterfly": "Фиолетовая бабочка",
@@ -10983,8 +11003,8 @@
     },
     "en_us": {
       "item.forest.polar_bear_armor_helmet": "Brown Bear Armor Helmet",
-      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.gingerbread_bricks": "Gingerbread Bricks",
+      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.white_planks": "White Planks",
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
@@ -11082,6 +11102,7 @@
       "item.forest.blueberry": "Blueberry",
       "block.forest.red_fence": "Red Fence",
       "block.forest.blue_slab": "Blue Slab",
+      "item.forest.tumbleweed_spawn_egg": "tumbleweed Spawn Egg",
       "subtitles.lizard.ambient": "",
       "block.forest.mulberry_fence": "Mulberry Fence",
       "item.forest.pink_butterfly_spawn_egg": "Pink Butterfly Spawn Egg",
@@ -11350,6 +11371,7 @@
       "block.forest.eucalyptus_slab": "Eucalyptus Slab",
       "block.forest.mulberry_planks": "Mulberry Planks",
       "biome.forest.peatbog": "Peatbog",
+      "entity.forest.tumbleweed": "tumbleweed",
       "block.forest.orange_fence": "Orange Fence",
       "block.forest.pink_slab": "Pink Slab",
       "entity.forest.purple_butterfly": "Purple Butterfly",
@@ -11553,6 +11575,10 @@
       },
       {
         "name": "Sarbakan",
+        "children": []
+      },
+      {
+        "name": "OtherEntity",
         "children": []
       }
     ]
