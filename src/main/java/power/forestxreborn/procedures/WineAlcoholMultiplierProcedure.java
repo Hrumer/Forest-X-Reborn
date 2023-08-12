@@ -11,9 +11,9 @@ public class WineAlcoholMultiplierProcedure {
 	public static void execute(Entity entity) {
 		if (entity == null)
 			return;
-		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.REGENERATION, 400, 1, false, false));
-		if (entity instanceof LivingEntity _entity && !_entity.level.isClientSide())
+		if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
 			_entity.addEffect(new MobEffectInstance(MobEffects.DIG_SPEED, 3000, 3, false, false));
 		{
 			double _setval = (entity.getCapability(ForestModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ForestModVariables.PlayerVariables())).alcohol + 0.3;

@@ -1,7 +1,7 @@
 
 package power.forestxreborn.block;
 
-import net.minecraft.world.level.material.Material;
+import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -18,7 +18,7 @@ import java.util.List;
 
 public class SapphireOreBlock extends Block {
 	public SapphireOreBlock() {
-		super(BlockBehaviour.Properties.of(Material.STONE).sound(SoundType.STONE).strength(3.9f, 6.1677205204f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(3.9f, 6.1677205204f).requiresCorrectToolForDrops());
 	}
 
 	@Override

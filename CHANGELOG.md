@@ -1,2 +1,2 @@
-What's new in Forest X Reborn 1.3.6<br /> 
-<br /> - [Bugfix] Fixed a bug with blueberries that were not consumed during planting
+What's new in Forest X Reborn 1.3.7<br /> 
+<br /> - Porting the mod to the Minecraft version 1.20.1
