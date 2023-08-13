@@ -10331,8 +10331,8 @@
       "name": "Sarbakan",
       "type": "rangeditem",
       "sortid": 237,
-      "compiles": false,
-      "locked_code": false,
+      "compiles": true,
+      "locked_code": true,
       "registry_name": "sarbakan",
       "metadata": {
         "files": [
