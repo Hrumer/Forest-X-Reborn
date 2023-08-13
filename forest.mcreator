@@ -548,7 +548,7 @@
           "src/main/resources/assets/forest/blockstates/snail_shell.json"
         ]
       },
-      "path": "~/Animals"
+      "path": "~/AnimalsTriggers"
     },
     {
       "name": "DeepslateSapphireOre",
@@ -787,7 +787,7 @@
           "src/main/resources/data/forest/loot_tables/entities/snail.json"
         ]
       },
-      "path": "~/Animals"
+      "path": "~/AnimalsTriggers"
     },
     {
       "name": "DirtBlocks",
@@ -9367,7 +9367,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/GlobalTriggers"
     },
     {
       "name": "StrippedMulberryWood",
@@ -10514,7 +10515,8 @@
       "registry_name": "trades",
       "metadata": {
         "files": []
-      }
+      },
+      "path": "~/Villagers"
     },
     {
       "name": "IfNight",
@@ -10535,7 +10537,7 @@
           }
         ]
       },
-      "path": "~/Animals"
+      "path": "~/AnimalsTriggers"
     },
     {
       "name": "Scorpion",
@@ -10569,6 +10571,44 @@
         ]
       },
       "path": "~/Food"
+    },
+    {
+      "name": "PoisonousAnimal",
+      "type": "tag",
+      "sortid": 623,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "poisonous_animal",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/tags/entity_types/poisonous_animal.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "AttackPoisonousAnimals",
+      "type": "procedure",
+      "sortid": 624,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attack_poisonous_animals",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/AttackPoisonousAnimalsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GlobalTriggers"
     }
   ],
   "variable_elements": [
@@ -11642,6 +11682,18 @@
       },
       {
         "name": "Mobs",
+        "children": []
+      },
+      {
+        "name": "AnimalsTriggers",
+        "children": []
+      },
+      {
+        "name": "GlobalTriggers",
+        "children": []
+      },
+      {
+        "name": "Villagers",
         "children": []
       }
     ]

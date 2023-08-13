@@ -1,0 +1,18 @@
+{
+  "_fv": 45,
+  "_type": "tag",
+  "definition": {
+    "type": "Entities",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [
+      {
+        "value": "CUSTOM:Scorpion"
+      }
+    ],
+    "biomes": [],
+    "name": "poisonous_animal",
+    "namespace": "mod"
+  }
+}
