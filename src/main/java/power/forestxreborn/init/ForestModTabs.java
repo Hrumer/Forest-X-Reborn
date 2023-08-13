@@ -246,7 +246,6 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.BARBECUE.get());
 				tabData.accept(ForestModItems.MEAT_LOAF.get());
 				tabData.accept(ForestModItems.LARD.get());
-				tabData.accept(ForestModItems.BREAD_WITH_LARD.get());
 				tabData.accept(ForestModItems.BERRY_STRUDEL.get());
 				tabData.accept(ForestModItems.GINGERBREAD_DOUGH.get());
 				tabData.accept(ForestModItems.RAW_GINGERBREAD_MAN.get());
@@ -264,6 +263,7 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.BLACK_MULBERRY.get());
 				tabData.accept(ForestModItems.WHITE_MULBERRY.get());
 				tabData.accept(ForestModItems.RASPBERRY.get());
+				tabData.accept(ForestModItems.BREAD_WITH_LARD.get());
 			})
 
 					.build());

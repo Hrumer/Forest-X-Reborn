@@ -52,7 +52,7 @@ import power.forestxreborn.item.DartItem;
 import power.forestxreborn.item.CalibriFeatherItem;
 import power.forestxreborn.item.BrownBearPeltItem;
 import power.forestxreborn.item.BrownBearArmorItem;
-import power.forestxreborn.item.BreadwithlardItem;
+import power.forestxreborn.item.BreadWithLardItem;
 import power.forestxreborn.item.BlueberryItem;
 import power.forestxreborn.item.BlackMulberryItem;
 import power.forestxreborn.item.BerryStrudelItem;
@@ -239,7 +239,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> BARBECUE = REGISTRY.register("barbecue", () -> new BarbecueItem());
 	public static final RegistryObject<Item> MEAT_LOAF = REGISTRY.register("meat_loaf", () -> new MeatLoafItem());
 	public static final RegistryObject<Item> LARD = REGISTRY.register("lard", () -> new LardItem());
-	public static final RegistryObject<Item> BREAD_WITH_LARD = REGISTRY.register("bread_with_lard", () -> new BreadwithlardItem());
 	public static final RegistryObject<Item> BERRY_STRUDEL = REGISTRY.register("berry_strudel", () -> new BerryStrudelItem());
 	public static final RegistryObject<Item> GINGERBREAD_DOUGH = REGISTRY.register("gingerbread_dough", () -> new GingerbreadDoughItem());
 	public static final RegistryObject<Item> RAW_GINGERBREAD_MAN = REGISTRY.register("raw_gingerbread_man", () -> new RawGingerbreadManItem());
@@ -375,6 +374,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RASPBERRY_BUSH_2 = block(ForestModBlocks.RASPBERRY_BUSH_2);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_3 = block(ForestModBlocks.RASPBERRY_BUSH_3);
 	public static final RegistryObject<Item> SCORPION_SPAWN_EGG = REGISTRY.register("scorpion_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SCORPION, -13421773, -3407821, new Item.Properties()));
+	public static final RegistryObject<Item> BREAD_WITH_LARD = REGISTRY.register("bread_with_lard", () -> new BreadWithLardItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

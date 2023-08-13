@@ -12,8 +12,8 @@ import net.minecraft.network.chat.Component;
 
 import java.util.List;
 
-public class BreadwithlardItem extends Item {
-	public BreadwithlardItem() {
+public class BreadWithLardItem extends Item {
+	public BreadWithLardItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(5).saturationMod(1f).meat().build()));
 	}
 
