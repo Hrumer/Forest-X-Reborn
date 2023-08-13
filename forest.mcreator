@@ -10525,7 +10525,6 @@
         "files": [
           "src/main/resources/data/forest/forge/biome_modifier/tumbleweed_biome_modifier.json",
           "src/main/java/power/forestxreborn/client/renderer/TumbleweedRenderer.java",
-          "src/main/resources/assets/forest/models/item/tumbleweed_spawn_egg.json",
           "src/main/java/power/forestxreborn/entity/TumbleweedEntity.java",
           "src/main/java/power/forestxreborn/entity/model/TumbleweedModel.java"
         ]
@@ -10624,8 +10623,8 @@
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
+      "item.forest.gingerbread_round": "Пряник",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10682,7 +10681,7 @@
       "block.forest.green_planks": "Зелёные доски",
       "subtitles.calibri.ambient": "",
       "block.forest.magenta_fence": "Пурпурный забор",
-      "block.forest.brown_bear_carpet": "Ковер из шкуры бурого медведя",
+      "block.forest.brown_bear_carpet": "Ковёр из шкуры бурого медведя",
       "block.forest.polished_sandslate": "Полированнный песчаный сланец",
       "block.forest.eucalyptus_wood": "Эвкалипт",
       "block.forest.marble_bricks_stairs": "Ступени из мраморных кирпичей",
@@ -10710,7 +10709,7 @@
       "item.forest.silver_shovel": "Серебряная лопата",
       "block.forest.light_blue_fence": "Голубой забор",
       "block.forest.polished_pumice_stairs": "Ступени из полированной пемзы",
-      "block.forest.polar_bear_carpet": "Ковер из шкуры белого медведя",
+      "block.forest.polar_bear_carpet": "Ковёр из шкуры белого медведя",
       "desc.gingerbread_pine": "Ёлка",
       "block.forest.mulberry_leaves_without_black": "Листья шелковицы",
       "item.forest.purple_butterfly_spawn_egg": "Яйцо призыва фиолетовой бабочки",
