@@ -8813,17 +8813,6 @@
       "path": "~/Tags"
     },
     {
-      "name": "TradesCustomization",
-      "type": "villagertrade",
-      "sortid": 560,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "trades_customization",
-      "metadata": {
-        "files": []
-      }
-    },
-    {
       "name": "GrapevineLog",
       "type": "structure",
       "sortid": 561,
@@ -10530,6 +10519,56 @@
         ]
       },
       "path": "~/Mobs"
+    },
+    {
+      "name": "Trades",
+      "type": "villagertrade",
+      "sortid": 619,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "trades",
+      "metadata": {
+        "files": []
+      }
+    },
+    {
+      "name": "IfNight",
+      "type": "procedure",
+      "sortid": 620,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "if_night",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/power/forestxreborn/procedures/IfNightProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Animals"
+    },
+    {
+      "name": "Scorpion",
+      "type": "animatedentity",
+      "sortid": 621,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "scorpion",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/scorpion_spawn_egg.json",
+          "src/main/java/power/forestxreborn/entity/model/ScorpionModel.java",
+          "src/main/resources/data/forest/forge/biome_modifier/scorpion_biome_modifier.json",
+          "src/main/java/power/forestxreborn/entity/ScorpionEntity.java",
+          "src/main/java/power/forestxreborn/client/renderer/ScorpionRenderer.java"
+        ]
+      },
+      "path": "~/Animals"
     }
   ],
   "variable_elements": [
@@ -10618,13 +10657,29 @@
       ],
       "category": "hostile",
       "subtitle": ""
+    },
+    {
+      "name": "scorpion.ambient",
+      "files": [
+        "scorpion.ambient"
+      ],
+      "category": "hostile",
+      "subtitle": ""
+    },
+    {
+      "name": "scorpion.hurt",
+      "files": [
+        "scorpion.hurt"
+      ],
+      "category": "hostile",
+      "subtitle": ""
     }
   ],
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "item.forest.gingerbread_round": "Пряник",
+      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -10676,6 +10731,8 @@
       "block.forest.mulberry_pressure_plate": "Нажимная плита из шелковицы",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
       "block.forest.polished_sandslate_stairs": "Ступени из полированного песчаного сланца",
+      "subtitles.scorpion.ambient": "",
+      "entity.forest.scorpion": "Scorpion",
       "block.forest.magenta_planks": "Пурпурные доски",
       "block.forest.blue_fence_gate": "Синяя калитка",
       "block.forest.green_planks": "Зелёные доски",
@@ -10700,6 +10757,7 @@
       "block.forest.stripped_eucalyptus_log": "Обтёсанное бревно эвкалипта",
       "item.forest.silver_armor_boots": "Серебряные ботинки",
       "advancements.robin_hood_is_back.descr": "Создайте колчан и положите туда стрелы",
+      "item.forest.scorpion_spawn_egg": "Scorpion Spawn Egg",
       "item.forest.calibri_spawn_egg": "Яйцо призыва калибри",
       "block.forest.lime_fence": "Лаймовый забор",
       "block.forest.polished_marble_slab": "Плита из полированного мрамора",
@@ -10936,6 +10994,7 @@
       "block.forest.marble_bricks": "Мраморные кирпичи",
       "block.forest.rhyolite_stairs": "Риолитовые ступени",
       "item.forest.brown_bear_spawn_egg": "Яйцо призыва бурого медведя",
+      "subtitles.scorpion.hurt": "",
       "block.forest.pumice_wall": "Ограда из пемзы",
       "block.forest.red_planks": "Красные доски",
       "trim_material.forest.silver": "Серебряный материал",
@@ -11003,8 +11062,8 @@
     },
     "en_us": {
       "item.forest.polar_bear_armor_helmet": "Brown Bear Armor Helmet",
-      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.gingerbread_bricks": "Gingerbread Bricks",
+      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.white_planks": "White Planks",
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
@@ -11056,6 +11115,8 @@
       "block.forest.mulberry_pressure_plate": "Mulberry Pressure Plate",
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
       "block.forest.polished_sandslate_stairs": "Polished Sandslate Stairs",
+      "subtitles.scorpion.ambient": "",
+      "entity.forest.scorpion": "Scorpion",
       "block.forest.magenta_planks": "Magenta Planks",
       "block.forest.blue_fence_gate": "Blue Fence Gate",
       "block.forest.green_planks": "Green Planks",
@@ -11080,6 +11141,7 @@
       "block.forest.stripped_eucalyptus_log": "Stripped Eucalyptus Log",
       "item.forest.silver_armor_boots": "Silver Boots",
       "advancements.robin_hood_is_back.descr": "Create a quiver and put arrows there",
+      "item.forest.scorpion_spawn_egg": "Scorpion Spawn Egg",
       "item.forest.calibri_spawn_egg": "Calibri Spawn Egg",
       "block.forest.lime_fence": "Lime Fence",
       "block.forest.polished_marble_slab": "Polished Marble Slab",
@@ -11316,6 +11378,7 @@
       "block.forest.marble_bricks": "Marble Bricks",
       "block.forest.rhyolite_stairs": "Rhyolite Stairs",
       "item.forest.brown_bear_spawn_egg": "Brown Bear Spawn Egg",
+      "subtitles.scorpion.hurt": "",
       "block.forest.pumice_wall": "Pumice Wall",
       "block.forest.red_planks": "Red Planks",
       "trim_material.forest.silver": "Silver Material",

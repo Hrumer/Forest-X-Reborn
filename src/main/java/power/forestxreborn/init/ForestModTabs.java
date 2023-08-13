@@ -325,6 +325,7 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.VULTURE_SPAWN_EGG.get());
 				tabData.accept(ForestModItems.RAT_SPAWN_EGG.get());
 				tabData.accept(ForestModItems.CROCODILE_SPAWN_EGG.get());
+				tabData.accept(ForestModItems.SCORPION_SPAWN_EGG.get());
 			})
 
 					.build());

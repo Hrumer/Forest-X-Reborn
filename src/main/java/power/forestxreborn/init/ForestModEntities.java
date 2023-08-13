@@ -7,6 +7,7 @@ package power.forestxreborn.init;
 import power.forestxreborn.entity.VultureEntity;
 import power.forestxreborn.entity.TumbleweedEntity;
 import power.forestxreborn.entity.SnailEntity;
+import power.forestxreborn.entity.ScorpionEntity;
 import power.forestxreborn.entity.SarbakanEntity;
 import power.forestxreborn.entity.RatEntity;
 import power.forestxreborn.entity.RacoonEntity;
@@ -97,6 +98,10 @@ public class ForestModEntities {
 			EntityType.Builder.<TumbleweedEntity>of(TumbleweedEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TumbleweedEntity::new)
 
 					.sized(0.8f, 0.8f));
+	public static final RegistryObject<EntityType<ScorpionEntity>> SCORPION = register("scorpion",
+			EntityType.Builder.<ScorpionEntity>of(ScorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ScorpionEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -120,6 +125,7 @@ public class ForestModEntities {
 			RatEntity.init();
 			CrocodileEntity.init();
 			TumbleweedEntity.init();
+			ScorpionEntity.init();
 		});
 	}
 
@@ -140,5 +146,6 @@ public class ForestModEntities {
 		event.put(RAT.get(), RatEntity.createAttributes().build());
 		event.put(CROCODILE.get(), CrocodileEntity.createAttributes().build());
 		event.put(TUMBLEWEED.get(), TumbleweedEntity.createAttributes().build());
+		event.put(SCORPION.get(), ScorpionEntity.createAttributes().build());
 	}
 }

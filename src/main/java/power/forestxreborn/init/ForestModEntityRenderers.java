@@ -7,6 +7,7 @@ package power.forestxreborn.init;
 import power.forestxreborn.client.renderer.VultureRenderer;
 import power.forestxreborn.client.renderer.TumbleweedRenderer;
 import power.forestxreborn.client.renderer.SnailRenderer;
+import power.forestxreborn.client.renderer.ScorpionRenderer;
 import power.forestxreborn.client.renderer.SarbakanRenderer;
 import power.forestxreborn.client.renderer.RatRenderer;
 import power.forestxreborn.client.renderer.RacoonRenderer;
@@ -46,5 +47,6 @@ public class ForestModEntityRenderers {
 		event.registerEntityRenderer(ForestModEntities.CROCODILE.get(), CrocodileRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SARBAKAN.get(), SarbakanRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.TUMBLEWEED.get(), TumbleweedRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.SCORPION.get(), ScorpionRenderer::new);
 	}
 }
