@@ -45,8 +45,8 @@ public class ForestModEntityRenderers {
 		event.registerEntityRenderer(ForestModEntities.VULTURE.get(), VultureRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.RAT.get(), RatRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.CROCODILE.get(), CrocodileRenderer::new);
-		event.registerEntityRenderer(ForestModEntities.SARBAKAN.get(), SarbakanRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.TUMBLEWEED.get(), TumbleweedRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SCORPION.get(), ScorpionRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.SARBAKAN.get(), SarbakanRenderer::new);
 	}
 }

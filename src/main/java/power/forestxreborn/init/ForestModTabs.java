@@ -8,17 +8,12 @@ import power.forestxreborn.ForestMod;
 
 import net.minecraftforge.registries.RegistryObject;
 import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.BuildCreativeModeTabContentsEvent;
 
 import net.minecraft.world.item.ItemStack;
-import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraft.world.item.CreativeModeTab;
 import net.minecraft.network.chat.Component;
 import net.minecraft.core.registries.Registries;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ForestModTabs {
 	public static final DeferredRegister<CreativeModeTab> REGISTRY = DeferredRegister.create(Registries.CREATIVE_MODE_TAB, ForestMod.MODID);
 	public static final RegistryObject<CreativeModeTab> TREES = REGISTRY.register("trees",
@@ -39,6 +34,8 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.MULBERRY_BUTTON.get().asItem());
 				tabData.accept(ForestModBlocks.MULBERRY_DOOR.get().asItem());
 				tabData.accept(ForestModBlocks.MULBERRY_TRAPDOOR.get().asItem());
+				tabData.accept(ForestModBlocks.MULBERRY_FENCE.get().asItem());
+				tabData.accept(ForestModBlocks.MULBERRY_FENCE_GATE.get().asItem());
 			})
 
 					.build());
@@ -342,16 +339,4 @@ public class ForestModTabs {
 			})
 
 					.build());
-
-	@SubscribeEvent
-	public static void buildTabContentsVanilla(BuildCreativeModeTabContentsEvent tabData) {
-
-		if (tabData.getTabKey() == CreativeModeTabs.REDSTONE_BLOCKS) {
-			tabData.accept(ForestModBlocks.MULBERRY_FENCE_GATE.get().asItem());
-		}
-
-		if (tabData.getTabKey() == CreativeModeTabs.NATURAL_BLOCKS) {
-			tabData.accept(ForestModBlocks.MULBERRY_FENCE.get().asItem());
-		}
-	}
 }
