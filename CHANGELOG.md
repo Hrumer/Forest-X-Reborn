@@ -1,7 +1,6 @@
 What's new in Forest X Reborn 1.4.0<br />
 Snapshot 1.4.0.230814:
 <br /> - Ported the mod to the Minecraft version 1.20.1
-<br /> - Added support for NeoForge loader
 <br /> - Added tumbleweed
 <br /> - Improved the appearance of bear pelt carpets
 <br /> - Improved grape texture
