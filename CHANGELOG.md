@@ -6,7 +6,6 @@ Snapshot 1.4.0.230814:
 <br /> - Added more trades for villagers with items from the mod
 <br /> - Improved the appearance of bear pelt carpets
 <br /> - Improved grape texture
-<br /> - [Bugfix]
 Snapshot 1.4.0.230810:
 <br /> - Added rat
 <br /> - Added crocodile
