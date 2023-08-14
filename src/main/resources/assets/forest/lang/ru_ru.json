@@ -1,7 +1,7 @@
 {
   "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-  "block.forest.gingerbread_bricks": "Пряничные кирпичи",
   "item.forest.gingerbread_round": "Пряник",
+  "block.forest.gingerbread_bricks": "Пряничные кирпичи",
   "block.forest.white_planks": "Белые доски",
   "item.forest.silver_pickaxe": "Серебряная кирка",
   "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -187,8 +187,8 @@
   "block.forest.blue_planks": "Синие доски",
   "item.forest.silver_nugget": "Серебряный самородок",
   "block.forest.black_fence_gate": "Чёрная калитка",
-  "biome.forest.mushrooms_caves": "Грибные пещеры",
   "item.forest.vulture_spawn_egg": "Яйцо призыва стервятника",
+  "biome.forest.mushrooms_caves": "Marble Caves",
   "item.forest.gingerbread_heart": "Пряник",
   "block.forest.pink_stairs": "Розовые ступени",
   "item_group.forest.ores": "Руда",
