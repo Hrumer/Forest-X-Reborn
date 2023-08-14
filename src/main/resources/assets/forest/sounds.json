@@ -70,5 +70,21 @@
         "stream": false
       }
     ]
+  },
+  "scorpion.ambient": {
+    "sounds": [
+      {
+        "name": "forest:scorpion.ambient",
+        "stream": false
+      }
+    ]
+  },
+  "scorpion.hurt": {
+    "sounds": [
+      {
+        "name": "forest:scorpion.hurt",
+        "stream": false
+      }
+    ]
   }
 }

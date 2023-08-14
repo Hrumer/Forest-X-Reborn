@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "badlands",
+    "desert"
+  ],
+  "spawners": {
+    "type": "forest:tumbleweed",
+    "weight": 5,
+    "minCount": 1,
+    "maxCount": 1
+  }
+}

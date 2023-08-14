@@ -56,6 +56,7 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> BLUE_ROSE = REGISTRY.register("blue_rose", BlueRoseFeature::new);
 	public static final RegistryObject<Feature<?>> WHITE_ROSE_BUSH = REGISTRY.register("white_rose_bush", WhiteRoseBushFeature::new);
 	public static final RegistryObject<Feature<?>> PINK_ROSE_BUSH = REGISTRY.register("pink_rose_bush", PinkRoseBushFeature::new);
+	public static final RegistryObject<Feature<?>> CATTAIL = REGISTRY.register("cattail", CattailFeature::new);
 	public static final RegistryObject<Feature<?>> SILVER_ORE = REGISTRY.register("silver_ore", SilverOreFeature::new);
 	public static final RegistryObject<Feature<?>> DEEPSLATE_SILVER_ORE = REGISTRY.register("deepslate_silver_ore", DeepslateSilverOreFeature::new);
 	public static final RegistryObject<Feature<?>> PEATBOG_LAKES = REGISTRY.register("peatbog_lakes", PeatbogLakesFeature::new);
@@ -77,5 +78,4 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> WHITE_MULBERRY_TREE = REGISTRY.register("white_mulberry_tree", WhiteMulberryTreeFeature::new);
 	public static final RegistryObject<Feature<?>> BLACK_MULBERRY_TREE = REGISTRY.register("black_mulberry_tree", BlackMulberryTreeFeature::new);
 	public static final RegistryObject<Feature<?>> RASPBERRIES_BUSH_FEATURE = REGISTRY.register("raspberries_bush_feature", RaspberriesBushFeatureFeature::new);
-	public static final RegistryObject<Feature<?>> CATTAIL = REGISTRY.register("cattail", CattailFeature::new);
 }

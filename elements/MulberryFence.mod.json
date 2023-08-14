@@ -43,7 +43,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "DECORATIONS"
+      "value": "CUSTOM:Trees"
     },
     "destroyTool": "Not specified",
     "customDrop": {

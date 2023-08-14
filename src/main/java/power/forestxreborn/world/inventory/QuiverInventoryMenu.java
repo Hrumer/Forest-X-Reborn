@@ -38,7 +38,7 @@ public class QuiverInventoryMenu extends AbstractContainerMenu implements Suppli
 	public QuiverInventoryMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
 		super(ForestModMenus.QUIVER_INVENTORY.get(), id);
 		this.entity = inv.player;
-		this.world = inv.player.level;
+		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(9);
 		BlockPos pos = null;
 		if (extraData != null) {
@@ -68,7 +68,7 @@ public class QuiverInventoryMenu extends AbstractContainerMenu implements Suppli
 						this.bound = true;
 					});
 			} else { // might be bound to block
-				BlockEntity ent = inv.player != null ? inv.player.level.getBlockEntity(pos) : null;
+				BlockEntity ent = inv.player != null ? inv.player.level().getBlockEntity(pos) : null;
 				if (ent != null) {
 					ent.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 						this.internal = capability;

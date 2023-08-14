@@ -1,4 +1,11 @@
 What's new in Forest X Reborn 1.4.0<br />
+Snapshot 1.4.0.230814:
+<br /> - Ported the mod to the Minecraft version 1.20.1
+<br /> - Added tumbleweed
+<br /> - Added scorpion
+<br /> - Added more trades for villagers with items from the mod
+<br /> - Improved the appearance of bear pelt carpets
+<br /> - Improved grape texture
 Snapshot 1.4.0.230810:
 <br /> - Added rat
 <br /> - Added crocodile

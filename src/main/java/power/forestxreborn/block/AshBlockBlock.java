@@ -3,9 +3,8 @@ package power.forestxreborn.block;
 
 import net.minecraftforge.common.IPlantable;
 
-import net.minecraft.world.level.storage.loot.LootContext;
+import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.material.PushReaction;
-import net.minecraft.world.level.material.Material;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -24,7 +23,7 @@ import java.util.Collections;
 
 public class AshBlockBlock extends FallingBlock {
 	public AshBlockBlock() {
-		super(BlockBehaviour.Properties.of(Material.GRASS).sound(SoundType.SAND).strength(0.2f, 5f).requiresCorrectToolForDrops());
+		super(BlockBehaviour.Properties.of().sound(SoundType.SAND).strength(0.2f, 5f).requiresCorrectToolForDrops().pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override
@@ -43,11 +42,6 @@ public class AshBlockBlock extends FallingBlock {
 	}
 
 	@Override
-	public PushReaction getPistonPushReaction(BlockState state) {
-		return PushReaction.DESTROY;
-	}
-
-	@Override
 	public boolean canHarvestBlock(BlockState state, BlockGetter world, BlockPos pos, Player player) {
 		if (player.getInventory().getSelected().getItem() instanceof ShovelItem tieredItem)
 			return tieredItem.getTier().getLevel() >= 0;
@@ -55,7 +49,7 @@ public class AshBlockBlock extends FallingBlock {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootContext.Builder builder) {
+	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;

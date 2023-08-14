@@ -3,6 +3,7 @@ package power.forestxreborn.client.renderer;
 import power.forestxreborn.entity.SarbakanEntity;
 import power.forestxreborn.client.model.Modeldart;
 
+import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.client.renderer.texture.OverlayTexture;
 import net.minecraft.client.renderer.entity.EntityRendererProvider;
