@@ -86,7 +86,8 @@
       "ForestGrass",
       "DefaultFlowers",
       "ForestFlowers",
-      "TaigaGrassAndMushrooms"
+      "TaigaGrassAndMushrooms",
+      "TaigaLargeFerns"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
