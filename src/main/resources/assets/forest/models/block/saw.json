@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/forest_saw_down",
+    "up": "forest:block/forest_saw_up",
+    "north": "forest:block/forest_saw_side",
+    "east": "forest:block/forest_saw_side",
+    "south": "forest:block/forest_saw_side",
+    "west": "forest:block/forest_saw_side",
+    "particle": "forest:block/forest_saw_down"
+  },
+  "render_type": "solid"
+}

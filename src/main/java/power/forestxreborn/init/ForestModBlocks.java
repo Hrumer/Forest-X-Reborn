@@ -32,6 +32,7 @@ import power.forestxreborn.block.SpruceParquetBlock;
 import power.forestxreborn.block.SnailShellBlock;
 import power.forestxreborn.block.SilverOreBlock;
 import power.forestxreborn.block.SilverBlockBlock;
+import power.forestxreborn.block.SawBlock;
 import power.forestxreborn.block.SapphireOreBlock;
 import power.forestxreborn.block.SapphireBlockBlock;
 import power.forestxreborn.block.SandslateFacetedBricksBlock;
@@ -472,6 +473,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RASPBERRY_BUSH_1 = REGISTRY.register("raspberry_bush_1", () -> new RaspberryBush1Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_2 = REGISTRY.register("raspberry_bush_2", () -> new RaspberryBush2Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_3 = REGISTRY.register("raspberry_bush_3", () -> new RaspberryBush3Block());
+	public static final RegistryObject<Block> SAW = REGISTRY.register("saw", () -> new SawBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -4,6 +4,7 @@
  */
 package power.forestxreborn.init;
 
+import power.forestxreborn.block.entity.SawBlockEntity;
 import power.forestxreborn.block.entity.FermentationBarrelBlockEntity;
 import power.forestxreborn.ForestMod;
 
@@ -17,6 +18,7 @@ import net.minecraft.world.level.block.Block;
 public class ForestModBlockEntities {
 	public static final DeferredRegister<BlockEntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.BLOCK_ENTITY_TYPES, ForestMod.MODID);
 	public static final RegistryObject<BlockEntityType<?>> FERMENTATION_BARREL = register("fermentation_barrel", ForestModBlocks.FERMENTATION_BARREL, FermentationBarrelBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> SAW = register("saw", ForestModBlocks.SAW, SawBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
