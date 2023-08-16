@@ -10609,36 +10609,6 @@
         ]
       },
       "path": "~/Biomes"
-    },
-    {
-      "name": "ColdDesert",
-      "type": "biome",
-      "sortid": 624,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "cold_desert",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/worldgen/biome/cold_desert.json"
-        ]
-      },
-      "path": "~/Biomes/FutureBiomes"
-    },
-    {
-      "name": "SeasonalForest",
-      "type": "biome",
-      "sortid": 625,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "seasonal_forest",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/worldgen/configured_feature/seasonal_forest_tree.json",
-          "src/main/resources/data/forest/worldgen/placed_feature/seasonal_forest_tree.json",
-          "src/main/resources/data/forest/worldgen/biome/seasonal_forest.json"
-        ]
-      },
-      "path": "~/Biomes/FutureBiomes"
     }
   ],
   "variable_elements": [
@@ -10873,7 +10843,6 @@
       "advancements.not_all_that_glitters_is_gold.title": "Не всё то золото, что блестит",
       "block.forest.mulberry_leaves_with_black": "Листья шелковицы",
       "block.forest.red_fence_gate": "Красная калитка",
-      "biome.forest.cold_desert": "Cold Desert",
       "item.forest.lettuce": "Салат",
       "block.forest.lettuce_stage_0": " ",
       "block.forest.moonshroom": "Луногриб",
@@ -10982,7 +10951,6 @@
       "block.forest.mulberry_pressure_plate": "Нажимная плита из шелковицы",
       "subtitles.scorpion.ambient": "",
       "block.forest.polished_sandslate_stairs": "Ступени из полированного песчаного сланца",
-      "biome.forest.seasonal_forest": "Seasonal Forest",
       "block.forest.magenta_planks": "Пурпурные доски",
       "block.forest.blue_fence_gate": "Синяя калитка",
       "block.forest.green_planks": "Зелёные доски",
@@ -11259,7 +11227,6 @@
       "advancements.not_all_that_glitters_is_gold.title": "Not all that glitters is gold",
       "block.forest.mulberry_leaves_with_black": "Mulberry Leaves",
       "block.forest.red_fence_gate": "Red Fence Gate",
-      "biome.forest.cold_desert": "Cold Desert",
       "item.forest.lettuce": "Lettuce",
       "block.forest.lettuce_stage_0": "Lettuce Stage 0",
       "block.forest.moonshroom": "Moonshroom",
@@ -11368,7 +11335,6 @@
       "block.forest.mulberry_pressure_plate": "Mulberry Pressure Plate",
       "subtitles.scorpion.ambient": "",
       "block.forest.polished_sandslate_stairs": "Polished Sandslate Stairs",
-      "biome.forest.seasonal_forest": "Seasonal Forest",
       "block.forest.magenta_planks": "Magenta Planks",
       "block.forest.blue_fence_gate": "Blue Fence Gate",
       "block.forest.green_planks": "Green Planks",
@@ -11524,12 +11490,7 @@
     "children": [
       {
         "name": "Biomes",
-        "children": [
-          {
-            "name": "FutureBiomes",
-            "children": []
-          }
-        ]
+        "children": []
       },
       {
         "name": "Achievement",
