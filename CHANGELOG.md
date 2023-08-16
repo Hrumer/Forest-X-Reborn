@@ -1,4 +1,11 @@
 What's new in Forest X Reborn 1.4.0<br />
+Snapshot 1.4.0.230816:
+<br /> - Now the spider eye is used in crafting the dart
+<br /> - Improved mushrooms cave layers
+<br /> - Improved generation of cave biomes
+<br /> - Some improvements for old growth forest
+<br /> - Mulberry no longer appears in the flower forest
+<br /> - [Bugfix] Fixed too frequent generation of mushrooms caves
 Snapshot 1.4.0.230814:
 <br /> - Ported the mod to the Minecraft version 1.20.1
 <br /> - Added tumbleweed

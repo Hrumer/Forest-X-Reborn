@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 46,
   "_type": "biome",
   "definition": {
     "name": "Marble Caves",
@@ -36,11 +36,11 @@
     "spawnInCaves": true,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": 0.5,
-      "max": 1.0
+      "min": -0.33,
+      "max": 0.5
     },
     "genHumidity": {
-      "min": 0.3,
+      "min": -1.0,
       "max": 1.0
     },
     "genContinentalness": {

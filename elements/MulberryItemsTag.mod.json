@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 46,
   "_type": "tag",
   "definition": {
     "type": "Items",
@@ -9,6 +9,12 @@
       },
       {
         "value": "CUSTOM:MulberryLog"
+      },
+      {
+        "value": "CUSTOM:StrippedMulberryWood"
+      },
+      {
+        "value": "CUSTOM:StrippedMulberryLog"
       }
     ],
     "blocks": [],

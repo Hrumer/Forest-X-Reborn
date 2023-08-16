@@ -1,10 +1,10 @@
 {
-  "_fv": 45,
+  "_fv": 46,
   "_type": "structure",
   "definition": {
     "structure": "mulberry_5",
     "randomlyRotateStructure": true,
-    "surfaceDetectionType": "First motion blocking block",
+    "surfaceDetectionType": "First block",
     "spawnProbability": 45000,
     "minCountPerChunk": 1,
     "maxCountPerChunk": 1,
@@ -23,9 +23,6 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:OldGrowthForest"
-      },
-      {
-        "value": "mutated_forest"
       }
     ],
     "ignoreBlocks": "AIR"

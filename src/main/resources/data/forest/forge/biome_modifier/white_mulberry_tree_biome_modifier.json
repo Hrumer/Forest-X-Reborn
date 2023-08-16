@@ -1,9 +1,6 @@
 {
   "type": "forge:add_features",
-  "biomes": [
-    "flower_forest",
-    "forest:old_growth_forest"
-  ],
+  "biomes": "forest:old_growth_forest",
   "features": "forest:white_mulberry_tree",
   "step": "surface_structures"
 }
