@@ -10614,7 +10614,7 @@
       "name": "Saw",
       "type": "block",
       "sortid": 624,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "saw",
       "metadata": {
