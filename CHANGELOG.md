@@ -3,7 +3,7 @@ Snapshot 1.4.0.230820:
 <br /> - Added mixed forest
 <br /> - Added eucalyptus tree
 <br /> - Added GUI for fermentation barrel
-<br /> - [Bugfix] 
+<br /> - [Bugfix] Missing tags have been returned
 Snapshot 1.4.0.230816:
 <br /> - Now the spider eye is used in crafting the dart
 <br /> - Improved mushrooms cave layers
