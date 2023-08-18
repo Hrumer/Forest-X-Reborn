@@ -10875,6 +10875,174 @@
         ]
       },
       "path": "~/AlcoholMechanics/FermentationBarrel"
+    },
+    {
+      "name": "BeehiveInhabitorEntities",
+      "type": "tag",
+      "sortid": 637,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "beehive_inhabitor_entities",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/entity_types/beehive_inhabitors.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsOverworldBiomes",
+      "type": "tag",
+      "sortid": 638,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_overworld_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_overworld.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsNetherBiomes",
+      "type": "tag",
+      "sortid": 639,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_nether_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_nether.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsEndBiomes",
+      "type": "tag",
+      "sortid": 640,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_end_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_end.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsOceanBiomes",
+      "type": "tag",
+      "sortid": 641,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_ocean_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_ocean.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsMountainBiomes",
+      "type": "tag",
+      "sortid": 642,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_mountain_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_mountain.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsRiverBiomes",
+      "type": "tag",
+      "sortid": 643,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_river_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_river.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsHillBiomes",
+      "type": "tag",
+      "sortid": 644,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_hill_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_hill.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsForestBiomes",
+      "type": "tag",
+      "sortid": 645,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_forest_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_forest.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IsSavannaBiomes",
+      "type": "tag",
+      "sortid": 646,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_savanna_biomes",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_savanna.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "TickFunctions",
+      "type": "tag",
+      "sortid": 647,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "tick_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/tick.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "LoadFunctions",
+      "type": "tag",
+      "sortid": 648,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "load_functions",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/functions/load.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [

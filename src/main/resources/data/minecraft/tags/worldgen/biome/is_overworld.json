@@ -1,0 +1,13 @@
+{
+  "replace": false,
+  "values": [
+    "forest:dry_thorn_forest",
+    "forest:semidesert",
+    "forest:volcano",
+    "forest:marble_caves",
+    "forest:mixed_forest",
+    "forest:old_growth_forest",
+    "forest:peatbog",
+    "forest:mushrooms_caves"
+  ]
+}

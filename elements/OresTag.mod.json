@@ -9,6 +9,12 @@
       },
       {
         "value": "CUSTOM:DeepslateSilverOre"
+      },
+      {
+        "value": "CUSTOM:SapphireOre"
+      },
+      {
+        "value": "CUSTOM:DeepslateSapphireOre"
       }
     ],
     "blocks": [],
