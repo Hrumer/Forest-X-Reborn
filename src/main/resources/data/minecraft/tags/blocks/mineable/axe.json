@@ -93,21 +93,21 @@
     "forest:magenta_fence_gate",
     "forest:pink_fence_gate",
     "forest:fermentation_barrel",
-    "forest:mulberry_wood",
+    "forest:saw",
     "forest:mulberry_log",
-    "forest:stripped_mulberry_wood",
+    "forest:mulberry_wood",
     "forest:stripped_mulberry_log",
+    "forest:stripped_mulberry_wood",
     "forest:mulberry_planks",
     "forest:mulberry_door",
     "forest:mulberry_trapdoor",
-    "forest:eucalyptus_wood",
     "forest:eucalyptus_log",
-    "forest:eucalyptus_planks",
-    "forest:stripped_eucalyptus_wood",
+    "forest:eucalyptus_wood",
     "forest:stripped_eucalyptus_log",
-    "forest:eucalyptus_parquet",
+    "forest:stripped_eucalyptus_wood",
+    "forest:eucalyptus_planks",
     "forest:eucalyptus_door",
     "forest:eucalyptus_trapdoor",
-    "forest:saw"
+    "forest:eucalyptus_parquet"
   ]
 }
