@@ -2,5 +2,5 @@
   "type": "forge:add_features",
   "biomes": "forest:peatbog",
   "features": "forest:peatbog_lakes",
-  "step": "surface_structures"
+  "step": "lakes"
 }
