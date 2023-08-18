@@ -71,9 +71,9 @@ public class ForestModBiomes {
 							Climate.Parameter.span(0.6999f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "volcano")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(0.2999f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.point(1.0f),
 							Climate.Parameter.span(0.6999f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "volcano")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1759f, 0.55f), Climate.Parameter.span(-0.1f, 0.1f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-1f, 0.375f),
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.18f, 0.45f), Climate.Parameter.span(-0.1f, 0.1f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-1f, 0.375f),
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.3f, 0.3f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1759f, 0.55f), Climate.Parameter.span(-0.1f, 0.1f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-1f, 0.375f),
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.18f, 0.45f), Climate.Parameter.span(-0.1f, 0.1f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-1f, 0.375f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-0.3f, 0.3f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.33f, 0.5f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(0.45f, 1f), Climate.Parameter.span(0.2f, 0.9f),
 							Climate.Parameter.span(-0.1f, 0.1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "marble_caves")))));
