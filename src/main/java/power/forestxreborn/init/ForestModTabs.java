@@ -296,7 +296,6 @@ public class ForestModTabs {
 	public static final RegistryObject<CreativeModeTab> INTERACTION_BLOCKS = REGISTRY.register("interaction_blocks",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.interaction_blocks")).icon(() -> new ItemStack(ForestModBlocks.FERMENTATION_BARREL.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ForestModBlocks.FERMENTATION_BARREL.get().asItem());
-				tabData.accept(ForestModBlocks.SAW.get().asItem());
 			})
 
 					.build());

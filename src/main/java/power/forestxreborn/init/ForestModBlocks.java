@@ -32,7 +32,6 @@ import power.forestxreborn.block.SpruceParquetBlock;
 import power.forestxreborn.block.SnailShellBlock;
 import power.forestxreborn.block.SilverOreBlock;
 import power.forestxreborn.block.SilverBlockBlock;
-import power.forestxreborn.block.SawBlock;
 import power.forestxreborn.block.SapphireOreBlock;
 import power.forestxreborn.block.SapphireBlockBlock;
 import power.forestxreborn.block.SandslateFacetedBricksBlock;
@@ -423,7 +422,6 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RAW_SILVER_BLOCK = REGISTRY.register("raw_silver_block", () -> new RawSilverBlockBlock());
 	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
 	public static final RegistryObject<Block> FERMENTATION_BARREL = REGISTRY.register("fermentation_barrel", () -> new FermentationBarrelBlock());
-	public static final RegistryObject<Block> SAW = REGISTRY.register("saw", () -> new SawBlock());
 	public static final RegistryObject<Block> MULBERRY_SAPLING = REGISTRY.register("mulberry_sapling", () -> new MulberrySaplingBlock());
 	public static final RegistryObject<Block> MULBERRY_LEAVES_WITHOUT_WHITE = REGISTRY.register("mulberry_leaves_without_white", () -> new MulberryLeavesWithoutWhiteBlock());
 	public static final RegistryObject<Block> MULBERRY_LEAVES_WITHOUT_BLACK = REGISTRY.register("mulberry_leaves_without_black", () -> new MulberryLeavesWithoutBlackBlock());
