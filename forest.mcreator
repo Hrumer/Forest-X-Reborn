@@ -10499,21 +10499,6 @@
       "path": "~/Biomes"
     },
     {
-      "name": "FermentationBarrelMenu",
-      "type": "gui",
-      "sortid": 623,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "fermentation_barrel_menu",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/world/inventory/FermentationBarrelMenuMenu.java",
-          "src/main/java/power/forestxreborn/client/gui/FermentationBarrelMenuScreen.java"
-        ]
-      },
-      "path": "~/AlcoholMechanics/FermentationBarrel"
-    },
-    {
       "name": "FBProgress0",
       "type": "procedure",
       "sortid": 624,
@@ -10875,6 +10860,21 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "FermentationBarrelScreen",
+      "type": "gui",
+      "sortid": 636,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fermentation_barrel_screen",
+      "metadata": {
+        "files": [
+          "src/main/java/power/forestxreborn/client/gui/FermentationBarrelScreenScreen.java",
+          "src/main/java/power/forestxreborn/world/inventory/FermentationBarrelScreenMenu.java"
+        ]
+      },
+      "path": "~/AlcoholMechanics/FermentationBarrel"
     }
   ],
   "variable_elements": [

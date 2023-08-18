@@ -5,7 +5,7 @@
 package power.forestxreborn.init;
 
 import power.forestxreborn.world.inventory.QuiverInventoryMenu;
-import power.forestxreborn.world.inventory.FermentationBarrelMenuMenu;
+import power.forestxreborn.world.inventory.FermentationBarrelScreenMenu;
 import power.forestxreborn.ForestMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -18,5 +18,5 @@ import net.minecraft.world.inventory.MenuType;
 public class ForestModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, ForestMod.MODID);
 	public static final RegistryObject<MenuType<QuiverInventoryMenu>> QUIVER_INVENTORY = REGISTRY.register("quiver_inventory", () -> IForgeMenuType.create(QuiverInventoryMenu::new));
-	public static final RegistryObject<MenuType<FermentationBarrelMenuMenu>> FERMENTATION_BARREL_MENU = REGISTRY.register("fermentation_barrel_menu", () -> IForgeMenuType.create(FermentationBarrelMenuMenu::new));
+	public static final RegistryObject<MenuType<FermentationBarrelScreenMenu>> FERMENTATION_BARREL_SCREEN = REGISTRY.register("fermentation_barrel_screen", () -> IForgeMenuType.create(FermentationBarrelScreenMenu::new));
 }

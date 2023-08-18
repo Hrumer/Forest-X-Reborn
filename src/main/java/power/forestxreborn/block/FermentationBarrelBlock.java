@@ -1,7 +1,7 @@
 
 package power.forestxreborn.block;
 
-import power.forestxreborn.world.inventory.FermentationBarrelMenuMenu;
+import power.forestxreborn.world.inventory.FermentationBarrelScreenMenu;
 import power.forestxreborn.procedures.FermentationBarrelSpontannoNaStoronieKliientaProcedure;
 import power.forestxreborn.procedures.FermentationBarrelObnovlieniieTikaProcedure;
 import power.forestxreborn.block.entity.FermentationBarrelBlockEntity;
@@ -124,7 +124,7 @@ public class FermentationBarrelBlock extends Block implements EntityBlock {
 
 				@Override
 				public AbstractContainerMenu createMenu(int id, Inventory inventory, Player player) {
-					return new FermentationBarrelMenuMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
+					return new FermentationBarrelScreenMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(pos));
 				}
 			}, pos);
 		}

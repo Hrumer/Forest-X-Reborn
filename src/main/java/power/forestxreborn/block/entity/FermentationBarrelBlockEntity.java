@@ -1,6 +1,6 @@
 package power.forestxreborn.block.entity;
 
-import power.forestxreborn.world.inventory.FermentationBarrelMenuMenu;
+import power.forestxreborn.world.inventory.FermentationBarrelScreenMenu;
 import power.forestxreborn.init.ForestModBlockEntities;
 
 import net.minecraftforge.items.wrapper.SidedInvWrapper;
@@ -89,7 +89,7 @@ public class FermentationBarrelBlockEntity extends RandomizableContainerBlockEnt
 
 	@Override
 	public AbstractContainerMenu createMenu(int id, Inventory inventory) {
-		return new FermentationBarrelMenuMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
+		return new FermentationBarrelScreenMenu(id, inventory, new FriendlyByteBuf(Unpooled.buffer()).writeBlockPos(this.worldPosition));
 	}
 
 	@Override

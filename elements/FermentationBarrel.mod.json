@@ -202,7 +202,7 @@
     "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "FermentationBarrelMenu",
+    "guiBoundTo": "FermentationBarrelScreen",
     "openGUIOnRightClick": true,
     "inventorySize": 4,
     "inventoryStackSize": 64,

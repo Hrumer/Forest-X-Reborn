@@ -24,7 +24,7 @@ import java.util.function.Supplier;
 import java.util.Map;
 import java.util.HashMap;
 
-public class FermentationBarrelMenuMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
+public class FermentationBarrelScreenMenu extends AbstractContainerMenu implements Supplier<Map<Integer, Slot>> {
 	public final static HashMap<String, Object> guistate = new HashMap<>();
 	public final Level world;
 	public final Player entity;
@@ -33,8 +33,8 @@ public class FermentationBarrelMenuMenu extends AbstractContainerMenu implements
 	private final Map<Integer, Slot> customSlots = new HashMap<>();
 	private boolean bound = false;
 
-	public FermentationBarrelMenuMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
-		super(ForestModMenus.FERMENTATION_BARREL_MENU.get(), id);
+	public FermentationBarrelScreenMenu(int id, Inventory inv, FriendlyByteBuf extraData) {
+		super(ForestModMenus.FERMENTATION_BARREL_SCREEN.get(), id);
 		this.entity = inv.player;
 		this.world = inv.player.level();
 		this.internal = new ItemStackHandler(3);

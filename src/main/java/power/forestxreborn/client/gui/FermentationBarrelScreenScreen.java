@@ -1,6 +1,6 @@
 package power.forestxreborn.client.gui;
 
-import power.forestxreborn.world.inventory.FermentationBarrelMenuMenu;
+import power.forestxreborn.world.inventory.FermentationBarrelScreenMenu;
 import power.forestxreborn.procedures.FBProgress9Procedure;
 import power.forestxreborn.procedures.FBProgress8Procedure;
 import power.forestxreborn.procedures.FBProgress7Procedure;
@@ -24,13 +24,13 @@ import java.util.HashMap;
 
 import com.mojang.blaze3d.systems.RenderSystem;
 
-public class FermentationBarrelMenuScreen extends AbstractContainerScreen<FermentationBarrelMenuMenu> {
-	private final static HashMap<String, Object> guistate = FermentationBarrelMenuMenu.guistate;
+public class FermentationBarrelScreenScreen extends AbstractContainerScreen<FermentationBarrelScreenMenu> {
+	private final static HashMap<String, Object> guistate = FermentationBarrelScreenMenu.guistate;
 	private final Level world;
 	private final int x, y, z;
 	private final Player entity;
 
-	public FermentationBarrelMenuScreen(FermentationBarrelMenuMenu container, Inventory inventory, Component text) {
+	public FermentationBarrelScreenScreen(FermentationBarrelScreenMenu container, Inventory inventory, Component text) {
 		super(container, inventory, text);
 		this.world = container.world;
 		this.x = container.x;
@@ -41,7 +41,7 @@ public class FermentationBarrelMenuScreen extends AbstractContainerScreen<Fermen
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("forest:textures/screens/fermentation_barrel_menu.png");
+	private static final ResourceLocation texture = new ResourceLocation("forest:textures/screens/fermentation_barrel_screen.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {

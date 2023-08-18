@@ -5,7 +5,7 @@
 package power.forestxreborn.init;
 
 import power.forestxreborn.client.gui.QuiverInventoryScreen;
-import power.forestxreborn.client.gui.FermentationBarrelMenuScreen;
+import power.forestxreborn.client.gui.FermentationBarrelScreenScreen;
 
 import net.minecraftforge.fml.event.lifecycle.FMLClientSetupEvent;
 import net.minecraftforge.fml.common.Mod;
@@ -20,7 +20,7 @@ public class ForestModScreens {
 	public static void clientLoad(FMLClientSetupEvent event) {
 		event.enqueueWork(() -> {
 			MenuScreens.register(ForestModMenus.QUIVER_INVENTORY.get(), QuiverInventoryScreen::new);
-			MenuScreens.register(ForestModMenus.FERMENTATION_BARREL_MENU.get(), FermentationBarrelMenuScreen::new);
+			MenuScreens.register(ForestModMenus.FERMENTATION_BARREL_SCREEN.get(), FermentationBarrelScreenScreen::new);
 		});
 	}
 }
