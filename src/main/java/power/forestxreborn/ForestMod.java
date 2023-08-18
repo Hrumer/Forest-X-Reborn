@@ -17,7 +17,6 @@ import software.bernie.geckolib.GeckoLib;
 
 import power.forestxreborn.init.ForestModTabs;
 import power.forestxreborn.init.ForestModSounds;
-import power.forestxreborn.init.ForestModParticleTypes;
 import power.forestxreborn.init.ForestModPaintings;
 import power.forestxreborn.init.ForestModMenus;
 import power.forestxreborn.init.ForestModItems;
@@ -69,7 +68,6 @@ public class ForestMod {
 		ForestModFeatures.REGISTRY.register(bus);
 
 		ForestModPaintings.REGISTRY.register(bus);
-		ForestModParticleTypes.REGISTRY.register(bus);
 
 		ForestModMenus.REGISTRY.register(bus);
 		GeckoLib.initialize();
