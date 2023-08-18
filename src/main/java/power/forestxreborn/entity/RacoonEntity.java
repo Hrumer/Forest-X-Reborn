@@ -63,6 +63,7 @@ public class RacoonEntity extends Animal {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
+		this.getNavigation().getNodeEvaluator().setCanOpenDoors(true);
 		this.goalSelector.addGoal(1, new TemptGoal(this, 1, Ingredient.of(ForestModItems.BLUEBERRY.get()), false));
 		this.goalSelector.addGoal(2, new FollowParentGoal(this, 1));
 		this.goalSelector.addGoal(3, new BreedGoal(this, 1));

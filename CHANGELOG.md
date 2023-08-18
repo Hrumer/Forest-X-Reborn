@@ -1,5 +1,6 @@
 What's new in Forest X Reborn 1.4.0?<br />
 Snapshot 1.4.0.230820:
+<br /> - Added mixed forest
 <br /> - Added GUI for fermentation barrel
 <br /> - [Bugfix] 
 Snapshot 1.4.0.230816:
