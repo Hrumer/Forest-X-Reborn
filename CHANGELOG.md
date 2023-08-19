@@ -4,49 +4,30 @@ Snapshot 1.4.0.230820:
 <br /> - Added eucalyptus tree
 <br /> - Added GUI for fermentation barrel
 <br /> - [Bugfix] Missing tags have been returned
-Snapshot 1.4.0.230816:
-<br /> - Now the spider eye is used in crafting the dart
-<br /> - Improved mushrooms cave layers
-<br /> - Improved generation of cave biomes
-<br /> - Some improvements for old growth forest
-<br /> - Mulberry no longer appears in the flower forest
-<br /> - [Bugfix] Fixed too frequent generation of mushrooms caves
-Snapshot 1.4.0.230814:
-<br /> - Ported the mod to the Minecraft version 1.20.1
-<br /> - Added tumbleweed
-<br /> - Added scorpion
-<br /> - Added more trades for villagers with items from the mod
-<br /> - Improved the appearance of bear pelt carpets
-<br /> - Improved grape texture
-Snapshot 1.4.0.230810:
+Preliminary list of changes:
 <br /> - Added rat
 <br /> - Added crocodile
-<br /> - Added sarbakan
-<br /> - Sarbakan uses darts
+<br /> - Added sarbakan and dart
 <br /> - Added cattail
-<br /> - The colors in the peat bog now match the colors of a regular swamp
-<br /> - Now villages will appear in the semi-desert
-<br /> - Changed id for bread with lard
-<br /> - [Bugfix] Fixed hitboxes for some mobs
-<br /> - [Bugfix] Fixed the speed of flying mobs
-Snapshot 1.4.0.230805:
-<br /> - Five types of butterflies have been added
+<br /> - Added mulberry tree
+<br /> - Added tumbleweed
+<br /> - Added scorpion
 <br /> - Added calibri and calibri feather
 <br /> - Added vulture
 <br /> - Added raspberry
-<br /> - Brown bears are now reacting to raspberries
-<br /> - Added new painting - Pig in mood
-<br /> - Blueberries no longer appear in the ordinary forest
-<br /> - Updated panorama
-<br /> - [Bugfix] Fixed mulberry leaves loot
-<br /> - [Bugfix] Fixed a bug with blueberries that were not consumed during planting
-Snapshot 1.4.0.230801:
-<br /> - Added mulberry tree
-<br /> - Mulberry can be found in the old growth forest and flower forest
 <br /> - Added pink and white rose bushes
+<br /> - Added more trades for villagers with items from the mod
 <br /> - Added polar and brown bear armor
 <br /> - Added polar and brown bear pelt and carpets
 <br /> - Pelts can be dropped from bears
+<br /> - Brown bears are now reacting to raspberries
+<br /> - Five types of butterflies have been added
 <br /> - The chance of the appearance of a old growth forest has been reduced
+<br /> - Blueberries no longer appear in the ordinary forest
+<br /> - Some improvements for old growth forest
+<br /> - The colors in the peat bog now match the colors of a regular swamp
+<br /> - Now villages will appear in the semi-desert
+<br /> - Changed id for bread with lard
 <br /> - Updated the texture of grapes
-<br /> - [Bugfix] Fixed a bug that caused trunks with grapes to be generated too often
+<br /> - Added new painting - Pig in mood
+<br /> - Updated panorama
