@@ -28,7 +28,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:MulberrySapling"
+              "value": "CUSTOM:EucalyptusSapling"
             },
             "weight": 1,
             "minCount": 0,
@@ -42,7 +42,7 @@
         ]
       }
     ],
-    "name": "blocks/mulberry_leaves_without_black",
+    "name": "blocks/eucalyptus_leaves",
     "namespace": "mod"
   }
 }

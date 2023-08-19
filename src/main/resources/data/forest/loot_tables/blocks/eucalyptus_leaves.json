@@ -20,7 +20,7 @@
         },
         {
           "type": "minecraft:item",
-          "name": "forest:mulberry_sapling",
+          "name": "forest:eucalyptus_sapling",
           "weight": 1,
           "functions": [
             {
@@ -35,5 +35,5 @@
       ]
     }
   ],
-  "random_sequence": "forest:mulberry_leaves_without_black"
+  "random_sequence": "forest:blocks/eucalyptus_leaves"
 }

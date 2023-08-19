@@ -30,6 +30,7 @@ import power.forestxreborn.world.features.MoonshroomsFeatureFeature;
 import power.forestxreborn.world.features.MixedForestTreesFeature;
 import power.forestxreborn.world.features.LavaPatchFeature;
 import power.forestxreborn.world.features.GrapevineLogFeature;
+import power.forestxreborn.world.features.EucalyptusTreeFeature;
 import power.forestxreborn.world.features.CobblestonePatchFeature;
 import power.forestxreborn.world.features.BrownMushroomsFeatureFeature;
 import power.forestxreborn.world.features.BlueberriesBushFeatureFeature;
@@ -80,4 +81,5 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> BLACK_MULBERRY_TREE = REGISTRY.register("black_mulberry_tree", BlackMulberryTreeFeature::new);
 	public static final RegistryObject<Feature<?>> RASPBERRIES_BUSH_FEATURE = REGISTRY.register("raspberries_bush_feature", RaspberriesBushFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> MIXED_FOREST_TREES = REGISTRY.register("mixed_forest_trees", MixedForestTreesFeature::new);
+	public static final RegistryObject<Feature<?>> EUCALYPTUS_TREE = REGISTRY.register("eucalyptus_tree", EucalyptusTreeFeature::new);
 }
