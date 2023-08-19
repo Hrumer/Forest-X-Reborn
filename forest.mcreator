@@ -3815,21 +3815,6 @@
       "path": "~/Gingerbread/GingerbreadForms"
     },
     {
-      "name": "GingerbreadFormCock",
-      "type": "item",
-      "sortid": 352,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gingerbread_form_cock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/gingerbread_form_cock.json",
-          "src/main/java/power/forestxreborn/item/GingerbreadFormCockItem.java"
-        ]
-      },
-      "path": "~/Gingerbread/GingerbreadForms"
-    },
-    {
       "name": "GingerbreadFormHeart",
       "type": "item",
       "sortid": 183,
@@ -3976,21 +3961,6 @@
       "path": "~/Gingerbread/Gingerbread"
     },
     {
-      "name": "GingerbreadCock",
-      "type": "item",
-      "sortid": 357,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gingerbread_cock",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/gingerbread_cock.json",
-          "src/main/java/power/forestxreborn/item/GingerbreadCockItem.java"
-        ]
-      },
-      "path": "~/Gingerbread/Gingerbread"
-    },
-    {
       "name": "GingerbreadBrick",
       "type": "item",
       "sortid": 176,
@@ -4066,21 +4036,6 @@
       "path": "~/Gingerbread/RawGingerbread"
     },
     {
-      "name": "RawGingerbreadCock",
-      "type": "item",
-      "sortid": 358,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_gingerbread_cock",
-      "metadata": {
-        "files": [
-          "src/main/java/power/forestxreborn/item/RawGingerbreadCockItem.java",
-          "src/main/resources/assets/forest/models/item/raw_gingerbread_cock.json"
-        ]
-      },
-      "path": "~/Gingerbread/RawGingerbread"
-    },
-    {
       "name": "RawGingerbreadBrick",
       "type": "item",
       "sortid": 171,
@@ -4139,20 +4094,6 @@
       "path": "~/Gingerbread/RawGingerbread"
     },
     {
-      "name": "RawGingerbreadCockCraft",
-      "type": "recipe",
-      "sortid": 361,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "raw_gingerbread_cock_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/raw_gingerbread_cock_craft.json"
-        ]
-      },
-      "path": "~/Gingerbread/RawGingerbread"
-    },
-    {
       "name": "RawGingerbreadPineCraft",
       "type": "recipe",
       "sortid": 362,
@@ -4204,20 +4145,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/recipes/gingerbread_heart_craft.json"
-        ]
-      },
-      "path": "~/Gingerbread/GingerbreadsCrafts"
-    },
-    {
-      "name": "GingerbreadCockCraft",
-      "type": "recipe",
-      "sortid": 366,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gingerbread_cock_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/gingerbread_cock_craft.json"
         ]
       },
       "path": "~/Gingerbread/GingerbreadsCrafts"
@@ -7730,22 +7657,6 @@
       "path": "~/Gingerbread/GingerbreadTypesLocalizations"
     },
     {
-      "name": "GingerbreadCockLC",
-      "type": "procedure",
-      "sortid": 462,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "gingerbread_cock_lc",
-      "metadata": {
-        "return_type": "string",
-        "files": [
-          "src/main/java/power/forestxreborn/procedures/GingerbreadCockLCProcedure.java"
-        ],
-        "dependencies": []
-      },
-      "path": "~/Gingerbread/GingerbreadTypesLocalizations"
-    },
-    {
       "name": "GingerbreadBrickLC",
       "type": "procedure",
       "sortid": 463,
@@ -8952,9 +8863,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "block.forest.brown_fence": "Коричневый забор",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "item.forest.raw_silver": "Рудное серебро",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "block.forest.brown_fence": "Коричневый забор",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -9093,7 +9004,6 @@
       "painting.forest.painting_volcano.title": "Вулкан",
       "block.forest.truncated_pumice_slab": "Плита из усеченной пемзы",
       "item.forest.berry_strudel": "Ягодный штрудель",
-      "item.forest.gingerbread_cock": "Пряник",
       "block.forest.marble_bricks_slab": "Плита из мраморных кирпичей",
       "item.forest.brown_bear_armor_boots": "Валенки из шкуры бурого медведя",
       "block.forest.red_crushed_sandstone_slab": "Плита из красного колотого песчаника",
@@ -9131,7 +9041,6 @@
       "item.forest.polar_bear_armor_chestplate": "Куртка из шкуры белого медведя",
       "item.forest.meat_loaf": "Мясной рулет",
       "block.forest.cobbled_sandslate_stairs": "Ступени из дробленого песчаного сланца",
-      "item.forest.raw_gingerbread_cock": "Тесто для пряника",
       "item.forest.silver_armor_leggings": "Серебряные поножи",
       "item.forest.gingerbread_dough": "Пряничное тесто",
       "block.forest.yellow_stairs": "Жёлтые ступени",
@@ -9155,7 +9064,6 @@
       "item.forest.sapphire": "Сапфир",
       "block.forest.orange_slab": "Оранжевая плита",
       "block.forest.brown_slab": "Коричневая плита",
-      "item.forest.gingerbread_form_cock": "Форма для пряника",
       "block.forest.pink_fence_gate": "Розовая калитка",
       "block.forest.silver_ore": "Серебряная руда",
       "block.forest.truncated_pumice_wall": "Ограда из усеченной пемзы",
@@ -9270,9 +9178,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "block.forest.brown_fence": "Brown Fence",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "item.forest.raw_silver": "Raw Silver",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "block.forest.brown_fence": "Brown Fence",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -9411,7 +9319,6 @@
       "painting.forest.painting_volcano.title": "Volcano",
       "block.forest.truncated_pumice_slab": "Truncated Pumice Slab",
       "item.forest.berry_strudel": "Berry Strudel",
-      "item.forest.gingerbread_cock": "Gingerbread",
       "block.forest.marble_bricks_slab": "Marble Bricks Slab",
       "item.forest.brown_bear_armor_boots": "Brown Bear Armor Boots",
       "block.forest.red_crushed_sandstone_slab": "Red crushed sandstone slab",
@@ -9449,7 +9356,6 @@
       "item.forest.polar_bear_armor_chestplate": "Brown Bear Armor Chestplate",
       "block.forest.cobbled_sandslate_stairs": "Cobbled Sandslate Stairs",
       "item.forest.meat_loaf": "Meat loaf",
-      "item.forest.raw_gingerbread_cock": "Raw Gingerbread",
       "item.forest.silver_armor_leggings": "Silver Leggings",
       "item.forest.gingerbread_dough": "Gingerbread Dough",
       "block.forest.yellow_stairs": "Yellow Stairs",
@@ -9473,7 +9379,6 @@
       "item.forest.sapphire": "Sapphire",
       "block.forest.orange_slab": "Orange Slab",
       "block.forest.brown_slab": "Brown Slab",
-      "item.forest.gingerbread_form_cock": "Gingerbread Form",
       "block.forest.pink_fence_gate": "Pink Fence Gate",
       "block.forest.silver_ore": "Silver Ore",
       "block.forest.truncated_pumice_wall": "Truncated Pumice Wall",
