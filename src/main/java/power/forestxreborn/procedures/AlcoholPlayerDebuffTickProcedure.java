@@ -33,7 +33,7 @@ public class AlcoholPlayerDebuffTickProcedure {
 		if ((entity.getCapability(ForestModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ForestModVariables.PlayerVariables())).alcohol >= 1) {
 			if (!(entity instanceof LivingEntity _livEnt0 && _livEnt0.hasEffect(MobEffects.WEAKNESS))) {
 				if (entity instanceof LivingEntity _entity && !_entity.level().isClientSide())
-					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 600, 2, false, false));
+					_entity.addEffect(new MobEffectInstance(MobEffects.WEAKNESS, 600, 1, false, false));
 			}
 		}
 		if ((entity.getCapability(ForestModVariables.PLAYER_VARIABLES_CAPABILITY, null).orElse(new ForestModVariables.PlayerVariables())).alcohol >= 1.5) {
