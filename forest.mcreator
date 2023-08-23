@@ -11062,6 +11062,62 @@
         ]
       },
       "path": "~/WoodSets/Eucalyptus Wood Set"
+    },
+    {
+      "name": "MulberryDoorCraft",
+      "type": "recipe",
+      "sortid": 652,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_door_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/mulberry_door_craft.json"
+        ]
+      },
+      "path": "~/WoodSets/Mulberry Wood Set"
+    },
+    {
+      "name": "EucalyptusDoorCraft",
+      "type": "recipe",
+      "sortid": 653,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_door_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/eucalyptus_door_craft.json"
+        ]
+      },
+      "path": "~/WoodSets/Eucalyptus Wood Set"
+    },
+    {
+      "name": "EucalyptusTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 654,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_trapdoor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/eucalyptus_trapdoor_craft.json"
+        ]
+      },
+      "path": "~/WoodSets/Eucalyptus Wood Set"
+    },
+    {
+      "name": "MulberryTrapdoorCraft",
+      "type": "recipe",
+      "sortid": 655,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_trapdoor_craft",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/mulberry_trapdoor_craft.json"
+        ]
+      },
+      "path": "~/WoodSets/Mulberry Wood Set"
     }
   ],
   "variable_elements": [

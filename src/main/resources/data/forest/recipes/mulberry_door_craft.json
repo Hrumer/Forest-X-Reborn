@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01",
+    "23",
+    "45"
+  ],
+  "key": {
+    "0": {
+      "item": "forest:mulberry_planks"
+    },
+    "1": {
+      "item": "forest:mulberry_planks"
+    },
+    "2": {
+      "item": "forest:mulberry_planks"
+    },
+    "3": {
+      "item": "forest:mulberry_planks"
+    },
+    "4": {
+      "item": "forest:mulberry_planks"
+    },
+    "5": {
+      "item": "forest:mulberry_planks"
+    }
+  },
+  "result": {
+    "item": "forest:mulberry_door",
+    "count": 1
+  }
+}
