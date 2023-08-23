@@ -3,7 +3,9 @@ Snapshot 1.4.0.230825:
 <br /> - Added mixed forest and eucalyptus forest
 <br /> - Added eucalyptus tree
 <br /> - Added GUI for fermentation barrel
+<br /> - Updated panorama
 <br /> - [Bugfix] Missing tags have been returned
+<br /> - [Bugfix] More fixes and improvements for 1.4.0 content
 Preliminary list of changes:
 <br /> - Added rat
 <br /> - Added crocodile
