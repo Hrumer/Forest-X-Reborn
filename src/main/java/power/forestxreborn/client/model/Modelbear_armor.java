@@ -55,10 +55,6 @@ public class Modelbear_armor<T extends Entity> extends EntityModel<T> {
 	}
 
 	@Override
-	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
-	}
-
-	@Override
 	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
 		Head.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		Body.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
@@ -66,5 +62,8 @@ public class Modelbear_armor<T extends Entity> extends EntityModel<T> {
 		LeftArm.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		RightLeg.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
 		LeftLeg.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+	}
+
+	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {
 	}
 }
