@@ -1,6 +1,7 @@
 
 package power.forestxreborn.item;
 
+import power.forestxreborn.init.ForestModItems;
 import power.forestxreborn.client.model.Modelbear_armor;
 
 import net.minecraftforge.client.extensions.common.IClientItemExtensions;
@@ -54,7 +55,7 @@ public abstract class BrownBearArmorItem extends ArmorItem {
 
 			@Override
 			public Ingredient getRepairIngredient() {
-				return Ingredient.of();
+				return Ingredient.of(new ItemStack(ForestModItems.BROWN_BEAR_PELT.get()));
 			}
 
 			@Override
