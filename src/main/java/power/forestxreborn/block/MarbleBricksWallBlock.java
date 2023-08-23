@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class MarbleBricksWallBlock extends WallBlock {
 	public MarbleBricksWallBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.TUFF).strength(1.35f, 10f).dynamicShape());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.TUFF).strength(1.35f, 10f).dynamicShape().forceSolidOn());
 	}
 
 	@Override

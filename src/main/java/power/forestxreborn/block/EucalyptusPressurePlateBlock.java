@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class EucalyptusPressurePlateBlock extends PressurePlateBlock {
 	public EucalyptusPressurePlateBlock() {
-		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape(), BlockSetType.OAK);
+		super(Sensitivity.EVERYTHING, BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape().forceSolidOn(), BlockSetType.OAK);
 	}
 
 	@Override
