@@ -236,6 +236,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> BARBECUE = REGISTRY.register("barbecue", () -> new BarbecueItem());
 	public static final RegistryObject<Item> MEAT_LOAF = REGISTRY.register("meat_loaf", () -> new MeatLoafItem());
 	public static final RegistryObject<Item> LARD = REGISTRY.register("lard", () -> new LardItem());
+	public static final RegistryObject<Item> BREAD_WITH_LARD = REGISTRY.register("bread_with_lard", () -> new BreadWithLardItem());
 	public static final RegistryObject<Item> BERRY_STRUDEL = REGISTRY.register("berry_strudel", () -> new BerryStrudelItem());
 	public static final RegistryObject<Item> GINGERBREAD_DOUGH = REGISTRY.register("gingerbread_dough", () -> new GingerbreadDoughItem());
 	public static final RegistryObject<Item> RAW_GINGERBREAD_MAN = REGISTRY.register("raw_gingerbread_man", () -> new RawGingerbreadManItem());
@@ -253,7 +254,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> BLACK_MULBERRY = REGISTRY.register("black_mulberry", () -> new BlackMulberryItem());
 	public static final RegistryObject<Item> WHITE_MULBERRY = REGISTRY.register("white_mulberry", () -> new WhiteMulberryItem());
 	public static final RegistryObject<Item> RASPBERRY = REGISTRY.register("raspberry", () -> new RaspberryItem());
-	public static final RegistryObject<Item> BREAD_WITH_LARD = REGISTRY.register("bread_with_lard", () -> new BreadWithLardItem());
 	public static final RegistryObject<Item> PEAT_PIECE = REGISTRY.register("peat_piece", () -> new PeatPieceItem());
 	public static final RegistryObject<Item> GINGERBREAD_FORM_MAN = REGISTRY.register("gingerbread_form_man", () -> new GingerbreadFormManItem());
 	public static final RegistryObject<Item> GINGERBREAD_FORM_HEART = REGISTRY.register("gingerbread_form_heart", () -> new GingerbreadFormHeartItem());
