@@ -113,6 +113,7 @@ public class FermentationBarrelScreenScreen extends AbstractContainerScreen<Ferm
 
 	@Override
 	protected void renderLabels(GuiGraphics guiGraphics, int mouseX, int mouseY) {
+		guiGraphics.drawString(this.font, Component.translatable("gui.forest.fermentation_barrel_screen.label_fermentation_barrel"), 59, 7, -12829636, false);
 	}
 
 	@Override
