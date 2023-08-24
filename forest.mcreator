@@ -11227,8 +11227,8 @@
   "language_map": {
     "ru_ru": {
       "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
-      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "item.forest.gingerbread_round": "Пряник",
+      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -11278,7 +11278,7 @@
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "entity.forest.fennec": "Фенек",
       "block.forest.mulberry_pressure_plate": "Нажимная плита из шелковицы",
-      "entity.forest.scorpion": "Scorpion",
+      "entity.forest.scorpion": "Скорпион",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
       "subtitles.scorpion.ambient": "",
       "block.forest.polished_sandslate_stairs": "Ступени из полированного песчаного сланца",
@@ -11305,7 +11305,7 @@
       "block.forest.blueberry_bush_0": " ",
       "block.forest.stripped_eucalyptus_log": "Обтёсанное бревно эвкалипта",
       "item.forest.silver_armor_boots": "Серебряные ботинки",
-      "item.forest.scorpion_spawn_egg": "Scorpion Spawn Egg",
+      "item.forest.scorpion_spawn_egg": "Яйцо призыва скорпиона",
       "advancements.robin_hood_is_back.descr": "Создайте колчан и положите туда стрелы",
       "item.forest.calibri_spawn_egg": "Яйцо призыва калибри",
       "block.forest.lime_fence": "Лаймовый забор",
