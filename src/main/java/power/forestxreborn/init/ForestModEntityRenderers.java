@@ -31,6 +31,7 @@ import net.minecraftforge.api.distmarker.Dist;
 public class ForestModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
+		event.registerEntityRenderer(ForestModEntities.RACCON.get(), RacconRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.BROWN_BEAR.get(), BrownBearRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SNAIL.get(), SnailRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.FENNEC.get(), FennecRenderer::new);
@@ -47,6 +48,5 @@ public class ForestModEntityRenderers {
 		event.registerEntityRenderer(ForestModEntities.TUMBLEWEED.get(), TumbleweedRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SCORPION.get(), ScorpionRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SARBAKAN.get(), SarbakanRenderer::new);
-		event.registerEntityRenderer(ForestModEntities.RACCON.get(), RacconRenderer::new);
 	}
 }

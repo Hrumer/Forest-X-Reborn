@@ -38,6 +38,10 @@ import net.minecraft.world.entity.Entity;
 @Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
 public class ForestModEntities {
 	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, ForestMod.MODID);
+	public static final RegistryObject<EntityType<RacconEntity>> RACCON = register("raccon",
+			EntityType.Builder.<RacconEntity>of(RacconEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RacconEntity::new)
+
+					.sized(0.5f, 0.7f));
 	public static final RegistryObject<EntityType<BrownBearEntity>> BROWN_BEAR = register("brown_bear",
 			EntityType.Builder.<BrownBearEntity>of(BrownBearEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(16).setUpdateInterval(3).setCustomClientFactory(BrownBearEntity::new)
 
@@ -98,10 +102,6 @@ public class ForestModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SarbakanEntity>> SARBAKAN = register("projectile_sarbakan",
 			EntityType.Builder.<SarbakanEntity>of(SarbakanEntity::new, MobCategory.MISC).setCustomClientFactory(SarbakanEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
-	public static final RegistryObject<EntityType<RacconEntity>> RACCON = register("raccon",
-			EntityType.Builder.<RacconEntity>of(RacconEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RacconEntity::new)
-
-					.sized(0.5f, 0.7f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -110,6 +110,7 @@ public class ForestModEntities {
 	@SubscribeEvent
 	public static void init(FMLCommonSetupEvent event) {
 		event.enqueueWork(() -> {
+			RacconEntity.init();
 			BrownBearEntity.init();
 			SnailEntity.init();
 			FennecEntity.init();
@@ -125,12 +126,12 @@ public class ForestModEntities {
 			CrocodileEntity.init();
 			TumbleweedEntity.init();
 			ScorpionEntity.init();
-			RacconEntity.init();
 		});
 	}
 
 	@SubscribeEvent
 	public static void registerAttributes(EntityAttributeCreationEvent event) {
+		event.put(RACCON.get(), RacconEntity.createAttributes().build());
 		event.put(BROWN_BEAR.get(), BrownBearEntity.createAttributes().build());
 		event.put(SNAIL.get(), SnailEntity.createAttributes().build());
 		event.put(FENNEC.get(), FennecEntity.createAttributes().build());
@@ -146,6 +147,5 @@ public class ForestModEntities {
 		event.put(CROCODILE.get(), CrocodileEntity.createAttributes().build());
 		event.put(TUMBLEWEED.get(), TumbleweedEntity.createAttributes().build());
 		event.put(SCORPION.get(), ScorpionEntity.createAttributes().build());
-		event.put(RACCON.get(), RacconEntity.createAttributes().build());
 	}
 }

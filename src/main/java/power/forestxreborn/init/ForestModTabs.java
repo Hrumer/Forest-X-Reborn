@@ -322,7 +322,8 @@ public class ForestModTabs {
 
 					.build());
 	public static final RegistryObject<CreativeModeTab> MOBS = REGISTRY.register("mobs",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.mobs")).icon(() -> new ItemStack(ForestModItems.DELETED_MOD_ELEMENT_SPAWN_EGG.get())).displayItems((parameters, tabData) -> {
+			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.mobs")).icon(() -> new ItemStack(ForestModItems.RACCON_SPAWN_EGG.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(ForestModItems.RACCON_SPAWN_EGG.get());
 				tabData.accept(ForestModItems.BROWN_BEAR_SPAWN_EGG.get());
 				tabData.accept(ForestModItems.SNAIL_SPAWN_EGG.get());
 				tabData.accept(ForestModItems.FENNEC_SPAWN_EGG.get());
@@ -337,7 +338,6 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.RAT_SPAWN_EGG.get());
 				tabData.accept(ForestModItems.CROCODILE_SPAWN_EGG.get());
 				tabData.accept(ForestModItems.SCORPION_SPAWN_EGG.get());
-				tabData.accept(ForestModItems.RACCON_SPAWN_EGG.get());
 			})
 
 					.build());
