@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class LightBlueFenceGateBlock extends FenceGateBlock {
 	public LightBlueFenceGateBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape(), WoodType.OAK);
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape().forceSolidOn(), WoodType.OAK);
 	}
 
 	@Override

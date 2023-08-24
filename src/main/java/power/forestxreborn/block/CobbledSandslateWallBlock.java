@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class CobbledSandslateWallBlock extends WallBlock {
 	public CobbledSandslateWallBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.DEEPSLATE).strength(2f, 10f).requiresCorrectToolForDrops().dynamicShape());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.DEEPSLATE).strength(2f, 10f).requiresCorrectToolForDrops().dynamicShape().forceSolidOn());
 	}
 
 	@Override

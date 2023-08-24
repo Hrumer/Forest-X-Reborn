@@ -19,7 +19,7 @@ import java.util.Collections;
 
 public class LimeFenceBlock extends FenceBlock {
 	public LimeFenceBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape());
+		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape().forceSolidOn());
 	}
 
 	@Override

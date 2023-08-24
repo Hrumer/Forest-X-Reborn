@@ -20,7 +20,7 @@ import java.util.Collections;
 
 public class RedCrushedSandstoneWallBlock extends WallBlock {
 	public RedCrushedSandstoneWallBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2.5f, 50f).requiresCorrectToolForDrops().dynamicShape());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2.5f, 50f).requiresCorrectToolForDrops().dynamicShape().forceSolidOn());
 	}
 
 	@Override
