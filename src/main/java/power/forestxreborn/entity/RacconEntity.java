@@ -42,12 +42,12 @@ import net.minecraft.network.protocol.Packet;
 
 import java.util.List;
 
-public class RacoonEntity extends Animal {
-	public RacoonEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(ForestModEntities.RACOON.get(), world);
+public class RacconEntity extends Animal {
+	public RacconEntity(PlayMessages.SpawnEntity packet, Level world) {
+		this(ForestModEntities.RACCON.get(), world);
 	}
 
-	public RacoonEntity(EntityType<RacoonEntity> type, Level world) {
+	public RacconEntity(EntityType<RacconEntity> type, Level world) {
 		super(type, world);
 		setMaxUpStep(0.6f);
 		xpReward = 10;
@@ -97,7 +97,7 @@ public class RacoonEntity extends Animal {
 
 	@Override
 	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
-		RacoonEntity retval = ForestModEntities.RACOON.get().create(serverWorld);
+		RacconEntity retval = ForestModEntities.RACCON.get().create(serverWorld);
 		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
 		return retval;
 	}
@@ -108,7 +108,7 @@ public class RacoonEntity extends Animal {
 	}
 
 	public static void init() {
-		SpawnPlacements.register(ForestModEntities.RACOON.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
+		SpawnPlacements.register(ForestModEntities.RACCON.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 

@@ -264,7 +264,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> CALIBRI_FEATHER = REGISTRY.register("calibri_feather", () -> new CalibriFeatherItem());
 	public static final RegistryObject<Item> DART = REGISTRY.register("dart", () -> new DartItem());
 	public static final RegistryObject<Item> MUSIC_DISC_STROFA = REGISTRY.register("music_disc_strofa", () -> new MusicDiscStrofaItem());
-	public static final RegistryObject<Item> RACOON_SPAWN_EGG = REGISTRY.register("racoon_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.RACOON, -10066330, -3355444, new Item.Properties()));
 	public static final RegistryObject<Item> BROWN_BEAR_SPAWN_EGG = REGISTRY.register("brown_bear_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.BROWN_BEAR, -13434880, -6737152, new Item.Properties()));
 	public static final RegistryObject<Item> SNAIL_SPAWN_EGG = REGISTRY.register("snail_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SNAIL, -6724096, -13434880, new Item.Properties()));
 	public static final RegistryObject<Item> FENNEC_SPAWN_EGG = REGISTRY.register("fennec_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.FENNEC, -26317, -3368704, new Item.Properties()));
@@ -369,6 +368,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RASPBERRY_BUSH_1 = block(ForestModBlocks.RASPBERRY_BUSH_1);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_2 = block(ForestModBlocks.RASPBERRY_BUSH_2);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_3 = block(ForestModBlocks.RASPBERRY_BUSH_3);
+	public static final RegistryObject<Item> RACCON_SPAWN_EGG = REGISTRY.register("raccon_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.RACCON, -10066330, -3355444, new Item.Properties()));
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

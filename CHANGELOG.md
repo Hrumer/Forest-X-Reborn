@@ -6,7 +6,7 @@ Snapshot 1.4.0.230825:
 <br /> - Increased the chance of some mobs appearing
 <br /> - Updated panorama
 <br /> - [Bugfix] Missing tags have been returned
-<br /> - [Bugfix] More fixes and improvements for 1.4.0 content
+<br /> - [Bugfix] Fixed raccoon ID
 Preliminary list of changes:
 <br /> - Added rat
 <br /> - Added crocodile
