@@ -105,7 +105,7 @@ public abstract class BrownBearArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "forest:textures/entities/brown_bear_armor.png";
+			return "forest:textures/models/armor/brown_bear_armor__layer_1.png";
 		}
 	}
 
@@ -139,7 +139,7 @@ public abstract class BrownBearArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "forest:textures/entities/brown_bear_armor.png";
+			return "forest:textures/models/armor/brown_bear_armor__layer_1.png";
 		}
 	}
 
@@ -174,7 +174,7 @@ public abstract class BrownBearArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "forest:textures/entities/brown_bear_armor.png";
+			return "forest:textures/models/armor/brown_bear_armor__layer_2.png";
 		}
 	}
 
@@ -209,7 +209,7 @@ public abstract class BrownBearArmorItem extends ArmorItem {
 
 		@Override
 		public String getArmorTexture(ItemStack stack, Entity entity, EquipmentSlot slot, String type) {
-			return "forest:textures/entities/brown_bear_armor.png";
+			return "forest:textures/models/armor/brown_bear_armor__layer_1.png";
 		}
 	}
 }
