@@ -266,6 +266,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> MANGROVE_PARQUET = REGISTRY.register("mangrove_parquet", () -> new MangroveParquetBlock());
 	public static final RegistryObject<Block> CHERRY_PARQUET = REGISTRY.register("cherry_parquet", () -> new CherryParquetBlock());
 	public static final RegistryObject<Block> MULBERRY_PARQUET = REGISTRY.register("mulberry_parquet", () -> new MulberryParquetBlock());
+	public static final RegistryObject<Block> EUCALYPTUS_PARQUET = REGISTRY.register("eucalyptus_parquet", () -> new EucalyptusParquetBlock());
 	public static final RegistryObject<Block> MARBLE = REGISTRY.register("marble", () -> new MarbleBlock());
 	public static final RegistryObject<Block> MARBLE_BRICKS = REGISTRY.register("marble_bricks", () -> new MarbleBricksBlock());
 	public static final RegistryObject<Block> POLISHED_MARBLE = REGISTRY.register("polished_marble", () -> new PolishedMarbleBlock());
@@ -466,7 +467,6 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> LETTUCE_STAGE_1 = REGISTRY.register("lettuce_stage_1", () -> new LettuceStage1Block());
 	public static final RegistryObject<Block> LETTUCE_STAGE_2 = REGISTRY.register("lettuce_stage_2", () -> new LettuceStage2Block());
 	public static final RegistryObject<Block> LETTUCE_STAGE_3 = REGISTRY.register("lettuce_stage_3", () -> new LettuceStage3Block());
-	public static final RegistryObject<Block> EUCALYPTUS_PARQUET = REGISTRY.register("eucalyptus_parquet", () -> new EucalyptusParquetBlock());
 	public static final RegistryObject<Block> GRAPE_VINE_1 = REGISTRY.register("grape_vine_1", () -> new GrapeVine1Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_0 = REGISTRY.register("raspberry_bush_0", () -> new RaspberryBush0Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_1 = REGISTRY.register("raspberry_bush_1", () -> new RaspberryBush1Block());
