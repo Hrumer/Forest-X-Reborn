@@ -1,5 +1,5 @@
 {
-  "_fv": 46,
+  "_fv": 47,
   "_type": "loottable",
   "definition": {
     "type": "Block",
@@ -42,7 +42,7 @@
         ]
       }
     ],
-    "name": "mulberry_leaves_without_black",
+    "name": "blocks/mulberry_leaves_without_black",
     "namespace": "mod"
   }
 }

@@ -1,5 +1,5 @@
 {
-  "_fv": 46,
+  "_fv": 47,
   "_type": "feature",
   "definition": {
     "generationStep": "SURFACE_STRUCTURES",
@@ -12,6 +12,9 @@
       },
       {
         "value": "mutated_birch_forest"
+      },
+      {
+        "value": "CUSTOM:MixedForest"
       }
     ],
     "generateCondition": {

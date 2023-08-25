@@ -1,5 +1,5 @@
 {
-  "_fv": 46,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "stripped_eucalyptus_log_top",
@@ -42,7 +42,7 @@
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Trees"
     },
     "destroyTool": "axe",
     "customDrop": {

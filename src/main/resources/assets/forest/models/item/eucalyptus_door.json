@@ -1,7 +1,7 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "forest:block/eucalyptus_door_down"
+    "layer0": "forest:item/eucalyptus_door"
   },
-  "render_type": "cutout"
+  "render_type": "translucent"
 }
