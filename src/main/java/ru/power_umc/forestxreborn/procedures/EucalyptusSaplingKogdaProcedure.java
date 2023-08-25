@@ -15,7 +15,7 @@ public class EucalyptusSaplingKogdaProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
 		if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == ForestModBlocks.EUCALYPTUS_SAPLING.get()) {
 			if (world instanceof ServerLevel _serverworld) {
-				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("forest", "sakura_tree1"));
+				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("forest", "eucalyptus_tree"));
 				if (template != null) {
 					template.placeInWorld(_serverworld, BlockPos.containing(x - 2, y, z - 4), BlockPos.containing(x - 2, y, z - 4), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 							_serverworld.random, 3);

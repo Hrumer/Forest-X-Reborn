@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "sakura_sapling",
+    "texture": "eucalyptus_sapling",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "sakura_sapling",
+    "itemTexture": "eucalyptus_sapling",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
