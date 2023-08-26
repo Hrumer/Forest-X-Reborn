@@ -189,9 +189,9 @@ public class ScorpionEntity extends Monster implements GeoEntity {
 		float velocity = (float) Math.sqrt(d1 * d1 + d0 * d0);
 		if (getAttackAnim(event.getPartialTick()) > 0f && !this.swinging) {
 			this.swinging = true;
-			this.lastSwing = level().getGameTime();
+			this.lastSwing = level.getGameTime();
 		}
-		if (this.swinging && this.lastSwing + 7L <= level().getGameTime()) {
+		if (this.swinging && this.lastSwing + 7L <= level.getGameTime()) {
 			this.swinging = false;
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {

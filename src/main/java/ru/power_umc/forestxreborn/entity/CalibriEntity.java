@@ -43,7 +43,6 @@ import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
-import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -52,6 +51,7 @@ import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
+import net.minecraft.client.resources.model.Material;
 
 public class CalibriEntity extends PathfinderMob implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(CalibriEntity.class, EntityDataSerializers.BOOLEAN);
@@ -185,7 +185,7 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 
 	public static void init() {
 		SpawnPlacements.register(ForestModEntities.CALIBRI.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.DIRT) && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).getMaterial() == Material.GRASS && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -201,7 +201,7 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			if (!this.isFallFlying()) {
+			if (!this.isOnGround()) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.calibri.fly"));
 			}
 			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.calibri.sit"));
