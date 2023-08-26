@@ -8068,7 +8068,7 @@
       "name": "FireSalamander",
       "type": "animatedentity",
       "sortid": 202,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "fire_salamander",
       "metadata": {
@@ -8176,7 +8176,7 @@
       "name": "Fennec",
       "type": "animatedentity",
       "sortid": 201,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "fennec",
       "metadata": {
@@ -9627,7 +9627,7 @@
       "name": "OrangeButterfly",
       "type": "animatedentity",
       "sortid": 203,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "orange_butterfly",
       "metadata": {
@@ -9645,7 +9645,7 @@
       "name": "PinkButterfly",
       "type": "animatedentity",
       "sortid": 204,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "pink_butterfly",
       "metadata": {
@@ -9663,7 +9663,7 @@
       "name": "BlueButterfly",
       "type": "animatedentity",
       "sortid": 205,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "blue_butterfly",
       "metadata": {
@@ -9681,7 +9681,7 @@
       "name": "GreenButterfly",
       "type": "animatedentity",
       "sortid": 206,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "green_butterfly",
       "metadata": {
@@ -9729,7 +9729,7 @@
       "name": "Calibri",
       "type": "animatedentity",
       "sortid": 208,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "calibri",
       "metadata": {
@@ -9797,7 +9797,7 @@
       "name": "Vulture",
       "type": "animatedentity",
       "sortid": 209,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "vulture",
       "metadata": {
@@ -10180,7 +10180,7 @@
       "name": "Rat",
       "type": "animatedentity",
       "sortid": 210,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "rat",
       "metadata": {
@@ -10304,7 +10304,7 @@
       "name": "Crocodile",
       "type": "animatedentity",
       "sortid": 211,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "crocodile",
       "metadata": {
@@ -10372,7 +10372,7 @@
       "name": "Scorpion",
       "type": "animatedentity",
       "sortid": 213,
-      "compiles": false,
+      "compiles": true,
       "locked_code": false,
       "registry_name": "scorpion",
       "metadata": {
