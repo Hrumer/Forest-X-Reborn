@@ -4,8 +4,10 @@
   "definition": {
     "toolType": "Pickaxe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "silver_pickaxe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Silver Pickaxe",
     "specialInformation": {
       "fixedValue": ""

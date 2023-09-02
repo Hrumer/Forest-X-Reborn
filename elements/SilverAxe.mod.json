@@ -4,8 +4,10 @@
   "definition": {
     "toolType": "Axe",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "silver_axe",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Silver Axe",
     "specialInformation": {
       "fixedValue": ""
