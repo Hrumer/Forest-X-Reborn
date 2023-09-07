@@ -8863,9 +8863,9 @@
       "item.forest.silver_pickaxe": "Серебряная кирка",
       "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
       "entity.forest.brown_bear": "Бурый медведь",
-      "block.forest.brown_fence": "Коричневый забор",
-      "block.forest.gingerbread_block": "Пряничный блок",
       "item.forest.raw_silver": "Рудное серебро",
+      "block.forest.gingerbread_block": "Пряничный блок",
+      "block.forest.brown_fence": "Коричневый забор",
       "desc.gingerbread_brick": "Кирпич",
       "item.forest.silver_sword": "Серебряный меч",
       "block.forest.orange_planks": "Оранжевые доски",
@@ -9178,9 +9178,9 @@
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
       "entity.forest.brown_bear": "Brown Bear",
-      "item.forest.raw_silver": "Raw Silver",
-      "block.forest.gingerbread_block": "Gingerbread Block",
       "block.forest.brown_fence": "Brown Fence",
+      "block.forest.gingerbread_block": "Gingerbread Block",
+      "item.forest.raw_silver": "Raw Silver",
       "desc.gingerbread_brick": "Brick",
       "item.forest.silver_sword": "Silver Sword",
       "block.forest.orange_planks": "Orange Planks",
@@ -9429,7 +9429,7 @@
       "item.forest.silver_armor_chestplate": "Silver Chestplate",
       "block.forest.orange_stairs": "Orange Stairs",
       "desc.gingerbread_round": "Round",
-      "entity.forest.racoon": "Raccon",
+      "entity.forest.racoon": "Racoon",
       "block.forest.marble_bricks": "Marble Bricks",
       "block.forest.rhyolite_stairs": "Rhyolite Stairs",
       "item.forest.brown_bear_spawn_egg": "Brown Bear Spawn Egg",
@@ -9470,7 +9470,7 @@
       "block.forest.lavander": "Lavander",
       "block.forest.rhyolite_wall": "Rhyolite Wall",
       "item.forest.polar_bear_armor_leggings": "Brown Bear Armor Leggings",
-      "item.forest.racoon_spawn_egg": "Raccon Spawn Egg",
+      "item.forest.racoon_spawn_egg": "Racoon Spawn Egg",
       "block.forest.brown_fence_gate": "Brown Fence Gate",
       "block.forest.eucalyptus_log": "Eucalyptus Log",
       "item.forest.fire_salamander_spawn_egg": "Fire Salamander Spawn Egg",
@@ -9688,5 +9688,5 @@
     "modElementsPackage": "power.forestxreborn",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300334322
+  "mcreatorVersion": 202300435612
 }

@@ -1,11 +1,13 @@
 {
-  "_fv": 47,
+  "_fv": 48,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "silver_sword",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Silver Sword",
     "specialInformation": {
       "fixedValue": ""
