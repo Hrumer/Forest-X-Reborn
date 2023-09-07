@@ -17,7 +17,7 @@ import java.util.Collections;
 
 public class RhyoliteWallBlock extends WallBlock {
 	public RhyoliteWallBlock() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 100f).dynamicShape());
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.STONE).strength(2f, 100f).dynamicShape().forceSolidOn());
 	}
 
 	@Override

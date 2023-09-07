@@ -1,8 +1,8 @@
 {
-  "_fv": 46,
+  "_fv": 48,
   "_type": "feature",
   "definition": {
-    "generationStep": "SURFACE_STRUCTURES",
+    "generationStep": "LAKES",
     "restrictionDimensions": [
       "Surface"
     ],

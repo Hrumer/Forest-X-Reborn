@@ -2,5 +2,5 @@
   "type": "forge:add_features",
   "biomes": "forest:volcano",
   "features": "forest:lava_patch",
-  "step": "surface_structures"
+  "step": "fluid_springs"
 }
