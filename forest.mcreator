@@ -10136,7 +10136,7 @@
       "type": "rangeditem",
       "sortid": 240,
       "compiles": true,
-      "locked_code": true,
+      "locked_code": false,
       "registry_name": "sarbakan",
       "metadata": {
         "files": [
@@ -12238,5 +12238,5 @@
     "modElementsPackage": "ru.power_umc.forestxreborn",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300436417
+  "mcreatorVersion": 202300437222
 }
