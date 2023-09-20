@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "forest:semidesert_patch",
   "config": {
     "tries": 512,
     "xz_spread": 16,

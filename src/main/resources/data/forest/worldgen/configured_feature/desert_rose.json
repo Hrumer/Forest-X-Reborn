@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:random_patch",
+  "type": "forest:desert_rose",
   "config": {
     "tries": 3,
     "feature": {

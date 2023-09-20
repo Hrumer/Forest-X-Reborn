@@ -1,5 +1,5 @@
 {
-  "_fv": 49,
+  "_fv": 48,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -81,7 +81,9 @@
     "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 5,
-    "generateFeature": true,
+    "spawnWorldTypes": [
+      "Surface"
+    ],
     "restrictionBiomes": [
       {
         "value": "swamp"

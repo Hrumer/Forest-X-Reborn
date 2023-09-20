@@ -1,8 +1,9 @@
 {
-  "_fv": 49,
+  "_fv": 48,
   "_type": "feature",
   "definition": {
     "generationStep": "SURFACE_STRUCTURES",
+    "restrictionDimensions": [],
     "restrictionBiomes": [],
     "generateCondition": {
       "name": "BlueberriesBushFeatureAdditionalGenerationCondition"

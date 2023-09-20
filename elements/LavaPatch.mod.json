@@ -1,8 +1,11 @@
 {
-  "_fv": 49,
+  "_fv": 48,
   "_type": "feature",
   "definition": {
     "generationStep": "FLUID_SPRINGS",
+    "restrictionDimensions": [
+      "Surface"
+    ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Volcano"

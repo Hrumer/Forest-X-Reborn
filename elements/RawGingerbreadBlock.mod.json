@@ -1,5 +1,5 @@
 {
-  "_fv": 49,
+  "_fv": 48,
   "_type": "block",
   "definition": {
     "texture": "gingerbread_dough_block",
@@ -119,7 +119,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": false,
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

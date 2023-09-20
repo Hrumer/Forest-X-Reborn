@@ -12,12 +12,16 @@ import net.minecraft.world.level.block.Rotation;
 import net.minecraft.world.level.block.Mirror;
 import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.Block;
+import net.minecraft.world.level.Level;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
 import net.minecraft.core.BlockPos;
 
+import java.util.Set;
 import java.util.List;
 
 public class EucalyptusTreeFeature extends Feature<NoneFeatureConfiguration> {
+	private final Set<ResourceKey<Level>> generate_dimensions = Set.of(Level.OVERWORLD);
 	private final List<Block> base_blocks;
 	private StructureTemplate template = null;
 
@@ -28,6 +32,8 @@ public class EucalyptusTreeFeature extends Feature<NoneFeatureConfiguration> {
 
 	@Override
 	public boolean place(FeaturePlaceContext<NoneFeatureConfiguration> context) {
+		if (!generate_dimensions.contains(context.level().getLevel().dimension()))
+			return false;
 		if (template == null)
 			template = context.level().getLevel().getStructureManager().getOrCreate(new ResourceLocation("forest", "eucalyptus_tree"));
 		if (template == null)

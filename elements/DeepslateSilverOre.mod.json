@@ -1,5 +1,5 @@
 {
-  "_fv": 49,
+  "_fv": 48,
   "_type": "block",
   "definition": {
     "texture": "deepslate_silver_ore",
@@ -119,12 +119,10 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "generateFeature": true,
-    "restrictionBiomes": [
-      {
-        "value": "#is_overworld"
-      }
+    "spawnWorldTypes": [
+      "Surface"
     ],
+    "restrictionBiomes": [],
     "blocksToReplace": [
       {
         "value": "Blocks.DEEPSLATE"

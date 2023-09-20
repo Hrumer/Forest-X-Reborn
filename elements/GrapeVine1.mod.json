@@ -1,5 +1,5 @@
 {
-  "_fv": 49,
+  "_fv": 48,
   "_type": "block",
   "definition": {
     "texture": "grape_vine1",
@@ -125,7 +125,7 @@
     "onRightClicked": {
       "name": "GrapeVine1PriShchielchkiePKMPoBloku"
     },
-    "generateFeature": false,
+    "spawnWorldTypes": [],
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

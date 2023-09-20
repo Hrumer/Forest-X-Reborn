@@ -1,5 +1,5 @@
 {
-  "type": "minecraft:huge_fungus",
+  "type": "forest:big_red_mushrooms_feature",
   "config": {
     "valid_base_block": {
       "Name": "minecraft:mycelium",
