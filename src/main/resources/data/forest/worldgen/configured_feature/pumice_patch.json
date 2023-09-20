@@ -1,5 +1,5 @@
 {
-  "type": "forest:pumice_patch",
+  "type": "minecraft:random_patch",
   "config": {
     "tries": 1024,
     "xz_spread": 16,

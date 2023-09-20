@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 49,
   "_type": "block",
   "definition": {
     "texture": "raspberry_bush_stage_3",
@@ -125,7 +125,7 @@
     "onRightClicked": {
       "name": "RaspberryBush3PriShchielchkiePKMPoBloku"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

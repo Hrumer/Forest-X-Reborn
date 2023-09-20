@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 49,
   "_type": "block",
   "definition": {
     "texture": "truncated_carved_pumice",
@@ -119,7 +119,7 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

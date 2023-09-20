@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 49,
   "_type": "block",
   "definition": {
     "texture": "lettuce_stage1",
@@ -125,7 +125,7 @@
     "onTickUpdate": {
       "name": "LettuceStage1ObnovitTakt"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

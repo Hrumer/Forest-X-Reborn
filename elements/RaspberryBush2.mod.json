@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 49,
   "_type": "block",
   "definition": {
     "texture": "raspberry_bush_stage_2",
@@ -128,7 +128,7 @@
     "onTickUpdate": {
       "name": "RaspberryBush0ObnovlieniieTika"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

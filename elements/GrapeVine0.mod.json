@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 49,
   "_type": "block",
   "definition": {
     "texture": "grape_vine0",
@@ -128,7 +128,7 @@
     "onTickUpdate": {
       "name": "GrapeVine0PriIspolzovaniiKostnoiMuki"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

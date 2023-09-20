@@ -1,5 +1,5 @@
 {
-  "type": "forest:stone_volcano_delta",
+  "type": "minecraft:delta_feature",
   "config": {
     "contents": {
       "Name": "minecraft:lava",
