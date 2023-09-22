@@ -13,8 +13,6 @@
  */
 package ru.power_umc.forestxreborn;
 
-import software.bernie.geckolib.GeckoLib;
-
 import ru.power_umc.forestxreborn.init.ForestModTabs;
 import ru.power_umc.forestxreborn.init.ForestModSounds;
 import ru.power_umc.forestxreborn.init.ForestModPaintings;
@@ -70,7 +68,6 @@ public class ForestMod {
 		ForestModPaintings.REGISTRY.register(bus);
 
 		ForestModMenus.REGISTRY.register(bus);
-		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";
