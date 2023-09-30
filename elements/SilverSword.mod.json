@@ -1,16 +1,14 @@
 {
-  "_fv": 48,
+  "_fv": 51,
   "_type": "tool",
   "definition": {
     "toolType": "Sword",
     "renderType": 0,
-    "blockingRenderType": 0,
     "texture": "silver_sword",
     "customModelName": "Normal",
-    "blockingModelName": "Normal blocking",
     "name": "Silver Sword",
     "specialInformation": {
-      "fixedValue": ""
+      "fixedValue": []
     },
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
@@ -22,7 +20,6 @@
     "damageVsEntity": 4.0,
     "usageCount": 72,
     "blocksAffected": [],
-    "hasGlow": false,
     "repairItems": [
       {
         "value": "CUSTOM:SilverIngot"

@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 51,
   "_type": "block",
   "definition": {
     "texture": "raspberry_bush_stage_3",
@@ -35,7 +35,7 @@
     ],
     "name": "Blueberry Bush 0",
     "specialInformation": {
-      "fixedValue": ""
+      "fixedValue": []
     },
     "hardness": 0.0,
     "resistance": 0.0,
@@ -125,7 +125,7 @@
     "onRightClicked": {
       "name": "RaspberryBush3PriShchielchkiePKMPoBloku"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",

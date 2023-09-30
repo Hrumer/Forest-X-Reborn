@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 51,
   "_type": "structure",
   "definition": {
     "structure": "mulberry_7",
@@ -12,9 +12,6 @@
     "spawnHeightOffset": 0,
     "spawnXOffset": -2,
     "spawnZOffset": -2,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
     "restrictionBlocks": [
       {
         "value": "Blocks.GRASS"

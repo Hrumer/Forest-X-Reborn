@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 51,
   "_type": "block",
   "definition": {
     "texture": "mulberry_leaves",
@@ -36,7 +36,7 @@
     ],
     "name": "Mulberry Leaves",
     "specialInformation": {
-      "fixedValue": ""
+      "fixedValue": []
     },
     "hardness": 0.2,
     "resistance": 0.2,
@@ -123,7 +123,7 @@
     "onTickUpdate": {
       "name": "MulberryLeavesWithoutWhiteObnovlieniieTika"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {
