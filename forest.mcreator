@@ -28,7 +28,6 @@
           "src/main/resources/data/forest/forge/biome_modifier/silver_ore_biome_modifier.json",
           "src/main/resources/assets/forest/models/block/silver_ore.json",
           "src/main/resources/assets/forest/models/item/silver_ore.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ores/SilverOreFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/silver_ore.json",
           "src/main/java/ru/power_umc/forestxreborn/block/SilverOreBlock.java",
           "src/main/resources/assets/forest/blockstates/silver_ore.json"
@@ -105,7 +104,6 @@
       "metadata": {
         "files": [
           "src/main/java/ru/power_umc/forestxreborn/block/WildflowerBlock.java",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/WildflowerFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/wildflower.json",
           "src/main/resources/data/forest/forge/biome_modifier/wildflower_biome_modifier.json",
           "src/main/resources/assets/forest/blockstates/wildflower.json",
@@ -130,7 +128,6 @@
           "src/main/resources/assets/forest/models/item/lavander.json",
           "src/main/java/ru/power_umc/forestxreborn/block/LavanderBlock.java",
           "src/main/resources/assets/forest/blockstates/lavander.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/LavanderFeature.java",
           "src/main/resources/assets/forest/models/block/lavander.json",
           "src/main/resources/data/forest/worldgen/placed_feature/lavander.json"
         ]
@@ -152,8 +149,7 @@
           "src/main/resources/assets/forest/models/item/burning_blossom.json",
           "src/main/resources/data/forest/worldgen/configured_feature/burning_blossom.json",
           "src/main/resources/data/forest/worldgen/placed_feature/burning_blossom.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/BurningblossomBlock.java",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/BurningblossomFeature.java"
+          "src/main/java/ru/power_umc/forestxreborn/block/BurningblossomBlock.java"
         ]
       },
       "path": "~/Plants"
@@ -396,7 +392,6 @@
         "files": [
           "src/main/java/ru/power_umc/forestxreborn/block/DeepslateSilverOreBlock.java",
           "src/main/resources/assets/forest/models/item/deepslate_silver_ore.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ores/DeepslateSilverOreFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/deepslate_silver_ore_biome_modifier.json",
           "src/main/resources/assets/forest/models/block/deepslate_silver_ore.json",
           "src/main/resources/assets/forest/blockstates/deepslate_silver_ore.json",
@@ -1302,7 +1297,6 @@
           "src/main/java/ru/power_umc/forestxreborn/block/DesertRoseBlock.java",
           "src/main/resources/data/forest/worldgen/placed_feature/desert_rose.json",
           "src/main/resources/assets/forest/blockstates/desert_rose.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/DesertRoseFeature.java",
           "src/main/resources/data/forest/worldgen/configured_feature/desert_rose.json",
           "src/main/resources/assets/forest/models/block/desert_rose.json"
         ]
@@ -1560,7 +1554,6 @@
           "src/main/resources/data/forest/worldgen/configured_feature/rhyolite.json",
           "src/main/resources/data/forest/forge/biome_modifier/rhyolite_biome_modifier.json",
           "src/main/java/ru/power_umc/forestxreborn/block/RhyoliteBlock.java",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ores/RhyoliteFeature.java",
           "src/main/resources/assets/forest/models/block/rhyolite.json",
           "src/main/resources/assets/forest/models/item/rhyolite.json"
         ]
@@ -1746,7 +1739,6 @@
           "src/main/resources/data/forest/worldgen/configured_feature/sandslate.json",
           "src/main/resources/data/forest/worldgen/placed_feature/sandslate.json",
           "src/main/resources/assets/forest/blockstates/sandslate.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ores/SandslateFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/sandslate_biome_modifier.json"
         ]
       },
@@ -1761,7 +1753,6 @@
       "registry_name": "peatbog_lakes",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/PeatbogLakesFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/peatbog_lakes_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/peatbog_lakes.json",
           "src/main/resources/data/forest/worldgen/placed_feature/peatbog_lakes.json"
@@ -3699,7 +3690,6 @@
       "registry_name": "semidesert_patch",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/SemidesertPatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/semidesert_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/semidesert_patch.json",
           "src/main/resources/data/forest/worldgen/placed_feature/semidesert_patch.json"
@@ -4515,7 +4505,6 @@
           "src/main/resources/assets/forest/models/item/blue_rose.json",
           "src/main/java/ru/power_umc/forestxreborn/block/BlueRoseBlock.java",
           "src/main/resources/assets/forest/models/block/blue_rose.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/BlueRoseFeature.java",
           "src/main/resources/data/forest/worldgen/configured_feature/blue_rose.json",
           "src/main/resources/data/forest/worldgen/placed_feature/blue_rose.json",
           "src/main/resources/data/forest/forge/biome_modifier/blue_rose_biome_modifier.json",
@@ -4672,7 +4661,6 @@
         "files": [
           "src/main/resources/data/forest/worldgen/placed_feature/brown_mushrooms_feature.json",
           "src/main/resources/data/forest/forge/biome_modifier/brown_mushrooms_feature_biome_modifier.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/BrownMushroomsFeatureFeature.java",
           "src/main/resources/data/forest/worldgen/configured_feature/brown_mushrooms_feature.json"
         ]
       },
@@ -4688,7 +4676,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/placed_feature/red_mushrooms_feature.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/RedMushroomsFeatureFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/red_mushrooms_feature_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/red_mushrooms_feature.json"
         ]
@@ -4704,7 +4691,6 @@
       "registry_name": "moonshrooms_feature",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/MoonshroomsFeatureFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/moonshrooms_feature.json",
           "src/main/resources/data/forest/forge/biome_modifier/moonshrooms_feature_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/moonshrooms_feature.json"
@@ -4722,7 +4708,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/placed_feature/sunshrooms_feature.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/SunshroomsFeatureFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/sunshrooms_feature_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/sunshrooms_feature.json"
         ]
@@ -4738,7 +4723,6 @@
       "registry_name": "big_brown_mushrooms_feature",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/BigBrownMushroomsFeatureFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/big_brown_mushrooms_feature.json",
           "src/main/resources/data/forest/forge/biome_modifier/big_brown_mushrooms_feature_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/big_brown_mushrooms_feature.json"
@@ -4757,7 +4741,6 @@
         "files": [
           "src/main/resources/data/forest/worldgen/configured_feature/big_red_mushrooms_feature.json",
           "src/main/resources/data/forest/worldgen/placed_feature/big_red_mushrooms_feature.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/BigRedMushroomsFeatureFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/big_red_mushrooms_feature_biome_modifier.json"
         ]
       },
@@ -7399,7 +7382,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/configured_feature/obsidian_patch.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ObsidianPatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/obsidian_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/placed_feature/obsidian_patch.json"
         ]
@@ -7415,7 +7397,6 @@
       "registry_name": "pumice_patch",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/PumicePatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/pumice_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/pumice_patch.json",
           "src/main/resources/data/forest/worldgen/placed_feature/pumice_patch.json"
@@ -7433,7 +7414,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/configured_feature/stone_patch.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/StonePatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/stone_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/placed_feature/stone_patch.json"
         ]
@@ -7451,7 +7431,6 @@
         "files": [
           "src/main/resources/data/forest/forge/biome_modifier/cobblestone_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/placed_feature/cobblestone_patch.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/CobblestonePatchFeature.java",
           "src/main/resources/data/forest/worldgen/configured_feature/cobblestone_patch.json"
         ]
       },
@@ -7483,7 +7462,6 @@
       "registry_name": "lava_patch",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/LavaPatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/lava_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/placed_feature/lava_patch.json",
           "src/main/resources/data/forest/worldgen/configured_feature/lava_patch.json"
@@ -8164,7 +8142,6 @@
       "registry_name": "stone_volcano_delta",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/StoneVolcanoDeltaFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/stone_volcano_delta.json",
           "src/main/resources/data/forest/forge/biome_modifier/stone_volcano_delta_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/stone_volcano_delta.json"
@@ -8668,7 +8645,6 @@
           "src/main/resources/assets/forest/models/block/white_rose_bush_bottom.json",
           "src/main/java/ru/power_umc/forestxreborn/block/WhiteRoseBushBlock.java",
           "src/main/resources/assets/forest/models/item/white_rose_bush.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/WhiteRoseBushFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/white_rose_bush_biome_modifier.json",
           "src/main/resources/assets/forest/blockstates/white_rose_bush.json",
           "src/main/resources/data/forest/worldgen/placed_feature/white_rose_bush.json",
@@ -8687,7 +8663,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/placed_feature/pink_rose_bush.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/PinkRoseBushFeature.java",
           "src/main/resources/assets/forest/models/block/pink_rose_bush.json",
           "src/main/resources/data/forest/forge/biome_modifier/pink_rose_bush_biome_modifier.json",
           "src/main/resources/assets/forest/models/block/pink_rose_bush_bottom.json",
@@ -10210,8 +10185,7 @@
           "src/main/java/ru/power_umc/forestxreborn/block/CattailBlock.java",
           "src/main/resources/assets/forest/models/block/cattail_bottom.json",
           "src/main/resources/assets/forest/blockstates/cattail.json",
-          "src/main/resources/data/forest/forge/biome_modifier/cattail_biome_modifier.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/CattailFeature.java"
+          "src/main/resources/data/forest/forge/biome_modifier/cattail_biome_modifier.json"
         ]
       },
       "path": "~/Plants"
@@ -12238,5 +12212,5 @@
     "modElementsPackage": "ru.power_umc.forestxreborn",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300438423
+  "mcreatorVersion": 202300439610
 }

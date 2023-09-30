@@ -4,8 +4,10 @@
   "definition": {
     "toolType": "Spade",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "silver_shovel",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Silver Shovel",
     "specialInformation": {
       "fixedValue": []

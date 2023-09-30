@@ -2,6 +2,7 @@
 package ru.power_umc.forestxreborn.item;
 
 import ru.power_umc.forestxreborn.world.inventory.QuiverInventoryMenu;
+import ru.power_umc.forestxreborn.procedures.QuiverValueProcedure;
 import ru.power_umc.forestxreborn.procedures.QuiverItemInInventoryTickProcedure;
 import ru.power_umc.forestxreborn.item.inventory.QuiverInventoryCapability;
 
@@ -47,6 +48,11 @@ public class QuiverItem extends Item {
 	@Override
 	public void appendHoverText(ItemStack itemstack, Level world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
+		Entity entity = itemstack.getEntityRepresentation();
+		double x = entity != null ? entity.getX() : 0.0;
+		double y = entity != null ? entity.getY() : 0.0;
+		double z = entity != null ? entity.getZ() : 0.0;
+		list.add(Component.literal(QuiverValueProcedure.execute(itemstack)));
 	}
 
 	@Override
