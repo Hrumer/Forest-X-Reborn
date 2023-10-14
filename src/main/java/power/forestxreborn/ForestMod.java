@@ -13,8 +13,6 @@
  */
 package power.forestxreborn;
 
-import software.bernie.geckolib.GeckoLib;
-
 import power.forestxreborn.init.ForestModTabs;
 import power.forestxreborn.init.ForestModSounds;
 import power.forestxreborn.init.ForestModParticleTypes;
@@ -72,7 +70,6 @@ public class ForestMod {
 		ForestModParticleTypes.REGISTRY.register(bus);
 
 		ForestModMenus.REGISTRY.register(bus);
-		GeckoLib.initialize();
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

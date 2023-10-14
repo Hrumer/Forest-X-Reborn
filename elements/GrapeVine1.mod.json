@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "grape_vine1",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Grape Vine",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

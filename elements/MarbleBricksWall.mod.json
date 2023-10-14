@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "marble_bricks",
@@ -35,9 +35,6 @@
       }
     ],
     "name": "Marble Bricks Wall",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 1.3499999999999999,
     "resistance": 10.0,
     "hasGravity": false,

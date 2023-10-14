@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "peat_top",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Peat",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 0.75,
     "resistance": 10.0,
     "hasGravity": false,

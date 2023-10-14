@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "fermentation_barrel",
@@ -133,9 +133,6 @@
       }
     ],
     "name": "Fermentation Barrel",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "sapphire_ore",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Sapphire Ore",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 3.8999999999999995,
     "resistance": 6.16772052035587,
     "hasGravity": false,

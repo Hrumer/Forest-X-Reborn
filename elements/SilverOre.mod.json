@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "silver_ore",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Silver Ore",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 4.5,
     "resistance": 6.915809336112958,
     "hasGravity": false,

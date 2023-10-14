@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "musicdisc",
   "definition": {
     "name": "Music Disc",
@@ -7,9 +7,6 @@
     "description": "bxkqq - strofa",
     "creativeTab": {
       "value": "CUSTOM:MusicDiscs"
-    },
-    "specialInformation": {
-      "fixedValue": ""
     },
     "hasGlow": false,
     "music": {

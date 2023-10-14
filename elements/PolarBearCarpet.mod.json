@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "polar_bear_carpet",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Polar Bear Carpet",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 0.2,
     "resistance": 1.0,
     "hasGravity": false,

@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "oak_parquet",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Oak Parquet",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,

@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -26,10 +26,6 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInformation": {
-      "fixedValue": "",
-      "name": "QuiverValue"
-    },
     "hasGlow": false,
     "guiBoundTo": "QuiverInventory",
     "inventorySize": 9,

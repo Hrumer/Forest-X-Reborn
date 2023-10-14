@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -29,6 +29,7 @@
       }
     ],
     "name": "Blue Rose",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Plants"
     },

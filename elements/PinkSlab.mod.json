@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "pink_planks",
@@ -35,9 +35,6 @@
       }
     ],
     "name": "Pink Slab",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,

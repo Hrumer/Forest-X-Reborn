@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -18,18 +18,10 @@
     "bodyName": "Silver Chestplate",
     "leggingsName": "Silver Leggings",
     "bootsName": "Silver Boots",
-    "helmetSpecialInformation": {
-      "fixedValue": ""
-    },
-    "bodySpecialInformation": {
-      "fixedValue": ""
-    },
-    "leggingsSpecialInformation": {
-      "fixedValue": ""
-    },
-    "bootsSpecialInformation": {
-      "fixedValue": ""
-    },
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "pumice_bricks",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Pumice Bricks",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 2.0,
     "resistance": 6.0,
     "hasGravity": false,

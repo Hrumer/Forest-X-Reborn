@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "forest_ash_block",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Ash Сover",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 0.2,
     "resistance": 5.0,
     "hasGravity": true,

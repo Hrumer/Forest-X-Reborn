@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "gingerbread_block",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Gingerbread Block",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 2.0,
     "resistance": 5.0,
     "hasGravity": false,

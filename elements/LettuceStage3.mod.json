@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "lettuce_stage3",
@@ -34,9 +34,6 @@
       }
     ],
     "name": "Lettuce Stage 3",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,

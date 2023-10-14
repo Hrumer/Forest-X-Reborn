@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "red_crushed_sandstone",
@@ -35,9 +35,6 @@
       }
     ],
     "name": "Red crushed sandstone wall",
-    "specialInformation": {
-      "fixedValue": ""
-    },
     "hardness": 2.5,
     "resistance": 50.0,
     "hasGravity": false,
