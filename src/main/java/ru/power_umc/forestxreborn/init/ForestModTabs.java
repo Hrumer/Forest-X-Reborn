@@ -224,6 +224,7 @@ public class ForestModTabs {
 	public static final RegistryObject<CreativeModeTab> PLANTS = REGISTRY.register("plants",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.plants")).icon(() -> new ItemStack(ForestModBlocks.LAVANDER.get())).displayItems((parameters, tabData) -> {
 				tabData.accept(ForestModItems.LETTUCE_SEED.get());
+				tabData.accept(ForestModItems.RYE_SEEDS.get());
 				tabData.accept(ForestModBlocks.WILDFLOWER.get().asItem());
 				tabData.accept(ForestModBlocks.BURNING_BLOSSOM.get().asItem());
 				tabData.accept(ForestModBlocks.LAVANDER.get().asItem());

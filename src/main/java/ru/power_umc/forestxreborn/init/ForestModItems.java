@@ -17,6 +17,7 @@ import ru.power_umc.forestxreborn.item.SilverAxeItem;
 import ru.power_umc.forestxreborn.item.SilverArmorItem;
 import ru.power_umc.forestxreborn.item.SarbakanItem;
 import ru.power_umc.forestxreborn.item.SapphireItem;
+import ru.power_umc.forestxreborn.item.RyeSeedsItem;
 import ru.power_umc.forestxreborn.item.RawSilverItem;
 import ru.power_umc.forestxreborn.item.RawGingerbreadPineItem;
 import ru.power_umc.forestxreborn.item.RawGingerbreadManItem;
@@ -284,6 +285,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> CROCODILE_SPAWN_EGG = REGISTRY.register("crocodile_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.CROCODILE, -15706871, -10394052, new Item.Properties()));
 	public static final RegistryObject<Item> SCORPION_SPAWN_EGG = REGISTRY.register("scorpion_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SCORPION, -13421773, -3407821, new Item.Properties()));
 	public static final RegistryObject<Item> LETTUCE_SEED = REGISTRY.register("lettuce_seed", () -> new LettuceSeedItem());
+	public static final RegistryObject<Item> RYE_SEEDS = REGISTRY.register("rye_seeds", () -> new RyeSeedsItem());
 	public static final RegistryObject<Item> WILDFLOWER = block(ForestModBlocks.WILDFLOWER);
 	public static final RegistryObject<Item> BURNING_BLOSSOM = block(ForestModBlocks.BURNING_BLOSSOM);
 	public static final RegistryObject<Item> LAVANDER = block(ForestModBlocks.LAVANDER);
@@ -313,6 +315,11 @@ public class ForestModItems {
 	public static final RegistryObject<Item> SILVER_ARMOR_BOOTS = REGISTRY.register("silver_armor_boots", () -> new SilverArmorItem.Boots());
 	public static final RegistryObject<Item> QUIVER = REGISTRY.register("quiver", () -> new QuiverItem());
 	public static final RegistryObject<Item> SARBAKAN = REGISTRY.register("sarbakan", () -> new SarbakanItem());
+	public static final RegistryObject<Item> IRON_SICKLE = REGISTRY.register("iron_sickle", () -> new IronSickleItem());
+	public static final RegistryObject<Item> GOLDEN_SICKLE = REGISTRY.register("golden_sickle", () -> new GoldenSickleItem());
+	public static final RegistryObject<Item> DIAMOND_SICKLE = REGISTRY.register("diamond_sickle", () -> new DiamondSickleItem());
+	public static final RegistryObject<Item> NETHERITE_SICKLE = REGISTRY.register("netherite_sickle", () -> new NetheriteSickleItem());
+	public static final RegistryObject<Item> SILVER_SICKLE = REGISTRY.register("silver_sickle", () -> new SilverSickleItem());
 	public static final RegistryObject<Item> FERMENTATION_BARREL = block(ForestModBlocks.FERMENTATION_BARREL);
 	public static final RegistryObject<Item> MULBERRY_SAPLING = block(ForestModBlocks.MULBERRY_SAPLING);
 	public static final RegistryObject<Item> MULBERRY_LEAVES_WITHOUT_WHITE = block(ForestModBlocks.MULBERRY_LEAVES_WITHOUT_WHITE);
@@ -364,11 +371,14 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RASPBERRY_BUSH_1 = block(ForestModBlocks.RASPBERRY_BUSH_1);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_2 = block(ForestModBlocks.RASPBERRY_BUSH_2);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_3 = block(ForestModBlocks.RASPBERRY_BUSH_3);
-	public static final RegistryObject<Item> IRON_SICKLE = REGISTRY.register("iron_sickle", () -> new IronSickleItem());
-	public static final RegistryObject<Item> GOLDEN_SICKLE = REGISTRY.register("golden_sickle", () -> new GoldenSickleItem());
-	public static final RegistryObject<Item> DIAMOND_SICKLE = REGISTRY.register("diamond_sickle", () -> new DiamondSickleItem());
-	public static final RegistryObject<Item> NETHERITE_SICKLE = REGISTRY.register("netherite_sickle", () -> new NetheriteSickleItem());
-	public static final RegistryObject<Item> SILVER_SICKLE = REGISTRY.register("silver_sickle", () -> new SilverSickleItem());
+	public static final RegistryObject<Item> RYE_STAGE_0 = block(ForestModBlocks.RYE_STAGE_0);
+	public static final RegistryObject<Item> RYE_STAGE_1 = block(ForestModBlocks.RYE_STAGE_1);
+	public static final RegistryObject<Item> RYE_STAGE_2 = block(ForestModBlocks.RYE_STAGE_2);
+	public static final RegistryObject<Item> RYE_STAGE_3 = block(ForestModBlocks.RYE_STAGE_3);
+	public static final RegistryObject<Item> RYE_STAGE_4 = block(ForestModBlocks.RYE_STAGE_4);
+	public static final RegistryObject<Item> RYE_STAGE_5 = block(ForestModBlocks.RYE_STAGE_5);
+	public static final RegistryObject<Item> RYE_STAGE_6 = block(ForestModBlocks.RYE_STAGE_6);
+	public static final RegistryObject<Item> RYE_STAGE_7 = block(ForestModBlocks.RYE_STAGE_7);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
