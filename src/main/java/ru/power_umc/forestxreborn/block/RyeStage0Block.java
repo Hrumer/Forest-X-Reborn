@@ -63,7 +63,7 @@ public class RyeStage0Block extends Block implements BonemealableBlock {
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(ForestModItems.LETTUCE_SEED.get());
+		return new ItemStack(ForestModItems.DELETED_MOD_ELEMENT.get());
 	}
 
 	@Override
@@ -71,7 +71,7 @@ public class RyeStage0Block extends Block implements BonemealableBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(ForestModItems.LETTUCE_SEED.get()));
+		return Collections.singletonList(new ItemStack(ForestModItems.DELETED_MOD_ELEMENT.get()));
 	}
 
 	@Override

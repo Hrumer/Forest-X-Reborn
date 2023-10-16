@@ -31,7 +31,7 @@ import ru.power_umc.forestxreborn.item.PeatPieceItem;
 import ru.power_umc.forestxreborn.item.NetheriteSickleItem;
 import ru.power_umc.forestxreborn.item.MusicDiscStrofaItem;
 import ru.power_umc.forestxreborn.item.MeatLoafItem;
-import ru.power_umc.forestxreborn.item.LettuceSeedItem;
+import ru.power_umc.forestxreborn.item.LettuceSeedsItem;
 import ru.power_umc.forestxreborn.item.LettuceItem;
 import ru.power_umc.forestxreborn.item.LardItem;
 import ru.power_umc.forestxreborn.item.IronSickleItem;
@@ -284,7 +284,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RAT_SPAWN_EGG = REGISTRY.register("rat_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.RAT, -10066330, -26215, new Item.Properties()));
 	public static final RegistryObject<Item> CROCODILE_SPAWN_EGG = REGISTRY.register("crocodile_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.CROCODILE, -15706871, -10394052, new Item.Properties()));
 	public static final RegistryObject<Item> SCORPION_SPAWN_EGG = REGISTRY.register("scorpion_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SCORPION, -13421773, -3407821, new Item.Properties()));
-	public static final RegistryObject<Item> LETTUCE_SEED = REGISTRY.register("lettuce_seed", () -> new LettuceSeedItem());
 	public static final RegistryObject<Item> RYE_SEEDS = REGISTRY.register("rye_seeds", () -> new RyeSeedsItem());
 	public static final RegistryObject<Item> WILDFLOWER = block(ForestModBlocks.WILDFLOWER);
 	public static final RegistryObject<Item> BURNING_BLOSSOM = block(ForestModBlocks.BURNING_BLOSSOM);
@@ -379,6 +378,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RYE_STAGE_5 = block(ForestModBlocks.RYE_STAGE_5);
 	public static final RegistryObject<Item> RYE_STAGE_6 = block(ForestModBlocks.RYE_STAGE_6);
 	public static final RegistryObject<Item> RYE_STAGE_7 = block(ForestModBlocks.RYE_STAGE_7);
+	public static final RegistryObject<Item> LETTUCE_SEEDS = REGISTRY.register("lettuce_seeds", () -> new LettuceSeedsItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

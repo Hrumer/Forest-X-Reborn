@@ -6,7 +6,7 @@
       "entries": [
         {
           "type": "minecraft:item",
-          "name": "forest:lettuce_seed",
+          "name": "forest:deleted_mod_element",
           "weight": 1,
           "functions": [
             {

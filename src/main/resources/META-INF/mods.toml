@@ -10,7 +10,7 @@ credits="Created by Environment Studios"
 displayURL="https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html"
 logoFile="logo.png"
 authors="Environment Studios"
-description="The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition.  "
+description="The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition. "
 
 [[dependencies.forest]]
     modId="minecraft"
