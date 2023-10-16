@@ -2111,21 +2111,6 @@
       "path": "~/Pumice"
     },
     {
-      "name": "LettuceSeed",
-      "type": "item",
-      "sortid": 214,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "lettuce_seed",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/lettuce_seed.json",
-          "src/main/java/ru/power_umc/forestxreborn/item/LettuceSeedItem.java"
-        ]
-      },
-      "path": "~/Harvest/Lettuce"
-    },
-    {
       "name": "Lettuce",
       "type": "item",
       "sortid": 165,
@@ -2152,6 +2137,10 @@
           "src/main/java/ru/power_umc/forestxreborn/procedures/LettuceSeedPriNazhatiiPravoiKnopkoiMyshiProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "itemstack",
             "type": "itemstack"
@@ -11203,6 +11192,21 @@
         ]
       },
       "path": "~/Harvest/Rye"
+    },
+    {
+      "name": "LettuceSeeds",
+      "type": "item",
+      "sortid": 653,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "lettuce_seeds",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/lettuce_seeds.json",
+          "src/main/java/ru/power_umc/forestxreborn/item/LettuceSeedsItem.java"
+        ]
+      },
+      "path": "~/Harvest/Lettuce"
     }
   ],
   "variable_elements": [
@@ -11311,6 +11315,13 @@
   ],
   "language_map": {
     "ru_ru": {
+      "block.forest.gingerbread_bricks": "Пряничные кирпичи",
+      "item.forest.gingerbread_round": "Пряник",
+      "block.forest.white_planks": "Белые доски",
+      "item.forest.silver_pickaxe": "Серебряная кирка",
+      "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
+      "entity.forest.brown_bear": "Бурый медведь",
+      "gui.forest.fermentation_barrel_screen.label_fermentation_barrel": "Бочка для брожения",
       "block.forest.brown_fence": "Коричневый забор",
       "gui.forest.fermentation_barrel_screen.label_fermentation_barrel": "Бочка для брожения",
       "desc.gingerbread_brick": "Кирпич",
@@ -11356,6 +11367,7 @@
       "block.forest.polished_pumice_stairs": "Ступени из полированной пемзы",
       "block.forest.mulberry_leaves_without_black": "Листья шелковицы",
       "block.forest.white_stairs": "Белые ступени",
+      "item.forest.lettuce_seeds": "Lettuce Seed",
       "biome.forest.dry_thorn_forest": "Сухой терновый лес",
       "item.forest.gingerbread_pine": "Пряник",
       "item.forest.blueberry": "Черника",
@@ -11376,6 +11388,8 @@
       "block.forest.mulberry_door": "Дверь из шелковицы",
       "item.forest.polar_bear_pelt": "Шкура белого медведя",
       "item.forest.lettuce_seed": "Семена салата",
+      "block.forest.polished_sandslate_wall": "Ограда из полированного песчаного сланца",
+      "block.forest.red_slab": "Красная плита",
       "block.forest.blue_fence": "Синий забор",
       "block.forest.grape_vine_1": "Grape Vine",
       "block.forest.light_blue_stairs": "Голубые ступени",
@@ -11700,6 +11714,13 @@
       "advancements.wine_business.descr": "С помощью бочки для ферментации и винограда сделайте вино"
     },
     "en_us": {
+      "block.forest.gingerbread_bricks": "Gingerbread Bricks",
+      "item.forest.gingerbread_round": "Gingerbread",
+      "block.forest.white_planks": "White Planks",
+      "item.forest.silver_pickaxe": "Silver Pickaxe",
+      "block.forest.sandslate_bricks": "Sandslate Bricks",
+      "entity.forest.brown_bear": "Brown Bear",
+      "gui.forest.fermentation_barrel_screen.label_fermentation_barrel": "Fermentation barrel",
       "block.forest.brown_fence": "Brown Fence",
       "gui.forest.fermentation_barrel_screen.label_fermentation_barrel": "Fermentation barrel",
       "desc.gingerbread_brick": "Brick",
@@ -11745,6 +11766,7 @@
       "block.forest.polished_pumice_stairs": "Polished Pumice Stairs",
       "block.forest.mulberry_leaves_without_black": "Mulberry Leaves",
       "block.forest.white_stairs": "White Stairs",
+      "item.forest.lettuce_seeds": "Lettuce Seed",
       "biome.forest.dry_thorn_forest": "Dry Thorn Forest",
       "item.forest.gingerbread_pine": "Gingerbread",
       "block.forest.red_fence": "Red Fence",
@@ -11765,6 +11787,8 @@
       "item.forest.polar_bear_pelt": "Polar Bear Pelt",
       "block.forest.mulberry_door": "Mulberry Door",
       "item.forest.lettuce_seed": "Lettuce Seed",
+      "block.forest.polished_sandslate_wall": "Polished Sandslate Wall",
+      "block.forest.red_slab": "Red Slab",
       "block.forest.blue_fence": "Blue Fence",
       "block.forest.grape_vine_1": "Grape Vine",
       "block.forest.light_blue_stairs": "Light Blue Stairs",
