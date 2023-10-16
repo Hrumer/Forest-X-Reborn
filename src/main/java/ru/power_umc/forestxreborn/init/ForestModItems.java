@@ -260,6 +260,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> BLACK_MULBERRY = REGISTRY.register("black_mulberry", () -> new BlackMulberryItem());
 	public static final RegistryObject<Item> WHITE_MULBERRY = REGISTRY.register("white_mulberry", () -> new WhiteMulberryItem());
 	public static final RegistryObject<Item> RASPBERRY = REGISTRY.register("raspberry", () -> new RaspberryItem());
+	public static final RegistryObject<Item> MUSIC_DISC_STROFA = REGISTRY.register("music_disc_strofa", () -> new MusicDiscStrofaItem());
 	public static final RegistryObject<Item> RYE = REGISTRY.register("rye", () -> new RyeItem());
 	public static final RegistryObject<Item> PEAT_PIECE = REGISTRY.register("peat_piece", () -> new PeatPieceItem());
 	public static final RegistryObject<Item> GINGERBREAD_FORM_MAN = REGISTRY.register("gingerbread_form_man", () -> new GingerbreadFormManItem());
@@ -270,7 +271,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> POLAR_BEAR_PELT = REGISTRY.register("polar_bear_pelt", () -> new PolarBearPeltItem());
 	public static final RegistryObject<Item> CALIBRI_FEATHER = REGISTRY.register("calibri_feather", () -> new CalibriFeatherItem());
 	public static final RegistryObject<Item> DART = REGISTRY.register("dart", () -> new DartItem());
-	public static final RegistryObject<Item> MUSIC_DISC_STROFA = REGISTRY.register("music_disc_strofa", () -> new MusicDiscStrofaItem());
 	public static final RegistryObject<Item> RACCON_SPAWN_EGG = REGISTRY.register("raccon_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.RACCON, -10066330, -3355444, new Item.Properties()));
 	public static final RegistryObject<Item> BROWN_BEAR_SPAWN_EGG = REGISTRY.register("brown_bear_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.BROWN_BEAR, -13434880, -6737152, new Item.Properties()));
 	public static final RegistryObject<Item> SNAIL_SPAWN_EGG = REGISTRY.register("snail_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SNAIL, -6724096, -13434880, new Item.Properties()));
