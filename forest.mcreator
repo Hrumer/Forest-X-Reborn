@@ -10784,22 +10784,6 @@
       "path": "~/AlcoholMechanics/FermentationBarrel"
     },
     {
-      "name": "MixedForest",
-      "type": "biome",
-      "sortid": 625,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mixed_forest",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/worldgen/configured_feature/mixed_forest_tree.json",
-          "src/main/resources/data/forest/worldgen/placed_feature/mixed_forest_tree.json",
-          "src/main/resources/data/forest/worldgen/biome/mixed_forest.json"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
       "name": "FermentationBarrelScreen",
       "type": "gui",
       "sortid": 627,
@@ -11470,7 +11454,6 @@
       "biome.forest.marble_caves": "Мраморные пещеры",
       "block.forest.magenta_slab": "Пурпурная плита",
       "block.forest.red_crushed_sandstone_wall": "Ограда из красного колотого песчаника",
-      "biome.forest.mixed_forest": "Смешанный лес",
       "block.forest.dark_oak_parquet": "Паркет из темного дуба",
       "block.forest.yellow_planks": "Жёлтые доски",
       "item.forest.gingerbread_form_brick": "Форма для пряника",
@@ -11854,7 +11837,6 @@
       "biome.forest.marble_caves": "Marble Caves",
       "block.forest.magenta_slab": "Magenta Slab",
       "block.forest.red_crushed_sandstone_wall": "Red crushed sandstone wall",
-      "biome.forest.mixed_forest": "Mixed Forest",
       "block.forest.dark_oak_parquet": "Dark Oak Parquet",
       "block.forest.yellow_planks": "Yellow Planks",
       "item.forest.gingerbread_form_brick": "Gingerbread Form",
