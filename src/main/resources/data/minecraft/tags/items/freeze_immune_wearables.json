@@ -1,13 +1,4 @@
 {
   "replace": false,
-  "values": [
-    "forest:polar_bear_armor_boots",
-    "forest:polar_bear_armor_helmet",
-    "forest:brown_bear_armor_boots",
-    "forest:brown_bear_armor_leggings",
-    "forest:polar_bear_armor_chestplate",
-    "forest:brown_bear_armor_helmet",
-    "forest:brown_bear_armor_chestplate",
-    "forest:polar_bear_armor_leggings"
-  ]
+  "values": []
 }
