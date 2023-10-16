@@ -1,6 +1,6 @@
 {
-  "block.forest.gingerbread_bricks": "Пряничные кирпичи",
   "item.forest.gingerbread_round": "Пряник",
+  "block.forest.gingerbread_bricks": "Пряничные кирпичи",
   "block.forest.white_planks": "Белые доски",
   "item.forest.silver_pickaxe": "Серебряная кирка",
   "block.forest.sandslate_bricks": "Кирпичи из песчаного сланца",
@@ -207,7 +207,7 @@
   "entity.forest.green_butterfly": "Зеленая бабочка",
   "block.forest.sapphire_block": "Блок из сапфиров",
   "block.forest.mulberry_slab": "Плита из шелковицы",
-  "item.forest.silver_sickle": "Golden Sickle",
+  "item.forest.silver_sickle": "Серебряный серп",
   "block.forest.deepslate_silver_ore": "Серебряноносный глубинный сланец",
   "entity.forest.orange_butterfly": "Оранжевая бабочка",
   "subtitles.crocodile.dead": "",
