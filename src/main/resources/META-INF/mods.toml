@@ -4,7 +4,7 @@ license="All Rights Reserved"
 
 [[mods]]
 modId="forest"
-version="1.4.0.231016"
+version="1.4.0.231020"
 displayName="Forest X Reborn"
 credits="Created by Environment Studios"
 displayURL="https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html"
@@ -29,6 +29,12 @@ description="The revival of the legendary Forest X Second Edition addon, but onl
 
 [[dependencies.forest]]
     modId="geckolib"
+    mandatory=false
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+[[dependencies.forest]]
+    modId="allmods"
     mandatory=false
     versionRange="[0,)"
     ordering="NONE"
