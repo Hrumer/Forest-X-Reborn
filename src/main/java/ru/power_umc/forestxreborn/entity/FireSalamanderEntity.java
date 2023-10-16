@@ -18,13 +18,17 @@ import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.crafting.Ingredient;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.animal.Animal;
+import net.minecraft.world.entity.ai.goal.TemptGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.PanicGoal;
 import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.BreedGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
@@ -97,9 +101,11 @@ public class FireSalamanderEntity extends Animal implements GeoEntity {
 		super.registerGoals();
 		this.goalSelector.addGoal(1, new PanicGoal(this, 1.2));
 		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(3, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(4, new FloatGoal(this));
-		this.goalSelector.addGoal(5, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(3, new TemptGoal(this, 1, Ingredient.of(Items.MAGMA_CREAM), false));
+		this.goalSelector.addGoal(4, new BreedGoal(this, 1));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new FloatGoal(this));
+		this.goalSelector.addGoal(7, new LeapAtTargetGoal(this, (float) 0.5));
 	}
 
 	@Override
@@ -154,7 +160,7 @@ public class FireSalamanderEntity extends Animal implements GeoEntity {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of().contains(stack.getItem());
+		return List.of(Items.MAGMA_CREAM).contains(stack.getItem());
 	}
 
 	@Override

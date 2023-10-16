@@ -21,8 +21,10 @@ import net.minecraft.world.phys.Vec3;
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.projectile.AbstractArrow;
+import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.navigation.PathNavigation;
 import net.minecraft.world.entity.ai.navigation.FlyingPathNavigation;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
@@ -30,21 +32,24 @@ import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.PanicGoal;
 import net.minecraft.world.entity.ai.goal.FollowMobGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.BreedGoal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
 import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.PathfinderMob;
 import net.minecraft.world.entity.MobType;
+import net.minecraft.world.entity.MobSpawnType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.EntityDimensions;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.entity.AgeableMob;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
@@ -53,7 +58,9 @@ import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 import net.minecraft.core.BlockPos;
 
-public class CalibriEntity extends PathfinderMob implements GeoEntity {
+import java.util.List;
+
+public class CalibriEntity extends Animal implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(CalibriEntity.class, EntityDataSerializers.BOOLEAN);
 	public static final EntityDataAccessor<String> ANIMATION = SynchedEntityData.defineId(CalibriEntity.class, EntityDataSerializers.STRING);
 	public static final EntityDataAccessor<String> TEXTURE = SynchedEntityData.defineId(CalibriEntity.class, EntityDataSerializers.STRING);
@@ -103,8 +110,8 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new PanicGoal(this, 1.5));
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 3.2, 20) {
+		this.goalSelector.addGoal(1, new PanicGoal(this, 6));
+		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 3, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = CalibriEntity.this.getRandom();
@@ -115,8 +122,9 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 			}
 		});
 		this.goalSelector.addGoal(3, new FollowMobGoal(this, 1.2, (float) 16, (float) 8));
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(5, new FloatGoal(this));
+		this.goalSelector.addGoal(4, new BreedGoal(this, 1));
+		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(6, new FloatGoal(this));
 	}
 
 	@Override
@@ -168,6 +176,18 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 	}
 
 	@Override
+	public AgeableMob getBreedOffspring(ServerLevel serverWorld, AgeableMob ageable) {
+		CalibriEntity retval = ForestModEntities.CALIBRI.get().create(serverWorld);
+		retval.finalizeSpawn(serverWorld, serverWorld.getCurrentDifficultyAt(retval.blockPosition()), MobSpawnType.BREEDING, null, null);
+		return retval;
+	}
+
+	@Override
+	public boolean isFood(ItemStack stack) {
+		return List.of(ForestModItems.BLUEBERRY.get(), ForestModItems.BLACK_MULBERRY.get(), ForestModItems.WHITE_MULBERRY.get(), ForestModItems.RASPBERRY.get(), Items.SWEET_BERRIES).contains(stack.getItem());
+	}
+
+	@Override
 	protected void checkFallDamage(double y, boolean onGroundIn, BlockState state, BlockPos pos) {
 	}
 
@@ -190,12 +210,12 @@ public class CalibriEntity extends PathfinderMob implements GeoEntity {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.25);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.3);
 		builder = builder.add(Attributes.MAX_HEALTH, 7);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 0);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
-		builder = builder.add(Attributes.FLYING_SPEED, 0.25);
+		builder = builder.add(Attributes.FLYING_SPEED, 0.3);
 		return builder;
 	}
 
