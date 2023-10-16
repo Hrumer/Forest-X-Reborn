@@ -9,6 +9,9 @@
     "entities": [
       {
         "value": "CUSTOM:Scorpion"
+      },
+      {
+        "value": "CUSTOM:Wasp"
       }
     ],
     "biomes": [],

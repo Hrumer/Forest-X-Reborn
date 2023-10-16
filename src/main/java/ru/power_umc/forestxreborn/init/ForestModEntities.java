@@ -4,6 +4,7 @@
  */
 package ru.power_umc.forestxreborn.init;
 
+import ru.power_umc.forestxreborn.entity.WaspEntity;
 import ru.power_umc.forestxreborn.entity.VultureEntity;
 import ru.power_umc.forestxreborn.entity.TumbleweedEntity;
 import ru.power_umc.forestxreborn.entity.SnailEntity;
@@ -102,6 +103,10 @@ public class ForestModEntities {
 					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<SarbakanEntity>> SARBAKAN = register("projectile_sarbakan",
 			EntityType.Builder.<SarbakanEntity>of(SarbakanEntity::new, MobCategory.MISC).setCustomClientFactory(SarbakanEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
+	public static final RegistryObject<EntityType<WaspEntity>> WASP = register("wasp",
+			EntityType.Builder.<WaspEntity>of(WaspEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WaspEntity::new)
+
+					.sized(0.6f, 1.8f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -126,6 +131,7 @@ public class ForestModEntities {
 			CrocodileEntity.init();
 			TumbleweedEntity.init();
 			ScorpionEntity.init();
+			WaspEntity.init();
 		});
 	}
 
@@ -147,5 +153,6 @@ public class ForestModEntities {
 		event.put(CROCODILE.get(), CrocodileEntity.createAttributes().build());
 		event.put(TUMBLEWEED.get(), TumbleweedEntity.createAttributes().build());
 		event.put(SCORPION.get(), ScorpionEntity.createAttributes().build());
+		event.put(WASP.get(), WaspEntity.createAttributes().build());
 	}
 }

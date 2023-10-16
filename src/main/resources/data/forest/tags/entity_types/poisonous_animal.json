@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "forest:scorpion"
+    "forest:scorpion",
+    "forest:wasp"
   ]
 }
