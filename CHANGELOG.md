@@ -3,6 +3,7 @@ Snapshot 1.4.0.231020:
 <br /> - Added sickles
 <br /> - Added rye
 <br /> - Removed bear armor
+<br /> - Removed music discs tab
 <br /> - [Bugfix]
 Snapshot 1.4.0.231016:
 <br /> - Removed mixed forest

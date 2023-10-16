@@ -283,6 +283,7 @@ public class ForestModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> MISC = REGISTRY.register("misc",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.misc")).icon(() -> new ItemStack(ForestModItems.PEAT_PIECE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(ForestModItems.MUSIC_DISC_STROFA.get());
 				tabData.accept(ForestModItems.RYE.get());
 				tabData.accept(ForestModItems.PEAT_PIECE.get());
 				tabData.accept(ForestModItems.GINGERBREAD_FORM_MAN.get());
@@ -320,12 +321,6 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.DIAMOND_SICKLE.get());
 				tabData.accept(ForestModItems.NETHERITE_SICKLE.get());
 				tabData.accept(ForestModItems.SILVER_SICKLE.get());
-			})
-
-					.build());
-	public static final RegistryObject<CreativeModeTab> MUSIC_DISCS = REGISTRY.register("music_discs",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.music_discs")).icon(() -> new ItemStack(ForestModItems.MUSIC_DISC_STROFA.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(ForestModItems.MUSIC_DISC_STROFA.get());
 			})
 
 					.build());
