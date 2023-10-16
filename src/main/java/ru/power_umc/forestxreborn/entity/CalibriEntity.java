@@ -121,10 +121,11 @@ public class CalibriEntity extends Animal implements GeoEntity {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(3, new FollowMobGoal(this, 1.2, (float) 16, (float) 8));
-		this.goalSelector.addGoal(4, new BreedGoal(this, 1));
-		this.goalSelector.addGoal(5, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(6, new FloatGoal(this));
+		this.goalSelector.addGoal(3, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(4, new FollowMobGoal(this, 1.2, (float) 16, (float) 8));
+		this.goalSelector.addGoal(5, new BreedGoal(this, 1));
+		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(7, new FloatGoal(this));
 	}
 
 	@Override

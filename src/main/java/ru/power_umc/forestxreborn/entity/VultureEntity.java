@@ -178,7 +178,8 @@ public class VultureEntity extends Animal implements GeoEntity {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(13, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(13, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(14, new RandomLookAroundGoal(this));
 	}
 
 	@Override
