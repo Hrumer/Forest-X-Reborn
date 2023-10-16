@@ -7,6 +7,7 @@ package ru.power_umc.forestxreborn.init;
 import ru.power_umc.forestxreborn.item.WineItem;
 import ru.power_umc.forestxreborn.item.WhiteMulberryItem;
 import ru.power_umc.forestxreborn.item.SilverSwordItem;
+import ru.power_umc.forestxreborn.item.SilverSickleItem;
 import ru.power_umc.forestxreborn.item.SilverShovelItem;
 import ru.power_umc.forestxreborn.item.SilverPickaxeItem;
 import ru.power_umc.forestxreborn.item.SilverNuggetItem;
@@ -367,6 +368,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> GOLDEN_SICKLE = REGISTRY.register("golden_sickle", () -> new GoldenSickleItem());
 	public static final RegistryObject<Item> DIAMOND_SICKLE = REGISTRY.register("diamond_sickle", () -> new DiamondSickleItem());
 	public static final RegistryObject<Item> NETHERITE_SICKLE = REGISTRY.register("netherite_sickle", () -> new NetheriteSickleItem());
+	public static final RegistryObject<Item> SILVER_SICKLE = REGISTRY.register("silver_sickle", () -> new SilverSickleItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

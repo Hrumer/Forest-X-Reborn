@@ -317,6 +317,7 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.GOLDEN_SICKLE.get());
 				tabData.accept(ForestModItems.DIAMOND_SICKLE.get());
 				tabData.accept(ForestModItems.NETHERITE_SICKLE.get());
+				tabData.accept(ForestModItems.SILVER_SICKLE.get());
 			})
 
 					.build());

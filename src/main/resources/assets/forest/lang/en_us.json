@@ -1,6 +1,6 @@
 {
-  "block.forest.gingerbread_bricks": "Gingerbread Bricks",
   "item.forest.gingerbread_round": "Gingerbread",
+  "block.forest.gingerbread_bricks": "Gingerbread Bricks",
   "block.forest.white_planks": "White Planks",
   "item.forest.silver_pickaxe": "Silver Pickaxe",
   "block.forest.sandslate_bricks": "Sandslate Bricks",
@@ -207,6 +207,7 @@
   "entity.forest.green_butterfly": "Green Butterfly",
   "block.forest.sapphire_block": "Block of Sapphire",
   "block.forest.mulberry_slab": "Mulberry Slab",
+  "item.forest.silver_sickle": "Silver Sickle",
   "block.forest.deepslate_silver_ore": "Deepslate Silver Ore",
   "entity.forest.orange_butterfly": "Orange Butterfly",
   "subtitles.crocodile.dead": "",
