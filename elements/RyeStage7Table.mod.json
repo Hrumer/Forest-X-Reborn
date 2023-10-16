@@ -14,7 +14,7 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:LettuceSeeds"
+              "value": "CUSTOM:RyeSeeds"
             },
             "weight": 1,
             "minCount": 1,
@@ -37,11 +37,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:Lettuce"
+              "value": "CUSTOM:Rye"
             },
             "weight": 1,
             "minCount": 1,
-            "maxCount": 3,
+            "maxCount": 1,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,
@@ -51,7 +51,7 @@
         ]
       }
     ],
-    "name": "blocks/lettuce_stage_3",
+    "name": "blocks/rye_stage_7",
     "namespace": "mod"
   }
 }
