@@ -313,6 +313,10 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.SILVER_ARMOR_BOOTS.get());
 				tabData.accept(ForestModItems.QUIVER.get());
 				tabData.accept(ForestModItems.SARBAKAN.get());
+				tabData.accept(ForestModItems.IRON_SICKLE.get());
+				tabData.accept(ForestModItems.GOLDEN_SICKLE.get());
+				tabData.accept(ForestModItems.DIAMOND_SICKLE.get());
+				tabData.accept(ForestModItems.NETHERITE_SICKLE.get());
 			})
 
 					.build());

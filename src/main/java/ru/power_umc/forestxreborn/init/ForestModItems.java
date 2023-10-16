@@ -26,12 +26,15 @@ import ru.power_umc.forestxreborn.item.RaspberryItem;
 import ru.power_umc.forestxreborn.item.QuiverItem;
 import ru.power_umc.forestxreborn.item.PolarBearPeltItem;
 import ru.power_umc.forestxreborn.item.PeatPieceItem;
+import ru.power_umc.forestxreborn.item.NetheriteSickleItem;
 import ru.power_umc.forestxreborn.item.MusicDiscStrofaItem;
 import ru.power_umc.forestxreborn.item.MeatLoafItem;
 import ru.power_umc.forestxreborn.item.LettuceSeedItem;
 import ru.power_umc.forestxreborn.item.LettuceItem;
 import ru.power_umc.forestxreborn.item.LardItem;
+import ru.power_umc.forestxreborn.item.IronSickleItem;
 import ru.power_umc.forestxreborn.item.GrapeItem;
+import ru.power_umc.forestxreborn.item.GoldenSickleItem;
 import ru.power_umc.forestxreborn.item.GlazedGingerbreadPineItem;
 import ru.power_umc.forestxreborn.item.GlazedGingerbreadMenItem;
 import ru.power_umc.forestxreborn.item.GingerbreadRoundItem;
@@ -44,6 +47,7 @@ import ru.power_umc.forestxreborn.item.GingerbreadFormHeartItem;
 import ru.power_umc.forestxreborn.item.GingerbreadFormBrickItem;
 import ru.power_umc.forestxreborn.item.GingerbreadDoughItem;
 import ru.power_umc.forestxreborn.item.GingerbreadBrickItem;
+import ru.power_umc.forestxreborn.item.DiamondSickleItem;
 import ru.power_umc.forestxreborn.item.DartItem;
 import ru.power_umc.forestxreborn.item.CalibriFeatherItem;
 import ru.power_umc.forestxreborn.item.BrownBearPeltItem;
@@ -359,6 +363,10 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RASPBERRY_BUSH_1 = block(ForestModBlocks.RASPBERRY_BUSH_1);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_2 = block(ForestModBlocks.RASPBERRY_BUSH_2);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_3 = block(ForestModBlocks.RASPBERRY_BUSH_3);
+	public static final RegistryObject<Item> IRON_SICKLE = REGISTRY.register("iron_sickle", () -> new IronSickleItem());
+	public static final RegistryObject<Item> GOLDEN_SICKLE = REGISTRY.register("golden_sickle", () -> new GoldenSickleItem());
+	public static final RegistryObject<Item> DIAMOND_SICKLE = REGISTRY.register("diamond_sickle", () -> new DiamondSickleItem());
+	public static final RegistryObject<Item> NETHERITE_SICKLE = REGISTRY.register("netherite_sickle", () -> new NetheriteSickleItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

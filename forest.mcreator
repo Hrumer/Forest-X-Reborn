@@ -1143,7 +1143,7 @@
           "src/main/resources/data/forest/recipes/berry_pie_craft.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "OakParquetCraft",
@@ -1670,7 +1670,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/RawBarbecueItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "Barbecue",
@@ -1685,7 +1685,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/BarbecueItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "BarbecueCraft",
@@ -1699,7 +1699,7 @@
           "src/main/resources/data/forest/recipes/barbecue_craft.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "Lard",
@@ -1714,7 +1714,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/LardItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "MeatLoaf",
@@ -1729,7 +1729,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/MeatLoafItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "Sandslate",
@@ -1925,7 +1925,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/BerryStrudelItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "Blueberry",
@@ -2630,7 +2630,7 @@
           "src/main/resources/data/forest/recipes/raw_barbecue_craft.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "MeatLoafCraft",
@@ -2644,7 +2644,7 @@
           "src/main/resources/data/forest/recipes/meat_loaf_craft.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "BreadWithLardCraft",
@@ -2658,7 +2658,7 @@
           "src/main/resources/data/forest/recipes/bread_with_lard_craft.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "LardCraft",
@@ -2672,7 +2672,7 @@
           "src/main/resources/data/forest/recipes/lard_craft.json"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "PolishedRhyoliteSlab",
@@ -4278,7 +4278,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/SilverPickaxeItem.java"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverAxe",
@@ -4293,7 +4293,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/SilverAxeItem.java"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverSword",
@@ -4308,7 +4308,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/SilverSwordItem.java"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverShovel",
@@ -4323,7 +4323,7 @@
           "src/main/resources/assets/forest/models/item/silver_shovel.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverHoe",
@@ -4338,7 +4338,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/SilverHoeItem.java"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverPickaxeRecipe",
@@ -4352,7 +4352,7 @@
           "src/main/resources/data/forest/recipes/silver_pickaxe_recipe.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverAxeRecipe",
@@ -4366,7 +4366,7 @@
           "src/main/resources/data/forest/recipes/silver_axe_recipe.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverSwordRecipe",
@@ -4380,7 +4380,7 @@
           "src/main/resources/data/forest/recipes/silver_sword_recipe.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverShovelRecipe",
@@ -4394,7 +4394,7 @@
           "src/main/resources/data/forest/recipes/silver_shovel_recipe.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverHoeRecipe",
@@ -4408,7 +4408,7 @@
           "src/main/resources/data/forest/recipes/silver_hoe_recipe.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "GingerbreadBlock",
@@ -7303,7 +7303,7 @@
           "src/main/resources/assets/forest/models/item/silver_armor_helmet.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverArmorHelmetRecipe",
@@ -7317,7 +7317,7 @@
           "src/main/resources/data/forest/recipes/silver_armor_helmet_recipe.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverArmorChestplateRecipe",
@@ -7331,7 +7331,7 @@
           "src/main/resources/data/forest/recipes/silver_armor_chestplate_recipe.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverArmorLeggingsRecipe",
@@ -7345,7 +7345,7 @@
           "src/main/resources/data/forest/recipes/silver_armor_leggings_recipe.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "SilverArmorBootsRecipe",
@@ -7359,7 +7359,7 @@
           "src/main/resources/data/forest/recipes/silver_armor_boots_recipe.json"
         ]
       },
-      "path": "~/ToolsEquipments"
+      "path": "~/Silver"
     },
     {
       "name": "QuiverCraft",
@@ -10251,7 +10251,7 @@
           "src/main/java/ru/power_umc/forestxreborn/item/BreadWithLardItem.java"
         ]
       },
-      "path": "~/Food"
+      "path": "~/ToolsEquipments/Food"
     },
     {
       "name": "PoisonousAnimal",
@@ -10937,6 +10937,106 @@
         ]
       },
       "path": "~/Animals"
+    },
+    {
+      "name": "IronSickle",
+      "type": "tool",
+      "sortid": 647,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sickle",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/iron_sickle.json",
+          "src/main/java/ru/power_umc/forestxreborn/item/IronSickleItem.java"
+        ]
+      },
+      "path": "~/ToolsEquipments/Sickles"
+    },
+    {
+      "name": "GoldenSickle",
+      "type": "tool",
+      "sortid": 648,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "golden_sickle",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/item/GoldenSickleItem.java",
+          "src/main/resources/assets/forest/models/item/golden_sickle.json"
+        ]
+      },
+      "path": "~/ToolsEquipments/Sickles"
+    },
+    {
+      "name": "DiamondSickle",
+      "type": "tool",
+      "sortid": 649,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "diamond_sickle",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/item/DiamondSickleItem.java",
+          "src/main/resources/assets/forest/models/item/diamond_sickle.json"
+        ]
+      },
+      "path": "~/ToolsEquipments/Sickles"
+    },
+    {
+      "name": "NetheriteSickle",
+      "type": "tool",
+      "sortid": 650,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "netherite_sickle",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/item/NetheriteSickleItem.java",
+          "src/main/resources/assets/forest/models/item/netherite_sickle.json"
+        ]
+      },
+      "path": "~/ToolsEquipments/Sickles"
+    },
+    {
+      "name": "IronSicklePriRazrushieniiBlokaInstrumientom",
+      "type": "procedure",
+      "sortid": 651,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "iron_sickle_pri_razrushienii_bloka_instrumientom",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/IronSicklePriRazrushieniiBlokaInstrumientomProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "itemstack",
+            "type": "itemstack"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/ToolsEquipments/Sickles"
     }
   ],
   "variable_elements": [
@@ -11121,6 +11221,7 @@
       "block.forest.warped_parquet": "Искаженный паркет",
       "block.forest.blueberry_bush_0": " ",
       "block.forest.stripped_eucalyptus_log": "Обтёсанное бревно эвкалипта",
+      "item.forest.iron_sickle": "Железный серп",
       "item.forest.silver_armor_boots": "Серебряные ботинки",
       "item.forest.scorpion_spawn_egg": "Яйцо призыва скорпиона",
       "advancements.robin_hood_is_back.descr": "Создайте колчан и положите туда стрелы",
@@ -11214,6 +11315,7 @@
       "tooltip.translation.intoxication": "Опьянение",
       "block.forest.rhyolite_bricks_wall": "Ограда из риолитовых кирпичей",
       "painting.forest.painting_volcano.title": "Вулкан",
+      "item.forest.netherite_sickle": "Незеритовый серп",
       "block.forest.truncated_pumice_slab": "Плита из усеченной пемзы",
       "item.forest.berry_strudel": "Ягодный штрудель",
       "block.forest.marble_bricks_slab": "Плита из мраморных кирпичей",
@@ -11381,6 +11483,7 @@
       "block.forest.gray_fence": "Серый забор",
       "block.forest.eucalyptus_trapdoor": "Эвкалиптовый люк",
       "item.forest.raccon_spawn_egg": "Яйцо призыва енота",
+      "item.forest.diamond_sickle": "Золотой серп",
       "block.forest.tropical_parquet": "Паркет из тропического дерева",
       "block.forest.sunshroom": "Солнцегриб",
       "block.forest.purple_fence": "Фиолетовый забор",
@@ -11399,6 +11502,7 @@
       "block.forest.lavander": "Лаванда",
       "block.forest.stripped_mulberry_wood": "Обтёсанная девесина шелковицы",
       "block.forest.rhyolite_wall": "Ограда из риолита",
+      "item.forest.golden_sickle": "Железный серп",
       "block.forest.brown_fence_gate": "Коричневая калитка",
       "block.forest.eucalyptus_log": "Бревно эвкалипта",
       "painting.forest.painting_pig_in_mood.title": "Свинья в грязи",
@@ -11420,8 +11524,8 @@
       "block.forest.mulberry_sapling": "Саженец шелковицы"
     },
     "en_us": {
-      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.gingerbread_bricks": "Gingerbread Bricks",
+      "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.white_planks": "White Planks",
       "item.forest.silver_pickaxe": "Silver Pickaxe",
       "block.forest.sandslate_bricks": "Sandslate Bricks",
@@ -11496,6 +11600,7 @@
       "block.forest.warped_parquet": "Warped Parquet",
       "block.forest.blueberry_bush_0": "Blueberry Bush 0",
       "block.forest.stripped_eucalyptus_log": "Stripped Eucalyptus Log",
+      "item.forest.iron_sickle": "Iron Sickle",
       "item.forest.silver_armor_boots": "Silver Boots",
       "item.forest.scorpion_spawn_egg": "Scorpion Spawn Egg",
       "advancements.robin_hood_is_back.descr": "Create a quiver and put arrows there",
@@ -11589,6 +11694,7 @@
       "tooltip.translation.intoxication": "Intoxication",
       "block.forest.rhyolite_bricks_wall": "Rhyolite Bricks Wall",
       "painting.forest.painting_volcano.title": "Volcano",
+      "item.forest.netherite_sickle": "Netherite Sickle",
       "block.forest.truncated_pumice_slab": "Truncated Pumice Slab",
       "item.forest.berry_strudel": "Berry Strudel",
       "block.forest.marble_bricks_slab": "Marble Bricks Slab",
@@ -11756,6 +11862,7 @@
       "block.forest.gray_fence": "Gray Fence",
       "block.forest.eucalyptus_trapdoor": "Eucalyptus Trapdoor",
       "item.forest.raccon_spawn_egg": "Racoon Spawn Egg",
+      "item.forest.diamond_sickle": "Diamond Sickle",
       "block.forest.tropical_parquet": "Tropical Parquet",
       "block.forest.sunshroom": "Sunshroom",
       "block.forest.purple_fence": "Purple Fence",
@@ -11774,6 +11881,7 @@
       "block.forest.lavander": "Lavander",
       "block.forest.stripped_mulberry_wood": "Stripped Mulberry Wood",
       "block.forest.rhyolite_wall": "Rhyolite Wall",
+      "item.forest.golden_sickle": "Golden Sickle",
       "block.forest.brown_fence_gate": "Brown Fence Gate",
       "block.forest.eucalyptus_log": "Eucalyptus Log",
       "painting.forest.painting_pig_in_mood.title": "Pig in mood",
@@ -11836,10 +11944,6 @@
       },
       {
         "name": "Pumice",
-        "children": []
-      },
-      {
-        "name": "Food",
         "children": []
       },
       {
@@ -11921,6 +12025,14 @@
         "children": [
           {
             "name": "Quiver",
+            "children": []
+          },
+          {
+            "name": "Sickles",
+            "children": []
+          },
+          {
+            "name": "Food",
             "children": []
           }
         ]
