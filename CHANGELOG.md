@@ -1,6 +1,7 @@
 What's new in Forest X Reborn 1.4.0?<br />
-Snapshot 1.4.0.230902:
-<br /> - 
+Snapshot 1.4.0.231016:
+<br /> - Removed mixed forest
+<br /> - [Bugfix] Fixed a bug that caused the quiver to stack into 64 items
 Snapshot 1.4.0.230825:
 <br /> - Added mixed forest and eucalyptus forest
 <br /> - Added eucalyptus tree
