@@ -49,6 +49,6 @@ public class LettuceStage3Block extends Block {
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(ForestModItems.LETTUCE_SEED.get());
+		return new ItemStack(ForestModItems.LETTUCE_SEEDS.get());
 	}
 }

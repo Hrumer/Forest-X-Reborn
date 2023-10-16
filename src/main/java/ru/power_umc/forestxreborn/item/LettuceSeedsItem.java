@@ -10,8 +10,8 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.InteractionResult;
 
-public class LettuceSeedItem extends Item {
-	public LettuceSeedItem() {
+public class LettuceSeedsItem extends Item {
+	public LettuceSeedsItem() {
 		super(new Item.Properties().stacksTo(64).rarity(Rarity.COMMON));
 	}
 
@@ -23,7 +23,7 @@ public class LettuceSeedItem extends Item {
 	@Override
 	public InteractionResult useOn(UseOnContext context) {
 		super.useOn(context);
-		LettuceSeedPriNazhatiiPravoiKnopkoiMyshiProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getItemInHand());
+		LettuceSeedPriNazhatiiPravoiKnopkoiMyshiProcedure.execute(context.getLevel(), context.getClickedPos().getX(), context.getClickedPos().getY(), context.getClickedPos().getZ(), context.getPlayer(), context.getItemInHand());
 		return InteractionResult.SUCCESS;
 	}
 }
