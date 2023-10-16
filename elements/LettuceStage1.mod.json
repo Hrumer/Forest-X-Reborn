@@ -44,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:LettuceSeed"
+      "value": "CUSTOM:LettuceSeeds"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -65,7 +65,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:LettuceSeed"
+      "value": "CUSTOM:LettuceSeeds"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -101,7 +101,7 @@
     "breakHarvestLevel": 0,
     "isBonemealable": true,
     "onBonemealSuccess": {
-      "name": "LettuceStage1ObnovitTakt"
+      "name": "LettuceStage0ObnovitTakt"
     },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -121,7 +121,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "LettuceStage1ObnovitTakt"
+      "name": "LettuceStage0ObnovitTakt"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
