@@ -8275,42 +8275,6 @@
       "path": "~/Animals"
     },
     {
-      "name": "BrownBearArmor",
-      "type": "armor",
-      "sortid": 275,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brown_bear_armor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/brown_bear_armor_chestplate.json",
-          "src/main/resources/assets/forest/models/item/brown_bear_armor_boots.json",
-          "src/main/resources/assets/forest/models/item/brown_bear_armor_helmet.json",
-          "src/main/java/ru/power_umc/forestxreborn/item/BrownBearArmorItem.java",
-          "src/main/resources/assets/forest/models/item/brown_bear_armor_leggings.json"
-        ]
-      },
-      "path": "~/BearThings"
-    },
-    {
-      "name": "PolarBearArmor",
-      "type": "armor",
-      "sortid": 276,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "polar_bear_armor",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/item/PolarBearArmorItem.java",
-          "src/main/resources/assets/forest/models/item/polar_bear_armor_chestplate.json",
-          "src/main/resources/assets/forest/models/item/polar_bear_armor_leggings.json",
-          "src/main/resources/assets/forest/models/item/polar_bear_armor_helmet.json",
-          "src/main/resources/assets/forest/models/item/polar_bear_armor_boots.json"
-        ]
-      },
-      "path": "~/BearThings"
-    },
-    {
       "name": "BrownBearCarpet",
       "type": "block",
       "sortid": 161,
@@ -9288,118 +9252,6 @@
         "files": []
       },
       "path": "~/Tabs"
-    },
-    {
-      "name": "BrownBearHelmet",
-      "type": "recipe",
-      "sortid": 569,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brown_bear_helmet",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/brown_bear_helmet.json"
-        ]
-      },
-      "path": "~/BearThings"
-    },
-    {
-      "name": "BrownBearChestplate",
-      "type": "recipe",
-      "sortid": 570,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brown_bear_chestplate",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/brown_bear_chestplate.json"
-        ]
-      },
-      "path": "~/BearThings"
-    },
-    {
-      "name": "BrownBearLeggings",
-      "type": "recipe",
-      "sortid": 571,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brown_bear_leggings",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/brown_bear_leggings.json"
-        ]
-      },
-      "path": "~/BearThings"
-    },
-    {
-      "name": "BrownBearBoots",
-      "type": "recipe",
-      "sortid": 572,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "brown_bear_boots",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/brown_bear_boots.json"
-        ]
-      },
-      "path": "~/BearThings"
-    },
-    {
-      "name": "PolarBeartHelmet",
-      "type": "recipe",
-      "sortid": 573,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "polar_beart_helmet",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/polar_beart_helmet.json"
-        ]
-      },
-      "path": "~/BearThings"
-    },
-    {
-      "name": "PolarBearChestplate",
-      "type": "recipe",
-      "sortid": 574,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "polar_bear_chestplate",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/polar_bear_chestplate.json"
-        ]
-      },
-      "path": "~/BearThings"
-    },
-    {
-      "name": "PolarBearLeggings",
-      "type": "recipe",
-      "sortid": 575,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "polar_bear_leggings",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/polar_bear_leggings.json"
-        ]
-      },
-      "path": "~/BearThings"
-    },
-    {
-      "name": "PolarBearBoots",
-      "type": "recipe",
-      "sortid": 576,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "polar_bear_boots",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/polar_bear_boots.json"
-        ]
-      },
-      "path": "~/BearThings"
     },
     {
       "name": "BrownBearCarpetCraft",
@@ -11193,7 +11045,6 @@
   ],
   "language_map": {
     "ru_ru": {
-      "item.forest.polar_bear_armor_helmet": "Шапка из шкуры белого медведя",
       "item.forest.gingerbread_round": "Пряник",
       "block.forest.gingerbread_bricks": "Пряничные кирпичи",
       "block.forest.white_planks": "Белые доски",
@@ -11217,8 +11068,6 @@
       "item.forest.raw_gingerbread_man": "Тесто для пряника",
       "block.forest.polished_marble_wall": "Полированная мраморная ограда",
       "item_group.forest.misc": "Разное",
-      "item.forest.brown_bear_armor_chestplate": "Куртка из шкуры бурого медведя",
-      "item.forest.brown_bear_armor_helmet": "Шапка из шкуры бурого медведя",
       "block.forest.gray_stairs": "Серые ступени",
       "block.forest.pumice_bricks_wall": "Ограда из кирпичей пемзы",
       "block.forest.purple_slab": "Фиолетовая плита",
@@ -11363,14 +11212,12 @@
       "block.forest.lime_planks": "Лаймовые доски",
       "block.forest.light_gray_fence": "Светло-серый забор",
       "tooltip.translation.intoxication": "Опьянение",
-      "item.forest.brown_bear_armor_leggings": "Панталоны из шкуры бурого медведя",
       "block.forest.rhyolite_bricks_wall": "Ограда из риолитовых кирпичей",
       "painting.forest.painting_volcano.title": "Вулкан",
       "block.forest.truncated_pumice_slab": "Плита из усеченной пемзы",
       "item.forest.berry_strudel": "Ягодный штрудель",
       "block.forest.marble_bricks_slab": "Плита из мраморных кирпичей",
       "subtitles.crocodile.agressive": "",
-      "item.forest.brown_bear_armor_boots": "Валенки из шкуры бурого медведя",
       "block.forest.red_crushed_sandstone_slab": "Плита из красного колотого песчаника",
       "item.forest.lard": "Сало",
       "advancements.forest_x_starting.descr": "Установите Forest X Reborn в свой мир",
@@ -11414,7 +11261,6 @@
       "block.forest.yellow_fence": "Жёлтый забор",
       "block.forest.desert_rose": "Роза Пустыни",
       "block.forest.purple_fence_gate": "Фиолетовая калитка",
-      "item.forest.polar_bear_armor_chestplate": "Куртка из шкуры белого медведя",
       "item.forest.meat_loaf": "Мясной рулет",
       "block.forest.cobbled_sandslate_stairs": "Ступени из дробленого песчаного сланца",
       "item.forest.silver_armor_leggings": "Серебряные поножи",
@@ -11529,7 +11375,6 @@
       "item.forest.raw_gingerbread_pine": "Тесто для пряника",
       "block.forest.pumice_bricks_stairs": "Ступени из кирпичей пемзы",
       "block.forest.polished_pumice_wall": "Ограда из полированной пемзы",
-      "item.forest.polar_bear_armor_boots": "Валенки из шкуры белого медведя",
       "block.forest.mulberry_leaves_without_white": "Листья шелковицы",
       "block.forest.cyan_fence_gate": "Бирюзовая калитка",
       "gui.forest.clay_oven_gui.label_baking_gingerbread": "Выпекание пряников",
@@ -11554,7 +11399,6 @@
       "block.forest.lavander": "Лаванда",
       "block.forest.stripped_mulberry_wood": "Обтёсанная девесина шелковицы",
       "block.forest.rhyolite_wall": "Ограда из риолита",
-      "item.forest.polar_bear_armor_leggings": "Панталоны из шкуры белого медведя",
       "block.forest.brown_fence_gate": "Коричневая калитка",
       "block.forest.eucalyptus_log": "Бревно эвкалипта",
       "painting.forest.painting_pig_in_mood.title": "Свинья в грязи",
@@ -11576,7 +11420,6 @@
       "block.forest.mulberry_sapling": "Саженец шелковицы"
     },
     "en_us": {
-      "item.forest.polar_bear_armor_helmet": "Brown Bear Armor Helmet",
       "item.forest.gingerbread_round": "Gingerbread",
       "block.forest.gingerbread_bricks": "Gingerbread Bricks",
       "block.forest.white_planks": "White Planks",
@@ -11600,8 +11443,6 @@
       "item.forest.raw_gingerbread_man": "Raw Gingerbread",
       "block.forest.polished_marble_wall": "Polished Marble Wall",
       "item_group.forest.misc": "Misc",
-      "item.forest.brown_bear_armor_chestplate": "Brown Bear Armor Chestplate",
-      "item.forest.brown_bear_armor_helmet": "Brown Bear Armor Helmet",
       "block.forest.gray_stairs": "Gray Stairs",
       "block.forest.pumice_bricks_wall": "Pumice Bricks Slab",
       "block.forest.purple_slab": "Purple Slab",
@@ -11746,14 +11587,12 @@
       "block.forest.lime_planks": "Lime Planks",
       "block.forest.light_gray_fence": "Light Gray Fence",
       "tooltip.translation.intoxication": "Intoxication",
-      "item.forest.brown_bear_armor_leggings": "Brown Bear Armor Leggings",
       "block.forest.rhyolite_bricks_wall": "Rhyolite Bricks Wall",
       "painting.forest.painting_volcano.title": "Volcano",
       "block.forest.truncated_pumice_slab": "Truncated Pumice Slab",
       "item.forest.berry_strudel": "Berry Strudel",
       "block.forest.marble_bricks_slab": "Marble Bricks Slab",
       "subtitles.crocodile.agressive": "",
-      "item.forest.brown_bear_armor_boots": "Brown Bear Armor Boots",
       "block.forest.red_crushed_sandstone_slab": "Red crushed sandstone slab",
       "item.forest.lard": "Lard",
       "advancements.forest_x_starting.descr": "Install Forest X Reborn in your world",
@@ -11797,7 +11636,6 @@
       "block.forest.yellow_fence": "Yellow Fence",
       "block.forest.desert_rose": "Desert Rose",
       "block.forest.purple_fence_gate": "Purple Fence Gate",
-      "item.forest.polar_bear_armor_chestplate": "Brown Bear Armor Chestplate",
       "block.forest.cobbled_sandslate_stairs": "Cobbled Sandslate Stairs",
       "item.forest.meat_loaf": "Meat loaf",
       "item.forest.silver_armor_leggings": "Silver Leggings",
@@ -11912,7 +11750,6 @@
       "item.forest.raw_gingerbread_pine": "Raw Gingerbread",
       "block.forest.pumice_bricks_stairs": "Pumice Bricks Slab",
       "block.forest.polished_pumice_wall": "Polished Pumice Wall",
-      "item.forest.polar_bear_armor_boots": "Brown Bear Armor Boots",
       "block.forest.mulberry_leaves_without_white": "Mulberry Leaves",
       "block.forest.cyan_fence_gate": "Cyan Fence Gate",
       "gui.forest.clay_oven_gui.label_baking_gingerbread": "Baking gingerbread",
@@ -11937,7 +11774,6 @@
       "block.forest.lavander": "Lavander",
       "block.forest.stripped_mulberry_wood": "Stripped Mulberry Wood",
       "block.forest.rhyolite_wall": "Rhyolite Wall",
-      "item.forest.polar_bear_armor_leggings": "Brown Bear Armor Leggings",
       "block.forest.brown_fence_gate": "Brown Fence Gate",
       "block.forest.eucalyptus_log": "Eucalyptus Log",
       "painting.forest.painting_pig_in_mood.title": "Pig in mood",

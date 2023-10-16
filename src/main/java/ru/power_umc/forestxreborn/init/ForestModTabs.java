@@ -342,17 +342,4 @@ public class ForestModTabs {
 			})
 
 					.build());
-	public static final RegistryObject<CreativeModeTab> CLOTHES = REGISTRY.register("clothes",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.clothes")).icon(() -> new ItemStack(ForestModItems.BROWN_BEAR_ARMOR_HELMET.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_HELMET.get());
-				tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_CHESTPLATE.get());
-				tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_LEGGINGS.get());
-				tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_BOOTS.get());
-				tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_HELMET.get());
-				tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_CHESTPLATE.get());
-				tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_LEGGINGS.get());
-				tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_BOOTS.get());
-			})
-
-					.build());
 }
