@@ -29,9 +29,7 @@
       }
     ],
     "name": "Cattail",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Plants"
     },

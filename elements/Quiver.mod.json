@@ -26,10 +26,7 @@
     "damageOnCrafting": false,
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
-    "specialInformation": {
-      "fixedValue": "",
-      "name": "QuiverValue"
-    },
+    "specialInfo": [],
     "hasGlow": false,
     "guiBoundTo": "QuiverInventory",
     "inventorySize": 9,

@@ -70,9 +70,7 @@
       }
     ],
     "name": "Polar Bear Carpet",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "hardness": 0.2,
     "resistance": 1.0,
     "hasGravity": false,

@@ -34,9 +34,7 @@
       }
     ],
     "name": "Faceted Sandslate Bricks",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "hardness": 1.9999999999999998,
     "resistance": 10.0,
     "hasGravity": false,

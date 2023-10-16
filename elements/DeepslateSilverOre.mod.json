@@ -34,9 +34,7 @@
       }
     ],
     "name": "Deepslate Silver Ore",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.915809336112958,
     "hasGravity": false,

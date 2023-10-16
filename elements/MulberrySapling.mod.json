@@ -34,9 +34,7 @@
       }
     ],
     "name": "Eucalyptus Sapling",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "hardness": 1.0,
     "resistance": 0.0,
     "hasGravity": false,

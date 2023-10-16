@@ -35,9 +35,7 @@
       }
     ],
     "name": "Mulberry Stairs",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "hardness": 3.0,
     "resistance": 2.0,
     "hasGravity": false,

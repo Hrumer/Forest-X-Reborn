@@ -34,9 +34,7 @@
       }
     ],
     "name": "Snail Shell",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

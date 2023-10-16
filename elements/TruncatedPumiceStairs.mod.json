@@ -35,9 +35,7 @@
       }
     ],
     "name": "Truncated Pumice Stairs",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "hardness": 2.0,
     "resistance": 6.0,
     "hasGravity": false,

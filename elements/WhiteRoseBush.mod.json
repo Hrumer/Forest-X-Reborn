@@ -29,9 +29,7 @@
       }
     ],
     "name": "White Rose Bush",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Plants"
     },

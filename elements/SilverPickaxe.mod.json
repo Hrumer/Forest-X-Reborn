@@ -9,9 +9,7 @@
     "customModelName": "Normal",
     "blockingModelName": "Normal blocking",
     "name": "Silver Pickaxe",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+"specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },
