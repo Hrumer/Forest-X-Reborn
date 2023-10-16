@@ -1,6 +1,7 @@
 
 package ru.power_umc.forestxreborn.block;
 
+import ru.power_umc.forestxreborn.procedures.RyeStage0ObnovlieniieTikaProcedure;
 import ru.power_umc.forestxreborn.init.ForestModItems;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -63,7 +64,7 @@ public class RyeStage3Block extends Block implements BonemealableBlock {
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(ForestModItems.DELETED_MOD_ELEMENT.get());
+		return new ItemStack(ForestModItems.RYE_SEEDS.get());
 	}
 
 	@Override
@@ -71,7 +72,23 @@ public class RyeStage3Block extends Block implements BonemealableBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(ForestModItems.DELETED_MOD_ELEMENT.get()));
+		return Collections.singletonList(new ItemStack(ForestModItems.RYE_SEEDS.get()));
+	}
+
+	@Override
+	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
+		super.onPlace(blockstate, world, pos, oldState, moving);
+		world.scheduleTick(pos, this, 200);
+	}
+
+	@Override
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		RyeStage0ObnovlieniieTikaProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 200);
 	}
 
 	@Override
@@ -86,5 +103,6 @@ public class RyeStage3Block extends Block implements BonemealableBlock {
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		RyeStage0ObnovlieniieTikaProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

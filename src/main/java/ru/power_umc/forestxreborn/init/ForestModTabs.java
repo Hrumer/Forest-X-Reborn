@@ -223,6 +223,7 @@ public class ForestModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> PLANTS = REGISTRY.register("plants",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.plants")).icon(() -> new ItemStack(ForestModBlocks.LAVANDER.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(ForestModItems.LETTUCE_SEEDS.get());
 				tabData.accept(ForestModItems.RYE_SEEDS.get());
 				tabData.accept(ForestModBlocks.WILDFLOWER.get().asItem());
 				tabData.accept(ForestModBlocks.BURNING_BLOSSOM.get().asItem());
@@ -235,7 +236,6 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.WHITE_ROSE_BUSH.get().asItem());
 				tabData.accept(ForestModBlocks.PINK_ROSE_BUSH.get().asItem());
 				tabData.accept(ForestModBlocks.CATTAIL.get().asItem());
-				tabData.accept(ForestModItems.LETTUCE_SEEDS.get());
 			})
 
 					.build());
@@ -283,6 +283,7 @@ public class ForestModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> MISC = REGISTRY.register("misc",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.misc")).icon(() -> new ItemStack(ForestModItems.PEAT_PIECE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(ForestModItems.RYE.get());
 				tabData.accept(ForestModItems.PEAT_PIECE.get());
 				tabData.accept(ForestModItems.GINGERBREAD_FORM_MAN.get());
 				tabData.accept(ForestModItems.GINGERBREAD_FORM_HEART.get());

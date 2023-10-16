@@ -3,14 +3,14 @@
   "_type": "item",
   "definition": {
     "renderType": 0,
-    "texture": "rye_seeds",
+    "texture": "rye",
     "customModelName": "Normal",
     "customProperties": {},
     "states": [],
-    "name": "Rye Seeds",
+    "name": "Rye",
     "rarity": "COMMON",
     "creativeTab": {
-      "value": "CUSTOM:Plants"
+      "value": "CUSTOM:Misc"
     },
     "stackSize": 64,
     "enchantability": 0,
@@ -31,9 +31,6 @@
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
     "inventoryStackSize": 64,
-    "onRightClickedOnBlock": {
-      "name": "RyeSeedsPriShchielchkiePKMPoBloku"
-    },
     "isFood": false,
     "nutritionalValue": 4,
     "saturation": 0.3,
