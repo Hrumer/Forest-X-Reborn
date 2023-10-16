@@ -40,6 +40,14 @@ import ru.power_umc.forestxreborn.block.SandslateBricksStairsBlock;
 import ru.power_umc.forestxreborn.block.SandslateBricksSlabBlock;
 import ru.power_umc.forestxreborn.block.SandslateBricksBlock;
 import ru.power_umc.forestxreborn.block.SandslateBlock;
+import ru.power_umc.forestxreborn.block.RyeStage7Block;
+import ru.power_umc.forestxreborn.block.RyeStage6Block;
+import ru.power_umc.forestxreborn.block.RyeStage5Block;
+import ru.power_umc.forestxreborn.block.RyeStage4Block;
+import ru.power_umc.forestxreborn.block.RyeStage3Block;
+import ru.power_umc.forestxreborn.block.RyeStage2Block;
+import ru.power_umc.forestxreborn.block.RyeStage1Block;
+import ru.power_umc.forestxreborn.block.RyeStage0Block;
 import ru.power_umc.forestxreborn.block.RhyoliteWallBlock;
 import ru.power_umc.forestxreborn.block.RhyoliteStairsBlock;
 import ru.power_umc.forestxreborn.block.RhyoliteSlabBlock;
@@ -472,6 +480,14 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RASPBERRY_BUSH_1 = REGISTRY.register("raspberry_bush_1", () -> new RaspberryBush1Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_2 = REGISTRY.register("raspberry_bush_2", () -> new RaspberryBush2Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_3 = REGISTRY.register("raspberry_bush_3", () -> new RaspberryBush3Block());
+	public static final RegistryObject<Block> RYE_STAGE_0 = REGISTRY.register("rye_stage_0", () -> new RyeStage0Block());
+	public static final RegistryObject<Block> RYE_STAGE_1 = REGISTRY.register("rye_stage_1", () -> new RyeStage1Block());
+	public static final RegistryObject<Block> RYE_STAGE_2 = REGISTRY.register("rye_stage_2", () -> new RyeStage2Block());
+	public static final RegistryObject<Block> RYE_STAGE_3 = REGISTRY.register("rye_stage_3", () -> new RyeStage3Block());
+	public static final RegistryObject<Block> RYE_STAGE_4 = REGISTRY.register("rye_stage_4", () -> new RyeStage4Block());
+	public static final RegistryObject<Block> RYE_STAGE_5 = REGISTRY.register("rye_stage_5", () -> new RyeStage5Block());
+	public static final RegistryObject<Block> RYE_STAGE_6 = REGISTRY.register("rye_stage_6", () -> new RyeStage6Block());
+	public static final RegistryObject<Block> RYE_STAGE_7 = REGISTRY.register("rye_stage_7", () -> new RyeStage7Block());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
