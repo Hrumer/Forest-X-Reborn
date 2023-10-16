@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "armor",
   "definition": {
     "enableHelmet": true,
@@ -18,18 +18,10 @@
     "bodyName": "Brown Bear Armor Chestplate",
     "leggingsName": "Brown Bear Armor Leggings",
     "bootsName": "Brown Bear Armor Boots",
-    "helmetSpecialInformation": {
-      "fixedValue": ""
-    },
-    "bodySpecialInformation": {
-      "fixedValue": ""
-    },
-    "leggingsSpecialInformation": {
-      "fixedValue": ""
-    },
-    "bootsSpecialInformation": {
-      "fixedValue": ""
-    },
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Modelbear_armor",
     "helmetModelPart": "Head",
     "helmetModelTexture": "From armor",

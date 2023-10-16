@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "crushed_sandstone",
@@ -34,7 +34,7 @@
       }
     ],
     "name": "Crushed Sandstone",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 2.5,
     "resistance": 50.0,
     "hasGravity": false,

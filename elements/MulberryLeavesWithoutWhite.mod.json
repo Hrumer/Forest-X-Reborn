@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "mulberry_leaves",
@@ -35,7 +35,7 @@
       }
     ],
     "name": "Mulberry Leaves",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 0.2,
     "resistance": 0.2,
     "hasGravity": false,

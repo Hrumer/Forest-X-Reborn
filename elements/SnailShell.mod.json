@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "snail_shell",
@@ -34,7 +34,7 @@
       }
     ],
     "name": "Snail Shell",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,

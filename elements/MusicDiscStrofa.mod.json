@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "musicdisc",
   "definition": {
     "name": "Music Disc",
@@ -8,7 +8,7 @@
     "creativeTab": {
       "value": "CUSTOM:MusicDiscs"
     },
-"specialInfo": [],
+    "specialInfo": [],
     "hasGlow": false,
     "music": {
       "value": "CUSTOM:record.strofa"

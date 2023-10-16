@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "mulberry_wood",
@@ -34,7 +34,7 @@
       }
     ],
     "name": "Mulberry Wood",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 2.0,
     "hasGravity": false,

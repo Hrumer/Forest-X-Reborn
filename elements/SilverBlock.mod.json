@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "silver_block",
@@ -34,7 +34,7 @@
       }
     ],
     "name": "Block of Silver",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,

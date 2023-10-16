@@ -1,15 +1,13 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "tool",
   "definition": {
     "toolType": "Hoe",
     "renderType": 0,
-    "blockingRenderType": 0,
     "texture": "silver_hoe",
     "customModelName": "Normal",
-    "blockingModelName": "Normal blocking",
     "name": "Silver Hoe",
-"specialInfo": [],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },

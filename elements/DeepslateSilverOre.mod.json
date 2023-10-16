@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "deepslate_silver_ore",
@@ -34,7 +34,7 @@
       }
     ],
     "name": "Deepslate Silver Ore",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.915809336112958,
     "hasGravity": false,

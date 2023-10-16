@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "dense_web",
@@ -34,7 +34,7 @@
       }
     ],
     "name": "Dense Web With Spider",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 100.0,
     "hasGravity": false,

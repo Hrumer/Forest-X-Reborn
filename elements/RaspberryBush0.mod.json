@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "raspberry_bush_stage_0",
@@ -34,7 +34,7 @@
       }
     ],
     "name": "Blueberry Bush 0",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,

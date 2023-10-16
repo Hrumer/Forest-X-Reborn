@@ -1,15 +1,13 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "tool",
   "definition": {
     "toolType": "Spade",
     "renderType": 0,
-    "blockingRenderType": 0,
     "texture": "silver_shovel",
     "customModelName": "Normal",
-    "blockingModelName": "Normal blocking",
     "name": "Silver Shovel",
-"specialInfo": [],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },

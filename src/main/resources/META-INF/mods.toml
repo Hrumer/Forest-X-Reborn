@@ -33,10 +33,4 @@ description="The revival of the legendary Forest X Second Edition addon, but onl
     versionRange="[0,)"
     ordering="NONE"
     side="BOTH"
-[[dependencies.forest]]
-    modId="allmods"
-    mandatory=false
-    versionRange="[0,)"
-    ordering="NONE"
-    side="BOTH"
 

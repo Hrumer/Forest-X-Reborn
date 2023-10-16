@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "gray_planks",
@@ -35,7 +35,7 @@
       }
     ],
     "name": "Gray Stairs",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,

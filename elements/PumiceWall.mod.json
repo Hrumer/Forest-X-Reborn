@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "pumice",
@@ -35,7 +35,7 @@
       }
     ],
     "name": "Pumice Wall",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 6.0,
     "hasGravity": false,

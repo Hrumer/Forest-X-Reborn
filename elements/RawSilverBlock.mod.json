@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "raw_silver_block",
@@ -34,7 +34,7 @@
       }
     ],
     "name": "Raw Silver Block",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 4.5,
     "resistance": 6.915809336112958,
     "hasGravity": false,

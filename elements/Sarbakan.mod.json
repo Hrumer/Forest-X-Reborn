@@ -1,12 +1,12 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "rangeditem",
   "definition": {
     "renderType": 0,
     "texture": "sarbakan",
     "customModelName": "Normal",
     "name": "Sarbakan",
-"specialInfo": [],
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },

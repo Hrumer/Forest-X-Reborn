@@ -1,5 +1,5 @@
 {
-  "_fv": 45,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "stripped_eucalyptus_log_top",
@@ -34,7 +34,7 @@
       }
     ],
     "name": "Stripped Eucalyptus Log",
-"specialInfo": [],
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 2.0,
     "hasGravity": false,
