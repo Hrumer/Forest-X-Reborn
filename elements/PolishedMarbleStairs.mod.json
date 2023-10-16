@@ -35,9 +35,7 @@
       }
     ],
     "name": "Polished Marble Stairs",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 1.3499999999999999,
     "resistance": 10.0,
     "hasGravity": false,

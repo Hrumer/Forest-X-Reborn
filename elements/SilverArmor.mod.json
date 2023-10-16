@@ -18,18 +18,10 @@
     "bodyName": "Silver Chestplate",
     "leggingsName": "Silver Leggings",
     "bootsName": "Silver Boots",
-    "helmetSpecialInformation": {
-      "fixedValue": ""
-    },
-    "bodySpecialInformation": {
-      "fixedValue": ""
-    },
-    "leggingsSpecialInformation": {
-      "fixedValue": ""
-    },
-    "bootsSpecialInformation": {
-      "fixedValue": ""
-    },
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Default",
     "helmetModelPart": "Helmet",
     "helmetModelTexture": "From armor",

@@ -7,9 +7,7 @@
     "texture": "silver_axe",
     "customModelName": "Normal",
     "name": "Silver Axe",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },

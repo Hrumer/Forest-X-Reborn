@@ -6,9 +6,7 @@
     "texture": "sarbakan",
     "customModelName": "Normal",
     "name": "Sarbakan",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },

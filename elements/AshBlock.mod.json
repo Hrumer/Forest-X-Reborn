@@ -34,9 +34,7 @@
       }
     ],
     "name": "Ash Block",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 0.2,
     "resistance": 5.0,
     "hasGravity": true,

@@ -8,9 +8,7 @@
     "creativeTab": {
       "value": "CUSTOM:MusicDiscs"
     },
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hasGlow": false,
     "music": {
       "value": "CUSTOM:record.strofa"

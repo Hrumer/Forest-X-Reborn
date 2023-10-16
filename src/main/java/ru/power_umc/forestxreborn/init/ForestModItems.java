@@ -89,6 +89,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> MANGROVE_PARQUET = block(ForestModBlocks.MANGROVE_PARQUET);
 	public static final RegistryObject<Item> CHERRY_PARQUET = block(ForestModBlocks.CHERRY_PARQUET);
 	public static final RegistryObject<Item> MULBERRY_PARQUET = block(ForestModBlocks.MULBERRY_PARQUET);
+	public static final RegistryObject<Item> EUCALYPTUS_PARQUET = block(ForestModBlocks.EUCALYPTUS_PARQUET);
 	public static final RegistryObject<Item> MARBLE = block(ForestModBlocks.MARBLE);
 	public static final RegistryObject<Item> MARBLE_BRICKS = block(ForestModBlocks.MARBLE_BRICKS);
 	public static final RegistryObject<Item> POLISHED_MARBLE = block(ForestModBlocks.POLISHED_MARBLE);
@@ -363,7 +364,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> LETTUCE_STAGE_1 = block(ForestModBlocks.LETTUCE_STAGE_1);
 	public static final RegistryObject<Item> LETTUCE_STAGE_2 = block(ForestModBlocks.LETTUCE_STAGE_2);
 	public static final RegistryObject<Item> LETTUCE_STAGE_3 = block(ForestModBlocks.LETTUCE_STAGE_3);
-	public static final RegistryObject<Item> EUCALYPTUS_PARQUET = block(ForestModBlocks.EUCALYPTUS_PARQUET);
 	public static final RegistryObject<Item> GRAPE_VINE_1 = block(ForestModBlocks.GRAPE_VINE_1);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_0 = block(ForestModBlocks.RASPBERRY_BUSH_0);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_1 = block(ForestModBlocks.RASPBERRY_BUSH_1);

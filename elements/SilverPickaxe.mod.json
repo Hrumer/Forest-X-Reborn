@@ -7,9 +7,7 @@
     "texture": "silver_pickaxe",
     "customModelName": "Normal",
     "name": "Silver Pickaxe",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },

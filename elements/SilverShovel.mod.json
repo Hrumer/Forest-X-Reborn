@@ -7,9 +7,7 @@
     "texture": "silver_shovel",
     "customModelName": "Normal",
     "name": "Silver Shovel",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },

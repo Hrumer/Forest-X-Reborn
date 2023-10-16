@@ -35,9 +35,7 @@
       }
     ],
     "name": "Mulberry Leaves",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 0.2,
     "resistance": 0.2,
     "hasGravity": false,

@@ -34,9 +34,7 @@
       }
     ],
     "name": "Block of Sapphire",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 5.0,
     "resistance": 10.0,
     "hasGravity": false,

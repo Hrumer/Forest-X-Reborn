@@ -18,34 +18,26 @@
     "bodyName": "Brown Bear Armor Chestplate",
     "leggingsName": "Brown Bear Armor Leggings",
     "bootsName": "Brown Bear Armor Boots",
-    "helmetSpecialInformation": {
-      "fixedValue": ""
-    },
-    "bodySpecialInformation": {
-      "fixedValue": ""
-    },
-    "leggingsSpecialInformation": {
-      "fixedValue": ""
-    },
-    "bootsSpecialInformation": {
-      "fixedValue": ""
-    },
+    "helmetSpecialInfo": [],
+    "bodySpecialInfo": [],
+    "leggingsSpecialInfo": [],
+    "bootsSpecialInfo": [],
     "helmetModelName": "Modelbear_armor",
     "helmetModelPart": "Head",
-    "helmetModelTexture": "polar_bear_armor.png",
+    "helmetModelTexture": "From armor",
     "bodyModelName": "Modelbear_armor",
     "bodyModelPart": "Body",
     "armsModelPartL": "LeftArm",
     "armsModelPartR": "RightArm",
-    "bodyModelTexture": "polar_bear_armor.png",
+    "bodyModelTexture": "From armor",
     "leggingsModelName": "Modelbear_armor",
     "leggingsModelPartL": "LeftLeg",
     "leggingsModelPartR": "RightLeg",
-    "leggingsModelTexture": "polar_bear_armor.png",
+    "leggingsModelTexture": "From armor",
     "bootsModelName": "Modelbear_armor",
     "bootsModelPartL": "LeftLeg",
     "bootsModelPartR": "RightLeg",
-    "bootsModelTexture": "polar_bear_armor.png",
+    "bootsModelTexture": "From armor",
     "helmetItemRenderType": 0,
     "helmetItemCustomModelName": "Normal",
     "bodyItemRenderType": 0,

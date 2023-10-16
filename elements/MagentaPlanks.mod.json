@@ -34,9 +34,7 @@
       }
     ],
     "name": "Magenta Planks",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 3.0,
     "hasGravity": false,

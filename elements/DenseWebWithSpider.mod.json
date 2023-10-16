@@ -34,9 +34,7 @@
       }
     ],
     "name": "Dense Web With Spider",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 100.0,
     "hasGravity": false,

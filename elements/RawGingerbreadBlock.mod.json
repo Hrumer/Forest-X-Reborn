@@ -34,9 +34,7 @@
       }
     ],
     "name": "Raw Gingerbread Block",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 5.0,
     "hasGravity": false,

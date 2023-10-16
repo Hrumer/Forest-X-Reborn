@@ -11,12 +11,10 @@
     "tintType": "No tint",
     "isItemTinted": false,
     "plantType": "normal",
-    "staticPlantGenerationType": "Flower",
     "suspiciousStewEffect": "INVISIBILITY",
     "suspiciousStewDuration": 200,
     "growapableSpawnType": "Plains",
     "growapableMaxHeight": 3,
-    "doublePlantGenerationType": "Flower",
     "customBoundingBox": false,
     "disableOffset": false,
     "boundingBoxes": [
@@ -31,6 +29,7 @@
       }
     ],
     "name": "Sunshroom",
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Plants"
     },
@@ -104,6 +103,7 @@
     "frequencyOnChunks": 5,
     "spawnWorldTypes": [],
     "restrictionBiomes": [],
+    "generationType": "Flower",
     "patchSize": 64,
     "generateAtAnyHeight": false
   }

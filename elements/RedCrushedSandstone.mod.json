@@ -34,9 +34,7 @@
       }
     ],
     "name": "Red Crushed Sandstone",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 2.5,
     "resistance": 50.0,
     "hasGravity": false,
