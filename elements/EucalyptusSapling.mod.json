@@ -99,6 +99,9 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
+    "placingCondition": {
+      "name": "BlueberriesBushFeatureAdditionalGenerationCondition"
+    },
     "isBonemealable": true,
     "onBonemealSuccess": {
       "name": "EucalyptusSaplingPriNazhatii"
