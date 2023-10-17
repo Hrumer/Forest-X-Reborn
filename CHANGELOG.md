@@ -4,6 +4,8 @@ Snapshot 1.4.0.231020:
 <br /> - Added rye
 <br /> - Removed bear armor
 <br /> - Removed music discs tab
+<br /> - [Bugfix] Fixed sliding of the silver block
+<br /> - [Bugfix] Fixed placement of saplings
 <br /> - [Bugfix]
 Snapshot 1.4.0.231016:
 <br /> - Removed mixed forest
