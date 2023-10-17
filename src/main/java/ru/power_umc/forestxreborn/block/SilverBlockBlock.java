@@ -19,7 +19,7 @@ import java.util.Collections;
 
 public class SilverBlockBlock extends Block {
 	public SilverBlockBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 10f).lightLevel(s -> 2).requiresCorrectToolForDrops().friction(0.9f));
+		super(BlockBehaviour.Properties.of().sound(SoundType.METAL).strength(5f, 10f).lightLevel(s -> 2).requiresCorrectToolForDrops());
 	}
 
 	@Override
