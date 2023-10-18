@@ -11267,6 +11267,38 @@
         ]
       },
       "path": "~/AnimalsBlocks"
+    },
+    {
+      "name": "WaspNestObnovlieniieTika",
+      "type": "procedure",
+      "sortid": 653,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wasp_nest_obnovlieniie_tika",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/WaspNestObnovlieniieTikaProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/AnimalsBlocks"
     }
   ],
   "variable_elements": [
