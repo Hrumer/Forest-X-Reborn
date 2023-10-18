@@ -3,6 +3,7 @@ Snapshot 1.4.0.231020:
 <br /> - Added sickles
 <br /> - Added rye
 <br /> - Removed bear armor
+<br /> - The brown bear has become bigger
 <br /> - Removed music discs tab
 <br /> - [Bugfix] Fixed sliding of the silver block
 <br /> - [Bugfix] Fixed placement of saplings
