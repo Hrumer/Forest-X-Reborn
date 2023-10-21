@@ -48,11 +48,13 @@ public class ColoringFencesProcedure {
 	private static void execute(@Nullable Event event, LevelAccessor world, double x, double y, double z, Entity entity) {
 		if (entity == null)
 			return;
+		String defaultMaterialString = "";
 		if ((entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).getItem() == Items.BLACK_DYE
 				&& (world.getBlockState(BlockPos.containing(x, y, z))).is(BlockTags.create(new ResourceLocation("minecraft:wooden_fences")))) {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -91,6 +93,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -108,6 +119,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -146,6 +158,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -163,6 +184,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -201,6 +223,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -218,6 +249,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -256,6 +288,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -273,6 +314,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -311,6 +353,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -328,6 +379,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -366,6 +418,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -383,6 +444,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -421,6 +483,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -438,6 +509,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -476,6 +548,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -493,6 +574,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -531,6 +613,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -548,6 +639,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -586,6 +678,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -603,6 +704,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -641,6 +743,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -658,6 +769,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -696,6 +808,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -713,6 +834,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -751,6 +873,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -768,6 +899,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -806,6 +938,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -823,6 +964,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -861,6 +1003,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -878,6 +1029,7 @@ public class ColoringFencesProcedure {
 			if (!(entity instanceof Player _plr ? _plr.getAbilities().instabuild : false)) {
 				(entity instanceof LivingEntity _livEnt ? _livEnt.getMainHandItem() : ItemStack.EMPTY).shrink(1);
 			}
+			defaultMaterialString = ForgeRegistries.BLOCKS.getKey((world.getBlockState(BlockPos.containing(x, y, z))).getBlock()).toString();
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
 					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.honeycomb.wax_on")), SoundSource.NEUTRAL, 1, 1);
@@ -916,6 +1068,15 @@ public class ColoringFencesProcedure {
 			}
 			if (entity instanceof LivingEntity _entity)
 				_entity.swing(InteractionHand.MAIN_HAND, true);
+			if (!world.isClientSide()) {
+				BlockPos _bp = BlockPos.containing(x, y, z);
+				BlockEntity _blockEntity = world.getBlockEntity(_bp);
+				BlockState _bs = world.getBlockState(_bp);
+				if (_blockEntity != null)
+					_blockEntity.getPersistentData().putString("defaultMaterial", defaultMaterialString);
+				if (world instanceof Level _level)
+					_level.sendBlockUpdated(_bp, _bs, _bs, 3);
+			}
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
