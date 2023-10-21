@@ -18,6 +18,7 @@ import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerPlayer;
@@ -88,6 +89,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -141,6 +144,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -194,6 +199,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -247,6 +254,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -300,6 +309,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -353,6 +364,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -406,6 +419,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -459,6 +474,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -512,6 +529,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -565,6 +584,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -618,6 +639,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -671,6 +694,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -724,6 +749,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -777,6 +804,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -830,6 +859,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
@@ -883,6 +914,8 @@ public class ColoringFencesProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 			if (entity instanceof ServerPlayer _player) {
 				Advancement _adv = _player.server.getAdvancements().getAdvancement(new ResourceLocation("forest:paint_the_fence"));
 				AdvancementProgress _ap = _player.getAdvancements().getOrStartProgress(_adv);
