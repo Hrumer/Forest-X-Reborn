@@ -3,6 +3,8 @@ package ru.power_umc.forestxreborn.item;
 
 import ru.power_umc.forestxreborn.init.ForestModItems;
 
+import net.minecraftforge.registries.ForgeRegistries;
+
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.item.Item;
@@ -10,8 +12,8 @@ import net.minecraft.world.item.ArmorMaterial;
 import net.minecraft.world.item.ArmorItem;
 import net.minecraft.world.entity.EquipmentSlot;
 import net.minecraft.world.entity.Entity;
-import net.minecraft.sounds.SoundEvents;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.resources.ResourceLocation;
 
 public abstract class SilverArmorItem extends ArmorItem {
 	public SilverArmorItem(ArmorItem.Type type, Item.Properties properties) {
@@ -33,7 +35,7 @@ public abstract class SilverArmorItem extends ArmorItem {
 
 			@Override
 			public SoundEvent getEquipSound() {
-				return SoundEvents.EMPTY;
+				return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("item.armor.equip_gold"));
 			}
 
 			@Override
