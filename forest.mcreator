@@ -11430,6 +11430,20 @@
         ]
       },
       "path": "~/Tags"
+    },
+    {
+      "name": "BreadFromRye",
+      "type": "recipe",
+      "sortid": 656,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "bread_from_rye",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/bread_from_rye.json"
+        ]
+      },
+      "path": "~/Harvest/Rye"
     }
   ],
   "variable_elements": [
