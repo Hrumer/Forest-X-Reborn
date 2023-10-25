@@ -8,6 +8,7 @@ Snapshot 1.4.0.231020:
 <br /> - Added a wave of the hand when interacting with some blocks
 <br /> - Added the ability to remove the paint layer from the blocks
 <br /> - Removed music discs tab
+<br /> - The panorama from the previous snapshots has been returned
 <br /> - [Bugfix] Fixed a bug that caused non-vanilla tags to be used for painting
 <br /> - [Bugfix] Fixed sliding of the silver block
 <br /> - [Bugfix] Fixed placement of saplings
