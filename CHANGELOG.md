@@ -7,6 +7,7 @@ Snapshot 1.4.0.231020:
 <br /> - Added the sound of equipping silver armor
 <br /> - Added a wave of the hand when interacting with some blocks
 <br /> - Added the ability to remove the paint layer from the blocks
+<br /> - The growing period for all plants has been increased
 <br /> - Removed music discs tab
 <br /> - The panorama from the previous snapshots has been returned
 <br /> - [Bugfix] Fixed a bug that caused non-vanilla tags to be used for painting
