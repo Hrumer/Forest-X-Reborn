@@ -57,43 +57,13 @@
         "value": "CUSTOM:YellowFenceGate"
       },
       {
-        "value": "Blocks.OAK_FENCE_GATE"
-      },
-      {
-        "value": "Blocks.SPRUCE_FENCE_GATE"
-      },
-      {
-        "value": "Blocks.BIRCH_FENCE_GATE"
-      },
-      {
-        "value": "Blocks.JUNGLE_FENCE_GATE"
-      },
-      {
-        "value": "Blocks.ACACIA_FENCE_GATE"
-      },
-      {
-        "value": "Blocks.DARK_OAK_FENCE_GATE"
-      },
-      {
-        "value": "Blocks.CRIMSON_FENCE_GATE"
-      },
-      {
-        "value": "Blocks.WARPED_FENCE_GATE"
-      },
-      {
-        "value": "Blocks.MANGROVE_FENCE_GATE"
-      },
-      {
         "value": "CUSTOM:MulberryFenceGate"
-      },
-      {
-        "value": "Blocks.CHERRY_FENCE_GATE"
       }
     ],
     "functions": [],
     "entities": [],
     "biomes": [],
-    "name": "wooden_fence_gates",
+    "name": "fence_gates",
     "namespace": "minecraft"
   }
 }

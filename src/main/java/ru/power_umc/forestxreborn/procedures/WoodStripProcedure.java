@@ -18,6 +18,7 @@ import net.minecraft.world.item.AxeItem;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.world.InteractionHand;
 import net.minecraft.util.RandomSource;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.resources.ResourceLocation;
@@ -90,6 +91,8 @@ public class WoodStripProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 		} else {
 			if (world instanceof Level _level)
 				_level.updateNeighborsAt(BlockPos.containing(x, y, z), _level.getBlockState(BlockPos.containing(x, y, z)).getBlock());
@@ -140,6 +143,8 @@ public class WoodStripProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 		} else {
 			if (world instanceof Level _level)
 				_level.updateNeighborsAt(BlockPos.containing(x, y, z), _level.getBlockState(BlockPos.containing(x, y, z)).getBlock());
@@ -190,6 +195,8 @@ public class WoodStripProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 		} else {
 			if (world instanceof Level _level)
 				_level.updateNeighborsAt(BlockPos.containing(x, y, z), _level.getBlockState(BlockPos.containing(x, y, z)).getBlock());
@@ -240,6 +247,8 @@ public class WoodStripProcedure {
 					}
 				}
 			}
+			if (entity instanceof LivingEntity _entity)
+				_entity.swing(InteractionHand.MAIN_HAND, true);
 		} else {
 			if (world instanceof Level _level)
 				_level.updateNeighborsAt(BlockPos.containing(x, y, z), _level.getBlockState(BlockPos.containing(x, y, z)).getBlock());
