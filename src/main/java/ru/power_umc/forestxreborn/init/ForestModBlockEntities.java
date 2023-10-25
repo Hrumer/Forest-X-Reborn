@@ -14,6 +14,7 @@ import ru.power_umc.forestxreborn.block.entity.WhiteSlabBlockEntity;
 import ru.power_umc.forestxreborn.block.entity.WhitePlanksBlockEntity;
 import ru.power_umc.forestxreborn.block.entity.WhiteFenceGateBlockEntity;
 import ru.power_umc.forestxreborn.block.entity.WhiteFenceBlockEntity;
+import ru.power_umc.forestxreborn.block.entity.WaspNestBlockEntity;
 import ru.power_umc.forestxreborn.block.entity.RedStairsBlockEntity;
 import ru.power_umc.forestxreborn.block.entity.RedSlabBlockEntity;
 import ru.power_umc.forestxreborn.block.entity.RedPlanksBlockEntity;
@@ -177,6 +178,7 @@ public class ForestModBlockEntities {
 	public static final RegistryObject<BlockEntityType<?>> MAGENTA_FENCE_GATE = register("magenta_fence_gate", ForestModBlocks.MAGENTA_FENCE_GATE, MagentaFenceGateBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> PINK_FENCE_GATE = register("pink_fence_gate", ForestModBlocks.PINK_FENCE_GATE, PinkFenceGateBlockEntity::new);
 	public static final RegistryObject<BlockEntityType<?>> FERMENTATION_BARREL = register("fermentation_barrel", ForestModBlocks.FERMENTATION_BARREL, FermentationBarrelBlockEntity::new);
+	public static final RegistryObject<BlockEntityType<?>> WASP_NEST = register("wasp_nest", ForestModBlocks.WASP_NEST, WaspNestBlockEntity::new);
 
 	private static RegistryObject<BlockEntityType<?>> register(String registryname, RegistryObject<Block> block, BlockEntityType.BlockEntitySupplier<?> supplier) {
 		return REGISTRY.register(registryname, () -> BlockEntityType.Builder.of(supplier, block.get()).build(null));
