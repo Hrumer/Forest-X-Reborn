@@ -1,0 +1,19 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "01"
+  ],
+  "key": {
+    "0": {
+      "item": "forest:rye"
+    },
+    "1": {
+      "item": "forest:rye"
+    }
+  },
+  "result": {
+    "item": "minecraft:bread",
+    "count": 1
+  }
+}
