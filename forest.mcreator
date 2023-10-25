@@ -9547,56 +9547,6 @@
       "path": "~/Animals"
     },
     {
-      "name": "CalibriFeather",
-      "type": "item",
-      "sortid": 197,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "calibri_feather",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/item/CalibriFeatherItem.java",
-          "src/main/resources/assets/forest/models/item/calibri_feather.json"
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
-      "name": "Dart",
-      "type": "item",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dart",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/item/DartItem.java",
-          "src/main/resources/assets/forest/models/item/dart.json"
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
-      "name": "SarbakanKoghdaSnariadPopadaietVSushchnost",
-      "type": "procedure",
-      "sortid": 581,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sarbakan_koghda_snariad_popadaiet_v_sushchnost",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/SarbakanKoghdaSnariadPopadaietVSushchnostProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
       "name": "Vulture",
       "type": "animatedentity",
       "sortid": 210,
@@ -9933,51 +9883,6 @@
         ]
       },
       "path": "~/AlcoholMechanics/FermentationBarrel"
-    },
-    {
-      "name": "Sarbakan",
-      "type": "rangeditem",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sarbakan",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/client/renderer/SarbakanRenderer.java",
-          "src/main/resources/assets/forest/models/item/sarbakan.json",
-          "src/main/java/ru/power_umc/forestxreborn/entity/SarbakanEntity.java",
-          "src/main/java/ru/power_umc/forestxreborn/item/SarbakanItem.java"
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
-      "name": "SarbakanCraft",
-      "type": "recipe",
-      "sortid": 596,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sarbakan_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sarbakan_craft.json"
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
-      "name": "DartCraft",
-      "type": "recipe",
-      "sortid": 597,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dart_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/dart_craft.json"
-        ]
-      },
-      "path": "~/Sarbakan"
     },
     {
       "name": "Rat",
@@ -11498,7 +11403,6 @@
       "block.forest.green_fence": "Зелёный забор",
       "item.forest.white_mulberry": "Белая шелковица",
       "entity.forest.pink_butterfly": "Розовая бабочка",
-      "item.forest.calibri_feather": "Перо калибри",
       "item_group.forest.tools_and_armor": "Инструменты и броня",
       "entity.forest.vulture": "Стервятник",
       "item.forest.gingerbread_form_man": "Форма для пряника",
@@ -11642,7 +11546,6 @@
       "block.forest.lettuce_stage_3": " ",
       "block.forest.dense_web_with_spider": "Плотная паутина с пауком",
       "block.forest.orange_fence_gate": "Оранжевая калитка",
-      "item.forest.dart": "Дротик",
       "block.forest.brown_planks": "Коричневые доски",
       "block.forest.rhyolite": "Риолит",
       "block.forest.light_blue_fence_gate": "Голубая калитка",
@@ -11800,7 +11703,6 @@
       "biome.forest.volcano": "Вулкан",
       "item.forest.snail_spawn_egg": "Яйцо призыва улитки",
       "subtitles.rat.ambient": "",
-      "item.forest.sarbakan": "Духовая трубка",
       "item.forest.music_disc_strofa": "Пластинка",
       "block.forest.rhyolite_slab": "Плита из риолита",
       "block.forest.polished_sandslate_slab": "Плита из полированного песчаного сланца",
@@ -11888,7 +11790,6 @@
       "block.forest.green_fence": "Green Fence",
       "item.forest.white_mulberry": "White Mulberry",
       "entity.forest.pink_butterfly": "Pink Butterfly",
-      "item.forest.calibri_feather": "Calibri Feather",
       "item_group.forest.tools_and_armor": "Tools \u0026 Armor",
       "entity.forest.vulture": "Vulture",
       "item.forest.gingerbread_form_man": "Gingerbread Form",
@@ -12032,7 +11933,6 @@
       "block.forest.lettuce_stage_3": "Lettuce Stage 3",
       "block.forest.dense_web_with_spider": "Dense Web With Spider",
       "block.forest.orange_fence_gate": "Orange Fence Gate",
-      "item.forest.dart": "Dart",
       "block.forest.brown_planks": "Brown Planks",
       "block.forest.rhyolite": "Rhyolite",
       "block.forest.light_blue_fence_gate": "Light Blue Fence Gate",
@@ -12190,7 +12090,6 @@
       "biome.forest.volcano": "Volcano",
       "item.forest.snail_spawn_egg": "Snail Spawn Egg",
       "subtitles.rat.ambient": "",
-      "item.forest.sarbakan": "Sarbakan",
       "item.forest.music_disc_strofa": "Music Disc",
       "block.forest.rhyolite_slab": "Rhyolite Slab",
       "block.forest.polished_sandslate_slab": "Polished Sandslate Slab",
@@ -12454,10 +12353,6 @@
       },
       {
         "name": "Paintings",
-        "children": []
-      },
-      {
-        "name": "Sarbakan",
         "children": []
       },
       {

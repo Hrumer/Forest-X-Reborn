@@ -133,11 +133,6 @@ public class CalibriEntity extends Animal implements GeoEntity {
 		return MobType.UNDEFINED;
 	}
 
-	protected void dropCustomDeathLoot(DamageSource source, int looting, boolean recentlyHitIn) {
-		super.dropCustomDeathLoot(source, looting, recentlyHitIn);
-		this.spawnAtLocation(new ItemStack(ForestModItems.CALIBRI_FEATHER.get()));
-	}
-
 	@Override
 	public SoundEvent getAmbientSound() {
 		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:calibri.ambient"));

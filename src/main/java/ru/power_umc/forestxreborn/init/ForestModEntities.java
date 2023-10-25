@@ -8,7 +8,6 @@ import ru.power_umc.forestxreborn.entity.VultureEntity;
 import ru.power_umc.forestxreborn.entity.TumbleweedEntity;
 import ru.power_umc.forestxreborn.entity.SnailEntity;
 import ru.power_umc.forestxreborn.entity.ScorpionEntity;
-import ru.power_umc.forestxreborn.entity.SarbakanEntity;
 import ru.power_umc.forestxreborn.entity.RatEntity;
 import ru.power_umc.forestxreborn.entity.RacconEntity;
 import ru.power_umc.forestxreborn.entity.PurpleButterflyEntity;
@@ -100,8 +99,6 @@ public class ForestModEntities {
 			EntityType.Builder.<ScorpionEntity>of(ScorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ScorpionEntity::new)
 
 					.sized(0.6f, 1.8f));
-	public static final RegistryObject<EntityType<SarbakanEntity>> SARBAKAN = register("projectile_sarbakan",
-			EntityType.Builder.<SarbakanEntity>of(SarbakanEntity::new, MobCategory.MISC).setCustomClientFactory(SarbakanEntity::new).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(1).sized(0.5f, 0.5f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
