@@ -4,10 +4,13 @@ Snapshot 1.4.0.231020:
 <br /> - Added rye
 <br /> - Removed bear armor
 <br /> - The brown bear has become bigger
+<br /> - Added the sound of equipping silver armor
+<br /> - Added a wave of the hand when interacting with some blocks
+<br /> - Added the ability to remove the paint layer from the blocks
 <br /> - Removed music discs tab
+<br /> - [Bugfix] Fixed a bug that caused non-vanilla tags to be used for painting
 <br /> - [Bugfix] Fixed sliding of the silver block
 <br /> - [Bugfix] Fixed placement of saplings
-<br /> - [Bugfix]
 Snapshot 1.4.0.231016:
 <br /> - Removed mixed forest
 <br /> - Now need poisonous potatoes to craft a dart
