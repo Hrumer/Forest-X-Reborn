@@ -11300,6 +11300,7 @@
         "files": [
           "src/main/resources/assets/forest/models/item/wasp_nest.json",
           "src/main/resources/assets/forest/models/block/wasp_nest.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/entity/WaspNestBlockEntity.java",
           "src/main/java/ru/power_umc/forestxreborn/block/WaspNestBlock.java",
           "src/main/resources/assets/forest/blockstates/wasp_nest.json"
         ]
