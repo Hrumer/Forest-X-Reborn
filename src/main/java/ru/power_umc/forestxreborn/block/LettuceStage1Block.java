@@ -1,7 +1,7 @@
 
 package ru.power_umc.forestxreborn.block;
 
-import ru.power_umc.forestxreborn.procedures.LettuceStage1ObnovitTaktProcedure;
+import ru.power_umc.forestxreborn.procedures.LettuceStage0ObnovitTaktProcedure;
 import ru.power_umc.forestxreborn.init.ForestModItems;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
@@ -64,7 +64,7 @@ public class LettuceStage1Block extends Block implements BonemealableBlock {
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(ForestModItems.LETTUCE_SEED.get());
+		return new ItemStack(ForestModItems.LETTUCE_SEEDS.get());
 	}
 
 	@Override
@@ -72,13 +72,13 @@ public class LettuceStage1Block extends Block implements BonemealableBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(ForestModItems.LETTUCE_SEED.get()));
+		return Collections.singletonList(new ItemStack(ForestModItems.LETTUCE_SEEDS.get()));
 	}
 
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 600);
+		world.scheduleTick(pos, this, 1200);
 	}
 
 	@Override
@@ -87,8 +87,8 @@ public class LettuceStage1Block extends Block implements BonemealableBlock {
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		LettuceStage1ObnovitTaktProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 600);
+		LettuceStage0ObnovitTaktProcedure.execute(world, x, y, z);
+		world.scheduleTick(pos, this, 1200);
 	}
 
 	@Override
@@ -103,6 +103,6 @@ public class LettuceStage1Block extends Block implements BonemealableBlock {
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		LettuceStage1ObnovitTaktProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
+		LettuceStage0ObnovitTaktProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

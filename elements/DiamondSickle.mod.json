@@ -1,0 +1,43 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "texture": "diamond_sickle",
+    "customModelName": "Normal",
+    "name": "Diamond Sickle",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ToolsAndArmor"
+    },
+    "harvestLevel": 2,
+    "efficiency": 8.0,
+    "attackSpeed": 1.2,
+    "enchantability": 10,
+    "damageVsEntity": 5.0,
+    "usageCount": 1561,
+    "blocksAffected": [
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Blocks.POTATOES"
+      },
+      {
+        "value": "Blocks.BEETROOTS"
+      },
+      {
+        "value": "Blocks.CARROTS"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "IronSicklePriRazrushieniiBlokaInstrumientom"
+    }
+  }
+}

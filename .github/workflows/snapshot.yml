@@ -10,8 +10,8 @@ on:
 env:                                              
   MINECRAFT_VERSION: 1.20.1                      
   JAVA_VERSION: 17      
-  VERSION: 1.4.0.231016
-  RELEASE_NAME: Forest X Reborn 1.4.0.231016 Snapshot
+  VERSION: 1.4.0.231025
+  RELEASE_NAME: Forest X Reborn 1.4.0.231025 Snapshot
 
 jobs:
   build:
@@ -72,7 +72,7 @@ jobs:
               "title": "${{env.RELEASE_NAME}} for Minecraft ${{env.MINECRAFT_VERSION}} Released",
               "color": 14177041,
               "thumbnail": {
-                "url": "https://media.discordapp.net/attachments/1105219003485532241/1121885076452544512/278_20230623220326.JPG?width=1193&height=671"
+                "url": "https://sun9-38.userapi.com/impg/DT-sAuz6HXjQyDc-JUcNohnWvlFpPedLd7e5lw/vtp7gmTrGXQ.jpg?size=1920x1080&quality=95&sign=46ddcdaa7f11b953d45ce88907da7355&type=album"
               },
               "url": "https://www.curseforge.com/minecraft/mc-mods/forest-x-reborn",
               "fields": [

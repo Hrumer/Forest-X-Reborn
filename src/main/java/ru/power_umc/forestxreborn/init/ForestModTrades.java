@@ -20,13 +20,16 @@ public class ForestModTrades {
 		if (event.getType() == VillagerProfession.FARMER) {
 			event.getTrades().get(1).add(new BasicItemListing(new ItemStack(Items.EMERALD, 3),
 
-					new ItemStack(ForestModItems.LETTUCE_SEED.get(), 16), 10, 5, 0.05f));
+					new ItemStack(ForestModItems.LETTUCE_SEEDS.get(), 16), 10, 5, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 4),
 
 					new ItemStack(ForestModBlocks.GRAPE_VINE_0.get()), 10, 5, 0.05f));
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(ForestModItems.GRAPE.get(), 12),
 
 					new ItemStack(Items.EMERALD), 10, 5, 0.05f));
+			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 2),
+
+					new ItemStack(ForestModItems.RYE_SEEDS.get(), 8), 10, 5, 0.05f));
 		}
 		if (event.getType() == VillagerProfession.ARMORER) {
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 8),
@@ -52,9 +55,6 @@ public class ForestModTrades {
 		}
 		if (event.getType() == VillagerProfession.FLETCHER) {
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 7), new ItemStack(Items.LEATHER, 2), new ItemStack(ForestModItems.QUIVER.get()), 10, 5, 0.05f));
-			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.EMERALD, 11),
-
-					new ItemStack(ForestModItems.DART.get(), 8), 10, 5, 0.05f));
 		}
 	}
 }

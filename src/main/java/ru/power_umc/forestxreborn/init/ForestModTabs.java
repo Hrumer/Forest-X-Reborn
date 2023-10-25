@@ -223,7 +223,8 @@ public class ForestModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> PLANTS = REGISTRY.register("plants",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.plants")).icon(() -> new ItemStack(ForestModBlocks.LAVANDER.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(ForestModItems.LETTUCE_SEED.get());
+				tabData.accept(ForestModItems.LETTUCE_SEEDS.get());
+				tabData.accept(ForestModItems.RYE_SEEDS.get());
 				tabData.accept(ForestModBlocks.WILDFLOWER.get().asItem());
 				tabData.accept(ForestModBlocks.BURNING_BLOSSOM.get().asItem());
 				tabData.accept(ForestModBlocks.LAVANDER.get().asItem());
@@ -282,6 +283,8 @@ public class ForestModTabs {
 					.build());
 	public static final RegistryObject<CreativeModeTab> MISC = REGISTRY.register("misc",
 			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.misc")).icon(() -> new ItemStack(ForestModItems.PEAT_PIECE.get())).displayItems((parameters, tabData) -> {
+				tabData.accept(ForestModItems.MUSIC_DISC_STROFA.get());
+				tabData.accept(ForestModItems.RYE.get());
 				tabData.accept(ForestModItems.PEAT_PIECE.get());
 				tabData.accept(ForestModItems.GINGERBREAD_FORM_MAN.get());
 				tabData.accept(ForestModItems.GINGERBREAD_FORM_HEART.get());
@@ -289,8 +292,6 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
 				tabData.accept(ForestModItems.BROWN_BEAR_PELT.get());
 				tabData.accept(ForestModItems.POLAR_BEAR_PELT.get());
-				tabData.accept(ForestModItems.CALIBRI_FEATHER.get());
-				tabData.accept(ForestModItems.DART.get());
 			})
 
 					.build());
@@ -312,13 +313,11 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.SILVER_ARMOR_LEGGINGS.get());
 				tabData.accept(ForestModItems.SILVER_ARMOR_BOOTS.get());
 				tabData.accept(ForestModItems.QUIVER.get());
-				tabData.accept(ForestModItems.SARBAKAN.get());
-			})
-
-					.build());
-	public static final RegistryObject<CreativeModeTab> MUSIC_DISCS = REGISTRY.register("music_discs",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.music_discs")).icon(() -> new ItemStack(ForestModItems.MUSIC_DISC_STROFA.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(ForestModItems.MUSIC_DISC_STROFA.get());
+				tabData.accept(ForestModItems.IRON_SICKLE.get());
+				tabData.accept(ForestModItems.GOLDEN_SICKLE.get());
+				tabData.accept(ForestModItems.DIAMOND_SICKLE.get());
+				tabData.accept(ForestModItems.NETHERITE_SICKLE.get());
+				tabData.accept(ForestModItems.SILVER_SICKLE.get());
 			})
 
 					.build());
@@ -339,19 +338,6 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.RAT_SPAWN_EGG.get());
 				tabData.accept(ForestModItems.CROCODILE_SPAWN_EGG.get());
 				tabData.accept(ForestModItems.SCORPION_SPAWN_EGG.get());
-			})
-
-					.build());
-	public static final RegistryObject<CreativeModeTab> CLOTHES = REGISTRY.register("clothes",
-			() -> CreativeModeTab.builder().title(Component.translatable("item_group.forest.clothes")).icon(() -> new ItemStack(ForestModItems.BROWN_BEAR_ARMOR_HELMET.get())).displayItems((parameters, tabData) -> {
-				tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_HELMET.get());
-				tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_CHESTPLATE.get());
-				tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_LEGGINGS.get());
-				tabData.accept(ForestModItems.BROWN_BEAR_ARMOR_BOOTS.get());
-				tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_HELMET.get());
-				tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_CHESTPLATE.get());
-				tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_LEGGINGS.get());
-				tabData.accept(ForestModItems.POLAR_BEAR_ARMOR_BOOTS.get());
 			})
 
 					.build());

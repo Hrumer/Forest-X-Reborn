@@ -7,10 +7,10 @@
     "mobModelTexture": "brown_bear.png",
     "mobModelGlowTexture": "",
     "visualScale": {
-      "fixedValue": 1.0
+      "fixedValue": 1.15
     },
     "boundingBoxScale": {
-      "fixedValue": 1.0
+      "fixedValue": 1.15
     },
     "modelWidth": 0.9,
     "modelHeight": 2.0,

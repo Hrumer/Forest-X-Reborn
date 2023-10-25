@@ -56,7 +56,7 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 1400,
+    "tickRate": 2400,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -99,6 +99,9 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
+    "placingCondition": {
+      "name": "BlueberriesBushFeatureAdditionalGenerationCondition"
+    },
     "isBonemealable": true,
     "onBonemealSuccess": {
       "name": "MulberrySaplingObnovlieniieTika"

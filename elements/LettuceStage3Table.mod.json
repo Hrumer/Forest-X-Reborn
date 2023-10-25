@@ -14,11 +14,11 @@
           {
             "type": "item",
             "item": {
-              "value": "CUSTOM:LettuceSeed"
+              "value": "CUSTOM:LettuceSeeds"
             },
             "weight": 1,
-            "minCount": 3,
-            "maxCount": 1,
+            "minCount": 1,
+            "maxCount": 3,
             "minEnchantmentLevel": 0,
             "maxEnchantmentLevel": 0,
             "affectedByFortune": false,

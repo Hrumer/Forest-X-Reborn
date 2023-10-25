@@ -1,0 +1,43 @@
+{
+  "_fv": 47,
+  "_type": "tool",
+  "definition": {
+    "toolType": "Special",
+    "renderType": 0,
+    "texture": "iron_sickle",
+    "customModelName": "Normal",
+    "name": "Iron Sickle",
+    "specialInfo": [],
+    "creativeTab": {
+      "value": "CUSTOM:ToolsAndArmor"
+    },
+    "harvestLevel": 2,
+    "efficiency": 6.0,
+    "attackSpeed": 1.2,
+    "enchantability": 14,
+    "damageVsEntity": 4.0,
+    "usageCount": 250,
+    "blocksAffected": [
+      {
+        "value": "Blocks.WHEAT"
+      },
+      {
+        "value": "Blocks.POTATOES"
+      },
+      {
+        "value": "Blocks.BEETROOTS"
+      },
+      {
+        "value": "Blocks.CARROTS"
+      }
+    ],
+    "hasGlow": false,
+    "repairItems": [],
+    "immuneToFire": false,
+    "stayInGridWhenCrafting": false,
+    "damageOnCrafting": false,
+    "onBlockDestroyedWithTool": {
+      "name": "IronSicklePriRazrushieniiBlokaInstrumientom"
+    }
+  }
+}

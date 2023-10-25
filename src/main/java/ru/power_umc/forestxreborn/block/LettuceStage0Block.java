@@ -64,7 +64,7 @@ public class LettuceStage0Block extends Block implements BonemealableBlock {
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(ForestModItems.LETTUCE_SEED.get());
+		return new ItemStack(ForestModItems.LETTUCE_SEEDS.get());
 	}
 
 	@Override
@@ -72,13 +72,13 @@ public class LettuceStage0Block extends Block implements BonemealableBlock {
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(ForestModItems.LETTUCE_SEED.get()));
+		return Collections.singletonList(new ItemStack(ForestModItems.LETTUCE_SEEDS.get()));
 	}
 
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 600);
+		world.scheduleTick(pos, this, 1200);
 	}
 
 	@Override
@@ -88,7 +88,7 @@ public class LettuceStage0Block extends Block implements BonemealableBlock {
 		int y = pos.getY();
 		int z = pos.getZ();
 		LettuceStage0ObnovitTaktProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 600);
+		world.scheduleTick(pos, this, 1200);
 	}
 
 	@Override

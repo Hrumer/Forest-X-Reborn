@@ -6,6 +6,6 @@ import net.minecraft.core.BlockPos;
 
 public class BlueberriesBushFeatureAdditionalGenerationConditionProcedure {
 	public static boolean execute(LevelAccessor world, double x, double y, double z) {
-		return (world.getBlockState(BlockPos.containing(x, y - 1, z))) == Blocks.GRASS_BLOCK.defaultBlockState();
+		return (world.getBlockState(BlockPos.containing(x, y - 1, z))).getBlock() == Blocks.GRASS_BLOCK;
 	}
 }
