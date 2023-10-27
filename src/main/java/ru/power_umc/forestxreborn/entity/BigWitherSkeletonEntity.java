@@ -15,7 +15,6 @@ import ru.power_umc.forestxreborn.init.ForestModEntities;
 import net.minecraftforge.registries.ForgeRegistries;
 import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.common.DungeonHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
 import net.minecraft.world.level.block.state.BlockState;
@@ -143,7 +142,6 @@ public class BigWitherSkeletonEntity extends Monster implements GeoEntity {
 	public static void init() {
 		SpawnPlacements.register(ForestModEntities.BIG_WITHER_SKELETON.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
 				(entityType, world, reason, pos, random) -> (world.getDifficulty() != Difficulty.PEACEFUL && Monster.isDarkEnoughToSpawn(world, pos, random) && Mob.checkMobSpawnRules(entityType, world, reason, pos, random)));
-		DungeonHooks.addDungeonMob(ForestModEntities.BIG_WITHER_SKELETON.get(), 180);
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
