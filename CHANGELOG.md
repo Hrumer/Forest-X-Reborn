@@ -1,6 +1,6 @@
 What's new in Forest X Reborn 1.4.0?<br />
 Snapshot 1.4.0.231031:
-<br /> - 
+<br /> - Added new types of skeletons
 <br /> - [Bugfix] 
 Snapshot 1.4.0.231025:
 <br /> - Added sickles
