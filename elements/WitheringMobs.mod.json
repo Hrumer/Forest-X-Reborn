@@ -9,6 +9,9 @@
     "entities": [
       {
         "value": "CUSTOM:BigWitherSkeleton"
+      },
+      {
+        "value": "CUSTOM:BabyWitherSkeleton"
       }
     ],
     "biomes": [],
