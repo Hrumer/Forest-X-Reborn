@@ -20,6 +20,10 @@ import ru.power_umc.forestxreborn.client.renderer.CrocodileRenderer;
 import ru.power_umc.forestxreborn.client.renderer.CalibriRenderer;
 import ru.power_umc.forestxreborn.client.renderer.BrownBearRenderer;
 import ru.power_umc.forestxreborn.client.renderer.BlueButterflyRenderer;
+import ru.power_umc.forestxreborn.client.renderer.BigWitherSkeletonRenderer;
+import ru.power_umc.forestxreborn.client.renderer.BigSkeletonRenderer;
+import ru.power_umc.forestxreborn.client.renderer.BabyWitherSkeletonRenderer;
+import ru.power_umc.forestxreborn.client.renderer.BabySkeletonRenderer;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -46,5 +50,9 @@ public class ForestModEntityRenderers {
 		event.registerEntityRenderer(ForestModEntities.CROCODILE.get(), CrocodileRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.TUMBLEWEED.get(), TumbleweedRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SCORPION.get(), ScorpionRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.BIG_SKELETON.get(), BigSkeletonRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.BIG_WITHER_SKELETON.get(), BigWitherSkeletonRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.BABY_SKELETON.get(), BabySkeletonRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.BABY_WITHER_SKELETON.get(), BabyWitherSkeletonRenderer::new);
 	}
 }
