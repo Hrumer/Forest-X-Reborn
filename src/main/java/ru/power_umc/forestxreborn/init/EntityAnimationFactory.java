@@ -1,5 +1,6 @@
 package ru.power_umc.forestxreborn.init;
 
+import ru.power_umc.forestxreborn.entity.WaspEntity;
 import ru.power_umc.forestxreborn.entity.VultureEntity;
 import ru.power_umc.forestxreborn.entity.TumbleweedEntity;
 import ru.power_umc.forestxreborn.entity.SnailEntity;
@@ -128,6 +129,13 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof ScorpionEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof WaspEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");

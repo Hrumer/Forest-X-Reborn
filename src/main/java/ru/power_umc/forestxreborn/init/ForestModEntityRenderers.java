@@ -4,6 +4,7 @@
  */
 package ru.power_umc.forestxreborn.init;
 
+import ru.power_umc.forestxreborn.client.renderer.WaspRenderer;
 import ru.power_umc.forestxreborn.client.renderer.VultureRenderer;
 import ru.power_umc.forestxreborn.client.renderer.TumbleweedRenderer;
 import ru.power_umc.forestxreborn.client.renderer.SnailRenderer;
@@ -50,6 +51,7 @@ public class ForestModEntityRenderers {
 		event.registerEntityRenderer(ForestModEntities.CROCODILE.get(), CrocodileRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.TUMBLEWEED.get(), TumbleweedRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SCORPION.get(), ScorpionRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.WASP.get(), WaspRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.BIG_SKELETON.get(), BigSkeletonRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.BIG_WITHER_SKELETON.get(), BigWitherSkeletonRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.BABY_SKELETON.get(), BabySkeletonRenderer::new);
