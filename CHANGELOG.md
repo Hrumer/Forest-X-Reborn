@@ -3,6 +3,7 @@ Snapshot 1.4.0.231031:
 <br /> - 
 <br /> - [Bugfix] Fixed a bug where it was possible to reuse paint of the same color as the block
 <br /> - [Bugfix] Fixed a bug due to which it was possible to use bone meal at the last stage of some plants
+<br /> - [Bugfix] Fixed bugs when placing saplings
 Snapshot 1.4.0.231025:
 <br /> - Added sickles
 <br /> - Added rye
