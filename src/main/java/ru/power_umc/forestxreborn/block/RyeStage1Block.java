@@ -78,7 +78,7 @@ public class RyeStage1Block extends Block implements BonemealableBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 200);
+		world.scheduleTick(pos, this, 1200);
 	}
 
 	@Override
@@ -88,7 +88,7 @@ public class RyeStage1Block extends Block implements BonemealableBlock {
 		int y = pos.getY();
 		int z = pos.getZ();
 		RyeStage0ObnovlieniieTikaProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 200);
+		world.scheduleTick(pos, this, 1200);
 	}
 
 	@Override

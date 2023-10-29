@@ -15,6 +15,10 @@ import ru.power_umc.forestxreborn.entity.CrocodileEntity;
 import ru.power_umc.forestxreborn.entity.CalibriEntity;
 import ru.power_umc.forestxreborn.entity.BrownBearEntity;
 import ru.power_umc.forestxreborn.entity.BlueButterflyEntity;
+import ru.power_umc.forestxreborn.entity.BigWitherSkeletonEntity;
+import ru.power_umc.forestxreborn.entity.BigSkeletonEntity;
+import ru.power_umc.forestxreborn.entity.BabyWitherSkeletonEntity;
+import ru.power_umc.forestxreborn.entity.BabySkeletonEntity;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -124,6 +128,34 @@ public class EntityAnimationFactory {
 				}
 			}
 			if (event.getEntity() instanceof ScorpionEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BigSkeletonEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BigWitherSkeletonEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BabySkeletonEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BabyWitherSkeletonEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
