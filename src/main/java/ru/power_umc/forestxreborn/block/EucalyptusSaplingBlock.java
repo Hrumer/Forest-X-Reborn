@@ -1,6 +1,7 @@
 
 package ru.power_umc.forestxreborn.block;
 
+import ru.power_umc.forestxreborn.procedures.EucalyptusSaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure;
 import ru.power_umc.forestxreborn.procedures.EucalyptusSaplingPriNazhatiiProcedure;
 import ru.power_umc.forestxreborn.procedures.EucalyptusSaplingKogdaProcedure;
 import ru.power_umc.forestxreborn.procedures.BlueberriesBushFeatureAdditionalGenerationConditionProcedure;
@@ -95,7 +96,10 @@ public class EucalyptusSaplingBlock extends Block implements BonemealableBlock {
 
 	@Override
 	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		return true;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		return EucalyptusSaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.execute(world, x, y, z);
 	}
 
 	@Override
