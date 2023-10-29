@@ -11406,7 +11406,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/WoodSets"
     },
     {
       "name": "MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMuki",
@@ -11438,7 +11439,8 @@
             "type": "world"
           }
         ]
-      }
+      },
+      "path": "~/WoodSets"
     },
     {
       "name": "MulberrySaplingPriIspolzovaniiKostnoiMuki",
