@@ -1,5 +1,10 @@
 What's new in Forest X Reborn 1.4.0?<br />
-Snapshot 1.4.0.231020:
+Snapshot 1.4.0.231031:
+<br /> - Added new types of skeletons
+<br /> - [Bugfix] Fixed a bug where it was possible to reuse paint of the same color as the block
+<br /> - [Bugfix] Fixed a bug due to which it was possible to use bone meal at the last stage of some plants
+<br /> - [Bugfix] Fixed bugs when placing saplings
+Snapshot 1.4.0.231025:
 <br /> - Added sickles
 <br /> - Added rye
 <br /> - Removed bear armor
@@ -7,6 +12,9 @@ Snapshot 1.4.0.231020:
 <br /> - Added the sound of equipping silver armor
 <br /> - Added a wave of the hand when interacting with some blocks
 <br /> - Added the ability to remove the paint layer from the blocks
+<br /> - The growing period for all plants has been increased
+<br /> - Removed sarbakan, dart and calibri feather
+<br /> - The panorama from the previous snapshots has been returned
 <br /> - Removed music discs tab
 <br /> - [Bugfix] Fixed a bug that caused non-vanilla tags to be used for painting
 <br /> - [Bugfix] Fixed sliding of the silver block
