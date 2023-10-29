@@ -11269,6 +11269,101 @@
         ]
       },
       "path": "~/Harvest/Rye"
+    },
+    {
+      "name": "EucalyptusSaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMuki",
+      "type": "procedure",
+      "sortid": 657,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_sapling_usloviie_uspieshnogho_primienieniia_kostnoi_muki",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/EucalyptusSaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMuki",
+      "type": "procedure",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_sapling_usloviie_uspieshnogho_primienieniia_kostnoi_muki",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MulberrySaplingPriIspolzovaniiKostnoiMuki",
+      "type": "procedure",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_sapling_pri_ispolzovanii_kostnoi_muki",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/MulberrySaplingPriIspolzovaniiKostnoiMukiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
