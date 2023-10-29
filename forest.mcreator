@@ -9193,18 +9193,6 @@
       "path": "~/WoodSets/Mulberry Wood Set"
     },
     {
-      "name": "Clothes",
-      "type": "tab",
-      "sortid": 570,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "clothes",
-      "metadata": {
-        "files": []
-      },
-      "path": "~/Tabs"
-    },
-    {
       "name": "BrownBearCarpetCraft",
       "type": "recipe",
       "sortid": 571,
@@ -9547,56 +9535,6 @@
       "path": "~/Animals"
     },
     {
-      "name": "CalibriFeather",
-      "type": "item",
-      "sortid": 197,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "calibri_feather",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/item/CalibriFeatherItem.java",
-          "src/main/resources/assets/forest/models/item/calibri_feather.json"
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
-      "name": "Dart",
-      "type": "item",
-      "sortid": 198,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dart",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/item/DartItem.java",
-          "src/main/resources/assets/forest/models/item/dart.json"
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
-      "name": "SarbakanKoghdaSnariadPopadaietVSushchnost",
-      "type": "procedure",
-      "sortid": 581,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sarbakan_koghda_snariad_popadaiet_v_sushchnost",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/SarbakanKoghdaSnariadPopadaietVSushchnostProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          }
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
       "name": "Vulture",
       "type": "animatedentity",
       "sortid": 210,
@@ -9933,51 +9871,6 @@
         ]
       },
       "path": "~/AlcoholMechanics/FermentationBarrel"
-    },
-    {
-      "name": "Sarbakan",
-      "type": "rangeditem",
-      "sortid": 242,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sarbakan",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/client/renderer/SarbakanRenderer.java",
-          "src/main/resources/assets/forest/models/item/sarbakan.json",
-          "src/main/java/ru/power_umc/forestxreborn/entity/SarbakanEntity.java",
-          "src/main/java/ru/power_umc/forestxreborn/item/SarbakanItem.java"
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
-      "name": "SarbakanCraft",
-      "type": "recipe",
-      "sortid": 596,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "sarbakan_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/sarbakan_craft.json"
-        ]
-      },
-      "path": "~/Sarbakan"
-    },
-    {
-      "name": "DartCraft",
-      "type": "recipe",
-      "sortid": 597,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "dart_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/dart_craft.json"
-        ]
-      },
-      "path": "~/Sarbakan"
     },
     {
       "name": "Rat",
@@ -11444,6 +11337,207 @@
         ]
       },
       "path": "~/Harvest/Rye"
+    },
+    {
+      "name": "BigSkeleton",
+      "type": "animatedentity",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_skeleton",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/forge/biome_modifier/big_skeleton_biome_modifier.json",
+          "src/main/java/ru/power_umc/forestxreborn/client/renderer/BigSkeletonRenderer.java",
+          "src/main/java/ru/power_umc/forestxreborn/entity/BigSkeletonEntity.java",
+          "src/main/java/ru/power_umc/forestxreborn/entity/model/BigSkeletonModel.java"
+        ]
+      },
+      "path": "~/Mobs/Skeletons"
+    },
+    {
+      "name": "BigWitherSkeleton",
+      "type": "animatedentity",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "big_wither_skeleton",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/entity/BigWitherSkeletonEntity.java",
+          "src/main/resources/data/forest/forge/biome_modifier/big_wither_skeleton_biome_modifier.json",
+          "src/main/java/ru/power_umc/forestxreborn/client/renderer/BigWitherSkeletonRenderer.java",
+          "src/main/java/ru/power_umc/forestxreborn/entity/model/BigWitherSkeletonModel.java"
+        ]
+      },
+      "path": "~/Mobs/Skeletons"
+    },
+    {
+      "name": "WitheringMobs",
+      "type": "tag",
+      "sortid": 660,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "withering_mobs",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/tags/entity_types/withering_mobs.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "AttackWitheringMobs",
+      "type": "procedure",
+      "sortid": 661,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "attack_withering_mobs",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/AttackWitheringMobsProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "sourceentity",
+            "type": "entity"
+          }
+        ]
+      },
+      "path": "~/GlobalTriggers"
+    },
+    {
+      "name": "BabySkeleton",
+      "type": "animatedentity",
+      "sortid": 662,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_skeleton",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/client/renderer/BabySkeletonRenderer.java",
+          "src/main/java/ru/power_umc/forestxreborn/entity/model/BabySkeletonModel.java",
+          "src/main/resources/data/forest/forge/biome_modifier/baby_skeleton_biome_modifier.json",
+          "src/main/java/ru/power_umc/forestxreborn/entity/BabySkeletonEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Skeletons"
+    },
+    {
+      "name": "BabyWitherSkeleton",
+      "type": "animatedentity",
+      "sortid": 663,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "baby_wither_skeleton",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/forge/biome_modifier/baby_wither_skeleton_biome_modifier.json",
+          "src/main/java/ru/power_umc/forestxreborn/entity/model/BabyWitherSkeletonModel.java",
+          "src/main/java/ru/power_umc/forestxreborn/client/renderer/BabyWitherSkeletonRenderer.java",
+          "src/main/java/ru/power_umc/forestxreborn/entity/BabyWitherSkeletonEntity.java"
+        ]
+      },
+      "path": "~/Mobs/Skeletons"
+    },
+    {
+      "name": "EucalyptusSaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMuki",
+      "type": "procedure",
+      "sortid": 657,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_sapling_usloviie_uspieshnogho_primienieniia_kostnoi_muki",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/EucalyptusSaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMuki",
+      "type": "procedure",
+      "sortid": 658,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_sapling_usloviie_uspieshnogho_primienieniia_kostnoi_muki",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
+    },
+    {
+      "name": "MulberrySaplingPriIspolzovaniiKostnoiMuki",
+      "type": "procedure",
+      "sortid": 659,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mulberry_sapling_pri_ispolzovanii_kostnoi_muki",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/MulberrySaplingPriIspolzovaniiKostnoiMukiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      }
     }
   ],
   "variable_elements": [
@@ -11566,7 +11660,6 @@
       "block.forest.green_fence": "Зелёный забор",
       "item.forest.white_mulberry": "Белая шелковица",
       "entity.forest.pink_butterfly": "Розовая бабочка",
-      "item.forest.calibri_feather": "Перо калибри",
       "item_group.forest.tools_and_armor": "Инструменты и броня",
       "item.forest.wasp_spawn_egg": "Wasp Spawn Egg",
       "entity.forest.vulture": "Стервятник",
@@ -11575,6 +11668,7 @@
       "block.forest.light_gray_stairs": "Светло-серые ступени",
       "entity.forest.scorpion": "Скорпион",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
+      "entity.forest.big_wither_skeleton": "Большой визер скелет",
       "subtitles.calibri.ambient": "",
       "block.forest.brown_bear_carpet": "Ковёр из шкуры бурого медведя",
       "block.forest.polished_sandslate": "Полированнный песчаный сланец",
@@ -11597,6 +11691,7 @@
       "block.forest.light_blue_fence": "Голубой забор",
       "block.forest.polished_pumice_stairs": "Ступени из полированной пемзы",
       "block.forest.mulberry_leaves_without_black": "Листья шелковицы",
+      "item.forest.big_skeleton_spawn_egg": "Big Skeleton Spawn Egg",
       "block.forest.white_stairs": "Белые ступени",
       "biome.forest.dry_thorn_forest": "Сухой терновый лес",
       "item.forest.gingerbread_pine": "Пряник",
@@ -11609,12 +11704,14 @@
       "desc.gingerbread_heart": "Сердце",
       "item.forest.raspberry": "Малина",
       "entity.forest.snail": "Улитка",
+      "item.forest.big_wither_skeleton_spawn_egg": "Big Wither Skeleton Spawn Egg",
       "subtitles.calibri.hurt": "",
       "item_group.forest.mobs": "Мобы",
       "special_info.quiver.arrows_count": "Количество стрел: ",
       "item.forest.gingerbread_man": "Пряник",
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
       "block.forest.grape_vine_0": "Виноградная лоза",
+      "item.forest.baby_skeleton_spawn_egg": "Baby Skeleton Spawn Egg",
       "block.forest.mulberry_door": "Дверь из шелковицы",
       "item.forest.polar_bear_pelt": "Шкура белого медведя",
       "item.forest.lettuce_seed": "Семена салата",
@@ -11680,9 +11777,9 @@
       "block.forest.mulberry_leaves_with_black": "Листья шелковицы",
       "block.forest.red_fence_gate": "Красная калитка",
       "item.forest.lettuce": "Салат",
-      "block.forest.lettuce_stage_0": " ",
-      "block.forest.moonshroom": "Луногриб",
       "item.forest.black_mulberry": "Чёрная шелковица",
+      "block.forest.moonshroom": "Луногриб",
+      "block.forest.lettuce_stage_0": " ",
       "block.forest.lettuce_stage_1": " ",
       "item.forest.sapphire": "Сапфир",
       "block.forest.orange_slab": "Оранжевая плита",
@@ -11711,7 +11808,6 @@
       "block.forest.lettuce_stage_3": " ",
       "block.forest.orange_fence_gate": "Оранжевая калитка",
       "block.forest.dense_web_with_spider": "Плотная паутина с пауком",
-      "item.forest.dart": "Дротик",
       "block.forest.brown_planks": "Коричневые доски",
       "block.forest.rhyolite": "Риолит",
       "block.forest.light_blue_fence_gate": "Голубая калитка",
@@ -11734,6 +11830,7 @@
       "item.forest.raw_gingerbread_pine": "Тесто для пряника",
       "block.forest.mulberry_leaves_without_white": "Листья шелковицы",
       "block.forest.gray_fence": "Серый забор",
+      "entity.forest.baby_wither_skeleton": "Маленький визер скелет",
       "item.forest.raccon_spawn_egg": "Яйцо призыва енота",
       "block.forest.tropical_parquet": "Паркет из тропического дерева",
       "block.forest.polished_pumice_slab": "Плита из полированной пемзы",
@@ -11828,6 +11925,7 @@
       "item.forest.bread_with_lard": "Хлеб с салом",
       "trim_material.forest.sapphire": "Сапфировый материал",
       "item.forest.silver_armor_helmet": "Серебряный шлем",
+      "entity.forest.baby_skeleton": "Большой скелет",
       "block.forest.polished_sandslate_wall": "Ограда из полированного песчаного сланца",
       "block.forest.red_slab": "Красная плита",
       "block.forest.cobbled_sandslate_slab": "Плита из дробленого песчаного сланца",
@@ -11856,7 +11954,6 @@
       "item.forest.vulture_spawn_egg": "Яйцо призыва стервятника",
       "item.forest.gingerbread_heart": "Пряник",
       "block.forest.mulberry_fence_gate": "Калитка из шелковицы",
-      "item_group.forest.clothes": "Одежда",
       "item.forest.crocodile_spawn_egg": "Яйцо призыва крокодила",
       "block.forest.black_planks": "Чёрные доски",
       "block.forest.eucalyptus_fence_gate": "Калитка из эвкалиптовых досок",
@@ -11867,6 +11964,7 @@
       "block.forest.desert_rose": "Роза Пустыни",
       "item.forest.meat_loaf": "Мясной рулет",
       "block.forest.cobbled_sandslate_stairs": "Ступени из дробленого песчаного сланца",
+      "item.forest.baby_wither_skeleton_spawn_egg": "Baby Wither Skeleton Spawn Egg",
       "biome.forest.volcano": "Вулкан",
       "item.forest.snail_spawn_egg": "Яйцо призыва улитки",
       "subtitles.rat.ambient": "",
@@ -11879,6 +11977,7 @@
       "block.forest.cyan_planks": "Бирюзовые доски",
       "block.forest.cherry_parquet": "Вишневый паркет",
       "block.forest.crushed_sandstone_slab": "Плита из колотого песчаника",
+      "entity.forest.big_skeleton": "Маленький скелет",
       "block.forest.brown_slab": "Коричневая плита",
       "block.forest.pink_fence_gate": "Розовая калитка",
       "item_group.forest.decorative_blocks": "Декоративные блоки",
@@ -11959,7 +12058,6 @@
       "block.forest.green_fence": "Green Fence",
       "item.forest.white_mulberry": "White Mulberry",
       "entity.forest.pink_butterfly": "Pink Butterfly",
-      "item.forest.calibri_feather": "Calibri Feather",
       "item_group.forest.tools_and_armor": "Tools \u0026 Armor",
       "item.forest.wasp_spawn_egg": "Wasp Spawn Egg",
       "entity.forest.vulture": "Vulture",
@@ -11968,6 +12066,7 @@
       "block.forest.light_gray_stairs": "Light Gray Stairs",
       "entity.forest.scorpion": "Scorpion",
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
+      "entity.forest.big_wither_skeleton": "Big Wither Skeleton",
       "subtitles.calibri.ambient": "",
       "block.forest.brown_bear_carpet": "Brown Bear Carpet",
       "block.forest.polished_sandslate": "Polished Sandslate",
@@ -11990,6 +12089,7 @@
       "block.forest.light_blue_fence": "Light Blue Fence",
       "block.forest.polished_pumice_stairs": "Polished Pumice Stairs",
       "block.forest.mulberry_leaves_without_black": "Mulberry Leaves",
+      "item.forest.big_skeleton_spawn_egg": "Big Skeleton Spawn Egg",
       "block.forest.white_stairs": "White Stairs",
       "biome.forest.dry_thorn_forest": "Dry Thorn Forest",
       "item.forest.gingerbread_pine": "Gingerbread",
@@ -12002,12 +12102,14 @@
       "desc.gingerbread_heart": "Heart",
       "item.forest.raspberry": "Raspberry",
       "entity.forest.snail": "Snail",
+      "item.forest.big_wither_skeleton_spawn_egg": "Big Wither Skeleton Spawn Egg",
       "subtitles.calibri.hurt": "",
       "item_group.forest.mobs": "Mobs",
       "special_info.quiver.arrows_count": "Amount of arrows:",
       "item.forest.gingerbread_man": "Gingerbread",
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
       "block.forest.grape_vine_0": "Grape Vine",
+      "item.forest.baby_skeleton_spawn_egg": "Baby Skeleton Spawn Egg",
       "block.forest.mulberry_door": "Mulberry Door",
       "item.forest.polar_bear_pelt": "Polar Bear Pelt",
       "item.forest.lettuce_seed": "Lettuce Seed",
@@ -12073,9 +12175,9 @@
       "block.forest.mulberry_leaves_with_black": "Mulberry Leaves",
       "block.forest.red_fence_gate": "Red Fence Gate",
       "item.forest.lettuce": "Lettuce",
-      "block.forest.lettuce_stage_0": "Lettuce Stage 0",
-      "block.forest.moonshroom": "Moonshroom",
       "item.forest.black_mulberry": "BlackMulberry",
+      "block.forest.moonshroom": "Moonshroom",
+      "block.forest.lettuce_stage_0": "Lettuce Stage 0",
       "block.forest.lettuce_stage_1": "Lettuce Stage 1",
       "item.forest.sapphire": "Sapphire",
       "block.forest.orange_slab": "Orange Slab",
@@ -12104,7 +12206,6 @@
       "block.forest.lettuce_stage_3": "Lettuce Stage 3",
       "block.forest.orange_fence_gate": "Orange Fence Gate",
       "block.forest.dense_web_with_spider": "Dense Web With Spider",
-      "item.forest.dart": "Dart",
       "block.forest.brown_planks": "Brown Planks",
       "block.forest.rhyolite": "Rhyolite",
       "block.forest.light_blue_fence_gate": "Light Blue Fence Gate",
@@ -12127,6 +12228,7 @@
       "item.forest.raw_gingerbread_pine": "Raw Gingerbread",
       "block.forest.mulberry_leaves_without_white": "Mulberry Leaves",
       "block.forest.gray_fence": "Gray Fence",
+      "entity.forest.baby_wither_skeleton": "Baby Wither Skeleton",
       "item.forest.raccon_spawn_egg": "Racoon Spawn Egg",
       "block.forest.tropical_parquet": "Tropical Parquet",
       "block.forest.polished_pumice_slab": "Polished Pumice Slab",
@@ -12221,6 +12323,7 @@
       "item.forest.bread_with_lard": "Bread with lard",
       "trim_material.forest.sapphire": "Sapphire Material",
       "item.forest.silver_armor_helmet": "Silver Helmet",
+      "entity.forest.baby_skeleton": "Baby Skeleton",
       "block.forest.polished_sandslate_wall": "Polished Sandslate Wall",
       "block.forest.red_slab": "Red Slab",
       "block.forest.cobbled_sandslate_slab": "Cobbled Sandslate Slab",
@@ -12249,7 +12352,6 @@
       "item.forest.vulture_spawn_egg": "Vulture Spawn Egg",
       "item.forest.gingerbread_heart": "Gingerbread",
       "block.forest.mulberry_fence_gate": "Mulberry Fence Gate",
-      "item_group.forest.clothes": "Clothes",
       "item.forest.crocodile_spawn_egg": "Crocodile Spawn Egg",
       "block.forest.black_planks": "Black Planks",
       "block.forest.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
@@ -12260,6 +12362,7 @@
       "block.forest.desert_rose": "Desert Rose",
       "block.forest.cobbled_sandslate_stairs": "Cobbled Sandslate Stairs",
       "item.forest.meat_loaf": "Meat loaf",
+      "item.forest.baby_wither_skeleton_spawn_egg": "Baby Wither Skeleton Spawn Egg",
       "biome.forest.volcano": "Volcano",
       "item.forest.snail_spawn_egg": "Snail Spawn Egg",
       "subtitles.rat.ambient": "",
@@ -12272,6 +12375,7 @@
       "block.forest.cyan_planks": "Cyan Planks",
       "block.forest.cherry_parquet": "Cherry Parquet",
       "block.forest.crushed_sandstone_slab": "Crushed sandstone slab",
+      "entity.forest.big_skeleton": "Big Skeleton",
       "block.forest.brown_slab": "Brown Slab",
       "block.forest.pink_fence_gate": "Pink Fence Gate",
       "item_group.forest.decorative_blocks": "Decorative Blocks",
@@ -12531,12 +12635,13 @@
         "children": []
       },
       {
-        "name": "Sarbakan",
-        "children": []
-      },
-      {
         "name": "Mobs",
-        "children": []
+        "children": [
+          {
+            "name": "Skeletons",
+            "children": []
+          }
+        ]
       },
       {
         "name": "AnimalsTriggers",
@@ -12572,7 +12677,7 @@
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.4.0.231020",
+    "version": "1.4.0.231031",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition. ",
     "author": "Environment Studios",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",

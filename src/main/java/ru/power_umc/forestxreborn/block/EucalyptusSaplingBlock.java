@@ -1,6 +1,7 @@
 
 package ru.power_umc.forestxreborn.block;
 
+import ru.power_umc.forestxreborn.procedures.EucalyptusSaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure;
 import ru.power_umc.forestxreborn.procedures.EucalyptusSaplingPriNazhatiiProcedure;
 import ru.power_umc.forestxreborn.procedures.EucalyptusSaplingKogdaProcedure;
 import ru.power_umc.forestxreborn.procedures.BlueberriesBushFeatureAdditionalGenerationConditionProcedure;
@@ -75,7 +76,7 @@ public class EucalyptusSaplingBlock extends Block implements BonemealableBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 1400);
+		world.scheduleTick(pos, this, 2400);
 	}
 
 	@Override
@@ -85,7 +86,7 @@ public class EucalyptusSaplingBlock extends Block implements BonemealableBlock {
 		int y = pos.getY();
 		int z = pos.getZ();
 		EucalyptusSaplingKogdaProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 1400);
+		world.scheduleTick(pos, this, 2400);
 	}
 
 	@Override
@@ -95,7 +96,10 @@ public class EucalyptusSaplingBlock extends Block implements BonemealableBlock {
 
 	@Override
 	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		return true;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		return EucalyptusSaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.execute(world, x, y, z);
 	}
 
 	@Override

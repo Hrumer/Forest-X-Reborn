@@ -154,7 +154,7 @@ public class GrapeVine0Block extends Block implements SimpleWaterloggedBlock, Bo
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 1200);
+		world.scheduleTick(pos, this, 2400);
 	}
 
 	@Override
@@ -164,7 +164,7 @@ public class GrapeVine0Block extends Block implements SimpleWaterloggedBlock, Bo
 		int y = pos.getY();
 		int z = pos.getZ();
 		GrapeVine0PriIspolzovaniiKostnoiMukiProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 1200);
+		world.scheduleTick(pos, this, 2400);
 	}
 
 	@Override

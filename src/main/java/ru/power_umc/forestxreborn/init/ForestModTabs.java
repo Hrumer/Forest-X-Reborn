@@ -298,8 +298,6 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
 				tabData.accept(ForestModItems.BROWN_BEAR_PELT.get());
 				tabData.accept(ForestModItems.POLAR_BEAR_PELT.get());
-				tabData.accept(ForestModItems.CALIBRI_FEATHER.get());
-				tabData.accept(ForestModItems.DART.get());
 			})
 
 					.build());
@@ -321,7 +319,6 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.SILVER_ARMOR_LEGGINGS.get());
 				tabData.accept(ForestModItems.SILVER_ARMOR_BOOTS.get());
 				tabData.accept(ForestModItems.QUIVER.get());
-				tabData.accept(ForestModItems.SARBAKAN.get());
 				tabData.accept(ForestModItems.IRON_SICKLE.get());
 				tabData.accept(ForestModItems.GOLDEN_SICKLE.get());
 				tabData.accept(ForestModItems.DIAMOND_SICKLE.get());

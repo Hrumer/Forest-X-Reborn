@@ -85,7 +85,7 @@
     "immuneToWither": false,
     "immuneToDragonBreath": false,
     "mobDrop": {
-      "value": "CUSTOM:CalibriFeather"
+      "value": ""
     },
     "livingSound": {
       "value": "CUSTOM:calibri.ambient"

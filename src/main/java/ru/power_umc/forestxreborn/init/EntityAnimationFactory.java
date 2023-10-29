@@ -1,6 +1,5 @@
 package ru.power_umc.forestxreborn.init;
 
-import ru.power_umc.forestxreborn.entity.WaspEntity;
 import ru.power_umc.forestxreborn.entity.VultureEntity;
 import ru.power_umc.forestxreborn.entity.TumbleweedEntity;
 import ru.power_umc.forestxreborn.entity.SnailEntity;
@@ -16,6 +15,10 @@ import ru.power_umc.forestxreborn.entity.CrocodileEntity;
 import ru.power_umc.forestxreborn.entity.CalibriEntity;
 import ru.power_umc.forestxreborn.entity.BrownBearEntity;
 import ru.power_umc.forestxreborn.entity.BlueButterflyEntity;
+import ru.power_umc.forestxreborn.entity.BigWitherSkeletonEntity;
+import ru.power_umc.forestxreborn.entity.BigSkeletonEntity;
+import ru.power_umc.forestxreborn.entity.BabyWitherSkeletonEntity;
+import ru.power_umc.forestxreborn.entity.BabySkeletonEntity;
 
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -131,7 +134,28 @@ public class EntityAnimationFactory {
 					syncable.animationprocedure = animation;
 				}
 			}
-			if (event.getEntity() instanceof WaspEntity syncable) {
+			if (event.getEntity() instanceof BigSkeletonEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BigWitherSkeletonEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BabySkeletonEntity syncable) {
+				String animation = syncable.getSyncedAnimation();
+				if (!animation.equals("undefined")) {
+					syncable.setAnimation("undefined");
+					syncable.animationprocedure = animation;
+				}
+			}
+			if (event.getEntity() instanceof BabyWitherSkeletonEntity syncable) {
 				String animation = syncable.getSyncedAnimation();
 				if (!animation.equals("undefined")) {
 					syncable.setAnimation("undefined");
