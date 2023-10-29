@@ -20,6 +20,10 @@ import ru.power_umc.forestxreborn.entity.CrocodileEntity;
 import ru.power_umc.forestxreborn.entity.CalibriEntity;
 import ru.power_umc.forestxreborn.entity.BrownBearEntity;
 import ru.power_umc.forestxreborn.entity.BlueButterflyEntity;
+import ru.power_umc.forestxreborn.entity.BigWitherSkeletonEntity;
+import ru.power_umc.forestxreborn.entity.BigSkeletonEntity;
+import ru.power_umc.forestxreborn.entity.BabyWitherSkeletonEntity;
+import ru.power_umc.forestxreborn.entity.BabySkeletonEntity;
 import ru.power_umc.forestxreborn.ForestMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -99,6 +103,22 @@ public class ForestModEntities {
 			EntityType.Builder.<ScorpionEntity>of(ScorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ScorpionEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<BigSkeletonEntity>> BIG_SKELETON = register("big_skeleton",
+			EntityType.Builder.<BigSkeletonEntity>of(BigSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigSkeletonEntity::new)
+
+					.sized(0.5f, 2.5f));
+	public static final RegistryObject<EntityType<BigWitherSkeletonEntity>> BIG_WITHER_SKELETON = register("big_wither_skeleton",
+			EntityType.Builder.<BigWitherSkeletonEntity>of(BigWitherSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigWitherSkeletonEntity::new)
+
+					.sized(0.5f, 2.5f));
+	public static final RegistryObject<EntityType<BabySkeletonEntity>> BABY_SKELETON = register("baby_skeleton",
+			EntityType.Builder.<BabySkeletonEntity>of(BabySkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BabySkeletonEntity::new)
+
+					.sized(0.5f, 1.25f));
+	public static final RegistryObject<EntityType<BabyWitherSkeletonEntity>> BABY_WITHER_SKELETON = register("baby_wither_skeleton",
+			EntityType.Builder.<BabyWitherSkeletonEntity>of(BabyWitherSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BabyWitherSkeletonEntity::new)
+
+					.sized(0.5f, 1.25f));
 
 	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
@@ -123,6 +143,10 @@ public class ForestModEntities {
 			CrocodileEntity.init();
 			TumbleweedEntity.init();
 			ScorpionEntity.init();
+			BigSkeletonEntity.init();
+			BigWitherSkeletonEntity.init();
+			BabySkeletonEntity.init();
+			BabyWitherSkeletonEntity.init();
 		});
 	}
 
@@ -144,5 +168,9 @@ public class ForestModEntities {
 		event.put(CROCODILE.get(), CrocodileEntity.createAttributes().build());
 		event.put(TUMBLEWEED.get(), TumbleweedEntity.createAttributes().build());
 		event.put(SCORPION.get(), ScorpionEntity.createAttributes().build());
+		event.put(BIG_SKELETON.get(), BigSkeletonEntity.createAttributes().build());
+		event.put(BIG_WITHER_SKELETON.get(), BigWitherSkeletonEntity.createAttributes().build());
+		event.put(BABY_SKELETON.get(), BabySkeletonEntity.createAttributes().build());
+		event.put(BABY_WITHER_SKELETON.get(), BabyWitherSkeletonEntity.createAttributes().build());
 	}
 }
