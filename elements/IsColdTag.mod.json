@@ -9,13 +9,10 @@
     "entities": [],
     "biomes": [
       {
-        "value": "CUSTOM:Peatbog"
-      },
-      {
         "value": "CUSTOM:FrozenSwamp"
       }
     ],
-    "name": "is_swamp",
+    "name": "is_cold",
     "namespace": "minecraft"
   }
 }
