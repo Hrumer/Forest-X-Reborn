@@ -102,7 +102,7 @@
     "placingCondition": {
       "name": "BlueberriesBushFeatureAdditionalGenerationCondition"
     },
-    "isBonemealable": true,
+    "isBonemealable": false,
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,

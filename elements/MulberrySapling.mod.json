@@ -103,8 +103,11 @@
       "name": "BlueberriesBushFeatureAdditionalGenerationCondition"
     },
     "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMuki"
+    },
     "onBonemealSuccess": {
-      "name": "MulberrySaplingObnovlieniieTika"
+      "name": "MulberrySaplingPriIspolzovaniiKostnoiMuki"
     },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
