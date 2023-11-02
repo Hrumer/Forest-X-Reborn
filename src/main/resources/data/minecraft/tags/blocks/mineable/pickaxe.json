@@ -68,6 +68,14 @@
     "forest:silver_block",
     "forest:sapphire_ore",
     "forest:sapphire_block",
-    "forest:deepslate_sapphire_ore"
+    "forest:deepslate_sapphire_ore",
+    "forest:copper_ladder",
+    "forest:exposed_copper_ladder",
+    "forest:weathered_copper_ladder",
+    "forest:oxidized_copper_ladder",
+    "forest:waxed_copper_ladder",
+    "forest:waxed_exposed_copper_ladder",
+    "forest:waxed_weathered_copper_ladder",
+    "forest:waxed_oxidized_copper_ladder"
   ]
 }

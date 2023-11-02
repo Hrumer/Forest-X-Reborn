@@ -375,6 +375,14 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RYE_STAGE_5 = block(ForestModBlocks.RYE_STAGE_5);
 	public static final RegistryObject<Item> RYE_STAGE_6 = block(ForestModBlocks.RYE_STAGE_6);
 	public static final RegistryObject<Item> RYE_STAGE_7 = block(ForestModBlocks.RYE_STAGE_7);
+	public static final RegistryObject<Item> COPPER_LADDER = block(ForestModBlocks.COPPER_LADDER);
+	public static final RegistryObject<Item> EXPOSED_COPPER_LADDER = block(ForestModBlocks.EXPOSED_COPPER_LADDER);
+	public static final RegistryObject<Item> WEATHERED_COPPER_LADDER = block(ForestModBlocks.WEATHERED_COPPER_LADDER);
+	public static final RegistryObject<Item> OXIDIZED_COPPER_LADDER = block(ForestModBlocks.OXIDIZED_COPPER_LADDER);
+	public static final RegistryObject<Item> WAXED_COPPER_LADDER = block(ForestModBlocks.WAXED_COPPER_LADDER);
+	public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_LADDER = block(ForestModBlocks.WAXED_EXPOSED_COPPER_LADDER);
+	public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_LADDER = block(ForestModBlocks.WAXED_WEATHERED_COPPER_LADDER);
+	public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_LADDER = block(ForestModBlocks.WAXED_OXIDIZED_COPPER_LADDER);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

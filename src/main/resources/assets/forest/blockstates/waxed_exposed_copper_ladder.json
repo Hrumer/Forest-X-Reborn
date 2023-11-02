@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=north": {
+      "model": "forest:block/waxed_exposed_copper_ladder"
+    },
+    "facing=east": {
+      "model": "forest:block/waxed_exposed_copper_ladder",
+      "y": 90
+    },
+    "facing=south": {
+      "model": "forest:block/waxed_exposed_copper_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "forest:block/waxed_exposed_copper_ladder",
+      "y": 270
+    }
+  }
+}
