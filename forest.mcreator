@@ -11469,6 +11469,53 @@
         ]
       },
       "path": "~/WoodSets/Mulberry Wood Set"
+    },
+    {
+      "name": "FrozenSwamp",
+      "type": "biome",
+      "sortid": 664,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "frozen_swamp",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/configured_feature/frozen_swamp_tree.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/frozen_swamp_tree.json",
+          "src/main/resources/data/forest/worldgen/biome/frozen_swamp.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "IsColdTag",
+      "type": "tag",
+      "sortid": 665,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_cold_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_cold.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
+      "name": "IceLakes",
+      "type": "feature",
+      "sortid": 666,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_lakes",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/world/features/IceLakesFeature.java",
+          "src/main/resources/data/forest/forge/biome_modifier/ice_lakes_biome_modifier.json",
+          "src/main/resources/data/forest/worldgen/configured_feature/ice_lakes.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/ice_lakes.json"
+        ]
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [
@@ -11794,6 +11841,7 @@
       "block.forest.truncated_carved_pumice": "Усеченная резная пемза",
       "block.forest.pink_fence": "Розовый забор",
       "block.forest.red_crushed_sandstone": "Красный колотый песчаник",
+      "biome.forest.frozen_swamp": "Замёрзшее болото",
       "block.forest.mulberry_leaves_with_white": "Листья шелковицы",
       "block.forest.gray_stairs": "Серые ступени",
       "item.forest.rye_seeds": "Семена ржи",
@@ -12188,6 +12236,7 @@
       "block.forest.truncated_carved_pumice": "Truncated Carved Pumice",
       "block.forest.pink_fence": "Pink Fence",
       "block.forest.red_crushed_sandstone": "Red Crushed Sandstone",
+      "biome.forest.frozen_swamp": "Frozen Swamp",
       "block.forest.mulberry_leaves_with_white": "Mulberry Leaves",
       "block.forest.gray_stairs": "Gray Stairs",
       "item.forest.rye_seeds": "Rye Seeds",
