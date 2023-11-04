@@ -28,6 +28,7 @@ import ru.power_umc.forestxreborn.world.features.PeatbogLakesFeature;
 import ru.power_umc.forestxreborn.world.features.ObsidianPatchFeature;
 import ru.power_umc.forestxreborn.world.features.MoonshroomsFeatureFeature;
 import ru.power_umc.forestxreborn.world.features.LavaPatchFeature;
+import ru.power_umc.forestxreborn.world.features.IceLakesFeature;
 import ru.power_umc.forestxreborn.world.features.GrapevineLogFeature;
 import ru.power_umc.forestxreborn.world.features.EucalyptusTreeFeature;
 import ru.power_umc.forestxreborn.world.features.CobblestonePatchFeature;
@@ -80,4 +81,5 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> BLACK_MULBERRY_TREE = REGISTRY.register("black_mulberry_tree", BlackMulberryTreeFeature::new);
 	public static final RegistryObject<Feature<?>> RASPBERRIES_BUSH_FEATURE = REGISTRY.register("raspberries_bush_feature", RaspberriesBushFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> EUCALYPTUS_TREE = REGISTRY.register("eucalyptus_tree", EucalyptusTreeFeature::new);
+	public static final RegistryObject<Feature<?>> ICE_LAKES = REGISTRY.register("ice_lakes", IceLakesFeature::new);
 }
