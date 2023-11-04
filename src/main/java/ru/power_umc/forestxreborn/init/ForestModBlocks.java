@@ -423,6 +423,14 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> PINK_FENCE_GATE = REGISTRY.register("pink_fence_gate", () -> new PinkFenceGateBlock());
 	public static final RegistryObject<Block> BROWN_BEAR_CARPET = REGISTRY.register("brown_bear_carpet", () -> new BrownBearCarpetBlock());
 	public static final RegistryObject<Block> POLAR_BEAR_CARPET = REGISTRY.register("polar_bear_carpet", () -> new PolarBearCarpetBlock());
+	public static final RegistryObject<Block> COPPER_LADDER = REGISTRY.register("copper_ladder", () -> new CopperLadderBlock());
+	public static final RegistryObject<Block> EXPOSED_COPPER_LADDER = REGISTRY.register("exposed_copper_ladder", () -> new ExposedCopperLadderBlock());
+	public static final RegistryObject<Block> WEATHERED_COPPER_LADDER = REGISTRY.register("weathered_copper_ladder", () -> new WeatheredCopperLadderBlock());
+	public static final RegistryObject<Block> OXIDIZED_COPPER_LADDER = REGISTRY.register("oxidized_copper_ladder", () -> new OxidizedCopperLadderBlock());
+	public static final RegistryObject<Block> WAXED_COPPER_LADDER = REGISTRY.register("waxed_copper_ladder", () -> new WaxedCopperLadderBlock());
+	public static final RegistryObject<Block> WAXED_EXPOSED_COPPER_LADDER = REGISTRY.register("waxed_exposed_copper_ladder", () -> new WaxedExposedCopperLadderBlock());
+	public static final RegistryObject<Block> WAXED_WEATHERED_COPPER_LADDER = REGISTRY.register("waxed_weathered_copper_ladder", () -> new WaxedWeatheredCopperLadderBlock());
+	public static final RegistryObject<Block> WAXED_OXIDIZED_COPPER_LADDER = REGISTRY.register("waxed_oxidized_copper_ladder", () -> new WaxedOxidizedCopperLadderBlock());
 	public static final RegistryObject<Block> WILDFLOWER = REGISTRY.register("wildflower", () -> new WildflowerBlock());
 	public static final RegistryObject<Block> BURNING_BLOSSOM = REGISTRY.register("burning_blossom", () -> new BurningblossomBlock());
 	public static final RegistryObject<Block> LAVANDER = REGISTRY.register("lavander", () -> new LavanderBlock());
@@ -496,14 +504,6 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RYE_STAGE_5 = REGISTRY.register("rye_stage_5", () -> new RyeStage5Block());
 	public static final RegistryObject<Block> RYE_STAGE_6 = REGISTRY.register("rye_stage_6", () -> new RyeStage6Block());
 	public static final RegistryObject<Block> RYE_STAGE_7 = REGISTRY.register("rye_stage_7", () -> new RyeStage7Block());
-	public static final RegistryObject<Block> COPPER_LADDER = REGISTRY.register("copper_ladder", () -> new CopperLadderBlock());
-	public static final RegistryObject<Block> EXPOSED_COPPER_LADDER = REGISTRY.register("exposed_copper_ladder", () -> new ExposedCopperLadderBlock());
-	public static final RegistryObject<Block> WEATHERED_COPPER_LADDER = REGISTRY.register("weathered_copper_ladder", () -> new WeatheredCopperLadderBlock());
-	public static final RegistryObject<Block> OXIDIZED_COPPER_LADDER = REGISTRY.register("oxidized_copper_ladder", () -> new OxidizedCopperLadderBlock());
-	public static final RegistryObject<Block> WAXED_COPPER_LADDER = REGISTRY.register("waxed_copper_ladder", () -> new WaxedCopperLadderBlock());
-	public static final RegistryObject<Block> WAXED_EXPOSED_COPPER_LADDER = REGISTRY.register("waxed_exposed_copper_ladder", () -> new WaxedExposedCopperLadderBlock());
-	public static final RegistryObject<Block> WAXED_WEATHERED_COPPER_LADDER = REGISTRY.register("waxed_weathered_copper_ladder", () -> new WaxedWeatheredCopperLadderBlock());
-	public static final RegistryObject<Block> WAXED_OXIDIZED_COPPER_LADDER = REGISTRY.register("waxed_oxidized_copper_ladder", () -> new WaxedOxidizedCopperLadderBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
