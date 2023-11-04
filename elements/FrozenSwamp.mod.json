@@ -95,7 +95,8 @@
       "Caves",
       "Ores",
       "FrozenTopLayer",
-      "SwampVegetation"
+      "SwampVegetation",
+      "Fossils"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -105,8 +106,8 @@
     "spawnWoodlandMansion": false,
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
-    "spawnSwampHut": false,
-    "spawnIgloo": false,
+    "spawnSwampHut": true,
+    "spawnIgloo": true,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
@@ -116,7 +117,35 @@
     "spawnNetherFossil": false,
     "spawnBastionRemnant": false,
     "spawnEndCity": false,
-    "spawnRuinedPortal": "NONE",
-    "spawnEntries": []
+    "spawnRuinedPortal": "SWAMP",
+    "spawnEntries": [
+      {
+        "entity": {
+          "value": "EntityFrog"
+        },
+        "minGroup": 2,
+        "maxGroup": 3,
+        "weight": 6,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntitySlime"
+        },
+        "minGroup": 1,
+        "maxGroup": 4,
+        "weight": 10,
+        "spawnType": "monster"
+      },
+      {
+        "entity": {
+          "value": "EntityStray"
+        },
+        "minGroup": 1,
+        "maxGroup": 1,
+        "weight": 20,
+        "spawnType": "monster"
+      }
+    ]
   }
 }
