@@ -74,7 +74,7 @@ public class BlueberryBush0Block extends Block implements BonemealableBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 600);
+		world.scheduleTick(pos, this, 1600);
 	}
 
 	@Override
@@ -84,7 +84,7 @@ public class BlueberryBush0Block extends Block implements BonemealableBlock {
 		int y = pos.getY();
 		int z = pos.getZ();
 		BlueberryBush0ObnovitTaktProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 600);
+		world.scheduleTick(pos, this, 1600);
 	}
 
 	@Override

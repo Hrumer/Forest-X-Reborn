@@ -1,0 +1,69 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Blocks",
+    "items": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:EucalyptusFenceGate"
+      },
+      {
+        "value": "CUSTOM:BlackFenceGate"
+      },
+      {
+        "value": "CUSTOM:BlueFenceGate"
+      },
+      {
+        "value": "CUSTOM:BrownFenceGate"
+      },
+      {
+        "value": "CUSTOM:CyanFenceGate"
+      },
+      {
+        "value": "CUSTOM:GrayFenceGate"
+      },
+      {
+        "value": "CUSTOM:GreenFenceGate"
+      },
+      {
+        "value": "CUSTOM:LightBlueFenceGate"
+      },
+      {
+        "value": "CUSTOM:LightGrayFenceGate"
+      },
+      {
+        "value": "CUSTOM:LimeFenceGate"
+      },
+      {
+        "value": "CUSTOM:MagentaFenceGate"
+      },
+      {
+        "value": "CUSTOM:OrangeFenceGate"
+      },
+      {
+        "value": "CUSTOM:PinkFenceGate"
+      },
+      {
+        "value": "CUSTOM:PurpleFenceGate"
+      },
+      {
+        "value": "CUSTOM:RedFenceGate"
+      },
+      {
+        "value": "CUSTOM:WhiteFenceGate"
+      },
+      {
+        "value": "CUSTOM:YellowFenceGate"
+      },
+      {
+        "value": "CUSTOM:MulberryFenceGate"
+      }
+    ],
+    "functions": [],
+    "entities": [],
+    "biomes": [],
+    "name": "fence_gates",
+    "namespace": "minecraft"
+  }
+}

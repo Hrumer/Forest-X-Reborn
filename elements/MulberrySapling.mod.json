@@ -56,7 +56,7 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 1400,
+    "tickRate": 2400,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -103,8 +103,11 @@
       "name": "BlueberriesBushFeatureAdditionalGenerationCondition"
     },
     "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMuki"
+    },
     "onBonemealSuccess": {
-      "name": "MulberrySaplingObnovlieniieTika"
+      "name": "MulberrySaplingPriIspolzovaniiKostnoiMuki"
     },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

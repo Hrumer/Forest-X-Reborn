@@ -4,8 +4,6 @@
  */
 package ru.power_umc.forestxreborn.init;
 
-import ru.power_umc.forestxreborn.client.model.Modeldart;
-import ru.power_umc.forestxreborn.client.model.Modelbear_armor;
 import ru.power_umc.forestxreborn.client.model.ModelRacoonModel;
 
 import net.minecraftforge.fml.common.Mod;
@@ -18,7 +16,5 @@ public class ForestModModels {
 	@SubscribeEvent
 	public static void registerLayerDefinitions(EntityRenderersEvent.RegisterLayerDefinitions event) {
 		event.registerLayerDefinition(ModelRacoonModel.LAYER_LOCATION, ModelRacoonModel::createBodyLayer);
-		event.registerLayerDefinition(Modeldart.LAYER_LOCATION, Modeldart::createBodyLayer);
-		event.registerLayerDefinition(Modelbear_armor.LAYER_LOCATION, Modelbear_armor::createBodyLayer);
 	}
 }

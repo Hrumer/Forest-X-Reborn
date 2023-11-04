@@ -55,9 +55,6 @@ public class ForestModTrades {
 		}
 		if (event.getType() == VillagerProfession.FLETCHER) {
 			event.getTrades().get(2).add(new BasicItemListing(new ItemStack(Items.EMERALD, 7), new ItemStack(Items.LEATHER, 2), new ItemStack(ForestModItems.QUIVER.get()), 10, 5, 0.05f));
-			event.getTrades().get(4).add(new BasicItemListing(new ItemStack(Items.EMERALD, 11),
-
-					new ItemStack(ForestModItems.DART.get(), 8), 10, 5, 0.05f));
 		}
 	}
 }

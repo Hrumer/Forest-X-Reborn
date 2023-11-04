@@ -10,6 +10,9 @@
     "biomes": [
       {
         "value": "CUSTOM:Peatbog"
+      },
+      {
+        "value": "CUSTOM:FrozenSwamp"
       }
     ],
     "name": "is_swamp",

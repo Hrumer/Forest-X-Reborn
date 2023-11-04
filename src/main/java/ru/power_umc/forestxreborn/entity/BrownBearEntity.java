@@ -167,7 +167,7 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 
 	@Override
 	public EntityDimensions getDimensions(Pose p_33597_) {
-		return super.getDimensions(p_33597_).scale((float) 1.5);
+		return super.getDimensions(p_33597_).scale((float) 1.15);
 	}
 
 	@Override
@@ -190,7 +190,7 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 
 	public static void init() {
 		SpawnPlacements.register(ForestModEntities.BROWN_BEAR.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.DIRT) && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
