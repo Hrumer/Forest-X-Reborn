@@ -208,12 +208,12 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("brown_bear.model.walking"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.brown_bear.walking"));
 			}
 			if (this.isSprinting()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("brown_bear.model.running"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.brown_bear.running"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("brown_bear.model.idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.brown_bear.idle"));
 		}
 		return PlayState.STOP;
 	}
@@ -231,7 +231,7 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("brown_bear.model.attack"));
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.brown_bear.attack"));
 		}
 		return PlayState.CONTINUE;
 	}
