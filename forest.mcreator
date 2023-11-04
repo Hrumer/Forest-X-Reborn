@@ -11279,7 +11279,6 @@
       "registry_name": "big_skeleton",
       "metadata": {
         "files": [
-          "src/main/resources/data/forest/forge/biome_modifier/big_skeleton_biome_modifier.json",
           "src/main/java/ru/power_umc/forestxreborn/client/renderer/BigSkeletonRenderer.java",
           "src/main/java/ru/power_umc/forestxreborn/entity/BigSkeletonEntity.java",
           "src/main/java/ru/power_umc/forestxreborn/entity/model/BigSkeletonModel.java"
@@ -11297,7 +11296,6 @@
       "metadata": {
         "files": [
           "src/main/java/ru/power_umc/forestxreborn/entity/BigWitherSkeletonEntity.java",
-          "src/main/resources/data/forest/forge/biome_modifier/big_wither_skeleton_biome_modifier.json",
           "src/main/java/ru/power_umc/forestxreborn/client/renderer/BigWitherSkeletonRenderer.java",
           "src/main/java/ru/power_umc/forestxreborn/entity/model/BigWitherSkeletonModel.java"
         ]
@@ -11353,7 +11351,6 @@
         "files": [
           "src/main/java/ru/power_umc/forestxreborn/client/renderer/BabySkeletonRenderer.java",
           "src/main/java/ru/power_umc/forestxreborn/entity/model/BabySkeletonModel.java",
-          "src/main/resources/data/forest/forge/biome_modifier/baby_skeleton_biome_modifier.json",
           "src/main/java/ru/power_umc/forestxreborn/entity/BabySkeletonEntity.java"
         ]
       },
@@ -11368,7 +11365,6 @@
       "registry_name": "baby_wither_skeleton",
       "metadata": {
         "files": [
-          "src/main/resources/data/forest/forge/biome_modifier/baby_wither_skeleton_biome_modifier.json",
           "src/main/java/ru/power_umc/forestxreborn/entity/model/BabyWitherSkeletonModel.java",
           "src/main/java/ru/power_umc/forestxreborn/client/renderer/BabyWitherSkeletonRenderer.java",
           "src/main/java/ru/power_umc/forestxreborn/entity/BabyWitherSkeletonEntity.java"
@@ -12885,7 +12881,7 @@
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.4.0.231031",
+    "version": "1.4.0.231104",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition. ",
     "author": "Environment Studios",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",
