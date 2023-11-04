@@ -243,7 +243,7 @@ public class VultureEntity extends Animal implements GeoEntity {
 
 	public static void init() {
 		SpawnPlacements.register(ForestModEntities.VULTURE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.DIRT) && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -259,10 +259,10 @@ public class VultureEntity extends Animal implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.isFallFlying()) {
+			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.onGround()) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulturel.files"));
 			}
-			if (!this.isFallFlying()) {
+			if (!this.onGround()) {
 				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulturel.files"));
 			}
 			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.model.sitting"));

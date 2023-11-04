@@ -1,4 +1,7 @@
 What's new in Forest X Reborn 1.4.0?<br />
+Snapshot 1.4.0.231104:
+<br /> - 
+<br /> - [Bugfix] 
 Snapshot 1.4.0.231031:
 <br /> - Added new types of skeletons
 <br /> - [Bugfix] Fixed a bug where it was possible to reuse paint of the same color as the block
