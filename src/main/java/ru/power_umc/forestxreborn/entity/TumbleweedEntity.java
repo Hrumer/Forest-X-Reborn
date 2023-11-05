@@ -145,12 +145,12 @@ public class TumbleweedEntity extends PathfinderMob implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("tumbleweed.model.walking"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.tumbleweed.walking"));
 			}
 			if (this.isDeadOrDying()) {
-				return event.setAndContinue(RawAnimation.begin().thenPlay("tumbleweed.model.kill"));
+				return event.setAndContinue(RawAnimation.begin().thenPlay("animation.tumbleweed.kill"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("tumbleweed.model.idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.tumbleweed.idle"));
 		}
 		return PlayState.STOP;
 	}
