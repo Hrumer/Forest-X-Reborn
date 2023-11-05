@@ -10,6 +10,9 @@
     "biomes": [
       {
         "value": "CUSTOM:FrozenSwamp"
+      },
+      {
+        "value": "CUSTOM:IceDesert"
       }
     ],
     "name": "is_cold",

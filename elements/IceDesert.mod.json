@@ -106,7 +106,7 @@
     "spawnJungleTemple": false,
     "spawnDesertPyramid": false,
     "spawnSwampHut": false,
-    "spawnIgloo": false,
+    "spawnIgloo": true,
     "spawnOceanMonument": false,
     "spawnShipwreck": false,
     "spawnShipwreckBeached": false,
