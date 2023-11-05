@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"rat.model.costs": {
+		"animation.rat.costs": {
 			"loop": true,
 			"animation_length": 3,
 			"bones": {
@@ -60,7 +60,7 @@
 				}
 			}
 		},
-		"rat.model.goes": {
+		"animation.rat.goes": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -387,7 +387,7 @@
 				}
 			}
 		},
-		"rat.model.sitting": {
+		"animation.rat.sitting": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
