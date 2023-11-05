@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"fire_salamander.model.walking": {
+		"animation.fire_salamander.walking": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -154,7 +154,7 @@
 				}
 			}
 		},
-		"fire_salamander.model.idle": {
+		"animation.fire_salamander.idle": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {

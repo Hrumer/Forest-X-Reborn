@@ -166,12 +166,12 @@ public class CrocodileEntity extends Monster implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("crocodile.model.walking"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.crocodile.walking"));
 			}
 			if (this.isSprinting()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("crocodile.model.running"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.crocodile.running"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("crocodile.model.siting"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.crocodile.siting"));
 		}
 		return PlayState.STOP;
 	}
@@ -189,7 +189,7 @@ public class CrocodileEntity extends Monster implements GeoEntity {
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("crocodile.model.attack"));
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.crocodile.attack"));
 		}
 		return PlayState.CONTINUE;
 	}
