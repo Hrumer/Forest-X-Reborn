@@ -16,6 +16,7 @@ import ru.power_umc.forestxreborn.block.WhiteRoseBushBlock;
 import ru.power_umc.forestxreborn.block.WhitePlanksBlock;
 import ru.power_umc.forestxreborn.block.WhiteFenceGateBlock;
 import ru.power_umc.forestxreborn.block.WhiteFenceBlock;
+import ru.power_umc.forestxreborn.block.WaspNestBlock;
 import ru.power_umc.forestxreborn.block.WarpedParquetBlock;
 import ru.power_umc.forestxreborn.block.TruncatedPumiceWallBlock;
 import ru.power_umc.forestxreborn.block.TruncatedPumiceStairsBlock;
@@ -488,6 +489,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RYE_STAGE_5 = REGISTRY.register("rye_stage_5", () -> new RyeStage5Block());
 	public static final RegistryObject<Block> RYE_STAGE_6 = REGISTRY.register("rye_stage_6", () -> new RyeStage6Block());
 	public static final RegistryObject<Block> RYE_STAGE_7 = REGISTRY.register("rye_stage_7", () -> new RyeStage7Block());
+	public static final RegistryObject<Block> WASP_NEST = REGISTRY.register("wasp_nest", () -> new WaspNestBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

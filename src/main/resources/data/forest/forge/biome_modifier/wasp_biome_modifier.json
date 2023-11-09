@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "sunflower_plains",
+    "flower_forest"
+  ],
+  "spawners": {
+    "type": "forest:wasp",
+    "weight": 10,
+    "minCount": 3,
+    "maxCount": 4
+  }
+}

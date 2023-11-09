@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/wasp_nest_top",
+    "up": "forest:block/wasp_nest_top",
+    "north": "forest:block/wasp_nest_side",
+    "east": "forest:block/wasp_nest_side",
+    "south": "forest:block/wasp_nest_side",
+    "west": "forest:block/wasp_nest_side",
+    "particle": "forest:block/wasp_nest_top"
+  },
+  "render_type": "solid"
+}

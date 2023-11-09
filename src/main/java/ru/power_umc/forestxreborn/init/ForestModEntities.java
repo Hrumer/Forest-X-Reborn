@@ -4,6 +4,7 @@
  */
 package ru.power_umc.forestxreborn.init;
 
+import ru.power_umc.forestxreborn.entity.WaspEntity;
 import ru.power_umc.forestxreborn.entity.VultureEntity;
 import ru.power_umc.forestxreborn.entity.TumbleweedEntity;
 import ru.power_umc.forestxreborn.entity.SnailEntity;
@@ -103,6 +104,10 @@ public class ForestModEntities {
 			EntityType.Builder.<ScorpionEntity>of(ScorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ScorpionEntity::new)
 
 					.sized(0.6f, 1.8f));
+	public static final RegistryObject<EntityType<WaspEntity>> WASP = register("wasp",
+			EntityType.Builder.<WaspEntity>of(WaspEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(WaspEntity::new)
+
+					.sized(0.6f, 1.8f));
 	public static final RegistryObject<EntityType<BigSkeletonEntity>> BIG_SKELETON = register("big_skeleton",
 			EntityType.Builder.<BigSkeletonEntity>of(BigSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigSkeletonEntity::new)
 
@@ -143,6 +148,7 @@ public class ForestModEntities {
 			CrocodileEntity.init();
 			TumbleweedEntity.init();
 			ScorpionEntity.init();
+			WaspEntity.init();
 			BigSkeletonEntity.init();
 			BigWitherSkeletonEntity.init();
 			BabySkeletonEntity.init();
@@ -168,6 +174,7 @@ public class ForestModEntities {
 		event.put(CROCODILE.get(), CrocodileEntity.createAttributes().build());
 		event.put(TUMBLEWEED.get(), TumbleweedEntity.createAttributes().build());
 		event.put(SCORPION.get(), ScorpionEntity.createAttributes().build());
+		event.put(WASP.get(), WaspEntity.createAttributes().build());
 		event.put(BIG_SKELETON.get(), BigSkeletonEntity.createAttributes().build());
 		event.put(BIG_WITHER_SKELETON.get(), BigWitherSkeletonEntity.createAttributes().build());
 		event.put(BABY_SKELETON.get(), BabySkeletonEntity.createAttributes().build());
