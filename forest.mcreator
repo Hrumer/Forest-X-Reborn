@@ -11487,6 +11487,34 @@
       "path": "~/Biomes"
     },
     {
+      "name": "IceDesert",
+      "type": "biome",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "ice_desert",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/biome/ice_desert.json"
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "IsDesertTag",
+      "type": "tag",
+      "sortid": 667,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "is_desert_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/minecraft/tags/worldgen/biome/is_desert.json"
+        ]
+      },
+      "path": "~/Tags"
+    },
+    {
       "name": "IsColdTag",
       "type": "tag",
       "sortid": 665,
@@ -12003,6 +12031,7 @@
       "block.forest.marble": "Мрамор",
       "block.forest.silver_block": "Блок Серебра",
       "advancements.robin_hood_is_back.title": "Робин Гуд вернулся!",
+      "biome.forest.ice_desert": "Ледяная пустыня",
       "block.forest.light_gray_fence_gate": "Светло-серая калитка",
       "block.forest.pumice_stairs": "Ступени из пемзы",
       "block.forest.pumice_bricks_stairs": "Ступени из кирпичей пемзы",
@@ -12210,8 +12239,8 @@
       "block.forest.crushed_sandstone_wall": "Crushed sandstone wall",
       "block.forest.cyan_stairs": "Cyan Stairs",
       "block.forest.black_stairs": "Black Stairs",
-      "block.forest.polished_pumice": "Polished Pumice",
       "item.forest.gingerbread_form_heart": "Gingerbread Form",
+      "block.forest.polished_pumice": "Polished Pumice",
       "block.forest.peat": "Peat",
       "item.forest.raw_gingerbread_pine": "Raw Gingerbread",
       "block.forest.mulberry_leaves_without_white": "Mulberry Leaves",
@@ -12398,6 +12427,7 @@
       "block.forest.marble": "Marble",
       "block.forest.silver_block": "Block of Silver",
       "advancements.robin_hood_is_back.title": "Robin Hood is back!",
+      "biome.forest.ice_desert": "Ice Desert",
       "block.forest.light_gray_fence_gate": "Light Gray Fence Gate",
       "block.forest.pumice_stairs": "Pumice Stairs",
       "block.forest.pumice_bricks_stairs": "Pumice Bricks Slab",
