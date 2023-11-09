@@ -126,6 +126,10 @@ public class FermentationBarrelBlockEntity extends RandomizableContainerBlockEnt
 
 	@Override
 	public boolean canTakeItemThroughFace(int index, ItemStack stack, Direction direction) {
+		if (index == 0)
+			return false;
+		if (index == 1)
+			return false;
 		return true;
 	}
 
