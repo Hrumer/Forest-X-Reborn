@@ -9,16 +9,10 @@
     "entities": [],
     "biomes": [
       {
-        "value": "CUSTOM:Semidesert"
-      },
-      {
-        "value": "CUSTOM:DryThornForest"
-      },
-      {
         "value": "CUSTOM:IceDesert"
       }
     ],
-    "name": "is_dry",
+    "name": "is_desert",
     "namespace": "minecraft"
   }
 }
