@@ -3,6 +3,7 @@ Snapshot 1.4.0.231104:
 <br /> - Added frozen swamp
 <br /> - Added ice desert
 <br /> - Some improvements for the fermentation barrel
+<br /> -  Updated some textures
 <br /> - [Bugfix] 
 Snapshot 1.4.0.231031:
 <br /> - Added new types of skeletons
