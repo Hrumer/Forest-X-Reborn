@@ -182,12 +182,12 @@ public class PurpleButterflyEntity extends PathfinderMob implements GeoEntity {
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.onGround()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("butterfly.model.walking"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.butterfly.walking"));
 			}
 			if (!this.onGround()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("butterfly.model.flying"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.butterfly.flying"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("butterfly.model.idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.butterfly.idle"));
 		}
 		return PlayState.STOP;
 	}

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"tumbleweed.model.walking": {
+		"animation.tumbleweed.walking": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -43,10 +43,10 @@
 				}
 			}
 		},
-		"tumbleweed.model.idle": {
+		"animation.tumbleweed.idle": {
 			"loop": true
 		},
-		"tumbleweed.model.kill": {
+		"animation.tumbleweed.kill": {
 			"animation_length": 0.41667,
 			"bones": {
 				"body": {

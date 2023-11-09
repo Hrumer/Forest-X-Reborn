@@ -260,12 +260,12 @@ public class VultureEntity extends Animal implements GeoEntity {
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.onGround()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulturel.files"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulture.files"));
 			}
 			if (!this.onGround()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulturel.files"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulture.files"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.model.sitting"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulture.sitting"));
 		}
 		return PlayState.STOP;
 	}
