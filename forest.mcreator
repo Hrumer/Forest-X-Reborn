@@ -11544,6 +11544,20 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "FermentationTag",
+      "type": "tag",
+      "sortid": 667,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "fermentation_tag",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forge/tags/items/fermentation.json"
+        ]
+      },
+      "path": "~/Tags"
     }
   ],
   "variable_elements": [
