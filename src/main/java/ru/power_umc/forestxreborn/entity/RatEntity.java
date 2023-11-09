@@ -183,9 +183,9 @@ public class RatEntity extends Animal implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("rat.model.goes"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.rat.goes"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("rat.model.costs"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.rat.costs"));
 		}
 		return PlayState.STOP;
 	}

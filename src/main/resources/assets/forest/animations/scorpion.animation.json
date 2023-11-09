@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"scorpion.model.wolking": {
+		"animation.scorpion.walking": {
 			"loop": true,
 			"animation_length": 0.5,
 			"bones": {
@@ -103,7 +103,7 @@
 				}
 			}
 		},
-		"scorpion.model.siting": {
+		"animation.scorpion.siting": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -151,7 +151,7 @@
 				}
 			}
 		},
-		"scorpion.model.attack": {
+		"animation.scorpion.attack": {
 			"animation_length": 1,
 			"bones": {
 				"tail": {
