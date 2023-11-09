@@ -209,7 +209,10 @@
     "inventoryOutSlotIDs": [
       2
     ],
-    "inventoryInSlotIDs": [],
+    "inventoryInSlotIDs": [
+      0,
+      1
+    ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
