@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/cut_mud",
+    "up": "forest:block/cut_mud",
+    "north": "forest:block/cut_mud",
+    "east": "forest:block/cut_mud",
+    "south": "forest:block/cut_mud",
+    "west": "forest:block/cut_mud",
+    "particle": "forest:block/cut_mud"
+  },
+  "render_type": "solid"
+}

@@ -131,6 +131,7 @@ import ru.power_umc.forestxreborn.block.MulberryFenceGateBlock;
 import ru.power_umc.forestxreborn.block.MulberryFenceBlock;
 import ru.power_umc.forestxreborn.block.MulberryDoorBlock;
 import ru.power_umc.forestxreborn.block.MulberryButtonBlock;
+import ru.power_umc.forestxreborn.block.MudBricksBlock;
 import ru.power_umc.forestxreborn.block.MoonshroomBlock;
 import ru.power_umc.forestxreborn.block.MarbleBricksWallBlock;
 import ru.power_umc.forestxreborn.block.MarbleBricksStairsBlock;
@@ -203,6 +204,7 @@ import ru.power_umc.forestxreborn.block.CyanSlabBlock;
 import ru.power_umc.forestxreborn.block.CyanPlanksBlock;
 import ru.power_umc.forestxreborn.block.CyanFenceGateBlock;
 import ru.power_umc.forestxreborn.block.CyanFenceBlock;
+import ru.power_umc.forestxreborn.block.CutMudBlock;
 import ru.power_umc.forestxreborn.block.CrushedSandstoneWallBlock;
 import ru.power_umc.forestxreborn.block.CrushedSandstoneStairsBlock;
 import ru.power_umc.forestxreborn.block.CrushedSandstoneSlabBlock;
@@ -488,6 +490,8 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RYE_STAGE_5 = REGISTRY.register("rye_stage_5", () -> new RyeStage5Block());
 	public static final RegistryObject<Block> RYE_STAGE_6 = REGISTRY.register("rye_stage_6", () -> new RyeStage6Block());
 	public static final RegistryObject<Block> RYE_STAGE_7 = REGISTRY.register("rye_stage_7", () -> new RyeStage7Block());
+	public static final RegistryObject<Block> CUT_MUD = REGISTRY.register("cut_mud", () -> new CutMudBlock());
+	public static final RegistryObject<Block> MUD_BRICKS = REGISTRY.register("mud_bricks", () -> new MudBricksBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

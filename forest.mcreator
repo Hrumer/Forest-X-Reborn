@@ -11546,6 +11546,40 @@
       "path": "~/Biomes"
     },
     {
+      "name": "CutMud",
+      "type": "block",
+      "sortid": 667,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "cut_mud",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/item/cut_mud.json",
+          "src/main/resources/assets/forest/blockstates/cut_mud.json",
+          "src/main/resources/assets/forest/models/block/cut_mud.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/CutMudBlock.java"
+        ]
+      },
+      "path": "~/Mud"
+    },
+    {
+      "name": "MudBricks",
+      "type": "block",
+      "sortid": 668,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "mud_bricks",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/blockstates/mud_bricks.json",
+          "src/main/resources/assets/forest/models/block/mud_bricks.json",
+          "src/main/java/ru/power_umc/forestxreborn/block/MudBricksBlock.java",
+          "src/main/resources/assets/forest/models/item/mud_bricks.json"
+        ]
+      },
+      "path": "~/Mud"
+    },
+    {
       "name": "FermentationTag",
       "type": "tag",
       "sortid": 667,
@@ -11921,6 +11955,7 @@
       "desc.gingerbread_pine": "Ёлка",
       "item.forest.purple_butterfly_spawn_egg": "Яйцо призыва фиолетовой бабочки",
       "block.forest.pink_planks": "Розовые доски",
+      "block.forest.mud_bricks": "Cut Mud",
       "block.forest.black_fence": "Чёрный забор",
       "item.forest.lettuce_seeds": "Семена салата",
       "block.forest.blue_stairs": "Синие ступени",
@@ -11937,6 +11972,7 @@
       "block.forest.rye_stage_3": "Rye Stage 2",
       "block.forest.rye_stage_2": "Rye Stage 1",
       "entity.forest.calibri": "Калибри",
+      "block.forest.cut_mud": "Cut Mud",
       "block.forest.pumice": "Пемза",
       "block.forest.sandslate": "Песчаный сланец",
       "item.forest.gingerbread_brick": "Пряник",
@@ -12317,6 +12353,7 @@
       "desc.gingerbread_pine": "Pine",
       "item.forest.purple_butterfly_spawn_egg": "Purple Butterfly Spawn Egg",
       "block.forest.pink_planks": "Pink Planks",
+      "block.forest.mud_bricks": "Mud Bricks",
       "block.forest.black_fence": "Black Fence",
       "item.forest.lettuce_seeds": "Lettuce Seed",
       "block.forest.blue_stairs": "Blue Stairs",
@@ -12333,6 +12370,7 @@
       "block.forest.rye_stage_3": "Rye Stage 3",
       "block.forest.rye_stage_2": "Rye Stage 2",
       "entity.forest.calibri": "Calibri",
+      "block.forest.cut_mud": "Cut Mud",
       "block.forest.pumice": "Pumice",
       "block.forest.sandslate": "Sandslate",
       "item.forest.gingerbread_brick": "Gingerbread",
@@ -12683,6 +12721,10 @@
             "children": []
           }
         ]
+      },
+      {
+        "name": "Mud",
+        "children": []
       }
     ]
   },
