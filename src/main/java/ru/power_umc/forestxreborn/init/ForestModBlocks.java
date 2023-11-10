@@ -100,6 +100,7 @@ import ru.power_umc.forestxreborn.block.PolishedMarbleWallBlock;
 import ru.power_umc.forestxreborn.block.PolishedMarbleStairsBlock;
 import ru.power_umc.forestxreborn.block.PolishedMarbleSlabBlock;
 import ru.power_umc.forestxreborn.block.PolishedMarbleBlock;
+import ru.power_umc.forestxreborn.block.PolishedAmethystBlockBlock;
 import ru.power_umc.forestxreborn.block.PolarBearCarpetBlock;
 import ru.power_umc.forestxreborn.block.PinkStairsBlock;
 import ru.power_umc.forestxreborn.block.PinkSlabBlock;
@@ -492,6 +493,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RYE_STAGE_7 = REGISTRY.register("rye_stage_7", () -> new RyeStage7Block());
 	public static final RegistryObject<Block> CUT_MUD = REGISTRY.register("cut_mud", () -> new CutMudBlock());
 	public static final RegistryObject<Block> MUD_BRICKS = REGISTRY.register("mud_bricks", () -> new MudBricksBlock());
+	public static final RegistryObject<Block> POLISHED_AMETHYST_BLOCK = REGISTRY.register("polished_amethyst_block", () -> new PolishedAmethystBlockBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

@@ -220,6 +220,7 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.POLAR_BEAR_CARPET.get().asItem());
 				tabData.accept(ForestModBlocks.CUT_MUD.get().asItem());
 				tabData.accept(ForestModBlocks.MUD_BRICKS.get().asItem());
+				tabData.accept(ForestModBlocks.POLISHED_AMETHYST_BLOCK.get().asItem());
 			})
 
 					.build());

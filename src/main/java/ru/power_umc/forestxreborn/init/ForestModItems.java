@@ -377,6 +377,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RYE_STAGE_7 = block(ForestModBlocks.RYE_STAGE_7);
 	public static final RegistryObject<Item> CUT_MUD = block(ForestModBlocks.CUT_MUD);
 	public static final RegistryObject<Item> MUD_BRICKS = block(ForestModBlocks.MUD_BRICKS);
+	public static final RegistryObject<Item> POLISHED_AMETHYST_BLOCK = block(ForestModBlocks.POLISHED_AMETHYST_BLOCK);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));
