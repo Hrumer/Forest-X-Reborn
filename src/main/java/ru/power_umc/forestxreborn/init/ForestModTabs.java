@@ -221,6 +221,7 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.CUT_MUD.get().asItem());
 				tabData.accept(ForestModBlocks.MUD_BRICKS.get().asItem());
 				tabData.accept(ForestModBlocks.POLISHED_AMETHYST_BLOCK.get().asItem());
+				tabData.accept(ForestModBlocks.AMETHYST_BRICKS.get().asItem());
 			})
 
 					.build());
