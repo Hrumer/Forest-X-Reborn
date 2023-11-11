@@ -10,6 +10,7 @@ import net.minecraftforge.common.capabilities.ForgeCapabilities;
 
 import net.minecraft.world.level.block.entity.BlockEntity;
 import net.minecraft.world.level.Level;
+import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.inventory.Slot;
 import net.minecraft.world.inventory.ContainerLevelAccess;
@@ -17,7 +18,9 @@ import net.minecraft.world.inventory.AbstractContainerMenu;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.player.Inventory;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.tags.ItemTags;
 import net.minecraft.server.level.ServerPlayer;
+import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.FriendlyByteBuf;
 import net.minecraft.core.BlockPos;
 
@@ -79,6 +82,11 @@ public class FermentationBarrelScreenMenu extends AbstractContainerMenu implemen
 		}
 		this.customSlots.put(0, this.addSlot(new SlotItemHandler(internal, 0, 33, 35) {
 			private final int slot = 0;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return stack.is(ItemTags.create(new ResourceLocation("forge:fermentation")));
+			}
 		}));
 		this.customSlots.put(2, this.addSlot(new SlotItemHandler(internal, 2, 159, 35) {
 			private final int slot = 2;
@@ -90,6 +98,11 @@ public class FermentationBarrelScreenMenu extends AbstractContainerMenu implemen
 		}));
 		this.customSlots.put(1, this.addSlot(new SlotItemHandler(internal, 1, 69, 35) {
 			private final int slot = 1;
+
+			@Override
+			public boolean mayPlace(ItemStack stack) {
+				return Items.GLASS_BOTTLE == stack.getItem();
+			}
 		}));
 		for (int si = 0; si < 3; ++si)
 			for (int sj = 0; sj < 9; ++sj)

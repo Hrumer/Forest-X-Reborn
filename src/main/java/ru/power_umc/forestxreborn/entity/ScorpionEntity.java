@@ -176,9 +176,9 @@ public class ScorpionEntity extends Monster implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("scorpion.model.wolking"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.scorpion.walking"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("scorpion.model.siting"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.scorpion.siting"));
 		}
 		return PlayState.STOP;
 	}
@@ -196,7 +196,7 @@ public class ScorpionEntity extends Monster implements GeoEntity {
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("scorpion.model.attack"));
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.scorpion.attack"));
 		}
 		return PlayState.CONTINUE;
 	}

@@ -189,9 +189,9 @@ public class FireSalamanderEntity extends Animal implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("fire_salamander.model.walking"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.fire_salamander.walking"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("fire_salamander.model.idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.fire_salamander.idle"));
 		}
 		return PlayState.STOP;
 	}
