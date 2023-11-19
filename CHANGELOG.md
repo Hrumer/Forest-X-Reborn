@@ -1,4 +1,8 @@
 What's new in Forest X Reborn 1.4.0?<br />
+Snapshot 1.4.0.231119:
+<br /> - Updated grape and grape vine textures
+<br /> - Updated raspberry texture
+<br /> - Updated mulberries textures
 Snapshot 1.4.0.231111:
 <br /> - Added frozen swamp
 <br /> - Added ice desert
