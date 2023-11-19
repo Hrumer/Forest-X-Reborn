@@ -1,5 +1,4 @@
-What's new in Forest X Reborn 1.4.0.231111 Snapshot?<br />
-<br /> - Added frozen swamp
-<br /> - Added ice desert
-<br /> - Some improvements for the fermentation barrel
-<br /> - Updated some textures
+What's new in Forest X Reborn 1.4.0.231119 Snapshot?<br />
+<br /> - Updated grape and grape vine textures
+<br /> - Updated raspberry texture
+<br /> - Updated mulberries textures
