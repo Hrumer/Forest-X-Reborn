@@ -11909,6 +11909,42 @@
         ]
       },
       "path": "~/CopperLadder"
+    },
+    {
+      "name": "WaxCopperLadder",
+      "type": "procedure",
+      "sortid": 676,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "wax_copper_ladder",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/WaxCopperLadderProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/CopperLadder"
     }
   ],
   "variable_elements": [
