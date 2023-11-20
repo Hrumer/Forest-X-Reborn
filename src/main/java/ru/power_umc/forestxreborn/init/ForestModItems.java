@@ -232,6 +232,14 @@ public class ForestModItems {
 	public static final RegistryObject<Item> PINK_FENCE_GATE = block(ForestModBlocks.PINK_FENCE_GATE);
 	public static final RegistryObject<Item> BROWN_BEAR_CARPET = block(ForestModBlocks.BROWN_BEAR_CARPET);
 	public static final RegistryObject<Item> POLAR_BEAR_CARPET = block(ForestModBlocks.POLAR_BEAR_CARPET);
+	public static final RegistryObject<Item> COPPER_LADDER = block(ForestModBlocks.COPPER_LADDER);
+	public static final RegistryObject<Item> EXPOSED_COPPER_LADDER = block(ForestModBlocks.EXPOSED_COPPER_LADDER);
+	public static final RegistryObject<Item> WEATHERED_COPPER_LADDER = block(ForestModBlocks.WEATHERED_COPPER_LADDER);
+	public static final RegistryObject<Item> OXIDIZED_COPPER_LADDER = block(ForestModBlocks.OXIDIZED_COPPER_LADDER);
+	public static final RegistryObject<Item> WAXED_COPPER_LADDER = block(ForestModBlocks.WAXED_COPPER_LADDER);
+	public static final RegistryObject<Item> WAXED_EXPOSED_COPPER_LADDER = block(ForestModBlocks.WAXED_EXPOSED_COPPER_LADDER);
+	public static final RegistryObject<Item> WAXED_WEATHERED_COPPER_LADDER = block(ForestModBlocks.WAXED_WEATHERED_COPPER_LADDER);
+	public static final RegistryObject<Item> WAXED_OXIDIZED_COPPER_LADDER = block(ForestModBlocks.WAXED_OXIDIZED_COPPER_LADDER);
 	public static final RegistryObject<Item> GRAPE = REGISTRY.register("grape", () -> new GrapeItem());
 	public static final RegistryObject<Item> BLUEBERRY = REGISTRY.register("blueberry", () -> new BlueberryItem());
 	public static final RegistryObject<Item> LETTUCE = REGISTRY.register("lettuce", () -> new LettuceItem());
