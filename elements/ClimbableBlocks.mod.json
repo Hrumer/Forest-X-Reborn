@@ -1,10 +1,17 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "tag",
   "definition": {
     "type": "Blocks",
     "items": [],
-    "blocks": [],
+    "blocks": [
+      {
+        "value": "CUSTOM:GrapeVine0"
+      },
+      {
+        "value": "CUSTOM:GrapeVine1"
+      }
+    ],
     "functions": [],
     "entities": [],
     "biomes": [],

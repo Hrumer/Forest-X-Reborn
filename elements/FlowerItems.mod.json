@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "tag",
   "definition": {
     "type": "Items",
@@ -12,6 +12,12 @@
       },
       {
         "value": "CUSTOM:Lavander"
+      },
+      {
+        "value": "CUSTOM:WhiteRoseBush"
+      },
+      {
+        "value": "CUSTOM:PinkRoseBush"
       }
     ],
     "blocks": [],

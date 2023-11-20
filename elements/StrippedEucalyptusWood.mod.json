@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "stripped_eucalyptus_log_side",
@@ -34,15 +34,13 @@
       }
     ],
     "name": "Stripped Eucalyptus Wood",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 2.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Trees"
     },
     "destroyTool": "axe",
     "customDrop": {

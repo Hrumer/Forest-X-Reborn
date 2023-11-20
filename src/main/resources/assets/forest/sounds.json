@@ -22,5 +22,69 @@
         "stream": true
       }
     ]
+  },
+  "calibri.hurt": {
+    "sounds": [
+      {
+        "name": "forest:calibri.hurt",
+        "stream": false
+      }
+    ]
+  },
+  "calibri.ambient": {
+    "sounds": [
+      {
+        "name": "forest:calibri.ambient",
+        "stream": false
+      }
+    ]
+  },
+  "rat.ambient": {
+    "sounds": [
+      {
+        "name": "forest:rat.ambient",
+        "stream": false
+      }
+    ]
+  },
+  "rat.hurt": {
+    "sounds": [
+      {
+        "name": "forest:rat.hurt",
+        "stream": false
+      }
+    ]
+  },
+  "crocodile.dead": {
+    "sounds": [
+      {
+        "name": "forest:crocodile.dead",
+        "stream": false
+      }
+    ]
+  },
+  "crocodile.hurt": {
+    "sounds": [
+      {
+        "name": "forest:crocodile.hurt",
+        "stream": false
+      }
+    ]
+  },
+  "scorpion.ambient": {
+    "sounds": [
+      {
+        "name": "forest:scorpion.ambient",
+        "stream": false
+      }
+    ]
+  },
+  "scorpion.hurt": {
+    "sounds": [
+      {
+        "name": "forest:scorpion.hurt",
+        "stream": false
+      }
+    ]
   }
 }

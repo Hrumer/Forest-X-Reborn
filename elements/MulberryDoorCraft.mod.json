@@ -1,0 +1,48 @@
+{
+  "_fv": 47,
+  "_type": "recipe",
+  "definition": {
+    "recipeType": "Crafting",
+    "recipeRetstackSize": 1,
+    "group": "",
+    "cookingBookCategory": "MISC",
+    "xpReward": 0.0,
+    "cookingTime": 200,
+    "craftingBookCategory": "MISC",
+    "recipeShapeless": false,
+    "recipeSlots": [
+      {
+        "value": "CUSTOM:MulberryPlanks"
+      },
+      {
+        "value": "CUSTOM:MulberryPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MulberryPlanks"
+      },
+      {
+        "value": "CUSTOM:MulberryPlanks"
+      },
+      {
+        "value": ""
+      },
+      {
+        "value": "CUSTOM:MulberryPlanks"
+      },
+      {
+        "value": "CUSTOM:MulberryPlanks"
+      },
+      {
+        "value": ""
+      }
+    ],
+    "recipeReturnStack": {
+      "value": "CUSTOM:MulberryDoor"
+    },
+    "name": "mulberry_door_craft",
+    "namespace": "mod"
+  }
+}

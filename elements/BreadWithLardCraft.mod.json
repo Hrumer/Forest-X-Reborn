@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
@@ -40,7 +40,7 @@
       }
     ],
     "recipeReturnStack": {
-      "value": "CUSTOM:Breadwithlard"
+      "value": "CUSTOM:BreadWithLard"
     },
     "name": "bread_with_lard_craft",
     "namespace": "mod"

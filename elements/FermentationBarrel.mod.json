@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "fermentation_barrel",
@@ -133,9 +133,7 @@
       }
     ],
     "name": "Fermentation Barrel",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 1.0,
     "resistance": 10.0,
     "hasGravity": false,
@@ -202,8 +200,8 @@
     "breakHarvestLevel": 0,
     "isBonemealable": false,
     "hasInventory": true,
-    "guiBoundTo": "<NONE>",
-    "openGUIOnRightClick": false,
+    "guiBoundTo": "FermentationBarrelScreen",
+    "openGUIOnRightClick": true,
     "inventorySize": 4,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
@@ -211,7 +209,10 @@
     "inventoryOutSlotIDs": [
       2
     ],
-    "inventoryInSlotIDs": [],
+    "inventoryInSlotIDs": [
+      0,
+      1
+    ],
     "hasEnergyStorage": false,
     "energyInitial": 0,
     "energyCapacity": 400000,
@@ -220,9 +221,6 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "FermentationBarrelPriShchielchkiePKMPoBloku"
-    },
     "onTickUpdate": {
       "name": "FermentationBarrelObnovlieniieTika"
     },

@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "lettuce_stage2",
@@ -34,9 +34,7 @@
       }
     ],
     "name": "Lettuce Stage 2",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,
@@ -46,7 +44,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:LettuceSeed"
+      "value": "CUSTOM:LettuceSeeds"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -58,7 +56,7 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 600,
+    "tickRate": 1200,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -67,7 +65,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:LettuceSeed"
+      "value": "CUSTOM:LettuceSeeds"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
@@ -103,7 +101,7 @@
     "breakHarvestLevel": 0,
     "isBonemealable": true,
     "onBonemealSuccess": {
-      "name": "LettuceStage2ObnovitTakt"
+      "name": "LettuceStage0ObnovitTakt"
     },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
@@ -123,7 +121,7 @@
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
     "onTickUpdate": {
-      "name": "LettuceStage2ObnovitTakt"
+      "name": "LettuceStage0ObnovitTakt"
     },
     "spawnWorldTypes": [],
     "restrictionBiomes": [],

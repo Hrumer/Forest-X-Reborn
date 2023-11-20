@@ -8,6 +8,24 @@ dependencies {
   implementation fg.deobf('software.bernie.geckolib:geckolib-forge-1.20.1:4.2.2')
 }
 
+minecraft {
+  runs {
+     client {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+    }
+
+      server {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+    }
+      data {
+        property 'mixin.env.remapRefMap', 'true'
+        property 'mixin.env.refMapRemappingFile', "${projectDir}/build/createSrgToMcp/output.srg"
+    }
+  }
+}
+
 def extraModsDir = 'extra-mods-1.20.1'
 task addnewfoldersmods(type: DefaultTask){
   ant.mkdir(dir: 'extra-mods-1.20.1/');
@@ -29,7 +47,6 @@ dependencies
   def version = basename.substring(versionSep + 1)
   runtimeOnly fg.deobf("extra-mods:$artifactId:$version")}
 }
-
 minecraft {
  mappings channel: 'official', version: '1.20.1'
   accessTransformer = file('src/main/resources/META-INF/accesstransformer.cfg')
@@ -59,5 +76,5 @@ minecraft {
       }
         }
       }
-          }
+         }
 

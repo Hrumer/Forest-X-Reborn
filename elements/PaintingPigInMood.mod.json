@@ -1,0 +1,11 @@
+{
+  "_fv": 47,
+  "_type": "painting",
+  "definition": {
+    "texture": "pig_in_mood_painting.png",
+    "width": 32,
+    "height": 32,
+    "title": "Pig in mood",
+    "author": "SnrBorg"
+  }
+}

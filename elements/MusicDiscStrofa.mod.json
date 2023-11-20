@@ -1,16 +1,14 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "musicdisc",
   "definition": {
     "name": "Music Disc",
     "texture": "music_disc_strofa",
     "description": "bxkqq - strofa",
     "creativeTab": {
-      "value": "CUSTOM:MusicDiscs"
+      "value": "CUSTOM:Misc"
     },
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hasGlow": false,
     "music": {
       "value": "CUSTOM:record.strofa"

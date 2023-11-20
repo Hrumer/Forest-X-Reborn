@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "biome",
   "definition": {
     "name": "Old Growth Forest",
@@ -44,7 +44,7 @@
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": -0.15,
+      "min": 0.2,
       "max": 0.55
     },
     "genHumidity": {
@@ -86,7 +86,8 @@
       "ForestGrass",
       "DefaultFlowers",
       "ForestFlowers",
-      "TaigaGrassAndMushrooms"
+      "TaigaGrassAndMushrooms",
+      "TaigaLargeFerns"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,

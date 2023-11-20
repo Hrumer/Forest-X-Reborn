@@ -35,6 +35,7 @@
     "replaceable_blocks": {
       "type": "minecraft:matching_blocks",
       "blocks": "minecraft:air"
-    }
+    },
+    "planted": "true"
   }
 }

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"fennec.model.winking": {
+		"animation.fennec.winking": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -142,7 +142,7 @@
 				}
 			}
 		},
-		"fennec.model.running": {
+		"animation.fennec.running": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -281,7 +281,7 @@
 				}
 			}
 		},
-		"fennec.model.idle": {
+		"animation.fennec.idle": {
 			"loop": true
 		}
 	},

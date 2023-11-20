@@ -1,8 +1,8 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
-    "texture": "sakura_sapling",
+    "texture": "eucalyptus_sapling",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
@@ -14,7 +14,7 @@
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "sakura_sapling",
+    "itemTexture": "eucalyptus_sapling",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
@@ -34,15 +34,13 @@
       }
     ],
     "name": "Eucalyptus Sapling",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 1.0,
     "resistance": 0.0,
     "hasGravity": false,
     "isWaterloggable": false,
     "creativeTab": {
-      "value": "No creative tab entry"
+      "value": "CUSTOM:Trees"
     },
     "destroyTool": "Not specified",
     "customDrop": {
@@ -58,7 +56,7 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 1400,
+    "tickRate": 2400,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -101,7 +99,13 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
+    "placingCondition": {
+      "name": "BlueberriesBushFeatureAdditionalGenerationCondition"
+    },
     "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "EucalyptusSaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMuki"
+    },
     "onBonemealSuccess": {
       "name": "EucalyptusSaplingPriNazhatii"
     },

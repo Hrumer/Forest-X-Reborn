@@ -1,0 +1,24 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:Semidesert"
+      },
+      {
+        "value": "CUSTOM:DryThornForest"
+      },
+      {
+        "value": "CUSTOM:IceDesert"
+      }
+    ],
+    "name": "is_dry",
+    "namespace": "minecraft"
+  }
+}

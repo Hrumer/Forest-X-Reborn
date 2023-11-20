@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"brown_bear.model.walking": {
+		"animation.brown_bear.walking": {
 			"loop": true,
 			"animation_length": 2,
 			"bones": {
@@ -195,7 +195,7 @@
 				}
 			}
 		},
-		"brown_bear.model.running": {
+		"animation.brown_bear.running": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -405,7 +405,7 @@
 				}
 			}
 		},
-		"brown_bear.model.attack": {
+		"animation.brown_bear.attack": {
 			"loop": false,
 			"animation_length": 1,
 			"bones": {
@@ -505,7 +505,7 @@
 				}
 			}
 		},
-		"brown_bear.model.idle": {
+		"animation.brown_bear.idle": {
 			"loop": true
 		}
 	},

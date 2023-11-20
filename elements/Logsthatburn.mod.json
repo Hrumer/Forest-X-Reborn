@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "tag",
   "definition": {
     "type": "Blocks",
@@ -16,6 +16,18 @@
       },
       {
         "value": "CUSTOM:StrippedEucalyptusWood"
+      },
+      {
+        "value": "CUSTOM:MulberryWood"
+      },
+      {
+        "value": "CUSTOM:MulberryLog"
+      },
+      {
+        "value": "CUSTOM:StrippedMulberryWood"
+      },
+      {
+        "value": "CUSTOM:StrippedMulberryLog"
       }
     ],
     "functions": [],

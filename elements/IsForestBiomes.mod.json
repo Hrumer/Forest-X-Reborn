@@ -1,0 +1,24 @@
+{
+  "_fv": 47,
+  "_type": "tag",
+  "definition": {
+    "type": "Biomes",
+    "items": [],
+    "blocks": [],
+    "functions": [],
+    "entities": [],
+    "biomes": [
+      {
+        "value": "CUSTOM:DryThornForest"
+      },
+      {
+        "value": "CUSTOM:MushroomsCaves"
+      },
+      {
+        "value": "CUSTOM:OldGrowthForest"
+      }
+    ],
+    "name": "is_forest",
+    "namespace": "minecraft"
+  }
+}

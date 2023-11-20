@@ -1,0 +1,15 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "savanna_plateau",
+    "sunflower_plains",
+    "snowy_plains",
+    "plains"
+  ],
+  "spawners": {
+    "type": "forest:rat",
+    "weight": 15,
+    "minCount": 2,
+    "maxCount": 3
+  }
+}

@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "forest:dry_thorn_forest",
+    "forest:old_growth_forest",
+    "forest:mushrooms_caves"
+  ]
+}

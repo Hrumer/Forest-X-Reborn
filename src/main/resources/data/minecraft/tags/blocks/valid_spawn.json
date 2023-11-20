@@ -1,4 +1,7 @@
 {
   "replace": false,
-  "values": []
+  "values": [
+    "forest:ash_block",
+    "forest:ash_cover"
+  ]
 }

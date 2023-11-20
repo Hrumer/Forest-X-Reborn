@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "marble_polished",
@@ -34,9 +34,7 @@
       }
     ],
     "name": "Polished Marble",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 1.3499999999999999,
     "resistance": 10.0,
     "hasGravity": false,

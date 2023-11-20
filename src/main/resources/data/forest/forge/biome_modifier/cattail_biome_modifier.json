@@ -1,0 +1,9 @@
+{
+  "type": "forge:add_features",
+  "biomes": [
+    "swamp",
+    "forest:peatbog"
+  ],
+  "features": "forest:cattail",
+  "step": "vegetal_decoration"
+}

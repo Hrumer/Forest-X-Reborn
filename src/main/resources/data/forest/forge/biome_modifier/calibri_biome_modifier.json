@@ -1,0 +1,13 @@
+{
+  "type": "forge:add_spawns",
+  "biomes": [
+    "sparse_jungle",
+    "jungle"
+  ],
+  "spawners": {
+    "type": "forest:calibri",
+    "weight": 15,
+    "minCount": 1,
+    "maxCount": 2
+  }
+}
