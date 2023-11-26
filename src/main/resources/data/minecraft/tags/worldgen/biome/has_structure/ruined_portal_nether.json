@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-    "forest:volcano"
+    "forest:volcano",
+    "forest:burnt_forest"
   ]
 }

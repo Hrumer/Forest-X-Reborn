@@ -1,0 +1,124 @@
+{
+  "_fv": 47,
+  "_type": "biome",
+  "definition": {
+    "name": "Burnt Forest",
+    "groundBlock": {
+      "value": "CUSTOM:AshBlock"
+    },
+    "undergroundBlock": {
+      "value": "CUSTOM:AshBlock"
+    },
+    "underwaterBlock": {
+      "value": "Blocks.DIRT#0"
+    },
+    "airColor": {
+      "value": -10066330,
+      "falpha": 0.0
+    },
+    "grassColor": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
+    "foliageColor": {
+      "value": -13421773,
+      "falpha": 0.0
+    },
+    "waterColor": {
+      "value": -12210702,
+      "falpha": 0.0
+    },
+    "waterFogColor": {
+      "value": -12210702,
+      "falpha": 0.0
+    },
+    "ambientSound": {
+      "value": ""
+    },
+    "additionsSound": {
+      "value": ""
+    },
+    "music": {
+      "value": ""
+    },
+    "moodSound": {
+      "value": ""
+    },
+    "moodSoundDelay": 6000,
+    "spawnParticles": true,
+    "particleToSpawn": {
+      "value": "ASH"
+    },
+    "particlesProbability": 10.0,
+    "rainingPossibility": 0.30000000000000004,
+    "temperature": 1.8,
+    "spawnBiome": false,
+    "spawnInCaves": false,
+    "spawnBiomeNether": false,
+    "genTemperature": {
+      "min": -1.0E-4,
+      "max": 0.0
+    },
+    "genHumidity": {
+      "min": -1.0E-4,
+      "max": 0.0
+    },
+    "genContinentalness": {
+      "min": -1.0E-4,
+      "max": 0.0
+    },
+    "genErosion": {
+      "min": -1.0E-4,
+      "max": 0.0
+    },
+    "genWeirdness": {
+      "min": -1.0E-4,
+      "max": 0.0
+    },
+    "treesPerChunk": 5,
+    "vanillaTreeType": "Default",
+    "treeType": 1,
+    "minHeight": 6,
+    "treeStem": {
+      "value": "CUSTOM:CharredLog"
+    },
+    "treeBranch": {
+      "value": "Blocks.AIR"
+    },
+    "treeVines": {
+      "value": "Blocks.AIR"
+    },
+    "treeFruits": {
+      "value": "Blocks.AIR"
+    },
+    "defaultFeatures": [
+      "Fossils",
+      "Ores",
+      "FrozenTopLayer",
+      "AmethystGeodes",
+      "Caves",
+      "DeadBushes"
+    ],
+    "spawnStronghold": false,
+    "spawnMineshaft": false,
+    "spawnMineshaftMesa": false,
+    "spawnPillagerOutpost": false,
+    "villageType": "none",
+    "spawnWoodlandMansion": false,
+    "spawnJungleTemple": false,
+    "spawnDesertPyramid": false,
+    "spawnSwampHut": false,
+    "spawnIgloo": false,
+    "spawnOceanMonument": false,
+    "spawnShipwreck": false,
+    "spawnShipwreckBeached": false,
+    "spawnBuriedTreasure": false,
+    "oceanRuinType": "NONE",
+    "spawnNetherBridge": false,
+    "spawnNetherFossil": false,
+    "spawnBastionRemnant": false,
+    "spawnEndCity": false,
+    "spawnRuinedPortal": "NETHER",
+    "spawnEntries": []
+  }
+}
