@@ -1,0 +1,33 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "group": "trapdoor",
+  "category": "building",
+  "pattern": [
+    "012",
+    "345"
+  ],
+  "key": {
+    "0": {
+      "item": "forest:charred_planks"
+    },
+    "1": {
+      "item": "forest:charred_planks"
+    },
+    "2": {
+      "item": "forest:charred_planks"
+    },
+    "3": {
+      "item": "forest:charred_planks"
+    },
+    "4": {
+      "item": "forest:charred_planks"
+    },
+    "5": {
+      "item": "forest:charred_planks"
+    }
+  },
+  "result": {
+    "item": "forest:charred_trapdoor",
+    "count": 3
+  }
+}

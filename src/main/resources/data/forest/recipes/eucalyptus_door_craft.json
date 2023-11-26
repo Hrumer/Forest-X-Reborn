@@ -1,6 +1,6 @@
 {
   "type": "minecraft:crafting_shaped",
-  "group": "bark",
+  "group": "door",
   "category": "building",
   "pattern": [
     "01",
