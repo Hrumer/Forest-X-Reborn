@@ -275,9 +275,9 @@ public class ForestModItems {
 	public static final RegistryObject<Item> BROWN_BEAR_PELT = REGISTRY.register("brown_bear_pelt", () -> new BrownBearPeltItem());
 	public static final RegistryObject<Item> POLAR_BEAR_PELT = REGISTRY.register("polar_bear_pelt", () -> new PolarBearPeltItem());
 	public static final RegistryObject<Item> RACCON_SPAWN_EGG = REGISTRY.register("raccon_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.RACCON, -10066330, -3355444, new Item.Properties()));
-	public static final RegistryObject<Item> BROWN_BEAR_SPAWN_EGG = REGISTRY.register("brown_bear_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.BROWN_BEAR, -13434880, -6737152, new Item.Properties()));
-	public static final RegistryObject<Item> SNAIL_SPAWN_EGG = REGISTRY.register("snail_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SNAIL, -6724096, -13434880, new Item.Properties()));
-	public static final RegistryObject<Item> FENNEC_SPAWN_EGG = REGISTRY.register("fennec_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.FENNEC, -26317, -3368704, new Item.Properties()));
+	public static final RegistryObject<Item> BROWN_BEAR_SPAWN_EGG = REGISTRY.register("brown_bear_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.BROWN_BEAR, -11324390, -6726090, new Item.Properties()));
+	public static final RegistryObject<Item> SNAIL_SPAWN_EGG = REGISTRY.register("snail_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SNAIL, -10792133, -3489370, new Item.Properties()));
+	public static final RegistryObject<Item> FENNEC_SPAWN_EGG = REGISTRY.register("fennec_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.FENNEC, -2838158, -1844304, new Item.Properties()));
 	public static final RegistryObject<Item> FIRE_SALAMANDER_SPAWN_EGG = REGISTRY.register("fire_salamander_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.FIRE_SALAMANDER, -13261, -16777216, new Item.Properties()));
 	public static final RegistryObject<Item> ORANGE_BUTTERFLY_SPAWN_EGG = REGISTRY.register("orange_butterfly_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.ORANGE_BUTTERFLY, -39424, -13421773, new Item.Properties()));
 	public static final RegistryObject<Item> PINK_BUTTERFLY_SPAWN_EGG = REGISTRY.register("pink_butterfly_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.PINK_BUTTERFLY, -26164, -13421773, new Item.Properties()));
@@ -285,7 +285,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> GREEN_BUTTERFLY_SPAWN_EGG = REGISTRY.register("green_butterfly_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.GREEN_BUTTERFLY, -13382656, -13421773, new Item.Properties()));
 	public static final RegistryObject<Item> PURPLE_BUTTERFLY_SPAWN_EGG = REGISTRY.register("purple_butterfly_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.PURPLE_BUTTERFLY, -3407617, -13421773, new Item.Properties()));
 	public static final RegistryObject<Item> CALIBRI_SPAWN_EGG = REGISTRY.register("calibri_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.CALIBRI, -16738048, -16737844, new Item.Properties()));
-	public static final RegistryObject<Item> VULTURE_SPAWN_EGG = REGISTRY.register("vulture_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.VULTURE, -10079488, -6750157, new Item.Properties()));
+	public static final RegistryObject<Item> VULTURE_SPAWN_EGG = REGISTRY.register("vulture_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.VULTURE, -7054286, -1003368, new Item.Properties()));
 	public static final RegistryObject<Item> RAT_SPAWN_EGG = REGISTRY.register("rat_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.RAT, -10066330, -26215, new Item.Properties()));
 	public static final RegistryObject<Item> CROCODILE_SPAWN_EGG = REGISTRY.register("crocodile_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.CROCODILE, -15706871, -10394052, new Item.Properties()));
 	public static final RegistryObject<Item> SCORPION_SPAWN_EGG = REGISTRY.register("scorpion_spawn_egg", () -> new ForgeSpawnEggItem(ForestModEntities.SCORPION, -13421773, -3407821, new Item.Properties()));

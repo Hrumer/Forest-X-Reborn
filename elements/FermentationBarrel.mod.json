@@ -202,7 +202,7 @@
     "hasInventory": true,
     "guiBoundTo": "FermentationBarrelScreen",
     "openGUIOnRightClick": true,
-    "inventorySize": 4,
+    "inventorySize": 3,
     "inventoryStackSize": 64,
     "inventoryDropWhenDestroyed": true,
     "inventoryComparatorPower": true,
