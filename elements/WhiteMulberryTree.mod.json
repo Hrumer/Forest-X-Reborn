@@ -3,7 +3,7 @@
   "_type": "structure",
   "definition": {
     "structure": "mulberry_5",
-    "randomlyRotateStructure": true,
+    "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
     "spawnProbability": 45000,
     "minCountPerChunk": 1,
