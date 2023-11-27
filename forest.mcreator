@@ -12396,11 +12396,6 @@
       "registry_name": "burnt_forest",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/treedecorators/BurntForestTrunkDecorator.java",
-          "src/main/resources/data/forest/worldgen/configured_feature/burnt_forest_tree.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/treedecorators/BurntForestFruitDecorator.java",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/treedecorators/BurntForestLeaveDecorator.java",
-          "src/main/resources/data/forest/worldgen/placed_feature/burnt_forest_tree.json",
           "src/main/resources/data/forest/worldgen/biome/burnt_forest.json"
         ]
       },
@@ -12419,6 +12414,56 @@
         ]
       },
       "path": "~/WoodSets/CharredWoodSet"
+    },
+    {
+      "name": "CharredTreeFeatureDopolnitielnoieUsloviieGienieratsii",
+      "type": "procedure",
+      "sortid": 707,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_tree_feature_dopolnitielnoie_usloviie_gienieratsii",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/CharredTreeFeatureDopolnitielnoieUsloviieGienieratsiiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "x",
+            "type": "number"
+          },
+          {
+            "name": "y",
+            "type": "number"
+          },
+          {
+            "name": "z",
+            "type": "number"
+          },
+          {
+            "name": "world",
+            "type": "world"
+          }
+        ]
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "CharredTreeFeature",
+      "type": "feature",
+      "sortid": 708,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "charred_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/placed_feature/charred_tree_feature.json",
+          "src/main/resources/data/forest/forge/biome_modifier/charred_tree_feature_biome_modifier.json",
+          "src/main/resources/data/forest/worldgen/configured_feature/charred_tree_feature.json",
+          "src/main/java/ru/power_umc/forestxreborn/world/features/CharredTreeFeatureFeature.java"
+        ]
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [

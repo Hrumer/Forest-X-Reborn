@@ -25,11 +25,11 @@
       "falpha": 0.0
     },
     "waterColor": {
-      "value": -12210702,
+      "value": -6710887,
       "falpha": 0.0
     },
     "waterFogColor": {
-      "value": -12210702,
+      "value": -10066330,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -49,10 +49,10 @@
     "particleToSpawn": {
       "value": "ASH"
     },
-    "particlesProbability": 10.0,
+    "particlesProbability": 80.0,
     "rainingPossibility": 0.30000000000000004,
     "temperature": 1.8,
-    "spawnBiome": false,
+    "spawnBiome": true,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
@@ -75,9 +75,9 @@
       "min": -1.0E-4,
       "max": 0.0
     },
-    "treesPerChunk": 5,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 1,
+    "treeType": 0,
     "minHeight": 6,
     "treeStem": {
       "value": "CUSTOM:CharredLog"
@@ -97,7 +97,8 @@
       "FrozenTopLayer",
       "AmethystGeodes",
       "Caves",
-      "DeadBushes"
+      "DeadBushes",
+      "ForestGrass"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
