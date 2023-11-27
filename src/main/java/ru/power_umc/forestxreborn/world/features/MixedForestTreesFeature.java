@@ -1,7 +1,7 @@
 
-package power.forestxreborn.world.features;
+package ru.power_umc.forestxreborn.world.features;
 
-import power.forestxreborn.procedures.BlueberriesBushFeatureAdditionalGenerationConditionProcedure;
+import ru.power_umc.forestxreborn.procedures.BlueberriesBushFeatureAdditionalGenerationConditionProcedure;
 
 import net.minecraft.world.level.levelgen.feature.configurations.SimpleRandomFeatureConfiguration;
 import net.minecraft.world.level.levelgen.feature.SimpleRandomSelectorFeature;
