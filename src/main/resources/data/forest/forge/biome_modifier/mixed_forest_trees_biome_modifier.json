@@ -2,5 +2,5 @@
   "type": "forge:add_features",
   "biomes": "forest:mixed_forest",
   "features": "forest:mixed_forest_trees",
-  "step": "surface_structures"
+  "step": "vegetal_decoration"
 }
