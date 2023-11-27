@@ -6,7 +6,7 @@
     "restrictionDimensions": [],
     "restrictionBiomes": [
       {
-        "value": "CUSTOM:BurntForest"
+        "value": "CUSTOM:CharredForest"
       }
     ],
     "generateCondition": {

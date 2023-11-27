@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "biome",
   "definition": {
-    "name": "Burnt Forest",
+    "name": "Charred Forest",
     "groundBlock": {
       "value": "CUSTOM:AshBlock"
     },
