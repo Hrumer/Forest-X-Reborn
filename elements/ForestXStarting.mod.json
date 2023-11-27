@@ -163,7 +163,8 @@
       "EucalyptusDoorCraft",
       "EucalyptusTrapdoorCraft",
       "MulberryTrapdoorCraft",
-      "BreadFromRye"
+      "BreadFromRye",
+      "CopperLadderCraft"
     ],
     "rewardFunction": "No function",
     "rewardXP": 0,
