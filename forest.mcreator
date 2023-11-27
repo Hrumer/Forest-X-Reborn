@@ -12409,6 +12409,7 @@
     {
       "name": "StrippedCharredWoodCraft",
       "type": "recipe",
+      "sortid": 706,
       "compiles": true,
       "locked_code": false,
       "registry_name": "stripped_charred_wood_craft",
