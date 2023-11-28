@@ -2,7 +2,8 @@
   "type": "forge:add_features",
   "biomes": [
     "old_growth_birch_forest",
-    "forest"
+    "forest",
+    "forest:mixed_forest"
   ],
   "features": "forest:raspberries_bush_feature",
   "step": "surface_structures"
