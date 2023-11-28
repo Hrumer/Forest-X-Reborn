@@ -226,6 +226,7 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.WAXED_EXPOSED_COPPER_LADDER.get().asItem());
 				tabData.accept(ForestModBlocks.WAXED_WEATHERED_COPPER_LADDER.get().asItem());
 				tabData.accept(ForestModBlocks.WAXED_OXIDIZED_COPPER_LADDER.get().asItem());
+				tabData.accept(ForestModBlocks.GUNPOWDER_BARREL.get().asItem());
 			})
 
 					.build());

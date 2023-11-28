@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/gunpowder_barrel_bottom",
+    "up": "forest:block/gunpowder_barrel_top",
+    "north": "forest:block/gunpowder_barrel_side",
+    "east": "forest:block/gunpowder_barrel_side",
+    "south": "forest:block/gunpowder_barrel_side",
+    "west": "forest:block/gunpowder_barrel_side",
+    "particle": "forest:block/gunpowder_barrel_bottom"
+  },
+  "render_type": "solid"
+}

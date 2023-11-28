@@ -169,6 +169,7 @@ import ru.power_umc.forestxreborn.block.LettuceStage2Block;
 import ru.power_umc.forestxreborn.block.LettuceStage1Block;
 import ru.power_umc.forestxreborn.block.LettuceStage0Block;
 import ru.power_umc.forestxreborn.block.LavanderBlock;
+import ru.power_umc.forestxreborn.block.GunpowderBarrelBlock;
 import ru.power_umc.forestxreborn.block.GreenStairsBlock;
 import ru.power_umc.forestxreborn.block.GreenSlabBlock;
 import ru.power_umc.forestxreborn.block.GreenPlanksBlock;
@@ -504,6 +505,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RYE_STAGE_5 = REGISTRY.register("rye_stage_5", () -> new RyeStage5Block());
 	public static final RegistryObject<Block> RYE_STAGE_6 = REGISTRY.register("rye_stage_6", () -> new RyeStage6Block());
 	public static final RegistryObject<Block> RYE_STAGE_7 = REGISTRY.register("rye_stage_7", () -> new RyeStage7Block());
+	public static final RegistryObject<Block> GUNPOWDER_BARREL = REGISTRY.register("gunpowder_barrel", () -> new GunpowderBarrelBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
