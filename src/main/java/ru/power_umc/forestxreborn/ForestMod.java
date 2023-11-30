@@ -18,6 +18,8 @@ import ru.power_umc.forestxreborn.init.ForestModSounds;
 import ru.power_umc.forestxreborn.init.ForestModPaintings;
 import ru.power_umc.forestxreborn.init.ForestModMenus;
 import ru.power_umc.forestxreborn.init.ForestModItems;
+import ru.power_umc.forestxreborn.init.ForestModFluids;
+import ru.power_umc.forestxreborn.init.ForestModFluidTypes;
 import ru.power_umc.forestxreborn.init.ForestModFeatures;
 import ru.power_umc.forestxreborn.init.ForestModEntities;
 import ru.power_umc.forestxreborn.init.ForestModBlocks;
@@ -68,6 +70,8 @@ public class ForestMod {
 		ForestModPaintings.REGISTRY.register(bus);
 
 		ForestModMenus.REGISTRY.register(bus);
+		ForestModFluids.REGISTRY.register(bus);
+		ForestModFluidTypes.REGISTRY.register(bus);
 	}
 
 	private static final String PROTOCOL_VERSION = "1";

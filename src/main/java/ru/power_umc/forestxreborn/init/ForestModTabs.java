@@ -51,6 +51,7 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.EUCALYPTUS_TRAPDOOR.get().asItem());
 				tabData.accept(ForestModBlocks.EUCALYPTUS_PRESSURE_PLATE.get().asItem());
 				tabData.accept(ForestModBlocks.EUCALYPTUS_BUTTON.get().asItem());
+				tabData.accept(ForestModItems.ACID_BUCKET.get());
 			})
 
 					.build());

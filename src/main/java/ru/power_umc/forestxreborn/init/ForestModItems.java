@@ -56,6 +56,7 @@ import ru.power_umc.forestxreborn.item.BlueberryItem;
 import ru.power_umc.forestxreborn.item.BlackMulberryItem;
 import ru.power_umc.forestxreborn.item.BerryStrudelItem;
 import ru.power_umc.forestxreborn.item.BarbecueItem;
+import ru.power_umc.forestxreborn.item.AcidItem;
 import ru.power_umc.forestxreborn.ForestMod;
 
 import net.minecraftforge.registries.RegistryObject;
@@ -383,6 +384,7 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RYE_STAGE_5 = block(ForestModBlocks.RYE_STAGE_5);
 	public static final RegistryObject<Item> RYE_STAGE_6 = block(ForestModBlocks.RYE_STAGE_6);
 	public static final RegistryObject<Item> RYE_STAGE_7 = block(ForestModBlocks.RYE_STAGE_7);
+	public static final RegistryObject<Item> ACID_BUCKET = REGISTRY.register("acid_bucket", () -> new AcidItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

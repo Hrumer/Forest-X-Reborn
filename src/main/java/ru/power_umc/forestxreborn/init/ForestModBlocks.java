@@ -246,6 +246,7 @@ import ru.power_umc.forestxreborn.block.BlackFenceBlock;
 import ru.power_umc.forestxreborn.block.BirchParquetBlock;
 import ru.power_umc.forestxreborn.block.AshCoverBlock;
 import ru.power_umc.forestxreborn.block.AshBlockBlock;
+import ru.power_umc.forestxreborn.block.AcidBlock;
 import ru.power_umc.forestxreborn.block.AcaciaParquetBlock;
 import ru.power_umc.forestxreborn.ForestMod;
 
@@ -504,6 +505,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RYE_STAGE_5 = REGISTRY.register("rye_stage_5", () -> new RyeStage5Block());
 	public static final RegistryObject<Block> RYE_STAGE_6 = REGISTRY.register("rye_stage_6", () -> new RyeStage6Block());
 	public static final RegistryObject<Block> RYE_STAGE_7 = REGISTRY.register("rye_stage_7", () -> new RyeStage7Block());
+	public static final RegistryObject<Block> ACID = REGISTRY.register("acid", () -> new AcidBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
