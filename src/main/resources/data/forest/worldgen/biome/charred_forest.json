@@ -69,8 +69,7 @@
     [],
     [],
     [
-      "minecraft:patch_grass_forest",
-      "minecraft:patch_dead_bush_2"
+      "minecraft:patch_grass_forest"
     ],
     [
       "minecraft:freeze_top_layer"
