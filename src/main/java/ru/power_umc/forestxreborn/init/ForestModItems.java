@@ -92,6 +92,9 @@ public class ForestModItems {
 	public static final RegistryObject<Item> CHERRY_PARQUET = block(ForestModBlocks.CHERRY_PARQUET);
 	public static final RegistryObject<Item> MULBERRY_PARQUET = block(ForestModBlocks.MULBERRY_PARQUET);
 	public static final RegistryObject<Item> EUCALYPTUS_PARQUET = block(ForestModBlocks.EUCALYPTUS_PARQUET);
+	public static final RegistryObject<Item> BLACK_MARBLE = block(ForestModBlocks.BLACK_MARBLE);
+	public static final RegistryObject<Item> PINKISH_MARBLE = block(ForestModBlocks.PINKISH_MARBLE);
+	public static final RegistryObject<Item> GOLD_PLATED_MARBLE = block(ForestModBlocks.GOLD_PLATED_MARBLE);
 	public static final RegistryObject<Item> MARBLE = block(ForestModBlocks.MARBLE);
 	public static final RegistryObject<Item> MARBLE_BRICKS = block(ForestModBlocks.MARBLE_BRICKS);
 	public static final RegistryObject<Item> POLISHED_MARBLE = block(ForestModBlocks.POLISHED_MARBLE);

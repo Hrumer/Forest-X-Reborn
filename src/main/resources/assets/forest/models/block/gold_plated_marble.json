@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/gold_plated_marble",
+    "up": "forest:block/gold_plated_marble",
+    "north": "forest:block/gold_plated_marble",
+    "east": "forest:block/gold_plated_marble",
+    "south": "forest:block/gold_plated_marble",
+    "west": "forest:block/gold_plated_marble",
+    "particle": "forest:block/gold_plated_marble"
+  },
+  "render_type": "solid"
+}

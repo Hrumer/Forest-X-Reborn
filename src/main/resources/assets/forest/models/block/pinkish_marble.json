@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/pinkish_marble",
+    "up": "forest:block/pinkish_marble",
+    "north": "forest:block/pinkish_marble",
+    "east": "forest:block/pinkish_marble",
+    "south": "forest:block/pinkish_marble",
+    "west": "forest:block/pinkish_marble",
+    "particle": "forest:block/pinkish_marble"
+  },
+  "render_type": "solid"
+}

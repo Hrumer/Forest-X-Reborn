@@ -97,6 +97,7 @@
   "block.forest.marble_bricks_slab": "Плита из мраморных кирпичей",
   "subtitles.crocodile.agressive": "",
   "block.forest.red_crushed_sandstone_slab": "Плита из красного колотого песчаника",
+  "block.forest.gold_plated_marble": "Золотистый мрамор",
   "item.forest.glazed_gingerbread_men": "Глазированный пряник",
   "block.forest.eucalyptus_leaves": "Эвкалиптовые листья",
   "block.forest.blue_planks": "Синие доски",
@@ -317,6 +318,7 @@
   "block.forest.black_planks": "Чёрные доски",
   "block.forest.eucalyptus_fence_gate": "Калитка из эвкалиптовых досок",
   "entity.forest.green_butterfly": "Зеленая бабочка",
+  "block.forest.pinkish_marble": "Розоватый мрамор",
   "subtitles.crocodile.dead": "",
   "block.forest.lime_fence_gate": "Лаймовая калитка",
   "item.forest.orange_butterfly_spawn_egg": "Яйцо призыва оранжевой бабочки",
@@ -401,5 +403,6 @@
   "block.forest.mulberry_planks": "Доски из шелковицы",
   "entity.forest.purple_butterfly": "Фиолетовая бабочка",
   "item.forest.grape": "Виноград",
-  "advancements.wine_business.descr": "С помощью бочки для ферментации и винограда сделайте вино"
+  "advancements.wine_business.descr": "С помощью бочки для ферментации и винограда сделайте вино",
+  "block.forest.black_marble": "Черный мрамор"
 }

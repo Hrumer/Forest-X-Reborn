@@ -78,6 +78,9 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.CHERRY_PARQUET.get().asItem());
 				tabData.accept(ForestModBlocks.MULBERRY_PARQUET.get().asItem());
 				tabData.accept(ForestModBlocks.EUCALYPTUS_PARQUET.get().asItem());
+				tabData.accept(ForestModBlocks.BLACK_MARBLE.get().asItem());
+				tabData.accept(ForestModBlocks.PINKISH_MARBLE.get().asItem());
+				tabData.accept(ForestModBlocks.GOLD_PLATED_MARBLE.get().asItem());
 				tabData.accept(ForestModBlocks.MARBLE.get().asItem());
 				tabData.accept(ForestModBlocks.MARBLE_BRICKS.get().asItem());
 				tabData.accept(ForestModBlocks.POLISHED_MARBLE.get().asItem());

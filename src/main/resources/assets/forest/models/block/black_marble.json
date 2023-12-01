@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/black_marble",
+    "up": "forest:block/black_marble",
+    "north": "forest:block/black_marble",
+    "east": "forest:block/black_marble",
+    "south": "forest:block/black_marble",
+    "west": "forest:block/black_marble",
+    "particle": "forest:block/black_marble"
+  },
+  "render_type": "solid"
+}
