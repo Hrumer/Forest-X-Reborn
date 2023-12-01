@@ -218,6 +218,14 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.PINK_FENCE_GATE.get().asItem());
 				tabData.accept(ForestModBlocks.BROWN_BEAR_CARPET.get().asItem());
 				tabData.accept(ForestModBlocks.POLAR_BEAR_CARPET.get().asItem());
+				tabData.accept(ForestModBlocks.COPPER_LADDER.get().asItem());
+				tabData.accept(ForestModBlocks.EXPOSED_COPPER_LADDER.get().asItem());
+				tabData.accept(ForestModBlocks.WEATHERED_COPPER_LADDER.get().asItem());
+				tabData.accept(ForestModBlocks.OXIDIZED_COPPER_LADDER.get().asItem());
+				tabData.accept(ForestModBlocks.WAXED_COPPER_LADDER.get().asItem());
+				tabData.accept(ForestModBlocks.WAXED_EXPOSED_COPPER_LADDER.get().asItem());
+				tabData.accept(ForestModBlocks.WAXED_WEATHERED_COPPER_LADDER.get().asItem());
+				tabData.accept(ForestModBlocks.WAXED_OXIDIZED_COPPER_LADDER.get().asItem());
 			})
 
 					.build());

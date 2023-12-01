@@ -1,0 +1,9 @@
+{
+  "parent": "forest:custom/vine",
+  "textures": {
+    "all": "forest:block/oxidized_copper_ladder",
+    "particle": "forest:block/oxidized_copper_ladder",
+    "missing": "forest:block/oxidized_copper_ladder"
+  },
+  "render_type": "cutout"
+}

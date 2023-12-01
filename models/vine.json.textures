@@ -11,6 +11,30 @@
         "missing": "grape_vine1"
       },
       "name": "growed"
+    },
+    "copper_ladder": {
+      "map": {
+        "missing": "copper_ladder"
+      },
+      "name": "copper_ladder"
+    },
+    "exposed_copper_ladder": {
+      "map": {
+        "missing": "exposed_copper_ladder"
+      },
+      "name": "exposed_copper_ladder"
+    },
+    "weathered_copper_ladder": {
+      "map": {
+        "missing": "weathered_copper_ladder"
+      },
+      "name": "weathered_copper_ladder"
+    },
+    "oxidized_copper_ladder": {
+      "map": {
+        "missing": "oxidized_copper_ladder"
+      },
+      "name": "oxidized_copper_ladder"
     }
   }
 }
