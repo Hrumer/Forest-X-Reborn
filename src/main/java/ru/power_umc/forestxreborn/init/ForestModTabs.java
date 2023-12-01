@@ -51,7 +51,6 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.EUCALYPTUS_TRAPDOOR.get().asItem());
 				tabData.accept(ForestModBlocks.EUCALYPTUS_PRESSURE_PLATE.get().asItem());
 				tabData.accept(ForestModBlocks.EUCALYPTUS_BUTTON.get().asItem());
-				tabData.accept(ForestModItems.ACID_BUCKET.get());
 			})
 
 					.build());
@@ -301,6 +300,7 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.GINGERBREAD_FORM_PINE.get());
 				tabData.accept(ForestModItems.BROWN_BEAR_PELT.get());
 				tabData.accept(ForestModItems.POLAR_BEAR_PELT.get());
+				tabData.accept(ForestModItems.ACID_BUCKET.get());
 			})
 
 					.build());

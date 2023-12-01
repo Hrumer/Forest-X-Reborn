@@ -4,7 +4,7 @@
   "definition": {
     "name": "Acid",
     "bucketName": "Acid Bucket",
-    "textureStill": "acid_flow",
+    "textureStill": "acid",
     "textureFlowing": "acid_flow",
     "tintType": "No tint",
     "canMultiply": false,
@@ -24,7 +24,7 @@
     "generateBucket": true,
     "textureBucket": "sapphire",
     "creativeTab": {
-      "value": "CUSTOM:Trees"
+      "value": "CUSTOM:Misc"
     },
     "emptySound": {
       "value": ""
