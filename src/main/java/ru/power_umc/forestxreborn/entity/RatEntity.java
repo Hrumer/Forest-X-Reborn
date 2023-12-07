@@ -10,6 +10,7 @@ import software.bernie.geckolib.core.animation.AnimatableManager;
 import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.animatable.GeoEntity;
 
+import ru.power_umc.forestxreborn.init.ForestModItems;
 import ru.power_umc.forestxreborn.init.ForestModEntities;
 
 import net.minecraftforge.registries.ForgeRegistries;
@@ -31,6 +32,7 @@ import net.minecraft.world.entity.ai.goal.MoveBackToVillageGoal;
 import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
 import net.minecraft.world.entity.ai.goal.FollowMobGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
+import net.minecraft.world.entity.ai.goal.BreedGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.SpawnPlacements;
@@ -102,12 +104,14 @@ public class RatEntity extends Animal implements GeoEntity {
 		this.goalSelector.addGoal(1, new PanicGoal(this, 1.2));
 		this.goalSelector.addGoal(2, new FollowMobGoal(this, 1, (float) 16, (float) 4));
 		this.goalSelector.addGoal(3, new TemptGoal(this, 1, Ingredient.of(Blocks.WHEAT.asItem()), false));
-		this.goalSelector.addGoal(4, new MoveBackToVillageGoal(this, 0.6, false));
-		this.goalSelector.addGoal(5, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(6, new WaterAvoidingRandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(8, new FloatGoal(this));
-		this.goalSelector.addGoal(9, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(4, new TemptGoal(this, 1, Ingredient.of(ForestModItems.RYE.get()), false));
+		this.goalSelector.addGoal(5, new BreedGoal(this, 1));
+		this.goalSelector.addGoal(6, new MoveBackToVillageGoal(this, 0.6, false));
+		this.goalSelector.addGoal(7, new RandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(8, new WaterAvoidingRandomStrollGoal(this, 1));
+		this.goalSelector.addGoal(9, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(10, new FloatGoal(this));
+		this.goalSelector.addGoal(11, new LeapAtTargetGoal(this, (float) 0.5));
 	}
 
 	@Override
@@ -150,7 +154,7 @@ public class RatEntity extends Animal implements GeoEntity {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(Blocks.WHEAT.asItem()).contains(stack.getItem());
+		return List.of(Blocks.WHEAT.asItem(), ForestModItems.RYE.get()).contains(stack.getItem());
 	}
 
 	@Override
@@ -161,7 +165,7 @@ public class RatEntity extends Animal implements GeoEntity {
 
 	public static void init() {
 		SpawnPlacements.register(ForestModEntities.RAT.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.DIRT) && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -179,9 +183,9 @@ public class RatEntity extends Animal implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("rat.model.goes"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.rat.goes"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("rat.model.costs"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.rat.costs"));
 		}
 		return PlayState.STOP;
 	}

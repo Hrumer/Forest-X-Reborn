@@ -43,6 +43,7 @@ import net.minecraft.world.damagesource.DamageTypes;
 import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
@@ -101,13 +102,14 @@ public class CrocodileEntity extends Monster implements GeoEntity {
 			}
 		});
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
-		this.goalSelector.addGoal(3, new FollowMobGoal(this, 1, (float) 8, (float) 4));
-		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 0.8));
-		this.goalSelector.addGoal(5, new RandomSwimmingGoal(this, 1, 40));
-		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, Player.class, false, false));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Animal.class, false, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, PathfinderMob.class, false, false));
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Player.class, false, false));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, ServerPlayer.class, false, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Animal.class, false, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, PathfinderMob.class, false, false));
+		this.goalSelector.addGoal(7, new FollowMobGoal(this, 1, (float) 8, (float) 4));
+		this.goalSelector.addGoal(8, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(9, new RandomSwimmingGoal(this, 1, 40));
+		this.goalSelector.addGoal(10, new RandomLookAroundGoal(this));
 	}
 
 	@Override
@@ -145,7 +147,7 @@ public class CrocodileEntity extends Monster implements GeoEntity {
 
 	public static void init() {
 		SpawnPlacements.register(ForestModEntities.CROCODILE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.DIRT) && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -164,12 +166,12 @@ public class CrocodileEntity extends Monster implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("crocodile.model.walking"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.crocodile.walking"));
 			}
 			if (this.isSprinting()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("crocodile.model.running"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.crocodile.running"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("crocodile.model.siting"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.crocodile.siting"));
 		}
 		return PlayState.STOP;
 	}
@@ -187,7 +189,7 @@ public class CrocodileEntity extends Monster implements GeoEntity {
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("crocodile.model.attack"));
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.crocodile.attack"));
 		}
 		return PlayState.CONTINUE;
 	}

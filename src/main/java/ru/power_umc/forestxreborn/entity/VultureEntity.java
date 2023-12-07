@@ -22,6 +22,7 @@ import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
+import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.ZombifiedPiglin;
 import net.minecraft.world.entity.monster.ZombieVillager;
 import net.minecraft.world.entity.monster.Zombie;
@@ -36,7 +37,7 @@ import net.minecraft.world.entity.ai.goal.target.NearestAttackableTargetGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
 import net.minecraft.world.entity.ai.goal.PanicGoal;
-import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
+import net.minecraft.world.entity.ai.goal.LookAtPlayerGoal;
 import net.minecraft.world.entity.ai.goal.Goal;
 import net.minecraft.world.entity.ai.control.FlyingMoveControl;
 import net.minecraft.world.entity.ai.attributes.Attributes;
@@ -55,6 +56,7 @@ import net.minecraft.world.damagesource.DamageSource;
 import net.minecraft.util.RandomSource;
 import net.minecraft.tags.BlockTags;
 import net.minecraft.sounds.SoundEvent;
+import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
@@ -117,7 +119,8 @@ public class VultureEntity extends Animal implements GeoEntity {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.goalSelector.addGoal(1, new Goal() {
+		this.goalSelector.addGoal(1, new PanicGoal(this, 1.2));
+		this.goalSelector.addGoal(2, new Goal() {
 			{
 				this.setFlags(EnumSet.of(Goal.Flag.MOVE));
 			}
@@ -139,7 +142,7 @@ public class VultureEntity extends Animal implements GeoEntity {
 			public void start() {
 				LivingEntity livingentity = VultureEntity.this.getTarget();
 				Vec3 vec3d = livingentity.getEyePosition(1);
-				VultureEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 2);
+				VultureEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1.2);
 			}
 
 			@Override
@@ -151,12 +154,21 @@ public class VultureEntity extends Animal implements GeoEntity {
 					double d0 = VultureEntity.this.distanceToSqr(livingentity);
 					if (d0 < 16) {
 						Vec3 vec3d = livingentity.getEyePosition(1);
-						VultureEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 2);
+						VultureEntity.this.moveControl.setWantedPosition(vec3d.x, vec3d.y, vec3d.z, 1.2);
 					}
 				}
 			}
 		});
-		this.goalSelector.addGoal(2, new RandomStrollGoal(this, 2.4, 20) {
+		this.targetSelector.addGoal(3, new NearestAttackableTargetGoal(this, Zombie.class, true, false));
+		this.targetSelector.addGoal(4, new NearestAttackableTargetGoal(this, Zoglin.class, true, false));
+		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, ZombieVillager.class, true, false));
+		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, ZombifiedPiglin.class, true, false));
+		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, ZombieHorse.class, true, false));
+		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, Husk.class, true, false));
+		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, Drowned.class, true, false));
+		this.goalSelector.addGoal(10, new LookAtPlayerGoal(this, Player.class, (float) 6));
+		this.goalSelector.addGoal(11, new LookAtPlayerGoal(this, ServerPlayer.class, (float) 6));
+		this.goalSelector.addGoal(12, new RandomStrollGoal(this, 2.4, 20) {
 			@Override
 			protected Vec3 getPosition() {
 				RandomSource random = VultureEntity.this.getRandom();
@@ -166,21 +178,8 @@ public class VultureEntity extends Animal implements GeoEntity {
 				return new Vec3(dir_x, dir_y, dir_z);
 			}
 		});
-		this.goalSelector.addGoal(3, new MeleeAttackGoal(this, 1.2, false) {
-			@Override
-			protected double getAttackReachSqr(LivingEntity entity) {
-				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
-			}
-		});
-		this.goalSelector.addGoal(4, new RandomLookAroundGoal(this));
-		this.targetSelector.addGoal(5, new NearestAttackableTargetGoal(this, Zombie.class, true, false));
-		this.targetSelector.addGoal(6, new NearestAttackableTargetGoal(this, Zoglin.class, true, false));
-		this.targetSelector.addGoal(7, new NearestAttackableTargetGoal(this, ZombieVillager.class, true, false));
-		this.targetSelector.addGoal(8, new NearestAttackableTargetGoal(this, ZombifiedPiglin.class, true, false));
-		this.targetSelector.addGoal(9, new NearestAttackableTargetGoal(this, ZombieHorse.class, true, false));
-		this.targetSelector.addGoal(10, new NearestAttackableTargetGoal(this, Husk.class, true, false));
-		this.targetSelector.addGoal(11, new NearestAttackableTargetGoal(this, Drowned.class, true, false));
-		this.goalSelector.addGoal(12, new PanicGoal(this, 1.2));
+		this.goalSelector.addGoal(13, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(14, new RandomLookAroundGoal(this));
 	}
 
 	@Override
@@ -244,7 +243,7 @@ public class VultureEntity extends Animal implements GeoEntity {
 
 	public static void init() {
 		SpawnPlacements.register(ForestModEntities.VULTURE.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.DIRT) && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -260,13 +259,13 @@ public class VultureEntity extends Animal implements GeoEntity {
 
 	private PlayState movementPredicate(AnimationState event) {
 		if (this.animationprocedure.equals("empty")) {
-			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.isFallFlying()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulturel.files"));
+			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F)) && this.onGround()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulture.files"));
 			}
-			if (!this.isFallFlying()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulturel.files"));
+			if (!this.onGround()) {
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulture.files"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.model.sitting"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.vulture.sitting"));
 		}
 		return PlayState.STOP;
 	}

@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "tag",
   "definition": {
     "type": "Biomes",
@@ -13,6 +13,9 @@
       },
       {
         "value": "CUSTOM:DryThornForest"
+      },
+      {
+        "value": "CUSTOM:IceDesert"
       }
     ],
     "name": "is_dry",

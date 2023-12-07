@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "tag",
   "definition": {
     "type": "Biomes",
@@ -13,9 +13,6 @@
       },
       {
         "value": "CUSTOM:MarbleCaves"
-      },
-      {
-        "value": "CUSTOM:MixedForest"
       },
       {
         "value": "CUSTOM:MushroomsCaves"

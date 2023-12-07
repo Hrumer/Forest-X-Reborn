@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "raspberry_bush_stage_2",
@@ -34,9 +34,7 @@
       }
     ],
     "name": "Blueberry Bush 0",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 0.0,
     "resistance": 0.0,
     "hasGravity": false,
@@ -58,7 +56,7 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 600,
+    "tickRate": 1600,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,

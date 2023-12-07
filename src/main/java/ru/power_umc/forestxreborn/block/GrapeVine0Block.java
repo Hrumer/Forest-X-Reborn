@@ -33,13 +33,11 @@ import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.world.item.context.BlockPlaceContext;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -53,11 +51,6 @@ public class GrapeVine0Block extends Block implements SimpleWaterloggedBlock, Bo
 	public GrapeVine0Block() {
 		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.VINE).strength(1f, 10f).noCollission().noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override
@@ -161,7 +154,7 @@ public class GrapeVine0Block extends Block implements SimpleWaterloggedBlock, Bo
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 1200);
+		world.scheduleTick(pos, this, 2400);
 	}
 
 	@Override
@@ -171,7 +164,7 @@ public class GrapeVine0Block extends Block implements SimpleWaterloggedBlock, Bo
 		int y = pos.getY();
 		int z = pos.getZ();
 		GrapeVine0PriIspolzovaniiKostnoiMukiProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 1200);
+		world.scheduleTick(pos, this, 2400);
 	}
 
 	@Override

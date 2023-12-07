@@ -1,10 +1,10 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "recipe",
   "definition": {
     "recipeType": "Crafting",
     "recipeRetstackSize": 3,
-    "group": "bark",
+    "group": "trapdoor",
     "cookingBookCategory": "MISC",
     "xpReward": 0.0,
     "cookingTime": 200,

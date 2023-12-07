@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "deepslate_sapphire_ore",
@@ -34,9 +34,7 @@
       }
     ],
     "name": "Deepslate Sapphire Ore",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 5.0,
     "resistance": 6.916,
     "hasGravity": false,

@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"butterfly.model.walking": {
+		"animation.butterfly.walking": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -303,7 +303,7 @@
 				}
 			}
 		},
-		"butterfly.model.flying": {
+		"animation.butterfly.flying": {
 			"loop": true,
 			"animation_length": 0.625,
 			"bones": {
@@ -461,7 +461,7 @@
 				}
 			}
 		},
-		"butterfly.model.idle": {
+		"animation.butterfly.idle": {
 			"loop": true
 		}
 	},

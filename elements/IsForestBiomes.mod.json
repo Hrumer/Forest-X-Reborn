@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "tag",
   "definition": {
     "type": "Biomes",
@@ -10,9 +10,6 @@
     "biomes": [
       {
         "value": "CUSTOM:DryThornForest"
-      },
-      {
-        "value": "CUSTOM:MixedForest"
       },
       {
         "value": "CUSTOM:MushroomsCaves"

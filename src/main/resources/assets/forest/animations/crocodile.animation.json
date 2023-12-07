@@ -1,7 +1,7 @@
 {
 	"format_version": "1.8.0",
 	"animations": {
-		"crocodile.model.walking": {
+		"animation.crocodile.walking": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -155,7 +155,7 @@
 				}
 			}
 		},
-		"crocodile.model.running": {
+		"animation.crocodile.running": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {
@@ -394,7 +394,7 @@
 				}
 			}
 		},
-		"crocodile.model.attack": {
+		"animation.crocodile.attack": {
 			"animation_length": 0.5,
 			"bones": {
 				"chelest_upper": {
@@ -425,7 +425,7 @@
 				}
 			}
 		},
-		"crocodile.model.siting": {
+		"animation.crocodile.siting": {
 			"loop": true,
 			"animation_length": 1,
 			"bones": {

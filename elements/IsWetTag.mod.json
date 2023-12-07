@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "tag",
   "definition": {
     "type": "Biomes",
@@ -10,6 +10,9 @@
     "biomes": [
       {
         "value": "CUSTOM:Peatbog"
+      },
+      {
+        "value": "CUSTOM:FrozenSwamp"
       }
     ],
     "name": "is_wet",

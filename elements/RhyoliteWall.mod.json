@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "rhyolite",
@@ -35,9 +35,7 @@
       }
     ],
     "name": "Rhyolite Wall",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 2.0,
     "resistance": 100.0,
     "hasGravity": false,

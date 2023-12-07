@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Snail",
@@ -18,11 +18,11 @@
     "mountedYOffset": 0.0,
     "hasSpawnEgg": true,
     "spawnEggBaseColor": {
-      "value": -6724096,
+      "value": -10792133,
       "falpha": 0.0
     },
     "spawnEggDotColor": {
-      "value": -13434880,
+      "value": -3489370,
       "falpha": 0.0
     },
     "creativeTab": {

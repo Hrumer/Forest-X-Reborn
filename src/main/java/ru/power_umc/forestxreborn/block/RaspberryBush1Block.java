@@ -20,12 +20,10 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
 
@@ -35,11 +33,6 @@ import java.util.Collections;
 public class RaspberryBush1Block extends Block implements BonemealableBlock {
 	public RaspberryBush1Block() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.SWEET_BERRY_BUSH).instabreak().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override
@@ -99,7 +92,7 @@ public class RaspberryBush1Block extends Block implements BonemealableBlock {
 	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 600);
+		world.scheduleTick(pos, this, 1600);
 	}
 
 	@Override
@@ -109,7 +102,7 @@ public class RaspberryBush1Block extends Block implements BonemealableBlock {
 		int y = pos.getY();
 		int z = pos.getZ();
 		RaspberryBush1ObnovlieniieTikaProcedure.execute(world, x, y, z);
-		world.scheduleTick(pos, this, 600);
+		world.scheduleTick(pos, this, 1600);
 	}
 
 	@Override

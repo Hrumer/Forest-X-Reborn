@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -29,9 +29,7 @@
       }
     ],
     "name": "Pink Rose Bush",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "creativeTab": {
       "value": "CUSTOM:Plants"
     },

@@ -167,7 +167,7 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 
 	@Override
 	public EntityDimensions getDimensions(Pose p_33597_) {
-		return super.getDimensions(p_33597_).scale((float) 1);
+		return super.getDimensions(p_33597_).scale((float) 1.15);
 	}
 
 	@Override
@@ -190,7 +190,7 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 
 	public static void init() {
 		SpawnPlacements.register(ForestModEntities.BROWN_BEAR.get(), SpawnPlacements.Type.ON_GROUND, Heightmap.Types.MOTION_BLOCKING_NO_LEAVES,
-				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.DIRT) && world.getRawBrightness(pos, 0) > 8));
+				(entityType, world, reason, pos, random) -> (world.getBlockState(pos.below()).is(BlockTags.ANIMALS_SPAWNABLE_ON) && world.getRawBrightness(pos, 0) > 8));
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -208,12 +208,12 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 			if ((event.isMoving() || !(event.getLimbSwingAmount() > -0.15F && event.getLimbSwingAmount() < 0.15F))
 
 			) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("brown_bear.model.walking"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.brown_bear.walking"));
 			}
 			if (this.isSprinting()) {
-				return event.setAndContinue(RawAnimation.begin().thenLoop("brown_bear.model.running"));
+				return event.setAndContinue(RawAnimation.begin().thenLoop("animation.brown_bear.running"));
 			}
-			return event.setAndContinue(RawAnimation.begin().thenLoop("brown_bear.model.idle"));
+			return event.setAndContinue(RawAnimation.begin().thenLoop("animation.brown_bear.idle"));
 		}
 		return PlayState.STOP;
 	}
@@ -231,7 +231,7 @@ public class BrownBearEntity extends Animal implements GeoEntity {
 		}
 		if (this.swinging && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 			event.getController().forceAnimationReset();
-			return event.setAndContinue(RawAnimation.begin().thenPlay("brown_bear.model.attack"));
+			return event.setAndContinue(RawAnimation.begin().thenPlay("animation.brown_bear.attack"));
 		}
 		return PlayState.CONTINUE;
 	}

@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "brown_bear_carpet",
@@ -70,9 +70,7 @@
       }
     ],
     "name": "Brown Bear Carpet",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 0.2,
     "resistance": 1.0,
     "hasGravity": false,

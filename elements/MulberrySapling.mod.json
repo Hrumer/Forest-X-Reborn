@@ -1,5 +1,5 @@
 {
-  "_fv": 48,
+  "_fv": 47,
   "_type": "block",
   "definition": {
     "texture": "mulberry_sapling",
@@ -34,9 +34,7 @@
       }
     ],
     "name": "Eucalyptus Sapling",
-    "specialInformation": {
-      "fixedValue": ""
-    },
+    "specialInfo": [],
     "hardness": 1.0,
     "resistance": 0.0,
     "hasGravity": false,
@@ -58,7 +56,7 @@
     "material": {
       "value": "PLANTS"
     },
-    "tickRate": 1400,
+    "tickRate": 2400,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -101,9 +99,15 @@
     "luminance": 0,
     "unbreakable": false,
     "breakHarvestLevel": 1,
+    "placingCondition": {
+      "name": "BlueberriesBushFeatureAdditionalGenerationCondition"
+    },
     "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMuki"
+    },
     "onBonemealSuccess": {
-      "name": "MulberrySaplingObnovlieniieTika"
+      "name": "MulberrySaplingPriIspolzovaniiKostnoiMuki"
     },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",

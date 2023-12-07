@@ -71,14 +71,22 @@ public class ForestModBiomes {
 							Climate.Parameter.span(0.6999f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "volcano")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(0.2999f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.point(1.0f),
 							Climate.Parameter.span(0.6999f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "volcano")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.18f, 0.45f), Climate.Parameter.span(-0.1f, 0.1f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-1f, 0.375f),
-							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.3f, 0.3f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.18f, 0.45f), Climate.Parameter.span(-0.1f, 0.1f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-1f, 0.375f),
-							Climate.Parameter.point(1.0f), Climate.Parameter.span(-0.3f, 0.3f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.2f, 0.55f), Climate.Parameter.span(0.1f, 0.3f), Climate.Parameter.span(-0.11f, 0.03f), Climate.Parameter.span(-1f, 0.375f),
 							Climate.Parameter.point(0.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "eucalyptus_forest")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.2f, 0.55f), Climate.Parameter.span(0.1f, 0.3f), Climate.Parameter.span(-0.11f, 0.03f), Climate.Parameter.span(-1f, 0.375f),
 							Climate.Parameter.point(1.0f), Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "eucalyptus_forest")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1759f, 0.55f), Climate.Parameter.span(-0.1f, 0.1f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-1f, 0.375f),
+							Climate.Parameter.point(0.0f), Climate.Parameter.span(-0.3f, 0.3f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.1759f, 0.55f), Climate.Parameter.span(-0.1f, 0.1f), Climate.Parameter.span(-0.11f, 0.55f), Climate.Parameter.span(-1f, 0.375f),
+							Climate.Parameter.point(1.0f), Climate.Parameter.span(-0.3f, 0.3f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.45f, -0.15f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.11f, 0.3f), Climate.Parameter.span(0.05f, 1f), Climate.Parameter.point(0.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "frozen_swamp")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.45f, -0.15f), Climate.Parameter.span(0.3f, 1f), Climate.Parameter.span(-0.11f, 0.3f), Climate.Parameter.span(0.05f, 1f), Climate.Parameter.point(1.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "frozen_swamp")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, -0.45f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.span(0.03f, 1f), Climate.Parameter.span(-1f, -0.5f), Climate.Parameter.point(0.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "ice_desert")))));
+					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, -0.45f), Climate.Parameter.span(-1f, 0.5f), Climate.Parameter.span(0.03f, 1f), Climate.Parameter.span(-1f, -0.5f), Climate.Parameter.point(1.0f),
+							Climate.Parameter.span(-1f, 1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "ice_desert")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.33f, 0.5f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(0.45f, 1f), Climate.Parameter.span(0.2f, 0.9f),
 							Climate.Parameter.span(-0.1f, 0.1f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "marble_caves")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.5f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(0.45f, 1f), Climate.Parameter.span(0.2f, 0.9f),
@@ -107,10 +115,14 @@ public class ForestModBiomes {
 								Blocks.DIRT.defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "volcano")), ForestModBlocks.ASH_BLOCK.get().defaultBlockState(),
 								ForestModBlocks.ASH_BLOCK.get().defaultBlockState(), Blocks.BASALT.defaultBlockState()));
-						surfaceRules.add(1,
-								preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "eucalyptus_forest")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(),
 								Blocks.DIRT.defaultBlockState()));
+						surfaceRules.add(1,
+								preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
+						surfaceRules.add(1,
+								preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "frozen_swamp")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.CLAY.defaultBlockState()));
+						surfaceRules.add(1,
+								preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "ice_desert")), Blocks.SAND.defaultBlockState(), Blocks.SANDSTONE.defaultBlockState(), Blocks.SAND.defaultBlockState()));
 						NoiseGeneratorSettings moddedNoiseGeneratorSettings = new NoiseGeneratorSettings(noiseGeneratorSettings.noiseSettings(), noiseGeneratorSettings.defaultBlock(), noiseGeneratorSettings.defaultFluid(),
 								noiseGeneratorSettings.noiseRouter(), SurfaceRules.sequence(surfaceRules.toArray(SurfaceRules.RuleSource[]::new)), noiseGeneratorSettings.spawnTarget(), noiseGeneratorSettings.seaLevel(),
 								noiseGeneratorSettings.disableMobGeneration(), noiseGeneratorSettings.aquifersEnabled(), noiseGeneratorSettings.oreVeinsEnabled(), noiseGeneratorSettings.useLegacyRandomSource());
