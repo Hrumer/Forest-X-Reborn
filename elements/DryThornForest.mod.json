@@ -48,20 +48,20 @@
       "max": 0.55
     },
     "genHumidity": {
-      "min": 0.1,
-      "max": 0.3
+      "min": -0.35,
+      "max": -0.01
     },
     "genContinentalness": {
-      "min": -0.11,
-      "max": 0.4
+      "min": 0.03,
+      "max": 1.0
     },
     "genErosion": {
-      "min": -0.5,
-      "max": 0.5
+      "min": -0.375,
+      "max": 0.05
     },
     "genWeirdness": {
-      "min": -0.5,
-      "max": 0.5
+      "min": 0.05,
+      "max": 0.2666
     },
     "treesPerChunk": 1,
     "vanillaTreeType": "Default",
