@@ -64,16 +64,16 @@
       "max": 1.0
     },
     "genContinentalness": {
-      "min": 0.2999,
+      "min": -0.19,
       "max": 1.0
     },
     "genErosion": {
       "min": -1.0,
-      "max": 1.0
+      "max": -0.7799
     },
     "genWeirdness": {
-      "min": 0.6999,
-      "max": 1.0
+      "min": -0.7666,
+      "max": -0.5666
     },
     "treesPerChunk": 0,
     "vanillaTreeType": "Mega spruce trees",
