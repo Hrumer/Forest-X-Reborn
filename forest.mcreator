@@ -10032,22 +10032,6 @@
       "path": "~/Mobs"
     },
     {
-      "name": "MixedForest",
-      "type": "biome",
-      "sortid": 637,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mixed_forest",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/worldgen/configured_feature/mixed_forest_tree.json",
-          "src/main/resources/data/forest/worldgen/placed_feature/mixed_forest_tree.json",
-          "src/main/resources/data/forest/worldgen/biome/mixed_forest.json"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
       "name": "Trades",
       "type": "villagertrade",
       "sortid": 620,
@@ -11487,271 +11471,6 @@
       "path": "~/WoodSets/Mulberry Wood Set"
     },
     {
-      "name": "CopperLadder",
-      "type": "block",
-      "sortid": 164,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copper_ladder",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/copper_ladder.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CopperLadderBlock.java",
-          "src/main/resources/assets/forest/models/item/copper_ladder.json",
-          "src/main/resources/assets/forest/models/block/copper_ladder.json"
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "CopperLadderUsloviieRazmieshchieniiaBloka",
-      "type": "procedure",
-      "sortid": 678,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copper_ladder_usloviie_razmieshchieniia_bloka",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/CopperLadderUsloviieRazmieshchieniiaBlokaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "ExposedCopperLadder",
-      "type": "block",
-      "sortid": 165,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exposed_copper_ladder",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/block/ExposedCopperLadderBlock.java",
-          "src/main/resources/assets/forest/blockstates/exposed_copper_ladder.json",
-          "src/main/resources/assets/forest/models/block/exposed_copper_ladder.json",
-          "src/main/resources/assets/forest/models/item/exposed_copper_ladder.json"
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "WeatheredCopperLadder",
-      "type": "block",
-      "sortid": 166,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "weathered_copper_ladder",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/weathered_copper_ladder.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/WeatheredCopperLadderBlock.java",
-          "src/main/resources/assets/forest/models/item/weathered_copper_ladder.json",
-          "src/main/resources/assets/forest/blockstates/weathered_copper_ladder.json"
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "OxidizedCopperLadder",
-      "type": "block",
-      "sortid": 167,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "oxidized_copper_ladder",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/block/OxidizedCopperLadderBlock.java",
-          "src/main/resources/assets/forest/models/block/oxidized_copper_ladder.json",
-          "src/main/resources/assets/forest/blockstates/oxidized_copper_ladder.json",
-          "src/main/resources/assets/forest/models/item/oxidized_copper_ladder.json"
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "CopperLadderObnovlieniieTika",
-      "type": "procedure",
-      "sortid": 679,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copper_ladder_obnovlieniie_tika",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/CopperLadderObnovlieniieTikaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "ExposedCopperLadderObnovlieniieTika",
-      "type": "procedure",
-      "sortid": 680,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "exposed_copper_ladder_obnovlieniie_tika",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/ExposedCopperLadderObnovlieniieTikaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "WeatheredCopperLadderObnovlieniieTika",
-      "type": "procedure",
-      "sortid": 681,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "weathered_copper_ladder_obnovlieniie_tika",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/WeatheredCopperLadderObnovlieniieTikaProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "WaxedCopperLadder",
-      "type": "block",
-      "sortid": 168,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_copper_ladder",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/block/WaxedCopperLadderBlock.java",
-          "src/main/resources/assets/forest/models/block/waxed_copper_ladder.json",
-          "src/main/resources/assets/forest/models/item/waxed_copper_ladder.json",
-          "src/main/resources/assets/forest/blockstates/waxed_copper_ladder.json"
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "WaxedExposedCopperLadder",
-      "type": "block",
-      "sortid": 169,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_exposed_copper_ladder",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/block/WaxedExposedCopperLadderBlock.java",
-          "src/main/resources/assets/forest/models/block/waxed_exposed_copper_ladder.json",
-          "src/main/resources/assets/forest/blockstates/waxed_exposed_copper_ladder.json",
-          "src/main/resources/assets/forest/models/item/waxed_exposed_copper_ladder.json"
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "WaxedWeatheredCopperLadder",
-      "type": "block",
-      "sortid": 170,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_weathered_copper_ladder",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/waxed_weathered_copper_ladder.json",
-          "src/main/resources/assets/forest/models/block/waxed_weathered_copper_ladder.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/WaxedWeatheredCopperLadderBlock.java",
-          "src/main/resources/assets/forest/models/item/waxed_weathered_copper_ladder.json"
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "WaxedOxidizedCopperLadder",
-      "type": "block",
-      "sortid": 171,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "waxed_oxidized_copper_ladder",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/block/WaxedOxidizedCopperLadderBlock.java",
-          "src/main/resources/assets/forest/models/item/waxed_oxidized_copper_ladder.json",
-          "src/main/resources/assets/forest/blockstates/waxed_oxidized_copper_ladder.json",
-          "src/main/resources/assets/forest/models/block/waxed_oxidized_copper_ladder.json"
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
       "name": "FrozenSwamp",
       "type": "biome",
       "sortid": 682,
@@ -11827,20 +11546,6 @@
       "path": "~/Biomes"
     },
     {
-      "name": "CopperLadderCraft",
-      "type": "recipe",
-      "sortid": 687,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "copper_ladder_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/copper_ladder_craft.json"
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
       "name": "FermentationTag",
       "type": "tag",
       "sortid": 688,
@@ -11853,649 +11558,6 @@
         ]
       },
       "path": "~/Tags"
-    },
-    {
-      "name": "StripWax",
-      "type": "procedure",
-      "sortid": 689,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "strip_wax",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/StripWaxProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "StripOxid",
-      "type": "procedure",
-      "sortid": 690,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "strip_oxid",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/StripOxidProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "WaxCopperLadder",
-      "type": "procedure",
-      "sortid": 691,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "wax_copper_ladder",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/WaxCopperLadderProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "entity",
-            "type": "entity"
-          },
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/CopperLadder"
-    },
-    {
-      "name": "CharredWood",
-      "type": "block",
-      "sortid": 289,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_wood",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/charred_wood.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredWoodBlock.java",
-          "src/main/resources/assets/forest/models/block/charred_wood.json",
-          "src/main/resources/assets/forest/blockstates/charred_wood.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredLog",
-      "type": "block",
-      "sortid": 288,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_log",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/charred_log.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredLogBlock.java",
-          "src/main/resources/assets/forest/models/block/charred_log.json",
-          "src/main/resources/assets/forest/models/item/charred_log.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredPlanks",
-      "type": "block",
-      "sortid": 292,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_planks",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/charred_planks.json",
-          "src/main/resources/assets/forest/blockstates/charred_planks.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredPlanksBlock.java",
-          "src/main/resources/assets/forest/models/block/charred_planks.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredStairs",
-      "type": "block",
-      "sortid": 293,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_stairs",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredStairsBlock.java",
-          "src/main/resources/assets/forest/blockstates/charred_stairs.json",
-          "src/main/resources/assets/forest/models/block/charred_stairs_inner.json",
-          "src/main/resources/assets/forest/models/item/charred_stairs.json",
-          "src/main/resources/assets/forest/models/block/charred_stairs_outer.json",
-          "src/main/resources/assets/forest/models/block/charred_stairs.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredSlab",
-      "type": "block",
-      "sortid": 294,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_slab",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/charred_slab_full.json",
-          "src/main/resources/assets/forest/models/block/charred_slab.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredSlabBlock.java",
-          "src/main/resources/assets/forest/models/item/charred_slab.json",
-          "src/main/resources/assets/forest/blockstates/charred_slab.json",
-          "src/main/resources/assets/forest/models/block/charred_slab_top.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredFence",
-      "type": "block",
-      "sortid": 295,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_fence",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/charred_fence_inventory.json",
-          "src/main/resources/assets/forest/models/item/charred_fence.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredFenceBlock.java",
-          "src/main/resources/assets/forest/models/block/charred_fence.json",
-          "src/main/resources/assets/forest/blockstates/charred_fence.json",
-          "src/main/resources/assets/forest/models/block/charred_fence_post.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredFenceGate",
-      "type": "block",
-      "sortid": 296,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_fence_gate",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/charred_fence_gate.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredFenceGateBlock.java",
-          "src/main/resources/assets/forest/models/block/charred_fence_gate_open.json",
-          "src/main/resources/assets/forest/blockstates/charred_fence_gate.json",
-          "src/main/resources/assets/forest/models/block/charred_fence_gate_wall.json",
-          "src/main/resources/assets/forest/models/block/charred_fence_gate_wall_open.json",
-          "src/main/resources/assets/forest/models/block/charred_fence_gate.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredPressurePlate",
-      "type": "block",
-      "sortid": 304,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_pressure_plate",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/charred_pressure_plate.json",
-          "src/main/resources/assets/forest/models/block/charred_pressure_plate_down.json",
-          "src/main/resources/assets/forest/models/item/charred_pressure_plate.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredPressurePlateBlock.java",
-          "src/main/resources/assets/forest/models/block/charred_pressure_plate.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredButton",
-      "type": "block",
-      "sortid": 299,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_button",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/charred_button.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredButtonBlock.java",
-          "src/main/resources/assets/forest/models/block/charred_button.json",
-          "src/main/resources/assets/forest/models/block/charred_button_pressed.json",
-          "src/main/resources/assets/forest/models/block/charred_button_inventory.json",
-          "src/main/resources/assets/forest/blockstates/charred_button.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredItemsTag",
-      "type": "tag",
-      "sortid": 692,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_items_tag",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forge/tags/items/charred_log.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredWoodRecipe",
-      "type": "recipe",
-      "sortid": 693,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_wood_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_wood_recipe.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredPlanksRecipe",
-      "type": "recipe",
-      "sortid": 694,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_planks_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_planks_recipe.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredStairsRecipe",
-      "type": "recipe",
-      "sortid": 695,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_stairs_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_stairs_recipe.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredSlabRecipe",
-      "type": "recipe",
-      "sortid": 696,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_slab_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_slab_recipe.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredFenceRecipe",
-      "type": "recipe",
-      "sortid": 697,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_fence_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_fence_recipe.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredFenceGateRecipe",
-      "type": "recipe",
-      "sortid": 698,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_fence_gate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_fence_gate_recipe.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredPressurePlateRecipe",
-      "type": "recipe",
-      "sortid": 699,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_pressure_plate_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_pressure_plate_recipe.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredButtonRecipe",
-      "type": "recipe",
-      "sortid": 700,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_button_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_button_recipe.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredStickRecipe",
-      "type": "recipe",
-      "sortid": 701,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_stick_recipe",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_stick_recipe.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredParquet",
-      "type": "block",
-      "sortid": 23,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_parquet",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/charred_parquet.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredParquetBlock.java",
-          "src/main/resources/assets/forest/blockstates/charred_parquet.json",
-          "src/main/resources/assets/forest/models/item/charred_parquet.json"
-        ]
-      },
-      "path": "~/Parquet"
-    },
-    {
-      "name": "CharredParquetCraft",
-      "type": "recipe",
-      "sortid": 702,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_parquet_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_parquet_craft.json"
-        ]
-      },
-      "path": "~/Parquet"
-    },
-    {
-      "name": "StrippedCharredWood",
-      "type": "block",
-      "sortid": 290,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_charred_wood",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/block/StrippedCharredWoodBlock.java",
-          "src/main/resources/assets/forest/blockstates/stripped_charred_wood.json",
-          "src/main/resources/assets/forest/models/item/stripped_charred_wood.json",
-          "src/main/resources/assets/forest/models/block/stripped_charred_wood.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "StrippedCharredLog",
-      "type": "block",
-      "sortid": 291,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_charred_log",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/stripped_charred_log.json",
-          "src/main/resources/assets/forest/models/block/stripped_charred_log.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/StrippedCharredLogBlock.java",
-          "src/main/resources/assets/forest/models/item/stripped_charred_log.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredDoor",
-      "type": "block",
-      "sortid": 297,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_door",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/blockstates/charred_door.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredDoorBlock.java",
-          "src/main/resources/assets/forest/models/block/charred_door_top_right_open.json",
-          "src/main/resources/assets/forest/models/block/charred_door_bottom_left.json",
-          "src/main/resources/assets/forest/models/item/charred_door.json",
-          "src/main/resources/assets/forest/models/block/charred_door_bottom_right.json",
-          "src/main/resources/assets/forest/models/block/charred_door_bottom_right_open.json",
-          "src/main/resources/assets/forest/models/block/charred_door_top_left.json",
-          "src/main/resources/assets/forest/models/block/charred_door_top_right.json",
-          "src/main/resources/assets/forest/models/block/charred_door_bottom_left_open.json",
-          "src/main/resources/assets/forest/models/block/charred_door_top_left_open.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredTrapdoor",
-      "type": "block",
-      "sortid": 298,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_trapdoor",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/block/charred_trapdoor_top.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/CharredTrapdoorBlock.java",
-          "src/main/resources/assets/forest/models/item/charred_trapdoor.json",
-          "src/main/resources/assets/forest/blockstates/charred_trapdoor.json",
-          "src/main/resources/assets/forest/models/block/charred_trapdoor_open.json",
-          "src/main/resources/assets/forest/models/block/charred_trapdoor.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredDoorCraft",
-      "type": "recipe",
-      "sortid": 703,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_door_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_door_craft.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredTrapdoorCraft",
-      "type": "recipe",
-      "sortid": 704,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_trapdoor_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/charred_trapdoor_craft.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "StrippedCharredWoodCraft",
-      "type": "recipe",
-      "sortid": 706,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "stripped_charred_wood_craft",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/recipes/stripped_charred_wood_craft.json"
-        ]
-      },
-      "path": "~/WoodSets/CharredWoodSet"
-    },
-    {
-      "name": "CharredTreeFeatureDopolnitielnoieUsloviieGienieratsii",
-      "type": "procedure",
-      "sortid": 707,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_tree_feature_dopolnitielnoie_usloviie_gienieratsii",
-      "metadata": {
-        "return_type": "logic",
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/procedures/CharredTreeFeatureDopolnitielnoieUsloviieGienieratsiiProcedure.java"
-        ],
-        "dependencies": [
-          {
-            "name": "x",
-            "type": "number"
-          },
-          {
-            "name": "y",
-            "type": "number"
-          },
-          {
-            "name": "z",
-            "type": "number"
-          },
-          {
-            "name": "world",
-            "type": "world"
-          }
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
-      "name": "CharredTreeFeature",
-      "type": "feature",
-      "sortid": 708,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_tree_feature",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/worldgen/placed_feature/charred_tree_feature.json",
-          "src/main/resources/data/forest/forge/biome_modifier/charred_tree_feature_biome_modifier.json",
-          "src/main/resources/data/forest/worldgen/configured_feature/charred_tree_feature.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/CharredTreeFeatureFeature.java"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
-      "name": "CharredForest",
-      "type": "biome",
-      "sortid": 709,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "charred_forest",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/worldgen/biome/charred_forest.json"
-        ]
-      },
-      "path": "~/Biomes"
-    },
-    {
-      "name": "MixedForestTrees",
-      "type": "feature",
-      "sortid": 677,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "mixed_forest_trees",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/forge/biome_modifier/mixed_forest_trees_biome_modifier.json",
-          "src/main/resources/data/forest/worldgen/placed_feature/mixed_forest_trees.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/MixedForestTreesFeature.java"
-        ]
-      },
-      "path": "~/Biomes"
     },
     {
       "name": "OldOakTree",
@@ -12697,12 +11759,12 @@
       "item_group.forest.tools_and_armor": "Инструменты и броня",
       "entity.forest.vulture": "Стервятник",
       "block.forest.charred_parquet": "Charred Parquet",
-      "item.forest.gingerbread_form_man": "Форма для пряника",
       "item.forest.barbecue": "Шашлык",
+      "item.forest.gingerbread_form_man": "Форма для пряника",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
-      "entity.forest.scorpion": "Скорпион",
-      "block.forest.waxed_exposed_copper_ladder": "Вощёная потемневшая медная лестница",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
+      "block.forest.waxed_exposed_copper_ladder": "Вощёная потемневшая медная лестница",
+      "entity.forest.scorpion": "Скорпион",
       "entity.forest.big_wither_skeleton": "Большой визер скелет",
       "block.forest.charred_button": "Charred Button",
       "subtitles.calibri.ambient": "",
@@ -12711,18 +11773,18 @@
       "block.forest.eucalyptus_wood": "Эвкалипт",
       "subtitles.lizard.hurt": "",
       "block.forest.polished_rhyolite_wall": "Ограда из полированного риолита",
-      "block.forest.pumice_bricks": "Пемзовые кирпичи",
       "item_group.forest.interaction_blocks": "Блоки взаимодействия",
+      "block.forest.pumice_bricks": "Пемзовые кирпичи",
       "item.forest.quiver": "Колчан",
       "block.forest.white_slab": "Белая плита",
-      "block.forest.wildflower": "Дикий цветок",
       "block.forest.ash_cover": "Пепельный покров",
+      "block.forest.wildflower": "Дикий цветок",
       "item.forest.iron_sickle": "Железный серп",
       "item.forest.silver_armor_boots": "Серебряные ботинки",
       "item.forest.scorpion_spawn_egg": "Яйцо призыва скорпиона",
       "block.forest.lime_fence": "Лаймовый забор",
-      "item.forest.brown_bear_pelt": "Шкура бурого медведя",
       "block.forest.mulberry_button": "Кнопка из шелковицы",
+      "item.forest.brown_bear_pelt": "Шкура бурого медведя",
       "item.forest.silver_shovel": "Серебряная лопата",
       "block.forest.light_blue_fence": "Голубой забор",
       "block.forest.polished_pumice_stairs": "Ступени из полированной пемзы",
@@ -12731,25 +11793,25 @@
       "block.forest.white_stairs": "Белые ступени",
       "biome.forest.dry_thorn_forest": "Сухой терновый лес",
       "item.forest.gingerbread_pine": "Пряник",
-      "block.forest.red_fence": "Красный забор",
       "item.forest.blueberry": "Черника",
-      "item.forest.pink_butterfly_spawn_egg": "Яйцо призыва розовой бабочки",
-      "block.forest.mulberry_fence": "Забор из шелковицы",
+      "block.forest.red_fence": "Красный забор",
       "subtitles.lizard.ambient": "",
-      "desc.gingerbread_heart": "Сердце",
+      "block.forest.mulberry_fence": "Забор из шелковицы",
+      "item.forest.pink_butterfly_spawn_egg": "Яйцо призыва розовой бабочки",
       "advancements.out_of_the_fire_and_into_the_flames.title": "Из огня да в полымя",
+      "desc.gingerbread_heart": "Сердце",
       "item.forest.raspberry": "Малина",
       "entity.forest.snail": "Улитка",
       "item.forest.big_wither_skeleton_spawn_egg": "Big Wither Skeleton Spawn Egg",
       "subtitles.calibri.hurt": "",
       "item_group.forest.mobs": "Мобы",
-      "item.forest.gingerbread_man": "Пряник",
       "special_info.quiver.arrows_count": "Количество стрел: ",
+      "item.forest.gingerbread_man": "Пряник",
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
       "block.forest.grape_vine_0": "Виноградная лоза",
       "item.forest.baby_skeleton_spawn_egg": "Baby Skeleton Spawn Egg",
-      "item.forest.polar_bear_pelt": "Шкура белого медведя",
       "block.forest.mulberry_door": "Дверь из шелковицы",
+      "item.forest.polar_bear_pelt": "Шкура белого медведя",
       "item.forest.lettuce_seed": "Семена салата",
       "block.forest.blue_fence": "Синий забор",
       "block.forest.grape_vine_1": "Grape Vine",
@@ -12770,8 +11832,8 @@
       "item.forest.rye": "Рожь",
       "advancements.paint_the_fence.descr": "Покрасьте забор любым красителем",
       "block.forest.burning_blossom": "Пылающий цветок",
-      "block.forest.sandslate_bricks_slab": "Плита из песчаносланцевых кирпичей",
       "block.forest.light_gray_slab": "Светло-серая плита",
+      "block.forest.sandslate_bricks_slab": "Плита из песчаносланцевых кирпичей",
       "block.forest.light_gray_fence": "Светло-серый забор",
       "block.forest.rhyolite_bricks_wall": "Ограда из риолитовых кирпичей",
       "block.forest.truncated_pumice_slab": "Плита из усеченной пемзы",
@@ -12790,8 +11852,8 @@
       "entity.forest.rat": "Крыса",
       "block.forest.truncated_pumice": "Усеченная пемза",
       "entity.forest.fire_salamander": "Огненная саламандра",
-      "subtitles.rat.hurt": "",
       "item.forest.wine": "Вино",
+      "subtitles.rat.hurt": "",
       "block.forest.eucalyptus_fence": "Забор из эвкалиптовых досок",
       "block.forest.light_blue_slab": "Голубая плита",
       "block.forest.yellow_fence_gate": "Жёлтая калитка",
@@ -12809,15 +11871,15 @@
       "item.forest.gingerbread_dough": "Пряничное тесто",
       "block.forest.yellow_stairs": "Жёлтые ступени",
       "block.forest.charred_door": "Charred Door",
-      "block.forest.polished_rhyolite_stairs": "Ступени из полированного риолита",
       "block.forest.sapphire_ore": "Сапфировая руда",
+      "block.forest.polished_rhyolite_stairs": "Ступени из полированного риолита",
       "advancements.not_all_that_glitters_is_gold.title": "Не всё то золото, что блестит",
       "block.forest.mulberry_leaves_with_black": "Листья шелковицы",
       "block.forest.red_fence_gate": "Красная калитка",
       "item.forest.lettuce": "Салат",
-      "block.forest.lettuce_stage_0": " ",
-      "block.forest.moonshroom": "Луногриб",
       "item.forest.black_mulberry": "Чёрная шелковица",
+      "block.forest.moonshroom": "Луногриб",
+      "block.forest.lettuce_stage_0": " ",
       "block.forest.lettuce_stage_1": " ",
       "item.forest.sapphire": "Сапфир",
       "block.forest.orange_slab": "Оранжевая плита",
@@ -12847,8 +11909,8 @@
       "item.forest.green_butterfly_spawn_egg": "Яйцо призыва зеленой бабочки",
       "block.forest.lettuce_stage_2": " ",
       "block.forest.lettuce_stage_3": " ",
-      "block.forest.dense_web_with_spider": "Плотная паутина с пауком",
       "block.forest.orange_fence_gate": "Оранжевая калитка",
+      "block.forest.dense_web_with_spider": "Плотная паутина с пауком",
       "block.forest.brown_planks": "Коричневые доски",
       "block.forest.rhyolite": "Риолит",
       "block.forest.light_blue_fence_gate": "Голубая калитка",
@@ -13119,12 +12181,12 @@
       "item_group.forest.tools_and_armor": "Tools \u0026 Armor",
       "entity.forest.vulture": "Vulture",
       "block.forest.charred_parquet": "Charred Parquet",
-      "item.forest.gingerbread_form_man": "Gingerbread Form",
       "item.forest.barbecue": "Barbecue",
+      "item.forest.gingerbread_form_man": "Gingerbread Form",
       "block.forest.light_gray_stairs": "Light Gray Stairs",
-      "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
-      "block.forest.waxed_exposed_copper_ladder": "Waxed Exposed Copper Ladder",
       "entity.forest.scorpion": "Scorpion",
+      "block.forest.waxed_exposed_copper_ladder": "Waxed Exposed Copper Ladder",
+      "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
       "entity.forest.big_wither_skeleton": "Big Wither Skeleton",
       "block.forest.charred_button": "Charred Button",
       "subtitles.calibri.ambient": "",
@@ -13133,18 +12195,18 @@
       "block.forest.eucalyptus_wood": "Eucalyptus Wood",
       "subtitles.lizard.hurt": "",
       "block.forest.polished_rhyolite_wall": "Polished Rhyolite Wall",
-      "item_group.forest.interaction_blocks": "Interaction Blocks",
       "block.forest.pumice_bricks": "Pumice Bricks",
+      "item_group.forest.interaction_blocks": "Interaction Blocks",
       "block.forest.white_slab": "White Slab",
       "item.forest.quiver": "Quiver",
-      "block.forest.wildflower": "Wildflower",
       "block.forest.ash_cover": "Ash Сover",
+      "block.forest.wildflower": "Wildflower",
       "item.forest.iron_sickle": "Iron Sickle",
       "item.forest.silver_armor_boots": "Silver Boots",
       "item.forest.scorpion_spawn_egg": "Scorpion Spawn Egg",
       "block.forest.lime_fence": "Lime Fence",
-      "item.forest.brown_bear_pelt": "Brown Bear Pelt",
       "block.forest.mulberry_button": "Mulberry Button",
+      "item.forest.brown_bear_pelt": "Brown Bear Pelt",
       "item.forest.silver_shovel": "Silver Shovel",
       "block.forest.light_blue_fence": "Light Blue Fence",
       "block.forest.polished_pumice_stairs": "Polished Pumice Stairs",
@@ -13153,25 +12215,25 @@
       "block.forest.white_stairs": "White Stairs",
       "biome.forest.dry_thorn_forest": "Dry Thorn Forest",
       "item.forest.gingerbread_pine": "Gingerbread",
-      "block.forest.red_fence": "Red Fence",
       "item.forest.blueberry": "Blueberry",
-      "item.forest.pink_butterfly_spawn_egg": "Pink Butterfly Spawn Egg",
-      "block.forest.mulberry_fence": "Mulberry Fence",
+      "block.forest.red_fence": "Red Fence",
       "subtitles.lizard.ambient": "",
-      "desc.gingerbread_heart": "Heart",
+      "block.forest.mulberry_fence": "Mulberry Fence",
+      "item.forest.pink_butterfly_spawn_egg": "Pink Butterfly Spawn Egg",
       "advancements.out_of_the_fire_and_into_the_flames.title": "Out of the fire and into the flames",
+      "desc.gingerbread_heart": "Heart",
       "item.forest.raspberry": "Raspberry",
       "entity.forest.snail": "Snail",
       "item.forest.big_wither_skeleton_spawn_egg": "Big Wither Skeleton Spawn Egg",
       "subtitles.calibri.hurt": "",
       "item_group.forest.mobs": "Mobs",
-      "item.forest.gingerbread_man": "Gingerbread",
       "special_info.quiver.arrows_count": "Amount of arrows:",
+      "item.forest.gingerbread_man": "Gingerbread",
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
       "block.forest.grape_vine_0": "Grape Vine",
       "item.forest.baby_skeleton_spawn_egg": "Baby Skeleton Spawn Egg",
-      "item.forest.polar_bear_pelt": "Polar Bear Pelt",
       "block.forest.mulberry_door": "Mulberry Door",
+      "item.forest.polar_bear_pelt": "Polar Bear Pelt",
       "item.forest.lettuce_seed": "Lettuce Seed",
       "block.forest.blue_fence": "Blue Fence",
       "block.forest.grape_vine_1": "Grape Vine",
@@ -13192,8 +12254,8 @@
       "item.forest.rye": "Rye",
       "advancements.paint_the_fence.descr": "Paint the fence with any dye",
       "block.forest.burning_blossom": "Burning Blossom",
-      "block.forest.sandslate_bricks_slab": "Sandslate Bricks Slab",
       "block.forest.light_gray_slab": "Light Blue Slab",
+      "block.forest.sandslate_bricks_slab": "Sandslate Bricks Slab",
       "block.forest.light_gray_fence": "Light Gray Fence",
       "block.forest.rhyolite_bricks_wall": "Rhyolite Bricks Wall",
       "block.forest.truncated_pumice_slab": "Truncated Pumice Slab",
@@ -13212,8 +12274,8 @@
       "entity.forest.rat": "Rat",
       "block.forest.truncated_pumice": "Truncated Pumice",
       "entity.forest.fire_salamander": "Fire Salamander",
-      "subtitles.rat.hurt": "",
       "item.forest.wine": "Wine",
+      "subtitles.rat.hurt": "",
       "block.forest.eucalyptus_fence": "Eucalyptus Fence",
       "block.forest.light_blue_slab": "Light Blue Slab",
       "block.forest.yellow_fence_gate": "Yellow Fence Gate",
@@ -13231,15 +12293,15 @@
       "item.forest.gingerbread_dough": "Gingerbread Dough",
       "block.forest.yellow_stairs": "Yellow Stairs",
       "block.forest.charred_door": "Charred Door",
-      "block.forest.polished_rhyolite_stairs": "Polished Rhyolite Stairs",
       "block.forest.sapphire_ore": "Sapphire Ore",
+      "block.forest.polished_rhyolite_stairs": "Polished Rhyolite Stairs",
       "advancements.not_all_that_glitters_is_gold.title": "Not all that glitters is gold",
       "block.forest.mulberry_leaves_with_black": "Mulberry Leaves",
       "block.forest.red_fence_gate": "Red Fence Gate",
       "item.forest.lettuce": "Lettuce",
-      "block.forest.lettuce_stage_0": "Lettuce Stage 0",
-      "block.forest.moonshroom": "Moonshroom",
       "item.forest.black_mulberry": "BlackMulberry",
+      "block.forest.moonshroom": "Moonshroom",
+      "block.forest.lettuce_stage_0": "Lettuce Stage 0",
       "block.forest.lettuce_stage_1": "Lettuce Stage 1",
       "item.forest.sapphire": "Sapphire",
       "block.forest.orange_slab": "Orange Slab",
@@ -13269,8 +12331,8 @@
       "item.forest.green_butterfly_spawn_egg": "Green Butterfly Spawn Egg",
       "block.forest.lettuce_stage_2": "Lettuce Stage 2",
       "block.forest.lettuce_stage_3": "Lettuce Stage 3",
-      "block.forest.dense_web_with_spider": "Dense Web With Spider",
       "block.forest.orange_fence_gate": "Orange Fence Gate",
+      "block.forest.dense_web_with_spider": "Dense Web With Spider",
       "block.forest.brown_planks": "Brown Planks",
       "block.forest.rhyolite": "Rhyolite",
       "block.forest.light_blue_fence_gate": "Light Blue Fence Gate",
@@ -13748,10 +12810,6 @@
           },
           {
             "name": "Eucalyptus Wood Set",
-            "children": []
-          },
-          {
-            "name": "CharredWoodSet",
             "children": []
           }
         ]
