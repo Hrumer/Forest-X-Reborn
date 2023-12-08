@@ -3,7 +3,9 @@
   "_type": "feature",
   "definition": {
     "generationStep": "VEGETAL_DECORATION",
-    "restrictionDimensions": [],
+    "restrictionDimensions": [
+      "Surface"
+    ],
     "restrictionBiomes": [
       {
         "value": "CUSTOM:MixedForest"
