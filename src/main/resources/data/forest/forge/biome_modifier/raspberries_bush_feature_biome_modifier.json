@@ -3,7 +3,6 @@
   "biomes": [
     "old_growth_birch_forest",
     "forest",
-    "forest:mixed_forest",
     "forest:old_growth_oak_forest"
   ],
   "features": "forest:raspberries_bush_feature",
