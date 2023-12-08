@@ -67,10 +67,6 @@ public class ForestModBiomes {
 							Climate.Parameter.span(0.2666f, 0.4f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "eucalyptus_forest")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(0.2f, 0.55f), Climate.Parameter.span(0.1f, 0.3f), Climate.Parameter.span(-0.11f, 1f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.point(1.0f),
 							Climate.Parameter.span(0.2666f, 0.4f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "eucalyptus_forest")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.45f, -0.15f), Climate.Parameter.span(-0.1f, 0.3f), Climate.Parameter.span(-0.11f, 1f), Climate.Parameter.span(-1f, 0.55f),
-							Climate.Parameter.point(0.0f), Climate.Parameter.span(0.2666f, 0.4f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")))));
-					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-0.45f, -0.15f), Climate.Parameter.span(-0.1f, 0.3f), Climate.Parameter.span(-0.11f, 1f), Climate.Parameter.span(-1f, 0.55f),
-							Climate.Parameter.point(1.0f), Climate.Parameter.span(0.2666f, 0.4f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, -0.45f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-0.11f, 1f), Climate.Parameter.span(0.5499f, 1f), Climate.Parameter.point(0.0f),
 							Climate.Parameter.span(-0.05f, 0.2666f), 0), biomeRegistry.getHolderOrThrow(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "frozen_swamp")))));
 					parameters.add(new Pair<>(new Climate.ParameterPoint(Climate.Parameter.span(-1f, -0.45f), Climate.Parameter.span(-1f, 1f), Climate.Parameter.span(-0.11f, 1f), Climate.Parameter.span(0.5499f, 1f), Climate.Parameter.point(1.0f),
@@ -113,8 +109,6 @@ public class ForestModBiomes {
 								Blocks.DIRT.defaultBlockState()));
 						surfaceRules.add(1, preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "eucalyptus_forest")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(),
 								Blocks.DIRT.defaultBlockState()));
-						surfaceRules.add(1,
-								preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "mixed_forest")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.DIRT.defaultBlockState()));
 						surfaceRules.add(1,
 								preliminarySurfaceRule(ResourceKey.create(Registries.BIOME, new ResourceLocation("forest", "frozen_swamp")), Blocks.GRASS_BLOCK.defaultBlockState(), Blocks.DIRT.defaultBlockState(), Blocks.CLAY.defaultBlockState()));
 						surfaceRules.add(1,

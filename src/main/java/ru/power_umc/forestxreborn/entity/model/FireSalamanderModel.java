@@ -29,7 +29,7 @@ public class FireSalamanderModel extends GeoModel<FireSalamanderEntity> {
 
 	@Override
 	public void setCustomAnimations(FireSalamanderEntity animatable, long instanceId, AnimationState animationState) {
-		CoreGeoBone head = getAnimationProcessor().getBone("head");
+		CoreGeoBone head = getAnimationProcessor().getBone("animation.common.look_at_target");
 		if (head != null) {
 			int unpausedMultiplier = !Minecraft.getInstance().isPaused() ? 1 : 0;
 			EntityModelData entityData = (EntityModelData) animationState.getData(DataTickets.ENTITY_MODEL_DATA);
