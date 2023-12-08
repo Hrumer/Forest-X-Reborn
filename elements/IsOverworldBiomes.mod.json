@@ -18,16 +18,16 @@
         "value": "CUSTOM:MushroomsCaves"
       },
       {
-        "value": "CUSTOM:OldGrowthForest"
-      },
-      {
         "value": "CUSTOM:Peatbog"
       },
       {
         "value": "CUSTOM:Semidesert"
       },
       {
-        "value": "CUSTOM:Volcano"
+        "value": "CUSTOM:OldGrowthOakForest"
+      },
+      {
+        "value": "CUSTOM:VolcanicPeaks"
       }
     ],
     "name": "is_overworld",

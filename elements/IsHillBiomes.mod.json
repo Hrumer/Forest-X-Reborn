@@ -9,7 +9,7 @@
     "entities": [],
     "biomes": [
       {
-        "value": "CUSTOM:Volcano"
+        "value": "CUSTOM:VolcanicPeaks"
       }
     ],
     "name": "is_hill",

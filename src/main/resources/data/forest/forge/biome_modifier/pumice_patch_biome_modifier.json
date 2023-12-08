@@ -1,6 +1,9 @@
 {
   "type": "forge:add_features",
-  "biomes": "forest:volcano",
+  "biomes": [
+    "forest:volcanic_peaks",
+    "forest:volcano"
+  ],
   "features": "forest:pumice_patch",
   "step": "surface_structures"
 }
