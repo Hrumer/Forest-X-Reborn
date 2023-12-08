@@ -12541,6 +12541,34 @@
         ]
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "SilverIngotFromNugget",
+      "type": "recipe",
+      "sortid": 710,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_ingot_from_nugget",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/silver_ingot_from_nugget.json"
+        ]
+      },
+      "path": "~/Silver"
+    },
+    {
+      "name": "SilverNuggetsFromIngot",
+      "type": "recipe",
+      "sortid": 711,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "silver_nuggets_from_ingot",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/recipes/silver_nuggets_from_ingot.json"
+        ]
+      },
+      "path": "~/Silver"
     }
   ],
   "variable_elements": [
