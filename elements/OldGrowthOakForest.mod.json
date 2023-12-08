@@ -2,7 +2,7 @@
   "_fv": 47,
   "_type": "biome",
   "definition": {
-    "name": "Dry Thorn Forest",
+    "name": "Old Growth Oak Forest",
     "groundBlock": {
       "value": "Blocks.GRASS"
     },
@@ -13,11 +13,11 @@
       "value": "Blocks.DIRT#0"
     },
     "grassColor": {
-      "value": -4212907,
+      "value": -8798118,
       "falpha": 0.0
     },
     "foliageColor": {
-      "value": -5331926,
+      "value": -10899920,
       "falpha": 0.0
     },
     "ambientSound": {
@@ -38,18 +38,18 @@
       "value": "EXPLOSION_NORMAL"
     },
     "particlesProbability": 0.5,
-    "rainingPossibility": 0.30000000000000004,
-    "temperature": 1.4,
+    "rainingPossibility": 0.5,
+    "temperature": 1.0,
     "spawnBiome": true,
     "spawnInCaves": false,
     "spawnBiomeNether": false,
     "genTemperature": {
-      "min": 0.2,
-      "max": 0.55
+      "min": -0.15,
+      "max": 0.2
     },
     "genHumidity": {
-      "min": -0.35,
-      "max": -0.01
+      "min": -0.1,
+      "max": 0.3
     },
     "genContinentalness": {
       "min": 0.03,
@@ -57,16 +57,16 @@
     },
     "genErosion": {
       "min": -0.375,
-      "max": 0.05
+      "max": 0.55
     },
     "genWeirdness": {
       "min": 0.05,
       "max": 0.2666
     },
-    "treesPerChunk": 1,
+    "treesPerChunk": 0,
     "vanillaTreeType": "Default",
-    "treeType": 1,
-    "minHeight": 1,
+    "treeType": 0,
+    "minHeight": 6,
     "treeStem": {
       "value": "Blocks.LOG#0"
     },
@@ -84,7 +84,10 @@
       "Ores",
       "FrozenTopLayer",
       "ForestGrass",
-      "DefaultFlowers"
+      "DefaultFlowers",
+      "ForestFlowers",
+      "TaigaGrassAndMushrooms",
+      "TaigaLargeFerns"
     ],
     "spawnStronghold": false,
     "spawnMineshaft": false,
@@ -132,6 +135,15 @@
         "minGroup": 3,
         "maxGroup": 4,
         "weight": 11,
+        "spawnType": "creature"
+      },
+      {
+        "entity": {
+          "value": "EntityWolf"
+        },
+        "minGroup": 2,
+        "maxGroup": 4,
+        "weight": 20,
         "spawnType": "creature"
       }
     ]

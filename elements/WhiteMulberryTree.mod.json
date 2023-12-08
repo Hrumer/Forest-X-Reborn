@@ -23,6 +23,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:OldGrowthForest"
+      },
+      {
+        "value": "CUSTOM:OldGrowthOakForest"
       }
     ],
     "ignoreBlocks": "AIR"
