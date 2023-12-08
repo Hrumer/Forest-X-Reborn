@@ -164,7 +164,9 @@
       "EucalyptusTrapdoorCraft",
       "MulberryTrapdoorCraft",
       "BreadFromRye",
-      "CopperLadderCraft"
+      "CopperLadderCraft",
+      "SilverIngotFromNugget",
+      "SilverNuggetsFromIngot"
     ],
     "rewardFunction": "No function",
     "rewardXP": 0,
