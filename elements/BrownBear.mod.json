@@ -171,6 +171,9 @@
       },
       {
         "value": "taiga"
+      },
+      {
+        "value": "CUSTOM:OldGrowthOakForest"
       }
     ],
     "spawnInDungeons": false

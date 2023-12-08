@@ -3,6 +3,7 @@
   "biomes": [
     "forest",
     "flower_forest",
+    "forest:old_growth_oak_forest",
     "forest:old_growth_forest"
   ],
   "spawners": {

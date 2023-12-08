@@ -150,6 +150,9 @@
     "restrictionBiomes": [
       {
         "value": "CUSTOM:Volcano"
+      },
+      {
+        "value": "CUSTOM:VolcanicPeaks"
       }
     ],
     "spawnInDungeons": false
