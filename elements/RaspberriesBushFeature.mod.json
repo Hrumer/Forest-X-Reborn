@@ -12,6 +12,9 @@
       },
       {
         "value": "mutated_birch_forest"
+      },
+      {
+        "value": "CUSTOM:OldGrowthOakForest"
       }
     ],
     "generateCondition": {
