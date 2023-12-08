@@ -186,7 +186,9 @@
       "forest:charred_parquet_craft",
       "forest:charred_door_craft",
       "forest:charred_trapdoor_craft",
-      "forest:stripped_charred_wood_craft"
+      "forest:stripped_charred_wood_craft",
+      "forest:silver_ingot_from_nugget",
+      "forest:silver_nuggets_from_ingot"
     ]
   }
 }

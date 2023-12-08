@@ -177,7 +177,9 @@
       "CharredParquetCraft",
       "CharredDoorCraft",
       "CharredTrapdoorCraft",
-      "StrippedCharredWoodCraft"
+      "StrippedCharredWoodCraft",
+      "SilverIngotFromNugget",
+      "SilverNuggetsFromIngot"
     ],
     "rewardFunction": "No function",
     "rewardXP": 0,
