@@ -29,6 +29,7 @@ import ru.power_umc.forestxreborn.block.TruncatedPumiceBlock;
 import ru.power_umc.forestxreborn.block.TruncatedCarvedPumiceBlock;
 import ru.power_umc.forestxreborn.block.TropicalParquetBlock;
 import ru.power_umc.forestxreborn.block.SunshroomBlock;
+import ru.power_umc.forestxreborn.block.SulphurousBasaltBlock;
 import ru.power_umc.forestxreborn.block.StrippedMulberryWoodBlock;
 import ru.power_umc.forestxreborn.block.StrippedMulberryLogBlock;
 import ru.power_umc.forestxreborn.block.StrippedEucalyptusWoodBlock;
@@ -446,6 +447,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> DEEPSLATE_SILVER_ORE = REGISTRY.register("deepslate_silver_ore", () -> new DeepslateSilverOreBlock());
 	public static final RegistryObject<Block> RAW_SILVER_BLOCK = REGISTRY.register("raw_silver_block", () -> new RawSilverBlockBlock());
 	public static final RegistryObject<Block> SILVER_BLOCK = REGISTRY.register("silver_block", () -> new SilverBlockBlock());
+	public static final RegistryObject<Block> SULPHUROUS_BASALT = REGISTRY.register("sulphurous_basalt", () -> new SulphurousBasaltBlock());
 	public static final RegistryObject<Block> FERMENTATION_BARREL = REGISTRY.register("fermentation_barrel", () -> new FermentationBarrelBlock());
 	public static final RegistryObject<Block> MULBERRY_SAPLING = REGISTRY.register("mulberry_sapling", () -> new MulberrySaplingBlock());
 	public static final RegistryObject<Block> MULBERRY_LEAVES_WITHOUT_WHITE = REGISTRY.register("mulberry_leaves_without_white", () -> new MulberryLeavesWithoutWhiteBlock());

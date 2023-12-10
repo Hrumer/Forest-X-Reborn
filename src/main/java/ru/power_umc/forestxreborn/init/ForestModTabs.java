@@ -256,6 +256,8 @@ public class ForestModTabs {
 				tabData.accept(ForestModItems.RAW_SILVER.get());
 				tabData.accept(ForestModItems.SILVER_INGOT.get());
 				tabData.accept(ForestModItems.SILVER_NUGGET.get());
+				tabData.accept(ForestModBlocks.SULPHUROUS_BASALT.get().asItem());
+				tabData.accept(ForestModItems.SULFUR.get());
 			})
 
 					.build());

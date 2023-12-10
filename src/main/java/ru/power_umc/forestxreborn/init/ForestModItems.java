@@ -6,6 +6,7 @@ package ru.power_umc.forestxreborn.init;
 
 import ru.power_umc.forestxreborn.item.WineItem;
 import ru.power_umc.forestxreborn.item.WhiteMulberryItem;
+import ru.power_umc.forestxreborn.item.SulfurItem;
 import ru.power_umc.forestxreborn.item.SilverSwordItem;
 import ru.power_umc.forestxreborn.item.SilverSickleItem;
 import ru.power_umc.forestxreborn.item.SilverShovelItem;
@@ -309,6 +310,8 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RAW_SILVER = REGISTRY.register("raw_silver", () -> new RawSilverItem());
 	public static final RegistryObject<Item> SILVER_INGOT = REGISTRY.register("silver_ingot", () -> new SilverIngotItem());
 	public static final RegistryObject<Item> SILVER_NUGGET = REGISTRY.register("silver_nugget", () -> new SilverNuggetItem());
+	public static final RegistryObject<Item> SULPHUROUS_BASALT = block(ForestModBlocks.SULPHUROUS_BASALT);
+	public static final RegistryObject<Item> SULFUR = REGISTRY.register("sulfur", () -> new SulfurItem());
 	public static final RegistryObject<Item> SILVER_AXE = REGISTRY.register("silver_axe", () -> new SilverAxeItem());
 	public static final RegistryObject<Item> SILVER_PICKAXE = REGISTRY.register("silver_pickaxe", () -> new SilverPickaxeItem());
 	public static final RegistryObject<Item> SILVER_SHOVEL = REGISTRY.register("silver_shovel", () -> new SilverShovelItem());
