@@ -137,6 +137,9 @@
       },
       {
         "value": "forest"
+      },
+      {
+        "value": "CUSTOM:OldGrowthOakForest"
       }
     ],
     "spawnInDungeons": false

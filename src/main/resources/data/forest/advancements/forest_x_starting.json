@@ -172,7 +172,9 @@
       "forest:eucalyptus_door_craft",
       "forest:eucalyptus_trapdoor_craft",
       "forest:mulberry_trapdoor_craft",
-      "forest:bread_from_rye"
+      "forest:bread_from_rye",
+      "forest:silver_ingot_from_nugget",
+      "forest:silver_nuggets_from_ingot"
     ]
   }
 }
