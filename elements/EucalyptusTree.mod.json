@@ -3,7 +3,7 @@
   "_type": "structure",
   "definition": {
     "structure": "eucalyptus_tree",
-    "randomlyRotateStructure": true,
+    "randomlyRotateStructure": false,
     "surfaceDetectionType": "First block",
     "spawnProbability": 250000,
     "minCountPerChunk": 1,

@@ -25,6 +25,7 @@ import ru.power_umc.forestxreborn.world.features.RedMushroomsFeatureFeature;
 import ru.power_umc.forestxreborn.world.features.RaspberriesBushFeatureFeature;
 import ru.power_umc.forestxreborn.world.features.PumicePatchFeature;
 import ru.power_umc.forestxreborn.world.features.PeatbogLakesFeature;
+import ru.power_umc.forestxreborn.world.features.OldOakTreeFeature;
 import ru.power_umc.forestxreborn.world.features.ObsidianPatchFeature;
 import ru.power_umc.forestxreborn.world.features.MoonshroomsFeatureFeature;
 import ru.power_umc.forestxreborn.world.features.MixedForestTreesFeature;
@@ -82,6 +83,7 @@ public class ForestModFeatures {
 	public static final RegistryObject<Feature<?>> BLACK_MULBERRY_TREE = REGISTRY.register("black_mulberry_tree", BlackMulberryTreeFeature::new);
 	public static final RegistryObject<Feature<?>> RASPBERRIES_BUSH_FEATURE = REGISTRY.register("raspberries_bush_feature", RaspberriesBushFeatureFeature::new);
 	public static final RegistryObject<Feature<?>> EUCALYPTUS_TREE = REGISTRY.register("eucalyptus_tree", EucalyptusTreeFeature::new);
-	public static final RegistryObject<Feature<?>> ICE_LAKES = REGISTRY.register("ice_lakes", IceLakesFeature::new);
 	public static final RegistryObject<Feature<?>> MIXED_FOREST_TREES = REGISTRY.register("mixed_forest_trees", MixedForestTreesFeature::new);
+	public static final RegistryObject<Feature<?>> OLD_OAK_TREE = REGISTRY.register("old_oak_tree", OldOakTreeFeature::new);
+	public static final RegistryObject<Feature<?>> ICE_LAKES = REGISTRY.register("ice_lakes", IceLakesFeature::new);
 }

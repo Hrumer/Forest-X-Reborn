@@ -61,15 +61,15 @@
     },
     "genContinentalness": {
       "min": -0.11,
-      "max": 0.03
+      "max": 1.0
     },
     "genErosion": {
       "min": -1.0,
-      "max": 0.375
+      "max": 1.0
     },
     "genWeirdness": {
-      "min": -1.0,
-      "max": 1.0
+      "min": 0.2666,
+      "max": 0.4
     },
     "treesPerChunk": 1,
     "vanillaTreeType": "Savanna trees",
