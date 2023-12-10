@@ -12051,6 +12051,57 @@
         ]
       },
       "path": "~/Silver"
+    },
+    {
+      "name": "BlackMarble",
+      "type": "block",
+      "sortid": 23,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_marble",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/block/BlackMarbleBlock.java",
+          "src/main/resources/assets/forest/models/item/black_marble.json",
+          "src/main/resources/assets/forest/models/block/black_marble.json",
+          "src/main/resources/assets/forest/blockstates/black_marble.json"
+        ]
+      },
+      "path": "~/Marble"
+    },
+    {
+      "name": "PinkishMarble",
+      "type": "block",
+      "sortid": 24,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "pinkish_marble",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/block/PinkishMarbleBlock.java",
+          "src/main/resources/assets/forest/models/block/pinkish_marble.json",
+          "src/main/resources/assets/forest/models/item/pinkish_marble.json",
+          "src/main/resources/assets/forest/blockstates/pinkish_marble.json"
+        ]
+      },
+      "path": "~/Marble"
+    },
+    {
+      "name": "GoldPlatedMarble",
+      "type": "block",
+      "sortid": 25,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "gold_plated_marble",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/block/GoldPlatedMarbleBlock.java",
+          "src/main/resources/assets/forest/models/block/gold_plated_marble.json",
+          "src/main/resources/assets/forest/blockstates/gold_plated_marble.json",
+          "src/main/resources/assets/forest/models/item/gold_plated_marble.json"
+        ]
+      },
+      "path": "~/Marble"
     }
   ],
   "variable_elements": [
