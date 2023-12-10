@@ -16,6 +16,7 @@ import ru.power_umc.forestxreborn.item.SilverHoeItem;
 import ru.power_umc.forestxreborn.item.SilverAxeItem;
 import ru.power_umc.forestxreborn.item.SilverArmorItem;
 import ru.power_umc.forestxreborn.item.SapphireItem;
+import ru.power_umc.forestxreborn.item.SaltItem;
 import ru.power_umc.forestxreborn.item.RyeSeedsItem;
 import ru.power_umc.forestxreborn.item.RyeItem;
 import ru.power_umc.forestxreborn.item.RawSilverItem;
@@ -383,6 +384,8 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RYE_STAGE_5 = block(ForestModBlocks.RYE_STAGE_5);
 	public static final RegistryObject<Item> RYE_STAGE_6 = block(ForestModBlocks.RYE_STAGE_6);
 	public static final RegistryObject<Item> RYE_STAGE_7 = block(ForestModBlocks.RYE_STAGE_7);
+	public static final RegistryObject<Item> ROCK_SALT = block(ForestModBlocks.ROCK_SALT);
+	public static final RegistryObject<Item> SALT = REGISTRY.register("salt", () -> new SaltItem());
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

@@ -1,0 +1,13 @@
+{
+  "parent": "block/cube",
+  "textures": {
+    "down": "forest:block/rock_salt",
+    "up": "forest:block/rock_salt",
+    "north": "forest:block/rock_salt",
+    "east": "forest:block/rock_salt",
+    "south": "forest:block/rock_salt",
+    "west": "forest:block/rock_salt",
+    "particle": "forest:block/rock_salt"
+  },
+  "render_type": "solid"
+}

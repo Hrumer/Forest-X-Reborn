@@ -53,6 +53,7 @@ import ru.power_umc.forestxreborn.block.RyeStage3Block;
 import ru.power_umc.forestxreborn.block.RyeStage2Block;
 import ru.power_umc.forestxreborn.block.RyeStage1Block;
 import ru.power_umc.forestxreborn.block.RyeStage0Block;
+import ru.power_umc.forestxreborn.block.RockSaltBlock;
 import ru.power_umc.forestxreborn.block.RhyoliteWallBlock;
 import ru.power_umc.forestxreborn.block.RhyoliteStairsBlock;
 import ru.power_umc.forestxreborn.block.RhyoliteSlabBlock;
@@ -504,6 +505,7 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RYE_STAGE_5 = REGISTRY.register("rye_stage_5", () -> new RyeStage5Block());
 	public static final RegistryObject<Block> RYE_STAGE_6 = REGISTRY.register("rye_stage_6", () -> new RyeStage6Block());
 	public static final RegistryObject<Block> RYE_STAGE_7 = REGISTRY.register("rye_stage_7", () -> new RyeStage7Block());
+	public static final RegistryObject<Block> ROCK_SALT = REGISTRY.register("rock_salt", () -> new RockSaltBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {
