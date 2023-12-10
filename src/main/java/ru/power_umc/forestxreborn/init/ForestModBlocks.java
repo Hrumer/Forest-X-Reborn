@@ -287,10 +287,10 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> MULBERRY_PARQUET = REGISTRY.register("mulberry_parquet", () -> new MulberryParquetBlock());
 	public static final RegistryObject<Block> EUCALYPTUS_PARQUET = REGISTRY.register("eucalyptus_parquet", () -> new EucalyptusParquetBlock());
 	public static final RegistryObject<Block> BLACK_MARBLE = REGISTRY.register("black_marble", () -> new BlackMarbleBlock());
-	public static final RegistryObject<Block> PINKISH_MARBLE = REGISTRY.register("pinkish_marble", () -> new PinkishMarbleBlock());
-	public static final RegistryObject<Block> GOLD_PLATED_MARBLE = REGISTRY.register("gold_plated_marble", () -> new GoldPlatedMarbleBlock());
 	public static final RegistryObject<Block> MARBLE = REGISTRY.register("marble", () -> new MarbleBlock());
+	public static final RegistryObject<Block> PINKISH_MARBLE = REGISTRY.register("pinkish_marble", () -> new PinkishMarbleBlock());
 	public static final RegistryObject<Block> MARBLE_BRICKS = REGISTRY.register("marble_bricks", () -> new MarbleBricksBlock());
+	public static final RegistryObject<Block> GOLD_PLATED_MARBLE = REGISTRY.register("gold_plated_marble", () -> new GoldPlatedMarbleBlock());
 	public static final RegistryObject<Block> POLISHED_MARBLE = REGISTRY.register("polished_marble", () -> new PolishedMarbleBlock());
 	public static final RegistryObject<Block> POLISHED_MARBLE_SLAB = REGISTRY.register("polished_marble_slab", () -> new PolishedMarbleSlabBlock());
 	public static final RegistryObject<Block> MARBLE_BRICKS_SLAB = REGISTRY.register("marble_bricks_slab", () -> new MarbleBricksSlabBlock());

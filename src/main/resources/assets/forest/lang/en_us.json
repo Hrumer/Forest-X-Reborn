@@ -101,6 +101,7 @@
   "block.forest.marble_bricks_slab": "Marble Bricks Slab",
   "subtitles.crocodile.agressive": "",
   "block.forest.red_crushed_sandstone_slab": "Red crushed sandstone slab",
+  "block.forest.gold_plated_marble": "Gold-plated Marble",
   "item.forest.glazed_gingerbread_men": "Glazed Gingerbread",
   "block.forest.eucalyptus_leaves": "Eucalyptus Leaves",
   "block.forest.blue_planks": "Blue Planks",
@@ -331,6 +332,7 @@
   "block.forest.black_planks": "Black Planks",
   "block.forest.eucalyptus_fence_gate": "Eucalyptus Fence Gate",
   "entity.forest.green_butterfly": "Green Butterfly",
+  "block.forest.pinkish_marble": "Pinkish Marble",
   "block.forest.stripped_charred_log": "Stripped Charred Log",
   "subtitles.crocodile.dead": "",
   "block.forest.lime_fence_gate": "Lime Fence Gate",
@@ -418,5 +420,6 @@
   "block.forest.mulberry_planks": "Mulberry Planks",
   "entity.forest.purple_butterfly": "Purple Butterfly",
   "item.forest.grape": "Grape",
-  "advancements.wine_business.descr": "Use a fermentation barrel and grapes to make wine"
+  "advancements.wine_business.descr": "Use a fermentation barrel and grapes to make wine",
+  "block.forest.black_marble": "Black Marble"
 }
