@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "plant",
   "definition": {
     "renderType": 12,
@@ -29,7 +29,9 @@
       }
     ],
     "name": "Cattail",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:Plants"
     },
@@ -79,9 +81,7 @@
     "canBePlacedOn": [],
     "isBonemealable": false,
     "frequencyOnChunks": 10,
-    "spawnWorldTypes": [
-      "Surface"
-    ],
+    "generateFeature": true,
     "restrictionBiomes": [
       {
         "value": "swamp"

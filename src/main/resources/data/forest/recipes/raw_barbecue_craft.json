@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "b",
+    "a"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:stick"
     },
-    "1": {
+    "b": {
       "item": "minecraft:chicken"
-    },
-    "2": {
-      "item": "minecraft:stick"
     }
   },
   "result": {

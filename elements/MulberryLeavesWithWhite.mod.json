@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "mulberry_leaves_with_white",
@@ -35,7 +35,9 @@
       }
     ],
     "name": "Mulberry Leaves",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 0.2,
     "resistance": 0.2,
     "hasGravity": false,
@@ -121,7 +123,7 @@
     "onRightClicked": {
       "name": "MulberryLeavesWithWhitePriShchielchkiePKMPoBloku"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

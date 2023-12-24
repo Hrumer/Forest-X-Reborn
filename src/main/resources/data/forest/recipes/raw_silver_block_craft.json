@@ -2,36 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "forest:raw_silver"
-    },
-    "1": {
-      "item": "forest:raw_silver"
-    },
-    "2": {
-      "item": "forest:raw_silver"
-    },
-    "3": {
-      "item": "forest:raw_silver"
-    },
-    "4": {
-      "item": "forest:raw_silver"
-    },
-    "5": {
-      "item": "forest:raw_silver"
-    },
-    "6": {
-      "item": "forest:raw_silver"
-    },
-    "7": {
-      "item": "forest:raw_silver"
-    },
-    "8": {
+    "a": {
       "item": "forest:raw_silver"
     }
   },

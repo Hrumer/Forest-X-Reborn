@@ -1,5 +1,5 @@
 {
-  "type": "forest:blue_rose",
+  "type": "minecraft:random_patch",
   "config": {
     "tries": 64,
     "feature": {

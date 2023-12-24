@@ -19,6 +19,7 @@ import net.minecraftforge.network.NetworkHooks;
 import net.minecraftforge.common.DungeonHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
+import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.monster.Monster;
@@ -46,6 +47,7 @@ import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
+import net.minecraft.core.BlockPos;
 
 public class ScorpionEntity extends Monster implements GeoEntity {
 	public static final EntityDataAccessor<Boolean> SHOOT = SynchedEntityData.defineId(ScorpionEntity.class, EntityDataSerializers.BOOLEAN);
@@ -131,17 +133,22 @@ public class ScorpionEntity extends Monster implements GeoEntity {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:scorpion.ambient"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("CUSTOM:scorpion.ambient"));
+	}
+
+	@Override
+	public void playStepSound(BlockPos pos, BlockState blockIn) {
+		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:scorpion.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("CUSTOM:scorpion.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:scorpion.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("CUSTOM:scorpion.hurt"));
 	}
 
 	@Override

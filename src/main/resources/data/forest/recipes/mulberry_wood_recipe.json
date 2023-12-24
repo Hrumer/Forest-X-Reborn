@@ -3,20 +3,11 @@
   "group": "bark",
   "category": "building",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "aa"
   ],
   "key": {
-    "0": {
-      "item": "forest:mulberry_log"
-    },
-    "1": {
-      "item": "forest:mulberry_log"
-    },
-    "2": {
-      "item": "forest:mulberry_log"
-    },
-    "3": {
+    "a": {
       "item": "forest:mulberry_log"
     }
   },

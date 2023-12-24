@@ -2,20 +2,11 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "01",
-    "23"
+    "aa",
+    "aa"
   ],
   "key": {
-    "0": {
-      "item": "forest:peat_piece"
-    },
-    "1": {
-      "item": "forest:peat_piece"
-    },
-    "2": {
-      "item": "forest:peat_piece"
-    },
-    "3": {
+    "a": {
       "item": "forest:peat_piece"
     }
   },
