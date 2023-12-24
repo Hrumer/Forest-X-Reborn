@@ -13,6 +13,7 @@
  */
 package ru.power_umc.forestxreborn;
 
+import ru.power_umc.forestxreborn.world.features.StructureFeature;
 import ru.power_umc.forestxreborn.init.ForestModTabs;
 import ru.power_umc.forestxreborn.init.ForestModSounds;
 import ru.power_umc.forestxreborn.init.ForestModPaintings;
@@ -64,6 +65,7 @@ public class ForestMod {
 
 		ForestModTabs.REGISTRY.register(bus);
 		ForestModFeatures.REGISTRY.register(bus);
+		StructureFeature.REGISTRY.register(bus);
 
 		ForestModPaintings.REGISTRY.register(bus);
 

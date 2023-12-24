@@ -3,27 +3,12 @@
   "group": "wooden_stairs",
   "category": "building",
   "pattern": [
-    "0  ",
-    "34 ",
-    "678"
+    "a  ",
+    "aa ",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "forest:eucalyptus_planks"
-    },
-    "3": {
-      "item": "forest:eucalyptus_planks"
-    },
-    "4": {
-      "item": "forest:eucalyptus_planks"
-    },
-    "6": {
-      "item": "forest:eucalyptus_planks"
-    },
-    "7": {
-      "item": "forest:eucalyptus_planks"
-    },
-    "8": {
+    "a": {
       "item": "forest:eucalyptus_planks"
     }
   },

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "eucalyptus_sapling",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Eucalyptus Sapling",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 1.0,
     "resistance": 0.0,
     "hasGravity": false,
@@ -129,7 +131,7 @@
     "onTickUpdate": {
       "name": "EucalyptusSaplingKogda"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [],
     "generationShape": "UNIFORM",
