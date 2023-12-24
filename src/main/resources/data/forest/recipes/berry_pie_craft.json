@@ -2,37 +2,19 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "bcb",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "minecraft:sweet_berries"
     },
-    "1": {
-      "item": "minecraft:sweet_berries"
-    },
-    "2": {
-      "item": "minecraft:sweet_berries"
-    },
-    "3": {
+    "b": {
       "item": "minecraft:sugar"
     },
-    "4": {
+    "c": {
       "item": "minecraft:egg"
-    },
-    "5": {
-      "item": "minecraft:sugar"
-    },
-    "6": {
-      "item": "minecraft:sweet_berries"
-    },
-    "7": {
-      "item": "minecraft:sweet_berries"
-    },
-    "8": {
-      "item": "minecraft:sweet_berries"
     }
   },
   "result": {

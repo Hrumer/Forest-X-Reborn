@@ -4,6 +4,6 @@
     "forest:old_growth_oak_forest",
     "forest:old_growth_forest"
   ],
-  "features": "forest:black_mulberry_tree",
+  "features": "forest:black_mulberry_tree_feature",
   "step": "surface_structures"
 }

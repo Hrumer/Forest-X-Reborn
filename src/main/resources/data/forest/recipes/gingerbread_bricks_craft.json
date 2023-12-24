@@ -2,37 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "012",
-    "345",
-    "678"
+    "aaa",
+    "aba",
+    "aaa"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "forest:gingerbread_brick"
     },
-    "1": {
-      "item": "forest:gingerbread_brick"
-    },
-    "2": {
-      "item": "forest:gingerbread_brick"
-    },
-    "3": {
-      "item": "forest:gingerbread_brick"
-    },
-    "4": {
+    "b": {
       "item": "minecraft:milk_bucket"
-    },
-    "5": {
-      "item": "forest:gingerbread_brick"
-    },
-    "6": {
-      "item": "forest:gingerbread_brick"
-    },
-    "7": {
-      "item": "forest:gingerbread_brick"
-    },
-    "8": {
-      "item": "forest:gingerbread_brick"
     }
   },
   "result": {

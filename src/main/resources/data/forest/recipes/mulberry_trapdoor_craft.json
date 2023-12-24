@@ -3,26 +3,11 @@
   "group": "trapdoor",
   "category": "misc",
   "pattern": [
-    "012",
-    "345"
+    "aaa",
+    "aaa"
   ],
   "key": {
-    "0": {
-      "item": "forest:mulberry_planks"
-    },
-    "1": {
-      "item": "forest:mulberry_planks"
-    },
-    "2": {
-      "item": "forest:mulberry_planks"
-    },
-    "3": {
-      "item": "forest:mulberry_planks"
-    },
-    "4": {
-      "item": "forest:mulberry_planks"
-    },
-    "5": {
+    "a": {
       "item": "forest:mulberry_planks"
     }
   },

@@ -40,8 +40,6 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.protocol.game.ClientGamePacketListener;
 import net.minecraft.network.protocol.Packet;
 
-import java.util.List;
-
 public class RacconEntity extends Animal {
 	public RacconEntity(PlayMessages.SpawnEntity packet, Level world) {
 		this(ForestModEntities.RACCON.get(), world);
@@ -104,7 +102,7 @@ public class RacconEntity extends Animal {
 
 	@Override
 	public boolean isFood(ItemStack stack) {
-		return List.of(ForestModItems.BLUEBERRY.get(), Items.SWEET_BERRIES, Items.GLOW_BERRIES, Items.APPLE).contains(stack.getItem());
+		return Ingredient.of(new ItemStack(ForestModItems.BLUEBERRY.get()), new ItemStack(Items.SWEET_BERRIES), new ItemStack(Items.GLOW_BERRIES), new ItemStack(Items.APPLE)).test(stack);
 	}
 
 	public static void init() {
