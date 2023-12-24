@@ -3,27 +3,12 @@
   "group": "door",
   "category": "building",
   "pattern": [
-    "01",
-    "23",
-    "45"
+    "aa",
+    "aa",
+    "aa"
   ],
   "key": {
-    "0": {
-      "item": "forest:charred_planks"
-    },
-    "1": {
-      "item": "forest:charred_planks"
-    },
-    "2": {
-      "item": "forest:charred_planks"
-    },
-    "3": {
-      "item": "forest:charred_planks"
-    },
-    "4": {
-      "item": "forest:charred_planks"
-    },
-    "5": {
+    "a": {
       "item": "forest:charred_planks"
     }
   },

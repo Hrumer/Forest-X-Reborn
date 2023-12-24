@@ -2,24 +2,12 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    " 1 ",
-    "345",
-    " 7 "
+    " a ",
+    "aaa",
+    " a "
   ],
   "key": {
-    "1": {
-      "item": "forest:charred_planks"
-    },
-    "3": {
-      "item": "forest:charred_planks"
-    },
-    "4": {
-      "item": "forest:charred_planks"
-    },
-    "5": {
-      "item": "forest:charred_planks"
-    },
-    "7": {
+    "a": {
       "item": "forest:charred_planks"
     }
   },
