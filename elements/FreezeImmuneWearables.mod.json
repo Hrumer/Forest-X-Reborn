@@ -33,6 +33,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "freeze_immune_wearables",
     "namespace": "minecraft"
   }

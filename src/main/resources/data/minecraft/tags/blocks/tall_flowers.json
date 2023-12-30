@@ -1,12 +1,12 @@
 {
   "replace": false,
   "values": [
-    "forest:lavander",
-    "forest:desert_rose",
-    "forest:white_rose_bush",
-    "forest:pink_rose_bush",
     "forest:wildflower",
+    "forest:lavander",
     "forest:burning_blossom",
-    "forest:blue_rose"
+    "forest:desert_rose",
+    "forest:blue_rose",
+    "forest:white_rose_bush",
+    "forest:pink_rose_bush"
   ]
 }

@@ -1,12 +1,12 @@
 {
   "type": "forge:add_features",
   "biomes": [
-    "windswept_hills",
-    "stony_peaks",
-    "snowy_slopes",
     "frozen_peaks",
+    "jagged_peaks",
+    "snowy_slopes",
+    "stony_peaks",
     "windswept_gravelly_hills",
-    "jagged_peaks"
+    "windswept_hills"
   ],
   "features": "forest:rhyolite",
   "step": "underground_ores"

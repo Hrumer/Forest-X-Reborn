@@ -1,9 +1,9 @@
 {
   "type": "forge:add_features",
   "biomes": [
-    "forest:frozen_swamp",
     "swamp",
-    "forest:peatbog"
+    "forest:peatbog",
+    "forest:frozen_swamp"
   ],
   "features": "forest:cattail",
   "step": "vegetal_decoration"

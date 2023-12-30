@@ -17,6 +17,8 @@
     ],
     "functions": [],
     "entities": [],
+    "biomes": [],
+    "damageTypes": [],
     "name": "small_flowers",
     "namespace": "minecraft"
   }

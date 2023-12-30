@@ -12,6 +12,7 @@
       }
     ],
     "biomes": [],
+    "damageTypes": [],
     "name": "poisonous_animal",
     "namespace": "mod"
   }

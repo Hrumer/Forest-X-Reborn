@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
-    "zombie_horse",
+    "zoglin",
     "zombie",
-    "zombified_piglin",
+    "zombie_horse",
     "zombie_villager",
-    "zoglin"
+    "zombified_piglin"
   ]
 }

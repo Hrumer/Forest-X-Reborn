@@ -51,6 +51,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "walls",
     "namespace": "minecraft"
   }

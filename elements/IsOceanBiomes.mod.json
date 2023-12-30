@@ -8,6 +8,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "is_ocean",
     "namespace": "minecraft"
   }

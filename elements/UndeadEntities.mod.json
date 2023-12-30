@@ -24,6 +24,7 @@
       }
     ],
     "biomes": [],
+    "damageTypes": [],
     "name": "undead_entities",
     "namespace": "mod"
   }

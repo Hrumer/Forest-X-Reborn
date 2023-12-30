@@ -135,22 +135,17 @@ public class CalibriEntity extends Animal implements GeoEntity {
 
 	@Override
 	public SoundEvent getAmbientSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("CUSTOM:calibri.ambient"));
-	}
-
-	@Override
-	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("")), 0.15f, 1);
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:calibri.ambient"));
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("CUSTOM:calibri.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:calibri.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("CUSTOM:calibri.hurt"));
+		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:calibri.hurt"));
 	}
 
 	@Override

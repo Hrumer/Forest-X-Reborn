@@ -12,6 +12,7 @@
         "value": "CUSTOM:VolcanicPeaks"
       }
     ],
+    "damageTypes": [],
     "name": "is_hill",
     "namespace": "minecraft"
   }
