@@ -3,7 +3,7 @@
   "textures": {
     "all": "forest:block/ash",
     "particle": "forest:block/ash",
-    "missing": "forest:block/forest_ash_block"
+    "missing": "forest:block/ash"
   },
   "render_type": "solid"
 }
