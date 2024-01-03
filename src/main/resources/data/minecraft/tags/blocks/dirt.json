@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "forest:ash_block",
-    "forest:peat"
+    "forest:peat",
+    "forest:ash_block"
   ]
 }

@@ -15,6 +15,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "valid_spawn",
     "namespace": "minecraft"
   }

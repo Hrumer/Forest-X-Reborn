@@ -1,7 +1,7 @@
 {
   "replace": false,
   "values": [
-    "forest:dry_thorn_forest",
-    "forest:semidesert"
+    "forest:semidesert",
+    "forest:dry_thorn_forest"
   ]
 }

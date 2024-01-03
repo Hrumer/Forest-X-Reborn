@@ -21,6 +21,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "mulberry_log",
     "namespace": "forge"
   }

@@ -30,6 +30,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "tall_flowers",
     "namespace": "minecraft"
   }

@@ -18,6 +18,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "storage_blocks",
     "namespace": "minecraft"
   }

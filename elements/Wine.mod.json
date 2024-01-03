@@ -27,7 +27,11 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "WineAlcoholDesc"
+    },
+    "glowCondition": {
+      "fixedValue": false
     },
     "guiBoundTo": "<NONE>",
     "inventorySize": 9,
@@ -37,6 +41,9 @@
     },
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": true,
     "nutritionalValue": 0,
     "saturation": 0.19999999999999998,

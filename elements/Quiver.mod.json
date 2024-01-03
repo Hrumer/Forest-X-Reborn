@@ -27,7 +27,11 @@
     "enableMeleeDamage": false,
     "damageVsEntity": 0.0,
     "specialInformation": {
-      "fixedValue": []
+      "fixedValue": [],
+      "name": "QuiverValue"
+    },
+    "glowCondition": {
+      "fixedValue": false
     },
     "guiBoundTo": "QuiverInventory",
     "inventorySize": 9,
@@ -37,6 +41,9 @@
     },
     "enableRanged": false,
     "shootConstantly": false,
+    "projectile": {
+      "value": "Arrow"
+    },
     "isFood": false,
     "nutritionalValue": 0,
     "saturation": 0.30000001192092896,

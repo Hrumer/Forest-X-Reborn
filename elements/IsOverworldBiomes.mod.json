@@ -30,6 +30,7 @@
         "value": "CUSTOM:VolcanicPeaks"
       }
     ],
+    "damageTypes": [],
     "name": "is_overworld",
     "namespace": "minecraft"
   }

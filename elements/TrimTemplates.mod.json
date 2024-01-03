@@ -8,6 +8,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "trim_templates",
     "namespace": "minecraft"
   }

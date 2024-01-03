@@ -1,11 +1,11 @@
 {
   "replace": false,
   "values": [
-    "forest:rhyolite",
     "forest:pumice",
-    "forest:sandslate",
-    "forest:polished_sandslate",
+    "forest:rhyolite",
     "forest:polished_rhyolite",
-    "forest:polished_pumice"
+    "forest:sandslate",
+    "forest:polished_pumice",
+    "forest:polished_sandslate"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "replace": false,
   "values": [
+    "forest:burning_blossom",
+    "forest:wildflower",
     "forest:lavander",
     "forest:white_rose_bush",
-    "forest:pink_rose_bush",
-    "forest:burning_blossom",
-    "forest:wildflower"
+    "forest:pink_rose_bush"
   ]
 }

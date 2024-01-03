@@ -12,6 +12,7 @@
         "value": "CUSTOM:Peatbog"
       }
     ],
+    "damageTypes": [],
     "name": "has_closer_water_fog",
     "namespace": "minecraft"
   }
