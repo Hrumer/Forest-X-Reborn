@@ -1,8 +1,8 @@
 {
   "type": "forge:add_features",
   "biomes": [
-    "plains",
-    "flower_forest"
+    "flower_forest",
+    "plains"
   ],
   "features": "forest:wildflower",
   "step": "vegetal_decoration"

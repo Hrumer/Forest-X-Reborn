@@ -28,7 +28,6 @@
           "src/main/resources/data/forest/forge/biome_modifier/silver_ore_biome_modifier.json",
           "src/main/resources/assets/forest/models/block/silver_ore.json",
           "src/main/resources/assets/forest/models/item/silver_ore.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ores/SilverOreFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/silver_ore.json",
           "src/main/java/ru/power_umc/forestxreborn/block/SilverOreBlock.java",
           "src/main/resources/assets/forest/blockstates/silver_ore.json"
@@ -105,7 +104,6 @@
       "metadata": {
         "files": [
           "src/main/java/ru/power_umc/forestxreborn/block/WildflowerBlock.java",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/WildflowerFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/wildflower.json",
           "src/main/resources/data/forest/forge/biome_modifier/wildflower_biome_modifier.json",
           "src/main/resources/assets/forest/blockstates/wildflower.json",
@@ -130,7 +128,6 @@
           "src/main/resources/assets/forest/models/item/lavander.json",
           "src/main/java/ru/power_umc/forestxreborn/block/LavanderBlock.java",
           "src/main/resources/assets/forest/blockstates/lavander.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/LavanderFeature.java",
           "src/main/resources/assets/forest/models/block/lavander.json",
           "src/main/resources/data/forest/worldgen/placed_feature/lavander.json"
         ]
@@ -152,8 +149,7 @@
           "src/main/resources/assets/forest/models/item/burning_blossom.json",
           "src/main/resources/data/forest/worldgen/configured_feature/burning_blossom.json",
           "src/main/resources/data/forest/worldgen/placed_feature/burning_blossom.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/BurningblossomBlock.java",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/BurningblossomFeature.java"
+          "src/main/java/ru/power_umc/forestxreborn/block/BurningblossomBlock.java"
         ]
       },
       "path": "~/Plants"
@@ -396,7 +392,6 @@
         "files": [
           "src/main/java/ru/power_umc/forestxreborn/block/DeepslateSilverOreBlock.java",
           "src/main/resources/assets/forest/models/item/deepslate_silver_ore.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ores/DeepslateSilverOreFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/deepslate_silver_ore_biome_modifier.json",
           "src/main/resources/assets/forest/models/block/deepslate_silver_ore.json",
           "src/main/resources/assets/forest/blockstates/deepslate_silver_ore.json",
@@ -1288,7 +1283,6 @@
           "src/main/java/ru/power_umc/forestxreborn/block/DesertRoseBlock.java",
           "src/main/resources/data/forest/worldgen/placed_feature/desert_rose.json",
           "src/main/resources/assets/forest/blockstates/desert_rose.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/DesertRoseFeature.java",
           "src/main/resources/data/forest/worldgen/configured_feature/desert_rose.json",
           "src/main/resources/assets/forest/models/block/desert_rose.json"
         ]
@@ -1546,7 +1540,6 @@
           "src/main/resources/data/forest/worldgen/configured_feature/rhyolite.json",
           "src/main/resources/data/forest/forge/biome_modifier/rhyolite_biome_modifier.json",
           "src/main/java/ru/power_umc/forestxreborn/block/RhyoliteBlock.java",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ores/RhyoliteFeature.java",
           "src/main/resources/assets/forest/models/block/rhyolite.json",
           "src/main/resources/assets/forest/models/item/rhyolite.json"
         ]
@@ -1732,7 +1725,6 @@
           "src/main/resources/data/forest/worldgen/configured_feature/sandslate.json",
           "src/main/resources/data/forest/worldgen/placed_feature/sandslate.json",
           "src/main/resources/assets/forest/blockstates/sandslate.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ores/SandslateFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/sandslate_biome_modifier.json"
         ]
       },
@@ -1747,7 +1739,6 @@
       "registry_name": "peatbog_lakes",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/PeatbogLakesFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/peatbog_lakes_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/peatbog_lakes.json",
           "src/main/resources/data/forest/worldgen/placed_feature/peatbog_lakes.json"
@@ -3610,7 +3601,6 @@
       "registry_name": "semidesert_patch",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/SemidesertPatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/semidesert_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/semidesert_patch.json",
           "src/main/resources/data/forest/worldgen/placed_feature/semidesert_patch.json"
@@ -4426,7 +4416,6 @@
           "src/main/resources/assets/forest/models/item/blue_rose.json",
           "src/main/java/ru/power_umc/forestxreborn/block/BlueRoseBlock.java",
           "src/main/resources/assets/forest/models/block/blue_rose.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/BlueRoseFeature.java",
           "src/main/resources/data/forest/worldgen/configured_feature/blue_rose.json",
           "src/main/resources/data/forest/worldgen/placed_feature/blue_rose.json",
           "src/main/resources/data/forest/forge/biome_modifier/blue_rose_biome_modifier.json",
@@ -4583,7 +4572,6 @@
         "files": [
           "src/main/resources/data/forest/worldgen/placed_feature/brown_mushrooms_feature.json",
           "src/main/resources/data/forest/forge/biome_modifier/brown_mushrooms_feature_biome_modifier.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/BrownMushroomsFeatureFeature.java",
           "src/main/resources/data/forest/worldgen/configured_feature/brown_mushrooms_feature.json"
         ]
       },
@@ -4599,7 +4587,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/placed_feature/red_mushrooms_feature.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/RedMushroomsFeatureFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/red_mushrooms_feature_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/red_mushrooms_feature.json"
         ]
@@ -4615,7 +4602,6 @@
       "registry_name": "moonshrooms_feature",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/MoonshroomsFeatureFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/moonshrooms_feature.json",
           "src/main/resources/data/forest/forge/biome_modifier/moonshrooms_feature_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/moonshrooms_feature.json"
@@ -4633,7 +4619,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/placed_feature/sunshrooms_feature.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/SunshroomsFeatureFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/sunshrooms_feature_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/sunshrooms_feature.json"
         ]
@@ -4649,7 +4634,6 @@
       "registry_name": "big_brown_mushrooms_feature",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/BigBrownMushroomsFeatureFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/big_brown_mushrooms_feature.json",
           "src/main/resources/data/forest/forge/biome_modifier/big_brown_mushrooms_feature_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/big_brown_mushrooms_feature.json"
@@ -4668,7 +4652,6 @@
         "files": [
           "src/main/resources/data/forest/worldgen/configured_feature/big_red_mushrooms_feature.json",
           "src/main/resources/data/forest/worldgen/placed_feature/big_red_mushrooms_feature.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/BigRedMushroomsFeatureFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/big_red_mushrooms_feature_biome_modifier.json"
         ]
       },
@@ -7362,7 +7345,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/configured_feature/obsidian_patch.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/ObsidianPatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/obsidian_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/placed_feature/obsidian_patch.json"
         ]
@@ -7378,7 +7360,6 @@
       "registry_name": "pumice_patch",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/PumicePatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/pumice_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/pumice_patch.json",
           "src/main/resources/data/forest/worldgen/placed_feature/pumice_patch.json"
@@ -7396,7 +7377,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/configured_feature/stone_patch.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/StonePatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/stone_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/placed_feature/stone_patch.json"
         ]
@@ -7414,7 +7394,6 @@
         "files": [
           "src/main/resources/data/forest/forge/biome_modifier/cobblestone_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/placed_feature/cobblestone_patch.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/CobblestonePatchFeature.java",
           "src/main/resources/data/forest/worldgen/configured_feature/cobblestone_patch.json"
         ]
       },
@@ -7446,7 +7425,6 @@
       "registry_name": "lava_patch",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/LavaPatchFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/lava_patch_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/placed_feature/lava_patch.json",
           "src/main/resources/data/forest/worldgen/configured_feature/lava_patch.json"
@@ -8127,7 +8105,6 @@
       "registry_name": "stone_volcano_delta",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/StoneVolcanoDeltaFeature.java",
           "src/main/resources/data/forest/worldgen/placed_feature/stone_volcano_delta.json",
           "src/main/resources/data/forest/forge/biome_modifier/stone_volcano_delta_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/stone_volcano_delta.json"
@@ -8542,23 +8519,6 @@
       "path": "~/Tags"
     },
     {
-      "name": "GrapevineLog",
-      "type": "structure",
-      "sortid": 575,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grapevine_log",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/GrapevineLogFeature.java",
-          "src/main/resources/data/forest/forge/biome_modifier/grapevine_log_biome_modifier.json",
-          "src/main/resources/data/forest/worldgen/placed_feature/grapevine_log.json",
-          "src/main/resources/data/forest/worldgen/configured_feature/grapevine_log.json"
-        ]
-      },
-      "path": "~/Harvest/Grape"
-    },
-    {
       "name": "PaintingVolcano",
       "type": "painting",
       "sortid": 576,
@@ -8583,7 +8543,6 @@
           "src/main/resources/assets/forest/models/block/white_rose_bush_bottom.json",
           "src/main/java/ru/power_umc/forestxreborn/block/WhiteRoseBushBlock.java",
           "src/main/resources/assets/forest/models/item/white_rose_bush.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/WhiteRoseBushFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/white_rose_bush_biome_modifier.json",
           "src/main/resources/assets/forest/blockstates/white_rose_bush.json",
           "src/main/resources/data/forest/worldgen/placed_feature/white_rose_bush.json",
@@ -8602,7 +8561,6 @@
       "metadata": {
         "files": [
           "src/main/resources/data/forest/worldgen/placed_feature/pink_rose_bush.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/PinkRoseBushFeature.java",
           "src/main/resources/assets/forest/models/block/pink_rose_bush.json",
           "src/main/resources/data/forest/forge/biome_modifier/pink_rose_bush_biome_modifier.json",
           "src/main/resources/assets/forest/models/block/pink_rose_bush_bottom.json",
@@ -9381,40 +9339,6 @@
       "path": "~/WoodSets/Mulberry Wood Set"
     },
     {
-      "name": "WhiteMulberryTree",
-      "type": "structure",
-      "sortid": 597,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "white_mulberry_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/worldgen/configured_feature/white_mulberry_tree.json",
-          "src/main/resources/data/forest/worldgen/placed_feature/white_mulberry_tree.json",
-          "src/main/resources/data/forest/forge/biome_modifier/white_mulberry_tree_biome_modifier.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/WhiteMulberryTreeFeature.java"
-        ]
-      },
-      "path": "~/WoodSets/Mulberry Wood Set"
-    },
-    {
-      "name": "BlackMulberryTree",
-      "type": "structure",
-      "sortid": 598,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "black_mulberry_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/forge/biome_modifier/black_mulberry_tree_biome_modifier.json",
-          "src/main/resources/data/forest/worldgen/configured_feature/black_mulberry_tree.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/BlackMulberryTreeFeature.java",
-          "src/main/resources/data/forest/worldgen/placed_feature/black_mulberry_tree.json"
-        ]
-      },
-      "path": "~/WoodSets/Mulberry Wood Set"
-    },
-    {
       "name": "OrangeButterfly",
       "type": "animatedentity",
       "sortid": 211,
@@ -9906,8 +9830,7 @@
           "src/main/java/ru/power_umc/forestxreborn/block/CattailBlock.java",
           "src/main/resources/assets/forest/models/block/cattail_bottom.json",
           "src/main/resources/assets/forest/blockstates/cattail.json",
-          "src/main/resources/data/forest/forge/biome_modifier/cattail_biome_modifier.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/plants/CattailFeature.java"
+          "src/main/resources/data/forest/forge/biome_modifier/cattail_biome_modifier.json"
         ]
       },
       "path": "~/Plants"
@@ -10677,23 +10600,6 @@
         ]
       },
       "path": "~/Biomes"
-    },
-    {
-      "name": "EucalyptusTree",
-      "type": "structure",
-      "sortid": 649,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "eucalyptus_tree",
-      "metadata": {
-        "files": [
-          "src/main/resources/data/forest/forge/biome_modifier/eucalyptus_tree_biome_modifier.json",
-          "src/main/java/ru/power_umc/forestxreborn/world/features/EucalyptusTreeFeature.java",
-          "src/main/resources/data/forest/worldgen/placed_feature/eucalyptus_tree.json",
-          "src/main/resources/data/forest/worldgen/configured_feature/eucalyptus_tree.json"
-        ]
-      },
-      "path": "~/WoodSets/Eucalyptus Wood Set"
     },
     {
       "name": "EucalyptusLeavesLoot",
@@ -11537,7 +11443,6 @@
       "registry_name": "ice_lakes",
       "metadata": {
         "files": [
-          "src/main/java/ru/power_umc/forestxreborn/world/features/IceLakesFeature.java",
           "src/main/resources/data/forest/forge/biome_modifier/ice_lakes_biome_modifier.json",
           "src/main/resources/data/forest/worldgen/configured_feature/ice_lakes.json",
           "src/main/resources/data/forest/worldgen/placed_feature/ice_lakes.json"
@@ -11631,6 +11536,74 @@
         ]
       },
       "path": "~/Silver"
+    },
+    {
+      "name": "GrapevineLogFeature",
+      "type": "feature",
+      "sortid": 712,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grapevine_log_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/configured_feature/grapevine_log_feature.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/grapevine_log_feature.json",
+          "src/main/resources/data/forest/forge/biome_modifier/grapevine_log_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "WhiteMulberryTreeFeature",
+      "type": "feature",
+      "sortid": 713,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "white_mulberry_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/forge/biome_modifier/white_mulberry_tree_feature_biome_modifier.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/white_mulberry_tree_feature.json",
+          "src/main/resources/data/forest/worldgen/configured_feature/white_mulberry_tree_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "BlackMulberryTreeFeature",
+      "type": "feature",
+      "sortid": 714,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "black_mulberry_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/forge/biome_modifier/black_mulberry_tree_feature_biome_modifier.json",
+          "src/main/resources/data/forest/worldgen/configured_feature/black_mulberry_tree_feature.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/black_mulberry_tree_feature.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Biomes"
+    },
+    {
+      "name": "EucalyptusTreeFeature",
+      "type": "feature",
+      "sortid": 715,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "eucalyptus_tree_feature",
+      "metadata": {
+        "files": [
+          "src/main/resources/data/forest/worldgen/configured_feature/eucalyptus_tree_feature.json",
+          "src/main/resources/data/forest/worldgen/placed_feature/eucalyptus_tree_feature.json",
+          "src/main/resources/data/forest/forge/biome_modifier/eucalyptus_tree_feature_biome_modifier.json"
+        ],
+        "has_nbt_structure": true
+      },
+      "path": "~/Biomes"
     }
   ],
   "variable_elements": [
@@ -11759,12 +11732,12 @@
       "item_group.forest.tools_and_armor": "Инструменты и броня",
       "entity.forest.vulture": "Стервятник",
       "block.forest.charred_parquet": "Charred Parquet",
-      "item.forest.gingerbread_form_man": "Форма для пряника",
       "item.forest.barbecue": "Шашлык",
+      "item.forest.gingerbread_form_man": "Форма для пряника",
       "block.forest.light_gray_stairs": "Светло-серые ступени",
-      "entity.forest.scorpion": "Скорпион",
-      "block.forest.waxed_exposed_copper_ladder": "Вощёная потемневшая медная лестница",
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
+      "block.forest.waxed_exposed_copper_ladder": "Вощёная потемневшая медная лестница",
+      "entity.forest.scorpion": "Скорпион",
       "entity.forest.big_wither_skeleton": "Большой визер скелет",
       "block.forest.charred_button": "Charred Button",
       "subtitles.calibri.ambient": "",
@@ -11773,18 +11746,18 @@
       "block.forest.eucalyptus_wood": "Эвкалипт",
       "subtitles.lizard.hurt": "",
       "block.forest.polished_rhyolite_wall": "Ограда из полированного риолита",
-      "block.forest.pumice_bricks": "Пемзовые кирпичи",
       "item_group.forest.interaction_blocks": "Блоки взаимодействия",
+      "block.forest.pumice_bricks": "Пемзовые кирпичи",
       "item.forest.quiver": "Колчан",
       "block.forest.white_slab": "Белая плита",
-      "block.forest.wildflower": "Дикий цветок",
       "block.forest.ash_cover": "Пепельный покров",
+      "block.forest.wildflower": "Дикий цветок",
       "item.forest.iron_sickle": "Железный серп",
       "item.forest.silver_armor_boots": "Серебряные ботинки",
       "item.forest.scorpion_spawn_egg": "Яйцо призыва скорпиона",
       "block.forest.lime_fence": "Лаймовый забор",
-      "item.forest.brown_bear_pelt": "Шкура бурого медведя",
       "block.forest.mulberry_button": "Кнопка из шелковицы",
+      "item.forest.brown_bear_pelt": "Шкура бурого медведя",
       "item.forest.silver_shovel": "Серебряная лопата",
       "block.forest.light_blue_fence": "Голубой забор",
       "block.forest.polished_pumice_stairs": "Ступени из полированной пемзы",
@@ -11793,25 +11766,25 @@
       "block.forest.white_stairs": "Белые ступени",
       "biome.forest.dry_thorn_forest": "Сухой терновый лес",
       "item.forest.gingerbread_pine": "Пряник",
-      "block.forest.red_fence": "Красный забор",
       "item.forest.blueberry": "Черника",
-      "item.forest.pink_butterfly_spawn_egg": "Яйцо призыва розовой бабочки",
-      "block.forest.mulberry_fence": "Забор из шелковицы",
+      "block.forest.red_fence": "Красный забор",
       "subtitles.lizard.ambient": "",
-      "desc.gingerbread_heart": "Сердце",
+      "block.forest.mulberry_fence": "Забор из шелковицы",
+      "item.forest.pink_butterfly_spawn_egg": "Яйцо призыва розовой бабочки",
       "advancements.out_of_the_fire_and_into_the_flames.title": "Из огня да в полымя",
+      "desc.gingerbread_heart": "Сердце",
       "item.forest.raspberry": "Малина",
       "entity.forest.snail": "Улитка",
       "item.forest.big_wither_skeleton_spawn_egg": "Big Wither Skeleton Spawn Egg",
       "subtitles.calibri.hurt": "",
       "item_group.forest.mobs": "Мобы",
-      "item.forest.gingerbread_man": "Пряник",
       "special_info.quiver.arrows_count": "Количество стрел: ",
+      "item.forest.gingerbread_man": "Пряник",
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
       "block.forest.grape_vine_0": "Виноградная лоза",
       "item.forest.baby_skeleton_spawn_egg": "Baby Skeleton Spawn Egg",
-      "item.forest.polar_bear_pelt": "Шкура белого медведя",
       "block.forest.mulberry_door": "Дверь из шелковицы",
+      "item.forest.polar_bear_pelt": "Шкура белого медведя",
       "item.forest.lettuce_seed": "Семена салата",
       "block.forest.blue_fence": "Синий забор",
       "block.forest.grape_vine_1": "Grape Vine",
@@ -11832,8 +11805,8 @@
       "item.forest.rye": "Рожь",
       "advancements.paint_the_fence.descr": "Покрасьте забор любым красителем",
       "block.forest.burning_blossom": "Пылающий цветок",
-      "block.forest.sandslate_bricks_slab": "Плита из песчаносланцевых кирпичей",
       "block.forest.light_gray_slab": "Светло-серая плита",
+      "block.forest.sandslate_bricks_slab": "Плита из песчаносланцевых кирпичей",
       "block.forest.light_gray_fence": "Светло-серый забор",
       "block.forest.rhyolite_bricks_wall": "Ограда из риолитовых кирпичей",
       "block.forest.truncated_pumice_slab": "Плита из усеченной пемзы",
@@ -11852,8 +11825,8 @@
       "entity.forest.rat": "Крыса",
       "block.forest.truncated_pumice": "Усеченная пемза",
       "entity.forest.fire_salamander": "Огненная саламандра",
-      "subtitles.rat.hurt": "",
       "item.forest.wine": "Вино",
+      "subtitles.rat.hurt": "",
       "block.forest.eucalyptus_fence": "Забор из эвкалиптовых досок",
       "block.forest.light_blue_slab": "Голубая плита",
       "block.forest.yellow_fence_gate": "Жёлтая калитка",
@@ -11871,15 +11844,15 @@
       "item.forest.gingerbread_dough": "Пряничное тесто",
       "block.forest.yellow_stairs": "Жёлтые ступени",
       "block.forest.charred_door": "Charred Door",
-      "block.forest.polished_rhyolite_stairs": "Ступени из полированного риолита",
       "block.forest.sapphire_ore": "Сапфировая руда",
+      "block.forest.polished_rhyolite_stairs": "Ступени из полированного риолита",
       "advancements.not_all_that_glitters_is_gold.title": "Не всё то золото, что блестит",
       "block.forest.mulberry_leaves_with_black": "Листья шелковицы",
       "block.forest.red_fence_gate": "Красная калитка",
       "item.forest.lettuce": "Салат",
-      "block.forest.lettuce_stage_0": " ",
-      "block.forest.moonshroom": "Луногриб",
       "item.forest.black_mulberry": "Чёрная шелковица",
+      "block.forest.moonshroom": "Луногриб",
+      "block.forest.lettuce_stage_0": " ",
       "block.forest.lettuce_stage_1": " ",
       "item.forest.sapphire": "Сапфир",
       "block.forest.orange_slab": "Оранжевая плита",
@@ -11909,8 +11882,8 @@
       "item.forest.green_butterfly_spawn_egg": "Яйцо призыва зеленой бабочки",
       "block.forest.lettuce_stage_2": " ",
       "block.forest.lettuce_stage_3": " ",
-      "block.forest.dense_web_with_spider": "Плотная паутина с пауком",
       "block.forest.orange_fence_gate": "Оранжевая калитка",
+      "block.forest.dense_web_with_spider": "Плотная паутина с пауком",
       "block.forest.brown_planks": "Коричневые доски",
       "block.forest.rhyolite": "Риолит",
       "block.forest.light_blue_fence_gate": "Голубая калитка",
@@ -12126,7 +12099,7 @@
       "entity.forest.crocodile": "Крокодил",
       "block.forest.weathered_copper_ladder": "Состаренная медная лестница",
       "block.forest.marble": "Мрамор",
-      "block.forest.silver_block": "Блок Серебра",
+      "block.forest.silver_block": "Блок серебра",
       "advancements.robin_hood_is_back.title": "Робин Гуд вернулся!",
       "biome.forest.old_growth_oak_forest": "Реликтовый дубовый лес",
       "biome.forest.ice_desert": "Ледяная пустыня",
@@ -12137,7 +12110,7 @@
       "block.forest.cyan_fence_gate": "Бирюзовая калитка",
       "gui.forest.clay_oven_gui.label_baking_gingerbread": "Выпекание пряников",
       "block.forest.eucalyptus_trapdoor": "Эвкалиптовый люк",
-      "item.forest.diamond_sickle": "Золотой серп",
+      "item.forest.diamond_sickle": "Алмазный серп",
       "block.forest.sunshroom": "Солнцегриб",
       "block.forest.purple_fence": "Фиолетовый забор",
       "block.forest.green_stairs": "Зелёные ступени",
@@ -12147,7 +12120,7 @@
       "block.forest.crimson_parquet": "Багровый паркет",
       "block.forest.lavander": "Лаванда",
       "block.forest.stripped_mulberry_wood": "Обтёсанная девесина шелковицы",
-      "item.forest.golden_sickle": "Железный серп",
+      "item.forest.golden_sickle": "Золотой серп",
       "block.forest.brown_fence_gate": "Коричневая калитка",
       "biome.forest.charred_forest": "Charred Forest",
       "block.forest.eucalyptus_log": "Бревно эвкалипта",
@@ -12823,7 +12796,7 @@
   "workspaceSettings": {
     "modid": "forest",
     "modName": "Forest X Reborn",
-    "version": "1.4.3",
+    "version": "1.4.4",
     "description": "The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition. ",
     "author": "Environment Studios",
     "websiteURL": "https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html",
@@ -12845,5 +12818,5 @@
     "modElementsPackage": "ru.power_umc.forestxreborn",
     "lockBaseModFiles": false
   },
-  "mcreatorVersion": 202300348119
+  "mcreatorVersion": 202300452316
 }

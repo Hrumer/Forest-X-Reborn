@@ -1,8 +1,8 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "forest:volcanic_peaks",
-    "forest:volcano"
+    "forest:volcano",
+    "forest:volcanic_peaks"
   ],
   "spawners": {
     "type": "forest:fire_salamander",

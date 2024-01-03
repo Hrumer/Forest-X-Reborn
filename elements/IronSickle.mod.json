@@ -1,13 +1,17 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tool",
   "definition": {
     "toolType": "Special",
     "renderType": 0,
+    "blockingRenderType": 0,
     "texture": "iron_sickle",
     "customModelName": "Normal",
+    "blockingModelName": "Normal blocking",
     "name": "Iron Sickle",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "creativeTab": {
       "value": "CUSTOM:ToolsAndArmor"
     },
@@ -31,7 +35,6 @@
         "value": "Blocks.CARROTS"
       }
     ],
-    "hasGlow": false,
     "repairItems": [],
     "immuneToFire": false,
     "stayInGridWhenCrafting": false,

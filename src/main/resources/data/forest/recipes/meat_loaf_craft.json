@@ -2,19 +2,16 @@
   "type": "minecraft:crafting_shaped",
   "category": "misc",
   "pattern": [
-    "0",
-    "1",
-    "2"
+    "a",
+    "b",
+    "a"
   ],
   "key": {
-    "0": {
+    "a": {
       "item": "forest:lettuce"
     },
-    "1": {
+    "b": {
       "item": "minecraft:cooked_beef"
-    },
-    "2": {
-      "item": "forest:lettuce"
     }
   },
   "result": {

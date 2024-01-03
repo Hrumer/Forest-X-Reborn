@@ -44,9 +44,9 @@ public class QuiverInventoryScreen extends AbstractContainerScreen<QuiverInvento
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		guiGraphics.blit(new ResourceLocation("forest:textures/screens/quiver_inv.png"), this.leftPos + 0, this.topPos + 0, 0, 0, -1, -1, -1, -1);
+		guiGraphics.blit(new ResourceLocation("forest:textures/screens/quiver_inv.png"), this.leftPos + -1, this.topPos + 0, 0, 0, -1, -1, -1, -1);
 
-		guiGraphics.blit(new ResourceLocation("forest:textures/screens/quiver_inventory.png"), this.leftPos + 0, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+		guiGraphics.blit(new ResourceLocation("forest:textures/screens/quiver_inventory.png"), this.leftPos + -1, this.topPos + 0, 0, 0, 176, 166, 176, 166);
 
 		RenderSystem.disableBlend();
 	}

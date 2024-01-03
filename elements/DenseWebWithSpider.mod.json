@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "block",
   "definition": {
     "texture": "dense_web",
@@ -34,7 +34,9 @@
       }
     ],
     "name": "Dense Web With Spider",
-    "specialInfo": [],
+    "specialInformation": {
+      "fixedValue": []
+    },
     "hardness": 2.0,
     "resistance": 100.0,
     "hasGravity": false,
@@ -120,7 +122,7 @@
     "onDestroyedByPlayer": {
       "name": "DenseWebWithSpiderKoghdaBlokRazrushienIghrokom"
     },
-    "spawnWorldTypes": [],
+    "generateFeature": false,
     "restrictionBiomes": [],
     "blocksToReplace": [
       {

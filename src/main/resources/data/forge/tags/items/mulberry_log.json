@@ -3,7 +3,7 @@
   "values": [
     "forest:mulberry_wood",
     "forest:mulberry_log",
-    "forest:stripped_mulberry_log",
-    "forest:stripped_mulberry_wood"
+    "forest:stripped_mulberry_wood",
+    "forest:stripped_mulberry_log"
   ]
 }

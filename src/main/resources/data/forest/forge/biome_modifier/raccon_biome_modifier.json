@@ -1,10 +1,10 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "forest",
+    "forest:old_growth_forest",
     "flower_forest",
-    "forest:old_growth_oak_forest",
-    "forest:old_growth_forest"
+    "forest",
+    "forest:old_growth_oak_forest"
   ],
   "spawners": {
     "type": "forest:raccon",

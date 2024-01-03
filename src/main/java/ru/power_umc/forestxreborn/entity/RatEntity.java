@@ -130,11 +130,6 @@ public class RatEntity extends Animal implements GeoEntity {
 	}
 
 	@Override
-	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation(""));
-	}
-
-	@Override
 	public void baseTick() {
 		super.baseTick();
 		this.refreshDimensions();

@@ -1,5 +1,5 @@
 {
-  "_fv": 47,
+  "_fv": 57,
   "_type": "tag",
   "definition": {
     "type": "Biomes",
@@ -15,6 +15,7 @@
         "value": "CUSTOM:FrozenSwamp"
       }
     ],
+    "damageTypes": [],
     "name": "is_wet",
     "namespace": "minecraft"
   }
