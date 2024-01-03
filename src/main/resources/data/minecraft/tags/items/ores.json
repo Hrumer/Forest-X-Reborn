@@ -1,9 +1,9 @@
 {
   "replace": false,
   "values": [
-    "forest:deepslate_sapphire_ore",
     "forest:silver_ore",
+    "forest:deepslate_silver_ore",
     "forest:sapphire_ore",
-    "forest:deepslate_silver_ore"
+    "forest:deepslate_sapphire_ore"
   ]
 }

@@ -1,12 +1,12 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
+    "forest:old_growth_forest",
     "forest",
     "old_growth_pine_taiga",
+    "old_growth_spruce_taiga",
     "taiga",
-    "forest:old_growth_oak_forest",
-    "forest:old_growth_forest",
-    "old_growth_spruce_taiga"
+    "forest:old_growth_oak_forest"
   ],
   "spawners": {
     "type": "forest:brown_bear",

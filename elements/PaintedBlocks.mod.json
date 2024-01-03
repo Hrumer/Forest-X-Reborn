@@ -249,6 +249,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "painted_blocks",
     "namespace": "minecraft"
   }

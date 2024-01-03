@@ -12,6 +12,7 @@
         "value": "CUSTOM:Semidesert"
       }
     ],
+    "damageTypes": [],
     "name": "is_hot",
     "namespace": "minecraft"
   }

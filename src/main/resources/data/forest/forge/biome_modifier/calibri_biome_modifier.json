@@ -1,8 +1,8 @@
 {
   "type": "forge:add_spawns",
   "biomes": [
-    "sparse_jungle",
-    "jungle"
+    "jungle",
+    "sparse_jungle"
   ],
   "spawners": {
     "type": "forest:calibri",

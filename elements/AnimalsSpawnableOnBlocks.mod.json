@@ -15,6 +15,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "animals_spawnable_on",
     "namespace": "minecraft"
   }

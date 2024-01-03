@@ -8,6 +8,6 @@ public class QuiverValueProcedure {
 		double count = 0;
 		double quiverSlot = 0;
 		double previousRecipe = 0;
-		return Component.translatable("special_info.quiver.arrows_count").getString() + "" + (Math.round(itemstack.getOrCreateTag().getDouble("arrowCount")) + " / 576");
+		return "\u00A78" + Component.translatable("special_info.quiver.arrows_count").getString() + (Math.round(itemstack.getOrCreateTag().getDouble("arrowCount")) + " / 576");
 	}
 }

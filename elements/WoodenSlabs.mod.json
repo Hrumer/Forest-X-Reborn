@@ -60,6 +60,7 @@
     "functions": [],
     "entities": [],
     "biomes": [],
+    "damageTypes": [],
     "name": "wooden_slabs",
     "namespace": "minecraft"
   }
