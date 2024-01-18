@@ -32,12 +32,12 @@
 		</attributes>
 	</classpathentry>
 	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER/org.eclipse.jdt.internal.debug.ui.launcher.StandardVMType/JavaSE-17/"/>
-	<classpathentry sourcepath="C:/Users/chizh/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.20.1/4.2.2_mapped_official_1.20.1/geckolib-forge-1.20.1-4.2.2_mapped_official_1.20.1-sources.jar" kind="lib" path="C:/Users/chizh/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.20.1/4.2.2_mapped_official_1.20.1/geckolib-forge-1.20.1-4.2.2_mapped_official_1.20.1.jar">
+	<classpathentry sourcepath="C:/Users/chizh/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.20.1/4.2.3_mapped_official_1.20.1/geckolib-forge-1.20.1-4.2.3_mapped_official_1.20.1-sources.jar" kind="lib" path="C:/Users/chizh/.mcreator/gradle/caches/forge_gradle/deobf_dependencies/software/bernie/geckolib/geckolib-forge-1.20.1/4.2.3_mapped_official_1.20.1/geckolib-forge-1.20.1-4.2.3_mapped_official_1.20.1.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
 	</classpathentry>
-	<classpathentry sourcepath="C:/Users/chizh/Рабочий стол/mods/Forest-X-Reborn/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-sources.jar" kind="lib" path="C:/Users/chizh/Рабочий стол/mods/Forest-X-Reborn/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1.jar">
+	<classpathentry sourcepath="C:/Users/chizh/Рабочий стол/mods/Forest-X-Reborn/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-sources.jar" kind="lib" path="C:/Users/chizh/Рабочий стол/mods/Forest-X-Reborn/build/fg_cache/net/minecraftforge/forge/1.20.1-47.2.0_mapped_official_1.20.1/forge-1.20.1-47.2.0_mapped_official_1.20.1-recomp.jar">
 		<attributes>
 			<attribute name="gradle_used_by_scope" value="main,test"/>
 		</attributes>
