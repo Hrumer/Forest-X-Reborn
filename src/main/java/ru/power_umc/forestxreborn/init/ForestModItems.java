@@ -15,7 +15,6 @@ import ru.power_umc.forestxreborn.item.SilverIngotItem;
 import ru.power_umc.forestxreborn.item.SilverHoeItem;
 import ru.power_umc.forestxreborn.item.SilverAxeItem;
 import ru.power_umc.forestxreborn.item.SilverArmorItem;
-import ru.power_umc.forestxreborn.item.SapphireItem;
 import ru.power_umc.forestxreborn.item.RyeSeedsItem;
 import ru.power_umc.forestxreborn.item.RyeItem;
 import ru.power_umc.forestxreborn.item.RawSilverItem;
@@ -372,10 +371,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> CHARRED_TRAPDOOR = block(ForestModBlocks.CHARRED_TRAPDOOR);
 	public static final RegistryObject<Item> CHARRED_BUTTON = block(ForestModBlocks.CHARRED_BUTTON);
 	public static final RegistryObject<Item> CHARRED_PRESSURE_PLATE = block(ForestModBlocks.CHARRED_PRESSURE_PLATE);
-	public static final RegistryObject<Item> SAPPHIRE = REGISTRY.register("sapphire", () -> new SapphireItem());
-	public static final RegistryObject<Item> SAPPHIRE_ORE = block(ForestModBlocks.SAPPHIRE_ORE);
-	public static final RegistryObject<Item> SAPPHIRE_BLOCK = block(ForestModBlocks.SAPPHIRE_BLOCK);
-	public static final RegistryObject<Item> DEEPSLATE_SAPPHIRE_ORE = block(ForestModBlocks.DEEPSLATE_SAPPHIRE_ORE);
 	public static final RegistryObject<Item> DENSE_WEB = block(ForestModBlocks.DENSE_WEB);
 	public static final RegistryObject<Item> DENSE_WEB_WITH_SPIDER = block(ForestModBlocks.DENSE_WEB_WITH_SPIDER);
 	public static final RegistryObject<Item> BLUEBERRY_BUSH_0 = block(ForestModBlocks.BLUEBERRY_BUSH_0);
