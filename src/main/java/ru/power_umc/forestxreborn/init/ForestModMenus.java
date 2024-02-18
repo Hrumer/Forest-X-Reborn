@@ -4,6 +4,7 @@
  */
 package ru.power_umc.forestxreborn.init;
 
+import ru.power_umc.forestxreborn.client.gui.WoodCutterMenu;
 import ru.power_umc.forestxreborn.world.inventory.QuiverInventoryMenu;
 import ru.power_umc.forestxreborn.world.inventory.FermentationBarrelScreenMenu;
 import ru.power_umc.forestxreborn.ForestMod;
@@ -19,4 +20,7 @@ public class ForestModMenus {
 	public static final DeferredRegister<MenuType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.MENU_TYPES, ForestMod.MODID);
 	public static final RegistryObject<MenuType<QuiverInventoryMenu>> QUIVER_INVENTORY = REGISTRY.register("quiver_inventory", () -> IForgeMenuType.create(QuiverInventoryMenu::new));
 	public static final RegistryObject<MenuType<FermentationBarrelScreenMenu>> FERMENTATION_BARREL_SCREEN = REGISTRY.register("fermentation_barrel_screen", () -> IForgeMenuType.create(FermentationBarrelScreenMenu::new));
+
+	public static final RegistryObject<MenuType<WoodCutterMenu> WOODCUTTER_MENU = REGISTRY.register("woodcutter_menu", () -> IForgeMenuType.create(WoodCutterMenu::new));
+
 }

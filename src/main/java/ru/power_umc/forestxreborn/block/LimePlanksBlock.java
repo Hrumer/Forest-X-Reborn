@@ -1,6 +1,7 @@
 
 package ru.power_umc.forestxreborn.block;
 
+import net.minecraft.world.level.block.StonecutterBlock;
 import ru.power_umc.forestxreborn.block.entity.LimePlanksBlockEntity;
 
 import net.minecraft.world.level.storage.loot.LootParams;
@@ -29,7 +30,6 @@ public class LimePlanksBlock extends Block implements EntityBlock {
 	public LimePlanksBlock() {
 		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f));
 	}
-
 	@Override
 	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
 		super.appendHoverText(itemstack, world, list, flag);
