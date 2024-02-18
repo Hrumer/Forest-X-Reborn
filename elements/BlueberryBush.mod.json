@@ -2,51 +2,51 @@
   "_fv": 57,
   "_type": "block",
   "definition": {
-    "texture": "grape_vine1",
+    "texture": "blueberry_bush0",
     "textureTop": "",
     "textureLeft": "",
     "textureFront": "",
     "textureRight": "",
     "textureBack": "",
-    "renderType": 2,
-    "customModelName": "vine:growed",
-    "rotationMode": 3,
+    "renderType": 12,
+    "customModelName": "Cross model",
+    "rotationMode": 0,
     "enablePitch": false,
     "emissiveRendering": false,
     "displayFluidOverlay": false,
-    "itemTexture": "grape_vine1",
+    "itemTexture": "",
     "particleTexture": "",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
-    "connectedSides": false,
+    "connectedSides": true,
     "transparencyType": "CUTOUT",
     "disableOffset": false,
     "boundingBoxes": [
       {
         "mx": 0.0,
         "my": 0.0,
-        "mz": 15.4,
+        "mz": 0.0,
         "Mx": 16.0,
         "My": 16.0,
-        "Mz": 15.8,
+        "Mz": 16.0,
         "subtract": false
       }
     ],
-    "name": "Grape Vine",
+    "name": "Blueberry Bush 0",
     "specialInformation": {
       "fixedValue": []
     },
-    "hardness": 1.0,
-    "resistance": 10.0,
+    "hardness": 0.0,
+    "resistance": 0.0,
     "hasGravity": false,
-    "isWaterloggable": true,
+    "isWaterloggable": false,
     "creativeTab": {
       "value": "No creative tab entry"
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:GrapeVine0"
+      "value": "Blocks.AIR"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -56,9 +56,9 @@
     "canRedstoneConnect": false,
     "lightOpacity": 0,
     "material": {
-      "value": "ROCK"
+      "value": "PLANTS"
     },
-    "tickRate": 0,
+    "tickRate": 1600,
     "tickRandomly": false,
     "isReplaceable": false,
     "canProvidePower": false,
@@ -67,21 +67,21 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:GrapeVine0"
+      "value": "CUSTOM:Blueberry"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",
-    "flammability": 10,
-    "fireSpreadSpeed": 10,
-    "isLadder": true,
+    "flammability": 1,
+    "fireSpreadSpeed": 0,
+    "isLadder": false,
     "slipperiness": 0.6,
     "speedFactor": 1.0,
     "jumpFactor": 1.0,
-    "reactionToPushing": "DESTROY",
+    "reactionToPushing": "NORMAL",
     "isNotColidable": true,
     "isCustomSoundType": false,
     "soundOnStep": {
-      "value": "VINE"
+      "value": "SWEET_BERRY_BUSH"
     },
     "breakSound": {
       "value": ""
@@ -100,11 +100,11 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 1,
-    "placingCondition": {
-      "name": "GrapeVine0UsloviieRazmieshchieniiaBloka"
-    },
+    "breakHarvestLevel": 0,
     "isBonemealable": true,
+    "onBonemealSuccess": {
+      "name": "BlueberryBush0ObnovitTakt"
+    },
     "hasInventory": false,
     "guiBoundTo": "<NONE>",
     "openGUIOnRightClick": false,
@@ -122,8 +122,8 @@
     "isFluidTank": false,
     "fluidCapacity": 8000,
     "fluidRestrictions": [],
-    "onRightClicked": {
-      "name": "GrapeVine1PriShchielchkiePKMPoBloku"
+    "onTickUpdate": {
+      "name": "BlueberryBush0ObnovitTakt"
     },
     "generateFeature": false,
     "restrictionBiomes": [],

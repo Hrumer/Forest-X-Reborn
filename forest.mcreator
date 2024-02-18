@@ -1844,6 +1844,10 @@
         ],
         "dependencies": [
           {
+            "name": "blockstate",
+            "type": "blockstate"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -6910,23 +6914,6 @@
       "path": "~/WoodSets/Eucalyptus Wood Set"
     },
     {
-      "name": "GrapeVine0",
-      "type": "block",
-      "sortid": 231,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grape_vine_0",
-      "metadata": {
-        "files": [
-          "src/main/java/ru/power_umc/forestxreborn/block/GrapeVine0Block.java",
-          "src/main/resources/assets/forest/models/item/grape_vine_0.json",
-          "src/main/resources/assets/forest/models/block/grape_vine_0.json",
-          "src/main/resources/assets/forest/blockstates/grape_vine_0.json"
-        ]
-      },
-      "path": "~/Harvest/Grape"
-    },
-    {
       "name": "GrapeVine0UsloviieRazmieshchieniiaBloka",
       "type": "procedure",
       "sortid": 500,
@@ -6955,23 +6942,6 @@
             "name": "world",
             "type": "world"
           }
-        ]
-      },
-      "path": "~/Harvest/Grape"
-    },
-    {
-      "name": "GrapeVine1",
-      "type": "block",
-      "sortid": 501,
-      "compiles": true,
-      "locked_code": false,
-      "registry_name": "grape_vine_1",
-      "metadata": {
-        "files": [
-          "src/main/resources/assets/forest/models/item/grape_vine_1.json",
-          "src/main/resources/assets/forest/blockstates/grape_vine_1.json",
-          "src/main/resources/assets/forest/models/block/grape_vine_1.json",
-          "src/main/java/ru/power_umc/forestxreborn/block/GrapeVine1Block.java"
         ]
       },
       "path": "~/Harvest/Grape"
@@ -7020,6 +6990,10 @@
           "src/main/java/ru/power_umc/forestxreborn/procedures/GrapeVine1PriShchielchkiePKMPoBlokuProcedure.java"
         ],
         "dependencies": [
+          {
+            "name": "entity",
+            "type": "entity"
+          },
           {
             "name": "x",
             "type": "number"
@@ -11902,6 +11876,54 @@
         "has_nbt_structure": true
       },
       "path": "~/Biomes"
+    },
+    {
+      "name": "GrapeVine",
+      "type": "block",
+      "sortid": 716,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_vine",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/block/GrapeVineBlock.java",
+          "src/main/resources/assets/forest/models/item/grape_vine.json",
+          "src/main/resources/assets/forest/blockstates/grape_vine.json",
+          "src/main/resources/assets/forest/models/block/grape_vine.json"
+        ]
+      },
+      "path": "~/Harvest/Grape"
+    },
+    {
+      "name": "GrapeVineBlockstate",
+      "type": "blockstates",
+      "sortid": 717,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "grape_vine_blockstate",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/block/grape_vine_blockstate_blockstate_0.json"
+        ]
+      },
+      "path": "~/Harvest/Grape"
+    },
+    {
+      "name": "BlueberryBush",
+      "type": "block",
+      "sortid": 718,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_bush",
+      "metadata": {
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/block/BlueberryBushBlock.java",
+          "src/main/resources/assets/forest/models/block/blueberry_bush.json",
+          "src/main/resources/assets/forest/models/item/blueberry_bush.json",
+          "src/main/resources/assets/forest/blockstates/blueberry_bush.json"
+        ]
+      },
+      "path": "~/Harvest/Blueberry"
     }
   ],
   "variable_elements": [
@@ -12038,6 +12060,7 @@
       "block.forest.sandslate_faceted_bricks": "Ограненные песчаносланцевые кирпичи",
       "entity.forest.big_wither_skeleton": "Большой визер скелет",
       "block.forest.charred_button": "Charred Button",
+      "block.forest.blueberry_bush": "Blueberry Bush 0",
       "subtitles.calibri.ambient": "",
       "block.forest.brown_bear_carpet": "Ковёр из шкуры бурого медведя",
       "block.forest.polished_sandslate": "Полированнный песчаный сланец",
@@ -12050,6 +12073,7 @@
       "block.forest.white_slab": "Белая плита",
       "block.forest.wildflower": "Дикий цветок",
       "block.forest.ash_cover": "Пепельный покров",
+      "block.forest.grape_vine": "Grape Vine",
       "item.forest.iron_sickle": "Железный серп",
       "item.forest.silver_armor_boots": "Серебряные ботинки",
       "item.forest.scorpion_spawn_egg": "Яйцо призыва скорпиона",
@@ -12079,13 +12103,11 @@
       "item.forest.gingerbread_man": "Пряник",
       "special_info.quiver.arrows_count": "Количество стрел: ",
       "item.forest.raw_gingerbread_heart": "Тесто для пряника",
-      "block.forest.grape_vine_0": "Виноградная лоза",
       "item.forest.baby_skeleton_spawn_egg": "Baby Skeleton Spawn Egg",
       "item.forest.polar_bear_pelt": "Шкура белого медведя",
       "block.forest.mulberry_door": "Дверь из шелковицы",
       "item.forest.lettuce_seed": "Семена салата",
       "block.forest.blue_fence": "Синий забор",
-      "block.forest.grape_vine_1": "Grape Vine",
       "block.forest.light_blue_stairs": "Голубые ступени",
       "entity.forest.raccon": "Енот",
       "block.forest.red_crushed_sandstone_stairs": "Ступени из красного колотого песчаника",
@@ -12456,6 +12478,7 @@
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
       "entity.forest.big_wither_skeleton": "Big Wither Skeleton",
       "block.forest.charred_button": "Charred Button",
+      "block.forest.blueberry_bush": "Blueberry Bush 0",
       "subtitles.calibri.ambient": "",
       "block.forest.brown_bear_carpet": "Brown Bear Carpet",
       "block.forest.polished_sandslate": "Polished Sandslate",
@@ -12468,6 +12491,7 @@
       "item.forest.quiver": "Quiver",
       "block.forest.ash_cover": "Ash Сover",
       "block.forest.wildflower": "Wildflower",
+      "block.forest.grape_vine": "Grape Vine",
       "item.forest.iron_sickle": "Iron Sickle",
       "item.forest.silver_armor_boots": "Silver Boots",
       "item.forest.scorpion_spawn_egg": "Scorpion Spawn Egg",
@@ -12497,13 +12521,11 @@
       "special_info.quiver.arrows_count": "Amount of arrows:",
       "item.forest.gingerbread_man": "Gingerbread",
       "item.forest.raw_gingerbread_heart": "Raw Gingerbread",
-      "block.forest.grape_vine_0": "Grape Vine",
       "item.forest.baby_skeleton_spawn_egg": "Baby Skeleton Spawn Egg",
       "block.forest.mulberry_door": "Mulberry Door",
       "item.forest.polar_bear_pelt": "Polar Bear Pelt",
       "item.forest.lettuce_seed": "Lettuce Seed",
       "block.forest.blue_fence": "Blue Fence",
-      "block.forest.grape_vine_1": "Grape Vine",
       "block.forest.light_blue_stairs": "Light Blue Stairs",
       "entity.forest.raccon": "Racoon",
       "block.forest.red_crushed_sandstone_stairs": "Red crushed sandstone stairs",
@@ -12864,10 +12886,6 @@
       },
       {
         "name": "Desert",
-        "children": []
-      },
-      {
-        "name": "Sapphire",
         "children": []
       },
       {

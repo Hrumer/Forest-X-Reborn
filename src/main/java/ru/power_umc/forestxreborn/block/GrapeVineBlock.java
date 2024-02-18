@@ -1,20 +1,20 @@
 
 package ru.power_umc.forestxreborn.block;
 
-import ru.power_umc.forestxreborn.procedures.GrapeVine1PriShchielchkiePKMPoBlokuProcedure;
 import ru.power_umc.forestxreborn.procedures.GrapeVine0UsloviieRazmieshchieniiaBlokaProcedure;
+import ru.power_umc.forestxreborn.procedures.GrapeVine0PriIspolzovaniiKostnoiMukiProcedure;
 import ru.power_umc.forestxreborn.init.ForestModBlocks;
 
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.HitResult;
-import net.minecraft.world.phys.BlockHitResult;
 import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.Fluids;
 import net.minecraft.world.level.material.FluidState;
 import net.minecraft.world.level.block.state.properties.NoteBlockInstrument;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.properties.DirectionProperty;
 import net.minecraft.world.level.block.state.properties.BooleanProperty;
 import net.minecraft.world.level.block.state.properties.BlockStateProperties;
@@ -38,8 +38,6 @@ import net.minecraft.world.item.TooltipFlag;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
-import net.minecraft.world.InteractionResult;
-import net.minecraft.world.InteractionHand;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.network.chat.Component;
@@ -49,12 +47,13 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class GrapeVine1Block extends Block implements SimpleWaterloggedBlock, BonemealableBlock {
+public class GrapeVineBlock extends Block implements SimpleWaterloggedBlock, BonemealableBlock {
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 1);
 	public static final DirectionProperty FACING = HorizontalDirectionalBlock.FACING;
 	public static final BooleanProperty WATERLOGGED = BlockStateProperties.WATERLOGGED;
 
-	public GrapeVine1Block() {
-		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.VINE).strength(1f, 10f).noCollission().noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
+	public GrapeVineBlock() {
+		super(BlockBehaviour.Properties.of().instrument(NoteBlockInstrument.BASEDRUM).sound(SoundType.VINE).strength(1f, 10f).noCollission().noOcclusion().randomTicks().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
 		this.registerDefaultState(this.stateDefinition.any().setValue(FACING, Direction.NORTH).setValue(WATERLOGGED, false));
 	}
 
@@ -90,7 +89,7 @@ public class GrapeVine1Block extends Block implements SimpleWaterloggedBlock, Bo
 
 	@Override
 	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
-		builder.add(FACING, WATERLOGGED);
+		builder.add(FACING, WATERLOGGED, BLOCKSTATE);
 	}
 
 	@Override
@@ -145,7 +144,7 @@ public class GrapeVine1Block extends Block implements SimpleWaterloggedBlock, Bo
 
 	@Override
 	public ItemStack getCloneItemStack(BlockState state, HitResult target, BlockGetter world, BlockPos pos, Player player) {
-		return new ItemStack(ForestModBlocks.GRAPE_VINE_0.get());
+		return new ItemStack(ForestModBlocks.GRAPE_VINE.get());
 	}
 
 	@Override
@@ -158,21 +157,16 @@ public class GrapeVine1Block extends Block implements SimpleWaterloggedBlock, Bo
 		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
 		if (!dropsOriginal.isEmpty())
 			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(ForestModBlocks.GRAPE_VINE_0.get()));
+		return Collections.singletonList(new ItemStack(ForestModBlocks.GRAPE_VINE.get()));
 	}
 
 	@Override
-	public InteractionResult use(BlockState blockstate, Level world, BlockPos pos, Player entity, InteractionHand hand, BlockHitResult hit) {
-		super.use(blockstate, world, pos, entity, hand, hit);
+	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
+		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
-		double hitX = hit.getLocation().x;
-		double hitY = hit.getLocation().y;
-		double hitZ = hit.getLocation().z;
-		Direction direction = hit.getDirection();
-		GrapeVine1PriShchielchkiePKMPoBlokuProcedure.execute(world, x, y, z);
-		return InteractionResult.SUCCESS;
+		GrapeVine0PriIspolzovaniiKostnoiMukiProcedure.execute(world, x, y, z);
 	}
 
 	@Override
@@ -187,5 +181,6 @@ public class GrapeVine1Block extends Block implements SimpleWaterloggedBlock, Bo
 
 	@Override
 	public void performBonemeal(ServerLevel world, RandomSource random, BlockPos pos, BlockState blockstate) {
+		GrapeVine0PriIspolzovaniiKostnoiMukiProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 }

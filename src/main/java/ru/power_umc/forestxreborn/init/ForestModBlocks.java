@@ -177,8 +177,7 @@ import ru.power_umc.forestxreborn.block.GraySlabBlock;
 import ru.power_umc.forestxreborn.block.GrayPlanksBlock;
 import ru.power_umc.forestxreborn.block.GrayFenceGateBlock;
 import ru.power_umc.forestxreborn.block.GrayFenceBlock;
-import ru.power_umc.forestxreborn.block.GrapeVine1Block;
-import ru.power_umc.forestxreborn.block.GrapeVine0Block;
+import ru.power_umc.forestxreborn.block.GrapeVineBlock;
 import ru.power_umc.forestxreborn.block.GingerbreadBricksBlock;
 import ru.power_umc.forestxreborn.block.GingerbreadBlockBlock;
 import ru.power_umc.forestxreborn.block.FermentationBarrelBlock;
@@ -227,6 +226,7 @@ import ru.power_umc.forestxreborn.block.BrownPlanksBlock;
 import ru.power_umc.forestxreborn.block.BrownFenceGateBlock;
 import ru.power_umc.forestxreborn.block.BrownFenceBlock;
 import ru.power_umc.forestxreborn.block.BrownBearCarpetBlock;
+import ru.power_umc.forestxreborn.block.BlueberryBushBlock;
 import ru.power_umc.forestxreborn.block.BlueberryBush1Block;
 import ru.power_umc.forestxreborn.block.BlueberryBush0Block;
 import ru.power_umc.forestxreborn.block.BlueStairsBlock;
@@ -435,7 +435,6 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> BLUE_ROSE = REGISTRY.register("blue_rose", () -> new BlueRoseBlock());
 	public static final RegistryObject<Block> SUNSHROOM = REGISTRY.register("sunshroom", () -> new SunshroomBlock());
 	public static final RegistryObject<Block> MOONSHROOM = REGISTRY.register("moonshroom", () -> new MoonshroomBlock());
-	public static final RegistryObject<Block> GRAPE_VINE_0 = REGISTRY.register("grape_vine_0", () -> new GrapeVine0Block());
 	public static final RegistryObject<Block> WHITE_ROSE_BUSH = REGISTRY.register("white_rose_bush", () -> new WhiteRoseBushBlock());
 	public static final RegistryObject<Block> PINK_ROSE_BUSH = REGISTRY.register("pink_rose_bush", () -> new PinkRoseBushBlock());
 	public static final RegistryObject<Block> CATTAIL = REGISTRY.register("cattail", () -> new CattailBlock());
@@ -485,7 +484,6 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> LETTUCE_STAGE_1 = REGISTRY.register("lettuce_stage_1", () -> new LettuceStage1Block());
 	public static final RegistryObject<Block> LETTUCE_STAGE_2 = REGISTRY.register("lettuce_stage_2", () -> new LettuceStage2Block());
 	public static final RegistryObject<Block> LETTUCE_STAGE_3 = REGISTRY.register("lettuce_stage_3", () -> new LettuceStage3Block());
-	public static final RegistryObject<Block> GRAPE_VINE_1 = REGISTRY.register("grape_vine_1", () -> new GrapeVine1Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_0 = REGISTRY.register("raspberry_bush_0", () -> new RaspberryBush0Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_1 = REGISTRY.register("raspberry_bush_1", () -> new RaspberryBush1Block());
 	public static final RegistryObject<Block> RASPBERRY_BUSH_2 = REGISTRY.register("raspberry_bush_2", () -> new RaspberryBush2Block());
@@ -498,6 +496,8 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> RYE_STAGE_5 = REGISTRY.register("rye_stage_5", () -> new RyeStage5Block());
 	public static final RegistryObject<Block> RYE_STAGE_6 = REGISTRY.register("rye_stage_6", () -> new RyeStage6Block());
 	public static final RegistryObject<Block> RYE_STAGE_7 = REGISTRY.register("rye_stage_7", () -> new RyeStage7Block());
+	public static final RegistryObject<Block> GRAPE_VINE = REGISTRY.register("grape_vine", () -> new GrapeVineBlock());
+	public static final RegistryObject<Block> BLUEBERRY_BUSH = REGISTRY.register("blueberry_bush", () -> new BlueberryBushBlock());
 
 	@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 	public static class ClientSideHandler {

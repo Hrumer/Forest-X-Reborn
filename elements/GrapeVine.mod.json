@@ -46,7 +46,7 @@
     },
     "destroyTool": "Not specified",
     "customDrop": {
-      "value": "CUSTOM:GrapeVine0"
+      "value": "CUSTOM:GrapeVine"
     },
     "dropAmount": 1,
     "useLootTableForDrops": false,
@@ -59,7 +59,7 @@
       "value": "ROCK"
     },
     "tickRate": 2400,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -67,7 +67,7 @@
     },
     "colorOnMap": "DEFAULT",
     "creativePickItem": {
-      "value": "CUSTOM:GrapeVine0"
+      "value": "CUSTOM:GrapeVine"
     },
     "offsetType": "NONE",
     "aiPathNodeType": "DEFAULT",

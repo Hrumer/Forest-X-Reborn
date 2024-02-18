@@ -30,8 +30,8 @@ import net.minecraft.core.BlockPos;
 import java.util.List;
 import java.util.Collections;
 
-public class BlueberryBush0Block extends Block implements BonemealableBlock {
-	public BlueberryBush0Block() {
+public class BlueberryBushBlock extends Block implements BonemealableBlock {
+	public BlueberryBushBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.SWEET_BERRY_BUSH).instabreak().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
 	}
 

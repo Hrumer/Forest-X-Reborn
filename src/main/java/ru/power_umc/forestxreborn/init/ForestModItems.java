@@ -297,7 +297,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> BLUE_ROSE = block(ForestModBlocks.BLUE_ROSE);
 	public static final RegistryObject<Item> SUNSHROOM = block(ForestModBlocks.SUNSHROOM);
 	public static final RegistryObject<Item> MOONSHROOM = block(ForestModBlocks.MOONSHROOM);
-	public static final RegistryObject<Item> GRAPE_VINE_0 = block(ForestModBlocks.GRAPE_VINE_0);
 	public static final RegistryObject<Item> WHITE_ROSE_BUSH = doubleBlock(ForestModBlocks.WHITE_ROSE_BUSH);
 	public static final RegistryObject<Item> PINK_ROSE_BUSH = doubleBlock(ForestModBlocks.PINK_ROSE_BUSH);
 	public static final RegistryObject<Item> CATTAIL = doubleBlock(ForestModBlocks.CATTAIL);
@@ -365,7 +364,6 @@ public class ForestModItems {
 	public static final RegistryObject<Item> LETTUCE_STAGE_1 = block(ForestModBlocks.LETTUCE_STAGE_1);
 	public static final RegistryObject<Item> LETTUCE_STAGE_2 = block(ForestModBlocks.LETTUCE_STAGE_2);
 	public static final RegistryObject<Item> LETTUCE_STAGE_3 = block(ForestModBlocks.LETTUCE_STAGE_3);
-	public static final RegistryObject<Item> GRAPE_VINE_1 = block(ForestModBlocks.GRAPE_VINE_1);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_0 = block(ForestModBlocks.RASPBERRY_BUSH_0);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_1 = block(ForestModBlocks.RASPBERRY_BUSH_1);
 	public static final RegistryObject<Item> RASPBERRY_BUSH_2 = block(ForestModBlocks.RASPBERRY_BUSH_2);
@@ -378,6 +376,8 @@ public class ForestModItems {
 	public static final RegistryObject<Item> RYE_STAGE_5 = block(ForestModBlocks.RYE_STAGE_5);
 	public static final RegistryObject<Item> RYE_STAGE_6 = block(ForestModBlocks.RYE_STAGE_6);
 	public static final RegistryObject<Item> RYE_STAGE_7 = block(ForestModBlocks.RYE_STAGE_7);
+	public static final RegistryObject<Item> GRAPE_VINE = block(ForestModBlocks.GRAPE_VINE);
+	public static final RegistryObject<Item> BLUEBERRY_BUSH = block(ForestModBlocks.BLUEBERRY_BUSH);
 
 	private static RegistryObject<Item> block(RegistryObject<Block> block) {
 		return REGISTRY.register(block.getId().getPath(), () -> new BlockItem(block.get(), new Item.Properties()));

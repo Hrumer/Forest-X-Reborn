@@ -240,10 +240,10 @@ public class ForestModTabs {
 				tabData.accept(ForestModBlocks.BLUE_ROSE.get().asItem());
 				tabData.accept(ForestModBlocks.SUNSHROOM.get().asItem());
 				tabData.accept(ForestModBlocks.MOONSHROOM.get().asItem());
-				tabData.accept(ForestModBlocks.GRAPE_VINE_0.get().asItem());
 				tabData.accept(ForestModBlocks.WHITE_ROSE_BUSH.get().asItem());
 				tabData.accept(ForestModBlocks.PINK_ROSE_BUSH.get().asItem());
 				tabData.accept(ForestModBlocks.CATTAIL.get().asItem());
+				tabData.accept(ForestModBlocks.GRAPE_VINE.get().asItem());
 			})
 
 					.build());

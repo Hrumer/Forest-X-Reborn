@@ -6,10 +6,7 @@
     "items": [],
     "blocks": [
       {
-        "value": "CUSTOM:GrapeVine0"
-      },
-      {
-        "value": "CUSTOM:GrapeVine1"
+        "value": "CUSTOM:GrapeVine"
       }
     ],
     "functions": [],
