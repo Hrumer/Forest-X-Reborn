@@ -1916,6 +1916,10 @@
         ],
         "dependencies": [
           {
+            "name": "entity",
+            "type": "entity"
+          },
+          {
             "name": "x",
             "type": "number"
           },
@@ -11924,6 +11928,41 @@
         ]
       },
       "path": "~/Harvest/Blueberry"
+    },
+    {
+      "name": "BlueberryBushBlockstates",
+      "type": "blockstates",
+      "sortid": 719,
+      "compiles": true,
+      "locked_code": true,
+      "registry_name": "blueberry_bush_blockstates",
+      "metadata": {
+        "files": [
+          "src/main/resources/assets/forest/models/block/blueberry_bush_blockstates_blockstate_0.json"
+        ]
+      },
+      "path": "~/Harvest/Blueberry"
+    },
+    {
+      "name": "BlueberryBushUsloviieUspieshnoghoPrimienieniiaKostnoiMuki",
+      "type": "procedure",
+      "sortid": 720,
+      "compiles": true,
+      "locked_code": false,
+      "registry_name": "blueberry_bush_usloviie_uspieshnogho_primienieniia_kostnoi_muki",
+      "metadata": {
+        "return_type": "logic",
+        "files": [
+          "src/main/java/ru/power_umc/forestxreborn/procedures/BlueberryBushUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.java"
+        ],
+        "dependencies": [
+          {
+            "name": "blockstate",
+            "type": "blockstate"
+          }
+        ]
+      },
+      "path": "~/Harvest/Blueberry"
     }
   ],
   "variable_elements": [
@@ -12478,7 +12517,7 @@
       "block.forest.sandslate_faceted_bricks": "Faceted Sandslate Bricks",
       "entity.forest.big_wither_skeleton": "Big Wither Skeleton",
       "block.forest.charred_button": "Charred Button",
-      "block.forest.blueberry_bush": "Blueberry Bush 0",
+      "block.forest.blueberry_bush": "Blueberry Bush",
       "subtitles.calibri.ambient": "",
       "block.forest.brown_bear_carpet": "Brown Bear Carpet",
       "block.forest.polished_sandslate": "Polished Sandslate",

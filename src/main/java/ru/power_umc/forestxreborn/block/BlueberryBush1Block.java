@@ -87,7 +87,7 @@ public class BlueberryBush1Block extends Block {
 		double hitY = hit.getLocation().y;
 		double hitZ = hit.getLocation().z;
 		Direction direction = hit.getDirection();
-		BlueberryBush1NaBlokieNazhataPravaiaKnopkaMyshiProcedure.execute(world, x, y, z);
+		BlueberryBush1NaBlokieNazhataPravaiaKnopkaMyshiProcedure.execute(world, x, y, z, entity);
 		return InteractionResult.SUCCESS;
 	}
 }

@@ -22,7 +22,7 @@ public class BlueberryPriShchielchkiePravoiKnopkoiMyshiNaBlokieProcedure {
 					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.sweet_berry_bush.place")), SoundSource.NEUTRAL, 1, 1, false);
 				}
 			}
-			world.setBlock(BlockPos.containing(x, y + 1, z), ForestModBlocks.BLUEBERRY_BUSH_0.get().defaultBlockState(), 3);
+			world.setBlock(BlockPos.containing(x, y + 1, z), ForestModBlocks.BLUEBERRY_BUSH.get().defaultBlockState(), 3);
 			itemstack.shrink(1);
 		}
 	}

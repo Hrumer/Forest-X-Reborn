@@ -1,6 +1,7 @@
 
 package ru.power_umc.forestxreborn.block;
 
+import ru.power_umc.forestxreborn.procedures.BlueberryBushUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure;
 import ru.power_umc.forestxreborn.procedures.BlueberryBush0ObnovitTaktProcedure;
 import ru.power_umc.forestxreborn.init.ForestModItems;
 
@@ -9,6 +10,8 @@ import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
 import net.minecraft.world.phys.HitResult;
 import net.minecraft.world.level.storage.loot.LootParams;
+import net.minecraft.world.level.block.state.properties.IntegerProperty;
+import net.minecraft.world.level.block.state.StateDefinition;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -31,8 +34,10 @@ import java.util.List;
 import java.util.Collections;
 
 public class BlueberryBushBlock extends Block implements BonemealableBlock {
+	public static final IntegerProperty BLOCKSTATE = IntegerProperty.create("blockstate", 0, 1);
+
 	public BlueberryBushBlock() {
-		super(BlockBehaviour.Properties.of().sound(SoundType.SWEET_BERRY_BUSH).instabreak().noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
+		super(BlockBehaviour.Properties.of().sound(SoundType.SWEET_BERRY_BUSH).instabreak().noCollission().noOcclusion().randomTicks().isRedstoneConductor((bs, br, bp) -> false));
 	}
 
 	@Override
@@ -61,6 +66,11 @@ public class BlueberryBushBlock extends Block implements BonemealableBlock {
 	}
 
 	@Override
+	protected void createBlockStateDefinition(StateDefinition.Builder<Block, BlockState> builder) {
+		builder.add(BLOCKSTATE);
+	}
+
+	@Override
 	public int getFlammability(BlockState state, BlockGetter world, BlockPos pos, Direction face) {
 		return 1;
 	}
@@ -79,19 +89,12 @@ public class BlueberryBushBlock extends Block implements BonemealableBlock {
 	}
 
 	@Override
-	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
-		super.onPlace(blockstate, world, pos, oldState, moving);
-		world.scheduleTick(pos, this, 1600);
-	}
-
-	@Override
 	public void tick(BlockState blockstate, ServerLevel world, BlockPos pos, RandomSource random) {
 		super.tick(blockstate, world, pos, random);
 		int x = pos.getX();
 		int y = pos.getY();
 		int z = pos.getZ();
 		BlueberryBush0ObnovitTaktProcedure.execute(world, x, y, z, blockstate);
-		world.scheduleTick(pos, this, 1600);
 	}
 
 	@Override
@@ -101,7 +104,10 @@ public class BlueberryBushBlock extends Block implements BonemealableBlock {
 
 	@Override
 	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		return true;
+		int x = pos.getX();
+		int y = pos.getY();
+		int z = pos.getZ();
+		return BlueberryBushUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.execute(blockstate);
 	}
 
 	@Override

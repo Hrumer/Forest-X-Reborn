@@ -10,7 +10,7 @@ import net.minecraft.core.BlockPos;
 public class BlueberryBush0ObnovitTaktProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z, BlockState blockstate) {
 		ForestMod.queueServerWork(1, () -> {
-			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip1 ? blockstate.getValue(_getip1) : -1) == 0) {
+			if ((blockstate.getBlock().getStateDefinition().getProperty("blockstate") instanceof IntegerProperty _getip1 ? blockstate.getValue(_getip1) : -1) == 0 && Math.random() <= 0.7) {
 				{
 					int _value = 1;
 					BlockPos _pos = BlockPos.containing(x, y, z);

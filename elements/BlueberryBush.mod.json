@@ -15,7 +15,7 @@
     "emissiveRendering": false,
     "displayFluidOverlay": false,
     "itemTexture": "",
-    "particleTexture": "",
+    "particleTexture": "blueberry_bush0",
     "tintType": "No tint",
     "isItemTinted": false,
     "hasTransparency": true,
@@ -33,7 +33,7 @@
         "subtract": false
       }
     ],
-    "name": "Blueberry Bush 0",
+    "name": "Blueberry Bush",
     "specialInformation": {
       "fixedValue": []
     },
@@ -59,7 +59,7 @@
       "value": "PLANTS"
     },
     "tickRate": 1600,
-    "tickRandomly": false,
+    "tickRandomly": true,
     "isReplaceable": false,
     "canProvidePower": false,
     "emittedRedstonePower": {
@@ -102,6 +102,9 @@
     "unbreakable": false,
     "breakHarvestLevel": 0,
     "isBonemealable": true,
+    "bonemealSuccessCondition": {
+      "name": "BlueberryBushUsloviieUspieshnoghoPrimienieniiaKostnoiMuki"
+    },
     "onBonemealSuccess": {
       "name": "BlueberryBush0ObnovitTakt"
     },
