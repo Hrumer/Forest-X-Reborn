@@ -227,8 +227,6 @@ import ru.power_umc.forestxreborn.block.BrownFenceGateBlock;
 import ru.power_umc.forestxreborn.block.BrownFenceBlock;
 import ru.power_umc.forestxreborn.block.BrownBearCarpetBlock;
 import ru.power_umc.forestxreborn.block.BlueberryBushBlock;
-import ru.power_umc.forestxreborn.block.BlueberryBush1Block;
-import ru.power_umc.forestxreborn.block.BlueberryBush0Block;
 import ru.power_umc.forestxreborn.block.BlueStairsBlock;
 import ru.power_umc.forestxreborn.block.BlueSlabBlock;
 import ru.power_umc.forestxreborn.block.BlueRoseBlock;
@@ -478,8 +476,6 @@ public class ForestModBlocks {
 	public static final RegistryObject<Block> EUCALYPTUS_BUTTON = REGISTRY.register("eucalyptus_button", () -> new EucalyptusButtonBlock());
 	public static final RegistryObject<Block> DENSE_WEB = REGISTRY.register("dense_web", () -> new DenseWebBlock());
 	public static final RegistryObject<Block> DENSE_WEB_WITH_SPIDER = REGISTRY.register("dense_web_with_spider", () -> new DenseWebWithSpiderBlock());
-	public static final RegistryObject<Block> BLUEBERRY_BUSH_0 = REGISTRY.register("blueberry_bush_0", () -> new BlueberryBush0Block());
-	public static final RegistryObject<Block> BLUEBERRY_BUSH_1 = REGISTRY.register("blueberry_bush_1", () -> new BlueberryBush1Block());
 	public static final RegistryObject<Block> LETTUCE_STAGE_0 = REGISTRY.register("lettuce_stage_0", () -> new LettuceStage0Block());
 	public static final RegistryObject<Block> LETTUCE_STAGE_1 = REGISTRY.register("lettuce_stage_1", () -> new LettuceStage1Block());
 	public static final RegistryObject<Block> LETTUCE_STAGE_2 = REGISTRY.register("lettuce_stage_2", () -> new LettuceStage2Block());

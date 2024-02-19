@@ -3,9 +3,9 @@
   "biomes": [
     "taiga",
     "old_growth_pine_taiga",
-    "forest:mixed_forest",
+    "old_growth_spruce_taiga",
     "snowy_taiga",
-    "old_growth_spruce_taiga"
+    "forest:mixed_forest"
   ],
   "features": "forest:blueberries_bush_feature",
   "step": "surface_structures"
