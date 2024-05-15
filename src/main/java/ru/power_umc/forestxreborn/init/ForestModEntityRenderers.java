@@ -34,11 +34,10 @@ import net.minecraftforge.api.distmarker.Dist;
 public class ForestModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {
-		event.registerEntityRenderer(ForestModEntities.RACCON.get(), RacconRenderer::new);
-		event.registerEntityRenderer(ForestModEntities.BROWN_BEAR.get(), BrownBearRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SNAIL.get(), SnailRenderer::new);
-		event.registerEntityRenderer(ForestModEntities.FENNEC.get(), FennecRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.FIRE_SALAMANDER.get(), FireSalamanderRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.FENNEC.get(), FennecRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.BROWN_BEAR.get(), BrownBearRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.ORANGE_BUTTERFLY.get(), OrangeButterflyRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.PINK_BUTTERFLY.get(), PinkButterflyRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.BLUE_BUTTERFLY.get(), BlueButterflyRenderer::new);
@@ -50,6 +49,7 @@ public class ForestModEntityRenderers {
 		event.registerEntityRenderer(ForestModEntities.CROCODILE.get(), CrocodileRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.TUMBLEWEED.get(), TumbleweedRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.SCORPION.get(), ScorpionRenderer::new);
+		event.registerEntityRenderer(ForestModEntities.RACCON.get(), RacconRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.BIG_SKELETON.get(), BigSkeletonRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.BIG_WITHER_SKELETON.get(), BigWitherSkeletonRenderer::new);
 		event.registerEntityRenderer(ForestModEntities.BABY_SKELETON.get(), BabySkeletonRenderer::new);

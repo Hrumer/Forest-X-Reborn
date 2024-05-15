@@ -10,8 +10,8 @@
   ],
   "spawners": {
     "type": "forest:brown_bear",
-    "weight": 15,
+    "weight": 14,
     "minCount": 1,
-    "maxCount": 1
+    "maxCount": 3
   }
 }

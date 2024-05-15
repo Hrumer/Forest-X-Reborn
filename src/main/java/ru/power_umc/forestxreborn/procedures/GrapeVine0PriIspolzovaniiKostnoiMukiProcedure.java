@@ -18,9 +18,9 @@ import java.util.Map;
 
 public class GrapeVine0PriIspolzovaniiKostnoiMukiProcedure {
 	public static void execute(LevelAccessor world, double x, double y, double z) {
-		ForestMod.queueServerWork(2, () -> {
+		ForestMod.queueServerWork(1, () -> {
 			if ((world.getBlockState(BlockPos.containing(x, y, z))).getBlock() == ForestModBlocks.GRAPE_VINE_0.get()) {
-				if (Math.random() <= 0.5) {
+				if (Math.random() <= 0.6) {
 					if (((world.getBlockState(BlockPos.containing(x + 1, y - 1, z))).is(BlockTags.create(new ResourceLocation("minecraft:logs")))
 							|| (world.getBlockState(BlockPos.containing(x, y - 1, z - 1))).is(BlockTags.create(new ResourceLocation("minecraft:logs")))
 							|| (world.getBlockState(BlockPos.containing(x - 1, y - 1, z))).is(BlockTags.create(new ResourceLocation("minecraft:logs")))

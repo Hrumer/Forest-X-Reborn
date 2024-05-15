@@ -9,7 +9,6 @@ import ru.power_umc.forestxreborn.procedures.BlueberriesBushFeatureAdditionalGen
 import net.minecraft.world.phys.shapes.VoxelShape;
 import net.minecraft.world.phys.shapes.Shapes;
 import net.minecraft.world.phys.shapes.CollisionContext;
-import net.minecraft.world.level.storage.loot.LootParams;
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
 import net.minecraft.world.level.block.SoundType;
@@ -20,25 +19,14 @@ import net.minecraft.world.level.LevelReader;
 import net.minecraft.world.level.LevelAccessor;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.level.BlockGetter;
-import net.minecraft.world.item.TooltipFlag;
-import net.minecraft.world.item.ItemStack;
 import net.minecraft.util.RandomSource;
 import net.minecraft.server.level.ServerLevel;
-import net.minecraft.network.chat.Component;
 import net.minecraft.core.Direction;
 import net.minecraft.core.BlockPos;
-
-import java.util.List;
-import java.util.Collections;
 
 public class MulberrySaplingBlock extends Block implements BonemealableBlock {
 	public MulberrySaplingBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.GRASS).strength(1f, 0f).noCollission().noOcclusion().isRedstoneConductor((bs, br, bp) -> false));
-	}
-
-	@Override
-	public void appendHoverText(ItemStack itemstack, BlockGetter world, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, world, list, flag);
 	}
 
 	@Override
@@ -73,14 +61,6 @@ public class MulberrySaplingBlock extends Block implements BonemealableBlock {
 	}
 
 	@Override
-	public List<ItemStack> getDrops(BlockState state, LootParams.Builder builder) {
-		List<ItemStack> dropsOriginal = super.getDrops(state, builder);
-		if (!dropsOriginal.isEmpty())
-			return dropsOriginal;
-		return Collections.singletonList(new ItemStack(this, 1));
-	}
-
-	@Override
 	public void onPlace(BlockState blockstate, Level world, BlockPos pos, BlockState oldState, boolean moving) {
 		super.onPlace(blockstate, world, pos, oldState, moving);
 		world.scheduleTick(pos, this, 2400);
@@ -103,10 +83,7 @@ public class MulberrySaplingBlock extends Block implements BonemealableBlock {
 
 	@Override
 	public boolean isBonemealSuccess(Level world, RandomSource random, BlockPos pos, BlockState blockstate) {
-		int x = pos.getX();
-		int y = pos.getY();
-		int z = pos.getZ();
-		return MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.execute(world, x, y, z);
+		return MulberrySaplingUsloviieUspieshnoghoPrimienieniiaKostnoiMukiProcedure.execute(world, pos.getX(), pos.getY(), pos.getZ());
 	}
 
 	@Override

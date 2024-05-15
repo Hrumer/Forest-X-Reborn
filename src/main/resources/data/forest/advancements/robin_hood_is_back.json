@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "robin_hood_is_back": {
+    "robin_hood_is_back_0": {
       "trigger": "minecraft:impossible"
     }
   },

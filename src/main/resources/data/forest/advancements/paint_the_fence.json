@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "paint_the_fence": {
+    "paint_the_fence_0": {
       "trigger": "minecraft:impossible"
     }
   },

@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "just_add_the_glaze": {
+    "just_add_the_glaze_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

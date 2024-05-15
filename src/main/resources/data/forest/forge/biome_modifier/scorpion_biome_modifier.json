@@ -6,8 +6,8 @@
   ],
   "spawners": {
     "type": "forest:scorpion",
-    "weight": 20,
+    "weight": 60,
     "minCount": 1,
-    "maxCount": 1
+    "maxCount": 3
   }
 }

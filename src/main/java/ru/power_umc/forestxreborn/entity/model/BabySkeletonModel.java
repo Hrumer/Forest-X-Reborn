@@ -8,8 +8,8 @@ import software.bernie.geckolib.constant.DataTickets;
 
 import ru.power_umc.forestxreborn.entity.BabySkeletonEntity;
 
+import net.minecraft.util.Mth;
 import net.minecraft.resources.ResourceLocation;
-import net.minecraft.client.Minecraft;
 
 public class BabySkeletonModel extends GeoModel<BabySkeletonEntity> {
 	@Override
@@ -31,10 +31,9 @@ public class BabySkeletonModel extends GeoModel<BabySkeletonEntity> {
 	public void setCustomAnimations(BabySkeletonEntity animatable, long instanceId, AnimationState animationState) {
 		CoreGeoBone head = getAnimationProcessor().getBone("animation.common.look_at_target");
 		if (head != null) {
-			int unpausedMultiplier = !Minecraft.getInstance().isPaused() ? 1 : 0;
 			EntityModelData entityData = (EntityModelData) animationState.getData(DataTickets.ENTITY_MODEL_DATA);
-			head.setRotX(entityData.headPitch() * ((float) Math.PI / 180F) * unpausedMultiplier);
-			head.setRotY(entityData.netHeadYaw() * ((float) Math.PI / 180F) * unpausedMultiplier);
+			head.setRotX(entityData.headPitch() * Mth.DEG_TO_RAD);
+			head.setRotY(entityData.netHeadYaw() * Mth.DEG_TO_RAD);
 		}
 
 	}

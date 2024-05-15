@@ -9,18 +9,15 @@ import net.minecraftforge.network.PlayMessages;
 import net.minecraftforge.network.NetworkHooks;
 
 import net.minecraft.world.level.levelgen.Heightmap;
-import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.crafting.Ingredient;
 import net.minecraft.world.item.Items;
 import net.minecraft.world.item.ItemStack;
 import net.minecraft.world.entity.animal.Animal;
 import net.minecraft.world.entity.ai.goal.TemptGoal;
-import net.minecraft.world.entity.ai.goal.RemoveBlockGoal;
 import net.minecraft.world.entity.ai.goal.RandomStrollGoal;
 import net.minecraft.world.entity.ai.goal.RandomLookAroundGoal;
-import net.minecraft.world.entity.ai.goal.OpenDoorGoal;
-import net.minecraft.world.entity.ai.goal.LeapAtTargetGoal;
+import net.minecraft.world.entity.ai.goal.PanicGoal;
 import net.minecraft.world.entity.ai.goal.FollowParentGoal;
 import net.minecraft.world.entity.ai.goal.FloatGoal;
 import net.minecraft.world.entity.ai.goal.BreedGoal;
@@ -50,7 +47,6 @@ public class RacconEntity extends Animal {
 		setMaxUpStep(0.6f);
 		xpReward = 10;
 		setNoAi(false);
-		setPersistenceRequired();
 	}
 
 	@Override
@@ -61,26 +57,18 @@ public class RacconEntity extends Animal {
 	@Override
 	protected void registerGoals() {
 		super.registerGoals();
-		this.getNavigation().getNodeEvaluator().setCanOpenDoors(true);
-		this.goalSelector.addGoal(1, new TemptGoal(this, 1, Ingredient.of(ForestModItems.BLUEBERRY.get()), false));
+		this.goalSelector.addGoal(1, new PanicGoal(this, 1.2));
 		this.goalSelector.addGoal(2, new FollowParentGoal(this, 1));
 		this.goalSelector.addGoal(3, new BreedGoal(this, 1));
-		this.goalSelector.addGoal(4, new RemoveBlockGoal(Blocks.CHEST, this, 1, (int) 4));
-		this.goalSelector.addGoal(5, new OpenDoorGoal(this, true));
-		this.goalSelector.addGoal(6, new RandomStrollGoal(this, 1));
-		this.goalSelector.addGoal(7, new RandomLookAroundGoal(this));
-		this.goalSelector.addGoal(8, new FloatGoal(this));
-		this.goalSelector.addGoal(9, new LeapAtTargetGoal(this, (float) 0.5));
+		this.goalSelector.addGoal(4, new RandomStrollGoal(this, 0.8));
+		this.goalSelector.addGoal(5, new TemptGoal(this, 1, Ingredient.of(ForestModItems.BLUEBERRY.get()), false));
+		this.goalSelector.addGoal(6, new RandomLookAroundGoal(this));
+		this.goalSelector.addGoal(7, new FloatGoal(this));
 	}
 
 	@Override
 	public MobType getMobType() {
 		return MobType.UNDEFINED;
-	}
-
-	@Override
-	public boolean removeWhenFarAway(double distanceToClosestPlayer) {
-		return false;
 	}
 
 	@Override
@@ -112,7 +100,7 @@ public class RacconEntity extends Animal {
 
 	public static AttributeSupplier.Builder createAttributes() {
 		AttributeSupplier.Builder builder = Mob.createMobAttributes();
-		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.25);
+		builder = builder.add(Attributes.MOVEMENT_SPEED, 0.23);
 		builder = builder.add(Attributes.MAX_HEALTH, 10);
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 3);

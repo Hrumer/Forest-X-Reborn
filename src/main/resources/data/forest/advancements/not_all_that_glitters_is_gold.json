@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "not_all_that_glitters_is_gold": {
+    "not_all_that_glitters_is_gold_0": {
       "trigger": "minecraft:inventory_changed",
       "conditions": {
         "items": [

@@ -3,7 +3,7 @@
   "biomes": "flower_forest",
   "spawners": {
     "type": "forest:blue_butterfly",
-    "weight": 5,
+    "weight": 4,
     "minCount": 1,
     "maxCount": 2
   }

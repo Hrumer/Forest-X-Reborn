@@ -56,7 +56,7 @@ public class QuiverItemInInventoryTickProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) quiverSlot, itemstack));
+							}.getItemStack((int) quiverSlot, itemstack)).copy();
 							_setstack.setCount(1);
 							entity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable _modHandler)
@@ -73,7 +73,7 @@ public class QuiverItemInInventoryTickProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) quiverSlot, itemstack));
+							}.getItemStack((int) quiverSlot, itemstack)).copy();
 							final int _sltid = (int) quiverSlot;
 							_setstack.setCount((int) ((new Object() {
 								public ItemStack getItemStack(int sltid, ItemStack _isc) {
@@ -132,7 +132,7 @@ public class QuiverItemInInventoryTickProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) quiverSlot, itemstack));
+							}.getItemStack((int) quiverSlot, itemstack)).copy();
 							_setstack.setCount(1);
 							entity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable _modHandler)
@@ -149,7 +149,7 @@ public class QuiverItemInInventoryTickProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) quiverSlot, itemstack));
+							}.getItemStack((int) quiverSlot, itemstack)).copy();
 							final int _sltid = (int) quiverSlot;
 							_setstack.setCount((int) ((new Object() {
 								public ItemStack getItemStack(int sltid, ItemStack _isc) {
@@ -208,7 +208,7 @@ public class QuiverItemInInventoryTickProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) quiverSlot, itemstack));
+							}.getItemStack((int) quiverSlot, itemstack)).copy();
 							_setstack.setCount(1);
 							entity.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> {
 								if (capability instanceof IItemHandlerModifiable _modHandler)
@@ -225,7 +225,7 @@ public class QuiverItemInInventoryTickProcedure {
 									});
 									return _retval.get();
 								}
-							}.getItemStack((int) quiverSlot, itemstack));
+							}.getItemStack((int) quiverSlot, itemstack)).copy();
 							final int _sltid = (int) quiverSlot;
 							_setstack.setCount((int) ((new Object() {
 								public ItemStack getItemStack(int sltid, ItemStack _isc) {

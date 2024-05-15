@@ -15,7 +15,7 @@
     "hidden": true
   },
   "criteria": {
-    "out_of_the_fire_and_into_the_flames": {
+    "out_of_the_fire_and_into_the_flames_0": {
       "trigger": "minecraft:location",
       "conditions": {
         "player": [

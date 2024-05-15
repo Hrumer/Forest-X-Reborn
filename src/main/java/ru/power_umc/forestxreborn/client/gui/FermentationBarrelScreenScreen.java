@@ -117,11 +117,6 @@ public class FermentationBarrelScreenScreen extends AbstractContainerScreen<Ferm
 	}
 
 	@Override
-	public void onClose() {
-		super.onClose();
-	}
-
-	@Override
 	public void init() {
 		super.init();
 	}
