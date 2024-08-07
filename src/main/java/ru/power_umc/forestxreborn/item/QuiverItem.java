@@ -4,12 +4,9 @@ package ru.power_umc.forestxreborn.item;
 import ru.power_umc.forestxreborn.world.inventory.QuiverInventoryMenu;
 import ru.power_umc.forestxreborn.procedures.QuiverValueProcedure;
 import ru.power_umc.forestxreborn.procedures.QuiverItemInInventoryTickProcedure;
-import ru.power_umc.forestxreborn.item.inventory.QuiverInventoryCapability;
 
-import net.minecraftforge.network.NetworkHooks;
-import net.minecraftforge.items.ItemStackHandler;
-import net.minecraftforge.common.capabilities.ICapabilityProvider;
-import net.minecraftforge.common.capabilities.ForgeCapabilities;
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
@@ -27,9 +24,7 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.server.level.ServerPlayer;
 import net.minecraft.network.chat.Component;
 import net.minecraft.network.FriendlyByteBuf;
-import net.minecraft.nbt.CompoundTag;
-
-import javax.annotation.Nullable;
+import net.minecraft.client.Minecraft;
 
 import java.util.List;
 
@@ -46,9 +41,10 @@ public class QuiverItem extends Item {
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		Entity entity = itemstack.getEntityRepresentation();
+	@OnlyIn(Dist.CLIENT)
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, list, flag);
+		Entity entity = itemstack.getEntityRepresentation() != null ? itemstack.getEntityRepresentation() : Minecraft.getInstance().player;
 		list.add(Component.literal(QuiverValueProcedure.execute(itemstack)));
 	}
 
@@ -56,7 +52,7 @@ public class QuiverItem extends Item {
 	public InteractionResultHolder<ItemStack> use(Level world, Player entity, InteractionHand hand) {
 		InteractionResultHolder<ItemStack> ar = super.use(world, entity, hand);
 		if (entity instanceof ServerPlayer serverPlayer) {
-			NetworkHooks.openScreen(serverPlayer, new MenuProvider() {
+			serverPlayer.openMenu(new MenuProvider() {
 				@Override
 				public Component getDisplayName() {
 					return Component.literal("Quiver");
@@ -81,24 +77,5 @@ public class QuiverItem extends Item {
 	public void inventoryTick(ItemStack itemstack, Level world, Entity entity, int slot, boolean selected) {
 		super.inventoryTick(itemstack, world, entity, slot, selected);
 		QuiverItemInInventoryTickProcedure.execute(entity, itemstack);
-	}
-
-	@Override
-	public ICapabilityProvider initCapabilities(ItemStack stack, @Nullable CompoundTag compound) {
-		return new QuiverInventoryCapability();
-	}
-
-	@Override
-	public CompoundTag getShareTag(ItemStack stack) {
-		CompoundTag nbt = stack.getOrCreateTag();
-		stack.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> nbt.put("Inventory", ((ItemStackHandler) capability).serializeNBT()));
-		return nbt;
-	}
-
-	@Override
-	public void readShareTag(ItemStack stack, @Nullable CompoundTag nbt) {
-		super.readShareTag(stack, nbt);
-		if (nbt != null)
-			stack.getCapability(ForgeCapabilities.ITEM_HANDLER, null).ifPresent(capability -> ((ItemStackHandler) capability).deserializeNBT((CompoundTag) nbt.get("Inventory")));
 	}
 }

@@ -12,7 +12,15 @@ import net.minecraft.world.level.block.FallingBlock;
 import net.minecraft.world.level.BlockGetter;
 import net.minecraft.core.BlockPos;
 
+import com.mojang.serialization.MapCodec;
+
 public class AshCoverBlock extends FallingBlock {
+	public static final MapCodec<AshCoverBlock> CODEC = simpleCodec(properties -> new AshCoverBlock());
+
+	public MapCodec<AshCoverBlock> codec() {
+		return CODEC;
+	}
+
 	public AshCoverBlock() {
 		super(BlockBehaviour.Properties.of().sound(SoundType.SAND).strength(0.2f, 5f).requiresCorrectToolForDrops().noOcclusion().pushReaction(PushReaction.DESTROY).isRedstoneConductor((bs, br, bp) -> false));
 	}

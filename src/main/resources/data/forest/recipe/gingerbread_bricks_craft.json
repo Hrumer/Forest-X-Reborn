@@ -1,0 +1,21 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aaa",
+    "aba",
+    "aaa"
+  ],
+  "key": {
+    "a": {
+      "item": "forest:gingerbread_brick"
+    },
+    "b": {
+      "item": "minecraft:milk_bucket"
+    }
+  },
+  "result": {
+    "id": "forest:gingerbread_bricks",
+    "count": 1
+  }
+}

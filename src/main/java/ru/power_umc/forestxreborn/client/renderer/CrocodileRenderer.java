@@ -29,8 +29,7 @@ public class CrocodileRenderer extends GeoEntityRenderer<CrocodileEntity> {
 	}
 
 	@Override
-	public void preRender(PoseStack poseStack, CrocodileEntity entity, BakedGeoModel model, MultiBufferSource bufferSource, VertexConsumer buffer, boolean isReRender, float partialTick, int packedLight, int packedOverlay, float red, float green,
-			float blue, float alpha) {
+	public void preRender(PoseStack poseStack, CrocodileEntity entity, BakedGeoModel model, MultiBufferSource bufferSource, VertexConsumer buffer, boolean isReRender, float partialTick, int packedLight, int packedOverlay, int colour) {
 		Level world = entity.level();
 		double x = entity.getX();
 		double y = entity.getY();
@@ -38,6 +37,6 @@ public class CrocodileRenderer extends GeoEntityRenderer<CrocodileEntity> {
 		float scale = (float) Baby_ModelProcedure.execute(entity);
 		this.scaleHeight = scale;
 		this.scaleWidth = scale;
-		super.preRender(poseStack, entity, model, bufferSource, buffer, isReRender, partialTick, packedLight, packedOverlay, red, green, blue, alpha);
+		super.preRender(poseStack, entity, model, bufferSource, buffer, isReRender, partialTick, packedLight, packedOverlay, 0);
 	}
 }

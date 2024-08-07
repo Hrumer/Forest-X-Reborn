@@ -1,0 +1,48 @@
+modLoader="javafml"
+loaderVersion="[4,)"
+license="All Rights Reserved"
+
+[[mods]]
+modId="forest"
+version="1.4.5"
+displayName="Forest X Reborn"
+displayURL="https://power-umc.ru/minecraft-java-edition/mods/5-forest-x-reborn.html"
+logoFile="logo.png"
+credits="Created by Environment Studios"
+authors="Environment Studios"
+description="The revival of the legendary Forest X Second Edition addon, but only for Minecraft Java Edition. "
+
+# Start of user code block mod configuration
+# End of user code block mod configuration
+
+[[dependencies.forest]]
+    modId="neoforge"
+    type="required"
+    versionRange="[21.0.151,)"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.forest]]
+    modId="minecraft"
+    type="required"
+    versionRange="[1.21]"
+    ordering="AFTER"
+    side="BOTH"
+
+[[dependencies.forest]]
+    modId="geckolib"
+    type="required"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+[[dependencies.forest]]
+    modId="geckolib"
+    type="optional"
+    versionRange="[0,)"
+    ordering="NONE"
+    side="BOTH"
+
+
+# Start of user code block dependencies configuration
+# End of user code block dependencies configuration

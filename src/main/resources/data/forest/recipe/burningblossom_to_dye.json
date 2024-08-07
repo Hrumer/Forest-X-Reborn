@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "forest:burning_blossom"
+    }
+  ],
+  "result": {
+    "id": "minecraft:orange_dye",
+    "count": 1
+  }
+}

@@ -9,17 +9,17 @@ import net.minecraft.resources.ResourceLocation;
 public class TumbleweedModel extends GeoModel<TumbleweedEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(TumbleweedEntity entity) {
-		return new ResourceLocation("forest", "animations/tumbleweed.animation.json");
+		return ResourceLocation.fromNamespaceAndPath("forest", "animations/tumbleweed.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(TumbleweedEntity entity) {
-		return new ResourceLocation("forest", "geo/tumbleweed.geo.json");
+		return ResourceLocation.fromNamespaceAndPath("forest", "geo/tumbleweed.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(TumbleweedEntity entity) {
-		return new ResourceLocation("forest", "textures/entities/" + entity.getTexture() + ".png");
+		return ResourceLocation.fromNamespaceAndPath("forest", "textures/entities/" + entity.getTexture() + ".png");
 	}
 
 }

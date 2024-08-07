@@ -1,15 +1,16 @@
 
 package ru.power_umc.forestxreborn.item;
 
-import net.minecraftforge.registries.ForgeRegistries;
+import ru.power_umc.forestxreborn.ForestMod;
 
-import net.minecraft.world.item.RecordItem;
 import net.minecraft.world.item.Rarity;
 import net.minecraft.world.item.Item;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.resources.ResourceKey;
+import net.minecraft.core.registries.Registries;
 
-public class MusicDiscStrofaItem extends RecordItem {
+public class MusicDiscStrofaItem extends Item {
 	public MusicDiscStrofaItem() {
-		super(13, () -> ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("forest:record.strofa")), new Item.Properties().stacksTo(1).rarity(Rarity.RARE), 3520);
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.RARE).jukeboxPlayable(ResourceKey.create(Registries.JUKEBOX_SONG, ResourceLocation.fromNamespaceAndPath(ForestMod.MODID, "music_disc_strofa"))));
 	}
 }

@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "forest:wildflower"
+    }
+  ],
+  "result": {
+    "id": "minecraft:light_gray_dye",
+    "count": 1
+  }
+}

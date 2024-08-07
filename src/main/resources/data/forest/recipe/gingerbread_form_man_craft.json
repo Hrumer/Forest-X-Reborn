@@ -1,0 +1,18 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    " a ",
+    "aaa",
+    "a a"
+  ],
+  "key": {
+    "a": {
+      "item": "minecraft:iron_nugget"
+    }
+  },
+  "result": {
+    "id": "forest:gingerbread_form_man",
+    "count": 1
+  }
+}

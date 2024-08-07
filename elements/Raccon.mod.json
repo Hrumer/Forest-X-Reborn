@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "livingentity",
   "definition": {
     "mobName": "Racoon",
@@ -36,9 +36,11 @@
       "value": -5263441,
       "falpha": 0.0
     },
-    "creativeTab": {
-      "value": "CUSTOM:Mobs"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Mobs"
+      }
+    ],
     "isBoss": false,
     "bossBarColor": "PINK",
     "bossBarType": "PROGRESS",
@@ -162,6 +164,15 @@
         "value": "CUSTOM:OldGrowthOakForest"
       }
     ],
-    "spawnInDungeons": false
+    "spawnInDungeons": false,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ]
   }
 }

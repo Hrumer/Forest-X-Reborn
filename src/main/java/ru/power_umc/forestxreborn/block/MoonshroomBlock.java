@@ -20,13 +20,7 @@ import net.minecraft.core.BlockPos;
 
 public class MoonshroomBlock extends FlowerBlock {
 	public MoonshroomBlock() {
-		super(() -> MobEffects.INVISIBILITY, 200,
-				BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.FUNGUS).instabreak().lightLevel(s -> 5).noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
-	}
-
-	@Override
-	public int getEffectDuration() {
-		return 200;
+		super(MobEffects.INVISIBILITY, 200, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.FUNGUS).instabreak().lightLevel(s -> 5).noCollission().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

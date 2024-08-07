@@ -33,7 +33,7 @@ public class QuiverInventoryScreen extends AbstractContainerScreen<QuiverInvento
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
@@ -44,9 +44,9 @@ public class QuiverInventoryScreen extends AbstractContainerScreen<QuiverInvento
 		RenderSystem.enableBlend();
 		RenderSystem.defaultBlendFunc();
 
-		guiGraphics.blit(new ResourceLocation("forest:textures/screens/quiver_inv.png"), this.leftPos + -1, this.topPos + 0, 0, 0, -1, -1, -1, -1);
+		guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/quiver_inv.png"), this.leftPos + -1, this.topPos + 0, 0, 0, -1, -1, -1, -1);
 
-		guiGraphics.blit(new ResourceLocation("forest:textures/screens/quiver_inventory.png"), this.leftPos + -1, this.topPos + 0, 0, 0, 176, 166, 176, 166);
+		guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/quiver_inventory.png"), this.leftPos + -1, this.topPos + 0, 0, 0, 176, 166, 176, 166);
 
 		RenderSystem.disableBlend();
 	}
@@ -58,11 +58,6 @@ public class QuiverInventoryScreen extends AbstractContainerScreen<QuiverInvento
 			return true;
 		}
 		return super.keyPressed(key, b, c);
-	}
-
-	@Override
-	public void containerTick() {
-		super.containerTick();
 	}
 
 	@Override

@@ -21,7 +21,7 @@ import net.minecraft.core.BlockPos;
 
 public class BlackFenceGateBlock extends FenceGateBlock implements EntityBlock {
 	public BlackFenceGateBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape().forceSolidOn(), WoodType.OAK);
+		super(WoodType.OAK, BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape().forceSolidOn());
 	}
 
 	@Override

@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "forest:polar_bear_pelt"
+    }
+  },
+  "result": {
+    "id": "forest:polar_bear_carpet",
+    "count": 1
+  }
+}

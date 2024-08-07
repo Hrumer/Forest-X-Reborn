@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "block",
   "definition": {
     "texture": "fermentation_barrel",
@@ -140,9 +140,11 @@
     "resistance": 10.0,
     "hasGravity": false,
     "isWaterloggable": false,
-    "creativeTab": {
-      "value": "CUSTOM:InteractionBlocks"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:InteractionBlocks"
+      }
+    ],
     "destroyTool": "axe",
     "customDrop": {
       "value": ""
@@ -199,7 +201,7 @@
     },
     "luminance": 0,
     "unbreakable": false,
-    "breakHarvestLevel": 0,
+    "vanillaToolTier": "NONE",
     "isBonemealable": false,
     "hasInventory": true,
     "guiBoundTo": "FermentationBarrelScreen",

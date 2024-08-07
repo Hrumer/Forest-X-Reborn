@@ -3,9 +3,9 @@ package ru.power_umc.forestxreborn.block;
 
 import ru.power_umc.forestxreborn.init.ForestModBlocks;
 
-import net.minecraftforge.client.event.RegisterColorHandlersEvent;
-import net.minecraftforge.api.distmarker.OnlyIn;
-import net.minecraftforge.api.distmarker.Dist;
+import net.neoforged.neoforge.client.event.RegisterColorHandlersEvent;
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.block.state.BlockBehaviour;
