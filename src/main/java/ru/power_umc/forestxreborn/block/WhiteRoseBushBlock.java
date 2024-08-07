@@ -1,8 +1,6 @@
 
 package ru.power_umc.forestxreborn.block;
 
-import net.minecraftforge.common.PlantType;
-
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;

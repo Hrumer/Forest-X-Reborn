@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "forest:polished_sandslate"
+  },
+  "result": {
+    "id": "forest:polished_sandslate_stairs"
+  }
+}

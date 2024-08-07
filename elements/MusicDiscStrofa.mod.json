@@ -1,14 +1,16 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "musicdisc",
   "definition": {
     "name": "Music Disc",
     "rarity": "RARE",
     "texture": "music_disc_strofa",
     "description": "bxkqq - strofa",
-    "creativeTab": {
-      "value": "CUSTOM:Misc"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:Misc"
+      }
+    ],
     "specialInformation": {
       "fixedValue": []
     },

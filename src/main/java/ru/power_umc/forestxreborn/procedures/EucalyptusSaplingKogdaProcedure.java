@@ -50,7 +50,7 @@ public class EucalyptusSaplingKogdaProcedure {
 				&& (world.getBlockState(BlockPos.containing(x, y + 8, z))).getBlock() == Blocks.AIR) {
 			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof ServerLevel _serverworld) {
-				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("forest", "eucalyptus_tree"));
+				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("forest", "eucalyptus_tree"));
 				if (template != null) {
 					template.placeInWorld(_serverworld, BlockPos.containing(x - 2, y, z - 4), BlockPos.containing(x - 2, y, z - 4), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 							_serverworld.random, 3);
@@ -70,7 +70,7 @@ public class EucalyptusSaplingKogdaProcedure {
 				&& (world.getBlockState(BlockPos.containing(x, y + 8, z))).getBlock() == Blocks.AIR) {
 			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof ServerLevel _serverworld) {
-				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("forest", "eucalyptus_tree"));
+				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("forest", "eucalyptus_tree"));
 				if (template != null) {
 					template.placeInWorld(_serverworld, BlockPos.containing(x - 2, y, z - 4), BlockPos.containing(x - 2, y, z - 4), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 							_serverworld.random, 3);
@@ -89,7 +89,7 @@ public class EucalyptusSaplingKogdaProcedure {
 				&& (world.getBlockState(BlockPos.containing(x, y + 7, z))).getBlock() == Blocks.AIR && (world.getBlockState(BlockPos.containing(x, y + 8, z))).getBlock() == Blocks.AIR) {
 			world.setBlock(BlockPos.containing(x, y, z), Blocks.AIR.defaultBlockState(), 3);
 			if (world instanceof ServerLevel _serverworld) {
-				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(new ResourceLocation("forest", "eucalyptus_tree"));
+				StructureTemplate template = _serverworld.getStructureManager().getOrCreate(ResourceLocation.fromNamespaceAndPath("forest", "eucalyptus_tree"));
 				if (template != null) {
 					template.placeInWorld(_serverworld, BlockPos.containing(x - 2, y, z - 4), BlockPos.containing(x - 2, y, z - 4), new StructurePlaceSettings().setRotation(Rotation.NONE).setMirror(Mirror.NONE).setIgnoreEntities(false),
 							_serverworld.random, 3);

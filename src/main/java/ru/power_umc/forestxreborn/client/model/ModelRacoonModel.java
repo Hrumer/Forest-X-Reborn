@@ -22,7 +22,7 @@ import com.mojang.blaze3d.vertex.PoseStack;
 public class ModelRacoonModel<T extends Entity> extends EntityModel<T> {
 	// This layer location should be baked with EntityRendererProvider.Context in
 	// the entity renderer and passed into this model's constructor
-	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(new ResourceLocation("forest", "model_racoon_model"), "main");
+	public static final ModelLayerLocation LAYER_LOCATION = new ModelLayerLocation(ResourceLocation.fromNamespaceAndPath("forest", "model_racoon_model"), "main");
 	public final ModelPart body;
 	public final ModelPart head;
 	public final ModelPart leg0;
@@ -61,14 +61,14 @@ public class ModelRacoonModel<T extends Entity> extends EntityModel<T> {
 	}
 
 	@Override
-	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, float red, float green, float blue, float alpha) {
-		body.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
-		head.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
-		leg0.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
-		leg1.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
-		leg2.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
-		leg3.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
-		tail.render(poseStack, vertexConsumer, packedLight, packedOverlay, red, green, blue, alpha);
+	public void renderToBuffer(PoseStack poseStack, VertexConsumer vertexConsumer, int packedLight, int packedOverlay, int rgb) {
+		body.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
+		head.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
+		leg0.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
+		leg1.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
+		leg2.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
+		leg3.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
+		tail.render(poseStack, vertexConsumer, packedLight, packedOverlay, rgb);
 	}
 
 	public void setupAnim(T entity, float limbSwing, float limbSwingAmount, float ageInTicks, float netHeadYaw, float headPitch) {

@@ -9,17 +9,17 @@ import net.minecraft.resources.ResourceLocation;
 public class CalibriModel extends GeoModel<CalibriEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(CalibriEntity entity) {
-		return new ResourceLocation("forest", "animations/calibri.animation.json");
+		return ResourceLocation.fromNamespaceAndPath("forest", "animations/calibri.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(CalibriEntity entity) {
-		return new ResourceLocation("forest", "geo/calibri.geo.json");
+		return ResourceLocation.fromNamespaceAndPath("forest", "geo/calibri.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(CalibriEntity entity) {
-		return new ResourceLocation("forest", "textures/entities/" + entity.getTexture() + ".png");
+		return ResourceLocation.fromNamespaceAndPath("forest", "textures/entities/" + entity.getTexture() + ".png");
 	}
 
 }

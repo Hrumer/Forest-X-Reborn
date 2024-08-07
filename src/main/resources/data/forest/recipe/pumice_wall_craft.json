@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "forest:pumice"
+  },
+  "result": {
+    "id": "forest:pumice_wall"
+  }
+}

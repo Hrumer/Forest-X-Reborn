@@ -2,19 +2,15 @@
 package ru.power_umc.forestxreborn.entity;
 
 import software.bernie.geckolib.util.GeckoLibUtil;
-import software.bernie.geckolib.core.object.PlayState;
-import software.bernie.geckolib.core.animation.RawAnimation;
-import software.bernie.geckolib.core.animation.AnimationState;
-import software.bernie.geckolib.core.animation.AnimationController;
-import software.bernie.geckolib.core.animation.AnimatableManager;
-import software.bernie.geckolib.core.animatable.instance.AnimatableInstanceCache;
+import software.bernie.geckolib.animation.RawAnimation;
+import software.bernie.geckolib.animation.PlayState;
+import software.bernie.geckolib.animation.AnimationState;
+import software.bernie.geckolib.animation.AnimationController;
+import software.bernie.geckolib.animation.AnimatableManager;
+import software.bernie.geckolib.animatable.instance.AnimatableInstanceCache;
 import software.bernie.geckolib.animatable.GeoEntity;
 
-import ru.power_umc.forestxreborn.init.ForestModEntities;
-
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.network.PlayMessages;
-import net.minecraftforge.network.NetworkHooks;
+import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
 
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
@@ -28,7 +24,6 @@ import net.minecraft.world.entity.ai.goal.MeleeAttackGoal;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 import net.minecraft.world.entity.ai.attributes.AttributeSupplier;
 import net.minecraft.world.entity.Pose;
-import net.minecraft.world.entity.MobType;
 import net.minecraft.world.entity.Mob;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.EntityType;
@@ -39,9 +34,8 @@ import net.minecraft.resources.ResourceLocation;
 import net.minecraft.network.syncher.SynchedEntityData;
 import net.minecraft.network.syncher.EntityDataSerializers;
 import net.minecraft.network.syncher.EntityDataAccessor;
-import net.minecraft.network.protocol.game.ClientGamePacketListener;
-import net.minecraft.network.protocol.Packet;
 import net.minecraft.nbt.CompoundTag;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 public class BigWitherSkeletonEntity extends Monster implements GeoEntity {
@@ -54,23 +48,18 @@ public class BigWitherSkeletonEntity extends Monster implements GeoEntity {
 	private long lastSwing;
 	public String animationprocedure = "empty";
 
-	public BigWitherSkeletonEntity(PlayMessages.SpawnEntity packet, Level world) {
-		this(ForestModEntities.BIG_WITHER_SKELETON.get(), world);
-	}
-
 	public BigWitherSkeletonEntity(EntityType<BigWitherSkeletonEntity> type, Level world) {
 		super(type, world);
 		xpReward = 50;
 		setNoAi(false);
-		setMaxUpStep(0.6f);
 	}
 
 	@Override
-	protected void defineSynchedData() {
-		super.defineSynchedData();
-		this.entityData.define(SHOOT, false);
-		this.entityData.define(ANIMATION, "undefined");
-		this.entityData.define(TEXTURE, "big_wither_skeleton");
+	protected void defineSynchedData(SynchedEntityData.Builder builder) {
+		super.defineSynchedData(builder);
+		builder.define(SHOOT, false);
+		builder.define(ANIMATION, "undefined");
+		builder.define(TEXTURE, "big_wither_skeleton");
 	}
 
 	public void setTexture(String texture) {
@@ -82,17 +71,12 @@ public class BigWitherSkeletonEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	public Packet<ClientGamePacketListener> getAddEntityPacket() {
-		return NetworkHooks.getEntitySpawningPacket(this);
-	}
-
-	@Override
 	protected void registerGoals() {
 		super.registerGoals();
 		this.goalSelector.addGoal(1, new MeleeAttackGoal(this, 1.2, false) {
 			@Override
-			protected double getAttackReachSqr(LivingEntity entity) {
-				return this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth();
+			protected boolean canPerformAttack(LivingEntity entity) {
+				return this.isTimeToAttack() && this.mob.distanceToSqr(entity) < (this.mob.getBbWidth() * this.mob.getBbWidth() + entity.getBbWidth()) && this.mob.getSensing().hasLineOfSight(entity);
 			}
 		});
 		this.targetSelector.addGoal(2, new HurtByTargetGoal(this));
@@ -102,28 +86,23 @@ public class BigWitherSkeletonEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	public MobType getMobType() {
-		return MobType.UNDEAD;
-	}
-
-	@Override
 	public SoundEvent getAmbientSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither_skeleton.ambient"));
+		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.wither_skeleton.ambient"));
 	}
 
 	@Override
 	public void playStepSound(BlockPos pos, BlockState blockIn) {
-		this.playSound(ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither_skeleton.step")), 0.15f, 1);
+		this.playSound(BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.wither_skeleton.step")), 0.15f, 1);
 	}
 
 	@Override
 	public SoundEvent getHurtSound(DamageSource ds) {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither_skeleton.hurt"));
+		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.wither_skeleton.hurt"));
 	}
 
 	@Override
 	public SoundEvent getDeathSound() {
-		return ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("entity.wither_skeleton.death"));
+		return BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("entity.wither_skeleton.death"));
 	}
 
 	@Override
@@ -146,11 +125,11 @@ public class BigWitherSkeletonEntity extends Monster implements GeoEntity {
 	}
 
 	@Override
-	public EntityDimensions getDimensions(Pose p_33597_) {
-		return super.getDimensions(p_33597_).scale((float) 1);
+	public EntityDimensions getDefaultDimensions(Pose pose) {
+		return super.getDefaultDimensions(pose).scale(1f);
 	}
 
-	public static void init() {
+	public static void init(RegisterSpawnPlacementsEvent event) {
 	}
 
 	public static AttributeSupplier.Builder createAttributes() {
@@ -160,6 +139,7 @@ public class BigWitherSkeletonEntity extends Monster implements GeoEntity {
 		builder = builder.add(Attributes.ARMOR, 0);
 		builder = builder.add(Attributes.ATTACK_DAMAGE, 6);
 		builder = builder.add(Attributes.FOLLOW_RANGE, 16);
+		builder = builder.add(Attributes.STEP_HEIGHT, 0.6);
 		builder = builder.add(Attributes.ATTACK_KNOCKBACK, 0.3);
 		return builder;
 	}
@@ -194,14 +174,24 @@ public class BigWitherSkeletonEntity extends Monster implements GeoEntity {
 		return PlayState.CONTINUE;
 	}
 
+	String prevAnim = "empty";
+
 	private PlayState procedurePredicate(AnimationState event) {
+		if (!this.animationprocedure.equals(prevAnim) && !this.animationprocedure.equals("empty")) {
+			prevAnim = this.animationprocedure;
+			event.getController().forceAnimationReset();
+			event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
+			return PlayState.CONTINUE;
+		}
 		if (!animationprocedure.equals("empty") && event.getController().getAnimationState() == AnimationController.State.STOPPED) {
+			prevAnim = this.animationprocedure;
 			event.getController().setAnimation(RawAnimation.begin().thenPlay(this.animationprocedure));
 			if (event.getController().getAnimationState() == AnimationController.State.STOPPED) {
 				this.animationprocedure = "empty";
 				event.getController().forceAnimationReset();
 			}
 		} else if (animationprocedure.equals("empty")) {
+			prevAnim = "empty";
 			return PlayState.STOP;
 		}
 		return PlayState.CONTINUE;
@@ -212,7 +202,7 @@ public class BigWitherSkeletonEntity extends Monster implements GeoEntity {
 		++this.deathTime;
 		if (this.deathTime == 20) {
 			this.remove(BigWitherSkeletonEntity.RemovalReason.KILLED);
-			this.dropExperience();
+			this.dropExperience(null);
 		}
 	}
 

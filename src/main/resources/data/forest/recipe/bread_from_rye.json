@@ -1,0 +1,16 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "category": "misc",
+  "pattern": [
+    "aa"
+  ],
+  "key": {
+    "a": {
+      "item": "forest:rye"
+    }
+  },
+  "result": {
+    "id": "minecraft:bread",
+    "count": 1
+  }
+}

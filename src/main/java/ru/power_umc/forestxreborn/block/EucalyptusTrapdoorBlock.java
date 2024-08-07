@@ -13,7 +13,7 @@ import net.minecraft.core.BlockPos;
 
 public class EucalyptusTrapdoorBlock extends TrapDoorBlock {
 	public EucalyptusTrapdoorBlock() {
-		super(BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape(), BlockSetType.OAK);
+		super(BlockSetType.OAK, BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).noOcclusion().isRedstoneConductor((bs, br, bp) -> false).dynamicShape());
 	}
 
 	@Override

@@ -9,17 +9,17 @@ import net.minecraft.resources.ResourceLocation;
 public class CrocodileModel extends GeoModel<CrocodileEntity> {
 	@Override
 	public ResourceLocation getAnimationResource(CrocodileEntity entity) {
-		return new ResourceLocation("forest", "animations/crocodile.animation.json");
+		return ResourceLocation.fromNamespaceAndPath("forest", "animations/crocodile.animation.json");
 	}
 
 	@Override
 	public ResourceLocation getModelResource(CrocodileEntity entity) {
-		return new ResourceLocation("forest", "geo/crocodile.geo.json");
+		return ResourceLocation.fromNamespaceAndPath("forest", "geo/crocodile.geo.json");
 	}
 
 	@Override
 	public ResourceLocation getTextureResource(CrocodileEntity entity) {
-		return new ResourceLocation("forest", "textures/entities/" + entity.getTexture() + ".png");
+		return ResourceLocation.fromNamespaceAndPath("forest", "textures/entities/" + entity.getTexture() + ".png");
 	}
 
 }

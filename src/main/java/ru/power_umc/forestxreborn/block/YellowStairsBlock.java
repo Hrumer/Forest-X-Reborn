@@ -21,17 +21,12 @@ import net.minecraft.core.BlockPos;
 
 public class YellowStairsBlock extends StairBlock implements EntityBlock {
 	public YellowStairsBlock() {
-		super(() -> Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape());
+		super(Blocks.AIR.defaultBlockState(), BlockBehaviour.Properties.of().ignitedByLava().instrument(NoteBlockInstrument.BASS).sound(SoundType.WOOD).strength(2f, 3f).dynamicShape());
 	}
 
 	@Override
 	public float getExplosionResistance() {
 		return 3f;
-	}
-
-	@Override
-	public boolean isRandomlyTicking(BlockState state) {
-		return false;
 	}
 
 	@Override

@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "animatedentity",
   "definition": {
     "mobName": "Rat",
@@ -147,6 +147,15 @@
     "rangedAttackInterval": 20,
     "rangedAttackRadius": 10.0,
     "height": 0.25,
+    "raidSpawnsCount": [
+      4,
+      3,
+      3,
+      4,
+      4,
+      4,
+      2
+    ],
     "spawnThisMob": true,
     "doesDespawnWhenIdle": true,
     "spawningProbability": 12,

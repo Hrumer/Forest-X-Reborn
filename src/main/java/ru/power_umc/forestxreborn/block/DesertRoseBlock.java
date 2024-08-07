@@ -1,8 +1,6 @@
 
 package ru.power_umc.forestxreborn.block;
 
-import net.minecraftforge.common.PlantType;
-
 import net.minecraft.world.level.material.PushReaction;
 import net.minecraft.world.level.material.MapColor;
 import net.minecraft.world.level.block.state.BlockState;
@@ -18,12 +16,7 @@ import net.minecraft.core.BlockPos;
 
 public class DesertRoseBlock extends FlowerBlock {
 	public DesertRoseBlock() {
-		super(() -> MobEffects.CONFUSION, 100, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollission().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
-	}
-
-	@Override
-	public int getEffectDuration() {
-		return 100;
+		super(MobEffects.CONFUSION, 100, BlockBehaviour.Properties.of().mapColor(MapColor.PLANT).sound(SoundType.GRASS).instabreak().noCollission().replaceable().offsetType(BlockBehaviour.OffsetType.XZ).pushReaction(PushReaction.DESTROY));
 	}
 
 	@Override

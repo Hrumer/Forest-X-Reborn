@@ -25,12 +25,12 @@ import ru.power_umc.forestxreborn.client.renderer.BigSkeletonRenderer;
 import ru.power_umc.forestxreborn.client.renderer.BabyWitherSkeletonRenderer;
 import ru.power_umc.forestxreborn.client.renderer.BabySkeletonRenderer;
 
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.client.event.EntityRenderersEvent;
-import net.minecraftforge.api.distmarker.Dist;
+import net.neoforged.neoforge.client.event.EntityRenderersEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.api.distmarker.Dist;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD, value = Dist.CLIENT)
 public class ForestModEntityRenderers {
 	@SubscribeEvent
 	public static void registerEntityRenderers(EntityRenderersEvent.RegisterRenderers event) {

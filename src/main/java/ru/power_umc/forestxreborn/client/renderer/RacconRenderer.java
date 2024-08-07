@@ -29,6 +29,6 @@ public class RacconRenderer extends MobRenderer<RacconEntity, ModelRacoonModel<R
 
 	@Override
 	public ResourceLocation getTextureLocation(RacconEntity entity) {
-		return new ResourceLocation("forest:textures/entities/racoon.png");
+		return ResourceLocation.parse("forest:textures/entities/racoon.png");
 	}
 }

@@ -3,11 +3,10 @@ package ru.power_umc.forestxreborn.procedures;
 import ru.power_umc.forestxreborn.init.ForestModItems;
 import ru.power_umc.forestxreborn.init.ForestModBlocks;
 
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.eventbus.api.Event;
-import net.minecraftforge.event.entity.player.PlayerInteractEvent;
+import net.neoforged.neoforge.event.entity.player.PlayerInteractEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
+import net.neoforged.bus.api.Event;
 
 import net.minecraft.world.level.block.state.properties.IntegerProperty;
 import net.minecraft.world.level.block.state.BlockState;
@@ -21,11 +20,12 @@ import net.minecraft.world.InteractionHand;
 import net.minecraft.sounds.SoundSource;
 import net.minecraft.server.level.ServerLevel;
 import net.minecraft.resources.ResourceLocation;
+import net.minecraft.core.registries.BuiltInRegistries;
 import net.minecraft.core.BlockPos;
 
 import javax.annotation.Nullable;
 
-@Mod.EventBusSubscriber
+@EventBusSubscriber
 public class GrapeVine1PriShchielchkiePKMPoBlokuProcedure {
 	@SubscribeEvent
 	public static void onRightClickBlock(PlayerInteractEvent.RightClickBlock event) {
@@ -53,9 +53,9 @@ public class GrapeVine1PriShchielchkiePKMPoBlokuProcedure {
 			}
 			if (world instanceof Level _level) {
 				if (!_level.isClientSide()) {
-					_level.playSound(null, BlockPos.containing(x, y, z), ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.sweet_berry_bush.pick_berries")), SoundSource.NEUTRAL, 1, 1);
+					_level.playSound(null, BlockPos.containing(x, y, z), BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.sweet_berry_bush.pick_berries")), SoundSource.NEUTRAL, 1, 1);
 				} else {
-					_level.playLocalSound(x, y, z, ForgeRegistries.SOUND_EVENTS.getValue(new ResourceLocation("block.sweet_berry_bush.pick_berries")), SoundSource.NEUTRAL, 1, 1, false);
+					_level.playLocalSound(x, y, z, BuiltInRegistries.SOUND_EVENT.get(ResourceLocation.parse("block.sweet_berry_bush.pick_berries")), SoundSource.NEUTRAL, 1, 1, false);
 				}
 			}
 			if (world instanceof ServerLevel _level) {

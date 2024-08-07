@@ -29,8 +29,7 @@ public class PinkButterflyRenderer extends GeoEntityRenderer<PinkButterflyEntity
 	}
 
 	@Override
-	public void preRender(PoseStack poseStack, PinkButterflyEntity entity, BakedGeoModel model, MultiBufferSource bufferSource, VertexConsumer buffer, boolean isReRender, float partialTick, int packedLight, int packedOverlay, float red, float green,
-			float blue, float alpha) {
+	public void preRender(PoseStack poseStack, PinkButterflyEntity entity, BakedGeoModel model, MultiBufferSource bufferSource, VertexConsumer buffer, boolean isReRender, float partialTick, int packedLight, int packedOverlay, int colour) {
 		Level world = entity.level();
 		double x = entity.getX();
 		double y = entity.getY();
@@ -38,6 +37,6 @@ public class PinkButterflyRenderer extends GeoEntityRenderer<PinkButterflyEntity
 		float scale = (float) Baby_ModelProcedure.execute(entity);
 		this.scaleHeight = scale;
 		this.scaleWidth = scale;
-		super.preRender(poseStack, entity, model, bufferSource, buffer, isReRender, partialTick, packedLight, packedOverlay, red, green, blue, alpha);
+		super.preRender(poseStack, entity, model, bufferSource, buffer, isReRender, partialTick, packedLight, packedOverlay, 0);
 	}
 }

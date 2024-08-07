@@ -1,5 +1,5 @@
 {
-  "_fv": 60,
+  "_fv": 66,
   "_type": "item",
   "definition": {
     "renderType": 0,
@@ -9,9 +9,11 @@
     "states": [],
     "name": "Quiver",
     "rarity": "COMMON",
-    "creativeTab": {
-      "value": "CUSTOM:ToolsAndArmor"
-    },
+    "creativeTabs": [
+      {
+        "value": "CUSTOM:ToolsAndArmor"
+      }
+    ],
     "stackSize": 1,
     "enchantability": 0,
     "useDuration": 0,
@@ -41,6 +43,7 @@
     },
     "enableRanged": false,
     "shootConstantly": false,
+    "rangedItemChargesPower": false,
     "projectile": {
       "value": "Arrow"
     },

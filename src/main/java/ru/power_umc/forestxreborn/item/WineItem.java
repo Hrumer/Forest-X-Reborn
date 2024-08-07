@@ -4,6 +4,9 @@ package ru.power_umc.forestxreborn.item;
 import ru.power_umc.forestxreborn.procedures.WineAlcoholMultiplierProcedure;
 import ru.power_umc.forestxreborn.procedures.WineAlcoholDescProcedure;
 
+import net.neoforged.api.distmarker.OnlyIn;
+import net.neoforged.api.distmarker.Dist;
+
 import net.minecraft.world.level.block.state.BlockState;
 import net.minecraft.world.level.Level;
 import net.minecraft.world.item.UseAnim;
@@ -17,12 +20,13 @@ import net.minecraft.world.entity.player.Player;
 import net.minecraft.world.entity.LivingEntity;
 import net.minecraft.world.entity.Entity;
 import net.minecraft.network.chat.Component;
+import net.minecraft.client.Minecraft;
 
 import java.util.List;
 
 public class WineItem extends Item {
 	public WineItem() {
-		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(0).saturationMod(0.2f).alwaysEat().build()));
+		super(new Item.Properties().stacksTo(1).rarity(Rarity.COMMON).food((new FoodProperties.Builder()).nutrition(0).saturationModifier(0.2f).alwaysEdible().build()));
 	}
 
 	@Override
@@ -31,19 +35,20 @@ public class WineItem extends Item {
 	}
 
 	@Override
-	public int getUseDuration(ItemStack itemstack) {
+	public int getUseDuration(ItemStack itemstack, LivingEntity livingEntity) {
 		return 48;
 	}
 
 	@Override
-	public float getDestroySpeed(ItemStack par1ItemStack, BlockState par2Block) {
+	public float getDestroySpeed(ItemStack itemstack, BlockState state) {
 		return 0f;
 	}
 
 	@Override
-	public void appendHoverText(ItemStack itemstack, Level level, List<Component> list, TooltipFlag flag) {
-		super.appendHoverText(itemstack, level, list, flag);
-		Entity entity = itemstack.getEntityRepresentation();
+	@OnlyIn(Dist.CLIENT)
+	public void appendHoverText(ItemStack itemstack, Item.TooltipContext context, List<Component> list, TooltipFlag flag) {
+		super.appendHoverText(itemstack, context, list, flag);
+		Entity entity = itemstack.getEntityRepresentation() != null ? itemstack.getEntityRepresentation() : Minecraft.getInstance().player;
 		list.add(Component.literal(WineAlcoholDescProcedure.execute()));
 	}
 

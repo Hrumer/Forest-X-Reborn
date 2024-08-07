@@ -26,128 +26,125 @@ import ru.power_umc.forestxreborn.entity.BabyWitherSkeletonEntity;
 import ru.power_umc.forestxreborn.entity.BabySkeletonEntity;
 import ru.power_umc.forestxreborn.ForestMod;
 
-import net.minecraftforge.registries.RegistryObject;
-import net.minecraftforge.registries.ForgeRegistries;
-import net.minecraftforge.registries.DeferredRegister;
-import net.minecraftforge.fml.event.lifecycle.FMLCommonSetupEvent;
-import net.minecraftforge.fml.common.Mod;
-import net.minecraftforge.eventbus.api.SubscribeEvent;
-import net.minecraftforge.event.entity.EntityAttributeCreationEvent;
+import net.neoforged.neoforge.registries.DeferredRegister;
+import net.neoforged.neoforge.registries.DeferredHolder;
+import net.neoforged.neoforge.event.entity.RegisterSpawnPlacementsEvent;
+import net.neoforged.neoforge.event.entity.EntityAttributeCreationEvent;
+import net.neoforged.fml.common.EventBusSubscriber;
+import net.neoforged.bus.api.SubscribeEvent;
 
 import net.minecraft.world.entity.MobCategory;
 import net.minecraft.world.entity.EntityType;
 import net.minecraft.world.entity.Entity;
+import net.minecraft.core.registries.Registries;
 
-@Mod.EventBusSubscriber(bus = Mod.EventBusSubscriber.Bus.MOD)
+@EventBusSubscriber(bus = EventBusSubscriber.Bus.MOD)
 public class ForestModEntities {
-	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(ForgeRegistries.ENTITY_TYPES, ForestMod.MODID);
-	public static final RegistryObject<EntityType<SnailEntity>> SNAIL = register("snail",
-			EntityType.Builder.<SnailEntity>of(SnailEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(SnailEntity::new)
+	public static final DeferredRegister<EntityType<?>> REGISTRY = DeferredRegister.create(Registries.ENTITY_TYPE, ForestMod.MODID);
+	public static final DeferredHolder<EntityType<?>, EntityType<SnailEntity>> SNAIL = register("snail",
+			EntityType.Builder.<SnailEntity>of(SnailEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 0.7f));
-	public static final RegistryObject<EntityType<FireSalamanderEntity>> FIRE_SALAMANDER = register("fire_salamander", EntityType.Builder.<FireSalamanderEntity>of(FireSalamanderEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true)
-			.setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FireSalamanderEntity::new).fireImmune().sized(0.9f, 0.5f));
-	public static final RegistryObject<EntityType<FennecEntity>> FENNEC = register("fennec",
-			EntityType.Builder.<FennecEntity>of(FennecEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(FennecEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<FireSalamanderEntity>> FIRE_SALAMANDER = register("fire_salamander",
+			EntityType.Builder.<FireSalamanderEntity>of(FireSalamanderEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).fireImmune().sized(0.9f, 0.5f));
+	public static final DeferredHolder<EntityType<?>, EntityType<FennecEntity>> FENNEC = register("fennec",
+			EntityType.Builder.<FennecEntity>of(FennecEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 0.7f));
-	public static final RegistryObject<EntityType<BrownBearEntity>> BROWN_BEAR = register("brown_bear",
-			EntityType.Builder.<BrownBearEntity>of(BrownBearEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BrownBearEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<BrownBearEntity>> BROWN_BEAR = register("brown_bear",
+			EntityType.Builder.<BrownBearEntity>of(BrownBearEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1f, 1.5f));
-	public static final RegistryObject<EntityType<OrangeButterflyEntity>> ORANGE_BUTTERFLY = register("orange_butterfly",
-			EntityType.Builder.<OrangeButterflyEntity>of(OrangeButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(OrangeButterflyEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<OrangeButterflyEntity>> ORANGE_BUTTERFLY = register("orange_butterfly",
+			EntityType.Builder.<OrangeButterflyEntity>of(OrangeButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.7f, 0.7f));
-	public static final RegistryObject<EntityType<PinkButterflyEntity>> PINK_BUTTERFLY = register("pink_butterfly",
-			EntityType.Builder.<PinkButterflyEntity>of(PinkButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PinkButterflyEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<PinkButterflyEntity>> PINK_BUTTERFLY = register("pink_butterfly",
+			EntityType.Builder.<PinkButterflyEntity>of(PinkButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.7f, 0.7f));
-	public static final RegistryObject<EntityType<BlueButterflyEntity>> BLUE_BUTTERFLY = register("blue_butterfly",
-			EntityType.Builder.<BlueButterflyEntity>of(BlueButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BlueButterflyEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<BlueButterflyEntity>> BLUE_BUTTERFLY = register("blue_butterfly",
+			EntityType.Builder.<BlueButterflyEntity>of(BlueButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.7f, 0.7f));
-	public static final RegistryObject<EntityType<GreenButterflyEntity>> GREEN_BUTTERFLY = register("green_butterfly",
-			EntityType.Builder.<GreenButterflyEntity>of(GreenButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(GreenButterflyEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<GreenButterflyEntity>> GREEN_BUTTERFLY = register("green_butterfly",
+			EntityType.Builder.<GreenButterflyEntity>of(GreenButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.7f, 0.7f));
-	public static final RegistryObject<EntityType<PurpleButterflyEntity>> PURPLE_BUTTERFLY = register("purple_butterfly",
-			EntityType.Builder.<PurpleButterflyEntity>of(PurpleButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(PurpleButterflyEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<PurpleButterflyEntity>> PURPLE_BUTTERFLY = register("purple_butterfly",
+			EntityType.Builder.<PurpleButterflyEntity>of(PurpleButterflyEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.7f, 0.7f));
-	public static final RegistryObject<EntityType<CalibriEntity>> CALIBRI = register("calibri",
-			EntityType.Builder.<CalibriEntity>of(CalibriEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CalibriEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<CalibriEntity>> CALIBRI = register("calibri",
+			EntityType.Builder.<CalibriEntity>of(CalibriEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 0.5f));
-	public static final RegistryObject<EntityType<VultureEntity>> VULTURE = register("vulture",
-			EntityType.Builder.<VultureEntity>of(VultureEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(VultureEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<VultureEntity>> VULTURE = register("vulture",
+			EntityType.Builder.<VultureEntity>of(VultureEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(1.4f, 1.8f));
-	public static final RegistryObject<EntityType<RatEntity>> RAT = register("rat",
-			EntityType.Builder.<RatEntity>of(RatEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RatEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<RatEntity>> RAT = register("rat", EntityType.Builder.<RatEntity>of(RatEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
-					.sized(0.6f, 0.4f));
-	public static final RegistryObject<EntityType<CrocodileEntity>> CROCODILE = register("crocodile",
-			EntityType.Builder.<CrocodileEntity>of(CrocodileEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(CrocodileEntity::new)
+			.sized(0.6f, 0.4f));
+	public static final DeferredHolder<EntityType<?>, EntityType<CrocodileEntity>> CROCODILE = register("crocodile",
+			EntityType.Builder.<CrocodileEntity>of(CrocodileEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(2f, 0.8f));
-	public static final RegistryObject<EntityType<TumbleweedEntity>> TUMBLEWEED = register("tumbleweed",
-			EntityType.Builder.<TumbleweedEntity>of(TumbleweedEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(TumbleweedEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<TumbleweedEntity>> TUMBLEWEED = register("tumbleweed",
+			EntityType.Builder.<TumbleweedEntity>of(TumbleweedEntity::new, MobCategory.AMBIENT).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.8f, 0.8f));
-	public static final RegistryObject<EntityType<ScorpionEntity>> SCORPION = register("scorpion",
-			EntityType.Builder.<ScorpionEntity>of(ScorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(ScorpionEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<ScorpionEntity>> SCORPION = register("scorpion",
+			EntityType.Builder.<ScorpionEntity>of(ScorpionEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.7f, 0.5f));
-	public static final RegistryObject<EntityType<RacconEntity>> RACCON = register("raccon",
-			EntityType.Builder.<RacconEntity>of(RacconEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(RacconEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<RacconEntity>> RACCON = register("raccon",
+			EntityType.Builder.<RacconEntity>of(RacconEntity::new, MobCategory.CREATURE).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.6f, 0.7f));
-	public static final RegistryObject<EntityType<BigSkeletonEntity>> BIG_SKELETON = register("big_skeleton",
-			EntityType.Builder.<BigSkeletonEntity>of(BigSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigSkeletonEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<BigSkeletonEntity>> BIG_SKELETON = register("big_skeleton",
+			EntityType.Builder.<BigSkeletonEntity>of(BigSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.5f, 2.5f));
-	public static final RegistryObject<EntityType<BigWitherSkeletonEntity>> BIG_WITHER_SKELETON = register("big_wither_skeleton",
-			EntityType.Builder.<BigWitherSkeletonEntity>of(BigWitherSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BigWitherSkeletonEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<BigWitherSkeletonEntity>> BIG_WITHER_SKELETON = register("big_wither_skeleton",
+			EntityType.Builder.<BigWitherSkeletonEntity>of(BigWitherSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.5f, 2.5f));
-	public static final RegistryObject<EntityType<BabySkeletonEntity>> BABY_SKELETON = register("baby_skeleton",
-			EntityType.Builder.<BabySkeletonEntity>of(BabySkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BabySkeletonEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<BabySkeletonEntity>> BABY_SKELETON = register("baby_skeleton",
+			EntityType.Builder.<BabySkeletonEntity>of(BabySkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.5f, 1.25f));
-	public static final RegistryObject<EntityType<BabyWitherSkeletonEntity>> BABY_WITHER_SKELETON = register("baby_wither_skeleton",
-			EntityType.Builder.<BabyWitherSkeletonEntity>of(BabyWitherSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3).setCustomClientFactory(BabyWitherSkeletonEntity::new)
+	public static final DeferredHolder<EntityType<?>, EntityType<BabyWitherSkeletonEntity>> BABY_WITHER_SKELETON = register("baby_wither_skeleton",
+			EntityType.Builder.<BabyWitherSkeletonEntity>of(BabyWitherSkeletonEntity::new, MobCategory.MONSTER).setShouldReceiveVelocityUpdates(true).setTrackingRange(64).setUpdateInterval(3)
 
 					.sized(0.5f, 1.25f));
 
-	private static <T extends Entity> RegistryObject<EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
+	private static <T extends Entity> DeferredHolder<EntityType<?>, EntityType<T>> register(String registryname, EntityType.Builder<T> entityTypeBuilder) {
 		return REGISTRY.register(registryname, () -> (EntityType<T>) entityTypeBuilder.build(registryname));
 	}
 
 	@SubscribeEvent
-	public static void init(FMLCommonSetupEvent event) {
-		event.enqueueWork(() -> {
-			SnailEntity.init();
-			FireSalamanderEntity.init();
-			FennecEntity.init();
-			BrownBearEntity.init();
-			OrangeButterflyEntity.init();
-			PinkButterflyEntity.init();
-			BlueButterflyEntity.init();
-			GreenButterflyEntity.init();
-			PurpleButterflyEntity.init();
-			CalibriEntity.init();
-			VultureEntity.init();
-			RatEntity.init();
-			CrocodileEntity.init();
-			TumbleweedEntity.init();
-			ScorpionEntity.init();
-			RacconEntity.init();
-			BigSkeletonEntity.init();
-			BigWitherSkeletonEntity.init();
-			BabySkeletonEntity.init();
-			BabyWitherSkeletonEntity.init();
-		});
+	public static void init(RegisterSpawnPlacementsEvent event) {
+		SnailEntity.init(event);
+		FireSalamanderEntity.init(event);
+		FennecEntity.init(event);
+		BrownBearEntity.init(event);
+		OrangeButterflyEntity.init(event);
+		PinkButterflyEntity.init(event);
+		BlueButterflyEntity.init(event);
+		GreenButterflyEntity.init(event);
+		PurpleButterflyEntity.init(event);
+		CalibriEntity.init(event);
+		VultureEntity.init(event);
+		RatEntity.init(event);
+		CrocodileEntity.init(event);
+		TumbleweedEntity.init(event);
+		ScorpionEntity.init(event);
+		RacconEntity.init(event);
+		BigSkeletonEntity.init(event);
+		BigWitherSkeletonEntity.init(event);
+		BabySkeletonEntity.init(event);
+		BabyWitherSkeletonEntity.init(event);
 	}
 
 	@SubscribeEvent

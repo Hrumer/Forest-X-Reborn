@@ -41,11 +41,11 @@ public class FermentationBarrelScreenScreen extends AbstractContainerScreen<Ferm
 		this.imageHeight = 166;
 	}
 
-	private static final ResourceLocation texture = new ResourceLocation("forest:textures/screens/fermentation_barrel_screen.png");
+	private static final ResourceLocation texture = ResourceLocation.parse("forest:textures/screens/fermentation_barrel_screen.png");
 
 	@Override
 	public void render(GuiGraphics guiGraphics, int mouseX, int mouseY, float partialTicks) {
-		this.renderBackground(guiGraphics);
+		this.renderBackground(guiGraphics, mouseX, mouseY, partialTicks);
 		super.render(guiGraphics, mouseX, mouseY, partialTicks);
 		this.renderTooltip(guiGraphics, mouseX, mouseY);
 	}
@@ -57,42 +57,42 @@ public class FermentationBarrelScreenScreen extends AbstractContainerScreen<Ferm
 		RenderSystem.defaultBlendFunc();
 		guiGraphics.blit(texture, this.leftPos, this.topPos, 0, 0, this.imageWidth, this.imageHeight, this.imageWidth, this.imageHeight);
 
-		guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_empty.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+		guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_empty.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 
 		if (FBProgress0Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_0.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_0.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 		if (FBProgress1Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_1.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_1.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 		if (FBProgress2Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_2.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_2.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 		if (FBProgress3Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_3.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_3.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 		if (FBProgress4Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_4.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_4.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 		if (FBProgress5Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_5.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_5.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 		if (FBProgress6Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_6.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_6.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 		if (FBProgress7Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_7.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_7.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 		if (FBProgress8Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_8.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_8.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 		if (FBProgress9Procedure.execute(world, x, y, z)) {
-			guiGraphics.blit(new ResourceLocation("forest:textures/screens/fb_progress_bar_filled_9.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
+			guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/fb_progress_bar_filled_9.png"), this.leftPos + 93, this.topPos + 41, 0, 0, 54, 10, 54, 10);
 		}
 
-		guiGraphics.blit(new ResourceLocation("forest:textures/screens/bottle_icon.png"), this.leftPos + 69, this.topPos + 35, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/bottle_icon.png"), this.leftPos + 69, this.topPos + 35, 0, 0, 16, 16, 16, 16);
 
-		guiGraphics.blit(new ResourceLocation("forest:textures/screens/alcohol_ingridient_icon.png"), this.leftPos + 33, this.topPos + 35, 0, 0, 16, 16, 16, 16);
+		guiGraphics.blit(ResourceLocation.parse("forest:textures/screens/alcohol_ingridient_icon.png"), this.leftPos + 33, this.topPos + 35, 0, 0, 16, 16, 16, 16);
 
 		RenderSystem.disableBlend();
 	}
@@ -104,11 +104,6 @@ public class FermentationBarrelScreenScreen extends AbstractContainerScreen<Ferm
 			return true;
 		}
 		return super.keyPressed(key, b, c);
-	}
-
-	@Override
-	public void containerTick() {
-		super.containerTick();
 	}
 
 	@Override
